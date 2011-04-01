@@ -190,7 +190,6 @@ except gobject.GError, e:
     exit(1)
 
 def openerp_gtk_builder(openerp_file, objects):
-    print("[BUILDER] %s (%s)" % (', '.join(map(str, objects)), openerp_file))
     ui = gtk.Builder()
     ui.set_translation_domain(gettext.textdomain())
     ui.add_objects_from_file(terp_path(openerp_file), objects)
