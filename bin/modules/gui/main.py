@@ -492,10 +492,10 @@ class db_login(object):
         server_widget = self.win_gl.get_widget('ent_server')
         but_connect = self.win_gl.get_widget('button_connect')
         combo_db = self.win_gl.get_widget('combo_db')
-        entry_db = self.win_gl.get_widget('ent_db')
+        entry_db = self.win_gl.get_widget('ent_db_login')
         change_button = self.win_gl.get_widget('but_server')
         label = self.win_gl.get_widget('combo_label')
-#        db_entry = self.win_gl.get_widget('ent_db')
+#        db_entry = self.win_gl.get_widget('ent_db_login')
         label.hide()
         entry_db.hide()
 

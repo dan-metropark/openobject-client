@@ -175,7 +175,7 @@
                       </packing>
                     </child>
                     <child>
-                        <widget class="GtkEntry" id="ent_db">
+                        <widget class="GtkEntry" id="ent_db_login">
                             <property name="visible">True</property>
                         </widget>
                         <packing>
@@ -4100,7 +4100,7 @@ copy of the Program in return for a fee.
       <widget class="GtkVBox" id="dialog-vbox22">
         <property name="visible">True</property>
         <child>
-          <widget class="GtkTable" id="table8">
+          <widget class="GtkTable" id="table7">
             <property name="visible">True</property>
             <property name="n_rows">2</property>
             <property name="n_columns">2</property>
@@ -7995,7 +7995,7 @@ This document has been modified while you were editing it.
                         <property name="visible">True</property>
                         <signal name="button_press_event" handler="on_search_button_press_event"/>
                         <child>
-                          <widget class="GtkImage" id="image4168">
+                          <widget class="GtkImage" id="image4172">
                             <property name="visible">True</property>
                             <property name="stock">gtk-find</property>
                           </widget>
