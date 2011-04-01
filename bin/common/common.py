@@ -190,6 +190,19 @@ except gobject.GError, e:
     log.fatal(_('Ensure that the file %s is correct') % options.rcfile)
     exit(1)
 
+def openerp_gtk_builder(openerp_file, objects):
+    print("[BUILDER] %s (%s)" % (', '.join(map(str, objects)), openerp_file))
+    ui = gtk.Builder()
+    ui.set_translation_domain(gettext.textdomain())
+    ui.add_objects_from_file(terp_path(openerp_file), objects)
+    return ui
+
+def gtk_signal_decorator(f, *signal_args):
+    def sig_call_child(w, *a):
+        all_args = signal_args + a
+        return f(w, *all_args)
+    return sig_call_child
+
 def selection(title, values, alwaysask=False, parent=None):
     if not values or len(values)==0:
         return None
