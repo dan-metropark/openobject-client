@@ -191,10 +191,10 @@ def setlang(lang=None):
             locale.setlocale(locale.LC_ALL, '')
         except:
             logging.getLogger('translate').warning('Unable to set locale !')
-        gettext.bindtextdomain(APP, DIR)
-        gettext.textdomain(APP)
         gettext.install(APP, unicode=1)
-    gtk.glade.bindtextdomain(APP, DIR)
+    gettext.textdomain(APP)
+    gettext.bindtextdomain(APP, DIR)
+    locale.bindtextdomain(APP, DIR)
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
