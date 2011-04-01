@@ -249,7 +249,6 @@
     <property name="window_position">GTK_WIN_POS_CENTER</property>
     <property name="default_width">920</property>
     <property name="default_height">780</property>
-    <signal name="destroy_event" handler="on_win_main_destroy_event"/>
     <child>
       <widget class="GtkVBox" id="vbox_main">
         <property name="visible">True</property>
@@ -459,7 +458,6 @@
                     <property name="sensitive">False</property>
                     <property name="label" translatable="yes">_User</property>
                     <property name="use_underline">True</property>
-                    <signal name="activate" handler="on_requests_activate"/>
                     <child>
                       <widget class="GtkMenu" id="user_menu">
                         <child>
@@ -543,7 +541,6 @@
                     <property name="sensitive">False</property>
                     <property name="label" translatable="yes">For_m</property>
                     <property name="use_underline">True</property>
-                    <signal name="activate" handler="on_form_activate"/>
                     <child>
                       <widget class="GtkMenu" id="form_menu">
                         <child>
@@ -911,7 +908,6 @@
                             <property name="visible">True</property>
                             <property name="label" translatable="yes">_Menubar</property>
                             <property name="use_underline">True</property>
-                            <signal name="activate" handler="on_menubar_activate"/>
                             <child>
                               <widget class="GtkMenu" id="menubar_menu">
                                 <child>
@@ -949,7 +945,6 @@
                             <property name="visible">True</property>
                             <property name="label" translatable="yes">_Forms</property>
                             <property name="use_underline">True</property>
-                            <signal name="activate" handler="on_forms1_activate"/>
                             <child>
                               <widget class="GtkMenu" id="forms1_menu">
                                 <child>
@@ -965,7 +960,6 @@
                                     <property name="visible">True</property>
                                     <property name="label" translatable="yes">Tabs default position</property>
                                     <property name="use_underline">True</property>
-                                    <signal name="activate" handler="on_forms_tabs_activate"/>
                                     <child>
                                       <widget class="GtkMenu" id="forms_tab_menu">
                                         <child>
@@ -1012,7 +1006,6 @@
                                     <property name="visible">True</property>
                                     <property name="label" translatable="yes">Tabs default orientation</property>
                                     <property name="use_underline">True</property>
-                                    <signal name="activate" handler="on_forms_tabs_orientation_activate"/>
                                     <child>
                                       <widget class="GtkMenu" id="forms_tab_orientation_menu">
                                         <child>
@@ -1096,7 +1089,6 @@
                     <property name="sensitive">False</property>
                     <property name="label" translatable="yes">_Plugins</property>
                     <property name="use_underline">True</property>
-                    <signal name="activate" handler="on_plugins_activate"/>
                     <child>
                       <widget class="GtkMenu" id="plugins_menu">
                         <child>
@@ -1124,7 +1116,6 @@
                     <property name="sensitive">False</property>
                     <property name="label" translatable="yes">_Shortcuts</property>
                     <property name="use_underline">True</property>
-                    <signal name="activate" handler="on_shortcut_activate"/>
                   </widget>
                 </child>
                 <child>
@@ -6871,7 +6862,6 @@ Latin1</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="response_id">0</property>
-                    <signal name="activate" handler="on_but_server_activate"/>
                     <child>
                       <widget class="GtkAlignment" id="alignment49">
                         <property name="visible">True</property>
