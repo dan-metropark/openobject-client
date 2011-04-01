@@ -549,6 +549,7 @@ class db_login(object):
             win.destroy()
             raise Exception('QueryCanceled')
         parent.present()
+        combo_db.set_model(None)
         win.destroy()
         return result
 
