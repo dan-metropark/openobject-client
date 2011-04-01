@@ -7840,7 +7840,7 @@ This document has been modified while you were editing it.
     <property name="upper">1.0000000138499999e+24</property>
     <property name="step_increment">1</property>
     <property name="page_increment">10</property>
-    <property name="page_size">10</property>
+    <property name="page_size">0</property>
   </object>
   <object class="GtkTextBuffer" id="textbuffer1">
     <property name="text" translatable="yes">                    GNU GENERAL PUBLIC LICENSE
