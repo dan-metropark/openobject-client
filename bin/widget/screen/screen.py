@@ -26,7 +26,6 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import gtk
 import gobject
-from gtk import glade
 
 from widget.model.group import ModelRecordGroup
 
@@ -38,6 +37,7 @@ import signal_event
 import tools
 import service
 import common
+from common import openerp_gtk_builder
 import copy
 
 import gc
@@ -318,15 +318,15 @@ class Screen(signal_event.signal_event):
             return True
         #This section handles shortcut and action creation
         elif flag in ['sf']:
-            glade2 = glade.XML(common.terp_path("openerp.glade"),'dia_get_action',gettext.textdomain())
-            widget = glade2.get_widget('action_name')
-            win = glade2.get_widget('dia_get_action')
+            ui2 = openerp_gtk_builder('openerp.ui', ['dia_get_action'])
+            widget = ui2.get_object('action_name')
+            win = ui2.get_object('dia_get_action')
             win.set_icon(common.OPENERP_ICON)
-            lbl = glade2.get_widget('label157')
+            lbl = ui2.get_object('label157')
             win.set_size_request(300, 165)
-            text_entry = glade2.get_widget('action_name')
+            text_entry = ui2.get_object('action_name')
             lbl.set_text('Filter Name:')
-            table =  glade2.get_widget('table8')
+            table =  ui2.get_object('table8')
             info_lbl = gtk.Label(_('(Any existing filter with the \nsame name will be replaced)'))
             table.attach(info_lbl,1,2,2,3, gtk.FILL, gtk.EXPAND)
             if self.screen_container.last_active_filter:

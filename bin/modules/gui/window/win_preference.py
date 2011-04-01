@@ -22,11 +22,11 @@
 import gettext
 
 import gtk
-from gtk import glade
 
 import rpc
 
 import common
+from common import openerp_gtk_builder
 import win_search
 import copy
 import service
@@ -40,8 +40,8 @@ import translate
 
 class win_preference(object):
     def __init__(self, parent=None):
-        self.glade = glade.XML(common.terp_path("openerp.glade"),'win_preference', gettext.textdomain())
-        self.win = self.glade.get_widget('win_preference')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_preference'])
+        self.win = self.ui.get_object('win_preference')
         self.win.set_icon(common.OPENERP_ICON)
         if not parent:
             parent = service.LocalService('gui.main').window
@@ -62,7 +62,7 @@ class win_preference(object):
         self.screen.load([rpc.session.uid])
         self.screen.display(rpc.session.uid)
 
-        vbox = self.glade.get_widget('preference_vbox')
+        vbox = self.ui.get_object('preference_vbox')
         vbox.pack_start(self.screen.widget)
 
         self.win.set_title(_('Preferences'))

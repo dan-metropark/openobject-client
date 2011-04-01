@@ -27,17 +27,18 @@ import gtk.glade
 
 import service
 import common
+from common import openerp_gtk_builder
 import options
 
 class win_extension(object):
     def __init__(self, parent=None):
-        glade = gtk.glade.XML(common.terp_path('openerp.glade'), 'win_extension', gettext.textdomain())
-        self.win = glade.get_widget('win_extension')
+        ui = openerp_gtk_builder('openerp.ui', ['win_extension'])
+        self.win = ui.get_object('win_extension')
         self.win.set_transient_for(parent)
         self.win.set_icon(common.OPENERP_ICON)
         model = gtk.ListStore( str, str, str )
 
-        self.treeview = glade.get_widget('treeview_extension')
+        self.treeview = ui.get_object('treeview_extension')
         self.treeview.set_model(model)
 
         for index, text in enumerate([_('Extension'), _('Application'), _('Print Processor')]):
@@ -48,14 +49,11 @@ class win_extension(object):
             column.set_resizable( True )
             self.treeview.append_column( column )
 
-        dict = {
+        signal_dict = {
             'on_button5_clicked' : self._sig_add,
             'on_button6_clicked' : self._sig_remove,
         }
-
-        for signal in dict:
-            glade.signal_connect( signal, dict[signal] )
-
+        ui.connect_signals(signal_dict)
         self.load_from_file()
 
     def load_from_file(self):

@@ -22,31 +22,30 @@
 import gettext
 
 import gtk
-from gtk import glade
 import common
+from common import openerp_gtk_builder
 import service
 import rpc
 
 def field_pref_set(field, name, model, value, dependance=None, window=None):
-    win_gl = glade.XML(common.terp_path('openerp.glade'), 'win_field_pref',
-            gettext.textdomain())
+    ui = openerp_gtk_builder('openerp.ui', ['win_field_pref'])
     if dependance is None:
         dependance = []
     if window is None:
         window = service.LocalService('gui.main').window
-    win = win_gl.get_widget('win_field_pref')
+    win = ui.get_object('win_field_pref')
     win.set_transient_for(window)
     win.set_icon(common.OPENERP_ICON)
-    ent = win_gl.get_widget('ent_field')
+    ent = ui.get_object('ent_field')
     ent.set_text(name)
-    ent = win_gl.get_widget('ent_domain')
+    ent = ui.get_object('ent_domain')
     ent.set_text(model)
-    ent = win_gl.get_widget('ent_value')
+    ent = ui.get_object('ent_value')
     ent.set_text((value and str(value)) or '/')
 
-    radio = win_gl.get_widget('radio_user_pref')
+    radio = ui.get_object('radio_user_pref')
 
-    vbox = win_gl.get_widget('pref_vbox')
+    vbox = ui.get_object('pref_vbox')
     widgets = {}
     addwidget = False
     for (fname,fvalue,rname,rvalue) in dependance:

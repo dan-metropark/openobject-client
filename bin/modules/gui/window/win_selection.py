@@ -20,9 +20,9 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 import gettext
 import common
+from common import openerp_gtk_builder
 
 from view_tree import parse
 import gobject
@@ -38,14 +38,14 @@ fields_list_type = {
 
 class win_selection_class(object):
     def __init__(self, ids, model, view=None):
-        self.glade = glade.XML(common.terp_path("openerp.glade"), "win_selection",gettext.textdomain())
-        self.win = self.glade.get_widget('win_selection')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_selection'])
+        self.win = self.ui.get_object('win_selection')
         self.win.set_icon(common.OPENERP_ICON)
         self.parent = service.LocalService('gui.main').window
         self.win.set_transient_for(parent)
 
         self.ids = ids
-        self.view = self.glade.get_widget('win_sel_tree')
+        self.view = self.ui.get_object('win_sel_tree')
         self.view.get_selection().set_mode('single')
         if view==None:
             fields = { 'name': {'type': 'char', 'string':_('Name')} }

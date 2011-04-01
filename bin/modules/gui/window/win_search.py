@@ -20,11 +20,11 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 from copy import deepcopy
 import gobject
 import gettext
 import common
+from common import openerp_gtk_builder
 import service
 
 import rpc
@@ -111,8 +111,8 @@ class win_search(object):
         self.model = model
         self.sel_multi = sel_multi
         self.ids = ids
-        self.glade = glade.XML(common.terp_path("openerp.glade"),'win_search',gettext.textdomain())
-        self.win = self.glade.get_widget('win_search')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_search'])
+        self.win = self.ui.get_object('win_search')
         self.win.set_icon(common.OPENERP_ICON)
         if not parent:
             parent = service.LocalService('gui.main').window
@@ -144,7 +144,7 @@ class win_search(object):
         self.sw.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
         self.sw.add(vp)
         self.sw.show()
-        self.wid = self.glade.get_widget('win_search_vbox')
+        self.wid = self.ui.get_object('win_search_vbox')
         self.wid.pack_start(self.sw)
         self.wid.show_all()
 

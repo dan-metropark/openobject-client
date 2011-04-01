@@ -26,7 +26,6 @@ import urlparse
 
 import gobject
 import gtk
-from gtk import glade
 from pango import parse_markup
 import translate
 
@@ -35,6 +34,7 @@ import rpc
 import service
 import options
 import common
+from common import openerp_gtk_builder, gtk_signal_decorator
 
 from window import win_preference, win_extension
 import tools
@@ -401,17 +401,17 @@ def _refresh_langlist(lang_widget, url):
 
 def _server_ask(server_widget, parent=None):
     result = False
-    win_gl = glade.XML(common.terp_path("openerp.glade"),"win_server",gettext.textdomain())
-    win = win_gl.get_widget('win_server')
+    ui = openerp_gtk_builder('openerp.ui', ['win_server', 'liststore5'])
+    win = ui.get_object('win_server')
     if not parent:
         parent = service.LocalService('gui.main').window
     win.set_transient_for(parent)
     win.set_icon(common.OPENERP_ICON)
     win.show_all()
     win.set_default_response(gtk.RESPONSE_OK)
-    host_widget = win_gl.get_widget('ent_host')
-    port_widget = win_gl.get_widget('ent_port')
-    protocol_widget = win_gl.get_widget('protocol')
+    host_widget = ui.get_object('ent_host')
+    port_widget = ui.get_object('ent_port')
+    protocol_widget = ui.get_object('protocol')
 
     protocol = {
         'XML-RPC (port : 8069)': 'http://',
@@ -451,8 +451,9 @@ def _server_ask(server_widget, parent=None):
 
 class db_login(object):
     def __init__(self):
-        self.win_gl = glade.XML(common.terp_path("openerp.glade"),"win_login",gettext.textdomain())
-        self.win = self.win_gl.get_widget('win_login')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_login'])
+        self.win = self.ui.get_object('win_login')
+
 
     def refreshlist(self, widget, db_widget, entry_db, label, url, butconnect=False):
 
@@ -478,24 +479,24 @@ class db_login(object):
 
     def run(self, dbname=None, parent=None):
         uid = 0
-        win = self.win_gl.get_widget('win_login')
+        win = self.ui.get_object('win_login')
         if not parent:
             parent = service.LocalService('gui.main').window
         win.set_transient_for(parent)
         win.set_icon(common.OPENERP_ICON)
         win.set_resizable(False)
         win.show_all()
-        img = self.win_gl.get_widget('image_tinyerp')
+        img = self.ui.get_object('image_tinyerp')
         img.set_from_file(common.terp_path_pixmaps('openerp.png'))
-        login = self.win_gl.get_widget('ent_login')
-        passwd = self.win_gl.get_widget('ent_passwd')
-        server_widget = self.win_gl.get_widget('ent_server')
-        but_connect = self.win_gl.get_widget('button_connect')
-        combo_db = self.win_gl.get_widget('combo_db')
-        entry_db = self.win_gl.get_widget('ent_db_login')
-        change_button = self.win_gl.get_widget('but_server')
-        label = self.win_gl.get_widget('combo_label')
-#        db_entry = self.win_gl.get_widget('ent_db_login')
+        login = self.ui.get_object('ent_login')
+        passwd = self.ui.get_object('ent_passwd')
+        server_widget = self.ui.get_object('ent_server')
+        but_connect = self.ui.get_object('button_connect')
+        combo_db = self.ui.get_object('combo_db')
+        entry_db = self.ui.get_object('ent_db_login')
+        change_button = self.ui.get_object('but_server')
+        label = self.ui.get_object('combo_label')
+#        db_entry = self.ui.get_object('ent_db_login')
         label.hide()
         entry_db.hide()
 
@@ -553,7 +554,7 @@ class db_login(object):
 
 class db_create(object):
     def set_sensitive(self, sensitive):
-        self.dialog.get_widget('button_db_ok').set_sensitive(False)
+        self.ui.get_object('button_db_ok').set_sensitive(False)
         return sensitive
 
     def server_change(self, widget=None, parent=None):
@@ -563,31 +564,33 @@ class db_create(object):
         return url
 
     def __init__(self, sig_login, terp_main):
-        self.dialog = glade.XML(common.terp_path("openerp.glade"), "win_createdb", gettext.textdomain())
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_createdb', 'liststore4'])
         self.sig_login = sig_login
         self.terp_main = terp_main
 
     def entry_changed(self, *args):
-        up1 = self.dialog.get_widget('ent_user_pass1').get_text()
-        up2 = self.dialog.get_widget('ent_user_pass2').get_text()
-        self.dialog.get_widget('button_db_ok').set_sensitive(bool(up1 and (up1==up2)))
+        up1 = self.ui.get_object('ent_user_pass1').get_text()
+        up2 = self.ui.get_object('ent_user_pass2').get_text()
+        self.ui.get_object('button_db_ok').set_sensitive(bool(up1 and (up1==up2)))
 
     def run(self, parent=None):
-        win = self.dialog.get_widget('win_createdb')
-        self.dialog.signal_connect('on_ent_user_pass1_changed', self.entry_changed)
-        self.dialog.signal_connect('on_ent_user_pass2_changed', self.entry_changed)
+        win = self.ui.get_object('win_createdb')
+        self.ui.connect_signals({
+            'on_ent_user_pass1_changed': self.entry_changed,
+            'on_ent_user_pass2_changed': self.entry_changed,
+        })
         win.set_default_response(gtk.RESPONSE_OK)
         if not parent:
             parent = service.LocalService('gui.main').window
         win.set_transient_for(parent)
         win.show_all()
         lang_dict = {}
-        pass_widget = self.dialog.get_widget('ent_password_new')
-        self.server_widget = self.dialog.get_widget('ent_server_new')
-        change_button = self.dialog.get_widget('but_server_new')
-        self.lang_widget = self.dialog.get_widget('db_create_combo')
-        self.db_widget = self.dialog.get_widget('ent_db_new')
-        demo_widget = self.dialog.get_widget('check_demo')
+        pass_widget = self.ui.get_object('ent_password_new')
+        self.server_widget = self.ui.get_object('ent_server_new')
+        change_button = self.ui.get_object('but_server_new')
+        self.lang_widget = self.ui.get_object('db_create_combo')
+        self.db_widget = self.ui.get_object('ent_db_new')
+        demo_widget = self.ui.get_object('check_demo')
         demo_widget.set_active(True)
 
         change_button.connect_after('clicked', self.server_change, win)
@@ -618,7 +621,7 @@ class db_create(object):
         langidx = self.lang_widget.get_active_iter()
         langreal = langidx and self.lang_widget.get_model().get_value(langidx,1)
         passwd = pass_widget.get_text()
-        user_pass = self.dialog.get_widget('ent_user_pass1').get_text()
+        user_pass = self.ui.get_object('ent_user_pass1').get_text()
         url = self.server_widget.get_text()
         m = re.match('^(http[s]?://|socket://)([\w.\-]+):(\d{1,5})$', url or '')
         if m:
@@ -639,10 +642,10 @@ class db_create(object):
                 id = rpc.session.db_exec(url, 'create', passwd, db_name, demo_data, langreal, user_pass)
                 win, pb = common.OpenERP_Progressbar(parent, title='OpenERP Database Installation')
                 self.timer = gobject.timeout_add(1000, self.progress_timeout, pb, url, passwd, id, win, db_name, parent)
-                self.terp_main.glade.get_widget('but_menu').set_sensitive(True)
-                self.terp_main.glade.get_widget('user').set_sensitive(True)
-                self.terp_main.glade.get_widget('form').set_sensitive(True)
-                self.terp_main.glade.get_widget('plugins').set_sensitive(True)
+                self.terp_main.ui.get_object('but_menu').set_sensitive(True)
+                self.terp_main.ui.get_object('user').set_sensitive(True)
+                self.terp_main.ui.get_object('form').set_sensitive(True)
+                self.terp_main.ui.get_object('plugins').set_sensitive(True)
             except Exception, e:
                 if e.args == ('DbExist',):
                     common.warning(_("Could not create database."),_('Database already exists !'), parent=parent)
@@ -693,20 +696,20 @@ class terp_main(service.Service):
         self.exportMethod(self.win_add)
 
         self._handler_ok = True
-        self.glade = glade.XML(common.terp_path("openerp.glade"),"win_main",gettext.textdomain())
-        self.status_bar_main = self.glade.get_widget('hbox_status_main')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_main', 'accelgroup1'])
+        self.status_bar_main = self.ui.get_object('hbox_status_main')
         self.status_bar_main.show()
-        self.toolbar = self.glade.get_widget('main_toolbar')
-        self.sb_company = self.glade.get_widget('sb_company')
-        self.sb_requests = self.glade.get_widget('sb_requests')
-        self.sb_username = self.glade.get_widget('sb_user_name')
-        self.sb_servername = self.glade.get_widget('sb_user_server')
+        self.toolbar = self.ui.get_object('main_toolbar')
+        self.sb_company = self.ui.get_object('sb_company')
+        self.sb_requests = self.ui.get_object('sb_requests')
+        self.sb_username = self.ui.get_object('sb_user_name')
+        self.sb_servername = self.ui.get_object('sb_user_server')
         id = self.sb_servername.get_context_id('message')
         self.sb_servername.push(id, _('Press Ctrl+O to login'))
-        self.secure_img = self.glade.get_widget('secure_img')
+        self.secure_img = self.ui.get_object('secure_img')
         self.secure_img.hide()
 
-        window = self.glade.get_widget('win_main')
+        window = self.ui.get_object('win_main')
         window.connect("destroy", self.sig_quit)
         window.connect("delete_event", self.sig_delete)
         self.window = window
@@ -717,10 +720,10 @@ class terp_main(service.Service):
         self.sig_id = self.notebook.connect_after('switch-page', self._sig_page_changed)
         if gtk.pygtk_version >= (2, 10, 0):
             self.notebook.connect('page-reordered', self._sig_page_reordered)
-        vbox = self.glade.get_widget('vbox_main')
+        vbox = self.ui.get_object('vbox_main')
         vbox.pack_start(self.notebook, expand=True, fill=True)
 
-        self.shortcut_menu = self.glade.get_widget('shortcut')
+        self.shortcut_menu = self.ui.get_object('shortcut')
 
         #
         # Default Notebook
@@ -774,13 +777,11 @@ class terp_main(service.Service):
             'on_db_migrate_activate' : self.sig_db_migrate,
         }
 
-        self.glade.signal_autoconnect(callbacks_dict)
-
         self.buttons = {}
         for button in ('but_new', 'but_save', 'but_remove', 'but_search', 'but_previous', 'but_next', 'but_action', 'but_open', 'but_print', 'but_close', 'but_reload', 'but_switch','but_attach',
                        'radio_tree','radio_form','radio_graph','radio_calendar','radio_diagram', 'radio_gantt'):
-            self.glade.signal_connect('on_'+button+'_clicked', self._sig_child_call, button)
-            self.buttons[button]=self.glade.get_widget(button)
+            callbacks_dict['on_'+button+'_clicked'] = gtk_signal_decorator(self._sig_child_call, button)
+            self.buttons[button] = self.ui.get_object(button)
 
         menus = {
             'form_del': 'but_remove',
@@ -802,7 +803,7 @@ class terp_main(service.Service):
             'form_repeat': 'but_print_repeat'
         }
         for menu in menus:
-            self.glade.signal_connect('on_'+menu+'_activate', self._sig_child_call, menus[menu])
+            callbacks_dict['on_'+menu+'_activate'] = gtk_signal_decorator(self._sig_child_call, menus[menu])
 
         spool = service.LocalService('spool')
         spool.subscribe('gui.window', self.win_add)
@@ -841,20 +842,22 @@ class terp_main(service.Service):
             'on_opt_print_preview_activate': (fnc_menuitem, 'printer.preview', 'opt_print_preview'),
             'on_opt_form_toolbar_activate': (fnc_menuitem, 'form.toolbar', 'opt_form_toolbar'),
         }
-        self.glade.get_widget('menubar_'+(options.options['client.toolbar'] or 'both')).set_active(True)
+        self.ui.get_object('menubar_'+(options.options['client.toolbar'] or 'both')).set_active(True)
         self.sig_menubar(options.options['client.toolbar'] or 'both')
-        self.glade.get_widget('opt_form_tab_'+(options.options['client.form_tab'] or 'left')).set_active(True)
+        self.ui.get_object('opt_form_tab_'+(options.options['client.form_tab'] or 'left')).set_active(True)
         self.sig_form_tab(options.options['client.form_tab'] or 'left')
-        self.glade.get_widget('opt_form_tab_orientation_'+(str(options.options['client.form_tab_orientation']) or '0')).set_active(True)
+        self.ui.get_object('opt_form_tab_orientation_'+(str(options.options['client.form_tab_orientation']) or '0')).set_active(True)
         self.sig_form_tab_orientation(options.options['client.form_tab_orientation'] or 0)
         self.sig_debug_mode_tooltip()
         for signal in dict:
-            self.glade.signal_connect(signal, dict[signal][0], dict[signal][1])
-            self.glade.get_widget(dict[signal][2]).set_active(int(bool(options.options[dict[signal][1]])))
+            callbacks_dict[signal] = lambda w, *a: dict[signal][0](w, dict[signal][1], *a)
+            self.ui.get_object(dict[signal][2]).set_active(int(bool(options.options[dict[signal][1]])))
 
         # Adding a timer the check to requests
         gobject.timeout_add(15 * 60 * 1000, self.request_set)
 
+        # Finally connect all signals
+        self.ui.connect_signals(callbacks_dict)
 
     def shortcut_edit(self, widget, model='ir.ui.menu'):
         obj = service.LocalService('gui.window')
@@ -1049,10 +1052,10 @@ class terp_main(service.Service):
         except rpc.rpc_exception:
             rpc.session.logout()
             raise
-        self.glade.get_widget('but_menu').set_sensitive(True)
-        self.glade.get_widget('user').set_sensitive(True)
-        self.glade.get_widget('form').set_sensitive(True)
-        self.glade.get_widget('plugins').set_sensitive(True)
+        self.ui.get_object('but_menu').set_sensitive(True)
+        self.ui.get_object('user').set_sensitive(True)
+        self.ui.get_object('form').set_sensitive(True)
+        self.ui.get_object('plugins').set_sensitive(True)
 
         title = tools.format_connection_string(*res)
         sbid = self.sb_servername.get_context_id('message')
@@ -1082,10 +1085,10 @@ class terp_main(service.Service):
         self.sb_servername.push(id, _('Press Ctrl+O to login'))
         self.secure_img.hide()
         self.shortcut_unset()
-        self.glade.get_widget('but_menu').set_sensitive(False)
-        self.glade.get_widget('user').set_sensitive(False)
-        self.glade.get_widget('form').set_sensitive(False)
-        self.glade.get_widget('plugins').set_sensitive(False)
+        self.ui.get_object('but_menu').set_sensitive(False)
+        self.ui.get_object('user').set_sensitive(False)
+        self.ui.get_object('form').set_sensitive(False)
+        self.ui.get_object('plugins').set_sensitive(False)
         self.window.set_title(_('OpenERP') )
         rpc.session.logout()
         return True
@@ -1097,7 +1100,7 @@ class terp_main(service.Service):
             mode = options.options['logging.level']
             if mode in ('debug', 'debug_rpc','debug_rpc_answer'):
                 options.options['debug_mode_tooltips'] = True
-                self.glade.get_widget('opt_debug_mode_tooltip').set_active(True)
+                self.ui.get_object('opt_debug_mode_tooltip').set_active(True)
 
 
     def sig_help_index(self, widget):
@@ -1113,29 +1116,35 @@ class terp_main(service.Service):
         tools.launch_browser(options.options['help.context'] % getvar)
 
     def sig_licence(self, widget):
-        dialog = glade.XML(common.terp_path("openerp.glade"), "win_licence", gettext.textdomain())
-        dialog.signal_connect("on_but_ok_pressed", lambda obj: dialog.get_widget('win_licence').destroy())
+        dialog = openerp_gtk_builder('openerp.ui', ['win_licence', 'textbuffer1'])
+        dialog.connect_signals({
+            'on_but_ok_pressed': lambda obj: dialog.get_object('win_licence').destroy(),
+        })
 
-        win = dialog.get_widget('win_licence')
+        win = dialog.get_object('win_licence')
         win.set_transient_for(self.window)
         win.show_all()
 
     def sig_about(self, widget):
-        about = glade.XML(common.terp_path("openerp.glade"), "win_about", gettext.textdomain())
-        buffer = about.get_widget('textview2').get_buffer()
+        about = openerp_gtk_builder('openerp.ui', ['win_about', 'textbuffer2', 'textbuffer3'])
+        buffer = about.get_object('textview2').get_buffer()
         about_txt = buffer.get_text(buffer.get_start_iter(), buffer.get_end_iter())
         buffer.set_text(about_txt % openerp_version)
-        about.signal_connect("on_but_ok_pressed", lambda obj: about.get_widget('win_about').destroy())
+        about.connect_signals({
+            'on_but_ok_pressed': lambda obj: about.get_object('win_about').destroy(),
+        })
 
-        win = about.get_widget('win_about')
+        win = about.get_object('win_about')
         win.set_transient_for(self.window)
         win.show_all()
 
     def sig_shortcuts(self, widget):
-        shortcuts_win = glade.XML(common.terp_path('openerp.glade'), 'shortcuts_dia', gettext.textdomain())
-        shortcuts_win.signal_connect("on_but_ok_pressed", lambda obj: shortcuts_win.get_widget('shortcuts_dia').destroy())
+        shortcuts_win = openerp_gtk_builder('openerp.ui', ['shortcuts_dia'])
+        shortcuts_win.connect_signals({
+            'on_but_ok_pressed': lambda obj: shortcuts_win.get_object('shortcuts_dia').destroy(),
+        })
 
-        win = shortcuts_win.get_widget('shortcuts_dia')
+        win = shortcuts_win.get_object('shortcuts_dia')
         win.set_transient_for(self.window)
         win.show_all()
 
@@ -1289,7 +1298,7 @@ class terp_main(service.Service):
             type = view.screen.current_view.view_type
             if type == 'dummycalendar':
                 type = 'calendar'
-            self.glade.get_widget('radio_'+type).set_active(True)
+            self.ui.get_object('radio_'+type).set_active(True)
             self._handler_ok = True
         self._update_attachment_button(view)
         for x in self.buttons:
@@ -1338,7 +1347,7 @@ class terp_main(service.Service):
         if wid:
             res = True
             if button_name.startswith('radio_'):
-                act = self.glade.get_widget(button_name).get_active()
+                act = self.ui.get_object(button_name).get_active()
                 if not act: return False
 
             if button_name in wid.handlers:
@@ -1421,19 +1430,18 @@ class terp_main(service.Service):
         win.run()
 
     def sig_db_password(self, type):
-        dialog = glade.XML(common.terp_path("openerp.glade"), "dia_passwd_change",
-                gettext.textdomain())
-        win = dialog.get_widget('dia_passwd_change')
+        dialog = openerp_gtk_builder('openerp.ui', ['dia_passwd_change'])
+        win = dialog.get_object('dia_passwd_change')
         win.set_icon(common.OPENERP_ICON)
         win.set_transient_for(self.window)
         win.show_all()
-        server_widget = dialog.get_widget('ent_server2')
-        ser_label = dialog.get_widget('label298')
-        old_pass_widget = dialog.get_widget('old_passwd')
-        new_pass_widget = dialog.get_widget('new_passwd')
-        new_pass2_widget = dialog.get_widget('new_passwd2')
-        dia_label = dialog.get_widget('label294')
-        change_button = dialog.get_widget('but_server_change1')
+        server_widget = dialog.get_object('ent_server2')
+        ser_label = dialog.get_object('label298')
+        old_pass_widget = dialog.get_object('old_passwd')
+        new_pass_widget = dialog.get_object('new_passwd')
+        new_pass2_widget = dialog.get_object('new_passwd2')
+        dia_label = dialog.get_object('label294')
+        change_button = dialog.get_object('but_server_change1')
         old_pass_widget.grab_focus()
 
         if type == 'admin':
@@ -1523,22 +1531,21 @@ class terp_main(service.Service):
                 return None
             _refresh_dblist(db_widget, entry_db, label, False, url)
 
-        dialog = glade.XML(common.terp_path("openerp.glade"), "win_db_select",
-                gettext.textdomain())
-        win = dialog.get_widget('win_db_select')
+        dialog = openerp_gtk_builder('openerp.ui', ['win_db_select'])
+        win = dialog.get_object('win_db_select')
         win.set_icon(common.OPENERP_ICON)
         win.set_default_response(gtk.RESPONSE_OK)
         win.set_transient_for(self.window)
         win.show_all()
 
-        pass_widget = dialog.get_widget('ent_passwd_select')
-        server_widget = dialog.get_widget('ent_server_select')
-        db_widget = dialog.get_widget('combo_db_select')
-        entry_db = dialog.get_widget('entry_db_select')
-        label = dialog.get_widget('label_db_select')
+        pass_widget = dialog.get_object('ent_passwd_select')
+        server_widget = dialog.get_object('ent_server_select')
+        db_widget = dialog.get_object('combo_db_select')
+        entry_db = dialog.get_object('entry_db_select')
+        label = dialog.get_object('label_db_select')
         entry_db.hide()
 
-        dialog.get_widget('db_select_label').set_markup('<b>'+title+'</b>')
+        dialog.get_object('db_select_label').set_markup('<b>'+title+'</b>')
 
         protocol = options.options['login.protocol']
         url = '%s%s:%s' % (protocol, options.options['login.server'], options.options['login.port'])
@@ -1548,7 +1555,7 @@ class terp_main(service.Service):
         db_widget.set_model(liststore)
 
         _refresh_dblist(db_widget, entry_db, label, False, url)
-        change_button = dialog.get_widget('but_server_select')
+        change_button = dialog.get_object('but_server_select')
         change_button.connect_after('clicked', refreshlist_ask, server_widget, db_widget, entry_db, label, win)
 
         cell = gtk.CellRendererText()
@@ -1572,22 +1579,22 @@ class terp_main(service.Service):
         return (url,db,passwd)
 
     def _choose_db_ent(self):
-        dialog = glade.XML(common.terp_path("openerp.glade"), "win_db_ent", gettext.textdomain())
-        win = dialog.get_widget('win_db_ent')
+        dialog = openerp_gtk_builder('openerp.ui', ['win_db_ent'])
+        win = dialog.get_object('win_db_ent')
         win.set_icon(common.OPENERP_ICON)
         win.set_transient_for(self.window)
         win.show_all()
 
-        db_widget = dialog.get_widget('ent_db')
-        widget_pass = dialog.get_widget('ent_password')
-        widget_url = dialog.get_widget('ent_server1')
+        db_widget = dialog.get_object('ent_db')
+        widget_pass = dialog.get_object('ent_password')
+        widget_url = dialog.get_object('ent_server1')
 
         protocol = options.options['login.protocol']
         url = '%s%s:%s' % (protocol, options.options['login.server'],
                 options.options['login.port'])
         widget_url.set_text(url)
 
-        change_button = dialog.get_widget('but_server_change')
+        change_button = dialog.get_object('but_server_change')
         change_button.connect_after('clicked', lambda a,b: _server_ask(b, win),
                 widget_url)
 

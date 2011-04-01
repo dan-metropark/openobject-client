@@ -24,11 +24,11 @@
 #
 
 import gtk
-from gtk import glade
 import gettext
 import pango
 import interface
 import common
+from common import openerp_gtk_builder, gtk_signal_decorator
 import re
 import service
 import xml.sax
@@ -96,9 +96,9 @@ class textbox_tag(interface.widget_interface):
 
     def __init__(self,window, parent, model, attrs={}):
         interface.widget_interface.__init__(self, window, parent, model, attrs)
-        self.win_gl = glade.XML(common.terp_path("openerp.glade"),"widget_textbox_tag", gettext.textdomain())
-        self.widget = self.win_gl.get_widget('widget_textbox_tag')
-        self.tv = self.win_gl.get_widget('widget_textbox_tag_tv')
+        self.ui = openerp_gtk_builder('openerp.ui', ['widget_textbox_tag'])
+        self.widget = self.ui.get_object('widget_textbox_tag')
+        self.tv = self.ui.get_object('widget_textbox_tag_tv')
         self.tv.set_wrap_mode(gtk.WRAP_WORD)
         self.tv.connect('focus-out-event', lambda x,y: self._focus_out())
         self.widget.show_all()
@@ -109,33 +109,34 @@ class textbox_tag(interface.widget_interface):
         self.buf.connect_after('insert-text', self.sig_insert_text)
         self.buf.connect('mark-set', self.sig_mark_set)
         self.value=''
-#       self.sizeButton = self.win_gl.get_widget('font_size')
-#       self.colorButton =self.win_gl.get_widget('font_color')
-        self.boldButton = self.win_gl.get_widget('toggle_bold')
-        self.italicButton = self.win_gl.get_widget('toggle_italic')
-        self.underlineButton = self.win_gl.get_widget('toggle_underline')
-        self.strikethroughButton=self.win_gl.get_widget('toggle_strikethrough')
+#       self.sizeButton = self.ui.get_object('font_size')
+#       self.colorButton =self.ui.get_object('font_color')
+        self.boldButton = self.ui.get_object('toggle_bold')
+        self.italicButton = self.ui.get_object('toggle_italic')
+        self.underlineButton = self.ui.get_object('toggle_underline')
+        self.strikethroughButton=self.ui.get_object('toggle_strikethrough')
 
 
         self.internal_toggle = False
         self.setup_default_tags ()
-        self.win_gl.signal_connect('on_toggle_bold_toggled', self._toggle, [self.bold])
-        self.win_gl.signal_connect('on_toggle_italic_toggled', self._toggle, [self.italic])
-        self.win_gl.signal_connect('on_toggle_underline_toggled', self._toggle, [self.underline])
-        self.win_gl.signal_connect('on_toggle_strike_toggled', self._toggle, [self.strikethrough])
-#       self.win_gl.signal_connect('on_font_size_changed',self._font_changed)
-#       self.win_gl.signal_connect('on_color_changed',self._color_changed)
-        self.win_gl.signal_connect('on_font_button_clicked',self._font_changed)
-        self.win_gl.signal_connect('on_color_button_clicked',self._color_changed)
-
-
         self.justify = gtk.JUSTIFY_LEFT
-
         self.leading = 14+7
-        self.win_gl.signal_connect('on_radiofill_toggled',self._toggle_justify, gtk.JUSTIFY_FILL)
-        self.win_gl.signal_connect('on_radiocenter_toggled',self._toggle_justify, gtk.JUSTIFY_CENTER)
-        self.win_gl.signal_connect('on_radioright_toggled',self._toggle_justify, gtk.JUSTIFY_RIGHT)
-        self.win_gl.signal_connect('on_radioleft_toggled',self._toggle_justify, gtk.JUSTIFY_LEFT)
+
+        self.ui.connect_signals({
+            'on_toggle_bold_toggled': gtk_signal_decorator(self._toggle, [self.bold]),
+            'on_toggle_italic_toggled': gtk_signal_decorator(self._toggle, [self.italic]),
+            'on_toggle_underline_toggled': gtk_signal_decorator(self._toggle, [self.underline]),
+            'on_toggle_strike_toggled': gtk_signal_decorator(self._toggle, [self.strikethrough]),
+#           'on_font_size_changed': self._font_changed,
+#           'on_color_changed': self._color_changed,
+            'on_font_button_clicked': self._font_changed,
+            'on_color_button_clicked': self._color_changed,
+
+            'on_radiofill_toggled': gtk_signal_decorator(self._toggle_justify, gtk.JUSTIFY_FILL),
+            'on_radiocenter_toggled': gtk_signal_decorator(self._toggle_justify, gtk.JUSTIFY_CENTER),
+            'on_radioright_toggled': gtk_signal_decorator(self._toggle_justify, gtk.JUSTIFY_RIGHT),
+            'on_radioleft_toggled': gtk_signal_decorator(self._toggle_justify, gtk.JUSTIFY_LEFT),
+        })
 
     def sig_insert_text(self, textbuffer, iter, text, length):
         start = iter.get_offset()

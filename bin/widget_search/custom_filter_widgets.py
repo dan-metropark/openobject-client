@@ -104,7 +104,7 @@ class many2one(wid_int.wid_int):
         name_search = self.wid_text.get_text() or ''
         ids = rpc.session.rpc_exec_auth('/object', 'execute', self.attrs['relation'], 'name_search', name_search, [], 'ilike', rpc.session.context)
         win = win_search(self.attrs['relation'], sel_multi=False, ids=map(lambda x: x[0], ids), context=rpc.session.context, parent=self.parent)
-        win.glade.get_widget('newbutton').hide()
+        win.ui.get_object('newbutton').hide()
         ids = win.go()
         if ids:
             self.selected_value = rpc.session.rpc_exec_auth('/object', 'execute', self.attrs['relation'], 'name_get', [ids[0]], rpc.session.context)[0]

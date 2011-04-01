@@ -30,7 +30,6 @@ import signal_event
 import gtk
 import gettext
 import service
-from gtk import glade
 import tools
 from field import O2MField
 
