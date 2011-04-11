@@ -108,7 +108,8 @@ def translations():
     return trans
 
 if sys.platform != 'win32' and 'build_po' in sys.argv:
-    os.system('(cd bin ; find . -name \*.py && find . -name \*.glade | xargs xgettext -o po/%s.pot)' % name)
+    os.system('(cd bin ; find . -name \*.ui | xargs -L 1 intltool-extract --type=gettext/glade)')
+    os.system('(cd bin ; find . -name \*.py && find . -name \*.ui.h | xargs xgettext --from-code=UTF-8 -o po/%s.pot)' % name)
     for file in ([ os.path.join('bin', 'po', fname) for fname in os.listdir('bin/po') ]):
         if os.path.isfile(file):
             os.system('msgmerge --update --backup=off %s bin/po/%s.pot' % (file, name))
