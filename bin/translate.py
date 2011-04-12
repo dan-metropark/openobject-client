@@ -26,6 +26,8 @@ import release
 import gettext
 import gtk
 import logging
+import ctypes
+import ctypes.util
 
 #from tools import call_log
 #locale.setlocale = call_log(locale.setlocale)
@@ -194,7 +196,20 @@ def setlang(lang=None):
         gettext.install(APP, unicode=1)
     gettext.textdomain(APP)
     gettext.bindtextdomain(APP, DIR)
-    locale.bindtextdomain(APP, DIR)
+    try:
+        locale.bindtextdomain(APP, DIR)
+    except AttributeError:
+        # Win32/64 and MacOSX platform doesn't implement locale.bindtextdomain()
+        # we need to call bindtextdomain() from libintl library directly
+        # (the libintl{.dll,.dylib} library need to be in PATH for both system)
+        if os.name == 'nt' or (os.name == 'posix' and sys.platform == 'darwin'):
+            libintl_path = ctypes.util.find_library('intl')
+            if libintl_path is None:
+                logging.getLogger('translate').error('Unable to find libintl in path')
+            else:
+                libintl = ctypes.cdll.LoadLibrary(libintl_path)
+                libintl.bindtextdomain(APP, DIR)
+                libintl.bind_textdomain_codeset(APP, 'UTF-8')
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
