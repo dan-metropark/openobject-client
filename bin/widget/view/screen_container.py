@@ -130,9 +130,14 @@ class screen_container(object):
 
         button_clear = gtk.Button(stock=gtk.STOCK_CLEAR)
         button_clear.connect('clicked', screen.search_clear)
+
+        self.button = gtk.Button(stock=gtk.STOCK_FIND)
+        self.button.connect('clicked', screen.search_filter)
+
         if self.win_search:
             hb3 = hb1
             hs.pack_start(hb3, expand=False, fill=False)
+            hb3.pack_start(self.button, expand=False, fill=False)
             hb3.pack_start(button_clear, expand=False, fill=False)
         else:
             hb1.set_spacing(5)
