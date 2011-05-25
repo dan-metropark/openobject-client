@@ -148,8 +148,6 @@ class screen_container(object):
             hs.pack_end(hb3, expand=False, fill=False)
 
     #Find Clear Buttons
-            self.button = gtk.Button(stock=gtk.STOCK_FIND)
-            self.button.connect('clicked', screen.search_filter)
             self.button.set_property('can_default', True)
             hb1.pack_start(self.button, expand=False, fill=False)
             hb1.pack_start(button_clear, expand=False, fill=False)
