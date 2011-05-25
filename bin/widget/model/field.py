@@ -363,6 +363,13 @@ class M2MField(CharField):
             for val in value:
                     result += rpc2.name_search(val, [], '=', rpc.session.context)
             value = map(lambda x:x[0], result)
+        
+        if value:    
+            uids = []
+            #remove duplicate id
+            map(lambda x: x not in uids and uids.append(x), value)
+            value = uids
+        
         model.value[self.name] = value and value[:self.limit] or []
         model.pager_cache[self.name] = value or []
         if modified:
@@ -428,6 +435,13 @@ class O2MField(CharField):
         if value and not isinstance(value[0], int):
             model = self.set_default(model, value)
             return
+        
+        if value:    
+            uids = []
+            #remove duplicate id
+            map(lambda x: x not in uids and uids.append(x), value)
+            value = uids
+            
         from widget.model.group import ModelRecordGroup
         mod =  ModelRecordGroup(resource=self.attrs['relation'], fields={}, parent=model)
         mod.signal_connect(mod, 'model-changed', self._model_changed)

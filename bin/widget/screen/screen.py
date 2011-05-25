@@ -269,14 +269,18 @@ class Screen(signal_event.signal_event):
             self.display()
             return True
         ids = rpc.session.rpc_exec_auth('/object', 'execute', self.name, 'search', v, offset, limit, self.sort, self.context)
-        self.win_search_ids = ids
+        uids = []
+        #remove duplicate id
+        map(lambda x: x not in uids and uids.append(x), ids)
+
+        self.win_search_ids = uids
         if self.win_search and self.win_search_domain:
             for dom in self.win_search_domain:
                 if dom in v:
                     v.remove(dom)
             self.win_search_domain = []
-        if len(ids) < limit:
-            self.search_count = len(ids)
+        if len(uids) < limit:
+            self.search_count = len(uids)
         else:
             self.search_count = rpc.session.rpc_exec_auth_try('/object', 'execute', self.name, 'search_count', v, self.context)
         self.update_scroll()
@@ -284,7 +288,7 @@ class Screen(signal_event.signal_event):
         if self.sort_domain in v:
             v.remove(self.sort_domain)
         self.sort_domain = []
-        self.load(ids)
+        self.load(uids)
         return True
 
     def execute_action(self, combo):
