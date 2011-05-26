@@ -148,6 +148,12 @@ class many2many(interface.widget_interface):
                                         self.wid_text.get_text(), domain, 'ilike', context)
         ids = [oid for oid, _ in records]
         self.wid_text.set_text('')
+
+
+        if self.model.pager_cache.has_key(self.name):
+            ex_ids = filter(lambda x: x in self.model.pager_cache.get(self.name), ids)
+            domain.append(('id','not in',ex_ids))
+
         win = win_search(self.attrs['relation'], sel_multi=True, ids=ids, context=context, domain=domain, parent=self._window)
         ids = win.go()
 
