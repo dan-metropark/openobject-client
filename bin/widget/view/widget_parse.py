@@ -19,10 +19,8 @@
 #
 ##############################################################################
 
-
+import common
 import interface
-from lxml import etree
-
 import form_gtk
 import tree_gtk
 import graph_gtk
@@ -55,6 +53,14 @@ class widget_parse(interface.parser_interface):
             # Select the parser for the view (form, tree, graph, calendar or gantt)
             widget = widget_parser(self.window, self.parent, self.attrs, screen)
             wid, child, buttons, on_write = widget.parse(screen.resource, node, fields)
+            results = {}
+            for field in widget.field_list:
+                results.setdefault(field, 0)
+                results[field] += 1  
+                if results[field] > 1:
+                    common.error(_('%s View Error!') % (node.tag.capitalize()
+), _('Object: <b>%s</b> has duplicate field <b>%s</b>')%(screen.resource, field))
+                    return
             if isinstance(wid, calendar_gtk.EmptyCalendar):
                 view_parser = calendar_gtk.DummyViewCalendar
             screen.set_on_write(on_write)

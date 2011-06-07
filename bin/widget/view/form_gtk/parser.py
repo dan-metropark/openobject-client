@@ -447,6 +447,7 @@ class parser_form(widget.view.interface.parser_interface):
 
             elif node.tag =='field':
                 name = str(attrs['name'])
+                self.field_list.append(name)
                 del attrs['name']
                 name = unicode(name)
                 type = attrs.get('widget', fields[name]['type'])

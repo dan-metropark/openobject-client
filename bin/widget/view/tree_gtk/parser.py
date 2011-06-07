@@ -137,6 +137,7 @@ class parser_tree(interface.parser_interface):
             if node.tag == 'field':
                 handler_id = False
                 fname = str(node_attrs['name'])
+                self.field_list.append(fname)
                 if fields[fname]['type'] in ('image', 'binary'):
                     continue    # not showed types
                 if fname == 'sequence':
