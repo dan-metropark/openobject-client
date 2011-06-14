@@ -186,15 +186,13 @@ class list_record(object):
             if self.context.get('__domain') and not no_leaf:
                 limit = self.screen.screen_container.get_limit()
                 ids = rpc.session.rpc_exec_auth('/object', 'execute', self.mgroup.resource, 'search', self.context.get('__domain'), 0, limit, self.sort_order, self.context)
-                uids = []
-                #remove duplicate id
-                map(lambda x: x not in uids and uids.append(x), ids)
-                if not uids:
+                ids = self.mgroup.remove_duplicate(ids)
+                if not ids:
                      self.add_dummny_record(self.context['__field'])
                 else:
-                    self.mgroup.load(uids)
+                    self.mgroup.load(ids)
                     res= []
-                    for id in uids:
+                    for id in ids:
                         res.append(self.mgroup.get_by_id(id))
                     self.add_list(res)
             else:

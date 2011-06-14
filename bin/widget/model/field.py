@@ -364,12 +364,9 @@ class M2MField(CharField):
                     result += rpc2.name_search(val, [], '=', rpc.session.context)
             value = map(lambda x:x[0], result)
         
-        if value:    
-            uids = []
-            #remove duplicate id
-            map(lambda x: x not in uids and uids.append(x), value)
-            value = uids
-        
+        if value:   
+            value = model.mgroup.remove_duplicate(value)
+
         model.value[self.name] = value and value[:self.limit] or []
         model.pager_cache[self.name] = value or []
         if modified:
@@ -437,10 +434,7 @@ class O2MField(CharField):
             return
         
         if value:    
-            uids = []
-            #remove duplicate id
-            map(lambda x: x not in uids and uids.append(x), value)
-            value = uids
+            value = model.mgroup.remove_duplicate(value)
             
         from widget.model.group import ModelRecordGroup
         mod =  ModelRecordGroup(resource=self.attrs['relation'], fields={}, parent=model)
