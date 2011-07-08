@@ -35,6 +35,7 @@ import Queue
 from interface import parser_view
 from tools import user_locale_format
 from widget.model.record import ModelRecord
+from tools.datetime_util import float_time_convert
 
 class field_record(object):
     def __init__(self, name, count):
@@ -169,7 +170,7 @@ class list_record(object):
                     inner_gb = __ctx.get('group_by', [])
                     if no_leaf and not len(inner_gb):
                         child = False
-                    ctx = {'__domain': r.get('__domain', []),'group_by_no_leaf':no_leaf}
+                    ctx = {'__domain': r.get('__domain', []),'group_by_no_leaf':no_leaf,'lang':self.context.get('lang','en_US')}
                     if not no_leaf:
                         ctx.update({'__field':gb[-1]})
                     ctx.update(__ctx)
@@ -578,14 +579,13 @@ class ViewList(parser_view):
                              current_active_model['state'].get(current_active_model) in states):
                         if self.widget_tree.editable:
                             if current_active_model.validate():
-                                id = self.screen.save_current()
+                                self.screen.save_current()
                             else:
                                common.warning(_('Invalid form, correct red fields !'), _('Error !'),parent=self.window)
                                self.widget_tree.warn('misc-message', _('Invalid form, correct red fields !'), "red")
                                self.screen.display()
                                return False
-                        else:
-                            id = current_active_model.id
+                        id = current_active_model.id
                         current_active_model.get_button_action(self.screen, id, path[1].attrs)
                         self.screen.current_model = None
                         if self.screen.parent and isinstance(self.screen.parent, ModelRecord):
@@ -744,7 +744,9 @@ class ViewList(parser_view):
                     self.screen.domain = [('id','in',self.screen.ids_get())]
                 self.screen.models.models.clear()
             self.move_colums()
-            self.store = AdaptModelGroup(self.screen.models, self.screen.context, self.screen.domain, self.screen.sort, self.screen)
+            ctx = self.screen.context.copy()
+            ctx.update(rpc.session.context)
+            self.store = AdaptModelGroup(self.screen.models, ctx, self.screen.domain, self.screen.sort, self.screen)
             if self.store:
                 self.widget_tree.set_model(self.store)
         else:
@@ -779,7 +781,10 @@ class ViewList(parser_view):
                         value += float(model.fields_get()[self.children[c][0]].get(model, check_load=False) or 0.0)
             if self.children[c][5] == 'avg' and length:
                 value = value/length
-            label_str = user_locale_format.format('%.' + str(self.children[c][3]) + 'f', value)
+            if self.children[c][6] == 'float_time':
+                label_str = float_time_convert(value)
+            else:
+                label_str = user_locale_format.format('%.' + str(self.children[c][3]) + 'f', value)
             if self.children[c][4]:
                 self.children[c][2].set_markup('<b>%s</b>' % label_str)
             else:
