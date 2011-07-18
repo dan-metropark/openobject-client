@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-12-13 18:11+0100\n"
-"PO-Revision-Date: 2011-01-17 11:18+0000\n"
-"Last-Translator: Goran Kliska <gkliska@gmail.com>\n"
+"PO-Revision-Date: 2011-07-17 23:35+0000\n"
+"Last-Translator: Dejan Radočaj <Unknown>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-16 04:55+0000\n"
+"X-Launchpad-Export-Date: 2011-07-18 04:41+0000\n"
 "X-Generator: Launchpad (build 13405)\n"
 "Language: hr\n"
 
@@ -56,7 +56,7 @@ msgstr "Pogledaj detalje"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
-msgstr "Ne postoji ništa za ispisati!"
+msgstr "Ne postoje podaci za ispis!"
 
 #: bin/modules/action/main.py:66
 msgid "Printing aborted, too long delay !"
@@ -1651,7 +1651,7 @@ msgstr "_Samo tekst"
 
 #: bin/openerp.glade:942
 msgid "_Forms"
-msgstr "_Obrasci"
+msgstr "_Forme"
 
 #: bin/openerp.glade:950
 msgid "Right Toolbar"
