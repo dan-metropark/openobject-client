@@ -1088,8 +1088,8 @@ msgstr "选择一个插件"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
-msgstr "无法设置区域 %s: %s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "无法设置区域 %(lang_enc)s: %(exception)s"
 #
 # File: bin/modules/action/wizard.py, line: 171
 # File: bin/rpc.py, line: 141

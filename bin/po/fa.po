@@ -902,7 +902,7 @@ msgstr "یک پلاگین را برگزینید"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "زبان %s برپاسازی نمی‌شود."
 #
 # File: bin/rpc.py, line: 157

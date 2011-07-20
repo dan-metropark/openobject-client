@@ -1080,7 +1080,7 @@ msgstr "Escolla un plugin"
 #
 # File: bin/translate.py, line: 183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Non se pode establecer a localización %(lang_enc)s: %(exception)s"
 
 #

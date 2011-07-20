@@ -919,8 +919,8 @@ msgstr "Velg et tillegg"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
-msgstr "Kunne ikke sette regionale innstillinger %s: %s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "Kunne ikke sette regionale innstillinger %(lang_enc)s: %(exception)s"
 #
 # File: bin/rpc.py, line: 157
 # File: bin/modules/action/wizard.py, line: 150

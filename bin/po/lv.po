@@ -905,7 +905,7 @@ msgstr "Izvēlies papildinājumu"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Nevar uzstādīt lokalizāciju %s"
 #
 # File: bin/rpc.py, line: 157

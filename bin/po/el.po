@@ -930,8 +930,8 @@ msgstr "Επιλέξτε πρόσθετο (plugin)"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
-msgstr "Αδυναμία ορισμού του locale σε %s: %s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "Αδυναμία ορισμού του locale σε %(lang_enc)s: %(exception)s"
 #
 # File: bin/rpc.py, line: 157
 # File: bin/modules/action/wizard.py, line: 150

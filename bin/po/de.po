@@ -1222,8 +1222,8 @@ msgstr "Plugin auswählen"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
-msgstr "Kann lokale %s: %s nicht setzen."
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "Kann lokale %(lang_enc)s: %(exception)s nicht setzen."
 #
 # File: bin/modules/action/wizard.py, line: 171
 # File: bin/rpc.py, line: 141

@@ -1259,7 +1259,7 @@ msgstr "Choisissez un greffon"
 #
 # File: bin/translate.py, line: 183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Impossible d'utiliser la régionalisation %(lang_enc)s: %(exception)s"
 
 #

@@ -997,7 +997,7 @@ msgstr "Виберіть модуль"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Неможливо встановити локаль %s"
 #
 # File: bin/rpc.py, line: 157

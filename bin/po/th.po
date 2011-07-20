@@ -879,7 +879,7 @@ msgstr "เลือกส่วนเสริม"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "ตังค่าท้องถิ่นไม่ได้ %s"
 #
 # File: bin/rpc.py, line: 157

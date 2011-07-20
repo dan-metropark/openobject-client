@@ -1406,7 +1406,7 @@ msgstr "Seleccione un conector"
 #
 # File: bin/translate.py, line: 183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "No se puede establecer la configuración regional  %(lang_enc)s: %(exception)s"
 
 #

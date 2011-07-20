@@ -1172,8 +1172,8 @@ msgstr "Escolha um Plugin"
 #
 # File: bin/translate.py, line: 183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
-msgstr "Impossível definir local %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "Impossível definir local %(lang_enc)s: %(exception)s"
 
 #
 # File: bin/rpc.py, line: 157

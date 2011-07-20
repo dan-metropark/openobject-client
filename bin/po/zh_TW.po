@@ -949,7 +949,7 @@ msgstr "選擇插件程式"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "無法將語言設為 %s"
 #
 # File: bin/modules/action/wizard.py, line: 171

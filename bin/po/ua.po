@@ -1800,7 +1800,7 @@ msgstr ""
 #
 # File: bin/translate.py, line: 183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr ""
 #
 # File: bin/modules/action/wizard.py, line: 171

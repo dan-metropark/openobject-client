@@ -1106,8 +1106,8 @@ msgstr "Izaberite dodatak"
 # File: bin/translate.py, line: 183
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
-msgstr "Nemogu da postavim lokalizaciju na %s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "Nemogu da postavim lokalizaciju na %(lang_enc)s: %(exception)s"
 #
 # File: bin/modules/action/wizard.py, line: 171
 # File: bin/rpc.py, line: 141

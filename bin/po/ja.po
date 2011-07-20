@@ -929,7 +929,7 @@ msgstr "プラグインを選択して下さい。"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "ロケール %sにセットできません"
 #
 # File: bin/rpc.py, line: 157

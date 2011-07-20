@@ -895,7 +895,7 @@ msgstr "플러그인을 선택하세요"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "%s를 찾을 수 없습니다"
 #
 # File: bin/rpc.py, line: 157

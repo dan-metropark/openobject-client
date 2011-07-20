@@ -839,7 +839,7 @@ msgstr ""
 
 #: bin/translate.py:183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr ""
 
 #: bin/rpc.py:157 bin/modules/action/wizard.py:150 bin/modules/gui/main.py:187

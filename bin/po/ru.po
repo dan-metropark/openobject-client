@@ -1382,8 +1382,8 @@ msgstr "Выбрать дополнение"
 #
 # File: bin/translate.py, line: 183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
-msgstr "Невозможно установить локаль %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr "Невозможно установить локаль %(lang_enc)s: %(exception)s"
 
 #
 # File: bin/modules/action/wizard.py, line: 171

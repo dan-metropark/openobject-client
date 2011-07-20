@@ -1202,7 +1202,7 @@ msgstr "Kies een plugin"
 #
 # File: bin/translate.py, line: 183
 #, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Kan taalregio %(lang_enc)s: %(exception)s niet instellen"
 
 #

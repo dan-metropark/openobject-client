@@ -1202,7 +1202,7 @@ msgstr "Scegliere un plugin"
 #
 # File: bin/translate.py, line: 183
 #, fuzzy, python-format
-msgid "Unable to set locale %(lang_enc)s: %(e)s"
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Non è stato possibile settare il locale %s"
 #
 # #-#-#-#-#  openerp-client-it.po (openobject-client)  #-#-#-#-#
