@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-19 16:32+0530\n"
-"PO-Revision-Date: 2010-10-25 18:46+0000\n"
-"Last-Translator: OpenERP Administrators <Unknown>\n"
+"PO-Revision-Date: 2011-07-22 14:43+0530\n"
+"Last-Translator: Naresh Soni <nch@tinyerp.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,63 +17,66 @@ msgstr ""
 "X-Launchpad-Export-Date: 2011-07-16 04:54+0000\n"
 "X-Generator: Launchpad (build 13405)\n"
 "Language: ja\n"
+
 #
 # File: bin/common/common.py, line: 89
 msgid "Close current tip"
 msgstr "現在のティップを閉じる"
+
 #
 # File: bin/common/common.py, line: 90
 msgid ""
 "<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
-"This will hide the current tip. It will be displayed again next time you "
-"open this menu item, unless you disable all tips using the <b>'Menu Tips'</"
-"b> option in the user preferences."
+"This will hide the current tip. It will be displayed again next time you open this menu item, unless you disable all tips using the <b>'Menu Tips'</b> option in the user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>現在のティップを閉じる:</b></span>\n"
-"これは現在のティップを閉じます。ユーザープリファレンスの <b>'メニュー・ティッ"
-"プ'</b> オプションを使って、全てのティップスを無効化しない限り、次回またこの"
-"メニューアイテムを開けば再表示されます。"
+"これは現在のティップを閉じます。ユーザープリファレンスの <b>'メニュー・ティップ'</b> オプションを使って、全てのティップスを無効化しない限り、次回またこのメニューアイテムを開けば再表示されます。"
+
 #
 # File: bin/common/common.py, line: 100
 msgid "Disable all tips"
 msgstr "全ティップスの無効化"
+
 #
 # File: bin/common/common.py, line: 101
 msgid ""
 "<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
 "This will disable the display of tips on all menu items.\n"
-"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the "
-"user preferences."
+"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>全ティップスの無効化:</b></span>\n"
 "これは、全てのメニューアイテムのティップスの表示を無効化します。\n"
-"ティップスを再度有効化するには、ユーザープリファレンスの<b>'メニュー・ティッ"
-"プ'</b> オプションをチェックする必要があります。"
+"ティップスを再度有効化するには、ユーザープリファレンスの<b>'メニュー・ティップ'</b> オプションをチェックする必要があります。"
+
 #
 # File: bin/common/common.py, line: 115
 # File: bin/common/common.py, line: 117
 msgid "Tips"
 msgstr "ヒント"
+
 #
 # File: bin/common/common.py, line: 168
 msgid "OpenERP Computing"
 msgstr "OpenERP処理中"
+
 #
 # File: bin/common/common.py, line: 187
 msgid "Operation in progress"
 msgstr "操作が進行中です"
+
 #
 # File: bin/common/common.py, line: 191
 msgid ""
 "Please wait,\n"
 "this operation may take a while..."
-msgstr ""
-"しばらくお待ちください。この操作にはしばらく時間がかかる時があります..."
+msgstr "しばらくお待ちください。この操作にはしばらく時間がかかる時があります..."
+
 #
 # File: bin/common/common.py, line: 225
 #, python-format
 msgid "Ensure that the file %s is correct"
 msgstr "ファイル %s が正しいことを確認して下さい"
+
 #
 # File: bin/common/common.py, line: 399
 msgid " has reported the following bug:\n"
@@ -81,14 +84,17 @@ msgstr ""
 " 次のバグが報告されました:\n"
 "リンク切れを意味します。翻訳で同等の位置に新しいラインを開始して下さい。\n"
 "スペース（空白）を意味します。翻訳で同等の位置にスペースを入力して下さい。\n"
+
 #
 # File: bin/common/common.py, line: 399
 msgid "remarks"
 msgstr "備考"
+
 #
 # File: bin/common/common.py, line: 402
 msgid "Support request sent !"
 msgstr "サポートリクエストを送信しました！"
+
 #
 # File: bin/common/common.py, line: 425
 # File: bin/common/common.py, line: 469
@@ -100,11 +106,9 @@ msgid ""
 "If you are using OpenERP in production, it is highly suggested to subscribe\n"
 "a publisher warranty program.\n"
 "\n"
-"The OpenERP publisher warranty contract provides you a bugfix guarantee and "
-"an\n"
+"The OpenERP publisher warranty contract provides you a bugfix guarantee and an\n"
 "automatic migration system so that we can fix your problems within a few\n"
-"hours. If you had a publisher warranty contract, this error would have been "
-"sent\n"
+"hours. If you had a publisher warranty contract, this error would have been sent\n"
 "to the quality team of the OpenERP editor.\n"
 "\n"
 "The publisher warranty program offers you:\n"
@@ -141,6 +145,7 @@ msgstr ""
 "\n"
 "より詳しい情報は下記のリンクをご利用下さい。エラーの詳細は、２つ目の\n"
 "タブに表示されます。\n"
+
 #
 # File: bin/common/common.py, line: 448
 #, python-format
@@ -148,26 +153,22 @@ msgid ""
 "\n"
 "<b>An unknown error has been reported.</b>\n"
 "\n"
-"Your publisher warranty contract does not cover all modules installed in "
-"your system !\n"
-"If you are using OpenERP in production, it is highly suggested to upgrade "
-"your\n"
+"Your publisher warranty contract does not cover all modules installed in your system !\n"
+"If you are using OpenERP in production, it is highly suggested to upgrade your\n"
 "contract.\n"
 "\n"
 "If you have developed your own modules or installed third party module, we\n"
-"can provide you an additional publisher warranty contract for these modules. "
-"After\n"
-"having reviewed your modules, our quality team will ensure they will "
-"migrate\n"
+"can provide you an additional publisher warranty contract for these modules. After\n"
+"having reviewed your modules, our quality team will ensure they will migrate\n"
 "automatically for all future stable versions of OpenERP at no extra cost.\n"
 "\n"
-"Here is the list of modules not covered by your publisher warranty "
-"contract:\n"
+"Here is the list of modules not covered by your publisher warranty contract:\n"
 "%s\n"
 "\n"
 "You can use the link bellow for more information. The detail of the error\n"
 "is displayed on the second tab."
 msgstr ""
+
 #
 # File: bin/common/common.py, line: 525
 msgid ""
@@ -176,6 +177,7 @@ msgid ""
 msgstr ""
 "貴方の貴方の問題はクオリティチームに自動で送られました!\n"
 "この問題を分析後再度ご連絡します。"
+
 #
 # File: bin/common/common.py, line: 528
 #, python-format
@@ -184,22 +186,27 @@ msgid ""
 "Please report this error manually at:\n"
 "\t%s"
 msgstr ""
+
 #
 # File: bin/common/common.py, line: 528
 msgid "Error"
 msgstr "エラー"
+
 #
 # File: bin/common/common.py, line: 682
 msgid "Open with..."
 msgstr "開く..."
+
 #
 # File: bin/widget_search/form.py, line: 492
 msgid "The content of the form or exception if not valid"
 msgstr "無効な例外もしくはフォーム内容"
+
 #
 # File: bin/widget_search/wid_int.py, line: 56
 msgid "The content of the widget or exception if not valid"
 msgstr "ウィジェットのコンテント。無効な場合は、例外。"
+
 #
 # File: bin/widget_search/spinbutton.py, line: 92
 # File: bin/widget_search/custom_filter.py, line: 140
@@ -214,49 +221,47 @@ msgstr "ウィジェットのコンテント。無効な場合は、例外。"
 # File: bin/widget/view/form_gtk/button.py, line: 47
 msgid "The content of the widget or ValueError if not valid"
 msgstr "無効な値エラーまたはウィジェット"
+
 #
 # File: bin/widget_search/custom_filter.py, line: 51
 msgid "AND"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter.py, line: 52
 msgid "OR"
 msgstr ""
+
 #
 # File: bin/widget_search/checkbox.py, line: 35
 # File: bin/widget_search/checkbox.py, line: 42
 # File: bin/widget_search/checkbox.py, line: 55
 msgid "Yes"
 msgstr "はい"
+
 #
 # File: bin/widget_search/checkbox.py, line: 36
 # File: bin/widget_search/checkbox.py, line: 44
 msgid "No"
 msgstr "いいえ"
+
 #
 # File: bin/widget_search/date_widget.py, line: 65
 # File: bin/widget/view/form_gtk/date_widget.py, line: 65
 msgid ""
-"You can use special operation by pressing +, - or =.  Plus/minus adds/"
-"decrease the variable to the current selected date. Equals set part of "
-"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
-"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
+"You can use special operation by pressing +, - or =.  Plus/minus adds/decrease the variable to the current selected date. Equals set part of selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
 "* +21d : adds 21 days to selected year\n"
 "* =23w : set date to the 23th week of the year\n"
 "* -4m : decrease 4 months to the current date\n"
-"You can also use \"=\" to set the date to the current date/time and '-' to "
-"clear the field."
-msgstr ""
-"+, - =を押して特別な操作ができます。現在選択されている日付を増減(+,-)できま"
-"す。=は選択日の一部分をセットできます。12h = 12 時間. 8d = 8日. 4w = 4週"
-"間。. 1m = 1 月. 2y = 2 年　例:　* +21d : 年 21 日増　* =23w :  年に23週間の"
-"日付をセット　* -4m : 現在の日付に 4 ヶ月減 　\\\"さらに=\\\" 現日付/時間に日"
-"付をセット、そして-はフィールドを空白にセットできます。"
+"You can also use \"=\" to set the date to the current date/time and '-' to clear the field."
+msgstr "+, - =を押して特別な操作ができます。現在選択されている日付を増減(+,-)できます。=は選択日の一部分をセットできます。12h = 12 時間. 8d = 8日. 4w = 4週間。. 1m = 1 月. 2y = 2 年　例:　* +21d : 年 21 日増　* =23w :  年に23週間の日付をセット　* -4m : 現在の日付に 4 ヶ月減 　\\\"さらに=\\\" 現日付/時間に日付をセット、そして-はフィールドを空白にセットできます。"
+
 #
 # File: bin/widget_search/calendar.py, line: 49
 # File: bin/widget_search/calendar.py, line: 177
 msgid "Start date"
 msgstr "開始日"
+
 #
 # File: bin/widget_search/calendar.py, line: 53
 # File: bin/widget_search/calendar.py, line: 73
@@ -266,11 +271,13 @@ msgstr "開始日"
 # File: bin/widget/view/form_gtk/calendar.py, line: 184
 msgid "Open the calendar widget"
 msgstr "カレンダーウィジェットを開く"
+
 #
 # File: bin/widget_search/calendar.py, line: 69
 # File: bin/widget_search/calendar.py, line: 197
 msgid "End date"
 msgstr "終了日"
+
 #
 # File: bin/widget_search/calendar.py, line: 128
 # File: bin/widget_search/calendar.py, line: 267
@@ -278,25 +285,30 @@ msgstr "終了日"
 # File: bin/widget/view/form_gtk/calendar.py, line: 249
 msgid "OpenERP - Date selection"
 msgstr "OpenERP - 選択日"
+
 #
 # File: bin/widget_search/calendar.py, line: 273
 # File: bin/widget/view/form_gtk/calendar.py, line: 255
 msgid "Hour:"
 msgstr "時:"
+
 #
 # File: bin/widget_search/calendar.py, line: 276
 # File: bin/widget/view/form_gtk/calendar.py, line: 258
 msgid "Minute:"
 msgstr "分:"
+
 #
 # File: bin/widget_search/calendar.py, line: 312
 # File: bin/widget/view/form_gtk/calendar.py, line: 291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
 msgstr "無効な日時のデータです！ 年は、１８９９年より後でなければなりません！"
+
 #
 # File: bin/widget_search/char.py, line: 45
 msgid "Error: "
 msgstr "エラー: "
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 36
 # File: bin/widget_search/custom_filter_widgets.py, line: 63
@@ -308,9 +320,9 @@ msgstr "エラー: "
 # File: bin/widget_search/custom_filter_widgets.py, line: 225
 # File: bin/widget_search/custom_filter_widgets.py, line: 257
 # File: bin/widget_search/custom_filter_widgets.py, line: 272
-#, fuzzy
 msgid "is"
-msgstr "ヒント"
+msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 37
 # File: bin/widget_search/custom_filter_widgets.py, line: 64
@@ -322,9 +334,9 @@ msgstr "ヒント"
 # File: bin/widget_search/custom_filter_widgets.py, line: 226
 # File: bin/widget_search/custom_filter_widgets.py, line: 257
 # File: bin/widget_search/custom_filter_widgets.py, line: 273
-#, fuzzy
 msgid "is not"
-msgstr "リスト"
+msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 38
 # File: bin/widget_search/custom_filter_widgets.py, line: 49
@@ -341,6 +353,7 @@ msgstr "リスト"
 # File: bin/widget_search/custom_filter_widgets.py, line: 255
 msgid "is Empty"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 39
 # File: bin/widget_search/custom_filter_widgets.py, line: 49
@@ -357,27 +370,32 @@ msgstr ""
 # File: bin/widget_search/custom_filter_widgets.py, line: 255
 msgid "is not Empty"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 40
 # File: bin/widget_search/custom_filter_widgets.py, line: 67
 # File: bin/widget_search/custom_filter_widgets.py, line: 98
 msgid "contains"
 msgstr "含む"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 41
 # File: bin/widget_search/custom_filter_widgets.py, line: 68
 # File: bin/widget_search/custom_filter_widgets.py, line: 98
 msgid "doesn't contain"
 msgstr "含まない"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 87
 # File: bin/widget/view/form_gtk/many2one.py, line: 163
 msgid "Search a resource"
 msgstr "リソース検索"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 167
 msgid "Equals"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 182
 # File: bin/widget_search/custom_filter_widgets.py, line: 196
@@ -391,6 +409,7 @@ msgstr ""
 # File: bin/widget_search/custom_filter_widgets.py, line: 362
 msgid "between"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 185
 # File: bin/widget_search/custom_filter_widgets.py, line: 199
@@ -404,71 +423,81 @@ msgstr ""
 # File: bin/widget_search/custom_filter_widgets.py, line: 362
 msgid "exclude range"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 290
 # File: bin/widget_search/custom_filter_widgets.py, line: 331
 msgid "is equal to"
 msgstr "等しい"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 291
 # File: bin/widget_search/custom_filter_widgets.py, line: 332
 msgid "is not equal to"
 msgstr "等しくない"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 292
 # File: bin/widget_search/custom_filter_widgets.py, line: 333
 msgid "greater than"
 msgstr "より大きい"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 293
 # File: bin/widget_search/custom_filter_widgets.py, line: 334
 msgid "less than"
 msgstr "より小さい"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 294
 # File: bin/widget_search/custom_filter_widgets.py, line: 335
-#, fuzzy
 msgid "greater than equal to"
-msgstr "より大きい"
+msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 295
 # File: bin/widget_search/custom_filter_widgets.py, line: 336
-#, fuzzy
 msgid "less than equal to"
-msgstr "等しくない"
+msgstr ""
+
 #
 # File: bin/widget/screen/screen.py, line: 337
 msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
 msgstr ""
+
 #
 # File: bin/widget/view/widget_parse.py, line: 53
 #, python-format
 msgid "This type (%s) is not supported by the GTK client !"
 msgstr "この(%s)タイプはGTKクライアントでサポートされていません !"
+
 #
 # File: bin/widget/view/widget_parse.py, line: 64
 msgid "No valid view found for this object!"
 msgstr "このオブジェクトの有効なビューが見当たりません !"
+
 #
 # File: bin/widget/view/form.py, line: 137
 msgid "You must save this record to use the relate button !"
 msgstr "関連ボタンを使うには保存してください!"
+
 #
 # File: bin/widget/view/form.py, line: 142
 msgid "Action not defined !"
 msgstr "アクションが定義されていません！"
+
 #
 # File: bin/widget/view/form.py, line: 201
-#, fuzzy
 msgid "You must save this record to use the action button !"
 msgstr "関連ボタンを使うには保存してください!"
+
 #
 # File: bin/widget/view/form.py, line: 213
-#, fuzzy
 msgid "You must save a record to use the relate button !"
 msgstr "関連ボタンを使うには保存してください!"
+
 #
 # File: bin/widget/view/form.py, line: 238
 # File: bin/widget/view/form_gtk/parser.py, line: 635
@@ -476,6 +505,7 @@ msgstr "関連ボタンを使うには保存してください!"
 # File: bin/widget/view/form_gtk/parser.py, line: 813
 msgid "No other language available!"
 msgstr "取り込み可能な言語がありません!"
+
 #
 # File: bin/widget/view/form.py, line: 245
 # File: bin/widget/view/form_gtk/parser.py, line: 647
@@ -483,11 +513,13 @@ msgstr "取り込み可能な言語がありません!"
 # File: bin/widget/view/form_gtk/parser.py, line: 819
 msgid "Add Translation"
 msgstr "翻訳追加"
+
 #
 # File: bin/widget/view/form.py, line: 293
 # File: bin/widget/view/form_gtk/parser.py, line: 875
 msgid "Translate label"
 msgstr "翻訳ラベル"
+
 #
 # File: bin/widget/view/list.py, line: 584
 # File: bin/widget/view/list.py, line: 585
@@ -495,83 +527,97 @@ msgstr "翻訳ラベル"
 # File: bin/modules/gui/window/form.py, line: 366
 msgid "Invalid form, correct red fields !"
 msgstr "フィールドが無効です。赤く記された箇所に値を入力して下さい。"
+
 #
 # File: bin/widget/view/list.py, line: 584
 msgid "Error !"
 msgstr "エラー！"
+
 #
 # File: bin/widget/view/list.py, line: 633
 # File: bin/widget/view/form_gtk/many2one.py, line: 387
 msgid "You must select a record to use the relation !"
 msgstr "この関連を利用するのにレコードを選択してください!"
+
 #
 # File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 30
 msgid "Gantt view not yet implemented !"
 msgstr "Ganttビューはまだ実装されていません。"
+
 #
 # File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 31
-msgid ""
-"The gantt view is not available in this GTK Client, you should use the web "
-"interface or switch to the calendar view."
-msgstr ""
-"そのganttビューはこのGTKクライアントでは有効ではありません。ウェブインター"
-"フェースを使うかカレンダービューを切り替えてください。"
+msgid "The gantt view is not available in this GTK Client, you should use the web interface or switch to the calendar view."
+msgstr "そのganttビューはこのGTKクライアントでは有効ではありません。ウェブインターフェースを使うかカレンダービューを切り替えてください。"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1422
 msgid "Dot Viewer"
 msgstr "ドット表示"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1712
 msgid "Add New Node"
 msgstr "新しいノードの追加"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1713
 msgid "Add New Edge"
 msgstr "新しいエッジの追加"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1714
 msgid "Enlarge the Diagram"
 msgstr "ダイヤグラムの拡大"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1715
 msgid "Shrink the Diagram"
 msgstr ""
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1716
 msgid "Fit the diagram to the window"
 msgstr ""
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1717
 msgid "Show the diagram at its normal size"
 msgstr ""
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1718
 msgid "Print the Diagram"
 msgstr ""
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1772
 # File: bin/modules/gui/window/win_search.py, line: 49
 msgid "OpenERP - Link"
 msgstr "OpenERP - リンク"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1789
 #, python-format
 msgid "Close Current %s"
 msgstr ""
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1790
 #, python-format
 msgid "Delete Current %s"
 msgstr ""
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1791
 #, python-format
 msgid "Edit Current %s"
 msgstr ""
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1875
 msgid " - Dot Viewer"
 msgstr ""
+
 #
 # File: bin/widget/view/tree_gtk/parser.py, line: 61
 msgid ""
@@ -579,40 +625,49 @@ msgid ""
 "\n"
 "Please Save them before sorting !"
 msgstr ""
+
 #
 # File: bin/widget/view/tree_gtk/editabletree.py, line: 140
 #, python-format
 msgid "Shortcut: %s"
 msgstr "ショートカット: %s"
+
 #
 # File: bin/widget/view/tree_gtk/editabletree.py, line: 140
 msgid "F1 New - F2 Open/Search"
 msgstr "F1 新規 F2 開く/検索"
+
 #
 # File: bin/widget/view/tree_gtk/editabletree.py, line: 215
 #, python-format
 msgid "Warning; field %s is required!"
 msgstr "注意:フィールド%s要求されています !"
+
 #
 # File: bin/widget/view/tree_gtk/date_renderer.py, line: 197
 msgid "Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
 msgstr "<i>'+'</i>, <i>'-'</i> or <i>'='</i> 特定日の操作用"
+
 #
 # File: bin/widget/view/screen_container.py, line: 74
 msgid "--Actions--"
 msgstr "--アクション--"
+
 #
 # File: bin/widget/view/screen_container.py, line: 74
 msgid "Save as a Filter"
 msgstr "フィルターとして保zん"
+
 #
 # File: bin/widget/view/screen_container.py, line: 74
 msgid "Manage Filters"
 msgstr "フィルター管理"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 61
 msgid "Wrong icon for the button !"
 msgstr "このボタンのアイコンではありません!"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
 # File: bin/modules/gui/window/form.py, line: 365
@@ -622,149 +677,181 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
 # File: bin/modules/gui/window/form.py, line: 365
-#, fuzzy
 msgid "Input Error !"
 msgstr "入力エラー"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 308
 msgid "Field"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 308
 msgid "Object"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 619
 msgid "Enter some text to the related field before adding translations!"
 msgstr "翻訳を加える前に、関連したフィールドにテキストを入力して下さい！"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 626
 msgid "You need to save resource before adding translations!"
 msgstr "翻訳前にリソースを保存してください!"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 880
 msgid "Translate view"
 msgstr "翻訳ビュー"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 52
 # File: bin/modules/gui/main.py, line: 1079
 # File: bin/openerp.glade, line: 6095
 msgid "OpenERP"
 msgstr "OpenERP"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 64
 msgid "Cancel"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 70
 msgid "Save & Close"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 75
 msgid "Save & New"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 164
 # File: bin/widget/view/form_gtk/interface.py, line: 48
 msgid "Set to default value"
 msgstr "デフォルト値にセット"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 167
 msgid "Set Default"
 msgstr "デフォルト設定"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 196
 msgid "Create a new entry"
 msgstr "新規エントリーを作成"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 200
 msgid "Edit this entry"
 msgstr "このエントリーを編集"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 204
 msgid "Remove this entry"
 msgstr "このエントリーを削除"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 210
 # File: bin/widget/view/form_gtk/many2many.py, line: 84
 msgid "Previous Page"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 214
 # File: bin/widget/view/form_gtk/many2many.py, line: 88
 msgid "Previous Record"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 222
 # File: bin/widget/view/form_gtk/many2many.py, line: 96
 msgid "Next Record"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 226
 # File: bin/widget/view/form_gtk/many2many.py, line: 100
 msgid "Next Page"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 232
 msgid "Switch"
 msgstr "切り替え"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 238
 # File: bin/widget/view/form_gtk/many2many.py, line: 106
 msgid "Choose Limit"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 279
 msgid "You have to select a resource !"
 msgstr "リソースを選択してください !"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 388
 # File: bin/modules/gui/window/form.py, line: 290
 msgid "Are you sure to remove this record ?"
 msgstr "このレコードを削除しますか？"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 390
 # File: bin/modules/gui/window/form.py, line: 292
 msgid "Are you sure to remove those records ?"
 msgstr "これらのレコードを削除しますか？"
+
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 49
 msgid "Set as default"
 msgstr "デフォルトに設定"
+
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 64
 msgid "You can not set to the default value here !"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 64
 msgid "Operation not permited"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/calendar.py, line: 99
 # File: bin/widget/view/form_gtk/calendar.py, line: 163
 msgid "Invalid date value! Year must be greater than 1899 !"
 msgstr "無効な日付データです！ 年は、１８９９年より後でなければなりません！"
+
 #
 # File: bin/widget/view/form_gtk/many2one.py, line: 158
 # File: bin/widget/view/form_gtk/url.py, line: 53
 msgid "Open this resource"
 msgstr "このリソースを開く"
+
 #
 # File: bin/widget/view/form_gtk/many2one.py, line: 174
 # File: bin/openerp.glade, line: 1412
 msgid "Action"
 msgstr "アクション"
+
 #
 # File: bin/widget/view/form_gtk/many2one.py, line: 175
 msgid "Report"
 msgstr "レポート"
+
 #
 # File: bin/widget/view/form_gtk/url.py, line: 50
 msgid "Send an e-mail with your default e-mail client"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/url.py, line: 118
 # File: bin/widget/view/form_gtk/image.py, line: 112
@@ -772,45 +859,55 @@ msgstr ""
 # File: bin/openerp.glade, line: 5831
 msgid "Open..."
 msgstr "開く…"
+
 #
 # File: bin/widget/view/form_gtk/reference.py, line: 76
 # File: bin/openerp.glade, line: 1258
 msgid "Create a new resource"
 msgstr "新リソースを作成"
+
 #
 # File: bin/widget/view/form_gtk/reference.py, line: 89
 msgid "Search / Open a resource"
 msgstr "リソースを検索/開く"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 73
 msgid "Set Image"
 msgstr "画像セット"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 82
 # File: bin/widget/view/form_gtk/binary.py, line: 84
 msgid "Save As"
 msgstr "別名で保存"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 93
 # File: bin/widget/view/form_gtk/binary.py, line: 88
 msgid "Clear"
 msgstr "クリア"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 102
 msgid "All files"
 msgstr "全てのファイル"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 106
 msgid "Images"
 msgstr "画像"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 127
 msgid "There is no image to save as !"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 127
 msgid "Warning"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 129
 # File: bin/widget/view/form_gtk/binary.py, line: 167
@@ -819,128 +916,157 @@ msgstr ""
 # File: bin/modules/gui/window/win_export.py, line: 359
 msgid "Save As..."
 msgstr "名前を付けて保存..."
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 177
 msgid "Image corrupted"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/wid_common.py, line: 59
 msgid "Always applicable !"
 msgstr "常に有効!"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 76
 msgid "Select"
 msgstr "選択"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 80
 msgid "Open"
 msgstr "開く"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 119
 # File: bin/widget/view/form_gtk/binary.py, line: 163
 msgid "Unable to read the file data"
 msgstr "ファイルデータ読み込みできません。"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 129
 # File: bin/widget/view/form_gtk/binary.py, line: 155
 #, python-format
 msgid "Error reading the file: %s"
 msgstr "ファイル読み込みエラー: %s"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 138
 msgid "All Files"
 msgstr "全てのファイル"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 148
 msgid "Select a file..."
 msgstr "ファイルを選択してください..."
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 177
 #, python-format
 msgid "Error writing the file: %s"
 msgstr "ファイル書き込みエラー : %s"
+
 #
 # File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 30
 msgid "Calendar View Error !"
 msgstr "カレンダービューエラー!"
+
 #
 # File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 31
 msgid "You must intall the library python-hippocanvas to use calendars."
 msgstr "カレンダーを使うにはpython-hippocanvasをインストールしてください。"
+
 #
 # File: bin/widget/view/calendar_gtk/parser.py, line: 355
 # File: bin/openerp.glade, line: 8078
 msgid "Week"
 msgstr "週"
+
 #
 # File: bin/widget/view/graph_gtk/parser.py, line: 64
 msgid "Can not generate graph !"
 msgstr "グラフ生成できません!"
+
 #
 # File: bin/options.py, line: 121
 #, python-format
 msgid "OpenERP Client %s"
 msgstr "OpenERP %s"
+
 #
 # File: bin/options.py, line: 122
 msgid "specify alternate config file"
 msgstr "選択すべき構成ファイル明細"
+
 #
 # File: bin/options.py, line: 123
 msgid "Enable basic debugging. Alias for '--log-level=debug'"
 msgstr "基本デバッギングを有効化して下さい。 '--log-level=debug' のエイリアス"
+
 #
 # File: bin/options.py, line: 124
 #, python-format
 msgid "specify the log level: %s"
 msgstr "ログ・レベル %s を指定する"
+
 #
 # File: bin/options.py, line: 125
 msgid "specify the user login"
 msgstr "ユーザーログインを明記"
+
 #
 # File: bin/options.py, line: 126
 msgid "specify the server port"
 msgstr "サーバーポートを明記"
+
 #
 # File: bin/options.py, line: 127
 msgid "specify the server ip/name"
 msgstr "サーバーIP/サーバー名を明記"
+
 #
 # File: bin/openerp-client.py, line: 142
 msgid "Closing OpenERP, KeyboardInterrupt"
 msgstr "OpenERP(キーボードインターラプト)を閉じる"
+
 #
 # File: bin/plugins/__init__.py, line: 27
 msgid "Print Workflow"
 msgstr "印刷作業フロー"
+
 #
 # File: bin/plugins/__init__.py, line: 28
 msgid "Print Workflow (with subflows)"
 msgstr "印刷作業フロー(複合)"
+
 #
 # File: bin/plugins/__init__.py, line: 40
 msgid "No available plugin for this resource !"
 msgstr "このリソースで利用できるプラグインではありません!"
+
 #
 # File: bin/plugins/__init__.py, line: 42
 msgid "Choose a Plugin"
 msgstr "プラグインを選択して下さい。"
+
 #
 # File: bin/translate.py, line: 183
-#, fuzzy, python-format
+#, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
-msgstr "ロケール %sにセットできません"
+msgstr ""
+
 #
 # File: bin/rpc.py, line: 157
 # File: bin/modules/action/wizard.py, line: 150
 # File: bin/modules/gui/main.py, line: 187
 msgid "Connection refused !"
 msgstr "接続は拒否されました！"
+
 #
 # File: bin/rpc.py, line: 158
 msgid "Connection refused!"
 msgstr "接続が拒否されました!"
+
 #
 # File: bin/rpc.py, line: 188
 msgid ""
@@ -949,10 +1075,12 @@ msgid ""
 msgstr ""
 "OpenERPサーバーに到達することができない場合、\n"
 "ネットワークとOpenERPサーバの接続を確認して下さい。"
+
 #
 # File: bin/rpc.py, line: 188
 msgid "Connection Error"
 msgstr "接続エラー"
+
 #
 # File: bin/rpc.py, line: 203
 # File: bin/rpc.py, line: 205
@@ -963,16 +1091,19 @@ msgstr "接続エラー"
 # File: bin/modules/gui/main.py, line: 201
 msgid "Application Error"
 msgstr "アプリケーションエラー"
+
 #
 # File: bin/rpc.py, line: 205
 # File: bin/modules/action/wizard.py, line: 170
 msgid "View details"
 msgstr "詳細を見る"
+
 #
 # File: bin/printer/printer.py, line: 184
 #, python-format
 msgid "Unable to handle %s filetype"
 msgstr "%sファイルタイプは無効です。"
+
 #
 # File: bin/printer/printer.py, line: 193
 #, python-format
@@ -980,36 +1111,43 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+
 #
 # File: bin/printer/printer.py, line: 195
-#, fuzzy
 msgid "Print Report"
-msgstr "印刷処理"
+msgstr ""
+
 #
 # File: bin/printer/printer.py, line: 212
 msgid "Error! No Data found. Make sure you have enough data to print!"
 msgstr ""
+
 #
 # File: bin/printer/printer.py, line: 239
 msgid "Error writing the file!"
 msgstr "ファイル書き込みエラー!"
+
 #
 # File: bin/modules/action/main.py, line: 48
 msgid "Nothing to print!"
 msgstr "プリントはありません！"
+
 #
 # File: bin/modules/action/main.py, line: 66
 msgid "Printing aborted, too long delay !"
 msgstr "長い遅延のため印刷は中止しました！"
+
 #
 # File: bin/modules/action/main.py, line: 195
 msgid "Select your action"
 msgstr "アクションを選択"
+
 #
 # File: bin/modules/gui/main.py, line: 89
 # File: bin/modules/gui/main.py, line: 341
 msgid "Could not connect to server !"
 msgstr "サーバーに接続できませんでした！"
+
 #
 # File: bin/modules/gui/main.py, line: 93
 # File: bin/openerp.glade, line: 72
@@ -1019,6 +1157,7 @@ msgstr "サーバーに接続できませんでした！"
 # File: bin/openerp.glade, line: 7480
 msgid "Server:"
 msgstr "サーバ:"
+
 #
 # File: bin/modules/gui/main.py, line: 104
 # File: bin/openerp.glade, line: 98
@@ -1028,85 +1167,99 @@ msgstr "サーバ:"
 # File: bin/openerp.glade, line: 7437
 msgid "Change"
 msgstr "変更"
+
 #
 # File: bin/modules/gui/main.py, line: 111
 msgid "Super Administrator Password:"
 msgstr "スーパー管理者パスワード:"
+
 #
 # File: bin/modules/gui/main.py, line: 193
 msgid "Bad Super Administrator Password"
 msgstr "システム管理者パスワードが違います"
+
 #
 # File: bin/modules/gui/main.py, line: 217
 msgid "Migration Scripts"
 msgstr "移行用スクリプト"
+
 #
 # File: bin/modules/gui/main.py, line: 220
 msgid "Contract ID:"
 msgstr ""
+
 #
 # File: bin/modules/gui/main.py, line: 226
 msgid "Contract Password:"
 msgstr "契約パスワード："
+
 #
 # File: bin/modules/gui/main.py, line: 241
 msgid "You already have the latest version"
 msgstr "あなたは既に最新のバージョンを持ってい"
+
 #
 # File: bin/modules/gui/main.py, line: 246
 msgid "The following updates are available:"
 msgstr "次の更新が利用可能です："
+
 #
 # File: bin/modules/gui/main.py, line: 258
 msgid "You can now migrate your databases."
 msgstr "もうあなたのデータベースを移行することができます。"
+
 #
 # File: bin/modules/gui/main.py, line: 263
 msgid "Migrate Database"
 msgstr "データベースを移行する"
+
 #
 # File: bin/modules/gui/main.py, line: 280
 msgid "Database"
 msgstr ""
+
 #
 # File: bin/modules/gui/main.py, line: 292
 msgid "Your database has been upgraded."
 msgstr "あなたのデータベースは更新されました。"
+
 #
 # File: bin/modules/gui/main.py, line: 294
 msgid "Your databases have been upgraded."
 msgstr "あなたのデータベースは更新されました。"
+
 #
 # File: bin/modules/gui/main.py, line: 296
 msgid "You have not selected a database"
 msgstr "データベースが選択されていません"
+
 #
 # File: bin/modules/gui/main.py, line: 360
 msgid "No database found, you must create one !"
 msgstr "データベースがありません。作成しなければなりません!"
+
 #
 # File: bin/modules/gui/main.py, line: 468
 msgid "Unknown"
 msgstr "不明"
+
 #
 # File: bin/modules/gui/main.py, line: 473
-#, fuzzy, python-format
-msgid ""
-"The versions of the server %(server_version)s and the client %"
-"(client_version)s mismatch. The client may not work properly. Use it at your "
-"own risks."
+#, python-format
+msgid "The versions of the server %(server_version)s and the client %(client_version)s mismatch. The client may not work properly. Use it at your own risks."
 msgstr ""
-"サーバー(%s)のバージョンとクライアント(%s)がありません。クライアントが正常に"
-"動作しない場合があります。ご確認ください。"
+
 #
 # File: bin/modules/gui/main.py, line: 610
 msgid "Sorry,'"
 msgstr "申し訳ありません"
+
 #
 # File: bin/modules/gui/main.py, line: 610
 # File: bin/modules/gui/main.py, line: 613
 msgid "Bad database name !"
 msgstr "不正なデータベース名!"
+
 #
 # File: bin/modules/gui/main.py, line: 613
 msgid ""
@@ -1115,6 +1268,7 @@ msgid ""
 msgstr ""
 "データベース名は通常のキャラクタだけを含めるか\n"
 "すべてのアクセント、スペースまたは特別なキャラクタを避けなければなりません。"
+
 #
 # File: bin/modules/gui/main.py, line: 637
 # File: bin/modules/gui/main.py, line: 650
@@ -1122,11 +1276,13 @@ msgstr ""
 # File: bin/modules/gui/main.py, line: 654
 msgid "Could not create database."
 msgstr "データベースを作成できませんでした。"
+
 #
 # File: bin/modules/gui/main.py, line: 638
 # File: bin/modules/gui/main.py, line: 650
 msgid "Database already exists !"
 msgstr "データベースは既に存在しています!"
+
 #
 # File: bin/modules/gui/main.py, line: 652
 # File: bin/modules/gui/main.py, line: 1384
@@ -1134,11 +1290,13 @@ msgstr "データベースは既に存在しています!"
 # File: bin/modules/gui/main.py, line: 1509
 msgid "Bad database administrator password !"
 msgstr "不正なデータベース管理人パスワード!"
+
 #
 # File: bin/modules/gui/main.py, line: 654
 # File: bin/modules/gui/main.py, line: 661
 msgid "Error during database creation !"
 msgstr "データベースの作成中にエラー！"
+
 #
 # File: bin/modules/gui/main.py, line: 661
 msgid ""
@@ -1147,46 +1305,51 @@ msgid ""
 msgstr ""
 "サーバはインストール中にダウンしました。\n"
 "このデータベースをドロップすることをお勧めします。"
+
 #
 # File: bin/modules/gui/main.py, line: 707
 # File: bin/modules/gui/main.py, line: 1072
 msgid "Press Ctrl+O to login"
 msgstr "Ctrl+O ログイン"
+
 #
 # File: bin/modules/gui/main.py, line: 974
 #, python-format
 msgid "%s"
 msgstr "%s"
+
 #
 # File: bin/modules/gui/main.py, line: 976
 msgid "No Company"
 msgstr "会社がありません"
+
 #
 # File: bin/modules/gui/main.py, line: 989
 #, python-format
 msgid "%s request(s)"
 msgstr "%s リクエスト"
+
 #
 # File: bin/modules/gui/main.py, line: 991
 msgid "No request"
 msgstr "ノーリクエスト"
+
 #
 # File: bin/modules/gui/main.py, line: 993
 #, python-format
 msgid " - %s request(s) sent"
 msgstr " - %s のリクエストが送信されました"
+
 #
 # File: bin/modules/gui/main.py, line: 1031
-msgid ""
-"Please double-check the database name or contact your administrator to "
-"verify the database status."
-msgstr ""
-"データベース名をダブルクリックするか、データベースの状態をシステム管理者に問"
-"い合せて下さい"
+msgid "Please double-check the database name or contact your administrator to verify the database status."
+msgstr "データベース名をダブルクリックするか、データベースの状態をシステム管理者に問い合せて下さい"
+
 #
 # File: bin/modules/gui/main.py, line: 1031
 msgid "Database cannot be accessed or does not exist"
 msgstr "データベースにアクセスできないか、存在しません"
+
 #
 # File: bin/modules/gui/main.py, line: 1035
 msgid ""
@@ -1195,6 +1358,7 @@ msgid ""
 msgstr ""
 "コミュニケーションエラー\n"
 "サーバーに接続できません！"
+
 #
 # File: bin/modules/gui/main.py, line: 1037
 msgid ""
@@ -1203,15 +1367,18 @@ msgid ""
 msgstr ""
 "認証エラー！\n"
 "ユーザ名あるいはパスワードがよくないです！"
+
 #
 # File: bin/modules/gui/main.py, line: 1050
 #, python-format
 msgid "OpenERP - %s"
 msgstr "OpenERP - %s"
+
 #
 # File: bin/modules/gui/main.py, line: 1070
 msgid "Not logged !"
 msgstr "記録されてません !"
+
 #
 # File: bin/modules/gui/main.py, line: 1153
 msgid ""
@@ -1222,185 +1389,223 @@ msgstr ""
 "システムにログインすることはできません！\n"
 "管理者に依頼を確認します。\"\n"
 "ユーザーのために定義されたアクションを持っています。"
+
 #
 # File: bin/modules/gui/main.py, line: 1187
 # File: bin/modules/gui/main.py, line: 1194
 msgid "Do you really want to quit ?"
 msgstr "本当に終了しますか？"
+
 #
 # File: bin/modules/gui/main.py, line: 1263
 #, python-format
 msgid "Attachments (%d)"
 msgstr "添付ファイル (%d)"
+
 #
 # File: bin/modules/gui/main.py, line: 1276
 msgid "Attachments"
 msgstr "添付"
+
 #
 # File: bin/modules/gui/main.py, line: 1375
 msgid "Delete a database"
 msgstr "データベースの削除"
+
 #
 # File: bin/modules/gui/main.py, line: 1381
 msgid "Database dropped successfully !"
 msgstr "データベースの削除成功 !"
+
 #
 # File: bin/modules/gui/main.py, line: 1384
 msgid "Could not drop database."
 msgstr "データベースが削除できませんでした。"
+
 #
 # File: bin/modules/gui/main.py, line: 1386
 msgid "Couldn't drop database"
 msgstr "データベースが削除できませんでした。"
+
 #
 # File: bin/modules/gui/main.py, line: 1401
 msgid "Database restored successfully !"
 msgstr "データベースが正常に復元されました！"
+
 #
 # File: bin/modules/gui/main.py, line: 1404
 msgid "Could not restore database."
 msgstr "データベースを復元できませんでした。"
+
 #
 # File: bin/modules/gui/main.py, line: 1406
 msgid "Couldn't restore database"
 msgstr "データベースを復元できませんでした。"
+
 #
 # File: bin/modules/gui/main.py, line: 1442
-#, fuzzy
 msgid "<b>Change your password</b>"
-msgstr "<b>権限管理者パスワード変更</b>"
+msgstr ""
+
 #
 # File: bin/modules/gui/main.py, line: 1457
 msgid "Confirmation password does not match new password, operation cancelled!"
-msgstr ""
-"確認のパスワード、新しいパスワードが一致しない場合は、操作をキャンセル！"
+msgstr "確認のパスワード、新しいパスワードが一致しない場合は、操作をキャンセル！"
+
 #
 # File: bin/modules/gui/main.py, line: 1459
 msgid "Validation Error."
 msgstr "認証エラー"
+
 #
 # File: bin/modules/gui/main.py, line: 1476
 msgid "Could not change the Super Admin password."
 msgstr "スーパー管理者パスワードを変更できませんでした。"
+
 #
 # File: bin/modules/gui/main.py, line: 1477
 # File: bin/modules/gui/main.py, line: 1483
 msgid "Bad password provided !"
 msgstr "不正なパスワードを提供！"
+
 #
 # File: bin/modules/gui/main.py, line: 1482
 msgid "Changing password failed, please verify old password."
 msgstr ""
+
 #
 # File: bin/modules/gui/main.py, line: 1490
 # File: bin/modules/gui/main.py, line: 1513
 msgid "Backup a database"
 msgstr "データベースをバックアップしてください。"
+
 #
 # File: bin/modules/gui/main.py, line: 1506
 msgid "Database backed up successfully !"
 msgstr "データベースが正常にバックアップされました !"
+
 #
 # File: bin/modules/gui/main.py, line: 1509
 msgid "Could not backup the database."
 msgstr "データベースのバックアップができません。"
+
 #
 # File: bin/modules/gui/main.py, line: 1511
 msgid "Couldn't backup database."
 msgstr "データベースのバックアップができません。"
+
 #
 # File: bin/modules/gui/window/__init__.py, line: 31
 msgid "Unknown Window"
 msgstr "不明なウィンドウです"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 43
 msgid "Extension"
 msgstr "エクステンション"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 43
 msgid "Application"
 msgstr "アプリケーション"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 43
 msgid "Print Processor"
 msgstr "印刷処理"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 114
 msgid "This extension is already defined"
 msgstr "この拡張はすでに定義されています"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 114
 # File: bin/openerp.glade, line: 7656
 msgid "Extension Manager"
 msgstr "拡張機能マネージャー"
+
 #
 # File: bin/modules/gui/window/form.py, line: 189
 msgid "Resource ID does not exist for this object!"
 msgstr "このオブジェクトに対するリソースIDがありません。"
+
 #
 # File: bin/modules/gui/window/form.py, line: 247
 msgid "No record selected ! You can only attach to existing record."
-msgstr ""
-"レコードを選択できません！あなたは、既存の記録に付随すらｷとしかできません。"
+msgstr "レコードを選択できません！あなたは、既存の記録に付随すらｷとしかできません。"
+
 #
 # File: bin/modules/gui/window/form.py, line: 264
 msgid "You have to select a record !"
 msgstr "あなたはレコードを選ばなければなりません !"
+
 #
 # File: bin/modules/gui/window/form.py, line: 270
 # File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 41
 # File: bin/modules/gui/window/win_export.py, line: 213
 msgid "ID"
 msgstr "ID"
+
 #
 # File: bin/modules/gui/window/form.py, line: 271
 msgid "Creation User"
 msgstr "作成したユーザー"
+
 #
 # File: bin/modules/gui/window/form.py, line: 272
 msgid "Creation Date"
 msgstr "作成日"
+
 #
 # File: bin/modules/gui/window/form.py, line: 273
 msgid "Latest Modification by"
 msgstr "最新の変更による"
+
 #
 # File: bin/modules/gui/window/form.py, line: 274
 msgid "Latest Modification Date"
 msgstr "最新の修正日付"
+
 #
 # File: bin/modules/gui/window/form.py, line: 275
 msgid "Internal Module Data ID"
 msgstr "内部モジュールデータID"
+
 #
 # File: bin/modules/gui/window/form.py, line: 287
-#, fuzzy
 msgid ""
 "Record is not saved ! \n"
 " Do you want to clear current record ?"
 msgstr ""
 "レコードが選択されていません！\n"
 "　現在のレコードを消しますか？"
+
 #
 # File: bin/modules/gui/window/form.py, line: 296
 msgid "Resources cleared."
 msgstr "リソースを習獅ｵました。"
+
 #
 # File: bin/modules/gui/window/form.py, line: 298
 msgid "Resources successfully removed."
 msgstr "リソースの削除に成功しました。"
+
 #
 # File: bin/modules/gui/window/form.py, line: 339
 msgid "Working now on the duplicated document !"
 msgstr "複写文書をすぐに作成します!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 355
 msgid "Document Saved."
 msgstr "ドキュメントを保存しました。"
+
 #
 # File: bin/modules/gui/window/form.py, line: 368
 msgid "Warning !"
 msgstr "警告!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 389
 # File: bin/modules/gui/window/form.py, line: 497
@@ -1410,62 +1615,76 @@ msgid ""
 msgstr ""
 "このレコードは変更されています。\n"
 "保存しますか?"
+
 #
 # File: bin/modules/gui/window/form.py, line: 447
 msgid "You must select one or several records !"
 msgstr "あなたは1つ、または複数のレコードを選択する必要があります!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 456
 msgid "Print Screen"
 msgstr "画面を印刷"
+
 #
 # File: bin/modules/gui/window/form.py, line: 476
 msgid "No record selected"
 msgstr "レコードが選択されていません。"
+
 #
 # File: bin/modules/gui/window/form.py, line: 481
 msgid "New document"
 msgstr "新規ドキュメント"
+
 #
 # File: bin/modules/gui/window/form.py, line: 483
 msgid "Editing document (id: "
 msgstr "編集ドキュメント(id: "
+
 #
 # File: bin/modules/gui/window/form.py, line: 486
 msgid "Record: "
 msgstr "レコード: "
+
 #
 # File: bin/modules/gui/window/form.py, line: 487
 msgid " of "
 msgstr " の "
+
 #
 # File: bin/modules/gui/window/view_tree/parse.py, line: 35
 msgid "Tree"
 msgstr "ツリー"
+
 #
 # File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 45
 msgid "Description"
 msgstr "詳細"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 51
 msgid "The file is empty !"
 msgstr "ファイルが空です！"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 51
 msgid "Importation !"
 msgstr "インポート！"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 61
 msgid "Imported one object !"
 msgstr "一つのオブジェクトをインポートしました！"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 63
 #, python-format
 msgid "Imported %d objects !"
 msgstr "%d オブジェクトがインポートされました!"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 70
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Error trying to import this record:\n"
 "%(err_import_record)s\n"
@@ -1475,42 +1694,46 @@ msgid ""
 "%(err_msg)s"
 msgstr ""
 "このレコードのインポートでエラー:\n"
-"%s\n"
+"%(err_import_record)s\n"
 "エラーメッセージ:\n"
-"%s\n"
+"%(err_type)s\n"
 "\n"
-"%s"
+"%(err_msg)s"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 72
 msgid "Importation Error !"
 msgstr "インポート・エラー！"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 105
 # File: bin/modules/gui/window/win_import.py, line: 109
 msgid "Field name"
 msgstr "フィールド名"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 142
 # File: bin/modules/gui/window/win_import.py, line: 144
 # File: bin/modules/gui/window/win_export.py, line: 214
-#, fuzzy
 msgid "Database ID"
-msgstr "データベース:"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 181
 msgid "Error opening .CSV file"
 msgstr ".CSVファイルのオープン時にエラー"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 181
 msgid "Input Error."
 msgstr "入力エラー"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 199
 #, python-format
 msgid "You cannot import this field %s, because we cannot auto-detect it"
-msgstr ""
-"あなたは、このフィールド %s をインポートできません。なぜなら、私たちは、それ"
-"を自動的に検出できないからです。"
+msgstr "あなたは、このフィールド %s をインポートできません。なぜなら、私たちは、それを自動的に検出できないからです。"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 202
 #, python-format
@@ -1520,65 +1743,78 @@ msgid ""
 msgstr ""
 "ファイルの先頭で処理エラー\n"
 "フィールド %s が不明です"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 202
 msgid "Import Error."
 msgstr "入力エラー"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 233
 msgid "You have not selected any fields to import"
 msgstr "あなたは、インポートするフィールドをまだ選んでいません。"
+
 #
 # File: bin/modules/gui/window/win_preference.py, line: 68
 msgid "Preferences"
 msgstr "プリファレンス"
+
 #
 # File: bin/modules/gui/window/win_preference.py, line: 86
-msgid ""
-"The default language of the interface has been modified, do not forget to "
-"restart the client to have the interface in your language"
+msgid "The default language of the interface has been modified, do not forget to restart the client to have the interface in your language"
 msgstr ""
-"インタフェースのデフォルト言語が変更されました,\\n\r\n"
+"インタフェースのデフォルト言語が変更されました,\\n"
+"\r\n"
 "インターフェース言語を変更するには、クライアントを再起動して下さい"
+
 #
 # File: bin/modules/gui/window/win_preference.py, line: 88
 msgid "Default language modified !"
 msgstr "デフォルトの言語が変更されました"
+
 #
 # File: bin/modules/gui/window/win_selection.py, line: 51
 msgid "Name"
 msgstr "名前"
+
 #
 # File: bin/modules/gui/window/win_selection.py, line: 55
 msgid "Ressource Name"
 msgstr "リソース名"
+
 #
 # File: bin/modules/gui/window/win_selection.py, line: 55
 msgid "Names"
 msgstr "名前"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 205
 # File: bin/modules/gui/window/tree.py, line: 261
 msgid "No resource selected!"
 msgstr "リソースが選択されていません!"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 219
 msgid ""
 "Are you sure you want\n"
 "to remove this record?"
 msgstr "このレコードを削除してもよろしいですか？"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 224
 msgid "Error removing resource!"
 msgstr "エラー!リソースの削除"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 235
 msgid "Unable to chroot: no tree resource selected"
 msgstr "選択されたツリー構造のリソースがありません。"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 50
 msgid " record(s) saved !"
 msgstr " レコードを保存しました!"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 53
 msgid ""
@@ -1587,466 +1823,575 @@ msgid ""
 msgstr ""
 "操作に失敗しました!\n"
 "I/Oエラー"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 79
 # File: bin/modules/gui/window/win_export.py, line: 105
 msgid "Error Opening Excel !"
 msgstr "エラー。エクセルを開く!"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 142
 # File: bin/modules/gui/window/win_export.py, line: 146
-#, fuzzy
 msgid "Field Name"
-msgstr "フィールド名:"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 166
-#, fuzzy
 msgid "Open in Excel"
-msgstr "エラー。エクセルを開く!"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 167
-#, fuzzy
 msgid "Save as CSV"
-msgstr "別名で保存"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 317
 msgid "What is the name of this export ?"
 msgstr "エクスポート名？"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 351
 msgid "Exportation Error !"
 msgstr "エクスポート・エラー！"
+
 #
 # File: bin/modules/gui/window/win_search.py, line: 126
 #, python-format
 msgid "OpenERP Search: %s"
 msgstr "OpenERP 検索: %s (%%d 結果(s))"
+
 #
 # File: bin/modules/gui/window/win_search.py, line: 127
 #, python-format
 msgid "OpenERP Search: %s (%%d result(s))"
 msgstr "OpenERP 検索: %s (%%d 結果(s))"
+
 #
 # File: bin/openerp.glade, line: 6
 msgid "OpenERP - Login"
 msgstr "OpenERP - ログイン"
+
 #
 # File: bin/openerp.glade, line: 116
 # File: bin/openerp.glade, line: 6419
 msgid "Database:"
 msgstr "データベース:"
+
 #
 # File: bin/openerp.glade, line: 131
 msgid "User:"
 msgstr "ユーザー:"
+
 #
 # File: bin/openerp.glade, line: 146
 # File: bin/openerp.glade, line: 6405
 # File: bin/openerp.glade, line: 6716
 msgid "Password:"
 msgstr "パスワード:"
+
 #
 # File: bin/openerp.glade, line: 265
 msgid "_File"
 msgstr "ファイル(_F)"
+
 #
 # File: bin/openerp.glade, line: 272
 msgid "_Connect..."
 msgstr "接続(_C)"
+
 #
 # File: bin/openerp.glade, line: 288
 msgid "_Disconnect"
 msgstr "切断(_D)"
+
 #
 # File: bin/openerp.glade, line: 308
 msgid "Databases"
 msgstr "データベース"
+
 #
 # File: bin/openerp.glade, line: 315
 msgid "_New database"
 msgstr "新規データベース(_N)"
+
 #
 # File: bin/openerp.glade, line: 330
 msgid "_Restore database"
 msgstr "データベースの修復(_R)"
+
 #
 # File: bin/openerp.glade, line: 345
 msgid "_Backup database"
 msgstr "データベースのバックアップ(_B)"
+
 #
 # File: bin/openerp.glade, line: 360
 msgid "Dro_p database"
 msgstr "データベースの削除(_P)"
+
 #
 # File: bin/openerp.glade, line: 380
 msgid "_Download Migrations Code"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 395
 msgid "_Migrate Database(s)"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 415
 msgid "Administrator Password"
 msgstr "アドミニストレーターのパスワード"
+
 #
 # File: bin/openerp.glade, line: 460
 msgid "_User"
 msgstr "ユーザ(_U)"
+
 #
 # File: bin/openerp.glade, line: 468
 msgid "_Preferences"
 msgstr "設定(_P)"
+
 #
 # File: bin/openerp.glade, line: 483
 # File: bin/openerp.glade, line: 7318
 msgid "Change password"
 msgstr "パスワードの変更"
+
 #
 # File: bin/openerp.glade, line: 496
 msgid "_Send a request"
 msgstr "リクエストを送信(_S)"
+
 #
 # File: bin/openerp.glade, line: 511
 msgid "_Read my requests"
 msgstr "リクエストを読む(_R)"
+
 #
 # File: bin/openerp.glade, line: 531
 msgid "_Waiting Requests"
 msgstr "リクエスト待ち(_W)"
+
 #
 # File: bin/openerp.glade, line: 544
 msgid "For_m"
 msgstr "フォーム(_M)"
+
 #
 # File: bin/openerp.glade, line: 552
 msgid "_New"
 msgstr "新規 (_N)"
+
 #
 # File: bin/openerp.glade, line: 568
 msgid "_Save"
 msgstr "保存(_S)"
+
 #
 # File: bin/openerp.glade, line: 584
 msgid "Copy this resource"
 msgstr "このリソースをコピー"
+
 #
 # File: bin/openerp.glade, line: 585
 msgid "_Duplicate"
 msgstr "複製(_D)"
+
 #
 # File: bin/openerp.glade, line: 601
 msgid "_Delete"
 msgstr "削除(_D)"
+
 #
 # File: bin/openerp.glade, line: 622
 msgid "Find"
 msgstr "検索"
+
 #
 # File: bin/openerp.glade, line: 638
 msgid "Ne_xt"
 msgstr "次ヘ（_X)"
+
 #
 # File: bin/openerp.glade, line: 654
 msgid "Pre_vious"
 msgstr "前へ(_V)"
+
 #
 # File: bin/openerp.glade, line: 670
 msgid "Switch to list/form"
 msgstr "リスト/フォーム切り替え"
+
 #
 # File: bin/openerp.glade, line: 686
 msgid "_Menu"
 msgstr "メニュー(_M)"
+
 #
 # File: bin/openerp.glade, line: 707
 msgid "_New Home Tab"
 msgstr "新規ホームタブ(_N)"
+
 #
 # File: bin/openerp.glade, line: 723
 # File: bin/openerp.glade, line: 5009
 msgid "Close Tab"
 msgstr "タブを閉じる"
+
 #
 # File: bin/openerp.glade, line: 739
 msgid "Previous Tab"
 msgstr "前のタブ"
+
 #
 # File: bin/openerp.glade, line: 748
 # File: bin/openerp.glade, line: 5065
 msgid "Next Tab"
 msgstr "次のタブ"
+
 #
 # File: bin/openerp.glade, line: 762
 msgid "View _logs"
 msgstr "ログビュー(_L)"
+
 #
 # File: bin/openerp.glade, line: 770
 msgid "_Go to resource ID..."
 msgstr "リソースIDへ...(_G)"
+
 #
 # File: bin/openerp.glade, line: 784
 msgid "_Open"
 msgstr "開く(_O)"
+
 #
 # File: bin/openerp.glade, line: 799
 msgid "Reloa_d / Undo"
 msgstr "再読み込み/無効(_D)"
+
 #
 # File: bin/openerp.glade, line: 820
 msgid "Repeat latest _action"
 msgstr "直前の作業繰り返し(_A)"
+
 #
 # File: bin/openerp.glade, line: 834
 msgid "_Preview in PDF"
 msgstr "PDFプレビュー(_P)"
+
 #
 # File: bin/openerp.glade, line: 850
 msgid "Previe_w in editor"
 msgstr "編集プレビュー(_W)"
+
 #
 # File: bin/openerp.glade, line: 870
 msgid "Expor_t data..."
 msgstr "データエクスポート(_T)"
+
 #
 # File: bin/openerp.glade, line: 885
 msgid "I_mport data..."
 msgstr "データインポート(_M)"
+
 #
 # File: bin/openerp.glade, line: 897
 msgid "_Options"
 msgstr "オプション(_O)"
+
 #
 # File: bin/openerp.glade, line: 904
 msgid "_Extension Manager"
 msgstr "拡張管理(_E)"
+
 #
 # File: bin/openerp.glade, line: 912
 msgid "_Menubar"
 msgstr "メニューバー(_M)"
+
 #
 # File: bin/openerp.glade, line: 920
 msgid "Text _and Icons"
 msgstr "文字とアイコン(_A)"
+
 #
 # File: bin/openerp.glade, line: 928
 msgid "_Icons only"
 msgstr "アイコンのみ(_I)"
+
 #
 # File: bin/openerp.glade, line: 937
 msgid "_Text only"
 msgstr "テキストのみ(_T)"
+
 #
 # File: bin/openerp.glade, line: 950
 msgid "_Forms"
 msgstr "フォーム(_F)"
+
 #
 # File: bin/openerp.glade, line: 958
 msgid "Right Toolbar"
 msgstr "右ツールバー"
+
 #
 # File: bin/openerp.glade, line: 966
 msgid "Tabs default position"
 msgstr "デフォルト位置タブ"
+
 #
 # File: bin/openerp.glade, line: 974
 msgid "Top"
 msgstr "トップ"
+
 #
 # File: bin/openerp.glade, line: 982
 msgid "Left"
 msgstr "左"
+
 #
 # File: bin/openerp.glade, line: 991
 msgid "Right"
 msgstr "右"
+
 #
 # File: bin/openerp.glade, line: 1000
 msgid "Bottom"
 msgstr "下"
+
 #
 # File: bin/openerp.glade, line: 1013
 msgid "Tabs default orientation"
 msgstr "デフォルト方向へのタブ"
+
 #
 # File: bin/openerp.glade, line: 1021
 msgid "Horizontal"
 msgstr "水平"
+
 #
 # File: bin/openerp.glade, line: 1029
 msgid "Vertical"
 msgstr "垂直"
+
 #
 # File: bin/openerp.glade, line: 1046
 msgid "_Print"
 msgstr "印刷(_P)"
+
 #
 # File: bin/openerp.glade, line: 1053
 msgid "Previe_w before print"
 msgstr "印刷プレビュー(_W)"
+
 #
 # File: bin/openerp.glade, line: 1077
 msgid "_Save options"
 msgstr "オプション保存(_S)"
+
 #
 # File: bin/openerp.glade, line: 1097
 msgid "_Plugins"
 msgstr "プラグイン(_P)"
+
 #
 # File: bin/openerp.glade, line: 1105
 msgid "_Execute a plugin"
 msgstr "プラグイン実行(_E)"
+
 #
 # File: bin/openerp.glade, line: 1125
 msgid "_Shortcuts"
 msgstr "ショートカット(_S)"
+
 #
 # File: bin/openerp.glade, line: 1133
 msgid "_Help"
 msgstr "ヘルプ(_H)"
+
 #
 # File: bin/openerp.glade, line: 1140
 msgid "Enable Debug Mode Tooltips"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 1148
 # File: bin/openerp.glade, line: 4380
 msgid "Support Request"
 msgstr "サポート依頼"
+
 #
 # File: bin/openerp.glade, line: 1168
 msgid "User _Manual"
 msgstr "ユーザーマニュアル(_M)"
+
 #
 # File: bin/openerp.glade, line: 1183
 msgid "_Contextual Help"
 msgstr "文脈ヘルプ(_C)"
+
 #
 # File: bin/openerp.glade, line: 1199
 msgid "Keyboard Shortcuts"
 msgstr "ショートカットキー"
+
 #
 # File: bin/openerp.glade, line: 1212
 msgid "_License"
 msgstr "ライセンス(_L)"
+
 #
 # File: bin/openerp.glade, line: 1227
 msgid "_About..."
 msgstr "情報(_A)"
+
 #
 # File: bin/openerp.glade, line: 1269
 msgid "Edit / Save this resource"
 msgstr "このリソースの編集/保存"
+
 #
 # File: bin/openerp.glade, line: 1285
 msgid "Delete this resource"
 msgstr "このリソース削除"
+
 #
 # File: bin/openerp.glade, line: 1298
 msgid "Go to previous matched search"
 msgstr "前を検索"
+
 #
 # File: bin/openerp.glade, line: 1299
 msgid "Previous"
 msgstr "前へ"
+
 #
 # File: bin/openerp.glade, line: 1310
 msgid "Go to next matched resource"
 msgstr "次の合致リソースへ"
+
 #
 # File: bin/openerp.glade, line: 1311
 msgid "Next"
 msgstr "次へ"
+
 #
 # File: bin/openerp.glade, line: 1324
 msgid "List"
 msgstr "リスト"
+
 #
 # File: bin/openerp.glade, line: 1336
 msgid "Form"
 msgstr "編集"
+
 #
 # File: bin/openerp.glade, line: 1349
 msgid "Calendar"
 msgstr "カレンダー"
+
 #
 # File: bin/openerp.glade, line: 1359
 msgid "Diagram"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 1369
 msgid "Graph"
 msgstr "グラフ"
+
 #
 # File: bin/openerp.glade, line: 1382
 msgid "Gantt"
 msgstr "Gantt"
+
 #
 # File: bin/openerp.glade, line: 1400
 msgid "Print documents"
 msgstr "ドキュメント印刷"
+
 #
 # File: bin/openerp.glade, line: 1411
 msgid "Launch actions about this resource"
 msgstr "このリソースについてのランチアクション"
+
 #
 # File: bin/openerp.glade, line: 1424
 msgid "Add an attachment to this resource"
 msgstr "このリソースに添付"
+
 #
 # File: bin/openerp.glade, line: 1425
 msgid "Attachment"
 msgstr "添付"
+
 #
 # File: bin/openerp.glade, line: 1440
 # File: bin/openerp.glade, line: 1441
 msgid "Menu"
 msgstr "メニュー"
+
 #
 # File: bin/openerp.glade, line: 1458
 # File: bin/openerp.glade, line: 1459
 msgid "Reload"
 msgstr "再読み込み"
+
 #
 # File: bin/openerp.glade, line: 1476
 msgid "Close this window"
 msgstr "ウィンドウを閉じる"
+
 #
 # File: bin/openerp.glade, line: 1520
 msgid "Company:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 1543
 msgid "Requests:"
 msgstr "リクエスト"
+
 #
 # File: bin/openerp.glade, line: 1566
 msgid "Read my Requests"
 msgstr "リクエストを読む"
+
 #
 # File: bin/openerp.glade, line: 1587
 msgid "Send a new request"
 msgstr "新リクエスト送信"
+
 #
 # File: bin/openerp.glade, line: 1627
 msgid "OpenERP - Tree Resources"
 msgstr "OpenERP - ツリー構造のリソース"
+
 #
 # File: bin/openerp.glade, line: 1680
 msgid "Shortcuts"
 msgstr "ショートカット"
+
 #
 # File: bin/openerp.glade, line: 1789
 msgid "OpenERP - Forms"
 msgstr "OpenERP - フォーム"
+
 #
 # File: bin/openerp.glade, line: 1813
 msgid "State:"
 msgstr "状態:"
+
 #
 # File: bin/openerp.glade, line: 1845
 msgid "OpenERP - About"
 msgstr "OpenERP - について"
+
 #
 # File: bin/openerp.glade, line: 1859
 msgid ""
@@ -2055,6 +2400,7 @@ msgid ""
 msgstr ""
 "<b>OpenERPについて<b>\n"
 "<i>最も進歩したCRMとERPのオープンソースです!</i>"
+
 #
 # File: bin/openerp.glade, line: 1898
 msgid ""
@@ -2076,10 +2422,12 @@ msgid ""
 "\n"
 "More Info on www.openerp.com !"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 1931
 msgid "_OpenERP"
 msgstr "_OpenERP"
+
 #
 # File: bin/openerp.glade, line: 1959
 msgid ""
@@ -2097,184 +2445,223 @@ msgid ""
 "Mail: sales@openerp.com\n"
 "Web: http://openerp.com"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 1991
 msgid "_Contact"
 msgstr "連絡先(_C)"
+
 #
 # File: bin/openerp.glade, line: 2043
 msgid "Open ERP - Forms widget"
 msgstr "OpenERP - ウィジェットフォーム"
+
 #
 # File: bin/openerp.glade, line: 2222
 # File: bin/openerp.glade, line: 4726
 msgid "OpenERP - Confirmation"
 msgstr "OpenERP - 確認"
+
 #
 # File: bin/openerp.glade, line: 2301
 msgid "OpenERP - Selection"
 msgstr "OpenERP - 選択"
+
 #
 # File: bin/openerp.glade, line: 2315
 msgid "Your selection:"
 msgstr "貴方の選択:"
+
 #
 # File: bin/openerp.glade, line: 2395
 msgid "OpenERP - Dialog"
 msgstr "OpenERP -ダイアログ"
+
 #
 # File: bin/openerp.glade, line: 2419
 msgid "OpenERP, Field Preference target"
 msgstr "OpenERP, 選択フィールドのターゲット"
+
 #
 # File: bin/openerp.glade, line: 2450
 msgid "_only for you"
 msgstr "貴方個人用"
+
 #
 # File: bin/openerp.glade, line: 2464
 msgid "for _all users"
 msgstr "全ユーザー用"
+
 #
 # File: bin/openerp.glade, line: 2484
 msgid "<b>Value applicable for:</b>"
 msgstr "<b>適応値 以下のための:</b>"
+
 #
 # File: bin/openerp.glade, line: 2520
 msgid "<b>Value applicable if:</b>"
 msgstr "<b>適応値　以下の場合:</b>"
+
 #
 # File: bin/openerp.glade, line: 2538
 msgid "Field _Name:"
 msgstr "フィールド名:"
+
 #
 # File: bin/openerp.glade, line: 2552
 msgid "_Domain:"
 msgstr "ドメイン(_D):"
+
 #
 # File: bin/openerp.glade, line: 2611
 msgid "Default _value:"
 msgstr "デフォルト値 :"
+
 #
 # File: bin/openerp.glade, line: 2666
 msgid "OpenERP - Export to CSV"
 msgstr "OpenERP -CSVエクスポート"
+
 #
 # File: bin/openerp.glade, line: 2714
 msgid "Save List"
 msgstr "リストを保存"
+
 #
 # File: bin/openerp.glade, line: 2762
 msgid "Remove List"
 msgstr "リストを削除"
+
 #
 # File: bin/openerp.glade, line: 2817
 msgid "<b>Exports List</b>"
 msgstr "<b>エクスポートリスト</b>"
+
 #
 # File: bin/openerp.glade, line: 2834
 msgid "<b>Predefined Exports</b>"
 msgstr "<b>定義図エクスポート</b>"
+
 #
 # File: bin/openerp.glade, line: 2880
 msgid "Available Fields"
 msgstr "利用可能なフィールド"
+
 #
 # File: bin/openerp.glade, line: 2923
 # File: bin/openerp.glade, line: 5634
 msgid "_Add"
 msgstr "追加(_A)"
+
 #
 # File: bin/openerp.glade, line: 2970
 # File: bin/openerp.glade, line: 5681
 msgid "_Remove"
 msgstr "削除(_R)"
+
 #
 # File: bin/openerp.glade, line: 3018
 msgid "_Nothing"
 msgstr "なし"
+
 #
 # File: bin/openerp.glade, line: 3073
 msgid "Fields to Export"
 msgstr "エクスポートするフィールド"
+
 #
 # File: bin/openerp.glade, line: 3115
-#, fuzzy
 msgid "Add Field Names"
-msgstr "フィールド名追加"
+msgstr ""
+
 #
 # File: bin/openerp.glade, line: 3134
 msgid "Import Compatible"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 3156
 msgid "<b>Opti_ons</b>"
 msgstr "<b>オプション</b>"
+
 #
 # File: bin/openerp.glade, line: 3215
 msgid "OpenERP - Search"
 msgstr "OpenERP - 検索"
+
 #
 # File: bin/openerp.glade, line: 3295
 msgid "OpenERP - Preferences"
 msgstr "OpenERP - リファレンス"
+
 #
 # File: bin/openerp.glade, line: 3309
 msgid "<b>User preferences</b>"
 msgstr "<b>ユーザーリファレンス</b>"
+
 #
 # File: bin/openerp.glade, line: 3375
 msgid "Tip of the Day"
 msgstr "今日のワンポイント"
+
 #
 # File: bin/openerp.glade, line: 3422
 msgid "_Display a new tip next time?"
 msgstr "次回ヒントを表示しますか?"
+
 #
 # File: bin/openerp.glade, line: 3475
 msgid "Pre_vious Tip"
 msgstr "前のヒント"
+
 #
 # File: bin/openerp.glade, line: 3521
 msgid "Ne_xt Tip"
 msgstr "次のヒント"
+
 #
 # File: bin/openerp.glade, line: 3567
 msgid "OpenERP - License"
 msgstr "OpenERP - ライセンス"
+
 #
 # File: bin/openerp.glade, line: 3582
 msgid "OpenERP license"
 msgstr "OpenERPライセンス"
+
 #
 # File: bin/openerp.glade, line: 4277
 msgid "Go to resource ID"
 msgstr "リソース IDへ"
+
 #
 # File: bin/openerp.glade, line: 4327
 msgid "Search ID:"
 msgstr "検索 ID :"
+
 #
 # File: bin/openerp.glade, line: 4406
 msgid ""
 "<b>Complete this form to submit your bug and/or send a support request.</b>\n"
 "<i>\n"
 "Your request will be sent to the OpenERP team and we will reply shortly.\n"
-"Note that we may not reply if you do not have a support contract with Tiny "
-"or an official partner.</i>"
+"Note that we may not reply if you do not have a support contract with Tiny or an official partner.</i>"
 msgstr ""
 "<b>このフォームをすべて入力してバグやサポート要請を送信してください</b>\n"
 "<i>\n"
 "OpenERPチームに送られすぐに返答があるでしょう。\n"
-"tinyや公式パートナーとサポート契約していない場合は返答がありませんので注意し"
-"てください。</i>"
+"tinyや公式パートナーとサポート契約していない場合は返答がありませんので注意してください。</i>"
+
 #
 # File: bin/openerp.glade, line: 4465
 msgid "Phone number:"
 msgstr "電話番号"
+
 #
 # File: bin/openerp.glade, line: 4478
 msgid "Emergency:"
 msgstr "緊急連絡先"
+
 #
 # File: bin/openerp.glade, line: 4492
 msgid ""
@@ -2287,450 +2674,521 @@ msgstr ""
 "ほどほど\n"
 "急ぎ\n"
 "かなり緊急"
+
 #
 # File: bin/openerp.glade, line: 4525
 msgid "<b>Support contract id:</b>"
 msgstr "<b> サポート契約ID:</b>"
+
 #
 # File: bin/openerp.glade, line: 4582
 # File: bin/win_error.glade, line: 200
 msgid "Other comments:"
 msgstr "他のコメント :"
+
 #
 # File: bin/openerp.glade, line: 4596
 msgid "Explain your problem:"
 msgstr "問題を説明:"
+
 #
 # File: bin/openerp.glade, line: 4635
 msgid "<b>Your email:</b>"
 msgstr "<b>Eメール :</b>"
+
 #
 # File: bin/openerp.glade, line: 4649
 msgid "<b>Your Company:</b>"
 msgstr "<b>会社名:</b>"
+
 #
 # File: bin/openerp.glade, line: 4663
 msgid "<b>Your name:</b>"
 msgstr "<b> 名前:</b>"
+
 #
 # File: bin/openerp.glade, line: 4754
 # File: bin/openerp.glade, line: 6124
 msgid "Hello World!"
 msgstr "ハローワールド"
+
 #
 # File: bin/openerp.glade, line: 4816
 msgid "Keyboard shortcuts"
 msgstr "キーボードショートカット"
+
 #
 # File: bin/openerp.glade, line: 4838
 msgid "<b>Shortcuts for OpenERP</b>"
 msgstr "<b>OpenERPショートカット</b>"
+
 #
 # File: bin/openerp.glade, line: 4852
 msgid "Close window without saving"
 msgstr "保存しないで閉じる"
+
 #
 # File: bin/openerp.glade, line: 4867
 msgid "<Ctrl> + <Esc>"
 msgstr "<ctrl> + <Esc>"
+
 #
 # File: bin/openerp.glade, line: 4881
 msgid "<i>When editing a resource in a popup window</i>"
 msgstr "<i>ポップアップウィンドウでリソース編集</i>"
+
 #
 # File: bin/openerp.glade, line: 4897
 msgid "Save and Close window"
 msgstr "保存して閉じる"
+
 #
 # File: bin/openerp.glade, line: 4912
 msgid "<Ctrl> + <Enter>"
 msgstr "<ctrl> + <Enter>"
+
 #
 # File: bin/openerp.glade, line: 4925
 msgid "Switch view mode"
 msgstr "ビューモード切替"
+
 #
 # File: bin/openerp.glade, line: 4940
 msgid "<Ctrl> + L"
 msgstr "<ctrl> + L"
+
 #
 # File: bin/openerp.glade, line: 4953
 msgid "Next record"
 msgstr "次のレコード"
+
 #
 # File: bin/openerp.glade, line: 4968
 msgid "Previous record"
 msgstr "前のレコード"
+
 #
 # File: bin/openerp.glade, line: 4983
 msgid "<PgDn>"
 msgstr "<PgDn>"
+
 #
 # File: bin/openerp.glade, line: 4996
 msgid "<PgUp>"
 msgstr "<PgUp>"
+
 #
 # File: bin/openerp.glade, line: 5024
 msgid "Save"
 msgstr "保存"
+
 #
 # File: bin/openerp.glade, line: 5039
 msgid "<Ctrl> + W"
 msgstr "<ctrl> + W"
+
 #
 # File: bin/openerp.glade, line: 5052
 msgid "<Ctrl> + S"
 msgstr "<ctrl> + S"
+
 #
 # File: bin/openerp.glade, line: 5080
 msgid "<Ctrl> + <PgDn>"
 msgstr "<ctrl> + <PgDn>"
+
 #
 # File: bin/openerp.glade, line: 5093
 msgid "Previous tab"
 msgstr "前のタブ"
+
 #
 # File: bin/openerp.glade, line: 5108
 msgid "<Ctrl> + <PgUp>"
 msgstr "<ctrl> + <PgUp>"
+
 #
 # File: bin/openerp.glade, line: 5121
 msgid "New"
 msgstr "新規"
+
 #
 # File: bin/openerp.glade, line: 5136
 msgid "<Ctrl> + N"
 msgstr "<ctrl> + N"
+
 #
 # File: bin/openerp.glade, line: 5149
 msgid "Delete"
 msgstr "削除"
+
 #
 # File: bin/openerp.glade, line: 5164
 msgid "<Ctrl> + D"
 msgstr "<ctrl> + D"
+
 #
 # File: bin/openerp.glade, line: 5177
 msgid "Find / Search"
 msgstr "検索"
+
 #
 # File: bin/openerp.glade, line: 5192
 msgid "<Ctrl> + F"
 msgstr "<ctrl> + F"
+
 #
 # File: bin/openerp.glade, line: 5205
 msgid "Connect"
 msgstr "接続"
+
 #
 # File: bin/openerp.glade, line: 5220
 msgid "<Ctrl> + O"
 msgstr "<ctrl> + O"
+
 #
 # File: bin/openerp.glade, line: 5234
 msgid "Main Shortcuts"
 msgstr "メインショートカット"
+
 #
 # File: bin/openerp.glade, line: 5251
 msgid "F2"
 msgstr "(F2)"
+
 #
 # File: bin/openerp.glade, line: 5264
 msgid "<b>Shortcuts in relation fields</b>"
 msgstr "<b>関連フィールドへのショートカット</b>"
+
 #
 # File: bin/openerp.glade, line: 5279
 msgid "<b>Shortcuts in text entries</b>"
 msgstr "<b>文字エントリーへのショートカット</b>"
+
 #
 # File: bin/openerp.glade, line: 5292
 msgid "Open current field"
 msgstr "現フィールドを開く"
+
 #
 # File: bin/openerp.glade, line: 5307
 msgid "Add a new line/field"
 msgstr "新規　行/フィールド追加"
+
 #
 # File: bin/openerp.glade, line: 5322
 msgid "F1"
 msgstr "(f1)"
+
 #
 # File: bin/openerp.glade, line: 5335
 msgid "Auto-Complete text field"
 msgstr "文字フィールドのオートコンプリート"
+
 #
 # File: bin/openerp.glade, line: 5350
 msgid "<Enter>"
 msgstr "<Enter>"
+
 #
 # File: bin/openerp.glade, line: 5363
 msgid "Previous editable widget"
 msgstr "前の編集可能なウィジェット"
+
 #
 # File: bin/openerp.glade, line: 5378
 msgid "<Shift> + <Tab>"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 5391
 msgid "Next editable widget"
 msgstr "次の編集可能なウィジェット"
+
 #
 # File: bin/openerp.glade, line: 5406
 msgid "<Tab>"
 msgstr "<Tab>"
+
 #
 # File: bin/openerp.glade, line: 5419
 msgid "Paste selected text"
 msgstr "ペースト"
+
 #
 # File: bin/openerp.glade, line: 5434
 msgid "Copy selected text"
 msgstr "コピー"
+
 #
 # File: bin/openerp.glade, line: 5449
 msgid "Cut selected text"
 msgstr "カット"
+
 #
 # File: bin/openerp.glade, line: 5464
 msgid "<Ctrl> + V"
 msgstr "<ctrl> + V"
+
 #
 # File: bin/openerp.glade, line: 5477
 msgid "<Ctrl> + C"
 msgstr "<ctrl> + C"
+
 #
 # File: bin/openerp.glade, line: 5490
 msgid "<Ctrl> + X"
 msgstr "<ctrl> + x"
+
 #
 # File: bin/openerp.glade, line: 5507
 msgid "Edition Widgets"
 msgstr "ウィッジット編集"
+
 #
 # File: bin/openerp.glade, line: 5547
 msgid "Import from CSV"
 msgstr "CSVからインポート"
+
 #
 # File: bin/openerp.glade, line: 5592
 msgid "<b>All fields</b>"
 msgstr "<b>全フィールド</b>"
+
 #
 # File: bin/openerp.glade, line: 5729
 msgid "N_othing"
 msgstr "なし"
+
 #
 # File: bin/openerp.glade, line: 5786
 msgid "<b>Fields to import</b>"
 msgstr "<b>インポート用フィールド</b>"
+
 #
 # File: bin/openerp.glade, line: 5821
-#, fuzzy
 msgid "File to Import: "
 msgstr "インポート用ファイル :"
+
 #
 # File: bin/openerp.glade, line: 5866
 msgid "Auto-Detect"
 msgstr "自動検知"
+
 #
 # File: bin/openerp.glade, line: 5944
 msgid "Lines to Skip:"
 msgstr "スキップ行 :"
+
 #
 # File: bin/openerp.glade, line: 5973
 msgid "Text Delimiter:"
 msgstr "文字区切り符号"
+
 #
 # File: bin/openerp.glade, line: 6001
 msgid "Encoding:"
 msgstr "エンコーディング:"
+
 #
 # File: bin/openerp.glade, line: 6014
-#, fuzzy
 msgid "Field Separator: "
 msgstr "フィールド区切り符号"
+
 #
 # File: bin/openerp.glade, line: 6026
 msgid "CSV Parameters"
 msgstr "CSVパラメーター"
+
 #
 # File: bin/openerp.glade, line: 6191
 msgid "Server"
 msgstr "サーバー"
+
 #
 # File: bin/openerp.glade, line: 6201
 msgid "<b>Connect to a OpenERP server</b>"
 msgstr "<b>OpenERPサーバー接続</b>"
+
 #
 # File: bin/openerp.glade, line: 6260
 msgid "Protocol connection:"
 msgstr "接続プロトコル :"
+
 #
 # File: bin/openerp.glade, line: 6306
 msgid "Port:"
 msgstr "ポート："
+
 #
 # File: bin/openerp.glade, line: 6358
 msgid "Choose a database..."
 msgstr "データベース選択"
+
 #
 # File: bin/openerp.glade, line: 6373
 msgid "<b>Backup a database</b>"
 msgstr "<b>データベースバックアップ</b>"
+
 #
 # File: bin/openerp.glade, line: 6614
 msgid "Restore a database"
 msgstr "データベース修復"
+
 #
 # File: bin/openerp.glade, line: 6627
 msgid "<b>Restore a database</b>"
 msgstr "<b>データベース修復</b>"
+
 #
 # File: bin/openerp.glade, line: 6671
 msgid "(must not contain any special char)"
 msgstr "(予約語は使えません)"
+
 #
 # File: bin/openerp.glade, line: 6701
 msgid "New database name:"
 msgstr "新規データベース名："
+
 #
 # File: bin/openerp.glade, line: 6801
 # File: bin/openerp.glade, line: 6947
 # File: bin/openerp.glade, line: 7465
 msgid "http://localhost:8069"
 msgstr "http://localhost:8069"
+
 #
 # File: bin/openerp.glade, line: 6875
 msgid "Create a new database"
 msgstr "データベースの新規作成"
+
 #
 # File: bin/openerp.glade, line: 6888
 msgid "<b>Create a new database</b>"
 msgstr "<b>新データベース作成</b>"
+
 #
 # File: bin/openerp.glade, line: 6959
-msgid ""
-"This is the URL of the OpenERP server. Use 'localhost' if the server is "
-"installed on this computer. Click on 'Change' to change the address."
+msgid "This is the URL of the OpenERP server. Use 'localhost' if the server is installed on this computer. Click on 'Change' to change the address."
 msgstr ""
-"OpenERPのURLです。このコンピュータのサーバーがインストールされていれば使って"
-"ください。\r\n"
+"OpenERPのURLです。このコンピュータのサーバーがインストールされていれば使ってください。\r\n"
 "これはアドレスを変更するならクリックしてください。"
+
 #
 # File: bin/openerp.glade, line: 6963
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 6994
-msgid ""
-"This is the password of the user that have the rights to administer "
-"databases. This is not a OpenERP user, just a super administrator. If you "
-"did not changed it, the password is 'admin' after installation."
+msgid "This is the password of the user that have the rights to administer databases. This is not a OpenERP user, just a super administrator. If you did not changed it, the password is 'admin' after installation."
 msgstr ""
 "これはスーパーアドミニストレータ権限を持つユーザーのパスワードです。\r\n"
 "もしこれを変えたくなかったらインストール後このパスワードは'admin'になります。"
+
 #
 # File: bin/openerp.glade, line: 6998
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
-"Administrator Password:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super Administrator Password:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7017
 msgid "admin"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7031
 msgid "(<i>admin</i>, by default)"
 msgstr "(<i>admin</i>, par defaut)"
+
 #
 # File: bin/openerp.glade, line: 7096
-msgid ""
-"Choose the name of the database that will be created. The name must not "
-"contain any special character. Exemple: 'terp'."
+msgid "Choose the name of the database that will be created. The name must not contain any special character. Exemple: 'terp'."
 msgstr ""
 "作るデータベースの名前を選択してくだい。\r\n"
 "予約語は使えません。例:'terp'"
+
 #
 # File: bin/openerp.glade, line: 7098
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7123
-msgid ""
-"Choose the default language that will be installed for this database. You "
-"will be able to install new languages after installation through the "
-"administration menu."
+msgid "Choose the default language that will be installed for this database. You will be able to install new languages after installation through the administration menu."
 msgstr ""
 "子データベース用のデフォルト言語を選択してください。\r\n"
 "あとで権限管理メニューから変更できます。"
+
 #
 # File: bin/openerp.glade, line: 7125
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7138
-msgid ""
-"This is the password of the 'admin' user that will be created in your new "
-"database."
+msgid "This is the password of the 'admin' user that will be created in your new database."
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7140
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
-"Password:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator Password:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7153
-msgid ""
-"This is the password of the 'admin' user that will be created in your new "
-"database. It has to be the same than the above field."
+msgid "This is the password of the 'admin' user that will be created in your new database. It has to be the same than the above field."
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7155
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7248
-msgid ""
-"Check this box if you want demonstration data to be installed on your new "
-"database. These data will help you to understand OpenERP, with predefined "
-"products, partners, etc."
+msgid "Check this box if you want demonstration data to be installed on your new database. These data will help you to understand OpenERP, with predefined products, partners, etc."
 msgstr ""
 "貴方の新しいデータベースにデータを入れたい場合はチェックしてください。\r\n"
 "このデモデータはOpenERPの理解を深めるのに役立ちます。"
+
 #
 # File: bin/openerp.glade, line: 7251
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
-"Data:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration Data:"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 7335
 msgid "<b>Change your super admin password</b>"
 msgstr "<b>権限管理者パスワード変更</b>"
+
 #
 # File: bin/openerp.glade, line: 7491
 msgid "Old password:"
 msgstr "旧パスワード:"
+
 #
 # File: bin/openerp.glade, line: 7504
 msgid "New password:"
 msgstr "新しいパスワード:"
+
 #
 # File: bin/openerp.glade, line: 7517
 msgid "New password confirmation:"
 msgstr "新しいパスワード確認："
+
 #
 # File: bin/openerp.glade, line: 7576
 msgid "OpenERP Message"
 msgstr "OpenERPメッセージ"
+
 #
 # File: bin/openerp.glade, line: 7760
 msgid "Concurrency exception"
 msgstr "ファイル同時編集例外"
+
 #
 # File: bin/openerp.glade, line: 7785
 msgid ""
@@ -2751,431 +3209,104 @@ msgstr ""
 "　　　-\\\"キャンセル:\\\"保存しない。\n"
 "　　　-\\\"変更されたものと比較。\n"
 "　　　-\\\"貴方が書いたものを保存。\n"
+
 #
 # File: bin/openerp.glade, line: 7848
 msgid "Compare"
 msgstr "比較"
+
 #
 # File: bin/openerp.glade, line: 7894
 msgid "Write anyway"
 msgstr "記載"
+
 #
 # File: bin/openerp.glade, line: 7924
 # File: bin/openerp.glade, line: 7934
 msgid "window1"
 msgstr "window1"
+
 #
 # File: bin/openerp.glade, line: 8006
 msgid "Today"
 msgstr "本日"
+
 #
 # File: bin/openerp.glade, line: 8052
 msgid "September 2008"
 msgstr "2008年9月"
+
 #
 # File: bin/openerp.glade, line: 8066
 msgid "Day"
 msgstr "日"
+
 #
 # File: bin/openerp.glade, line: 8090
 msgid "Month"
 msgstr "月"
+
 #
 # File: bin/openerp.glade, line: 8244
 msgid "Filter Entry"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 8290
 msgid "Enter Filter Name:"
 msgstr ""
+
 #
 # File: bin/win_error.glade, line: 40
 msgid "label"
 msgstr "ラベル"
+
 #
 # File: bin/win_error.glade, line: 100
 msgid "Click here for details about the publisher warranty proposition"
 msgstr ""
+
 #
 # File: bin/win_error.glade, line: 120
 msgid "<i>_Publisher Warranty</i>"
 msgstr ""
+
 #
 # File: bin/win_error.glade, line: 151
-#, fuzzy
 msgid ""
 "<b>Publisher Warranty Contract.</b>\n"
 "<i>\n"
-"Your request will be sent to OpenERP and publisher warranty team will reply "
-"you shortly.\n"
+"Your request will be sent to OpenERP and publisher warranty team will reply you shortly.\n"
 "</i>"
 msgstr ""
-"<b>メンテナンス契約</b>\n"
-"<i>\n"
-"貴方の依頼はOpenERPから送られすぐにメンテナンスチームから返事があるでしょう\n"
-"</i>"
+
 #
 # File: bin/win_error.glade, line: 186
 msgid "Explain what you did:"
 msgstr "何をしたのか説明 :"
+
 #
 # File: bin/win_error.glade, line: 285
 msgid "Send to Publisher Warranty Team"
 msgstr ""
+
 #
 # File: bin/win_error.glade, line: 318
 msgid "Problems summary:"
 msgstr ""
+
 #
 # File: bin/win_error.glade, line: 360
 msgid "<i>_Support Request</i>"
 msgstr "サポート依頼"
+
 #
 # File: bin/win_error.glade, line: 387
 msgid "Details"
 msgstr "詳細"
+
 #
 # File: bin/win_error.glade, line: 404
 msgid "<i>_Details</i>"
 msgstr "<i>詳細</i>"
-#
-#~ msgid "Print Workflow (Complex)"
-#~ msgstr "印刷作業フロー(複合)"
-#
-#~ msgid "Edit"
-#~ msgstr "編集"
-#
-#~ msgid "Error, password not changed."
-#~ msgstr "エラー！パスワードが変更されていません。"
-#
-#~ msgid "XML-RPC error !"
-#~ msgstr "エラー XML-RPC !"
-#
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "リナックス自動印刷は実装されていません\n"
-#~ "プレビューオプションを使ってください!"
-#
-#~ msgid "in"
-#~ msgstr "含まれる"
-#
-#~ msgid "not in"
-#~ msgstr "含まれない"
-#
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "関連ボタンを使うにはボタンを選択してください。"
-#
-#~ msgid "Save as a Shortcut"
-#~ msgstr "ショートカットとして保存"
-#
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "エクセルで開く\n"
-#~ "CSVで保存"
-#
-#~ msgid "Others Comments:"
-#~ msgstr "他のコメント :"
-#
-#~ msgid "Country:"
-#~ msgstr "国:"
-#
-#~ msgid "Your Role:"
-#~ msgstr "役職"
-#
-#~ msgid "Industry:"
-#~ msgstr "産業"
-#
-#~ msgid "# Employees:"
-#~ msgstr "従業員"
-#
-#~ msgid "System:"
-#~ msgstr "システム:"
-#
-#~ msgid "Your Name:"
-#~ msgstr "お名前"
-#
-#~ msgid "E-Mail:"
-#~ msgstr "メールアドレス:"
-#
-#~ msgid "Your Company:"
-#~ msgstr "会社"
-#
-#~ msgid "Default Language:"
-#~ msgstr "デフォルトの言語:"
-#
-#~ msgid "Confirm Password:"
-#~ msgstr "パスワードの確認:"
-#
-#~ msgid "Offset :"
-#~ msgstr "オフセット :"
-#
-#~ msgid "Parameters :"
-#~ msgstr "パラメーター:"
-#
-#~ msgid "Limit :"
-#~ msgstr "限度 :"
-#
-#~ msgid "The content of the widget or excpetion if not valid"
-#~ msgstr "もし無効ならヴィジェットな内容"
-#
-#~ msgid "This widget is readonly !"
-#~ msgstr "読み込み専用のウィジェットです!"
-#
-#~ msgid ""
-#~ "Thank you for the feedback !\n"
-#~ "Your comments have been sent to OpenERP.\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "ご意見をありがとうございます!\n"
-#~ "あなたのコメントはOpenERPに送られました。\n"
-#~ "あなたは、新しいデータベースを構築するか\n"
-#~ "\"File\"メニューにより既存のサーバーに接続することから始めなければなりませ"
-#~ "ん。"
-#
-#~ msgid ""
-#~ "Thank you for testing OpenERP !\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "OpenERPをテストをしていただきありがとうございます！\n"
-#~ "あなたは、新しいデータベースを構築するか\n"
-#~ "\"File\\\"メニューにより既存のサーバーに接続することから始めなければなりま"
-#~ "せん。"
-#
-#~ msgid ""
-#~ "\n"
-#~ "<b>An unknown error has been reported.</b>\n"
-#~ "\n"
-#~ "<b>You do not have a valid Open ERP maintenance contract !</b>\n"
-#~ "If you are using Open ERP in production, it is highly suggested to "
-#~ "subscribe\n"
-#~ "a maintenance program.\n"
-#~ "\n"
-#~ "The Open ERP maintenance contract provides you a bugfix guarantee and an\n"
-#~ "automatic migration system so that we can fix your problems within a few\n"
-#~ "hours. If you had a maintenance contract, this error would have been "
-#~ "sent\n"
-#~ "to the quality team of the Open ERP editor.\n"
-#~ "\n"
-#~ "The maintenance program offers you:\n"
-#~ "* Automatic migrations on new versions,\n"
-#~ "* A bugfix guarantee,\n"
-#~ "* Monthly announces of potential bugs and their fixes,\n"
-#~ "* Security alerts by email and automatic migration,\n"
-#~ "* Access to the customer portal.\n"
-#~ "\n"
-#~ "You can use the link bellow for more information. The detail of the "
-#~ "error\n"
-#~ "is displayed on the second tab.\n"
-#~ msgstr ""
-#~ "\n"
-#~ "<b>不明なエラーが報告されています。</b>\n"
-#~ "<b>有効なオープンERPメンテナンス契約がありません！</b>\n"
-#~ "あなたが生産においてオープンERPを使っているならば、メンテナンスプログラム"
-#~ "に登録する事をお勧めします。\n"
-#~ "オープンERPの保守契約は、 自動移行システムを保証するバグ修正を提供し\n"
-#~ "数時間以内にお客様の問題を解決する事ができます。\n"
-#~ "もしメンテナンス契約を締結した場合は\n"
-#~ "このエラーはOpenERPエディタの品質チームに送られたでしょう。\n"
-#~ "メンテナンスプログラムを提供します：\n"
-#~ "新しいバージョンに自動移行し、バグ修正を保証する。\n"
-#~ "月刊潜在的なバグとその修正プログラム、セキュリティは顧客ポータルへアクセス"
-#~ "しEメールおよび\n"
-#~ "自動的移行により、警報を出します。\n"
-#~ "あなたの詳細については、bellowリンクを使用する事ができます。 \n"
-#~ "エラーの詳細は2番目のタブに表示されます。\n"
-#
-#~ msgid ""
-#~ "Your problem could <u>NOT</u> be sent to the quality team !\n"
-#~ "Please report this error manually at %s"
-#~ msgstr ""
-#~ "この問題は品質チームに自動で送ることができませんが<u>pu</u>このエラーを　!"
-#~ "%sに報告してください。"
-#
-#~ msgid "specify channels to log"
-#~ msgstr "ログチャンネルの内訳"
-#
-#~ msgid "enable basic debugging"
-#~ msgstr "基本デバッグ可能"
-#
-#~ msgid ""
-#~ "\n"
-#~ "<b>An unknown error has been reported.</b>\n"
-#~ "\n"
-#~ "Your maintenance contract does not cover all modules installed in your "
-#~ "system !\n"
-#~ "If you are using Open ERP in production, it is highly suggested to "
-#~ "upgrade your\n"
-#~ "contract.\n"
-#~ "\n"
-#~ "If you have developped your own modules or installed third party module, "
-#~ "we\n"
-#~ "can provide you an additional maintenance contract for these modules. "
-#~ "After\n"
-#~ "having reviewed your modules, our quality team will ensure they will "
-#~ "migrate\n"
-#~ "automatically for all futur stable versions of Open ERP at no extra "
-#~ "cost.\n"
-#~ "\n"
-#~ "Here is the list of modules not covered by your maintenance contract:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "You can use the link bellow for more information. The detail of the "
-#~ "error\n"
-#~ "is displayed on the second tab."
-#~ msgstr ""
-#~ "\n"
-#~ "<b>報告された不明なエラー。</b>\n"
-#~ "\n"
-#~ "貴方のメンテナンス契約はインストールされたすべてのモジュールをカバーしてい"
-#~ "ません。\n"
-#~ "もしOpenERPを生産で使用している場合貴方の契約を更新してください。\n"
-#~ " \n"
-#~ "\n"
-#~ "もし独自のモジュールもしくは第三者モジュールの場合はメンテナンス契約を追"
-#~ "加。\n"
-#~ "そのモジュールの再調査後、追加料金なしで自動的にOpenERPの安定したヴァー"
-#~ "ジョンに変えることを保障します。\n"
-#~ "\n"
-#~ "これは貴方のメンテナンス契約に含まれていないモジュールのリストです。%s\n"
-#~ "\n"
-#~ "もっと情報を見るときは下のリンクへ二番目のタブでエラー詳細が表示されます。"
-#
-#~ msgid "<b>Operation in progress</b>"
-#~ msgstr "<b>進行中の操作</b>"
-#
-#~ msgid "OpenERP Database Installation"
-#~ msgstr "OpenERPデータベースインストール"
-#
-#~ msgid "The following users have been installed on your database:"
-#~ msgstr "次のユーザーがデータベースにインストールされています："
-#
-#~ msgid " - %s request(s) sended"
-#~ msgstr " %s リクエスト 送信された"
-#
-#~ msgid "You can now connect to the database as an administrator."
-#~ msgstr "管理者としてデータベースに接続することができます。"
-#
-#~ msgid "Preference"
-#~ msgstr "選択されているもの"
-#
-#~ msgid ""
-#~ "Function only available for MS Office !\n"
-#~ "Sorry, OOo users :("
-#~ msgstr ""
-#~ "MS Officeのみ利用可能な機能!\n"
-#~ "OpenOfficeのユーザの方は申し訳ありません。"
-#
-#~ msgid "Error no report"
-#~ msgstr "エラーレポートがありません"
-#
-#~ msgid "specify the log level: INFO, DEBUG, WARNING, ERROR, CRITICAL"
-#~ msgstr "ログレベル内訳:情報、デバック、警告、エラー、重要"
-#
-#~ msgid "OpenERP Survey"
-#~ msgstr "OpenERP 調査"
-#
-#~ msgid ""
-#~ "<i>Please fill in the following form in order to help us to improve "
-#~ "OpenERP and better target new developments.</i>"
-#~ msgstr ""
-#~ "<i> OpenERPの今後の改良と開発のために以下のフォームに記入をお願いします。"
-#~ "</i>"
-#
-#~ msgid "<b>OpenERP Survey</b>"
-#~ msgstr "<b>OpenERP 調査</b>"
-#
-#~ msgid "We plan to use OpenERP"
-#~ msgstr "OpenERPを使う予定がある。"
-#
-#~ msgid "<b>Your company:</b>"
-#~ msgstr "<b>会社名 :</b>"
-#
-#~ msgid "Tell us why you try OpenERP and what are your current softwares:"
-#~ msgstr ""
-#~ "現在のソフトが何かというのと OpenERPにしようと思った理由を教えてください。"
-#
-#~ msgid "We plan to offer services on OpenERP"
-#~ msgstr "OpenERPのサービスを提案する予定がある。"
-#
-#~ msgid "I want to be contacted for a demonstration"
-#~ msgstr "デモンストレーションのためにコンタクトを取りたいです。"
-#
-#~ msgid "<b>Your interrest:</b>"
-#~ msgstr "<b>趣味:</b>"
-#
-#~ msgid "Phone / Mobile:"
-#~ msgstr "電話/携帯 :"
-#
-#~ msgid "How did you hear about us:"
-#~ msgstr "ここを知ったきっかけ:"
-#
-#~ msgid "Open Source:"
-#~ msgstr "オープンソース :"
-#
-#~ msgid "<Shist> + <Tab>"
-#~ msgstr "<Shift> + <Tab>"
-#
-#~ msgid "New Database Name:"
-#~ msgstr "新データベース名称 :"
-#
-#~ msgid "OpenERP Server:"
-#~ msgstr "OpenERP サーバー:"
-#
-#~ msgid "<b>Database created successfully!</b>"
-#~ msgstr "<b>新規データベース作成済み</b>"
-#
-#~ msgid "Database creation"
-#~ msgstr "データベース作成"
-#
-#~ msgid ""
-#~ "This is the password of the '<i>admin</i>' user that will be created in "
-#~ "your new database."
-#~ msgstr "出たベースを作成するときに必要なパスワードです。 <i>admin</i>"
-#
-#~ msgid "Administrator Password:"
-#~ msgstr "権限管理者パスワード :"
-#
-#~ msgid "Load Demonstration Data:"
-#~ msgstr "デモデータ取り込み :"
-#
-#~ msgid ""
-#~ "This is the password of the '<i>admin</i>' user that will be created in "
-#~ "your new database. It has to be the same than the above field."
-#~ msgstr ""
-#~ "これは新しいデータベースを作成するときに使用する権限のパスワードです。上の"
-#~ "フィールドと同じでなければなりません'<i>admin</i>'"
-#
-#~ msgid "<i>_Maintenance</i>"
-#~ msgstr "<i>メンテナンス</i>"
-#
-#~ msgid ""
-#~ "You can connect to the new database using one of the following account:\n"
-#~ "\n"
-#~ "    Administrator: admin / admin "
-#~ msgstr ""
-#~ "次のアカウントを使って新しいデータベースのに接続することはできません。:\n"
-#~ "\n"
-#~ "　　　　Administrator: admin / admin "
-#
-#~ msgid "Click here for details about the maintenance proposition"
-#~ msgstr "メンテナンス定義についての詳細はここをクリック。"
-#
-#~ msgid "Send to Maintenance Team"
-#~ msgstr "メンテナンスチームに送る"
-#
-#~ msgid "gtk-close"
-#~ msgstr "閉じる"
-#
-#~ msgid "_Tips"
-#~ msgstr "ヒント(_T)"
-#
-#~ msgid ""
-#~ "Connection error !\n"
-#~ "Bad username or password !"
-#~ msgstr "認証エラー！不正なユーザー名またはパスワード！"
+
