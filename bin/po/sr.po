@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-19 16:32+0530\n"
-"PO-Revision-Date: 2011-05-13 16:08+0000\n"
-"Last-Translator: Milan Milosevic <Unknown>\n"
+"PO-Revision-Date: 2011-07-25 11:15+0530\n"
+"Last-Translator: Naresh Soni <nch@tinyerp.com>\n"
 "Language-Team: Serbian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,51 +17,53 @@ msgstr ""
 "X-Launchpad-Export-Date: 2011-07-16 04:55+0000\n"
 "X-Generator: Launchpad (build 13405)\n"
 "Language: \n"
+
 #
 # File: bin/common/common.py, line: 89
 msgid "Close current tip"
 msgstr "Zatvori trenutni savet"
+
 #
 # File: bin/common/common.py, line: 90
 msgid ""
 "<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
-"This will hide the current tip. It will be displayed again next time you "
-"open this menu item, unless you disable all tips using the <b>'Menu Tips'</"
-"b> option in the user preferences."
+"This will hide the current tip. It will be displayed again next time you open this menu item, unless you disable all tips using the <b>'Menu Tips'</b> option in the user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
-"Ovo će sakriti trenutni savet. Biće prikazan ponovo kada sledeći put budete "
-"otvorili ovu stavku menija, ukoliko ne onemogućite sve savete, koristeći "
-"<b>'Menu Tips'</b> opciju iz korisničkih podešavanja."
+"Ovo će sakriti trenutni savet. Biće prikazan ponovo kada sledeći put budete otvorili ovu stavku menija, ukoliko ne onemogućite sve savete, koristeći <b>'Menu Tips'</b> opciju iz korisničkih podešavanja."
+
 #
 # File: bin/common/common.py, line: 100
 msgid "Disable all tips"
 msgstr "Onemogući sve savete"
+
 #
 # File: bin/common/common.py, line: 101
 msgid ""
 "<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
 "This will disable the display of tips on all menu items.\n"
-"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the "
-"user preferences."
+"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
 "Ovo će onemogućiti prikazivanje svih saveta na svim stavkama menija.\n"
-"Da omogućite savete ponovo, potrebno je izabrati <b>'Menu Tips'</b> opciju "
-"iz korisničkih podešavanja."
+"Da omogućite savete ponovo, potrebno je izabrati <b>'Menu Tips'</b> opciju iz korisničkih podešavanja."
+
 #
 # File: bin/common/common.py, line: 115
 # File: bin/common/common.py, line: 117
 msgid "Tips"
 msgstr "Saveti"
+
 #
 # File: bin/common/common.py, line: 168
 msgid "OpenERP Computing"
 msgstr "OpenERP  Računanje"
+
 #
 # File: bin/common/common.py, line: 187
 msgid "Operation in progress"
 msgstr "Obrada je u toku"
+
 #
 # File: bin/common/common.py, line: 191
 msgid ""
@@ -70,23 +72,28 @@ msgid ""
 msgstr ""
 "Molimo sačekajte,\n"
 "obrada može potrajati..."
+
 #
 # File: bin/common/common.py, line: 225
 #, python-format
 msgid "Ensure that the file %s is correct"
 msgstr "Osigurajte ispravnost %s datoteke"
+
 #
 # File: bin/common/common.py, line: 399
 msgid " has reported the following bug:\n"
 msgstr " je prijavio sledeći bag:\n"
+
 #
 # File: bin/common/common.py, line: 399
 msgid "remarks"
 msgstr "primedbe"
+
 #
 # File: bin/common/common.py, line: 402
 msgid "Support request sent !"
 msgstr "Zahtev za podršku poslat !"
+
 #
 # File: bin/common/common.py, line: 425
 # File: bin/common/common.py, line: 469
@@ -98,11 +105,9 @@ msgid ""
 "If you are using OpenERP in production, it is highly suggested to subscribe\n"
 "a publisher warranty program.\n"
 "\n"
-"The OpenERP publisher warranty contract provides you a bugfix guarantee and "
-"an\n"
+"The OpenERP publisher warranty contract provides you a bugfix guarantee and an\n"
 "automatic migration system so that we can fix your problems within a few\n"
-"hours. If you had a publisher warranty contract, this error would have been "
-"sent\n"
+"hours. If you had a publisher warranty contract, this error would have been sent\n"
 "to the quality team of the OpenERP editor.\n"
 "\n"
 "The publisher warranty program offers you:\n"
@@ -123,8 +128,7 @@ msgstr ""
 "na izdavački garantni program.\n"
 "\n"
 "OpenERP-ov garantni izdavački ugovor nudi vam garanciju sređivanja bagova i\n"
-"automatsko prebacivanje sistema, tako da možemo srediti Vaše probleme u roku "
-"od nekoliko\n"
+"automatsko prebacivanje sistema, tako da možemo srediti Vaše probleme u roku od nekoliko\n"
 "sati. Da ste imali garantni izdavački ugovor, ova greška bila bi poslata\n"
 "remontnom timu OpenERP-ovog editora.\n"
 "\n"
@@ -137,6 +141,7 @@ msgstr ""
 "\n"
 "Možete iskoristiti donju vezu za dodatne informacije. Detalji o grešci\n"
 "su prikazani u sledećem tabu.\n"
+
 #
 # File: bin/common/common.py, line: 448
 #, python-format
@@ -144,21 +149,16 @@ msgid ""
 "\n"
 "<b>An unknown error has been reported.</b>\n"
 "\n"
-"Your publisher warranty contract does not cover all modules installed in "
-"your system !\n"
-"If you are using OpenERP in production, it is highly suggested to upgrade "
-"your\n"
+"Your publisher warranty contract does not cover all modules installed in your system !\n"
+"If you are using OpenERP in production, it is highly suggested to upgrade your\n"
 "contract.\n"
 "\n"
 "If you have developed your own modules or installed third party module, we\n"
-"can provide you an additional publisher warranty contract for these modules. "
-"After\n"
-"having reviewed your modules, our quality team will ensure they will "
-"migrate\n"
+"can provide you an additional publisher warranty contract for these modules. After\n"
+"having reviewed your modules, our quality team will ensure they will migrate\n"
 "automatically for all future stable versions of OpenERP at no extra cost.\n"
 "\n"
-"Here is the list of modules not covered by your publisher warranty "
-"contract:\n"
+"Here is the list of modules not covered by your publisher warranty contract:\n"
 "%s\n"
 "\n"
 "You can use the link bellow for more information. The detail of the error\n"
@@ -167,17 +167,13 @@ msgstr ""
 "\n"
 "<b>Prijavljena je nepoznata greška.<b>\n"
 "\n"
-"Vaš garantni izdavački ugovor ne pokriva sve module instalirane na Vašem "
-"sistemu!\n"
-"Ako koristite OpenERP u proizvodnji, toplo je preporučeno da poboljšate "
-"svoj\n"
+"Vaš garantni izdavački ugovor ne pokriva sve module instalirane na Vašem sistemu!\n"
+"Ako koristite OpenERP u proizvodnji, toplo je preporučeno da poboljšate svoj\n"
 "ugovor.\n"
 "\n"
-"Ako ste razvili sopstvene module ili ste instalirali modul od strane drugog "
-"proizvođača,\n"
+"Ako ste razvili sopstvene module ili ste instalirali modul od strane drugog proizvođača,\n"
 "možemo vam ponuditi dodatni garantni izdavački ugovor za te module. Pošto\n"
-"budemo proverili Vaše module, naš tim za kvalitet će osigurati da će biti "
-"prebačeni\n"
+"budemo proverili Vaše module, naš tim za kvalitet će osigurati da će biti prebačeni\n"
 "automatski za sve stabilne verzije OpenERP-a bez dodatnih troškova.\n"
 "\n"
 "Evo liste modulâ koje ne pokriva Vaš garantni izdavački ugovor.\n"
@@ -185,6 +181,7 @@ msgstr ""
 "\n"
 "Možete iskoristiti donju vezu za dodatne informacije. Detalji greške\n"
 "je prikazan u drugom tabu."
+
 #
 # File: bin/common/common.py, line: 525
 msgid ""
@@ -193,6 +190,7 @@ msgid ""
 msgstr ""
 "Vaš problem je poslat timu za kvalitet !\n"
 "Kontaktiraćemo Vas ponovo pošto analiziramo problem."
+
 #
 # File: bin/common/common.py, line: 528
 #, python-format
@@ -204,24 +202,29 @@ msgstr ""
 "Vaš problem  *NIJE MOGAO* biti poslat timu za kvalitet !\n"
 "Molim prijavite ovu grešku ručno na:\n"
 "\t%s"
+
 #
 # File: bin/common/common.py, line: 528
 msgid "Error"
 msgstr "Greška"
+
 #
 # File: bin/common/common.py, line: 499
 # File: bin/common/common.py, line: 499
 # File: bin/common/common.py, line: 682
 msgid "Open with..."
 msgstr "Otvori sa ..."
+
 #
 # File: bin/widget_search/form.py, line: 492
 msgid "The content of the form or exception if not valid"
 msgstr "Sadržaj obrasca ili izuzetka ako nije važeći"
+
 #
 # File: bin/widget_search/wid_int.py, line: 56
 msgid "The content of the widget or exception if not valid"
 msgstr "Sadržaj dodatka ili izuzetka nije važeći"
+
 #
 # File: bin/widget_search/spinbutton.py, line: 92
 # File: bin/widget_search/custom_filter.py, line: 140
@@ -236,17 +239,17 @@ msgstr "Sadržaj dodatka ili izuzetka nije važeći"
 # File: bin/widget/view/form_gtk/button.py, line: 47
 msgid "The content of the widget or ValueError if not valid"
 msgstr "Sadržaj dodatka ili GreškaVrednosti ako nije važeći"
+
 #
 # File: bin/widget_search/custom_filter.py, line: 51
-#, fuzzy
 msgid "AND"
 msgstr ""
-"I\n"
-"ILI"
+
 #
 # File: bin/widget_search/custom_filter.py, line: 52
 msgid "OR"
 msgstr ""
+
 #
 # File: bin/widget_search/checkbox.py, line: 36
 # File: bin/widget_search/checkbox.py, line: 49
@@ -257,6 +260,7 @@ msgstr ""
 # File: bin/widget_search/checkbox.py, line: 55
 msgid "Yes"
 msgstr "Da"
+
 #
 # File: bin/widget_search/checkbox.py, line: 37
 # File: bin/widget_search/checkbox.py, line: 37
@@ -264,34 +268,29 @@ msgstr "Da"
 # File: bin/widget_search/checkbox.py, line: 44
 msgid "No"
 msgstr "Ne"
+
 #
 # File: bin/widget_search/date_widget.py, line: 65
 # File: bin/widget/view/form_gtk/date_widget.py, line: 65
 msgid ""
-"You can use special operation by pressing +, - or =.  Plus/minus adds/"
-"decrease the variable to the current selected date. Equals set part of "
-"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
-"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
+"You can use special operation by pressing +, - or =.  Plus/minus adds/decrease the variable to the current selected date. Equals set part of selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
 "* +21d : adds 21 days to selected year\n"
 "* =23w : set date to the 23th week of the year\n"
 "* -4m : decrease 4 months to the current date\n"
-"You can also use \"=\" to set the date to the current date/time and '-' to "
-"clear the field."
+"You can also use \"=\" to set the date to the current date/time and '-' to clear the field."
 msgstr ""
-"Možete koristiti specijalnu operaciju pritiskom na +, - ili =. Plus/minus "
-"uvećava/umanjuje promenljivu trenutno izabranog datuma. Jednako podešava deo "
-"odabranog datuma. Dostupne promenljive: 12h = 12 sati, 8d = 8 dana, 4w = 4 "
-"nedelje, 1m = 1 mesec, 2y = 2 godine. Neki primeri:\n"
+"Možete koristiti specijalnu operaciju pritiskom na +, - ili =. Plus/minus uvećava/umanjuje promenljivu trenutno izabranog datuma. Jednako podešava deo odabranog datuma. Dostupne promenljive: 12h = 12 sati, 8d = 8 dana, 4w = 4 nedelje, 1m = 1 mesec, 2y = 2 godine. Neki primeri:\n"
 "* +21d : dodaje 21 dan na izabranu godinu\n"
 "* =23w : podešava datum na 23. nedelju godine\n"
 "* -4m : smanjuje za 4 meseca tekući datum.\n"
-"Takođe možete koristiti \"=\" da podesite na trenutni datum/vreme i \"-\" da "
-"očistite polje."
+"Takođe možete koristiti \"=\" da podesite na trenutni datum/vreme i \"-\" da očistite polje."
+
 #
 # File: bin/widget_search/calendar.py, line: 49
 # File: bin/widget_search/calendar.py, line: 177
 msgid "Start date"
 msgstr "Datum početka"
+
 #
 # File: bin/widget_search/calendar.py, line: 55
 # File: bin/widget_search/calendar.py, line: 74
@@ -309,11 +308,13 @@ msgstr "Datum početka"
 # File: bin/widget/view/form_gtk/calendar.py, line: 184
 msgid "Open the calendar widget"
 msgstr "Otvorite kalendarski dodatak"
+
 #
 # File: bin/widget_search/calendar.py, line: 69
 # File: bin/widget_search/calendar.py, line: 197
 msgid "End date"
 msgstr "Datum završetka"
+
 #
 # File: bin/widget_search/calendar.py, line: 128
 # File: bin/widget_search/calendar.py, line: 267
@@ -321,11 +322,13 @@ msgstr "Datum završetka"
 # File: bin/widget/view/form_gtk/calendar.py, line: 249
 msgid "OpenERP - Date selection"
 msgstr "OepnERP - Izbor datuma"
+
 #
 # File: bin/widget_search/calendar.py, line: 273
 # File: bin/widget/view/form_gtk/calendar.py, line: 255
 msgid "Hour:"
 msgstr "Čas:"
+
 #
 # File: bin/widget/view/form_gtk/calendar.py, line: 250
 # File: bin/widget/view/form_gtk/calendar.py, line: 250
@@ -333,15 +336,18 @@ msgstr "Čas:"
 # File: bin/widget/view/form_gtk/calendar.py, line: 258
 msgid "Minute:"
 msgstr "Minuta:"
+
 #
 # File: bin/widget_search/calendar.py, line: 312
 # File: bin/widget/view/form_gtk/calendar.py, line: 291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
 msgstr "Neispravna vrednost vremena i datuma! Godina mora biti posle 1899 !"
+
 #
 # File: bin/widget_search/char.py, line: 45
 msgid "Error: "
 msgstr "Greška: "
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 36
 # File: bin/widget_search/custom_filter_widgets.py, line: 63
@@ -353,9 +359,9 @@ msgstr "Greška: "
 # File: bin/widget_search/custom_filter_widgets.py, line: 225
 # File: bin/widget_search/custom_filter_widgets.py, line: 257
 # File: bin/widget_search/custom_filter_widgets.py, line: 272
-#, fuzzy
 msgid "is"
-msgstr "Saveti"
+msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 37
 # File: bin/widget_search/custom_filter_widgets.py, line: 64
@@ -367,9 +373,9 @@ msgstr "Saveti"
 # File: bin/widget_search/custom_filter_widgets.py, line: 226
 # File: bin/widget_search/custom_filter_widgets.py, line: 257
 # File: bin/widget_search/custom_filter_widgets.py, line: 273
-#, fuzzy
 msgid "is not"
-msgstr "Spisak"
+msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 38
 # File: bin/widget_search/custom_filter_widgets.py, line: 49
@@ -386,6 +392,7 @@ msgstr "Spisak"
 # File: bin/widget_search/custom_filter_widgets.py, line: 255
 msgid "is Empty"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 39
 # File: bin/widget_search/custom_filter_widgets.py, line: 49
@@ -402,27 +409,32 @@ msgstr ""
 # File: bin/widget_search/custom_filter_widgets.py, line: 255
 msgid "is not Empty"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 40
 # File: bin/widget_search/custom_filter_widgets.py, line: 67
 # File: bin/widget_search/custom_filter_widgets.py, line: 98
 msgid "contains"
 msgstr "sadrži"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 41
 # File: bin/widget_search/custom_filter_widgets.py, line: 68
 # File: bin/widget_search/custom_filter_widgets.py, line: 98
 msgid "doesn't contain"
 msgstr "ne sadrži"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 87
 # File: bin/widget/view/form_gtk/many2one.py, line: 163
 msgid "Search a resource"
 msgstr "Pretraži izvor"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 167
 msgid "Equals"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 182
 # File: bin/widget_search/custom_filter_widgets.py, line: 196
@@ -436,6 +448,7 @@ msgstr ""
 # File: bin/widget_search/custom_filter_widgets.py, line: 362
 msgid "between"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 185
 # File: bin/widget_search/custom_filter_widgets.py, line: 199
@@ -449,38 +462,43 @@ msgstr ""
 # File: bin/widget_search/custom_filter_widgets.py, line: 362
 msgid "exclude range"
 msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 290
 # File: bin/widget_search/custom_filter_widgets.py, line: 331
 msgid "is equal to"
 msgstr "jednako je sa"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 291
 # File: bin/widget_search/custom_filter_widgets.py, line: 332
 msgid "is not equal to"
 msgstr "nije jednako sa"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 292
 # File: bin/widget_search/custom_filter_widgets.py, line: 333
 msgid "greater than"
 msgstr "Veće od"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 293
 # File: bin/widget_search/custom_filter_widgets.py, line: 334
 msgid "less than"
 msgstr "manje od"
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 294
 # File: bin/widget_search/custom_filter_widgets.py, line: 335
-#, fuzzy
 msgid "greater than equal to"
-msgstr "Veće od"
+msgstr ""
+
 #
 # File: bin/widget_search/custom_filter_widgets.py, line: 295
 # File: bin/widget_search/custom_filter_widgets.py, line: 336
-#, fuzzy
 msgid "less than equal to"
-msgstr "nije jednako sa"
+msgstr ""
+
 #
 # File: bin/widget/screen/screen.py, line: 337
 msgid ""
@@ -489,36 +507,38 @@ msgid ""
 msgstr ""
 "(Bilo koji postojeći filter sa \n"
 "istim imenom biće zamenjen)"
+
 #
 # File: bin/widget/view/widget_parse.py, line: 53
 #, python-format
 msgid "This type (%s) is not supported by the GTK client !"
 msgstr "Ovaj tip (%s) nije podržan od strane GTK klijenta !"
+
 #
 # File: bin/widget/view/widget_parse.py, line: 64
 msgid "No valid view found for this object!"
 msgstr "Nije pronađen važeći pregled za ovu stavku!"
+
 #
 # File: bin/widget/view/form.py, line: 137
 msgid "You must save this record to use the relate button !"
-msgstr ""
-"Morate prvo sačuvati ovaj zapis da biste koristili dugme za povezivanje !"
+msgstr "Morate prvo sačuvati ovaj zapis da biste koristili dugme za povezivanje !"
+
 #
 # File: bin/widget/view/form.py, line: 142
 msgid "Action not defined !"
 msgstr "Postupak nije definisan"
+
 #
 # File: bin/widget/view/form.py, line: 201
-#, fuzzy
 msgid "You must save this record to use the action button !"
-msgstr ""
-"Morate prvo sačuvati ovaj zapis da biste koristili dugme za povezivanje !"
+msgstr "Morate prvo sačuvati ovaj zapis da biste koristili dugme za povezivanje !"
+
 #
 # File: bin/widget/view/form.py, line: 213
-#, fuzzy
 msgid "You must save a record to use the relate button !"
-msgstr ""
-"Morate prvo sačuvati ovaj zapis da biste koristili dugme za povezivanje !"
+msgstr "Morate prvo sačuvati ovaj zapis da biste koristili dugme za povezivanje !"
+
 #
 # File: bin/widget/view/form.py, line: 183
 # File: bin/widget/view/form_gtk/parser.py, line: 490
@@ -534,6 +554,7 @@ msgstr ""
 # File: bin/widget/view/form_gtk/parser.py, line: 813
 msgid "No other language available!"
 msgstr "Nema dostupnih drugih jezika!"
+
 #
 # File: bin/widget/view/form.py, line: 190
 # File: bin/widget/view/form_gtk/parser.py, line: 549
@@ -549,6 +570,7 @@ msgstr "Nema dostupnih drugih jezika!"
 # File: bin/widget/view/form_gtk/parser.py, line: 819
 msgid "Add Translation"
 msgstr "Dodaj prevod"
+
 #
 # File: bin/widget/view/form.py, line: 241
 # File: bin/widget/view/form_gtk/parser.py, line: 766
@@ -558,6 +580,7 @@ msgstr "Dodaj prevod"
 # File: bin/widget/view/form_gtk/parser.py, line: 875
 msgid "Translate label"
 msgstr "Prevedi natpis"
+
 #
 # File: bin/widget/view/list.py, line: 584
 # File: bin/widget/view/list.py, line: 585
@@ -565,83 +588,97 @@ msgstr "Prevedi natpis"
 # File: bin/modules/gui/window/form.py, line: 366
 msgid "Invalid form, correct red fields !"
 msgstr "Nepravilna forma, ispravite crvena polja!"
+
 #
 # File: bin/widget/view/list.py, line: 584
 msgid "Error !"
 msgstr "Greška!"
+
 #
 # File: bin/widget/view/list.py, line: 633
 # File: bin/widget/view/form_gtk/many2one.py, line: 387
 msgid "You must select a record to use the relation !"
 msgstr "Mora biti izabran zapis da bi se iskoristila povezanost !"
+
 #
 # File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 30
 msgid "Gantt view not yet implemented !"
 msgstr "Gantogram još uvek nije uveden !"
+
 #
 # File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 31
-msgid ""
-"The gantt view is not available in this GTK Client, you should use the web "
-"interface or switch to the calendar view."
-msgstr ""
-"Gantogram još uvek nije dostupan u ovom GTK klijentu, trebalo bi da "
-"koristite web interfejs ili da pređete na kalendarski pregled."
+msgid "The gantt view is not available in this GTK Client, you should use the web interface or switch to the calendar view."
+msgstr "Gantogram još uvek nije dostupan u ovom GTK klijentu, trebalo bi da koristite web interfejs ili da pređete na kalendarski pregled."
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1422
 msgid "Dot Viewer"
 msgstr "Dot pregledač"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1712
 msgid "Add New Node"
 msgstr "Dodaj Novi Čvor"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1713
 msgid "Add New Edge"
 msgstr "Dodaj Novu Ivicu"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1714
 msgid "Enlarge the Diagram"
 msgstr "Proširi Dijagram"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1715
 msgid "Shrink the Diagram"
 msgstr "Umanji Dijagram"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1716
 msgid "Fit the diagram to the window"
 msgstr "Podesi dijagram prema prozoru"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1717
 msgid "Show the diagram at its normal size"
 msgstr "Prikaži dijagram u normalnoj veličini"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1718
 msgid "Print the Diagram"
 msgstr "Štampaj Dijagram"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1772
 # File: bin/modules/gui/window/win_search.py, line: 49
 msgid "OpenERP - Link"
 msgstr "OpenERP - Veza"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1789
 #, python-format
 msgid "Close Current %s"
 msgstr "Zatvori Trenutni %s"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1790
 #, python-format
 msgid "Delete Current %s"
 msgstr "Izbriši Trenutni %s"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1791
 #, python-format
 msgid "Edit Current %s"
 msgstr "Izmeni Trenutni %s"
+
 #
 # File: bin/widget/view/diagram_gtk/xdot.py, line: 1875
 msgid " - Dot Viewer"
 msgstr " - Dot Pregledač"
+
 #
 # File: bin/widget/view/tree_gtk/parser.py, line: 61
 msgid ""
@@ -652,42 +689,49 @@ msgstr ""
 "Imate nesačuvan(e) zapis(e)!  \n"
 "\n"
 "Molimo Sačuvajte pre nego što ih sredite !"
+
 #
 # File: bin/widget/view/tree_gtk/editabletree.py, line: 140
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Prečica: %s"
+
 #
 # File: bin/widget/view/tree_gtk/editabletree.py, line: 140
 msgid "F1 New - F2 Open/Search"
 msgstr "F1 Novo - F2 Otvori/Pretraži"
+
 #
 # File: bin/widget/view/tree_gtk/editabletree.py, line: 215
 #, python-format
 msgid "Warning; field %s is required!"
 msgstr "Upozorenje: polje %s je obavezno!"
+
 #
 # File: bin/widget/view/tree_gtk/date_renderer.py, line: 197
 msgid "Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
-msgstr ""
-"Pritisnite <i>'+'</i>, <i>'-'</i> ili <i>'='</i> za specijalne operacije sa "
-"datumom"
+msgstr "Pritisnite <i>'+'</i>, <i>'-'</i> ili <i>'='</i> za specijalne operacije sa datumom"
+
 #
 # File: bin/widget/view/screen_container.py, line: 74
 msgid "--Actions--"
 msgstr "--Postupci--"
+
 #
 # File: bin/widget/view/screen_container.py, line: 74
 msgid "Save as a Filter"
 msgstr "Sačuvaj kao Filter"
+
 #
 # File: bin/widget/view/screen_container.py, line: 74
 msgid "Manage Filters"
 msgstr "Upravljanje filterima"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 61
 msgid "Wrong icon for the button !"
 msgstr "Pogrešna ikona za dugme !"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
 # File: bin/modules/gui/window/form.py, line: 365
@@ -697,149 +741,181 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
 # File: bin/modules/gui/window/form.py, line: 365
-#, fuzzy
 msgid "Input Error !"
 msgstr "Greška Unosa"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 308
 msgid "Field"
 msgstr "Polje"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 308
 msgid "Object"
 msgstr "Stavka"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 619
 msgid "Enter some text to the related field before adding translations!"
 msgstr "Unesite neki tekst u povezano polje pre nego što dosate prevode!"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 626
 msgid "You need to save resource before adding translations!"
 msgstr "Potrebno je snimiti izvor pre dodavanja novih prevoda!"
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 880
 msgid "Translate view"
 msgstr "Prevedi pregled"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 52
 # File: bin/modules/gui/main.py, line: 1079
 # File: bin/openerp.glade, line: 6095
 msgid "OpenERP"
 msgstr "OpenERP"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 64
 msgid "Cancel"
 msgstr "Otkaži"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 70
 msgid "Save & Close"
 msgstr "Sačuvaj i zatvori"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 75
 msgid "Save & New"
 msgstr "Sačuvaj i novo"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 164
 # File: bin/widget/view/form_gtk/interface.py, line: 48
 msgid "Set to default value"
 msgstr "Podesi na osnovne vrednosti"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 167
 msgid "Set Default"
 msgstr "Podesi na osnovne vrednosti"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 196
 msgid "Create a new entry"
 msgstr "Napravi novi unos"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 200
 msgid "Edit this entry"
 msgstr "Izmeni ovaj unos"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 204
 msgid "Remove this entry"
 msgstr "Ukloni ovaj unos"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 210
 # File: bin/widget/view/form_gtk/many2many.py, line: 84
 msgid "Previous Page"
 msgstr "Prethodna strana"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 214
 # File: bin/widget/view/form_gtk/many2many.py, line: 88
 msgid "Previous Record"
 msgstr "Prethodni zapis"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 222
 # File: bin/widget/view/form_gtk/many2many.py, line: 96
 msgid "Next Record"
 msgstr "Sledeći zapis"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 226
 # File: bin/widget/view/form_gtk/many2many.py, line: 100
 msgid "Next Page"
 msgstr "Sledeća stranica"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 232
 msgid "Switch"
 msgstr "Prebaci na"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 238
 # File: bin/widget/view/form_gtk/many2many.py, line: 106
 msgid "Choose Limit"
 msgstr "Izaberi ograničenje"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 279
 msgid "You have to select a resource !"
 msgstr "Morate izabrati izvor !"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 388
 # File: bin/modules/gui/window/form.py, line: 290
 msgid "Are you sure to remove this record ?"
 msgstr "Jeste li sigurni da želite da uklonite ovaj zapis?"
+
 #
 # File: bin/widget/view/form_gtk/one2many_list.py, line: 390
 # File: bin/modules/gui/window/form.py, line: 292
 msgid "Are you sure to remove those records ?"
 msgstr "Jeste li sigurni da želite da uklonite ove zapise?"
+
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 49
 msgid "Set as default"
 msgstr "Postavi kao osnovne vrednosti"
+
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 64
 msgid "You can not set to the default value here !"
 msgstr "Ne možete postaviti na osnovne vrednosti ovde !"
+
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 64
 msgid "Operation not permited"
 msgstr "Nedozvoljena radnja"
+
 #
 # File: bin/widget/view/form_gtk/calendar.py, line: 99
 # File: bin/widget/view/form_gtk/calendar.py, line: 163
 msgid "Invalid date value! Year must be greater than 1899 !"
 msgstr "Neispravna vrednost datuma! Godina mora biti posle 1899 !"
+
 #
 # File: bin/widget/view/form_gtk/many2one.py, line: 158
 # File: bin/widget/view/form_gtk/url.py, line: 53
 msgid "Open this resource"
 msgstr "Otvori ovaj izvor"
+
 #
 # File: bin/widget/view/form_gtk/many2one.py, line: 174
 # File: bin/openerp.glade, line: 1412
 msgid "Action"
 msgstr "Radnja"
+
 #
 # File: bin/widget/view/form_gtk/many2one.py, line: 175
 msgid "Report"
 msgstr "Izveštaj"
+
 #
 # File: bin/widget/view/form_gtk/url.py, line: 50
 msgid "Send an e-mail with your default e-mail client"
 msgstr ""
+
 #
 # File: bin/modules/gui/main.py, line: 1049
 # File: bin/widget/view/form_gtk/image.py, line: 110
@@ -855,24 +931,29 @@ msgstr ""
 # File: bin/openerp.glade, line: 5831
 msgid "Open..."
 msgstr "Otvori..."
+
 #
 # File: bin/widget/view/form_gtk/reference.py, line: 76
 # File: bin/openerp.glade, line: 1258
 msgid "Create a new resource"
 msgstr "Napravi novi izvor"
+
 #
 # File: bin/widget/view/form_gtk/reference.py, line: 89
 msgid "Search / Open a resource"
 msgstr "Pretraži / Otvori izvor"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 73
 msgid "Set Image"
 msgstr "Postavi sliku"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 82
 # File: bin/widget/view/form_gtk/binary.py, line: 84
 msgid "Save As"
 msgstr "Sačuvaj kao"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 89
 # File: bin/widget/view/form_gtk/image.py, line: 88
@@ -882,26 +963,31 @@ msgstr "Sačuvaj kao"
 # File: bin/widget/view/form_gtk/binary.py, line: 88
 msgid "Clear"
 msgstr "Očisti"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 100
 # File: bin/widget/view/form_gtk/image.py, line: 100
 # File: bin/widget/view/form_gtk/image.py, line: 102
 msgid "All files"
 msgstr "Sve datoteke"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 104
 # File: bin/widget/view/form_gtk/image.py, line: 104
 # File: bin/widget/view/form_gtk/image.py, line: 106
 msgid "Images"
 msgstr "Slike"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 127
 msgid "There is no image to save as !"
 msgstr "Ne postoji slika da se sačuva kao !"
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 127
 msgid "Warning"
 msgstr "Upozorenje"
+
 #
 # File: bin/modules/gui/main.py, line: 1120
 # File: bin/modules/gui/window/win_export.py, line: 282
@@ -920,132 +1006,159 @@ msgstr "Upozorenje"
 # File: bin/modules/gui/window/win_export.py, line: 359
 msgid "Save As..."
 msgstr "Snimi kao..."
+
 #
 # File: bin/widget/view/form_gtk/image.py, line: 177
 msgid "Image corrupted"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/wid_common.py, line: 59
 msgid "Always applicable !"
 msgstr "Uvek primenjivo !"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 76
 msgid "Select"
 msgstr "Izaberi"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 80
 msgid "Open"
 msgstr "Otvori"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 119
 # File: bin/widget/view/form_gtk/binary.py, line: 163
 msgid "Unable to read the file data"
 msgstr "Nemoguće pročitati podatke datoteke"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 129
 # File: bin/widget/view/form_gtk/binary.py, line: 155
 #, python-format
 msgid "Error reading the file: %s"
 msgstr "Greška pri čitanju datoteke: %s"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 138
 msgid "All Files"
 msgstr "Sve datoteke"
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 148
 msgid "Select a file..."
 msgstr "Izaberi datoteku..."
+
 #
 # File: bin/widget/view/form_gtk/binary.py, line: 177
 #, python-format
 msgid "Error writing the file: %s"
 msgstr "Greška pri upisivanjuu u datoteku: %s"
+
 #
 # File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 30
 msgid "Calendar View Error !"
 msgstr "Greška u Pregledu kalendara !"
+
 #
 # File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 31
 msgid "You must intall the library python-hippocanvas to use calendars."
-msgstr ""
-"Morate da instalirate biblioteku python-hippocanvas da biste mogli da "
-"koristite kalendare."
+msgstr "Morate da instalirate biblioteku python-hippocanvas da biste mogli da koristite kalendare."
+
 #
 # File: bin/widget/view/calendar_gtk/parser.py, line: 355
 # File: bin/openerp.glade, line: 8078
 msgid "Week"
 msgstr "Sedmica"
+
 #
 # File: bin/widget/view/graph_gtk/parser.py, line: 64
 msgid "Can not generate graph !"
 msgstr "Ne može se napraviti grafikon !"
+
 #
 # File: bin/options.py, line: 121
 #, python-format
 msgid "OpenERP Client %s"
 msgstr "OpenERP klijent %s"
+
 #
 # File: bin/options.py, line: 122
 msgid "specify alternate config file"
 msgstr "odredite alternativnu konfiguracionu datoteku"
+
 #
 # File: bin/options.py, line: 123
 msgid "Enable basic debugging. Alias for '--log-level=debug'"
 msgstr "Omogućite bazični debag. Alijas za '--log-level=debug'"
+
 #
 # File: bin/options.py, line: 124
 #, python-format
 msgid "specify the log level: %s"
 msgstr "odredite nivo prijave: %s"
+
 #
 # File: bin/options.py, line: 125
 msgid "specify the user login"
 msgstr "odredite prijavne korisničke podatke"
+
 #
 # File: bin/options.py, line: 126
 msgid "specify the server port"
 msgstr "Odredite port servera"
+
 #
 # File: bin/options.py, line: 127
 msgid "specify the server ip/name"
 msgstr "odredite ime/ip adresu servera"
+
 #
 # File: bin/openerp-client.py, line: 142
 msgid "Closing OpenERP, KeyboardInterrupt"
 msgstr "Zatvaranje OpenERP-a, greška sa tastaturom"
+
 #
 # File: bin/plugins/__init__.py, line: 27
 msgid "Print Workflow"
 msgstr "Štampaj tok rada"
+
 #
 # File: bin/plugins/__init__.py, line: 28
 msgid "Print Workflow (with subflows)"
 msgstr "Štampaj tok rada (sa pod tokovima)"
+
 #
 # File: bin/plugins/__init__.py, line: 41
 # File: bin/plugins/__init__.py, line: 41
 # File: bin/plugins/__init__.py, line: 40
 msgid "No available plugin for this resource !"
 msgstr "Nema dostupnih dodataka za ovaj resurs !"
+
 #
 # File: bin/plugins/__init__.py, line: 42
 msgid "Choose a Plugin"
 msgstr "Izaberite dodatak (plugin)"
+
 #
 # File: bin/translate.py, line: 183
-#, fuzzy, python-format
+#, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Nemoguće postaviti lokalu %(lang_enc)s: %(exception)s"
+
 #
 # File: bin/rpc.py, line: 157
 # File: bin/modules/action/wizard.py, line: 150
 # File: bin/modules/gui/main.py, line: 187
 msgid "Connection refused !"
 msgstr "Povezivanje odbijeno!"
+
 #
 # File: bin/rpc.py, line: 158
 msgid "Connection refused!"
 msgstr "Povezivanje odbijeno!"
+
 #
 # File: bin/rpc.py, line: 188
 msgid ""
@@ -1054,10 +1167,12 @@ msgid ""
 msgstr ""
 "Nije moguće povezivanje na OpenERP server!\n"
 "Trebalo bi proveriti povezivanje na mrežu i OpenERP server."
+
 #
 # File: bin/rpc.py, line: 188
 msgid "Connection Error"
 msgstr "Greška u povezivanju"
+
 #
 # File: bin/modules/action/wizard.py, line: 183
 # File: bin/modules/action/wizard.py, line: 189
@@ -1078,6 +1193,7 @@ msgstr "Greška u povezivanju"
 # File: bin/modules/gui/main.py, line: 201
 msgid "Application Error"
 msgstr "Programska greška"
+
 #
 # File: bin/modules/action/wizard.py, line: 191
 # File: bin/rpc.py, line: 189
@@ -1087,11 +1203,13 @@ msgstr "Programska greška"
 # File: bin/modules/action/wizard.py, line: 170
 msgid "View details"
 msgstr "Pogledaj detalje"
+
 #
 # File: bin/printer/printer.py, line: 184
 #, python-format
 msgid "Unable to handle %s filetype"
 msgstr "Nemoguće obraditi %s vrstu datoteke"
+
 #
 # File: bin/printer/printer.py, line: 193
 #, python-format
@@ -1099,37 +1217,43 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+
 #
 # File: bin/printer/printer.py, line: 195
-#, fuzzy
 msgid "Print Report"
-msgstr "Procesor Štampe"
+msgstr ""
+
 #
 # File: bin/printer/printer.py, line: 212
 msgid "Error! No Data found. Make sure you have enough data to print!"
-msgstr ""
-"Greška! Podaci nisu nađeni. Uverite sa da ima dovoljno podataka za štampu!"
+msgstr "Greška! Podaci nisu nađeni. Uverite sa da ima dovoljno podataka za štampu!"
+
 #
 # File: bin/printer/printer.py, line: 239
 msgid "Error writing the file!"
 msgstr "Greška pri zapisivanju datoteke!"
+
 #
 # File: bin/modules/action/main.py, line: 48
 msgid "Nothing to print!"
 msgstr "Ne postoji ništa za štampanje!"
+
 #
 # File: bin/modules/action/main.py, line: 66
 msgid "Printing aborted, too long delay !"
 msgstr "Štampanje prekinuto, predugačko kašnjenje !"
+
 #
 # File: bin/modules/action/main.py, line: 195
 msgid "Select your action"
 msgstr "Izaberi svoju akciju"
+
 #
 # File: bin/modules/gui/main.py, line: 89
 # File: bin/modules/gui/main.py, line: 341
 msgid "Could not connect to server !"
 msgstr "Ne mogu se spojiti na server !"
+
 #
 # File: bin/openerp.glade, line: 74
 # File: bin/openerp.glade, line: 8255
@@ -1149,6 +1273,7 @@ msgstr "Ne mogu se spojiti na server !"
 # File: bin/openerp.glade, line: 7480
 msgid "Server:"
 msgstr "Server:"
+
 #
 # File: bin/modules/gui/main.py, line: 104
 # File: bin/openerp.glade, line: 98
@@ -1158,80 +1283,93 @@ msgstr "Server:"
 # File: bin/openerp.glade, line: 7437
 msgid "Change"
 msgstr "Promeni"
+
 #
 # File: bin/modules/gui/main.py, line: 111
 msgid "Super Administrator Password:"
 msgstr "Super administratorska lozinka"
+
 #
 # File: bin/modules/gui/main.py, line: 193
 msgid "Bad Super Administrator Password"
 msgstr "Loša super administratorska lozinka"
+
 #
 # File: bin/modules/gui/main.py, line: 217
 msgid "Migration Scripts"
 msgstr "Migracione skripte"
+
 #
 # File: bin/modules/gui/main.py, line: 220
 msgid "Contract ID:"
 msgstr "ID ugovora"
+
 #
 # File: bin/modules/gui/main.py, line: 226
 msgid "Contract Password:"
 msgstr "Lozinka ugovora"
+
 #
 # File: bin/modules/gui/main.py, line: 241
 msgid "You already have the latest version"
 msgstr "Već imate najnoviju verziju"
+
 #
 # File: bin/modules/gui/main.py, line: 246
 msgid "The following updates are available:"
 msgstr "Dostupne su sledeće nadogradnje:"
+
 #
 # File: bin/modules/gui/main.py, line: 258
 msgid "You can now migrate your databases."
 msgstr "Sada možete da spojite vaše baze podataka."
+
 #
 # File: bin/modules/gui/main.py, line: 263
 msgid "Migrate Database"
 msgstr "Spoji baze podataka"
+
 #
 # File: bin/modules/gui/main.py, line: 280
 msgid "Database"
 msgstr "Baza podataka"
+
 #
 # File: bin/modules/gui/main.py, line: 292
 msgid "Your database has been upgraded."
 msgstr "Vaša baza podataka će biti unapređena."
+
 #
 # File: bin/modules/gui/main.py, line: 294
 msgid "Your databases have been upgraded."
 msgstr "Vaša baza podataka je unapređena."
+
 #
 # File: bin/modules/gui/main.py, line: 296
 msgid "You have not selected a database"
 msgstr "Niste izabrali bazu podataka"
+
 #
 # File: bin/modules/gui/main.py, line: 360
 msgid "No database found, you must create one !"
 msgstr "Nije pronađena niti jedna baza podataka, morate napraviti jednu!"
+
 #
 # File: bin/modules/gui/main.py, line: 468
 msgid "Unknown"
 msgstr "Nepoznat"
+
 #
 # File: bin/modules/gui/main.py, line: 473
-#, fuzzy, python-format
-msgid ""
-"The versions of the server %(server_version)s and the client %"
-"(client_version)s mismatch. The client may not work properly. Use it at your "
-"own risks."
-msgstr ""
-"Verzije servera (%s) i klijenta (%s) se ne poklapaju. Klijent možda neće "
-"raditi na pravilan način. Korišćenje na ličnu odgovornost."
+#, python-format
+msgid "The versions of the server %(server_version)s and the client %(client_version)s mismatch. The client may not work properly. Use it at your own risks."
+msgstr "Verzije servera %(server_version)s i klijenta %(client_version)s se ne poklapaju. Klijent možda neće raditi na pravilan način. Korišćenje na ličnu odgovornost."
+
 #
 # File: bin/modules/gui/main.py, line: 610
 msgid "Sorry,'"
 msgstr "Izvinite,'"
+
 #
 # File: bin/modules/gui/main.py, line: 296
 # File: bin/modules/gui/main.py, line: 299
@@ -1241,6 +1379,7 @@ msgstr "Izvinite,'"
 # File: bin/modules/gui/main.py, line: 613
 msgid "Bad database name !"
 msgstr "Loš naziv baze podataka !"
+
 #
 # File: bin/modules/gui/main.py, line: 613
 msgid ""
@@ -1249,6 +1388,7 @@ msgid ""
 msgstr ""
 "Ime baze podataka mora da sadrži validne karaktere ili \"_\".\n"
 "Izbegavajte da koristite razmak ili specijalne karaktere."
+
 #
 # File: bin/modules/gui/main.py, line: 637
 # File: bin/modules/gui/main.py, line: 650
@@ -1256,6 +1396,7 @@ msgstr ""
 # File: bin/modules/gui/main.py, line: 654
 msgid "Could not create database."
 msgstr "Ne mogu stvoriti bazu podataka."
+
 #
 # File: bin/modules/gui/main.py, line: 359
 # File: bin/modules/gui/main.py, line: 359
@@ -1263,6 +1404,7 @@ msgstr "Ne mogu stvoriti bazu podataka."
 # File: bin/modules/gui/main.py, line: 650
 msgid "Database already exists !"
 msgstr "Baza podataka već postoji !"
+
 #
 # File: bin/modules/gui/main.py, line: 652
 # File: bin/modules/gui/main.py, line: 1384
@@ -1270,11 +1412,13 @@ msgstr "Baza podataka već postoji !"
 # File: bin/modules/gui/main.py, line: 1509
 msgid "Bad database administrator password !"
 msgstr "Pogrešna administratorska lozinka baze podataka!"
+
 #
 # File: bin/modules/gui/main.py, line: 654
 # File: bin/modules/gui/main.py, line: 661
 msgid "Error during database creation !"
 msgstr "Greška prilikom stvaranja baze podataka!"
+
 #
 # File: bin/modules/gui/main.py, line: 661
 msgid ""
@@ -1283,6 +1427,7 @@ msgid ""
 msgstr ""
 "Server je pao prilikom instalacije.\n"
 "Predlažemo da izbrišete ovu bazu podataka."
+
 #
 # File: bin/modules/gui/main.py, line: 432
 # File: bin/modules/gui/main.py, line: 763
@@ -1292,41 +1437,45 @@ msgstr ""
 # File: bin/modules/gui/main.py, line: 1072
 msgid "Press Ctrl+O to login"
 msgstr "Pritisnite Ctrl+O za prijavu"
+
 #
 # File: bin/modules/gui/main.py, line: 974
 #, python-format
 msgid "%s"
 msgstr "%s"
+
 #
 # File: bin/modules/gui/main.py, line: 976
 msgid "No Company"
 msgstr "Nema preduzeća"
+
 #
 # File: bin/modules/gui/main.py, line: 989
 #, python-format
 msgid "%s request(s)"
 msgstr "%s zahtev(a)"
+
 #
 # File: bin/modules/gui/main.py, line: 991
 msgid "No request"
 msgstr "Nema zahteva"
+
 #
 # File: bin/modules/gui/main.py, line: 993
 #, python-format
 msgid " - %s request(s) sent"
 msgstr " %s upit(a) poslato"
+
 #
 # File: bin/modules/gui/main.py, line: 1031
-msgid ""
-"Please double-check the database name or contact your administrator to "
-"verify the database status."
-msgstr ""
-"Ponovo proveriti ime baze podataka ili kontaktirajte administratora radi "
-"provere statusa baze podataka."
+msgid "Please double-check the database name or contact your administrator to verify the database status."
+msgstr "Ponovo proveriti ime baze podataka ili kontaktirajte administratora radi provere statusa baze podataka."
+
 #
 # File: bin/modules/gui/main.py, line: 1031
 msgid "Database cannot be accessed or does not exist"
 msgstr "Pristup bazi podataka nemoguć ili ona ne postoji"
+
 #
 # File: bin/modules/gui/main.py, line: 734
 # File: bin/modules/gui/main.py, line: 734
@@ -1337,6 +1486,7 @@ msgid ""
 msgstr ""
 "Greška spajanja !\n"
 "Nemogu se spojiti na server !"
+
 #
 # File: bin/modules/gui/main.py, line: 1037
 msgid ""
@@ -1345,15 +1495,18 @@ msgid ""
 msgstr ""
 "Greška prijave!\n"
 "Neispravno korisničko ime ili lozinka!"
+
 #
 # File: bin/modules/gui/main.py, line: 1050
 #, python-format
 msgid "OpenERP - %s"
 msgstr "OpenERP - %s"
+
 #
 # File: bin/modules/gui/main.py, line: 1070
 msgid "Not logged !"
 msgstr "Niste prijavljeni!"
+
 #
 # File: bin/modules/gui/main.py, line: 833
 # File: bin/modules/gui/main.py, line: 833
@@ -1366,11 +1519,13 @@ msgstr ""
 "Nemožete se prijaviti na sistem !\n"
 "Pitajte Administratora da provjeri\n"
 "da imate definisanu akciju za vašeg korisnika."
+
 #
 # File: bin/modules/gui/main.py, line: 1187
 # File: bin/modules/gui/main.py, line: 1194
 msgid "Do you really want to quit ?"
 msgstr "Želite li zaista završiti s radom?"
+
 #
 # File: bin/modules/gui/main.py, line: 927
 # File: bin/modules/gui/main.py, line: 927
@@ -1378,78 +1533,92 @@ msgstr "Želite li zaista završiti s radom?"
 #, python-format
 msgid "Attachments (%d)"
 msgstr "Prilozi (%d)"
+
 #
 # File: bin/modules/gui/main.py, line: 940
 # File: bin/modules/gui/main.py, line: 940
 # File: bin/modules/gui/main.py, line: 1276
 msgid "Attachments"
 msgstr "Prilozi"
+
 #
 # File: bin/modules/gui/main.py, line: 1035
 # File: bin/modules/gui/main.py, line: 1035
 # File: bin/modules/gui/main.py, line: 1375
 msgid "Delete a database"
 msgstr "Obriši bazu podataka"
+
 #
 # File: bin/modules/gui/main.py, line: 1381
 msgid "Database dropped successfully !"
 msgstr "Baza podataka uspešno obrisana!"
+
 #
 # File: bin/modules/gui/main.py, line: 1044
 # File: bin/modules/gui/main.py, line: 1044
 # File: bin/modules/gui/main.py, line: 1384
 msgid "Could not drop database."
 msgstr "Brisanje baze podataka nije uspelo."
+
 #
 # File: bin/modules/gui/main.py, line: 1046
 # File: bin/modules/gui/main.py, line: 1046
 # File: bin/modules/gui/main.py, line: 1386
 msgid "Couldn't drop database"
 msgstr "Brisanje baze podataka nije uspelo."
+
 #
 # File: bin/modules/gui/main.py, line: 1401
 msgid "Database restored successfully !"
 msgstr "Baza podataka u potpunosti vraćena na predhodno stanje!"
+
 #
 # File: bin/modules/gui/main.py, line: 1063
 # File: bin/modules/gui/main.py, line: 1063
 # File: bin/modules/gui/main.py, line: 1404
 msgid "Could not restore database."
 msgstr "Nije moguće vratiti bazu podataka na predhodno stanje."
+
 #
 # File: bin/modules/gui/main.py, line: 1065
 # File: bin/modules/gui/main.py, line: 1065
 # File: bin/modules/gui/main.py, line: 1406
 msgid "Couldn't restore database"
 msgstr "Nije moguće vratiti bazu podataka na predhodno stanje."
+
 #
 # File: bin/modules/gui/main.py, line: 1442
-#, fuzzy
 msgid "<b>Change your password</b>"
-msgstr "<b>Promena lozinke super-administratora</b>"
+msgstr ""
+
 #
 # File: bin/modules/gui/main.py, line: 1457
 msgid "Confirmation password does not match new password, operation cancelled!"
 msgstr "Ponovljena šifra ne odgovara novoj šifri, opreacija prekinuta."
+
 #
 # File: bin/modules/gui/main.py, line: 1100
 # File: bin/modules/gui/main.py, line: 1100
 # File: bin/modules/gui/main.py, line: 1459
 msgid "Validation Error."
 msgstr "Greška u validaciji."
+
 #
 # File: bin/modules/gui/main.py, line: 1476
 msgid "Could not change the Super Admin password."
 msgstr "Ne mogu da promenim \"Super Admin\" lozinku."
+
 #
 # File: bin/modules/gui/main.py, line: 1477
 # File: bin/modules/gui/main.py, line: 1483
 msgid "Bad password provided !"
 msgstr "Unešena pogrešna lozinka!"
+
 #
 # File: bin/modules/gui/main.py, line: 1482
 msgid "Changing password failed, please verify old password."
 msgstr ""
+
 #
 # File: bin/modules/gui/main.py, line: 1117
 # File: bin/modules/gui/main.py, line: 1134
@@ -1459,59 +1628,72 @@ msgstr ""
 # File: bin/modules/gui/main.py, line: 1513
 msgid "Backup a database"
 msgstr "Napravite rezervnu kopiju baze podataka"
+
 #
 # File: bin/modules/gui/main.py, line: 1506
 msgid "Database backed up successfully !"
 msgstr "Usepšno sačuvana rezervna kopija baze"
+
 #
 # File: bin/modules/gui/main.py, line: 1509
 msgid "Could not backup the database."
 msgstr "Ne moga da sačuvam rezervnu kopiju baze"
+
 #
 # File: bin/modules/gui/main.py, line: 1132
 # File: bin/modules/gui/main.py, line: 1132
 # File: bin/modules/gui/main.py, line: 1511
 msgid "Couldn't backup database."
 msgstr "Nije moguće napraviti rezervnu kopiju baze podataka."
+
 #
 # File: bin/modules/gui/window/__init__.py, line: 33
 # File: bin/modules/gui/window/__init__.py, line: 33
 # File: bin/modules/gui/window/__init__.py, line: 31
 msgid "Unknown Window"
 msgstr "Nepoznat prozor"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 43
 msgid "Extension"
 msgstr "Ekstenzija"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 43
 msgid "Application"
 msgstr "Aplikacija"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 43
 msgid "Print Processor"
 msgstr "Procesor Štampe"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 114
 msgid "This extension is already defined"
 msgstr "Ova ekstenzija je već definisana"
+
 #
 # File: bin/modules/gui/window/win_extension.py, line: 114
 # File: bin/openerp.glade, line: 7656
 msgid "Extension Manager"
 msgstr "Upravljač Ekstenzijama"
+
 #
 # File: bin/modules/gui/window/form.py, line: 189
 msgid "Resource ID does not exist for this object!"
 msgstr "ID resursa za ovaj objekat ne postoji!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 247
 msgid "No record selected ! You can only attach to existing record."
 msgstr "Nije izabran zapis! Možete da povežete samo sa postojećim zapisom."
+
 #
 # File: bin/modules/gui/window/form.py, line: 264
 msgid "You have to select a record !"
 msgstr "Morate da izaberete zapis!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 215
 # File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 43
@@ -1522,57 +1704,68 @@ msgstr "Morate da izaberete zapis!"
 # File: bin/modules/gui/window/win_export.py, line: 213
 msgid "ID"
 msgstr "ID"
+
 #
 # File: bin/modules/gui/window/form.py, line: 271
 msgid "Creation User"
 msgstr "Kreiranje korisnika"
+
 #
 # File: bin/modules/gui/window/form.py, line: 217
 # File: bin/modules/gui/window/form.py, line: 217
 # File: bin/modules/gui/window/form.py, line: 272
 msgid "Creation Date"
 msgstr "Datum kreiranja"
+
 #
 # File: bin/modules/gui/window/form.py, line: 273
 msgid "Latest Modification by"
 msgstr "Poslednje izmene uradio"
+
 #
 # File: bin/modules/gui/window/form.py, line: 274
 msgid "Latest Modification Date"
 msgstr "Datum zadnje izmene"
+
 #
 # File: bin/modules/gui/window/form.py, line: 275
 msgid "Internal Module Data ID"
 msgstr "Interni ID podatka modula"
+
 #
 # File: bin/modules/gui/window/form.py, line: 287
-#, fuzzy
 msgid ""
 "Record is not saved ! \n"
 " Do you want to clear current record ?"
 msgstr ""
 "Zapis nije snimljen! \n"
 " Da li želite da obrišete trenutni zapis ?"
+
 #
 # File: bin/modules/gui/window/form.py, line: 296
 msgid "Resources cleared."
 msgstr "Resurs je očišćen"
+
 #
 # File: bin/modules/gui/window/form.py, line: 298
 msgid "Resources successfully removed."
 msgstr "Resurs je uspešno uklonjen."
+
 #
 # File: bin/modules/gui/window/form.py, line: 339
 msgid "Working now on the duplicated document !"
 msgstr "Sada radite na dupliranom dokumentu!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 355
 msgid "Document Saved."
 msgstr "Dokument je sačuvan"
+
 #
 # File: bin/modules/gui/window/form.py, line: 368
 msgid "Warning !"
 msgstr "Upozorenje!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 389
 # File: bin/modules/gui/window/form.py, line: 497
@@ -1582,76 +1775,90 @@ msgid ""
 msgstr ""
 "Ovaj zapis je izmjenjen\n"
 "da li želite da ga sačuvate?"
+
 #
 # File: bin/modules/gui/window/form.py, line: 447
 msgid "You must select one or several records !"
 msgstr "Morate da odaberte jedan ili više zapisa!"
+
 #
 # File: bin/modules/gui/window/form.py, line: 456
 msgid "Print Screen"
 msgstr "Štampaj ekran"
+
 #
 # File: bin/modules/gui/window/form.py, line: 378
 # File: bin/modules/gui/window/form.py, line: 378
 # File: bin/modules/gui/window/form.py, line: 476
 msgid "No record selected"
 msgstr "Nijedan zapis nije izabran"
+
 #
 # File: bin/modules/gui/window/form.py, line: 383
 # File: bin/modules/gui/window/form.py, line: 383
 # File: bin/modules/gui/window/form.py, line: 481
 msgid "New document"
 msgstr "Novi dokument"
+
 #
 # File: bin/modules/gui/window/form.py, line: 385
 # File: bin/modules/gui/window/form.py, line: 385
 # File: bin/modules/gui/window/form.py, line: 483
 msgid "Editing document (id: "
 msgstr "Uređivanje dokumenta (id: "
+
 #
 # File: bin/modules/gui/window/form.py, line: 386
 # File: bin/modules/gui/window/form.py, line: 386
 # File: bin/modules/gui/window/form.py, line: 486
 msgid "Record: "
 msgstr "Zapis: "
+
 #
 # File: bin/modules/gui/window/form.py, line: 387
 # File: bin/modules/gui/window/form.py, line: 387
 # File: bin/modules/gui/window/form.py, line: 487
 msgid " of "
 msgstr " od "
+
 #
 # File: bin/modules/gui/window/view_tree/parse.py, line: 36
 # File: bin/modules/gui/window/view_tree/parse.py, line: 36
 # File: bin/modules/gui/window/view_tree/parse.py, line: 35
 msgid "Tree"
 msgstr "Stablo"
+
 #
 # File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 49
 # File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 49
 # File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 45
 msgid "Description"
 msgstr "Opis"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 51
 msgid "The file is empty !"
 msgstr "Datoteka je prazna !"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 51
 msgid "Importation !"
 msgstr "Uvoz !"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 61
 msgid "Imported one object !"
 msgstr "Uvezena jedna stavka !"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 63
 #, python-format
 msgid "Imported %d objects !"
 msgstr "Uvezeno %d stavki !"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 70
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Error trying to import this record:\n"
 "%(err_import_record)s\n"
@@ -1661,15 +1868,17 @@ msgid ""
 "%(err_msg)s"
 msgstr ""
 "Greška tokom pokušaja uvoza ovog zapisa:\n"
-"%s\n"
+"%(err_import_record)s\n"
 "Poruka Greške:\n"
-"%s\n"
+"%(err_type)s\n"
 "\n"
-"%s"
+"%(err_msg)s"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 72
 msgid "Importation Error !"
 msgstr "Greška pri uvozu !"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 93
 # File: bin/modules/gui/window/win_import.py, line: 97
@@ -1679,26 +1888,30 @@ msgstr "Greška pri uvozu !"
 # File: bin/modules/gui/window/win_import.py, line: 109
 msgid "Field name"
 msgstr "Naziv polja"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 142
 # File: bin/modules/gui/window/win_import.py, line: 144
 # File: bin/modules/gui/window/win_export.py, line: 214
-#, fuzzy
 msgid "Database ID"
-msgstr "Baza podataka"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 181
 msgid "Error opening .CSV file"
 msgstr "Greška pri otvaranju ,CVS fajla"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 181
 msgid "Input Error."
 msgstr "Greška Unosa"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 199
 #, python-format
 msgid "You cannot import this field %s, because we cannot auto-detect it"
 msgstr "Ne možete uvesti polje %s,  jer ga ne možemo auto-detektovati"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 202
 #, python-format
@@ -1708,49 +1921,55 @@ msgid ""
 msgstr ""
 "Greška pri obradi prvog reda datoteke.\n"
 "Polje %s je nepoznato !"
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 202
 msgid "Import Error."
 msgstr "Greška pri Uvozu."
+
 #
 # File: bin/modules/gui/window/win_import.py, line: 233
 msgid "You have not selected any fields to import"
 msgstr "Niste izabrali nijedno polje za uvoz"
+
 #
 # File: bin/modules/gui/window/win_preference.py, line: 68
 msgid "Preferences"
 msgstr "Podešavanja"
+
 #
 # File: bin/modules/gui/window/win_preference.py, line: 86
-msgid ""
-"The default language of the interface has been modified, do not forget to "
-"restart the client to have the interface in your language"
-msgstr ""
-"Podrazumevani jezik interfejsa je promenjen, ne zaboravite da ponovo "
-"pokrenete klijenta da biste dobili interfejs na svom jeziku."
+msgid "The default language of the interface has been modified, do not forget to restart the client to have the interface in your language"
+msgstr "Podrazumevani jezik interfejsa je promenjen, ne zaboravite da ponovo pokrenete klijenta da biste dobili interfejs na svom jeziku."
+
 #
 # File: bin/modules/gui/window/win_preference.py, line: 88
 msgid "Default language modified !"
 msgstr "Podrazumevani jezik izmenjen !"
+
 #
 # File: bin/modules/gui/window/win_selection.py, line: 51
 msgid "Name"
 msgstr "Naziv"
+
 #
 # File: bin/modules/gui/window/win_selection.py, line: 55
 msgid "Ressource Name"
 msgstr "Naziv Izvora"
+
 #
 # File: bin/modules/gui/window/win_selection.py, line: 56
 # File: bin/modules/gui/window/win_selection.py, line: 56
 # File: bin/modules/gui/window/win_selection.py, line: 55
 msgid "Names"
 msgstr "Nazivi"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 205
 # File: bin/modules/gui/window/tree.py, line: 261
 msgid "No resource selected!"
 msgstr "Izvor nije odabran!"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 219
 msgid ""
@@ -1759,18 +1978,22 @@ msgid ""
 msgstr ""
 "Da li zaista želite\n"
 "da uklonite ovaj zapis?"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 224
 msgid "Error removing resource!"
 msgstr "Greška pri uklanjanua izvora!"
+
 #
 # File: bin/modules/gui/window/tree.py, line: 235
 msgid "Unable to chroot: no tree resource selected"
 msgstr "Nemoguće promeniti chkoren: izvorno stablo nije izabrano"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 50
 msgid " record(s) saved !"
 msgstr " zapis(i) sačuvan(i) !"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 53
 msgid ""
@@ -1779,51 +2002,58 @@ msgid ""
 msgstr ""
 "Neuspela operacija !\n"
 "U/I Greška"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 79
 # File: bin/modules/gui/window/win_export.py, line: 105
 msgid "Error Opening Excel !"
 msgstr "Greška pri otvaranju Excel-a !"
+
 #
 # File: bin/openerp.glade, line: 2435
 # File: bin/openerp.glade, line: 2435
 # File: bin/modules/gui/window/win_export.py, line: 142
 # File: bin/modules/gui/window/win_export.py, line: 146
-#, fuzzy
 msgid "Field Name"
-msgstr "Naziv_Polja:"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 166
-#, fuzzy
 msgid "Open in Excel"
-msgstr "Greška pri otvaranju Excel-a !"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 167
-#, fuzzy
 msgid "Save as CSV"
-msgstr "Sačuvaj kao"
+msgstr ""
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 317
 msgid "What is the name of this export ?"
 msgstr "KOji je naziv ovog izvoznog materijala ?"
+
 #
 # File: bin/modules/gui/window/win_export.py, line: 351
 msgid "Exportation Error !"
 msgstr "Greška pri Izvozu !"
+
 #
 # File: bin/modules/gui/window/win_search.py, line: 126
 #, python-format
 msgid "OpenERP Search: %s"
 msgstr "OpenERP Pretraga: %s"
+
 #
 # File: bin/modules/gui/window/win_search.py, line: 127
 #, python-format
 msgid "OpenERP Search: %s (%%d result(s))"
 msgstr "OpenERP Pretraga: %s (%%d rezultat(i))"
+
 #
 # File: bin/openerp.glade, line: 6
 msgid "OpenERP - Login"
 msgstr "OpenERP - Prijava"
+
 #
 # File: bin/openerp.glade, line: 118
 # File: bin/openerp.glade, line: 8427
@@ -1833,80 +2063,96 @@ msgstr "OpenERP - Prijava"
 # File: bin/openerp.glade, line: 6419
 msgid "Database:"
 msgstr "Baza podataka:"
+
 #
 # File: bin/openerp.glade, line: 133
 # File: bin/openerp.glade, line: 133
 # File: bin/openerp.glade, line: 131
 msgid "User:"
 msgstr "Korisnik:"
+
 #
 # File: bin/openerp.glade, line: 146
 # File: bin/openerp.glade, line: 6405
 # File: bin/openerp.glade, line: 6716
 msgid "Password:"
 msgstr "Lozinka:"
+
 #
 # File: bin/openerp.glade, line: 257
 # File: bin/openerp.glade, line: 257
 # File: bin/openerp.glade, line: 265
 msgid "_File"
 msgstr "_Datoteka"
+
 #
 # File: bin/openerp.glade, line: 272
 msgid "_Connect..."
 msgstr "_Poveži..."
+
 #
 # File: bin/openerp.glade, line: 280
 # File: bin/openerp.glade, line: 280
 # File: bin/openerp.glade, line: 288
 msgid "_Disconnect"
 msgstr "_Prekini vezu"
+
 #
 # File: bin/openerp.glade, line: 300
 # File: bin/openerp.glade, line: 300
 # File: bin/openerp.glade, line: 308
 msgid "Databases"
 msgstr "Baze podataka"
+
 #
 # File: bin/openerp.glade, line: 307
 # File: bin/openerp.glade, line: 307
 # File: bin/openerp.glade, line: 315
 msgid "_New database"
 msgstr "_Nova baza podataka"
+
 #
 # File: bin/openerp.glade, line: 330
 msgid "_Restore database"
 msgstr "_Vrati bazu podataka"
+
 #
 # File: bin/openerp.glade, line: 345
 msgid "_Backup database"
 msgstr "_Napravi rezervnu kopiju baze podataka"
+
 #
 # File: bin/openerp.glade, line: 360
 msgid "Dro_p database"
 msgstr "Dro_p baza podataka"
+
 #
 # File: bin/openerp.glade, line: 380
 msgid "_Download Migrations Code"
 msgstr "Kopiraj tekst \t _Preuzmi kod za preseljenje"
+
 #
 # File: bin/openerp.glade, line: 395
 msgid "_Migrate Database(s)"
 msgstr "_Preseli Bazu(e) podataka"
+
 #
 # File: bin/openerp.glade, line: 415
 msgid "Administrator Password"
 msgstr "Lozinka administratora"
+
 #
 # File: bin/openerp.glade, line: 417
 # File: bin/openerp.glade, line: 417
 # File: bin/openerp.glade, line: 460
 msgid "_User"
 msgstr "_Korisnik"
+
 #
 # File: bin/openerp.glade, line: 468
 msgid "_Preferences"
 msgstr "_Podešavanja"
+
 #
 # File: bin/openerp.glade, line: 9299
 # File: bin/openerp.glade, line: 9299
@@ -1914,323 +2160,397 @@ msgstr "_Podešavanja"
 # File: bin/openerp.glade, line: 7318
 msgid "Change password"
 msgstr "Promena lozinke"
+
 #
 # File: bin/openerp.glade, line: 496
 msgid "_Send a request"
 msgstr "_Pošalji zahtev"
+
 #
 # File: bin/openerp.glade, line: 511
 msgid "_Read my requests"
 msgstr "_Pročitaj moje zahteve"
+
 #
 # File: bin/openerp.glade, line: 531
 msgid "_Waiting Requests"
 msgstr "_Čekanje na zahteve"
+
 #
 # File: bin/openerp.glade, line: 544
 msgid "For_m"
 msgstr "For_m"
+
 #
 # File: bin/openerp.glade, line: 552
 msgid "_New"
 msgstr "_Novo"
+
 #
 # File: bin/openerp.glade, line: 568
 msgid "_Save"
 msgstr "_Sačuvaj"
+
 #
 # File: bin/openerp.glade, line: 584
 msgid "Copy this resource"
 msgstr "Kopiraj ovaj izvor"
+
 #
 # File: bin/openerp.glade, line: 585
 msgid "_Duplicate"
 msgstr "_Udvostruči"
+
 #
 # File: bin/openerp.glade, line: 550
 # File: bin/openerp.glade, line: 550
 # File: bin/openerp.glade, line: 601
 msgid "_Delete"
 msgstr "_Obriši"
+
 #
 # File: bin/openerp.glade, line: 622
 msgid "Find"
 msgstr "Pretraži"
+
 #
 # File: bin/openerp.glade, line: 638
 msgid "Ne_xt"
 msgstr "_Sledeće"
+
 #
 # File: bin/openerp.glade, line: 654
 msgid "Pre_vious"
 msgstr "_Prethodno"
+
 #
 # File: bin/openerp.glade, line: 670
 msgid "Switch to list/form"
 msgstr "Prebaci na spisak/obrazac"
+
 #
 # File: bin/openerp.glade, line: 686
 msgid "_Menu"
 msgstr "_Meni"
+
 #
 # File: bin/openerp.glade, line: 707
 msgid "_New Home Tab"
 msgstr "_Novi Početni tab"
+
 #
 # File: bin/openerp.glade, line: 723
 # File: bin/openerp.glade, line: 5009
 msgid "Close Tab"
 msgstr "Zatvori tab"
+
 #
 # File: bin/openerp.glade, line: 739
 msgid "Previous Tab"
 msgstr "Prethodni tab"
+
 #
 # File: bin/openerp.glade, line: 748
 # File: bin/openerp.glade, line: 5065
 msgid "Next Tab"
 msgstr "Sledeći tab"
+
 #
 # File: bin/openerp.glade, line: 762
 msgid "View _logs"
 msgstr "Pogledaj _zapise"
+
 #
 # File: bin/openerp.glade, line: 770
 msgid "_Go to resource ID..."
 msgstr "_Idi na ID izvora..."
+
 #
 # File: bin/openerp.glade, line: 733
 # File: bin/openerp.glade, line: 733
 # File: bin/openerp.glade, line: 784
 msgid "_Open"
 msgstr "_Otvori"
+
 #
 # File: bin/openerp.glade, line: 799
 msgid "Reloa_d / Undo"
 msgstr "_Osveži/Poništi"
+
 #
 # File: bin/openerp.glade, line: 820
 msgid "Repeat latest _action"
 msgstr "Ponovi poslednju _radnju"
+
 #
 # File: bin/openerp.glade, line: 834
 msgid "_Preview in PDF"
 msgstr "_Pregledaj u PDF-u"
+
 #
 # File: bin/openerp.glade, line: 850
 msgid "Previe_w in editor"
 msgstr "_Pregledaj u editoru"
+
 #
 # File: bin/openerp.glade, line: 870
 msgid "Expor_t data..."
 msgstr "_Izvezi podatke"
+
 #
 # File: bin/openerp.glade, line: 885
 msgid "I_mport data..."
 msgstr "_Uvezi podatke"
+
 #
 # File: bin/openerp.glade, line: 897
 msgid "_Options"
 msgstr "_Opcije"
+
 #
 # File: bin/openerp.glade, line: 904
 msgid "_Extension Manager"
 msgstr "_Podešavanje ektenzijâ"
+
 #
 # File: bin/openerp.glade, line: 912
 msgid "_Menubar"
 msgstr "_ Tabla menija"
+
 #
 # File: bin/openerp.glade, line: 920
 msgid "Text _and Icons"
 msgstr "Tekst _i ikone"
+
 #
 # File: bin/openerp.glade, line: 928
 msgid "_Icons only"
 msgstr "_Ikone samo"
+
 #
 # File: bin/openerp.glade, line: 937
 msgid "_Text only"
 msgstr "_Tekst samo"
+
 #
 # File: bin/openerp.glade, line: 950
 msgid "_Forms"
 msgstr "_Obrasci"
+
 #
 # File: bin/openerp.glade, line: 958
 msgid "Right Toolbar"
 msgstr "_Desna linija sa alatima"
+
 #
 # File: bin/openerp.glade, line: 966
 msgid "Tabs default position"
 msgstr "Osnovna pozicija tabova"
+
 #
 # File: bin/openerp.glade, line: 923
 # File: bin/openerp.glade, line: 923
 # File: bin/openerp.glade, line: 974
 msgid "Top"
 msgstr "Vrh"
+
 #
 # File: bin/openerp.glade, line: 982
 msgid "Left"
 msgstr "Levo"
+
 #
 # File: bin/openerp.glade, line: 940
 # File: bin/openerp.glade, line: 940
 # File: bin/openerp.glade, line: 991
 msgid "Right"
 msgstr "Desno"
+
 #
 # File: bin/openerp.glade, line: 949
 # File: bin/openerp.glade, line: 949
 # File: bin/openerp.glade, line: 1000
 msgid "Bottom"
 msgstr "Dno"
+
 #
 # File: bin/openerp.glade, line: 1013
 msgid "Tabs default orientation"
 msgstr "Osnovna orijentacija tabova"
+
 #
 # File: bin/openerp.glade, line: 970
 # File: bin/openerp.glade, line: 970
 # File: bin/openerp.glade, line: 1021
 msgid "Horizontal"
 msgstr "Vodoravno"
+
 #
 # File: bin/openerp.glade, line: 978
 # File: bin/openerp.glade, line: 978
 # File: bin/openerp.glade, line: 1029
 msgid "Vertical"
 msgstr "Uspravno"
+
 #
 # File: bin/openerp.glade, line: 1046
 msgid "_Print"
 msgstr "_Štampaj"
+
 #
 # File: bin/openerp.glade, line: 1053
 msgid "Previe_w before print"
 msgstr "_Pregled pre štamapanja"
+
 #
 # File: bin/openerp.glade, line: 1077
 msgid "_Save options"
 msgstr "_Sačucaj opcije"
+
 #
 # File: bin/openerp.glade, line: 1097
 msgid "_Plugins"
 msgstr "_Dodaci"
+
 #
 # File: bin/openerp.glade, line: 1105
 msgid "_Execute a plugin"
 msgstr "_Izvrši dodatak"
+
 #
 # File: bin/openerp.glade, line: 1125
 msgid "_Shortcuts"
 msgstr "_Prečice"
+
 #
 # File: bin/openerp.glade, line: 1082
 # File: bin/openerp.glade, line: 1082
 # File: bin/openerp.glade, line: 1133
 msgid "_Help"
 msgstr "_Pomoć"
+
 #
 # File: bin/openerp.glade, line: 1140
 msgid "Enable Debug Mode Tooltips"
 msgstr "Omogući savete debag moda"
+
 #
 # File: bin/openerp.glade, line: 1148
 # File: bin/openerp.glade, line: 4380
 msgid "Support Request"
 msgstr "Zahtev za podršku"
+
 #
 # File: bin/openerp.glade, line: 1109
 # File: bin/openerp.glade, line: 1109
 # File: bin/openerp.glade, line: 1168
 msgid "User _Manual"
 msgstr "Korisničko_uputstvo"
+
 #
 # File: bin/openerp.glade, line: 1183
 msgid "_Contextual Help"
 msgstr "_Kontekstualna pomoć"
+
 #
 # File: bin/openerp.glade, line: 1199
 msgid "Keyboard Shortcuts"
 msgstr "Prečice na tastaturi"
+
 #
 # File: bin/openerp.glade, line: 1212
 msgid "_License"
 msgstr "_Dozvola"
+
 #
 # File: bin/openerp.glade, line: 1183
 # File: bin/openerp.glade, line: 1183
 # File: bin/openerp.glade, line: 1227
 msgid "_About..."
 msgstr "_O programu"
+
 #
 # File: bin/openerp.glade, line: 1269
 msgid "Edit / Save this resource"
 msgstr "Izmeni / Sačuvaj ovaj izvor"
+
 #
 # File: bin/openerp.glade, line: 1285
 msgid "Delete this resource"
 msgstr "Obriši ovaj izvor"
+
 #
 # File: bin/openerp.glade, line: 1298
 msgid "Go to previous matched search"
 msgstr "Idi na prethodni podudarni rezultat pretrage"
+
 #
 # File: bin/openerp.glade, line: 1299
 msgid "Previous"
 msgstr "Prethodno"
+
 #
 # File: bin/openerp.glade, line: 1310
 msgid "Go to next matched resource"
 msgstr "Idi na sledeći podudarni rezultat pretrage"
+
 #
 # File: bin/openerp.glade, line: 1311
 msgid "Next"
 msgstr "Sledeće"
+
 #
 # File: bin/openerp.glade, line: 1324
 msgid "List"
 msgstr "Spisak"
+
 #
 # File: bin/openerp.glade, line: 1336
 msgid "Form"
 msgstr "Obrazac"
+
 #
 # File: bin/openerp.glade, line: 1349
 msgid "Calendar"
 msgstr "Kalendar"
+
 #
 # File: bin/openerp.glade, line: 1359
 msgid "Diagram"
 msgstr "Dijagram"
+
 #
 # File: bin/openerp.glade, line: 1369
 msgid "Graph"
 msgstr "Grafikon"
+
 #
 # File: bin/openerp.glade, line: 1382
 msgid "Gantt"
 msgstr "Gantov dijagram"
+
 #
 # File: bin/openerp.glade, line: 1400
 msgid "Print documents"
 msgstr "Odštampaj dokumenta"
+
 #
 # File: bin/openerp.glade, line: 1411
 msgid "Launch actions about this resource"
 msgstr "Pokreni radnje vezanu za ovaj izvor"
+
 #
 # File: bin/openerp.glade, line: 1424
 msgid "Add an attachment to this resource"
 msgstr "Dodaj prilog uz ovaj izvor"
+
 #
 # File: bin/openerp.glade, line: 1369
 # File: bin/openerp.glade, line: 1369
 # File: bin/openerp.glade, line: 1425
 msgid "Attachment"
 msgstr "Prilog"
+
 #
 # File: bin/openerp.glade, line: 1384
 # File: bin/openerp.glade, line: 1385
@@ -2240,56 +2560,68 @@ msgstr "Prilog"
 # File: bin/openerp.glade, line: 1441
 msgid "Menu"
 msgstr "Meni"
+
 #
 # File: bin/openerp.glade, line: 1458
 # File: bin/openerp.glade, line: 1459
 msgid "Reload"
 msgstr "Osveži"
+
 #
 #
 # File: bin/openerp.glade, line: 1476
 msgid "Close this window"
 msgstr "Zatvori ovaj prozor"
+
 #
 # File: bin/openerp.glade, line: 1520
 msgid "Company:"
 msgstr "Firma:"
+
 #
 # File: bin/openerp.glade, line: 1543
 msgid "Requests:"
 msgstr "Zahtevi:"
+
 #
 # File: bin/openerp.glade, line: 1566
 msgid "Read my Requests"
 msgstr "Pročitaj moje zahteve"
+
 #
 # File: bin/openerp.glade, line: 1587
 msgid "Send a new request"
 msgstr "Pošalji novi zahtev"
+
 #
 # File: bin/openerp.glade, line: 1627
 msgid "OpenERP - Tree Resources"
 msgstr "OpenERP - Izvori stabla"
+
 #
 # File: bin/openerp.glade, line: 1585
 # File: bin/openerp.glade, line: 1585
 # File: bin/openerp.glade, line: 1680
 msgid "Shortcuts"
 msgstr "Prečice"
+
 #
 # File: bin/openerp.glade, line: 1789
 msgid "OpenERP - Forms"
 msgstr "OpenERP - Obrasci"
+
 #
 # File: bin/openerp.glade, line: 1718
 # File: bin/openerp.glade, line: 1718
 # File: bin/openerp.glade, line: 1813
 msgid "State:"
 msgstr "Stanje:"
+
 #
 # File: bin/openerp.glade, line: 1845
 msgid "OpenERP - About"
 msgstr "OpenERP - O programu"
+
 #
 # File: bin/openerp.glade, line: 1859
 msgid ""
@@ -2298,6 +2630,7 @@ msgid ""
 msgstr ""
 "<b>O OpenERP-u</b>\n"
 "<i>Najnapredniji Open Source ERP &amp; CRM !</i>"
+
 #
 # File: bin/openerp.glade, line: 1898
 msgid ""
@@ -2319,13 +2652,14 @@ msgid ""
 "\n"
 "More Info on www.openerp.com !"
 msgstr ""
+
 #
 # File: bin/openerp.glade, line: 1931
 msgid "_OpenERP"
 msgstr "_OpenERP"
+
 #
 # File: bin/openerp.glade, line: 1959
-#, fuzzy
 msgid ""
 "\n"
 "(c) 2004-TODAY, OpenERP SA\n"
@@ -2342,102 +2676,124 @@ msgid ""
 "Web: http://openerp.com"
 msgstr ""
 "\n"
-"(c) 2003-TODAY - Tiny sprl\n"
-"OpenERP je proizvod Tiny sprl:\n"
+"(c) 2004-TODAY, OpenERP SA\n"
+"OpenERP je proizvod OpenERP SA:\n"
 "\n"
-"Tiny sprl\n"
+"OpenERP SA\n"
 "40 Chaussée de Namur\n"
 "1367 Gérompont\n"
 "Belgium\n"
 "\n"
-"Tel : (+32)81.81.37.00\n"
-"Mail: sales@tiny.be\n"
-"Web: http://tiny.be"
+"Tel : (+32) 81.81.37.00\n"
+"Tel : (+32) 2 290 34 90 (Sales)\n"
+"Mail: sales@openerp.com\n"
+"Web: http://openerp.com"
+
 #
 # File: bin/openerp.glade, line: 1890
 # File: bin/openerp.glade, line: 1890
 # File: bin/openerp.glade, line: 1991
 msgid "_Contact"
 msgstr "_Kontakt"
+
 #
 # File: bin/openerp.glade, line: 2043
 msgid "Open ERP - Forms widget"
 msgstr "Open ERP - Vidžet obrazaca"
+
 #
 # File: bin/openerp.glade, line: 2222
 # File: bin/openerp.glade, line: 4726
 msgid "OpenERP - Confirmation"
 msgstr "OpenERP - Potvrda"
+
 #
 # File: bin/openerp.glade, line: 2301
 msgid "OpenERP - Selection"
 msgstr "OpenERP - Izbor"
+
 #
 # File: bin/openerp.glade, line: 2315
 msgid "Your selection:"
 msgstr "Vaš izbor:"
+
 #
 # File: bin/openerp.glade, line: 2395
 msgid "OpenERP - Dialog"
 msgstr "OpenERP - Dijalog"
+
 #
 # File: bin/openerp.glade, line: 2419
 msgid "OpenERP, Field Preference target"
 msgstr "OpenERP, Podešavanja ciljnog polja"
+
 #
 # File: bin/openerp.glade, line: 2450
 msgid "_only for you"
 msgstr "_samo za Vas"
+
 #
 # File: bin/openerp.glade, line: 2464
 msgid "for _all users"
 msgstr "za _sve korisnike"
+
 #
 # File: bin/openerp.glade, line: 2484
 msgid "<b>Value applicable for:</b>"
 msgstr "<b>Vrednost primjenjiva za:</b>"
+
 #
 # File: bin/openerp.glade, line: 2520
 msgid "<b>Value applicable if:</b>"
 msgstr "<b>Vrednost primenjiva ako:</b>"
+
 #
 # File: bin/openerp.glade, line: 2435
 # File: bin/openerp.glade, line: 2435
 # File: bin/openerp.glade, line: 2538
 msgid "Field _Name:"
 msgstr "Naziv_Polja:"
+
 #
 # File: bin/openerp.glade, line: 2552
 msgid "_Domain:"
 msgstr "_Domen"
+
 #
 # File: bin/openerp.glade, line: 2611
 msgid "Default _value:"
 msgstr "Osnovna_vrednost"
+
 #
 # File: bin/openerp.glade, line: 2666
 msgid "OpenERP - Export to CSV"
 msgstr "OpenERP - izvezi u CSV-u"
+
 #
 # File: bin/openerp.glade, line: 2714
 msgid "Save List"
 msgstr "Sačuvaj spisak"
+
 #
 # File: bin/openerp.glade, line: 2762
 msgid "Remove List"
 msgstr "Ukloni spisak"
+
 #
 # File: bin/openerp.glade, line: 2817
 msgid "<b>Exports List</b>"
 msgstr "<b>Spisak izvezenih stavki<b>"
+
 #
 # File: bin/openerp.glade, line: 2834
 msgid "<b>Predefined Exports</b>"
 msgstr "<b>Predefinisane izvezene stavke<b>"
+
 #
 # File: bin/openerp.glade, line: 2880
 msgid "Available Fields"
 msgstr "Dostupna polja"
+
 #
 # File: bin/openerp.glade, line: 2819
 # File: bin/openerp.glade, line: 7624
@@ -2447,6 +2803,7 @@ msgstr "Dostupna polja"
 # File: bin/openerp.glade, line: 5634
 msgid "_Add"
 msgstr "_Dodaj"
+
 #
 # File: bin/openerp.glade, line: 2866
 # File: bin/openerp.glade, line: 7671
@@ -2456,92 +2813,107 @@ msgstr "_Dodaj"
 # File: bin/openerp.glade, line: 5681
 msgid "_Remove"
 msgstr "_Ukloni"
+
 #
 # File: bin/openerp.glade, line: 2914
 # File: bin/openerp.glade, line: 2914
 # File: bin/openerp.glade, line: 3018
 msgid "_Nothing"
 msgstr "_Ništa"
+
 #
 # File: bin/openerp.glade, line: 3073
 msgid "Fields to Export"
 msgstr "Polja za izvoz"
+
 #
 # File: bin/openerp.glade, line: 3115
-#, fuzzy
 msgid "Add Field Names"
-msgstr "Dodaj_nazive poljâ"
+msgstr ""
+
 #
 # File: bin/openerp.glade, line: 3134
 msgid "Import Compatible"
 msgstr "Uvoz kompatibilan"
+
 #
 # File: bin/openerp.glade, line: 3156
 msgid "<b>Opti_ons</b>"
 msgstr "<b>_Opcije</b>"
+
 #
 # File: bin/openerp.glade, line: 3215
 msgid "OpenERP - Search"
 msgstr "OpenERP - Pretraga"
+
 #
 # File: bin/openerp.glade, line: 3295
 msgid "OpenERP - Preferences"
 msgstr "OpenERP - Podešavanja"
+
 #
 # File: bin/openerp.glade, line: 3309
 msgid "<b>User preferences</b>"
 msgstr "<b>Korisnička podešavanja</b>"
+
 #
 # File: bin/openerp.glade, line: 3375
 msgid "Tip of the Day"
 msgstr "Savet dana"
+
 #
 # File: bin/openerp.glade, line: 3422
 msgid "_Display a new tip next time?"
 msgstr "_Prikaži novi savet sledeći put?"
+
 #
 # File: bin/openerp.glade, line: 3475
 msgid "Pre_vious Tip"
 msgstr "Pre_thodni savet"
+
 #
 # File: bin/openerp.glade, line: 3521
 msgid "Ne_xt Tip"
 msgstr "Sle_deći savet"
+
 #
 # File: bin/openerp.glade, line: 3567
 msgid "OpenERP - License"
 msgstr "OpenERP - Dozvola"
+
 #
 # File: bin/openerp.glade, line: 3582
 msgid "OpenERP license"
 msgstr "OpenERP Dozvola"
+
 #
 # File: bin/openerp.glade, line: 4277
 msgid "Go to resource ID"
 msgstr "Idi na ID izvora"
+
 #
 # File: bin/openerp.glade, line: 4327
 msgid "Search ID:"
 msgstr "Traži ID:"
+
 #
 # File: bin/openerp.glade, line: 4406
 msgid ""
 "<b>Complete this form to submit your bug and/or send a support request.</b>\n"
 "<i>\n"
 "Your request will be sent to the OpenERP team and we will reply shortly.\n"
-"Note that we may not reply if you do not have a support contract with Tiny "
-"or an official partner.</i>"
+"Note that we may not reply if you do not have a support contract with Tiny or an official partner.</i>"
 msgstr ""
-"<b>Popunite ovaj obrazac da biste potvrdili svoj BUG i/ili  da biste poslali "
-"zahtev za podršku.</b>\n"
+"<b>Popunite ovaj obrazac da biste potvrdili svoj BUG i/ili  da biste poslali zahtev za podršku.</b>\n"
 "<i>\n"
 "Vaš zahtev će biti poslat OpenERP Timu koji će Vam uskoro odgovoriti.\n"
-"Naglašavamo da Vam možda i nećemo odgovoriti ukoliko nemate ugovor o podršci "
-"sa Tiny ili nekim od zvaničnih partnera. </i>"
+"Naglašavamo da Vam možda i nećemo odgovoriti ukoliko nemate ugovor o podršci sa Tiny ili nekim od zvaničnih partnera. </i>"
+
 #
 # File: bin/openerp.glade, line: 4465
 msgid "Phone number:"
 msgstr "Broj telefona:"
+
 #
 # File: bin/openerp.glade, line: 4027
 # File: bin/openerp.glade, line: 6470
@@ -2550,6 +2922,7 @@ msgstr "Broj telefona:"
 # File: bin/openerp.glade, line: 4478
 msgid "Emergency:"
 msgstr "Hitnost:"
+
 #
 # File: bin/openerp.glade, line: 4041
 # File: bin/openerp.glade, line: 6484
@@ -2566,10 +2939,12 @@ msgstr ""
 "Srednje\n"
 "Hitno\n"
 "Vrlo hitno"
+
 #
 # File: bin/openerp.glade, line: 4525
 msgid "<b>Support contract id:</b>"
 msgstr "<b>id ugovora o podršci:</b>"
+
 #
 # File: bin/openerp.glade, line: 6574
 # File: bin/openerp.glade, line: 6574
@@ -2577,14 +2952,17 @@ msgstr "<b>id ugovora o podršci:</b>"
 # File: bin/win_error.glade, line: 200
 msgid "Other comments:"
 msgstr "Drugi komentari:"
+
 #
 # File: bin/openerp.glade, line: 4596
 msgid "Explain your problem:"
 msgstr "Objasnite svoj problem:"
+
 #
 # File: bin/openerp.glade, line: 4635
 msgid "<b>Your email:</b>"
 msgstr "<b>Vaš e-mail:</b>"
+
 #
 # File: bin/openerp.glade, line: 4258
 # File: bin/openerp.glade, line: 6641
@@ -2593,6 +2971,7 @@ msgstr "<b>Vaš e-mail:</b>"
 # File: bin/openerp.glade, line: 4649
 msgid "<b>Your Company:</b>"
 msgstr "<b>Vaše preduzeće:</b>"
+
 #
 # File: bin/openerp.glade, line: 4272
 # File: bin/openerp.glade, line: 6655
@@ -2601,345 +2980,413 @@ msgstr "<b>Vaše preduzeće:</b>"
 # File: bin/openerp.glade, line: 4663
 msgid "<b>Your name:</b>"
 msgstr "<b>Vaše ime:</b>"
+
 #
 # File: bin/openerp.glade, line: 4754
 # File: bin/openerp.glade, line: 6124
 msgid "Hello World!"
 msgstr "Zdravo Svete!"
+
 #
 # File: bin/openerp.glade, line: 4816
 msgid "Keyboard shortcuts"
 msgstr "Prečice na tastaturi"
+
 #
 # File: bin/openerp.glade, line: 4838
 msgid "<b>Shortcuts for OpenERP</b>"
 msgstr "<b>Prečice za OpenERP</b>"
+
 #
 # File: bin/openerp.glade, line: 4852
 msgid "Close window without saving"
 msgstr "Zatvori prozor bez sačuvavanja"
+
 #
 # File: bin/openerp.glade, line: 6859
 # File: bin/openerp.glade, line: 6859
 # File: bin/openerp.glade, line: 4867
 msgid "<Ctrl> + <Esc>"
 msgstr "<Ctrl> + <Esc>"
+
 #
 # File: bin/openerp.glade, line: 4881
 msgid "<i>When editing a resource in a popup window</i>"
 msgstr "<i>Pri izmeni izvora u pop-up prozoru</i>"
+
 #
 # File: bin/openerp.glade, line: 4897
 msgid "Save and Close window"
 msgstr "Sačuvaj i zatvori prozor"
+
 #
 # File: bin/openerp.glade, line: 6904
 # File: bin/openerp.glade, line: 6904
 # File: bin/openerp.glade, line: 4912
 msgid "<Ctrl> + <Enter>"
 msgstr "<Ctrl> + <Enter>"
+
 #
 # File: bin/openerp.glade, line: 4925
 msgid "Switch view mode"
 msgstr "Promena načina prikaza"
+
 #
 # File: bin/openerp.glade, line: 6932
 # File: bin/openerp.glade, line: 6932
 # File: bin/openerp.glade, line: 4940
 msgid "<Ctrl> + L"
 msgstr "<Ctrl> + L"
+
 #
 # File: bin/openerp.glade, line: 4953
 msgid "Next record"
 msgstr "Sledeći zapis"
+
 #
 # File: bin/openerp.glade, line: 6960
 # File: bin/openerp.glade, line: 6960
 # File: bin/openerp.glade, line: 4968
 msgid "Previous record"
 msgstr "Prethodni zapis"
+
 #
 # File: bin/openerp.glade, line: 6975
 # File: bin/openerp.glade, line: 6975
 # File: bin/openerp.glade, line: 4983
 msgid "<PgDn>"
 msgstr "<PgDn>"
+
 #
 # File: bin/openerp.glade, line: 6988
 # File: bin/openerp.glade, line: 6988
 # File: bin/openerp.glade, line: 4996
 msgid "<PgUp>"
 msgstr "<PgUp>"
+
 #
 # File: bin/openerp.glade, line: 5024
 msgid "Save"
 msgstr "Sačuvaj"
+
 #
 # File: bin/openerp.glade, line: 7031
 # File: bin/openerp.glade, line: 7031
 # File: bin/openerp.glade, line: 5039
 msgid "<Ctrl> + W"
 msgstr "<Ctrl> + W"
+
 #
 # File: bin/openerp.glade, line: 7044
 # File: bin/openerp.glade, line: 7044
 # File: bin/openerp.glade, line: 5052
 msgid "<Ctrl> + S"
 msgstr "<Ctrl> + S"
+
 #
 # File: bin/openerp.glade, line: 7072
 # File: bin/openerp.glade, line: 7072
 # File: bin/openerp.glade, line: 5080
 msgid "<Ctrl> + <PgDn>"
 msgstr "<Ctrl> + <PgDn>"
+
 #
 # File: bin/openerp.glade, line: 5093
 msgid "Previous tab"
 msgstr "Prethodni tab"
+
 #
 # File: bin/openerp.glade, line: 7100
 # File: bin/openerp.glade, line: 7100
 # File: bin/openerp.glade, line: 5108
 msgid "<Ctrl> + <PgUp>"
 msgstr "<Ctrl> + <PgUp>"
+
 #
 # File: bin/openerp.glade, line: 5121
 msgid "New"
 msgstr "Novo"
+
 #
 # File: bin/openerp.glade, line: 7128
 # File: bin/openerp.glade, line: 7128
 # File: bin/openerp.glade, line: 5136
 msgid "<Ctrl> + N"
 msgstr "<Ctrl> + N"
+
 #
 # File: bin/openerp.glade, line: 5149
 msgid "Delete"
 msgstr "Obriši"
+
 #
 # File: bin/openerp.glade, line: 7156
 # File: bin/openerp.glade, line: 7156
 # File: bin/openerp.glade, line: 5164
 msgid "<Ctrl> + D"
 msgstr "<Ctrl> + D"
+
 #
 # File: bin/openerp.glade, line: 5177
 msgid "Find / Search"
 msgstr "Pronađi / Pretraži"
+
 #
 # File: bin/openerp.glade, line: 7184
 # File: bin/openerp.glade, line: 7184
 # File: bin/openerp.glade, line: 5192
 msgid "<Ctrl> + F"
 msgstr "<Ctrl> + F"
+
 #
 # File: bin/openerp.glade, line: 5205
 msgid "Connect"
 msgstr "Poveži se"
+
 #
 # File: bin/openerp.glade, line: 7212
 # File: bin/openerp.glade, line: 7212
 # File: bin/openerp.glade, line: 5220
 msgid "<Ctrl> + O"
 msgstr "<Ctrl> + O"
+
 #
 # File: bin/openerp.glade, line: 7226
 # File: bin/openerp.glade, line: 7226
 # File: bin/openerp.glade, line: 5234
 msgid "Main Shortcuts"
 msgstr "Glavne prečice"
+
 #
 # File: bin/openerp.glade, line: 7243
 # File: bin/openerp.glade, line: 7243
 # File: bin/openerp.glade, line: 5251
 msgid "F2"
 msgstr "F2"
+
 #
 # File: bin/openerp.glade, line: 5264
 msgid "<b>Shortcuts in relation fields</b>"
 msgstr "<b>Prečice u odnosnim poljima</b>"
+
 #
 # File: bin/openerp.glade, line: 5279
 msgid "<b>Shortcuts in text entries</b>"
 msgstr "<b>Prečice u tekstualnim unosima</b>"
+
 #
 # File: bin/openerp.glade, line: 7284
 # File: bin/openerp.glade, line: 7284
 # File: bin/openerp.glade, line: 5292
 msgid "Open current field"
 msgstr "Otvori trenutno polje"
+
 #
 # File: bin/openerp.glade, line: 7299
 # File: bin/openerp.glade, line: 7299
 # File: bin/openerp.glade, line: 5307
 msgid "Add a new line/field"
 msgstr "Dodaj novu liniju/polje"
+
 #
 # File: bin/openerp.glade, line: 7314
 # File: bin/openerp.glade, line: 7314
 # File: bin/openerp.glade, line: 5322
 msgid "F1"
 msgstr "F1"
+
 #
 # File: bin/openerp.glade, line: 5335
 msgid "Auto-Complete text field"
 msgstr "Automatsko popunjavanje tekstualnog polja"
+
 #
 # File: bin/openerp.glade, line: 7342
 # File: bin/openerp.glade, line: 7342
 # File: bin/openerp.glade, line: 5350
 msgid "<Enter>"
 msgstr "<Enter>"
+
 #
 # File: bin/openerp.glade, line: 5363
 msgid "Previous editable widget"
 msgstr "Prethodni izmenjivi vidžet"
+
 #
 # File: bin/openerp.glade, line: 5378
 msgid "<Shift> + <Tab>"
 msgstr "<Shift> + <Tab>"
+
 #
 # File: bin/openerp.glade, line: 5391
 msgid "Next editable widget"
 msgstr "Sledeći izmenjivi vidžet"
+
 #
 # File: bin/openerp.glade, line: 7398
 # File: bin/openerp.glade, line: 7398
 # File: bin/openerp.glade, line: 5406
 msgid "<Tab>"
 msgstr "<Tab>"
+
 #
 # File: bin/openerp.glade, line: 5419
 msgid "Paste selected text"
 msgstr "Zalepi izabrani tekst"
+
 #
 # File: bin/openerp.glade, line: 5434
 msgid "Copy selected text"
 msgstr "Kopiraj izabrani tekst"
+
 #
 # File: bin/openerp.glade, line: 5449
 msgid "Cut selected text"
 msgstr "Iseci izabrani tekst"
+
 #
 # File: bin/openerp.glade, line: 7456
 # File: bin/openerp.glade, line: 7456
 # File: bin/openerp.glade, line: 5464
 msgid "<Ctrl> + V"
 msgstr "<Ctrl> + V"
+
 #
 # File: bin/openerp.glade, line: 7469
 # File: bin/openerp.glade, line: 7469
 # File: bin/openerp.glade, line: 5477
 msgid "<Ctrl> + C"
 msgstr "<Ctrl> + C"
+
 #
 # File: bin/openerp.glade, line: 7482
 # File: bin/openerp.glade, line: 7482
 # File: bin/openerp.glade, line: 5490
 msgid "<Ctrl> + X"
 msgstr "<Ctrl> + X"
+
 #
 # File: bin/openerp.glade, line: 5507
 msgid "Edition Widgets"
 msgstr "Izmena Vidžetćâ"
+
 #
 # File: bin/openerp.glade, line: 5547
 msgid "Import from CSV"
 msgstr "Uvoz iz CSV-a"
+
 #
 # File: bin/openerp.glade, line: 7582
 # File: bin/openerp.glade, line: 7582
 # File: bin/openerp.glade, line: 5592
 msgid "<b>All fields</b>"
 msgstr "<b>Sva polja</b>"
+
 #
 # File: bin/openerp.glade, line: 5729
 msgid "N_othing"
 msgstr "N_išta"
+
 #
 # File: bin/openerp.glade, line: 7833
 # File: bin/openerp.glade, line: 7833
 # File: bin/openerp.glade, line: 5786
 msgid "<b>Fields to import</b>"
 msgstr "<b>Polja za uvoz</b>"
+
 #
 # File: bin/openerp.glade, line: 5821
-#, fuzzy
 msgid "File to Import: "
 msgstr "Datoteka za uvoz:"
+
 #
 # File: bin/openerp.glade, line: 7778
 # File: bin/openerp.glade, line: 7778
 # File: bin/openerp.glade, line: 5866
 msgid "Auto-Detect"
 msgstr "Automatska detekcija"
+
 #
 # File: bin/openerp.glade, line: 5944
 msgid "Lines to Skip:"
 msgstr "Linije za preskakanje:"
+
 #
 # File: bin/openerp.glade, line: 5973
 msgid "Text Delimiter:"
 msgstr "Graničnik teksta:"
+
 #
 # File: bin/openerp.glade, line: 6001
 msgid "Encoding:"
 msgstr "Način zapisa"
+
 #
 # File: bin/openerp.glade, line: 6014
-#, fuzzy
 msgid "Field Separator: "
 msgstr "Razdvajač polja"
+
 #
 # File: bin/openerp.glade, line: 6026
 msgid "CSV Parameters"
 msgstr "CSV podešavanja"
+
 #
 # File: bin/openerp.glade, line: 8199
 # File: bin/openerp.glade, line: 8199
 # File: bin/openerp.glade, line: 6191
 msgid "Server"
 msgstr "Server"
+
 #
 # File: bin/openerp.glade, line: 6201
 msgid "<b>Connect to a OpenERP server</b>"
 msgstr "<b>Povezivanje na OpenERP server<b>"
+
 #
 # File: bin/openerp.glade, line: 6260
 msgid "Protocol connection:"
 msgstr "Protokol povezivanja"
+
 #
 # File: bin/openerp.glade, line: 8314
 # File: bin/openerp.glade, line: 8314
 # File: bin/openerp.glade, line: 6306
 msgid "Port:"
 msgstr "Port:"
+
 #
 # File: bin/openerp.glade, line: 6358
 msgid "Choose a database..."
 msgstr "Izaberi bazu podataka..."
+
 #
 # File: bin/openerp.glade, line: 6373
 msgid "<b>Backup a database</b>"
 msgstr "<b>Napravi rezervnu kopiju baze podataka</b>"
+
 #
 # File: bin/openerp.glade, line: 6614
 msgid "Restore a database"
 msgstr "Povratak baze podataka na prethodno stanje"
+
 #
 # File: bin/openerp.glade, line: 6627
 msgid "<b>Restore a database</b>"
 msgstr "<b>Povratak baze podataka na prethodno stanje</b>"
+
 #
 # File: bin/openerp.glade, line: 6671
 msgid "(must not contain any special char)"
 msgstr "(ne sme sadržavati nijedan specijalni karakter)"
+
 #
 # File: bin/openerp.glade, line: 8698
 # File: bin/openerp.glade, line: 8698
 # File: bin/openerp.glade, line: 6701
 msgid "New database name:"
 msgstr "Naziv nove baze podataka:"
+
 #
 # File: bin/openerp.glade, line: 8798
 # File: bin/openerp.glade, line: 8944
@@ -2952,155 +3399,127 @@ msgstr "Naziv nove baze podataka:"
 # File: bin/openerp.glade, line: 7465
 msgid "http://localhost:8069"
 msgstr "http://localhost:8069"
+
 #
 # File: bin/openerp.glade, line: 6875
 msgid "Create a new database"
 msgstr "Napravi novu bazu podataka"
+
 #
 # File: bin/openerp.glade, line: 6888
 msgid "<b>Create a new database</b>"
 msgstr "<b>Napravi novu bazu podataka</b>"
+
 #
 # File: bin/openerp.glade, line: 6959
-msgid ""
-"This is the URL of the OpenERP server. Use 'localhost' if the server is "
-"installed on this computer. Click on 'Change' to change the address."
-msgstr ""
-"Ovo je URL OpenERP-ovog servera. Koristite \"localhost\" ako je server "
-"instaliran na ovom računaru. Kliknite na \"Promeni\" da promenite adresu."
+msgid "This is the URL of the OpenERP server. Use 'localhost' if the server is installed on this computer. Click on 'Change' to change the address."
+msgstr "Ovo je URL OpenERP-ovog servera. Koristite \"localhost\" ako je server instaliran na ovom računaru. Kliknite na \"Promeni\" da promenite adresu."
+
 #
 # File: bin/openerp.glade, line: 6963
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
-msgstr ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+
 #
 # File: bin/openerp.glade, line: 6994
-msgid ""
-"This is the password of the user that have the rights to administer "
-"databases. This is not a OpenERP user, just a super administrator. If you "
-"did not changed it, the password is 'admin' after installation."
-msgstr ""
-"Ovo je lozinka korisnika koji ima prava da upravlja bazama podataka. Ovo "
-"nije OpenERP korisnik, već  super-administrator. Ako je niste menjali, "
-"lozinka je 'admin' po instalaciji."
+msgid "This is the password of the user that have the rights to administer databases. This is not a OpenERP user, just a super administrator. If you did not changed it, the password is 'admin' after installation."
+msgstr "Ovo je lozinka korisnika koji ima prava da upravlja bazama podataka. Ovo nije OpenERP korisnik, već  super-administrator. Ako je niste menjali, lozinka je 'admin' po instalaciji."
+
 #
 # File: bin/openerp.glade, line: 6998
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
-"Administrator Password:"
-msgstr ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
-"Administrator Password:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super Administrator Password:"
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super Administrator Password:"
+
 #
 # File: bin/openerp.glade, line: 7017
 msgid "admin"
 msgstr "administrator"
+
 #
 # File: bin/openerp.glade, line: 7031
 msgid "(<i>admin</i>, by default)"
 msgstr "(<i>admin</i>, po formaciji)"
+
 #
 # File: bin/openerp.glade, line: 7096
-msgid ""
-"Choose the name of the database that will be created. The name must not "
-"contain any special character. Exemple: 'terp'."
-msgstr ""
-"Izaberite ime za bazu podataka koja će biti napravljena. Ime ne sme da "
-"sadrži ni jedan specijalni karakter. Primer: 'terp'."
+msgid "Choose the name of the database that will be created. The name must not contain any special character. Exemple: 'terp'."
+msgstr "Izaberite ime za bazu podataka koja će biti napravljena. Ime ne sme da sadrži ni jedan specijalni karakter. Primer: 'terp'."
+
 #
 # File: bin/openerp.glade, line: 7098
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
-msgstr ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+
 #
 # File: bin/openerp.glade, line: 7123
-msgid ""
-"Choose the default language that will be installed for this database. You "
-"will be able to install new languages after installation through the "
-"administration menu."
-msgstr ""
-"Izaberite jezik koji će biti instaliran za ovu bazu podataka. Po instalaciji "
-"bićete u mogućnosti da instalirate nove jezike kroz meni administracijâ."
+msgid "Choose the default language that will be installed for this database. You will be able to install new languages after installation through the administration menu."
+msgstr "Izaberite jezik koji će biti instaliran za ovu bazu podataka. Po instalaciji bićete u mogućnosti da instalirate nove jezike kroz meni administracijâ."
+
 #
 # File: bin/openerp.glade, line: 7125
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
-msgstr ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+
 #
 # File: bin/openerp.glade, line: 7138
-msgid ""
-"This is the password of the 'admin' user that will be created in your new "
-"database."
-msgstr ""
-"Ovo je lozinka za 'admin' korisnika koja će biti napravljena u Vašoj novoj "
-"bazi podataka."
+msgid "This is the password of the 'admin' user that will be created in your new database."
+msgstr "Ovo je lozinka za 'admin' korisnika koja će biti napravljena u Vašoj novoj bazi podataka."
+
 #
 # File: bin/openerp.glade, line: 7140
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
-"Password:"
-msgstr ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
-"Password:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator Password:"
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator Password:"
+
 #
 # File: bin/openerp.glade, line: 7153
-msgid ""
-"This is the password of the 'admin' user that will be created in your new "
-"database. It has to be the same than the above field."
-msgstr ""
-"Ovo je lozinka za 'admin' korisnika koja će biti napravljena u Vašoj novoj "
-"bazi podataka. Mora biti istovetna kao u gornjem polju."
+msgid "This is the password of the 'admin' user that will be created in your new database. It has to be the same than the above field."
+msgstr "Ovo je lozinka za 'admin' korisnika koja će biti napravljena u Vašoj novoj bazi podataka. Mora biti istovetna kao u gornjem polju."
+
 #
 # File: bin/openerp.glade, line: 7155
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
-msgstr ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+
 #
 # File: bin/openerp.glade, line: 7248
-msgid ""
-"Check this box if you want demonstration data to be installed on your new "
-"database. These data will help you to understand OpenERP, with predefined "
-"products, partners, etc."
-msgstr ""
-"Obeležite ovu kućicu ako želite demo podatke nstalirane u svojoj novoj bazi "
-"podataka. Ovi podaci pomoći će Vam da razumete OpenERP, sa predefinisanim "
-"proizvodima, partnerima itd."
+msgid "Check this box if you want demonstration data to be installed on your new database. These data will help you to understand OpenERP, with predefined products, partners, etc."
+msgstr "Obeležite ovu kućicu ako želite demo podatke nstalirane u svojoj novoj bazi podataka. Ovi podaci pomoći će Vam da razumete OpenERP, sa predefinisanim proizvodima, partnerima itd."
+
 #
 # File: bin/openerp.glade, line: 7251
-msgid ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
-"Data:"
-msgstr ""
-"<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
-"Data:"
+msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration Data:"
+msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration Data:"
+
 #
 # File: bin/openerp.glade, line: 7335
 msgid "<b>Change your super admin password</b>"
 msgstr "<b>Promena lozinke super-administratora</b>"
+
 #
 # File: bin/openerp.glade, line: 7491
 msgid "Old password:"
 msgstr "Stara lozinka:"
+
 #
 # File: bin/openerp.glade, line: 7504
 msgid "New password:"
 msgstr "Nova lozinka:"
+
 #
 # File: bin/openerp.glade, line: 7517
 msgid "New password confirmation:"
 msgstr "Potvrda nove lozinke:"
+
 #
 # File: bin/openerp.glade, line: 7576
 msgid "OpenERP Message"
 msgstr "OpenERP Poruka"
+
 #
 # File: bin/openerp.glade, line: 7760
 msgid "Concurrency exception"
 msgstr "Izuzeće od istovetnosti"
+
 #
 # File: bin/openerp.glade, line: 7785
 msgid ""
@@ -3121,72 +3540,83 @@ msgstr ""
 "   -\"Otkaži\" za otkazivanje sačuvavanja.\n"
 "   -\"Uporedi\" da biste videli izmenjenu verziju.\n"
 "   -\"Upiši sve jedno\" da biste sačuvali trenutnu verziju.\n"
+
 #
 # File: bin/openerp.glade, line: 10018
 # File: bin/openerp.glade, line: 10018
 # File: bin/openerp.glade, line: 7848
 msgid "Compare"
 msgstr "Uporedi"
+
 #
 # File: bin/openerp.glade, line: 7894
 msgid "Write anyway"
 msgstr "Ipak upiši"
+
 #
 # File: bin/openerp.glade, line: 7924
 # File: bin/openerp.glade, line: 7934
 msgid "window1"
 msgstr "prozor1"
+
 #
 # File: bin/openerp.glade, line: 8006
 msgid "Today"
 msgstr "Danas"
+
 #
 # File: bin/openerp.glade, line: 8052
 msgid "September 2008"
 msgstr "Septembar 2008."
+
 #
 # File: bin/openerp.glade, line: 8066
 msgid "Day"
 msgstr "Dan"
+
 #
 # File: bin/openerp.glade, line: 8090
 msgid "Month"
 msgstr "Mesec"
+
 #
 # File: bin/openerp.glade, line: 8244
 msgid "Filter Entry"
 msgstr "Unos Filterâ"
+
 #
 # File: bin/openerp.glade, line: 8290
 msgid "Enter Filter Name:"
 msgstr "Unesite Naziv Filtera:"
+
 #
 # File: bin/win_error.glade, line: 40
 msgid "label"
 msgstr "oznaka"
+
 #
 # File: bin/win_error.glade, line: 100
 msgid "Click here for details about the publisher warranty proposition"
 msgstr "Kliknite ovde za detalje o garantnoj ponudi izdavača"
+
 #
 # File: bin/win_error.glade, line: 120
 msgid "<i>_Publisher Warranty</i>"
 msgstr "<i>_Garancija Izdavača</i>"
+
 #
 # File: bin/win_error.glade, line: 151
-#, fuzzy
 msgid ""
 "<b>Publisher Warranty Contract.</b>\n"
 "<i>\n"
-"Your request will be sent to OpenERP and publisher warranty team will reply "
-"you shortly.\n"
+"Your request will be sent to OpenERP and publisher warranty team will reply you shortly.\n"
 "</i>"
 msgstr ""
 "<b>Garantni Ugovor Izdavača.</b>\n"
 " <i>\n"
-" Vaš zahtev biće poslat OpenERP-u i garantni izdavački tim će Vam odgovoriti "
-"uskoro.\n"
+" Vaš zahtev biće poslat OpenERP-u i garantni izdavački tim će Vam odgovoriti uskoro.\n"
 " </i>"
+
 #
 # File: bin/openerp.glade, line: 3362
 # File: bin/openerp.glade, line: 4205
@@ -3195,601 +3625,29 @@ msgstr ""
 # File: bin/win_error.glade, line: 186
 msgid "Explain what you did:"
 msgstr "Objasnite šta ste uradili:"
+
 #
 # File: bin/win_error.glade, line: 285
 msgid "Send to Publisher Warranty Team"
 msgstr "Pošalji Garantnom Timu Izdavača"
+
 #
 # File: bin/win_error.glade, line: 318
 msgid "Problems summary:"
 msgstr ""
+
 #
 # File: bin/win_error.glade, line: 360
 msgid "<i>_Support Request</i>"
 msgstr "<i>_Zahtev za podršku</i>"
+
 #
 # File: bin/win_error.glade, line: 387
 msgid "Details"
 msgstr "Detalji"
+
 #
 # File: bin/win_error.glade, line: 404
 msgid "<i>_Details</i>"
 msgstr "<i>_Detalji</i>"
-#
-#~ msgid "Edit"
-#~ msgstr "Uredi"
-#
-#~ msgid "Error, password not changed."
-#~ msgstr "Greška, lozinka nije promenjena."
-#
-#
-# File: bin/modules/gui/window/win_import.py, line: 54
-# File: bin/modules/gui/window/win_import.py, line: 54
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC greška !"
-#
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Linuxovo automatsko štampanje nije uključeno.\n"
-#~ "Koristite opciju pregleda !"
-#
-#~ msgid "in"
-#~ msgstr "u"
-#
-#~ msgid "not in"
-#~ msgstr "nije u"
-#
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d %"
-#~ "H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Unesite Vrednosti razdvajajući ih sa ',', ako je parametar 'u' ili 'nije "
-#~ "u' izabran.\n"
-#~ "Za oblike Datuma i Vremena, unesite tekst u obliku '%Y-%m-%d' i '%Y-%m-%d "
-#~ "%H:%M:%S'"
-#
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Morate izabrati zapis da biste koristili dugme za povezivanje !"
-#
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Saćuvaj kao Prečicu"
-#
-#~ msgid ""
-#~ "\n"
-#~ "OpenERP - GTK Client - v%s\n"
-#~ "\n"
-#~ "OpenERP is an Open Source ERP+CRM\n"
-#~ "for small to medium businesses.\n"
-#~ "\n"
-#~ "The whole source code is distributed under\n"
-#~ "the terms of the GNU Public Licence.\n"
-#~ "\n"
-#~ "(c) 2003-TODAY, Tiny sprl\n"
-#~ "\n"
-#~ "More Info on www.openerp.com !"
-#~ msgstr ""
-#~ "\n"
-#~ "OpenERP - GTK klijent - v%s\n"
-#~ "\n"
-#~ "OpenERP je Open Source ERP+CRM\n"
-#~ "za mala do srednja preduzeća.\n"
-#~ "\n"
-#~ "Kompletan izvorni kod u opticaju pod uslovima\n"
-#~ "GNU Public Licence.\n"
-#~ "\n"
-#~ "(c) 2003-TODAY, Tiny sprl\n"
-#~ "\n"
-#~ "Više informacija na www.openerp.com !"
-#
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Izaberi opciju za izvoz</b>"
-#
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Otvori u Excel-u\n"
-#~ "Sačuvaj kao CSV"
-#
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Polja na koje treba primeniti kriterijume retrage"
-#
-#~ msgid "Conditional Operators"
-#~ msgstr "Mogući Operateri"
-#
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Izbor će biti primenjen sa sledećim filterom, ako takav postoji"
-#
-#~ msgid "Remove Filter"
-#~ msgstr "Ukloni filter"
-#
-#
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-#~ msgid "Others Comments:"
-#~ msgstr "Ostale napomene:"
-#
-#
-# File: bin/modules/gui/main.py, line: 336
-# File: bin/modules/gui/main.py, line: 336
-#~ msgid "<b>Operation in progress</b>"
-#~ msgstr "<b>Aktivnost u toku</b>"
-#
-#
-# File: bin/modules/gui/main.py, line: 388
-# File: bin/modules/gui/main.py, line: 388
-#~ msgid "The following users have been installed on your database:"
-#~ msgstr "Za vašu bazu podataka postavljeni su slijedeći korisnici:"
-#
-#
-# File: bin/modules/gui/main.py, line: 388
-# File: bin/modules/gui/main.py, line: 388
-#~ msgid "You can now connect to the database as an administrator."
-#~ msgstr "Sada se možete spojiti na bazu podataka kao administrator."
-#
-#
-# File: bin/modules/gui/main.py, line: 698
-# File: bin/modules/gui/main.py, line: 698
-#~ msgid " - %s request(s) sended"
-#~ msgstr " - %s zahtjev(a) poslano"
-#
-#
-# File: bin/modules/gui/main.py, line: 736
-# File: bin/modules/gui/main.py, line: 736
-#~ msgid ""
-#~ "Connection error !\n"
-#~ "Bad username or password !"
-#~ msgstr ""
-#~ "Greška spajanja !\n"
-#~ "Neispravno korisničko ime ili šifra !"
-#
-#
-# File: bin/modules/gui/window/win_preference.py, line: 69
-# File: bin/modules/gui/window/win_preference.py, line: 69
-#~ msgid "Preference"
-#~ msgstr "Podešavanja"
-#
-#
-# File: bin/modules/gui/window/win_export.py, line: 81
-# File: bin/modules/gui/window/win_export.py, line: 81
-#~ msgid ""
-#~ "Function only available for MS Office !\n"
-#~ "Sorry, OOo users :("
-#~ msgstr ""
-#~ "Funkcija je dostupna samo za MS Office !\n"
-#~ "Žalim, OOo korisnici :("
-#
-#
-# File: bin/plugins/__init__.py, line: 29
-# File: bin/plugins/__init__.py, line: 29
-#~ msgid "Print Workflow (Complex)"
-#~ msgstr "Ispiši tok rada (Složeni)"
-#
-#
-# File: bin/options.py, line: 90
-# File: bin/options.py, line: 90
-#~ msgid "enable basic debugging"
-#~ msgstr "omogučite osnovno traženje pogrešaka"
-#
-#
-# File: bin/options.py, line: 91
-# File: bin/options.py, line: 91
-#~ msgid "specify channels to log"
-#~ msgstr "navedite kanale za prijavu"
-#
-#
-# File: bin/options.py, line: 92
-# File: bin/options.py, line: 92
-#~ msgid "specify the log level: INFO, DEBUG, WARNING, ERROR, CRITICAL"
-#~ msgstr "navedite nivoe prijave: INFO, DEBUG, WARNING, ERROR, CRITICAL"
-#
-#
-# File: bin/printer/printer.py, line: 189
-# File: bin/printer/printer.py, line: 189
-#~ msgid "Error no report"
-#~ msgstr "Greška nema izveštaja"
-#
-#
-# File: bin/widget_search/form.py, line: 145
-# File: bin/widget_search/form.py, line: 145
-#~ msgid "Limit :"
-#~ msgstr "Ograničenje:"
-#
-#
-# File: bin/widget_search/form.py, line: 193
-# File: bin/widget_search/form.py, line: 193
-#~ msgid "Parameters :"
-#~ msgstr "Parametri:"
-#
-#
-# File: bin/widget_search/wid_int.py, line: 44
-# File: bin/widget_search/wid_int.py, line: 44
-#~ msgid "The content of the widget or excpetion if not valid"
-#~ msgstr "Sadržaj widget-a ili izuzetak ako je neispravan"
-#
-#
-# File: bin/widget/view/form_gtk/calendar.py, line: 115
-# File: bin/widget/view/form_gtk/calendar.py, line: 238
-# File: bin/widget/view/form_gtk/calendar.py, line: 115
-# File: bin/widget/view/form_gtk/calendar.py, line: 238
-#~ msgid "This widget is readonly !"
-#~ msgstr "Ovaj dodatak je samo za čitanje !"
-#
-#
-# File: bin/openerp.glade, line: 1140
-# File: bin/openerp.glade, line: 1140
-#~ msgid "_Tips"
-#~ msgstr "_Tipovi"
-#
-#
-# File: bin/openerp.glade, line: 5791
-# File: bin/openerp.glade, line: 5791
-#~ msgid "Open Source:"
-#~ msgstr "Otvoreni kod:"
-#
-#
-# File: bin/openerp.glade, line: 5831
-# File: bin/openerp.glade, line: 5831
-#~ msgid "How did you hear about us:"
-#~ msgstr "Kako ste čuli za nas:"
-#
-#
-# File: bin/openerp.glade, line: 5887
-# File: bin/openerp.glade, line: 5887
-#~ msgid "System:"
-#~ msgstr "Sistem:"
-#
-#
-# File: bin/openerp.glade, line: 5937
-# File: bin/openerp.glade, line: 5937
-#~ msgid "Your Role:"
-#~ msgstr "Vaša uloga:"
-#
-#
-# File: bin/openerp.glade, line: 5953
-# File: bin/openerp.glade, line: 5953
-#~ msgid "Country:"
-#~ msgstr "Država:"
-#
-#
-# File: bin/openerp.glade, line: 6038
-# File: bin/openerp.glade, line: 6038
-#~ msgid "# Employees:"
-#~ msgstr "Broj zaposlenih:"
-#
-#
-# File: bin/openerp.glade, line: 6051
-# File: bin/openerp.glade, line: 6051
-#~ msgid "Industry:"
-#~ msgstr "Delatnost:"
-#
-#
-# File: bin/openerp.glade, line: 6065
-# File: bin/openerp.glade, line: 6065
-#~ msgid "<b>Your company:</b>"
-#~ msgstr "<b>Vaše preduzeće:</b>"
-#
-#
-# File: bin/openerp.glade, line: 6166
-# File: bin/openerp.glade, line: 6166
-#~ msgid "<b>Your interrest:</b>"
-#~ msgstr "<b>Vaša interesovanja:</b>"
-#
-#
-# File: bin/openerp.glade, line: 6291
-# File: bin/openerp.glade, line: 6291
-#~ msgid "E-Mail:"
-#~ msgstr "E-Mail:"
-#
-#
-# File: bin/openerp.glade, line: 6318
-# File: bin/openerp.glade, line: 6318
-#~ msgid "<b>Keep Informed</b>"
-#~ msgstr "<b>Ostanite informisani</b>"
-#
-#
-# File: bin/openerp.glade, line: 7370
-# File: bin/openerp.glade, line: 7370
-#~ msgid "<Shist> + <Tab>"
-#~ msgstr "<Shift> + <Tab>"
-#
-#
-# File: bin/openerp.glade, line: 9633
-# File: bin/openerp.glade, line: 9633
-#~ msgid "Database creation"
-#~ msgstr "Kreiranje baze podataka"
-#
-#
-# File: bin/openerp.glade, line: 9666
-# File: bin/openerp.glade, line: 9666
-#~ msgid "<b>Database created successfully!</b>"
-#~ msgstr "<b>Baza podataka je uspješno kreirana!</b>"
-#
-#
-# File: bin/openerp.glade, line: 9698
-# File: bin/openerp.glade, line: 9698
-#~ msgid ""
-#~ "You can connect to the new database using one of the following account:\n"
-#~ "\n"
-#~ "    Administrator: admin / admin "
-#~ msgstr ""
-#~ "Možete se konektovati na novu bazu podataka koristeći jedan od sledećih "
-#~ "naloga:\n"
-#~ "\n"
-#~ "    Administrator: admin / admin "
-#
-#~ msgid ""
-#~ "Thank you for the feedback !\n"
-#~ "Your comments have been sent to OpenERP.\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "Hvala vam za povratnu infomaciju!\n"
-#~ "Vaši komnetari su poslati u OpenERP.\n"
-#~ "Sada možete da kreirate novu bazu ili \n"
-#~ "da se povežete na postojeći server preko \"File\" menija."
-#
-#~ msgid ""
-#~ "Thank you for testing OpenERP !\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "Hvala vam na testirenju OpenERP!\n"
-#~ "Sada možete da kreirate novu bazu ili \n"
-#~ "da se povežete na postojeći server preko \"File\" menija."
-#
-#~ msgid ""
-#~ "Your problem could <u>NOT</u> be sent to the quality team !\n"
-#~ "Please report this error manually at %s"
-#~ msgstr ""
-#~ "Vaš problem nije mogao da bude poslat timu za kvalitet!\n"
-#~ "Molim da lično prijavite ovu grešku kod %s"
-#
-#~ msgid "OpenERP Database Installation"
-#~ msgstr "Instalacija OpenERP baze"
-#
-#~ msgid "OpenERP Survey"
-#~ msgstr "OpenERP -Ispitivanje"
-#
-#~ msgid "We plan to use OpenERP"
-#~ msgstr "Mi planiramo da koristimo OpenERP"
-#
-#~ msgid "Tell us why you try OpenERP and what are your current softwares:"
-#~ msgstr ""
-#~ "Recite nam zašto isprobavate OpenERp i koji je vaš trenutni softwer."
-#
-#~ msgid "We plan to offer services on OpenERP"
-#~ msgstr "Mi planramo da ponudimo suluge OpenERP"
-#
-#~ msgid "I want to be contacted for a demonstration"
-#~ msgstr "Želim da budem kontaktiran u vezi demonstracije"
-#
-#~ msgid "<b>OpenERP Survey</b>"
-#~ msgstr "OpenERP Ispitivanje"
-#
-#~ msgid "Phone / Mobile:"
-#~ msgstr "Telefon / Mobilni"
-#
-#~ msgid "Your Name:"
-#~ msgstr "Vaše Ime"
-#
-#~ msgid "Your Company:"
-#~ msgstr "Vaša Kompanija"
-#
-#~ msgid "New Database Name:"
-#~ msgstr "Ime nove baze"
-#
-#~ msgid "OpenERP Server:"
-#~ msgstr "OpenERp Server"
-#
-#~ msgid "Default Language:"
-#~ msgstr "Podrazuemvi jezik"
-#
-#~ msgid "Administrator Password:"
-#~ msgstr "Administratorska šifra"
-#
-#~ msgid "Load Demonstration Data:"
-#~ msgstr "Učitati primere u bazu"
-#
-#~ msgid "Confirm Password:"
-#~ msgstr "Potvrdite šifru"
-#
-#~ msgid "Send to Maintenance Team"
-#~ msgstr "Poslati timu za održavanje"
-#
-#~ msgid "gtk-close"
-#~ msgstr "gtk-zatvoriti"
-#
-#~ msgid ""
-#~ "<i>Please fill in the following form in order to help us to improve "
-#~ "OpenERP and better target new developments.</i>"
-#~ msgstr ""
-#~ "<i>Molimo vas popunite sledeči obrazac da bi nam pomogli da unapredimo "
-#~ "OpenERP i da bolje definišemo nove pravce razvoja>"
-#
-#~ msgid "Offset :"
-#~ msgstr "Pomak/odmak."
-#
-#~ msgid ""
-#~ "\n"
-#~ "<b>An unknown error has been reported.</b>\n"
-#~ "\n"
-#~ "<b>You do not have a valid Open ERP maintenance contract !</b>\n"
-#~ "If you are using Open ERP in production, it is highly suggested to "
-#~ "subscribe\n"
-#~ "a maintenance program.\n"
-#~ "\n"
-#~ "The Open ERP maintenance contract provides you a bugfix guarantee and an\n"
-#~ "automatic migration system so that we can fix your problems within a few\n"
-#~ "hours. If you had a maintenance contract, this error would have been "
-#~ "sent\n"
-#~ "to the quality team of the Open ERP editor.\n"
-#~ "\n"
-#~ "The maintenance program offers you:\n"
-#~ "* Automatic migrations on new versions,\n"
-#~ "* A bugfix guarantee,\n"
-#~ "* Monthly announces of potential bugs and their fixes,\n"
-#~ "* Security alerts by email and automatic migration,\n"
-#~ "* Access to the customer portal.\n"
-#~ "\n"
-#~ "You can use the link bellow for more information. The detail of the "
-#~ "error\n"
-#~ "is displayed on the second tab.\n"
-#~ msgstr ""
-#~ "\n"
-#~ "<b>Nepoznata greška je prijavljena.</b>\n"
-#~ "\n"
-#~ "<b>Nemate validan Open ERP ugovor o održavanju !</b>\n"
-#~ "Ako koristite OpenERP u produkciji veoma je preporučljivo da se "
-#~ "predplatite na održavanje.\n"
-#~ "\n"
-#~ "OpenERP ugovor o održavanju omogućava garantovano rešavanje greške i "
-#~ "automatsku\n"
-#~ "migraciju sistema tako da vam možemo rešiti problem u okviru nekoliko "
-#~ "sati.\n"
-#~ "Ako ste imali ugovor o održavanju, ova grešku bi trebalo poslati timu za "
-#~ "kvalitet\n"
-#~ "OpenERP urednika.\n"
-#~ "\n"
-#~ "Program održavanja vam nudi:\n"
-#~ "* Automatisku selidbu na nove verzije,\n"
-#~ "* Garanciju rešavanja greške,\n"
-#~ "* Mesečne najave potencijalnih grešaka i njihovih rešenja,\n"
-#~ "* Bezbednosna upozorenja e-mailom i automatsku migraciju,\n"
-#~ "* Pristup portalu za korisnike.\n"
-#~ "\n"
-#~ "Možete iskoristiti link ispod za više informacija. Detalji o grešci biće "
-#~ "prikazani na sledećem indikatoru.\n"
-#
-#~ msgid "Unable to set locale %s"
-#~ msgstr "Nemoguće podestit lokalizaciju na %s"
-#
-#~ msgid "<i>_Maintenance</i>"
-#~ msgstr "<i>_Maintenance</i>"
-#
-#~ msgid ""
-#~ "This is the password of the '<i>admin</i>' user that will be created in "
-#~ "your new database."
-#~ msgstr ""
-#~ "Ovo je lozinka '<i>admin</i>' korisnika koji će biti kreiran u novoj bazi "
-#~ "podataka."
-#
-#~ msgid ""
-#~ "This is the password of the '<i>admin</i>' user that will be created in "
-#~ "your new database. It has to be the same than the above field."
-#~ msgstr ""
-#~ "Ovo je lozinka '<i>admin</i>' korisnika koji će biti kreiran u novoj bazi "
-#~ "podataka. Mora biti ista kao u predhodnom polju."
-#
-#~ msgid ""
-#~ "<b>Maintenance Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and maintenance team will reply you "
-#~ "shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Ugovor o održavanju.</b>\n"
-#~ "<i>\n"
-#~ "Vaš zahtev će biti poslan u OpenERP i tim za odrćavanje obratiće vam se "
-#~ "ubrzo.\n"
-#~ "</i>"
-#
-#~ msgid "Click here for details about the maintenance proposition"
-#~ msgstr "Kliknite ovde za detalje o ponudi za održavanje."
-#
-#~ msgid ""
-#~ "\n"
-#~ "<b>An unknown error has been reported.</b>\n"
-#~ "\n"
-#~ "Your maintenance contract does not cover all modules installed in your "
-#~ "system !\n"
-#~ "If you are using Open ERP in production, it is highly suggested to "
-#~ "upgrade your\n"
-#~ "contract.\n"
-#~ "\n"
-#~ "If you have developed your own modules or installed third party module, "
-#~ "we\n"
-#~ "can provide you an additional maintenance contract for these modules. "
-#~ "After\n"
-#~ "having reviewed your modules, our quality team will ensure they will "
-#~ "migrate\n"
-#~ "automatically for all future stable versions of Open ERP at no extra "
-#~ "cost.\n"
-#~ "\n"
-#~ "Here is the list of modules not covered by your maintenance contract:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "You can use the link bellow for more information. The detail of the "
-#~ "error\n"
-#~ "is displayed on the second tab."
-#~ msgstr ""
-#~ "\n"
-#~ "<b>Prijavljena je nepoznata greška. </b>\n"
-#~ "\n"
-#~ "Vaš ugovor o održavanju ne pokriva sve instalirane module u vašem "
-#~ "sistemu. Mi\n"
-#~ "vam možemo pružiti odgovarajući ugovor o održavanju i za te module. "
-#~ "Nakon\n"
-#~ "što pregledamo te module, naš kvalifikovani tim će obezbediti da oni "
-#~ "migriraju\n"
-#~ "automatski na sve buduće stabilne verzije OpenERP-a potpuno besplatno.\n"
-#~ "\n"
-#~ "Ovde se nalazi spisak modula koje ne pokriva vaš ugovor o održavanju:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Možete iskoristiti vezu ispod za dodatne informacije. Detralji ili "
-#~ "greške\n"
-#~ "su prikazani na drugom Tab-u."
-#
-#~ msgid ""
-#~ "Please fill in the following form in order to help us to improve <b><span "
-#~ "foreground=\"red\"><i>Open</i></span> ERP</b> and better target new "
-#~ "developments."
-#~ msgstr ""
-#~ "Molim popuni sledeću formu da bi nam pomogao <b><span foreground=\"red"
-#~ "\"><i>Open</i></span> ERP</b> i bolje uočili nova unapređenja."
-#
-#~ msgid "Connect now"
-#~ msgstr "KOnektuj se Sad"
-#
-#~ msgid "Connect Later"
-#~ msgstr "Konektuj se Kasnije"
-#
-#~ msgid "<b>Your company</b>"
-#~ msgstr "<b>Tvoje Preduzeće</b>"
-#
-#~ msgid "Employees:"
-#~ msgstr "Zapošljeni:"
-#
-#~ msgid "gtk-cancel"
-#~ msgstr "gtk-otkaži"
-#
-#~ msgid "gtk-ok"
-#~ msgstr "gtk-uRedu"
-#
-#~ msgid "We plan to use Open ERP"
-#~ msgstr "Planiramo da koristimo OpenERP"
-#
-#~ msgid "We plan to offer services on Open ERP"
-#~ msgstr "PLaniramo da ponudimo servisiranje OpenERP-a"
-#
-#~ msgid "City:"
-#~ msgstr "Grad:"
-#
-#~ msgid "<b>Your interrest</b>"
-#~ msgstr "<b>Tvoja interesovanja</b>"
-#
-#~ msgid "E-mail:"
-#~ msgstr "E-mail:"
-#
-#~ msgid "Tell us why you try Open ERP and what are your current softwares:"
-#~ msgstr ""
-#~ "Recite nam zašto ste probali OpenERP i koji je vaš trenutni softwer:"
-#
-#~ msgid "I want to receive the Open ERP ebook (PDF) by email"
-#~ msgstr "Želim da mi pošaljete OPenERP E-knjigu (PDF) Emailom"
+
