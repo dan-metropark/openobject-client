@@ -2299,20 +2299,18 @@ msgstr "¡Se ha importado %d objetos!"
 #
 # File: bin/modules/gui/window/win_import.py, line: 70
 #, python-format
-msgid ""
-"Error trying to import this record:\n"
+msgid "Error trying to import this record:\n"
 "%(err_import_record)s\n"
 "Error Message:\n"
 "%(err_type)s\n"
 "\n"
 "%(err_msg)s"
-msgstr ""
-"Error al importar este registro:\n"
+msgstr "Error al importar este registro:\n"
 "%(err_import_record)s\n"
 "Mensaje de error:\n"
-"%(err_import_record)s\n"
+"%(err_type)s\n"
 "\n"
-"%(err_import_record)s\n"
+"%(err_msg)s"
 
 #
 # File: bin/modules/gui/window/win_import.py, line: 72
