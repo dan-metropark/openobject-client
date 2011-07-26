@@ -8,64 +8,61 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-19 16:32+0530\n"
-"PO-Revision-Date: 2011-07-20 16:20+0530\n"
-"Last-Translator: Naresh Soni <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2011-07-25 16:04+0000\n"
+"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-16 04:53+0000\n"
+"X-Launchpad-Export-Date: 2011-07-26 04:39+0000\n"
 "X-Generator: Launchpad (build 13405)\n"
 "Language: cs\n"
 
-#
-# File: bin/common/common.py, line: 89
+#: bin/common/common.py:89
 msgid "Close current tip"
 msgstr "Zavřít aktuální tip"
 
-#
-# File: bin/common/common.py, line: 90
+#: bin/common/common.py:90
 msgid ""
 "<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
-"This will hide the current tip. It will be displayed again next time you open this menu item, unless you disable all tips using the <b>'Menu Tips'</b> option in the user preferences."
+"This will hide the current tip. It will be displayed again next time you "
+"open this menu item, unless you disable all tips using the <b>'Menu "
+"Tips'</b> option in the user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>Zavřít aktuální tip:</b></span>\n"
-"Tímto skryjete aktuální tip. Toto bude zobrazeno příště až otevřete tuto položku nabídky, pokud nezakážete všechny tipy pomocí volby <b>'Nabídky tipy'</b> v uživatelských předvolbách."
+"Tímto skryjete aktuální tip. Toto bude zobrazeno příště až otevřete tuto "
+"položku nabídky, pokud nezakážete všechny tipy pomocí volby <b>'Nabídky "
+"tipy'</b> v uživatelských předvolbách."
 
-#
-# File: bin/common/common.py, line: 100
+#: bin/common/common.py:100
 msgid "Disable all tips"
 msgstr "Zakázat všechny tipy"
 
-#
-# File: bin/common/common.py, line: 101
+#: bin/common/common.py:101
 msgid ""
 "<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
 "This will disable the display of tips on all menu items.\n"
-"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the user preferences."
+"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the "
+"user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>Zakázat všechny tipy:</b></span>\n"
 "Tímto zakážete zobrazení tipů ve všech položkách nabídky.\n"
-"K znovupovlení tipů musíte zaškrtnout volbu <b>'Nabídka tipy'</b> v uživatelských předvolbách."
+"K znovupovlení tipů musíte zaškrtnout volbu <b>'Nabídka tipy'</b> v "
+"uživatelských předvolbách."
 
-#
-# File: bin/common/common.py, line: 115
-# File: bin/common/common.py, line: 117
+#: bin/common/common.py:115 bin/common/common.py:117
 msgid "Tips"
 msgstr "Tipy"
 
-#
-# File: bin/common/common.py, line: 168
+#: bin/common/common.py:168
 msgid "OpenERP Computing"
 msgstr "OperERP počítá"
 
-#
-# File: bin/common/common.py, line: 187
+#: bin/common/common.py:187
 msgid "Operation in progress"
 msgstr "Zpracovávám"
 
-#
-# File: bin/common/common.py, line: 191
+#: bin/common/common.py:191
 msgid ""
 "Please wait,\n"
 "this operation may take a while..."
@@ -73,30 +70,24 @@ msgstr ""
 "Chvíli strpení,\n"
 "tato operace může chvíli trvat...."
 
-#
-# File: bin/common/common.py, line: 225
+#: bin/common/common.py:225
 #, python-format
 msgid "Ensure that the file %s is correct"
 msgstr "Ujistěte se, že soubor %s je správný."
 
-#
-# File: bin/common/common.py, line: 399
+#: bin/common/common.py:399
 msgid " has reported the following bug:\n"
 msgstr " nahlásil následující chybu:\n"
 
-#
-# File: bin/common/common.py, line: 399
+#: bin/common/common.py:399
 msgid "remarks"
 msgstr "poznámky"
 
-#
-# File: bin/common/common.py, line: 402
+#: bin/common/common.py:402
 msgid "Support request sent !"
 msgstr "Požadavek o podporu odeslán!"
 
-#
-# File: bin/common/common.py, line: 425
-# File: bin/common/common.py, line: 469
+#: bin/common/common.py:425 bin/common/common.py:469
 msgid ""
 "\n"
 "<b>An unknown error has been reported.</b>\n"
@@ -105,9 +96,11 @@ msgid ""
 "If you are using OpenERP in production, it is highly suggested to subscribe\n"
 "a publisher warranty program.\n"
 "\n"
-"The OpenERP publisher warranty contract provides you a bugfix guarantee and an\n"
+"The OpenERP publisher warranty contract provides you a bugfix guarantee and "
+"an\n"
 "automatic migration system so that we can fix your problems within a few\n"
-"hours. If you had a publisher warranty contract, this error would have been sent\n"
+"hours. If you had a publisher warranty contract, this error would have been "
+"sent\n"
 "to the quality team of the OpenERP editor.\n"
 "\n"
 "The publisher warranty program offers you:\n"
@@ -121,31 +114,34 @@ msgid ""
 "is displayed on the second tab.\n"
 msgstr ""
 
-#
-# File: bin/common/common.py, line: 448
+#: bin/common/common.py:448
 #, python-format
 msgid ""
 "\n"
 "<b>An unknown error has been reported.</b>\n"
 "\n"
-"Your publisher warranty contract does not cover all modules installed in your system !\n"
-"If you are using OpenERP in production, it is highly suggested to upgrade your\n"
+"Your publisher warranty contract does not cover all modules installed in "
+"your system !\n"
+"If you are using OpenERP in production, it is highly suggested to upgrade "
+"your\n"
 "contract.\n"
 "\n"
 "If you have developed your own modules or installed third party module, we\n"
-"can provide you an additional publisher warranty contract for these modules. After\n"
-"having reviewed your modules, our quality team will ensure they will migrate\n"
+"can provide you an additional publisher warranty contract for these modules. "
+"After\n"
+"having reviewed your modules, our quality team will ensure they will "
+"migrate\n"
 "automatically for all future stable versions of OpenERP at no extra cost.\n"
 "\n"
-"Here is the list of modules not covered by your publisher warranty contract:\n"
+"Here is the list of modules not covered by your publisher warranty "
+"contract:\n"
 "%s\n"
 "\n"
 "You can use the link bellow for more information. The detail of the error\n"
 "is displayed on the second tab."
 msgstr ""
 
-#
-# File: bin/common/common.py, line: 525
+#: bin/common/common.py:525
 msgid ""
 "Your problem has been sent to the quality team !\n"
 "We will recontact you after analysing the problem."
@@ -153,8 +149,7 @@ msgstr ""
 "Chyba byla odeslána podpurným týmům!\n"
 "Po vyřešení budete kontaktování."
 
-#
-# File: bin/common/common.py, line: 528
+#: bin/common/common.py:528
 #, python-format
 msgid ""
 "Your problem could *NOT* be sent to the quality team !\n"
@@ -165,281 +160,235 @@ msgstr ""
 "Prosíme nahlašte tuto chybu ručně na:\n"
 "\t%s"
 
-#
-# File: bin/common/common.py, line: 528
+#: bin/common/common.py:528
 msgid "Error"
 msgstr "Chyba"
 
-#
-# File: bin/common/common.py, line: 682
+#: bin/common/common.py:682
 msgid "Open with..."
 msgstr "Otevřít s..."
 
-#
-# File: bin/widget_search/form.py, line: 492
+#: bin/widget_search/form.py:492
 msgid "The content of the form or exception if not valid"
 msgstr "Obsah formuláře nebo výjimka pokud je neplatný"
 
-#
-# File: bin/widget_search/wid_int.py, line: 56
+#: bin/widget_search/wid_int.py:56
 msgid "The content of the widget or exception if not valid"
 msgstr "Obsah pomůcky nebo výjimky pokud nejsou platné"
 
-#
-# File: bin/widget_search/spinbutton.py, line: 92
-# File: bin/widget_search/custom_filter.py, line: 140
-# File: bin/widget_search/checkbox.py, line: 68
-# File: bin/widget_search/calendar.py, line: 125
-# File: bin/widget_search/calendar.py, line: 250
-# File: bin/widget_search/char.py, line: 72
-# File: bin/widget_search/reference.py, line: 78
-# File: bin/widget_search/selection.py, line: 116
-# File: bin/widget_search/filter.py, line: 77
-# File: bin/widget_search/spinint.py, line: 95
-# File: bin/widget/view/form_gtk/button.py, line: 47
+#: bin/widget_search/spinbutton.py:92 bin/widget_search/custom_filter.py:140
+#: bin/widget_search/checkbox.py:68 bin/widget_search/calendar.py:125
+#: bin/widget_search/calendar.py:250 bin/widget_search/char.py:72
+#: bin/widget_search/reference.py:78 bin/widget_search/selection.py:116
+#: bin/widget_search/filter.py:77 bin/widget_search/spinint.py:95
+#: bin/widget/view/form_gtk/button.py:47
 msgid "The content of the widget or ValueError if not valid"
 msgstr "Obsah pomůcky nebo ValueError pokud nejsou platné"
 
-#
-# File: bin/widget_search/custom_filter.py, line: 51
+#: bin/widget_search/custom_filter.py:51
 msgid "AND"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter.py, line: 52
+#: bin/widget_search/custom_filter.py:52
 msgid "OR"
 msgstr ""
 
-#
-# File: bin/widget_search/checkbox.py, line: 35
-# File: bin/widget_search/checkbox.py, line: 42
-# File: bin/widget_search/checkbox.py, line: 55
+#: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
+#: bin/widget_search/checkbox.py:55
 msgid "Yes"
 msgstr "Ano"
 
-#
-# File: bin/widget_search/checkbox.py, line: 36
-# File: bin/widget_search/checkbox.py, line: 44
+#: bin/widget_search/checkbox.py:36 bin/widget_search/checkbox.py:44
 msgid "No"
 msgstr "Ne"
 
-#
-# File: bin/widget_search/date_widget.py, line: 65
-# File: bin/widget/view/form_gtk/date_widget.py, line: 65
+#: bin/widget_search/date_widget.py:65
+#: bin/widget/view/form_gtk/date_widget.py:65
 msgid ""
-"You can use special operation by pressing +, - or =.  Plus/minus adds/decrease the variable to the current selected date. Equals set part of selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
+"You can use special operation by pressing +, - or =.  Plus/minus "
+"adds/decrease the variable to the current selected date. Equals set part of "
+"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
+"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
 "* +21d : adds 21 days to selected year\n"
 "* =23w : set date to the 23th week of the year\n"
 "* -4m : decrease 4 months to the current date\n"
-"You can also use \"=\" to set the date to the current date/time and '-' to clear the field."
+"You can also use \"=\" to set the date to the current date/time and '-' to "
+"clear the field."
 msgstr ""
 
-#
-# File: bin/widget_search/calendar.py, line: 49
-# File: bin/widget_search/calendar.py, line: 177
+#: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
 msgid "Start date"
 msgstr "Počáteční datum"
 
-#
-# File: bin/widget_search/calendar.py, line: 53
-# File: bin/widget_search/calendar.py, line: 73
-# File: bin/widget_search/calendar.py, line: 181
-# File: bin/widget_search/calendar.py, line: 201
-# File: bin/widget/view/form_gtk/calendar.py, line: 57
-# File: bin/widget/view/form_gtk/calendar.py, line: 184
+#: bin/widget_search/calendar.py:53 bin/widget_search/calendar.py:73
+#: bin/widget_search/calendar.py:181 bin/widget_search/calendar.py:201
+#: bin/widget/view/form_gtk/calendar.py:57
+#: bin/widget/view/form_gtk/calendar.py:184
 msgid "Open the calendar widget"
 msgstr "Otevřít kalendář"
 
-#
-# File: bin/widget_search/calendar.py, line: 69
-# File: bin/widget_search/calendar.py, line: 197
+#: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
 msgid "End date"
 msgstr "Konečné datum"
 
-#
-# File: bin/widget_search/calendar.py, line: 128
-# File: bin/widget_search/calendar.py, line: 267
-# File: bin/widget/view/form_gtk/calendar.py, line: 135
-# File: bin/widget/view/form_gtk/calendar.py, line: 249
+#: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
+#: bin/widget/view/form_gtk/calendar.py:135
+#: bin/widget/view/form_gtk/calendar.py:249
 msgid "OpenERP - Date selection"
 msgstr "OpenERP - Výběr data"
 
-#
-# File: bin/widget_search/calendar.py, line: 273
-# File: bin/widget/view/form_gtk/calendar.py, line: 255
+#: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
 msgid "Hour:"
 msgstr "Hodin:"
 
-#
-# File: bin/widget_search/calendar.py, line: 276
-# File: bin/widget/view/form_gtk/calendar.py, line: 258
+#: bin/widget_search/calendar.py:276 bin/widget/view/form_gtk/calendar.py:258
 msgid "Minute:"
 msgstr "Minut:"
 
-#
-# File: bin/widget_search/calendar.py, line: 312
-# File: bin/widget/view/form_gtk/calendar.py, line: 291
+#: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
 msgstr "Neplatná hodnota data a času! Rok musí být větší než 1899 !"
 
-#
-# File: bin/widget_search/char.py, line: 45
+#: bin/widget_search/char.py:45
 msgid "Error: "
 msgstr "Chyba: "
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 36
-# File: bin/widget_search/custom_filter_widgets.py, line: 63
-# File: bin/widget_search/custom_filter_widgets.py, line: 128
-# File: bin/widget_search/custom_filter_widgets.py, line: 149
-# File: bin/widget_search/custom_filter_widgets.py, line: 156
-# File: bin/widget_search/custom_filter_widgets.py, line: 180
-# File: bin/widget_search/custom_filter_widgets.py, line: 212
-# File: bin/widget_search/custom_filter_widgets.py, line: 225
-# File: bin/widget_search/custom_filter_widgets.py, line: 257
-# File: bin/widget_search/custom_filter_widgets.py, line: 272
+#: bin/widget_search/custom_filter_widgets.py:36
+#: bin/widget_search/custom_filter_widgets.py:63
+#: bin/widget_search/custom_filter_widgets.py:128
+#: bin/widget_search/custom_filter_widgets.py:149
+#: bin/widget_search/custom_filter_widgets.py:156
+#: bin/widget_search/custom_filter_widgets.py:180
+#: bin/widget_search/custom_filter_widgets.py:212
+#: bin/widget_search/custom_filter_widgets.py:225
+#: bin/widget_search/custom_filter_widgets.py:257
+#: bin/widget_search/custom_filter_widgets.py:272
 msgid "is"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 37
-# File: bin/widget_search/custom_filter_widgets.py, line: 64
-# File: bin/widget_search/custom_filter_widgets.py, line: 128
-# File: bin/widget_search/custom_filter_widgets.py, line: 150
-# File: bin/widget_search/custom_filter_widgets.py, line: 157
-# File: bin/widget_search/custom_filter_widgets.py, line: 181
-# File: bin/widget_search/custom_filter_widgets.py, line: 212
-# File: bin/widget_search/custom_filter_widgets.py, line: 226
-# File: bin/widget_search/custom_filter_widgets.py, line: 257
-# File: bin/widget_search/custom_filter_widgets.py, line: 273
+#: bin/widget_search/custom_filter_widgets.py:37
+#: bin/widget_search/custom_filter_widgets.py:64
+#: bin/widget_search/custom_filter_widgets.py:128
+#: bin/widget_search/custom_filter_widgets.py:150
+#: bin/widget_search/custom_filter_widgets.py:157
+#: bin/widget_search/custom_filter_widgets.py:181
+#: bin/widget_search/custom_filter_widgets.py:212
+#: bin/widget_search/custom_filter_widgets.py:226
+#: bin/widget_search/custom_filter_widgets.py:257
+#: bin/widget_search/custom_filter_widgets.py:273
 msgid "is not"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 38
-# File: bin/widget_search/custom_filter_widgets.py, line: 49
-# File: bin/widget_search/custom_filter_widgets.py, line: 56
-# File: bin/widget_search/custom_filter_widgets.py, line: 65
-# File: bin/widget_search/custom_filter_widgets.py, line: 140
-# File: bin/widget_search/custom_filter_widgets.py, line: 151
-# File: bin/widget_search/custom_filter_widgets.py, line: 158
-# File: bin/widget_search/custom_filter_widgets.py, line: 183
-# File: bin/widget_search/custom_filter_widgets.py, line: 202
-# File: bin/widget_search/custom_filter_widgets.py, line: 210
-# File: bin/widget_search/custom_filter_widgets.py, line: 228
-# File: bin/widget_search/custom_filter_widgets.py, line: 247
-# File: bin/widget_search/custom_filter_widgets.py, line: 255
+#: bin/widget_search/custom_filter_widgets.py:38
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:65
+#: bin/widget_search/custom_filter_widgets.py:140
+#: bin/widget_search/custom_filter_widgets.py:151
+#: bin/widget_search/custom_filter_widgets.py:158
+#: bin/widget_search/custom_filter_widgets.py:183
+#: bin/widget_search/custom_filter_widgets.py:202
+#: bin/widget_search/custom_filter_widgets.py:210
+#: bin/widget_search/custom_filter_widgets.py:228
+#: bin/widget_search/custom_filter_widgets.py:247
+#: bin/widget_search/custom_filter_widgets.py:255
 msgid "is Empty"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 39
-# File: bin/widget_search/custom_filter_widgets.py, line: 49
-# File: bin/widget_search/custom_filter_widgets.py, line: 56
-# File: bin/widget_search/custom_filter_widgets.py, line: 66
-# File: bin/widget_search/custom_filter_widgets.py, line: 140
-# File: bin/widget_search/custom_filter_widgets.py, line: 152
-# File: bin/widget_search/custom_filter_widgets.py, line: 159
-# File: bin/widget_search/custom_filter_widgets.py, line: 184
-# File: bin/widget_search/custom_filter_widgets.py, line: 202
-# File: bin/widget_search/custom_filter_widgets.py, line: 210
-# File: bin/widget_search/custom_filter_widgets.py, line: 229
-# File: bin/widget_search/custom_filter_widgets.py, line: 247
-# File: bin/widget_search/custom_filter_widgets.py, line: 255
+#: bin/widget_search/custom_filter_widgets.py:39
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:66
+#: bin/widget_search/custom_filter_widgets.py:140
+#: bin/widget_search/custom_filter_widgets.py:152
+#: bin/widget_search/custom_filter_widgets.py:159
+#: bin/widget_search/custom_filter_widgets.py:184
+#: bin/widget_search/custom_filter_widgets.py:202
+#: bin/widget_search/custom_filter_widgets.py:210
+#: bin/widget_search/custom_filter_widgets.py:229
+#: bin/widget_search/custom_filter_widgets.py:247
+#: bin/widget_search/custom_filter_widgets.py:255
 msgid "is not Empty"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 40
-# File: bin/widget_search/custom_filter_widgets.py, line: 67
-# File: bin/widget_search/custom_filter_widgets.py, line: 98
+#: bin/widget_search/custom_filter_widgets.py:40
+#: bin/widget_search/custom_filter_widgets.py:67
+#: bin/widget_search/custom_filter_widgets.py:98
 msgid "contains"
 msgstr "obsahuje"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 41
-# File: bin/widget_search/custom_filter_widgets.py, line: 68
-# File: bin/widget_search/custom_filter_widgets.py, line: 98
+#: bin/widget_search/custom_filter_widgets.py:41
+#: bin/widget_search/custom_filter_widgets.py:68
+#: bin/widget_search/custom_filter_widgets.py:98
 msgid "doesn't contain"
 msgstr "neobsahuje"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 87
-# File: bin/widget/view/form_gtk/many2one.py, line: 163
+#: bin/widget_search/custom_filter_widgets.py:87
+#: bin/widget/view/form_gtk/many2one.py:163
 msgid "Search a resource"
 msgstr "Vyhledat zdroj"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 167
+#: bin/widget_search/custom_filter_widgets.py:167
 msgid "Equals"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 182
-# File: bin/widget_search/custom_filter_widgets.py, line: 196
-# File: bin/widget_search/custom_filter_widgets.py, line: 227
-# File: bin/widget_search/custom_filter_widgets.py, line: 241
-# File: bin/widget_search/custom_filter_widgets.py, line: 296
-# File: bin/widget_search/custom_filter_widgets.py, line: 310
-# File: bin/widget_search/custom_filter_widgets.py, line: 322
-# File: bin/widget_search/custom_filter_widgets.py, line: 337
-# File: bin/widget_search/custom_filter_widgets.py, line: 350
-# File: bin/widget_search/custom_filter_widgets.py, line: 362
+#: bin/widget_search/custom_filter_widgets.py:182
+#: bin/widget_search/custom_filter_widgets.py:196
+#: bin/widget_search/custom_filter_widgets.py:227
+#: bin/widget_search/custom_filter_widgets.py:241
+#: bin/widget_search/custom_filter_widgets.py:296
+#: bin/widget_search/custom_filter_widgets.py:310
+#: bin/widget_search/custom_filter_widgets.py:322
+#: bin/widget_search/custom_filter_widgets.py:337
+#: bin/widget_search/custom_filter_widgets.py:350
+#: bin/widget_search/custom_filter_widgets.py:362
 msgid "between"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 185
-# File: bin/widget_search/custom_filter_widgets.py, line: 199
-# File: bin/widget_search/custom_filter_widgets.py, line: 230
-# File: bin/widget_search/custom_filter_widgets.py, line: 244
-# File: bin/widget_search/custom_filter_widgets.py, line: 297
-# File: bin/widget_search/custom_filter_widgets.py, line: 313
-# File: bin/widget_search/custom_filter_widgets.py, line: 322
-# File: bin/widget_search/custom_filter_widgets.py, line: 338
-# File: bin/widget_search/custom_filter_widgets.py, line: 353
-# File: bin/widget_search/custom_filter_widgets.py, line: 362
+#: bin/widget_search/custom_filter_widgets.py:185
+#: bin/widget_search/custom_filter_widgets.py:199
+#: bin/widget_search/custom_filter_widgets.py:230
+#: bin/widget_search/custom_filter_widgets.py:244
+#: bin/widget_search/custom_filter_widgets.py:297
+#: bin/widget_search/custom_filter_widgets.py:313
+#: bin/widget_search/custom_filter_widgets.py:322
+#: bin/widget_search/custom_filter_widgets.py:338
+#: bin/widget_search/custom_filter_widgets.py:353
+#: bin/widget_search/custom_filter_widgets.py:362
 msgid "exclude range"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 290
-# File: bin/widget_search/custom_filter_widgets.py, line: 331
+#: bin/widget_search/custom_filter_widgets.py:290
+#: bin/widget_search/custom_filter_widgets.py:331
 msgid "is equal to"
 msgstr "rovná se"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 291
-# File: bin/widget_search/custom_filter_widgets.py, line: 332
+#: bin/widget_search/custom_filter_widgets.py:291
+#: bin/widget_search/custom_filter_widgets.py:332
 msgid "is not equal to"
 msgstr "nerovná se"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 292
-# File: bin/widget_search/custom_filter_widgets.py, line: 333
+#: bin/widget_search/custom_filter_widgets.py:292
+#: bin/widget_search/custom_filter_widgets.py:333
 msgid "greater than"
 msgstr "větší než"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 293
-# File: bin/widget_search/custom_filter_widgets.py, line: 334
+#: bin/widget_search/custom_filter_widgets.py:293
+#: bin/widget_search/custom_filter_widgets.py:334
 msgid "less than"
 msgstr "menší než"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 294
-# File: bin/widget_search/custom_filter_widgets.py, line: 335
+#: bin/widget_search/custom_filter_widgets.py:294
+#: bin/widget_search/custom_filter_widgets.py:335
 msgid "greater than equal to"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 295
-# File: bin/widget_search/custom_filter_widgets.py, line: 336
+#: bin/widget_search/custom_filter_widgets.py:295
+#: bin/widget_search/custom_filter_widgets.py:336
 msgid "less than equal to"
 msgstr ""
 
-#
-# File: bin/widget/screen/screen.py, line: 337
+#: bin/widget/screen/screen.py:337
 msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
@@ -447,159 +396,133 @@ msgstr ""
 "(Jakýkoliv existující filtr s \n"
 "stejné jméno bude nahrazeno)"
 
-#
-# File: bin/widget/view/widget_parse.py, line: 53
+#: bin/widget/view/widget_parse.py:53
 #, python-format
 msgid "This type (%s) is not supported by the GTK client !"
 msgstr "Tento typ (%s) není podporován GTK klientem!"
 
-#
-# File: bin/widget/view/widget_parse.py, line: 64
+#: bin/widget/view/widget_parse.py:64
 msgid "No valid view found for this object!"
 msgstr "Pro tento objekt nebylo nalezen platný pohled."
 
-#
-# File: bin/widget/view/form.py, line: 137
+#: bin/widget/view/form.py:137
 msgid "You must save this record to use the relate button !"
 msgstr "Musíte uložit tento záznam k použití tlačítka související !"
 
-#
-# File: bin/widget/view/form.py, line: 142
+#: bin/widget/view/form.py:142
 msgid "Action not defined !"
 msgstr "Akce není definována !"
 
 #
 # File: bin/widget/view/form.py, line: 201
+#: bin/widget/view/form.py:201
 msgid "You must save this record to use the action button !"
 msgstr "Musíte uložit tento záznam k použití tlačítka související !"
 
 #
 # File: bin/widget/view/form.py, line: 213
+#: bin/widget/view/form.py:213
 msgid "You must save a record to use the relate button !"
 msgstr "Musíte uložit tento záznam k použití tlačítka související !"
 
-#
-# File: bin/widget/view/form.py, line: 238
-# File: bin/widget/view/form_gtk/parser.py, line: 635
-# File: bin/widget/view/form_gtk/parser.py, line: 756
-# File: bin/widget/view/form_gtk/parser.py, line: 813
+#: bin/widget/view/form.py:238 bin/widget/view/form_gtk/parser.py:635
+#: bin/widget/view/form_gtk/parser.py:756
+#: bin/widget/view/form_gtk/parser.py:813
 msgid "No other language available!"
 msgstr "Další jazyk není k dispozici."
 
-#
-# File: bin/widget/view/form.py, line: 245
-# File: bin/widget/view/form_gtk/parser.py, line: 647
-# File: bin/widget/view/form_gtk/parser.py, line: 762
-# File: bin/widget/view/form_gtk/parser.py, line: 819
+#: bin/widget/view/form.py:245 bin/widget/view/form_gtk/parser.py:647
+#: bin/widget/view/form_gtk/parser.py:762
+#: bin/widget/view/form_gtk/parser.py:819
 msgid "Add Translation"
 msgstr "Přidat překlad"
 
-#
-# File: bin/widget/view/form.py, line: 293
-# File: bin/widget/view/form_gtk/parser.py, line: 875
+#: bin/widget/view/form.py:293 bin/widget/view/form_gtk/parser.py:875
 msgid "Translate label"
 msgstr "Přeložit označení"
 
-#
-# File: bin/widget/view/list.py, line: 584
-# File: bin/widget/view/list.py, line: 585
-# File: bin/widget/view/form_gtk/parser.py, line: 135
-# File: bin/modules/gui/window/form.py, line: 366
+#: bin/widget/view/list.py:584 bin/widget/view/list.py:585
+#: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
 msgid "Invalid form, correct red fields !"
 msgstr "Chyba ve formuláři, opravte červená pole!!"
 
-#
-# File: bin/widget/view/list.py, line: 584
+#: bin/widget/view/list.py:584
 msgid "Error !"
 msgstr "Chyba !"
 
-#
-# File: bin/widget/view/list.py, line: 633
-# File: bin/widget/view/form_gtk/many2one.py, line: 387
+#: bin/widget/view/list.py:633 bin/widget/view/form_gtk/many2one.py:387
 msgid "You must select a record to use the relation !"
 msgstr "Musíte vybrat záznam k použití souvislosti !"
 
-#
-# File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 30
+#: bin/widget/view/gantt_gtk/parser_dummy.py:30
 msgid "Gantt view not yet implemented !"
 msgstr "Ganttův pohled zatím není implementován !"
 
-#
-# File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 31
-msgid "The gantt view is not available in this GTK Client, you should use the web interface or switch to the calendar view."
-msgstr "Ganttův pohled není dostupný v GTK klientovi, měli byste použít webové rozhraní nebo přepnout do kalendářového pohledu."
+#: bin/widget/view/gantt_gtk/parser_dummy.py:31
+msgid ""
+"The gantt view is not available in this GTK Client, you should use the web "
+"interface or switch to the calendar view."
+msgstr ""
+"Ganttův pohled není dostupný v GTK klientovi, měli byste použít webové "
+"rozhraní nebo přepnout do kalendářového pohledu."
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1422
+#: bin/widget/view/diagram_gtk/xdot.py:1422
 msgid "Dot Viewer"
 msgstr "Prohlížeč Dot"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1712
+#: bin/widget/view/diagram_gtk/xdot.py:1712
 msgid "Add New Node"
 msgstr "Přidat nový uzel"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1713
+#: bin/widget/view/diagram_gtk/xdot.py:1713
 msgid "Add New Edge"
 msgstr "Přidat nový okraj"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1714
+#: bin/widget/view/diagram_gtk/xdot.py:1714
 msgid "Enlarge the Diagram"
 msgstr "Roztáhnout diagram"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1715
+#: bin/widget/view/diagram_gtk/xdot.py:1715
 msgid "Shrink the Diagram"
 msgstr "Zmenšit diagram"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1716
+#: bin/widget/view/diagram_gtk/xdot.py:1716
 msgid "Fit the diagram to the window"
 msgstr "Zvětšit diagram do okna"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1717
+#: bin/widget/view/diagram_gtk/xdot.py:1717
 msgid "Show the diagram at its normal size"
 msgstr "Ukázat diagram v normální velikosti"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1718
+#: bin/widget/view/diagram_gtk/xdot.py:1718
 msgid "Print the Diagram"
 msgstr "Tisknout diagram"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1772
-# File: bin/modules/gui/window/win_search.py, line: 49
+#: bin/widget/view/diagram_gtk/xdot.py:1772
+#: bin/modules/gui/window/win_search.py:49
 msgid "OpenERP - Link"
 msgstr "OpenERP - odkaz"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1789
+#: bin/widget/view/diagram_gtk/xdot.py:1789
 #, python-format
 msgid "Close Current %s"
 msgstr "Zavřít aktuální %s"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1790
+#: bin/widget/view/diagram_gtk/xdot.py:1790
 #, python-format
 msgid "Delete Current %s"
 msgstr "Smazat aktuální %s"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1791
+#: bin/widget/view/diagram_gtk/xdot.py:1791
 #, python-format
 msgid "Edit Current %s"
 msgstr "Upravit aktuální %s"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1875
+#: bin/widget/view/diagram_gtk/xdot.py:1875
 msgid " - Dot Viewer"
 msgstr " - Prohlížeč Dot"
 
-#
-# File: bin/widget/view/tree_gtk/parser.py, line: 61
+#: bin/widget/view/tree_gtk/parser.py:61
 msgid ""
 "You have unsaved record(s) !  \n"
 "\n"
@@ -608,51 +531,44 @@ msgstr ""
 "Máte neuložené záznam(y) ! \n"
 "Prosím uložte je před řazením !"
 
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 140
+#: bin/widget/view/tree_gtk/editabletree.py:140
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Zkratka: %s"
 
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 140
+#: bin/widget/view/tree_gtk/editabletree.py:140
 msgid "F1 New - F2 Open/Search"
 msgstr "F1 Nový - F2 Otevřít/Hledat"
 
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 215
+#: bin/widget/view/tree_gtk/editabletree.py:215
 #, python-format
 msgid "Warning; field %s is required!"
 msgstr "Pozor!; pole %s je nutné zadat!"
 
-#
-# File: bin/widget/view/tree_gtk/date_renderer.py, line: 197
-msgid "Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
-msgstr "Stiskněte <i>'+'</i>, <i>'-'</i> nebo <i>'='</i> pro speciální datové operace."
+#: bin/widget/view/tree_gtk/date_renderer.py:197
+msgid ""
+"Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
+msgstr ""
+"Stiskněte <i>'+'</i>, <i>'-'</i> nebo <i>'='</i> pro speciální datové "
+"operace."
 
-#
-# File: bin/widget/view/screen_container.py, line: 74
+#: bin/widget/view/screen_container.py:74
 msgid "--Actions--"
 msgstr "--Akce--"
 
-#
-# File: bin/widget/view/screen_container.py, line: 74
+#: bin/widget/view/screen_container.py:74
 msgid "Save as a Filter"
 msgstr "Uložit jako filtr"
 
-#
-# File: bin/widget/view/screen_container.py, line: 74
+#: bin/widget/view/screen_container.py:74
 msgid "Manage Filters"
 msgstr "Spravovat filtry"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 61
+#: bin/widget/view/form_gtk/parser.py:61
 msgid "Wrong icon for the button !"
 msgstr "Chybná ikona pro tlačítko!"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 134
-# File: bin/modules/gui/window/form.py, line: 365
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 #, python-format
 msgid ""
 "Correct following red fields !\n"
@@ -663,394 +579,313 @@ msgstr ""
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
 # File: bin/modules/gui/window/form.py, line: 365
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 msgid "Input Error !"
 msgstr "Chyba vstupu."
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 308
+#: bin/widget/view/form_gtk/parser.py:308
 msgid "Field"
 msgstr "Pole"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 308
+#: bin/widget/view/form_gtk/parser.py:308
 msgid "Object"
 msgstr "Objekt"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 619
+#: bin/widget/view/form_gtk/parser.py:619
 msgid "Enter some text to the related field before adding translations!"
 msgstr "Zadejte nějaký text do pole související před přidáním překladu!"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 626
+#: bin/widget/view/form_gtk/parser.py:626
 msgid "You need to save resource before adding translations!"
 msgstr "Potřebujte uložit zdroj před přidáním překladu!"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 880
+#: bin/widget/view/form_gtk/parser.py:880
 msgid "Translate view"
 msgstr "Přeložit pohled"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 52
-# File: bin/modules/gui/main.py, line: 1079
-# File: bin/openerp.glade, line: 6095
+#: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1079
+#: bin/openerp.glade:6095
 msgid "OpenERP"
 msgstr "OpenERP"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 64
+#: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
 msgstr "Zrušit"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 70
+#: bin/widget/view/form_gtk/one2many_list.py:70
 msgid "Save & Close"
 msgstr "Uložit & Zavřít"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 75
+#: bin/widget/view/form_gtk/one2many_list.py:75
 msgid "Save & New"
 msgstr "Uložit & Nový"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 164
-# File: bin/widget/view/form_gtk/interface.py, line: 48
+#: bin/widget/view/form_gtk/one2many_list.py:164
+#: bin/widget/view/form_gtk/interface.py:48
 msgid "Set to default value"
 msgstr "Nastavit výchozí hodnotu"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 167
+#: bin/widget/view/form_gtk/one2many_list.py:167
 msgid "Set Default"
 msgstr "Nastavit výchozí"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 196
+#: bin/widget/view/form_gtk/one2many_list.py:196
 msgid "Create a new entry"
 msgstr "Vytvořit nový záznam"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 200
+#: bin/widget/view/form_gtk/one2many_list.py:200
 msgid "Edit this entry"
 msgstr "Upravit záznam"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 204
+#: bin/widget/view/form_gtk/one2many_list.py:204
 msgid "Remove this entry"
 msgstr "Odstranit záznam"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 210
-# File: bin/widget/view/form_gtk/many2many.py, line: 84
+#: bin/widget/view/form_gtk/one2many_list.py:210
+#: bin/widget/view/form_gtk/many2many.py:84
 msgid "Previous Page"
 msgstr "Předchozí stránka"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 214
-# File: bin/widget/view/form_gtk/many2many.py, line: 88
+#: bin/widget/view/form_gtk/one2many_list.py:214
+#: bin/widget/view/form_gtk/many2many.py:88
 msgid "Previous Record"
 msgstr "Předchozí záznam"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 222
-# File: bin/widget/view/form_gtk/many2many.py, line: 96
+#: bin/widget/view/form_gtk/one2many_list.py:222
+#: bin/widget/view/form_gtk/many2many.py:96
 msgid "Next Record"
 msgstr "Další záznam"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 226
-# File: bin/widget/view/form_gtk/many2many.py, line: 100
+#: bin/widget/view/form_gtk/one2many_list.py:226
+#: bin/widget/view/form_gtk/many2many.py:100
 msgid "Next Page"
 msgstr "Další stránka"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 232
+#: bin/widget/view/form_gtk/one2many_list.py:232
 msgid "Switch"
 msgstr "Přepnout"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 238
-# File: bin/widget/view/form_gtk/many2many.py, line: 106
+#: bin/widget/view/form_gtk/one2many_list.py:238
+#: bin/widget/view/form_gtk/many2many.py:106
 msgid "Choose Limit"
 msgstr "Vybrat omezení"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 279
+#: bin/widget/view/form_gtk/one2many_list.py:279
 msgid "You have to select a resource !"
 msgstr "Musíte vybrat zdroj !"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 388
-# File: bin/modules/gui/window/form.py, line: 290
+#: bin/widget/view/form_gtk/one2many_list.py:388
+#: bin/modules/gui/window/form.py:290
 msgid "Are you sure to remove this record ?"
 msgstr "Opravdu smazat záznam?"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 390
-# File: bin/modules/gui/window/form.py, line: 292
+#: bin/widget/view/form_gtk/one2many_list.py:390
+#: bin/modules/gui/window/form.py:292
 msgid "Are you sure to remove those records ?"
 msgstr "Opravdu smazat záznamy?"
 
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 49
+#: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
 msgstr "Nastavit jako výchozí"
 
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 64
+#: bin/widget/view/form_gtk/interface.py:64
 msgid "You can not set to the default value here !"
 msgstr "Zde nemůžete nastavit výchozí hodnotu !"
 
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 64
+#: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permited"
 msgstr "Operace není povolena"
 
-#
-# File: bin/widget/view/form_gtk/calendar.py, line: 99
-# File: bin/widget/view/form_gtk/calendar.py, line: 163
+#: bin/widget/view/form_gtk/calendar.py:99
+#: bin/widget/view/form_gtk/calendar.py:163
 msgid "Invalid date value! Year must be greater than 1899 !"
 msgstr "Neplatná hodnota data! Rok musí být větší než 1899 !"
 
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 158
-# File: bin/widget/view/form_gtk/url.py, line: 53
+#: bin/widget/view/form_gtk/many2one.py:158 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
 msgstr "Otevřít tento zdroj:"
 
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 174
-# File: bin/openerp.glade, line: 1412
+#: bin/widget/view/form_gtk/many2one.py:174 bin/openerp.glade:1412
 msgid "Action"
 msgstr "Akce"
 
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 175
+#: bin/widget/view/form_gtk/many2one.py:175
 msgid "Report"
 msgstr "Záznam"
 
-#
-# File: bin/widget/view/form_gtk/url.py, line: 50
+#: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
 msgstr ""
 
-#
-# File: bin/widget/view/form_gtk/url.py, line: 118
-# File: bin/widget/view/form_gtk/image.py, line: 112
-# File: bin/modules/gui/main.py, line: 1389
-# File: bin/openerp.glade, line: 5831
+#: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
+#: bin/modules/gui/main.py:1389 bin/openerp.glade:5831
 msgid "Open..."
 msgstr "Otevřít..."
 
-#
-# File: bin/widget/view/form_gtk/reference.py, line: 76
-# File: bin/openerp.glade, line: 1258
+#: bin/widget/view/form_gtk/reference.py:76 bin/openerp.glade:1258
 msgid "Create a new resource"
 msgstr "Vytvoř nový zdroj"
 
-#
-# File: bin/widget/view/form_gtk/reference.py, line: 89
+#: bin/widget/view/form_gtk/reference.py:89
 msgid "Search / Open a resource"
 msgstr "Hledat/Otevřít zdroj"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 73
+#: bin/widget/view/form_gtk/image.py:73
 msgid "Set Image"
 msgstr "Nastav obrázek"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 82
-# File: bin/widget/view/form_gtk/binary.py, line: 84
+#: bin/widget/view/form_gtk/image.py:82 bin/widget/view/form_gtk/binary.py:84
 msgid "Save As"
 msgstr "Uložit jako"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 93
-# File: bin/widget/view/form_gtk/binary.py, line: 88
+#: bin/widget/view/form_gtk/image.py:93 bin/widget/view/form_gtk/binary.py:88
 msgid "Clear"
 msgstr "Vymazat"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 102
+#: bin/widget/view/form_gtk/image.py:102
 msgid "All files"
 msgstr "Všechny soubory"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 106
+#: bin/widget/view/form_gtk/image.py:106
 msgid "Images"
 msgstr "Obrazky"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 127
+#: bin/widget/view/form_gtk/image.py:127
 msgid "There is no image to save as !"
 msgstr "Žádný obrázek k uložení jako !"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 127
+#: bin/widget/view/form_gtk/image.py:127
 msgid "Warning"
 msgstr "Varování"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 129
-# File: bin/widget/view/form_gtk/binary.py, line: 167
-# File: bin/printer/printer.py, line: 231
-# File: bin/modules/gui/main.py, line: 1493
-# File: bin/modules/gui/window/win_export.py, line: 359
+#: bin/widget/view/form_gtk/image.py:129
+#: bin/widget/view/form_gtk/binary.py:167 bin/printer/printer.py:231
+#: bin/modules/gui/main.py:1493 bin/modules/gui/window/win_export.py:359
 msgid "Save As..."
 msgstr "Uloži jako..."
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 177
+#: bin/widget/view/form_gtk/image.py:177
 msgid "Image corrupted"
 msgstr ""
 
-#
-# File: bin/widget/view/form_gtk/wid_common.py, line: 59
+#: bin/widget/view/form_gtk/wid_common.py:59
 msgid "Always applicable !"
 msgstr "Použitelné vždy !"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 76
+#: bin/widget/view/form_gtk/binary.py:76
 msgid "Select"
 msgstr "Vybrat"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 80
+#: bin/widget/view/form_gtk/binary.py:80
 msgid "Open"
 msgstr "Otevřít"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 119
-# File: bin/widget/view/form_gtk/binary.py, line: 163
+#: bin/widget/view/form_gtk/binary.py:119
+#: bin/widget/view/form_gtk/binary.py:163
 msgid "Unable to read the file data"
 msgstr "Nelze číst data souboru"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 129
-# File: bin/widget/view/form_gtk/binary.py, line: 155
+#: bin/widget/view/form_gtk/binary.py:129
+#: bin/widget/view/form_gtk/binary.py:155
 #, python-format
 msgid "Error reading the file: %s"
 msgstr "Chyba čtení souboru: %s"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 138
+#: bin/widget/view/form_gtk/binary.py:138
 msgid "All Files"
 msgstr "Všechny soubor"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 148
+#: bin/widget/view/form_gtk/binary.py:148
 msgid "Select a file..."
 msgstr "Vyber soubor..."
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 177
+#: bin/widget/view/form_gtk/binary.py:177
 #, python-format
 msgid "Error writing the file: %s"
 msgstr "Chyba při zápisu do souboru: %s"
 
-#
-# File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 30
+#: bin/widget/view/calendar_gtk/parser_dummy.py:30
 msgid "Calendar View Error !"
 msgstr "Chyba zobrazení kalendáře!"
 
-#
-# File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 31
+#: bin/widget/view/calendar_gtk/parser_dummy.py:31
 msgid "You must intall the library python-hippocanvas to use calendars."
 msgstr "K použití kalendáře musíte nainstalovat knihovnu python-hippocanvas."
 
-#
-# File: bin/widget/view/calendar_gtk/parser.py, line: 355
-# File: bin/openerp.glade, line: 8078
+#: bin/widget/view/calendar_gtk/parser.py:355 bin/openerp.glade:8078
 msgid "Week"
 msgstr "Týden"
 
-#
-# File: bin/widget/view/graph_gtk/parser.py, line: 64
+#: bin/widget/view/graph_gtk/parser.py:64
 msgid "Can not generate graph !"
 msgstr "Nelze vytvořit graf!"
 
-#
-# File: bin/options.py, line: 121
+#: bin/options.py:121
 #, python-format
 msgid "OpenERP Client %s"
 msgstr "OpenERP klient %s"
 
-#
-# File: bin/options.py, line: 122
+#: bin/options.py:122
 msgid "specify alternate config file"
 msgstr "určete náhradní konfigurační soubor"
 
-#
-# File: bin/options.py, line: 123
+#: bin/options.py:123
 msgid "Enable basic debugging. Alias for '--log-level=debug'"
 msgstr "Povolení základního ladění. Zástupce za '--log-level=debug'"
 
-#
-# File: bin/options.py, line: 124
+#: bin/options.py:124
 #, python-format
 msgid "specify the log level: %s"
 msgstr "určete úroveň záznamu: %s"
 
-#
-# File: bin/options.py, line: 125
+#: bin/options.py:125
 msgid "specify the user login"
 msgstr "zadejte přihlašovací jméno"
 
-#
-# File: bin/options.py, line: 126
+#: bin/options.py:126
 msgid "specify the server port"
 msgstr "zadejte port serveru"
 
-#
-# File: bin/options.py, line: 127
+#: bin/options.py:127
 msgid "specify the server ip/name"
 msgstr "zadejte jméno/ip serveru"
 
-#
-# File: bin/openerp-client.py, line: 142
+#: bin/openerp-client.py:142
 msgid "Closing OpenERP, KeyboardInterrupt"
 msgstr "Ukončování OpenERP, KeyboardInterrupt"
 
-#
-# File: bin/plugins/__init__.py, line: 27
+#: bin/plugins/__init__.py:27
 msgid "Print Workflow"
 msgstr "Tisknout pracovní postup"
 
-#
-# File: bin/plugins/__init__.py, line: 28
+#: bin/plugins/__init__.py:28
 msgid "Print Workflow (with subflows)"
 msgstr "Tisknout pracovní postup (včetně podpostupů)"
 
-#
-# File: bin/plugins/__init__.py, line: 40
+#: bin/plugins/__init__.py:40
 msgid "No available plugin for this resource !"
 msgstr "Plugin není dostupný pro tento zdroj !"
 
-#
-# File: bin/plugins/__init__.py, line: 42
+#: bin/plugins/__init__.py:42
 msgid "Choose a Plugin"
 msgstr "Vyberte plugin"
 
 #
 # File: bin/translate.py, line: 183
+#: bin/translate.py:183
 #, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Nelze nastavit národní nastavení %(lang_enc)s: %(exception)s"
 
-#
-# File: bin/rpc.py, line: 157
-# File: bin/modules/action/wizard.py, line: 150
-# File: bin/modules/gui/main.py, line: 187
+#: bin/rpc.py:157 bin/modules/action/wizard.py:150 bin/modules/gui/main.py:187
 msgid "Connection refused !"
 msgstr "Připojení odmítnuto!"
 
-#
-# File: bin/rpc.py, line: 158
+#: bin/rpc.py:158
 msgid "Connection refused!"
 msgstr "Připojení odmítnuto!"
 
-#
-# File: bin/rpc.py, line: 188
+#: bin/rpc.py:188
 msgid ""
 "Unable to reach to OpenERP server !\n"
 "You should check your connection to the network and the OpenERP server."
@@ -1058,192 +893,153 @@ msgstr ""
 "Nelze se spojit s OpenRTP serverem !\n"
 "Měli byste zkontrolovat vaše spojení do sítě a k OpenERP serveru."
 
-#
-# File: bin/rpc.py, line: 188
+#: bin/rpc.py:188
 msgid "Connection Error"
 msgstr "Chyba připojení"
 
-#
-# File: bin/rpc.py, line: 203
-# File: bin/rpc.py, line: 205
-# File: bin/modules/action/wizard.py, line: 162
-# File: bin/modules/action/wizard.py, line: 168
-# File: bin/modules/action/wizard.py, line: 170
-# File: bin/modules/gui/main.py, line: 195
-# File: bin/modules/gui/main.py, line: 201
+#: bin/rpc.py:203 bin/rpc.py:205 bin/modules/action/wizard.py:162
+#: bin/modules/action/wizard.py:168 bin/modules/action/wizard.py:170
+#: bin/modules/gui/main.py:195 bin/modules/gui/main.py:201
 msgid "Application Error"
 msgstr "Chyba aplikace"
 
-#
-# File: bin/rpc.py, line: 205
-# File: bin/modules/action/wizard.py, line: 170
+#: bin/rpc.py:205 bin/modules/action/wizard.py:170
 msgid "View details"
 msgstr "Zobraz podrobnosti"
 
-#
-# File: bin/printer/printer.py, line: 184
+#: bin/printer/printer.py:184
 #, python-format
 msgid "Unable to handle %s filetype"
 msgstr "Nelze zpracovat typ souboru %s"
 
-#
-# File: bin/printer/printer.py, line: 193
+#: bin/printer/printer.py:193
 #, python-format
 msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
 
-#
-# File: bin/printer/printer.py, line: 195
+#: bin/printer/printer.py:195
 msgid "Print Report"
 msgstr ""
 
-#
-# File: bin/printer/printer.py, line: 212
+#: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
-msgstr "Chyba! Data nenalezena. Ujistěte se, že máte dostatek dat k vytištění!"
+msgstr ""
+"Chyba! Data nenalezena. Ujistěte se, že máte dostatek dat k vytištění!"
 
-#
-# File: bin/printer/printer.py, line: 239
+#: bin/printer/printer.py:239
 msgid "Error writing the file!"
 msgstr "Chyba při zápisu souboru!"
 
-#
-# File: bin/modules/action/main.py, line: 48
+#: bin/modules/action/main.py:48
 msgid "Nothing to print!"
 msgstr "Není co tisknout!"
 
-#
-# File: bin/modules/action/main.py, line: 66
+#: bin/modules/action/main.py:66
 msgid "Printing aborted, too long delay !"
 msgstr "Tisk zrušen, dlouhá čekací prodleva!"
 
-#
-# File: bin/modules/action/main.py, line: 195
+#: bin/modules/action/main.py:195
 msgid "Select your action"
 msgstr "Výběr akce"
 
-#
-# File: bin/modules/gui/main.py, line: 89
-# File: bin/modules/gui/main.py, line: 341
+#: bin/modules/gui/main.py:89 bin/modules/gui/main.py:341
 msgid "Could not connect to server !"
 msgstr "Nelze připojit na server!"
 
-#
-# File: bin/modules/gui/main.py, line: 93
-# File: bin/openerp.glade, line: 72
-# File: bin/openerp.glade, line: 6247
-# File: bin/openerp.glade, line: 6493
-# File: bin/openerp.glade, line: 6816
-# File: bin/openerp.glade, line: 7480
+#: bin/modules/gui/main.py:93 bin/openerp.glade:72 bin/openerp.glade:6247
+#: bin/openerp.glade:6493 bin/openerp.glade:6816 bin/openerp.glade:7480
 msgid "Server:"
 msgstr "Server:"
 
-#
-# File: bin/modules/gui/main.py, line: 104
-# File: bin/openerp.glade, line: 98
-# File: bin/openerp.glade, line: 6529
-# File: bin/openerp.glade, line: 6773
-# File: bin/openerp.glade, line: 7072
-# File: bin/openerp.glade, line: 7437
+#: bin/modules/gui/main.py:104 bin/openerp.glade:98 bin/openerp.glade:6529
+#: bin/openerp.glade:6773 bin/openerp.glade:7072 bin/openerp.glade:7437
 msgid "Change"
 msgstr "Změnit"
 
-#
-# File: bin/modules/gui/main.py, line: 111
+#: bin/modules/gui/main.py:111
 msgid "Super Administrator Password:"
 msgstr "Heslo super-správce:"
 
-#
-# File: bin/modules/gui/main.py, line: 193
+#: bin/modules/gui/main.py:193
 msgid "Bad Super Administrator Password"
 msgstr "Špatné heslo super-správce"
 
-#
-# File: bin/modules/gui/main.py, line: 217
+#: bin/modules/gui/main.py:217
 msgid "Migration Scripts"
 msgstr "Stěhovací skripty"
 
-#
-# File: bin/modules/gui/main.py, line: 220
+#: bin/modules/gui/main.py:220
 msgid "Contract ID:"
 msgstr "ID kontaktu:"
 
-#
-# File: bin/modules/gui/main.py, line: 226
+#: bin/modules/gui/main.py:226
 msgid "Contract Password:"
 msgstr "Heslo kontaktu:"
 
-#
-# File: bin/modules/gui/main.py, line: 241
+#: bin/modules/gui/main.py:241
 msgid "You already have the latest version"
 msgstr "Již máte nejnovější verzi"
 
-#
-# File: bin/modules/gui/main.py, line: 246
+#: bin/modules/gui/main.py:246
 msgid "The following updates are available:"
 msgstr "Jsou dostupné následující aktualizace:"
 
-#
-# File: bin/modules/gui/main.py, line: 258
+#: bin/modules/gui/main.py:258
 msgid "You can now migrate your databases."
 msgstr "Nyní můžete stěhovat vaše databáze."
 
-#
-# File: bin/modules/gui/main.py, line: 263
+#: bin/modules/gui/main.py:263
 msgid "Migrate Database"
 msgstr "Stěhovat databázi"
 
-#
-# File: bin/modules/gui/main.py, line: 280
+#: bin/modules/gui/main.py:280
 msgid "Database"
 msgstr "Databáze"
 
-#
-# File: bin/modules/gui/main.py, line: 292
+#: bin/modules/gui/main.py:292
 msgid "Your database has been upgraded."
 msgstr "Vaše databáze byla povýšena."
 
-#
-# File: bin/modules/gui/main.py, line: 294
+#: bin/modules/gui/main.py:294
 msgid "Your databases have been upgraded."
 msgstr "Vaše databáze byly povýšeny."
 
-#
-# File: bin/modules/gui/main.py, line: 296
+#: bin/modules/gui/main.py:296
 msgid "You have not selected a database"
 msgstr "Nemáte vybránu žádnou databázi."
 
-#
-# File: bin/modules/gui/main.py, line: 360
+#: bin/modules/gui/main.py:360
 msgid "No database found, you must create one !"
 msgstr "Nebyla nalezena žádná databáze, prosím vytvořte novou!"
 
-#
-# File: bin/modules/gui/main.py, line: 468
+#: bin/modules/gui/main.py:468
 msgid "Unknown"
 msgstr "Neznámé"
 
 #
 # File: bin/modules/gui/main.py, line: 473
+#: bin/modules/gui/main.py:473
 #, python-format
-msgid "The versions of the server %(server_version)s and the client %(client_version)s mismatch. The client may not work properly. Use it at your own risks."
-msgstr "Verze serveru %(server_version)s neodpovídá verzi klienta %(client_version)s. Klient nebde pravděpodobně pracovat správně. Použití je na vlastní zodpovědnost! "
+msgid ""
+"The versions of the server %(server_version)s and the client "
+"%(client_version)s mismatch. The client may not work properly. Use it at "
+"your own risks."
+msgstr ""
+"Verze serveru %(server_version)s neodpovídá verzi klienta "
+"%(client_version)s. Klient nebde pravděpodobně pracovat správně. Použití je "
+"na vlastní zodpovědnost!"
 
-#
-# File: bin/modules/gui/main.py, line: 610
+#: bin/modules/gui/main.py:610
 msgid "Sorry,'"
 msgstr "Promiňte,'"
 
-#
-# File: bin/modules/gui/main.py, line: 610
-# File: bin/modules/gui/main.py, line: 613
+#: bin/modules/gui/main.py:610 bin/modules/gui/main.py:613
 msgid "Bad database name !"
 msgstr "Chybné jméno databáze!"
 
-#
-# File: bin/modules/gui/main.py, line: 613
+#: bin/modules/gui/main.py:613
 msgid ""
 "The database name must contain only normal characters or \"_\".\n"
 "You must avoid all accents, space or special characters."
@@ -1251,36 +1047,25 @@ msgstr ""
 "Název databáze může obsahovat pouze standardní znaky a  \"_\".\n"
 "Nelze použít háčky, čárky, mezery a speciální znaky."
 
-#
-# File: bin/modules/gui/main.py, line: 637
-# File: bin/modules/gui/main.py, line: 650
-# File: bin/modules/gui/main.py, line: 652
-# File: bin/modules/gui/main.py, line: 654
+#: bin/modules/gui/main.py:637 bin/modules/gui/main.py:650
+#: bin/modules/gui/main.py:652 bin/modules/gui/main.py:654
 msgid "Could not create database."
 msgstr "Nelze vytvořit databázi."
 
-#
-# File: bin/modules/gui/main.py, line: 638
-# File: bin/modules/gui/main.py, line: 650
+#: bin/modules/gui/main.py:638 bin/modules/gui/main.py:650
 msgid "Database already exists !"
 msgstr "Databáze již existuje!"
 
-#
-# File: bin/modules/gui/main.py, line: 652
-# File: bin/modules/gui/main.py, line: 1384
-# File: bin/modules/gui/main.py, line: 1404
-# File: bin/modules/gui/main.py, line: 1509
+#: bin/modules/gui/main.py:652 bin/modules/gui/main.py:1384
+#: bin/modules/gui/main.py:1404 bin/modules/gui/main.py:1509
 msgid "Bad database administrator password !"
 msgstr "Chybné heslo správce databáze!"
 
-#
-# File: bin/modules/gui/main.py, line: 654
-# File: bin/modules/gui/main.py, line: 661
+#: bin/modules/gui/main.py:654 bin/modules/gui/main.py:661
 msgid "Error during database creation !"
 msgstr "Chyba během vytváření databáze!"
 
-#
-# File: bin/modules/gui/main.py, line: 661
+#: bin/modules/gui/main.py:661
 msgid ""
 "The server crashed during installation.\n"
 "We suggest you to drop this database."
@@ -1288,52 +1073,46 @@ msgstr ""
 "Server zkolaboval během instalace.\n"
 "Doporučujeme smazat vytvářenou databázi."
 
-#
-# File: bin/modules/gui/main.py, line: 707
-# File: bin/modules/gui/main.py, line: 1072
+#: bin/modules/gui/main.py:707 bin/modules/gui/main.py:1072
 msgid "Press Ctrl+O to login"
 msgstr "Přihlašte se přes Ctrl + O"
 
-#
-# File: bin/modules/gui/main.py, line: 974
+#: bin/modules/gui/main.py:974
 #, python-format
 msgid "%s"
 msgstr "%s"
 
-#
-# File: bin/modules/gui/main.py, line: 976
+#: bin/modules/gui/main.py:976
 msgid "No Company"
 msgstr "Žádná firma"
 
-#
-# File: bin/modules/gui/main.py, line: 989
+#: bin/modules/gui/main.py:989
 #, python-format
 msgid "%s request(s)"
 msgstr "%s požadavek"
 
-#
-# File: bin/modules/gui/main.py, line: 991
+#: bin/modules/gui/main.py:991
 msgid "No request"
 msgstr "Bez požadavku"
 
-#
-# File: bin/modules/gui/main.py, line: 993
+#: bin/modules/gui/main.py:993
 #, python-format
 msgid " - %s request(s) sent"
 msgstr " - posláno %s požadavků"
 
-#
-# File: bin/modules/gui/main.py, line: 1031
-msgid "Please double-check the database name or contact your administrator to verify the database status."
-msgstr "Prosíme zkontrolujte jméno databáze nebo kontaktujte vašeho správce k ověření stavu databáze."
+#: bin/modules/gui/main.py:1031
+msgid ""
+"Please double-check the database name or contact your administrator to "
+"verify the database status."
+msgstr ""
+"Prosíme zkontrolujte jméno databáze nebo kontaktujte vašeho správce k "
+"ověření stavu databáze."
 
-#
-# File: bin/modules/gui/main.py, line: 1031
+#: bin/modules/gui/main.py:1031
 msgid "Database cannot be accessed or does not exist"
 msgstr "Nelze přistupovat k databázi nebo neexistuje"
 
-#
-# File: bin/modules/gui/main.py, line: 1035
+#: bin/modules/gui/main.py:1035
 msgid ""
 "Connection error !\n"
 "Unable to connect to the server !"
@@ -1341,8 +1120,7 @@ msgstr ""
 "Chyba připojení!\n"
 "Nelze se připojit k serveru!"
 
-#
-# File: bin/modules/gui/main.py, line: 1037
+#: bin/modules/gui/main.py:1037
 msgid ""
 "Authentication error !\n"
 "Bad Username or Password !"
@@ -1350,19 +1128,16 @@ msgstr ""
 "Chyba ověření !\n"
 "Chybné uživatelské jméno nebo heslo !"
 
-#
-# File: bin/modules/gui/main.py, line: 1050
+#: bin/modules/gui/main.py:1050
 #, python-format
 msgid "OpenERP - %s"
 msgstr "OpenERP - %s"
 
-#
-# File: bin/modules/gui/main.py, line: 1070
+#: bin/modules/gui/main.py:1070
 msgid "Not logged !"
 msgstr "Nepřihlášen!"
 
-#
-# File: bin/modules/gui/main.py, line: 1153
+#: bin/modules/gui/main.py:1153
 msgid ""
 "You can not log into the system !\n"
 "Ask the administrator to verify\n"
@@ -1372,190 +1147,153 @@ msgstr ""
 "Kontaktujte správce systému\n"
 "pro přidělení oprávnění."
 
-#
-# File: bin/modules/gui/main.py, line: 1187
-# File: bin/modules/gui/main.py, line: 1194
+#: bin/modules/gui/main.py:1187 bin/modules/gui/main.py:1194
 msgid "Do you really want to quit ?"
 msgstr "Opravdu skončit?"
 
-#
-# File: bin/modules/gui/main.py, line: 1263
+#: bin/modules/gui/main.py:1263
 #, python-format
 msgid "Attachments (%d)"
 msgstr "Přílohy (%d)"
 
-#
-# File: bin/modules/gui/main.py, line: 1276
+#: bin/modules/gui/main.py:1276
 msgid "Attachments"
 msgstr "Přílohy"
 
-#
-# File: bin/modules/gui/main.py, line: 1375
+#: bin/modules/gui/main.py:1375
 msgid "Delete a database"
 msgstr "Smazat databázi"
 
-#
-# File: bin/modules/gui/main.py, line: 1381
+#: bin/modules/gui/main.py:1381
 msgid "Database dropped successfully !"
 msgstr "Databáze úspěšně odstraněna!"
 
-#
-# File: bin/modules/gui/main.py, line: 1384
+#: bin/modules/gui/main.py:1384
 msgid "Could not drop database."
 msgstr "Nelze odstranit databázi."
 
-#
-# File: bin/modules/gui/main.py, line: 1386
+#: bin/modules/gui/main.py:1386
 msgid "Couldn't drop database"
 msgstr "Nelze zrušit databázi."
 
-#
-# File: bin/modules/gui/main.py, line: 1401
+#: bin/modules/gui/main.py:1401
 msgid "Database restored successfully !"
 msgstr "Databáze obnovena!"
 
-#
-# File: bin/modules/gui/main.py, line: 1404
+#: bin/modules/gui/main.py:1404
 msgid "Could not restore database."
 msgstr "Databáze nelze obnovit!"
 
-#
-# File: bin/modules/gui/main.py, line: 1406
+#: bin/modules/gui/main.py:1406
 msgid "Couldn't restore database"
 msgstr "Databáze nelze obnovit!"
 
-#
-# File: bin/modules/gui/main.py, line: 1442
+#: bin/modules/gui/main.py:1442
 msgid "<b>Change your password</b>"
 msgstr ""
 
-#
-# File: bin/modules/gui/main.py, line: 1457
-msgid "Confirmation password does not match new password, operation cancelled!"
+#: bin/modules/gui/main.py:1457
+msgid ""
+"Confirmation password does not match new password, operation cancelled!"
 msgstr "Hesla nesouhlasí, operace zrušena!"
 
-#
-# File: bin/modules/gui/main.py, line: 1459
+#: bin/modules/gui/main.py:1459
 msgid "Validation Error."
 msgstr "Chyba ověření."
 
-#
-# File: bin/modules/gui/main.py, line: 1476
+#: bin/modules/gui/main.py:1476
 msgid "Could not change the Super Admin password."
 msgstr "Nelze změnit heslo superuživatele."
 
-#
-# File: bin/modules/gui/main.py, line: 1477
-# File: bin/modules/gui/main.py, line: 1483
+#: bin/modules/gui/main.py:1477 bin/modules/gui/main.py:1483
 msgid "Bad password provided !"
 msgstr "Vloženo špatné heslo!"
 
-#
-# File: bin/modules/gui/main.py, line: 1482
+#: bin/modules/gui/main.py:1482
 msgid "Changing password failed, please verify old password."
 msgstr ""
 
-#
-# File: bin/modules/gui/main.py, line: 1490
-# File: bin/modules/gui/main.py, line: 1513
+#: bin/modules/gui/main.py:1490 bin/modules/gui/main.py:1513
 msgid "Backup a database"
 msgstr "Záloha databáze"
 
-#
-# File: bin/modules/gui/main.py, line: 1506
+#: bin/modules/gui/main.py:1506
 msgid "Database backed up successfully !"
 msgstr "Databáze úspěšně zazálohována!"
 
-#
-# File: bin/modules/gui/main.py, line: 1509
+#: bin/modules/gui/main.py:1509
 msgid "Could not backup the database."
 msgstr "Databázi nelze zazálohovat."
 
-#
-# File: bin/modules/gui/main.py, line: 1511
+#: bin/modules/gui/main.py:1511
 msgid "Couldn't backup database."
 msgstr "Databázi nelze zazálohovat."
 
-#
-# File: bin/modules/gui/window/__init__.py, line: 31
+#: bin/modules/gui/window/__init__.py:31
 msgid "Unknown Window"
 msgstr "Neznámé okno"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Extension"
 msgstr "Rozšíření"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Application"
 msgstr "Aplikace"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Print Processor"
 msgstr "Tiskový procesor"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 114
+#: bin/modules/gui/window/win_extension.py:114
 msgid "This extension is already defined"
 msgstr "Přípona již definována."
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 114
-# File: bin/openerp.glade, line: 7656
+#: bin/modules/gui/window/win_extension.py:114 bin/openerp.glade:7656
 msgid "Extension Manager"
 msgstr "Správce rozšíření"
 
-#
-# File: bin/modules/gui/window/form.py, line: 189
+#: bin/modules/gui/window/form.py:189
 msgid "Resource ID does not exist for this object!"
 msgstr "Pro tento objekt neexistuje ID zdroje!"
 
-#
-# File: bin/modules/gui/window/form.py, line: 247
+#: bin/modules/gui/window/form.py:247
 msgid "No record selected ! You can only attach to existing record."
 msgstr "Nevybrán zdroj ! Můžete přiložit pouze k existujícímu zdroji."
 
-#
-# File: bin/modules/gui/window/form.py, line: 264
+#: bin/modules/gui/window/form.py:264
 msgid "You have to select a record !"
 msgstr "Musíte vybrat záznam!"
 
-#
-# File: bin/modules/gui/window/form.py, line: 270
-# File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 41
-# File: bin/modules/gui/window/win_export.py, line: 213
+#: bin/modules/gui/window/form.py:270
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:41
+#: bin/modules/gui/window/win_export.py:213
 msgid "ID"
 msgstr "ID"
 
-#
-# File: bin/modules/gui/window/form.py, line: 271
+#: bin/modules/gui/window/form.py:271
 msgid "Creation User"
 msgstr "Vytvořil"
 
-#
-# File: bin/modules/gui/window/form.py, line: 272
+#: bin/modules/gui/window/form.py:272
 msgid "Creation Date"
 msgstr "Vytvořeno"
 
-#
-# File: bin/modules/gui/window/form.py, line: 273
+#: bin/modules/gui/window/form.py:273
 msgid "Latest Modification by"
 msgstr "Změnil"
 
-#
-# File: bin/modules/gui/window/form.py, line: 274
+#: bin/modules/gui/window/form.py:274
 msgid "Latest Modification Date"
 msgstr "Naposledy změneno"
 
-#
-# File: bin/modules/gui/window/form.py, line: 275
+#: bin/modules/gui/window/form.py:275
 msgid "Internal Module Data ID"
 msgstr "ID vnitřního datového modulu"
 
 #
 # File: bin/modules/gui/window/form.py, line: 287
+#: bin/modules/gui/window/form.py:287
 msgid ""
 "Record is not saved ! \n"
 " Do you want to clear current record ?"
@@ -1563,34 +1301,27 @@ msgstr ""
 "Záznam nebyl uložen! \n"
 " Chcete smazat aktuální záznam?"
 
-#
-# File: bin/modules/gui/window/form.py, line: 296
+#: bin/modules/gui/window/form.py:296
 msgid "Resources cleared."
 msgstr "Zdroj vymazán."
 
-#
-# File: bin/modules/gui/window/form.py, line: 298
+#: bin/modules/gui/window/form.py:298
 msgid "Resources successfully removed."
 msgstr "Zdroj úspěšně odstraněn."
 
-#
-# File: bin/modules/gui/window/form.py, line: 339
+#: bin/modules/gui/window/form.py:339
 msgid "Working now on the duplicated document !"
 msgstr "Nyní pracujete na zdvojeném dokumentu !"
 
-#
-# File: bin/modules/gui/window/form.py, line: 355
+#: bin/modules/gui/window/form.py:355
 msgid "Document Saved."
 msgstr "Dokument uložen-"
 
-#
-# File: bin/modules/gui/window/form.py, line: 368
+#: bin/modules/gui/window/form.py:368
 msgid "Warning !"
 msgstr "Varovnání !"
 
-#
-# File: bin/modules/gui/window/form.py, line: 389
-# File: bin/modules/gui/window/form.py, line: 497
+#: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
 msgid ""
 "This record has been modified\n"
 "do you want to save it ?"
@@ -1598,74 +1329,62 @@ msgstr ""
 "Záznam byl změněn, \n"
 "uložit změny?"
 
-#
-# File: bin/modules/gui/window/form.py, line: 447
+#: bin/modules/gui/window/form.py:447
 msgid "You must select one or several records !"
 msgstr "Musíte vybrat jeden, nebo více záznamů!"
 
-#
-# File: bin/modules/gui/window/form.py, line: 456
+#: bin/modules/gui/window/form.py:456
 msgid "Print Screen"
 msgstr "Vytisknout"
 
-#
-# File: bin/modules/gui/window/form.py, line: 476
+#: bin/modules/gui/window/form.py:476
 msgid "No record selected"
 msgstr "Nevybrán žádný záznam"
 
-#
-# File: bin/modules/gui/window/form.py, line: 481
+#: bin/modules/gui/window/form.py:481
 msgid "New document"
 msgstr "Npvý dokument"
 
-#
-# File: bin/modules/gui/window/form.py, line: 483
+#: bin/modules/gui/window/form.py:483
 msgid "Editing document (id: "
 msgstr "Editovat dokument (id: "
 
-#
-# File: bin/modules/gui/window/form.py, line: 486
+#: bin/modules/gui/window/form.py:486
 msgid "Record: "
 msgstr "Záznam: "
 
-#
-# File: bin/modules/gui/window/form.py, line: 487
+#: bin/modules/gui/window/form.py:487
 msgid " of "
 msgstr " z "
 
-#
-# File: bin/modules/gui/window/view_tree/parse.py, line: 35
+#: bin/modules/gui/window/view_tree/parse.py:35
 msgid "Tree"
 msgstr "Strom"
 
-#
-# File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 45
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:45
 msgid "Description"
 msgstr "Popis"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 51
+#: bin/modules/gui/window/win_import.py:51
 msgid "The file is empty !"
 msgstr "Soubor je prázdný !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 51
+#: bin/modules/gui/window/win_import.py:51
 msgid "Importation !"
 msgstr "Importování !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 61
+#: bin/modules/gui/window/win_import.py:61
 msgid "Imported one object !"
 msgstr "Importován jeden objekt !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 63
+#: bin/modules/gui/window/win_import.py:63
 #, python-format
 msgid "Imported %d objects !"
 msgstr "Imporotováno %d objektů !"
 
 #
 # File: bin/modules/gui/window/win_import.py, line: 70
+#: bin/modules/gui/window/win_import.py:70
 #, python-format
 msgid ""
 "Error trying to import this record:\n"
@@ -1682,42 +1401,36 @@ msgstr ""
 "\n"
 "%(err_msg)s"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 72
+#: bin/modules/gui/window/win_import.py:72
 msgid "Importation Error !"
 msgstr "Chyba importování !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 105
-# File: bin/modules/gui/window/win_import.py, line: 109
+#: bin/modules/gui/window/win_import.py:105
+#: bin/modules/gui/window/win_import.py:109
 msgid "Field name"
 msgstr "Název pole"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 142
-# File: bin/modules/gui/window/win_import.py, line: 144
-# File: bin/modules/gui/window/win_export.py, line: 214
+#: bin/modules/gui/window/win_import.py:142
+#: bin/modules/gui/window/win_import.py:144
+#: bin/modules/gui/window/win_export.py:214
 msgid "Database ID"
 msgstr ""
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 181
+#: bin/modules/gui/window/win_import.py:181
 msgid "Error opening .CSV file"
 msgstr "Chyba otvírání souboru .CSV"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 181
+#: bin/modules/gui/window/win_import.py:181
 msgid "Input Error."
 msgstr "Chyba vstupu."
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 199
+#: bin/modules/gui/window/win_import.py:199
 #, python-format
 msgid "You cannot import this field %s, because we cannot auto-detect it"
-msgstr "Nemůžete importovat toto pole %s, protože jej nemůžeme automaticky rozpoznat"
+msgstr ""
+"Nemůžete importovat toto pole %s, protože jej nemůžeme automaticky rozpoznat"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 202
+#: bin/modules/gui/window/win_import.py:202
 #, python-format
 msgid ""
 "Error processing your first line of the file.\n"
@@ -1726,54 +1439,47 @@ msgstr ""
 "Chyba zpracování vašeho prvního řádku souboru.\n"
 "Neznámé pole %s !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 202
+#: bin/modules/gui/window/win_import.py:202
 msgid "Import Error."
 msgstr "Chyba importu."
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 233
+#: bin/modules/gui/window/win_import.py:233
 msgid "You have not selected any fields to import"
 msgstr "Nevybrali jste žádné pole k importu"
 
-#
-# File: bin/modules/gui/window/win_preference.py, line: 68
+#: bin/modules/gui/window/win_preference.py:68
 msgid "Preferences"
 msgstr "Předvolby"
 
-#
-# File: bin/modules/gui/window/win_preference.py, line: 86
-msgid "The default language of the interface has been modified, do not forget to restart the client to have the interface in your language"
-msgstr "Byl upraven výchozí jazyk rozhraní. Nezapomeňtě restartovat klienta, aby bylo rozhraní ve vašem jazyku."
+#: bin/modules/gui/window/win_preference.py:86
+msgid ""
+"The default language of the interface has been modified, do not forget to "
+"restart the client to have the interface in your language"
+msgstr ""
+"Byl upraven výchozí jazyk rozhraní. Nezapomeňtě restartovat klienta, aby "
+"bylo rozhraní ve vašem jazyku."
 
-#
-# File: bin/modules/gui/window/win_preference.py, line: 88
+#: bin/modules/gui/window/win_preference.py:88
 msgid "Default language modified !"
 msgstr "Upraven výchozí jazyk !"
 
-#
-# File: bin/modules/gui/window/win_selection.py, line: 51
+#: bin/modules/gui/window/win_selection.py:51
 msgid "Name"
 msgstr "Název"
 
-#
-# File: bin/modules/gui/window/win_selection.py, line: 55
+#: bin/modules/gui/window/win_selection.py:55
 msgid "Ressource Name"
 msgstr "Název zdroje"
 
-#
-# File: bin/modules/gui/window/win_selection.py, line: 55
+#: bin/modules/gui/window/win_selection.py:55
 msgid "Names"
 msgstr "Názvy"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 205
-# File: bin/modules/gui/window/tree.py, line: 261
+#: bin/modules/gui/window/tree.py:205 bin/modules/gui/window/tree.py:261
 msgid "No resource selected!"
 msgstr "Nevybrán žádný zdroj!"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 219
+#: bin/modules/gui/window/tree.py:219
 msgid ""
 "Are you sure you want\n"
 "to remove this record?"
@@ -1781,23 +1487,19 @@ msgstr ""
 "Určitě chcete\n"
 "smazat záznam?"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 224
+#: bin/modules/gui/window/tree.py:224
 msgid "Error removing resource!"
 msgstr "Chyba odstranění zdroje!"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 235
+#: bin/modules/gui/window/tree.py:235
 msgid "Unable to chroot: no tree resource selected"
 msgstr "Nelze chroot: nevybrán stromový zdroj"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 50
+#: bin/modules/gui/window/win_export.py:50
 msgid " record(s) saved !"
 msgstr " záznam uložen!"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 53
+#: bin/modules/gui/window/win_export.py:53
 msgid ""
 "Operation failed !\n"
 "I/O error"
@@ -1805,576 +1507,458 @@ msgstr ""
 "Operace selhala!\n"
 "I/O chyba"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 79
-# File: bin/modules/gui/window/win_export.py, line: 105
+#: bin/modules/gui/window/win_export.py:79
+#: bin/modules/gui/window/win_export.py:105
 msgid "Error Opening Excel !"
 msgstr "Chyba při otevírání Excel!"
 
 #
 # File: bin/modules/gui/window/win_export.py, line: 142
 # File: bin/modules/gui/window/win_export.py, line: 146
+#: bin/modules/gui/window/win_export.py:142
+#: bin/modules/gui/window/win_export.py:146
 msgid "Field Name"
 msgstr "Jméno _pole:"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 166
+#: bin/modules/gui/window/win_export.py:166
 msgid "Open in Excel"
 msgstr ""
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 167
+#: bin/modules/gui/window/win_export.py:167
 msgid "Save as CSV"
 msgstr ""
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 317
+#: bin/modules/gui/window/win_export.py:317
 msgid "What is the name of this export ?"
 msgstr "Jaké je jméno tohoto exportu ?"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 351
+#: bin/modules/gui/window/win_export.py:351
 msgid "Exportation Error !"
 msgstr "Chyba exportování !"
 
-#
-# File: bin/modules/gui/window/win_search.py, line: 126
+#: bin/modules/gui/window/win_search.py:126
 #, python-format
 msgid "OpenERP Search: %s"
 msgstr "Vyhledávání OpenERP: %s"
 
-#
-# File: bin/modules/gui/window/win_search.py, line: 127
+#: bin/modules/gui/window/win_search.py:127
 #, python-format
 msgid "OpenERP Search: %s (%%d result(s))"
 msgstr "Vyhledávání OpenERP: %s (%%d výsledky)"
 
-#
-# File: bin/openerp.glade, line: 6
+#: bin/openerp.glade:6
 msgid "OpenERP - Login"
 msgstr "OpenERP - Přihlášení"
 
-#
-# File: bin/openerp.glade, line: 116
-# File: bin/openerp.glade, line: 6419
+#: bin/openerp.glade:116 bin/openerp.glade:6419
 msgid "Database:"
 msgstr "Databáze:"
 
-#
-# File: bin/openerp.glade, line: 131
+#: bin/openerp.glade:131
 msgid "User:"
 msgstr "Uživatel:"
 
-#
-# File: bin/openerp.glade, line: 146
-# File: bin/openerp.glade, line: 6405
-# File: bin/openerp.glade, line: 6716
+#: bin/openerp.glade:146 bin/openerp.glade:6405 bin/openerp.glade:6716
 msgid "Password:"
 msgstr "Heslo:"
 
-#
-# File: bin/openerp.glade, line: 265
+#: bin/openerp.glade:265
 msgid "_File"
 msgstr "_Soubor"
 
-#
-# File: bin/openerp.glade, line: 272
+#: bin/openerp.glade:272
 msgid "_Connect..."
 msgstr "_Připojit"
 
-#
-# File: bin/openerp.glade, line: 288
+#: bin/openerp.glade:288
 msgid "_Disconnect"
 msgstr "_Odpojit"
 
-#
-# File: bin/openerp.glade, line: 308
+#: bin/openerp.glade:308
 msgid "Databases"
 msgstr "Databáze"
 
-#
-# File: bin/openerp.glade, line: 315
+#: bin/openerp.glade:315
 msgid "_New database"
 msgstr "_Nová databáze"
 
-#
-# File: bin/openerp.glade, line: 330
+#: bin/openerp.glade:330
 msgid "_Restore database"
 msgstr "_Obnovit databázi"
 
-#
-# File: bin/openerp.glade, line: 345
+#: bin/openerp.glade:345
 msgid "_Backup database"
 msgstr "_Zálohovat databázi"
 
-#
-# File: bin/openerp.glade, line: 360
+#: bin/openerp.glade:360
 msgid "Dro_p database"
 msgstr "Odstranit databázi"
 
-#
-# File: bin/openerp.glade, line: 380
+#: bin/openerp.glade:380
 msgid "_Download Migrations Code"
 msgstr "_Stáhnout kód stěhování"
 
-#
-# File: bin/openerp.glade, line: 395
+#: bin/openerp.glade:395
 msgid "_Migrate Database(s)"
 msgstr "_Stěhovat databázi"
 
-#
-# File: bin/openerp.glade, line: 415
+#: bin/openerp.glade:415
 msgid "Administrator Password"
 msgstr "Heslo správce"
 
-#
-# File: bin/openerp.glade, line: 460
+#: bin/openerp.glade:460
 msgid "_User"
 msgstr "_Uživatel"
 
-#
-# File: bin/openerp.glade, line: 468
+#: bin/openerp.glade:468
 msgid "_Preferences"
 msgstr "_Nastavení"
 
-#
-# File: bin/openerp.glade, line: 483
-# File: bin/openerp.glade, line: 7318
+#: bin/openerp.glade:483 bin/openerp.glade:7318
 msgid "Change password"
 msgstr "Změna hesla"
 
-#
-# File: bin/openerp.glade, line: 496
+#: bin/openerp.glade:496
 msgid "_Send a request"
 msgstr "Vytvořit požadavek"
 
-#
-# File: bin/openerp.glade, line: 511
+#: bin/openerp.glade:511
 msgid "_Read my requests"
 msgstr "Zobrazit požadavky"
 
-#
-# File: bin/openerp.glade, line: 531
+#: bin/openerp.glade:531
 msgid "_Waiting Requests"
 msgstr "Požadavky ve frontě"
 
-#
-# File: bin/openerp.glade, line: 544
+#: bin/openerp.glade:544
 msgid "For_m"
 msgstr "For_mulář"
 
-#
-# File: bin/openerp.glade, line: 552
+#: bin/openerp.glade:552
 msgid "_New"
 msgstr "_Nový"
 
-#
-# File: bin/openerp.glade, line: 568
+#: bin/openerp.glade:568
 msgid "_Save"
 msgstr "_Uložit"
 
-#
-# File: bin/openerp.glade, line: 584
+#: bin/openerp.glade:584
 msgid "Copy this resource"
 msgstr "Kopírovat tento zdroj"
 
-#
-# File: bin/openerp.glade, line: 585
+#: bin/openerp.glade:585
 msgid "_Duplicate"
 msgstr "_Duplikace"
 
-#
-# File: bin/openerp.glade, line: 601
+#: bin/openerp.glade:601
 msgid "_Delete"
 msgstr "_Smazat"
 
-#
-# File: bin/openerp.glade, line: 622
+#: bin/openerp.glade:622
 msgid "Find"
 msgstr "Hledat"
 
-#
-# File: bin/openerp.glade, line: 638
+#: bin/openerp.glade:638
 msgid "Ne_xt"
 msgstr "Da_lší"
 
-#
-# File: bin/openerp.glade, line: 654
+#: bin/openerp.glade:654
 msgid "Pre_vious"
 msgstr "Pře_dchozí"
 
-#
-# File: bin/openerp.glade, line: 670
+#: bin/openerp.glade:670
 msgid "Switch to list/form"
 msgstr "Přepnout seznam/formulář"
 
-#
-# File: bin/openerp.glade, line: 686
+#: bin/openerp.glade:686
 msgid "_Menu"
 msgstr "Nabídka"
 
-#
-# File: bin/openerp.glade, line: 707
+#: bin/openerp.glade:707
 msgid "_New Home Tab"
 msgstr "_Nová domovská záložka"
 
-#
-# File: bin/openerp.glade, line: 723
-# File: bin/openerp.glade, line: 5009
+#: bin/openerp.glade:723 bin/openerp.glade:5009
 msgid "Close Tab"
 msgstr "Zavřít záložku"
 
-#
-# File: bin/openerp.glade, line: 739
+#: bin/openerp.glade:739
 msgid "Previous Tab"
 msgstr "Předchoí záložka"
 
-#
-# File: bin/openerp.glade, line: 748
-# File: bin/openerp.glade, line: 5065
+#: bin/openerp.glade:748 bin/openerp.glade:5065
 msgid "Next Tab"
 msgstr "Další záložka"
 
-#
-# File: bin/openerp.glade, line: 762
+#: bin/openerp.glade:762
 msgid "View _logs"
 msgstr "Přehled úprav"
 
-#
-# File: bin/openerp.glade, line: 770
+#: bin/openerp.glade:770
 msgid "_Go to resource ID..."
 msgstr "Jdi na záznam ID"
 
-#
-# File: bin/openerp.glade, line: 784
+#: bin/openerp.glade:784
 msgid "_Open"
 msgstr "_Otevřít"
 
-#
-# File: bin/openerp.glade, line: 799
+#: bin/openerp.glade:799
 msgid "Reloa_d / Undo"
 msgstr "Obnovit/Zpět"
 
-#
-# File: bin/openerp.glade, line: 820
+#: bin/openerp.glade:820
 msgid "Repeat latest _action"
 msgstr "Opakuj akci"
 
-#
-# File: bin/openerp.glade, line: 834
+#: bin/openerp.glade:834
 msgid "_Preview in PDF"
 msgstr "Náhled v P_DF"
 
-#
-# File: bin/openerp.glade, line: 850
+#: bin/openerp.glade:850
 msgid "Previe_w in editor"
 msgstr "Náhled v editoru"
 
-#
-# File: bin/openerp.glade, line: 870
+#: bin/openerp.glade:870
 msgid "Expor_t data..."
 msgstr "Expor_t dat..."
 
-#
-# File: bin/openerp.glade, line: 885
+#: bin/openerp.glade:885
 msgid "I_mport data..."
 msgstr "I_mport dat..."
 
-#
-# File: bin/openerp.glade, line: 897
+#: bin/openerp.glade:897
 msgid "_Options"
 msgstr "_Nastavení"
 
-#
-# File: bin/openerp.glade, line: 904
+#: bin/openerp.glade:904
 msgid "_Extension Manager"
 msgstr "_Správce rozšíření"
 
-#
-# File: bin/openerp.glade, line: 912
+#: bin/openerp.glade:912
 msgid "_Menubar"
 msgstr "_Panel menu"
 
-#
-# File: bin/openerp.glade, line: 920
+#: bin/openerp.glade:920
 msgid "Text _and Icons"
 msgstr "Text _a ikony"
 
-#
-# File: bin/openerp.glade, line: 928
+#: bin/openerp.glade:928
 msgid "_Icons only"
 msgstr "Pouze _ikony"
 
-#
-# File: bin/openerp.glade, line: 937
+#: bin/openerp.glade:937
 msgid "_Text only"
 msgstr "Pouze _text"
 
-#
-# File: bin/openerp.glade, line: 950
+#: bin/openerp.glade:950
 msgid "_Forms"
 msgstr "_Formuláře"
 
-#
-# File: bin/openerp.glade, line: 958
+#: bin/openerp.glade:958
 msgid "Right Toolbar"
 msgstr "Pravý nástrojový panel"
 
-#
-# File: bin/openerp.glade, line: 966
+#: bin/openerp.glade:966
 msgid "Tabs default position"
 msgstr "Výchozí pozice záložek"
 
-#
-# File: bin/openerp.glade, line: 974
+#: bin/openerp.glade:974
 msgid "Top"
 msgstr "Nahoře"
 
-#
-# File: bin/openerp.glade, line: 982
+#: bin/openerp.glade:982
 msgid "Left"
 msgstr "Vlevo"
 
-#
-# File: bin/openerp.glade, line: 991
+#: bin/openerp.glade:991
 msgid "Right"
 msgstr "Vpravo"
 
-#
-# File: bin/openerp.glade, line: 1000
+#: bin/openerp.glade:1000
 msgid "Bottom"
 msgstr "Dole"
 
-#
-# File: bin/openerp.glade, line: 1013
+#: bin/openerp.glade:1013
 msgid "Tabs default orientation"
 msgstr "Výchozí orientace záložek"
 
-#
-# File: bin/openerp.glade, line: 1021
+#: bin/openerp.glade:1021
 msgid "Horizontal"
 msgstr "Vodorovný"
 
-#
-# File: bin/openerp.glade, line: 1029
+#: bin/openerp.glade:1029
 msgid "Vertical"
 msgstr "Svislý"
 
-#
-# File: bin/openerp.glade, line: 1046
+#: bin/openerp.glade:1046
 msgid "_Print"
 msgstr "_Tisk"
 
-#
-# File: bin/openerp.glade, line: 1053
+#: bin/openerp.glade:1053
 msgid "Previe_w before print"
 msgstr "Náhle_d před tiskem"
 
-#
-# File: bin/openerp.glade, line: 1077
+#: bin/openerp.glade:1077
 msgid "_Save options"
 msgstr "_Uložit volby"
 
-#
-# File: bin/openerp.glade, line: 1097
+#: bin/openerp.glade:1097
 msgid "_Plugins"
 msgstr "_Zásuvné moduly"
 
-#
-# File: bin/openerp.glade, line: 1105
+#: bin/openerp.glade:1105
 msgid "_Execute a plugin"
 msgstr "_Spustit zásuvný modul"
 
-#
-# File: bin/openerp.glade, line: 1125
+#: bin/openerp.glade:1125
 msgid "_Shortcuts"
 msgstr "_Zkratky"
 
-#
-# File: bin/openerp.glade, line: 1133
+#: bin/openerp.glade:1133
 msgid "_Help"
 msgstr "_Nápověda"
 
-#
-# File: bin/openerp.glade, line: 1140
+#: bin/openerp.glade:1140
 msgid "Enable Debug Mode Tooltips"
 msgstr "Povolit režim ladících nástrojových tipů"
 
-#
-# File: bin/openerp.glade, line: 1148
-# File: bin/openerp.glade, line: 4380
+#: bin/openerp.glade:1148 bin/openerp.glade:4380
 msgid "Support Request"
 msgstr "Požadavek technické pomoci"
 
-#
-# File: bin/openerp.glade, line: 1168
+#: bin/openerp.glade:1168
 msgid "User _Manual"
 msgstr "Uživatelská _příručka"
 
-#
-# File: bin/openerp.glade, line: 1183
+#: bin/openerp.glade:1183
 msgid "_Contextual Help"
 msgstr "_Kontextová nápověda"
 
-#
-# File: bin/openerp.glade, line: 1199
+#: bin/openerp.glade:1199
 msgid "Keyboard Shortcuts"
 msgstr "Klávesové zkratky"
 
-#
-# File: bin/openerp.glade, line: 1212
+#: bin/openerp.glade:1212
 msgid "_License"
 msgstr "_Licence"
 
-#
-# File: bin/openerp.glade, line: 1227
+#: bin/openerp.glade:1227
 msgid "_About..."
 msgstr "_O aplikaci..."
 
-#
-# File: bin/openerp.glade, line: 1269
+#: bin/openerp.glade:1269
 msgid "Edit / Save this resource"
 msgstr "Upravit / Uložit tento zdroj"
 
-#
-# File: bin/openerp.glade, line: 1285
+#: bin/openerp.glade:1285
 msgid "Delete this resource"
 msgstr "Smazat tento zdroj"
 
-#
-# File: bin/openerp.glade, line: 1298
+#: bin/openerp.glade:1298
 msgid "Go to previous matched search"
 msgstr "Jít na předchozí odpovídající vyhledání"
 
-#
-# File: bin/openerp.glade, line: 1299
+#: bin/openerp.glade:1299
 msgid "Previous"
 msgstr "Předchozí"
 
-#
-# File: bin/openerp.glade, line: 1310
+#: bin/openerp.glade:1310
 msgid "Go to next matched resource"
 msgstr "Jít na následující odpovídající zdroj"
 
-#
-# File: bin/openerp.glade, line: 1311
+#: bin/openerp.glade:1311
 msgid "Next"
 msgstr "Další"
 
-#
-# File: bin/openerp.glade, line: 1324
+#: bin/openerp.glade:1324
 msgid "List"
 msgstr "Seznam"
 
-#
-# File: bin/openerp.glade, line: 1336
+#: bin/openerp.glade:1336
 msgid "Form"
 msgstr "Formulář"
 
-#
-# File: bin/openerp.glade, line: 1349
+#: bin/openerp.glade:1349
 msgid "Calendar"
 msgstr "Kalendář"
 
-#
-# File: bin/openerp.glade, line: 1359
+#: bin/openerp.glade:1359
 msgid "Diagram"
 msgstr "Diagram"
 
-#
-# File: bin/openerp.glade, line: 1369
+#: bin/openerp.glade:1369
 msgid "Graph"
 msgstr "Graf"
 
-#
-# File: bin/openerp.glade, line: 1382
+#: bin/openerp.glade:1382
 msgid "Gantt"
 msgstr "Gantt"
 
-#
-# File: bin/openerp.glade, line: 1400
+#: bin/openerp.glade:1400
 msgid "Print documents"
 msgstr "Tisk dokumentů"
 
-#
-# File: bin/openerp.glade, line: 1411
+#: bin/openerp.glade:1411
 msgid "Launch actions about this resource"
 msgstr "Spustit akce k tomuto zdroji"
 
-#
-# File: bin/openerp.glade, line: 1424
+#: bin/openerp.glade:1424
 msgid "Add an attachment to this resource"
 msgstr "Přidat přílohu k tomuto zdroji"
 
-#
-# File: bin/openerp.glade, line: 1425
+#: bin/openerp.glade:1425
 msgid "Attachment"
 msgstr "Příloha"
 
-#
-# File: bin/openerp.glade, line: 1440
-# File: bin/openerp.glade, line: 1441
+#: bin/openerp.glade:1440 bin/openerp.glade:1441
 msgid "Menu"
 msgstr "Nabídka"
 
-#
-# File: bin/openerp.glade, line: 1458
-# File: bin/openerp.glade, line: 1459
+#: bin/openerp.glade:1458 bin/openerp.glade:1459
 msgid "Reload"
 msgstr "Znovu načíst"
 
-#
-# File: bin/openerp.glade, line: 1476
+#: bin/openerp.glade:1476
 msgid "Close this window"
 msgstr "Zavřít toto okno"
 
-#
-# File: bin/openerp.glade, line: 1520
+#: bin/openerp.glade:1520
 msgid "Company:"
 msgstr "Společnost:"
 
-#
-# File: bin/openerp.glade, line: 1543
+#: bin/openerp.glade:1543
 msgid "Requests:"
 msgstr "Požadavky:"
 
-#
-# File: bin/openerp.glade, line: 1566
+#: bin/openerp.glade:1566
 msgid "Read my Requests"
 msgstr "Číst moje požadavky"
 
-#
-# File: bin/openerp.glade, line: 1587
+#: bin/openerp.glade:1587
 msgid "Send a new request"
 msgstr "Poslat nový požadavek"
 
-#
-# File: bin/openerp.glade, line: 1627
+#: bin/openerp.glade:1627
 msgid "OpenERP - Tree Resources"
 msgstr "OpenERP - Strom zdrojů"
 
-#
-# File: bin/openerp.glade, line: 1680
+#: bin/openerp.glade:1680
 msgid "Shortcuts"
 msgstr "Zkratky"
 
-#
-# File: bin/openerp.glade, line: 1789
+#: bin/openerp.glade:1789
 msgid "OpenERP - Forms"
 msgstr "OpenERP - Formuláře"
 
-#
-# File: bin/openerp.glade, line: 1813
+#: bin/openerp.glade:1813
 msgid "State:"
 msgstr "Stav:"
 
-#
-# File: bin/openerp.glade, line: 1845
+#: bin/openerp.glade:1845
 msgid "OpenERP - About"
 msgstr "OpenERP - O aplikaci"
 
-#
-# File: bin/openerp.glade, line: 1859
+#: bin/openerp.glade:1859
 msgid ""
 "<b>About OpenERP</b>\n"
 "<i>The most advanced Open Source ERP &amp; CRM !</i>"
@@ -2382,8 +1966,7 @@ msgstr ""
 "<b>O OpenERP</b>\n"
 "<i>Nejpokročilejší Open Source ERP &amp; CRM !</i>"
 
-#
-# File: bin/openerp.glade, line: 1898
+#: bin/openerp.glade:1898
 msgid ""
 "\n"
 "OpenERP - GTK Client - v%s\n"
@@ -2404,13 +1987,13 @@ msgid ""
 "More Info on www.openerp.com !"
 msgstr ""
 
-#
-# File: bin/openerp.glade, line: 1931
+#: bin/openerp.glade:1931
 msgid "_OpenERP"
 msgstr "_OpenERP"
 
 #
 # File: bin/openerp.glade, line: 1959
+#: bin/openerp.glade:1959
 msgid ""
 "\n"
 "(c) 2004-TODAY, OpenERP SA\n"
@@ -2440,224 +2023,182 @@ msgstr ""
 "Mail: sales@openerp.com\n"
 "Web: http://openerp.com"
 
-#
-# File: bin/openerp.glade, line: 1991
+#: bin/openerp.glade:1991
 msgid "_Contact"
 msgstr "_Kontakt"
 
-#
-# File: bin/openerp.glade, line: 2043
+#: bin/openerp.glade:2043
 msgid "Open ERP - Forms widget"
 msgstr "Open ERP - pomůcky formulářů"
 
-#
-# File: bin/openerp.glade, line: 2222
-# File: bin/openerp.glade, line: 4726
+#: bin/openerp.glade:2222 bin/openerp.glade:4726
 msgid "OpenERP - Confirmation"
 msgstr "OpenERP - Potvrzení"
 
-#
-# File: bin/openerp.glade, line: 2301
+#: bin/openerp.glade:2301
 msgid "OpenERP - Selection"
 msgstr "OpenERP - Výběr"
 
-#
-# File: bin/openerp.glade, line: 2315
+#: bin/openerp.glade:2315
 msgid "Your selection:"
 msgstr "Váš výběr:"
 
-#
-# File: bin/openerp.glade, line: 2395
+#: bin/openerp.glade:2395
 msgid "OpenERP - Dialog"
 msgstr "OpenERP - Dialogové okno"
 
-#
-# File: bin/openerp.glade, line: 2419
+#: bin/openerp.glade:2419
 msgid "OpenERP, Field Preference target"
 msgstr "OpenERP, Cíl předvoleb polí"
 
-#
-# File: bin/openerp.glade, line: 2450
+#: bin/openerp.glade:2450
 msgid "_only for you"
 msgstr "_pouze pro vás"
 
-#
-# File: bin/openerp.glade, line: 2464
+#: bin/openerp.glade:2464
 msgid "for _all users"
 msgstr "pro _všechny uživatele"
 
-#
-# File: bin/openerp.glade, line: 2484
+#: bin/openerp.glade:2484
 msgid "<b>Value applicable for:</b>"
 msgstr "<b>Hodnota použitelný pro:</b>"
 
-#
-# File: bin/openerp.glade, line: 2520
+#: bin/openerp.glade:2520
 msgid "<b>Value applicable if:</b>"
 msgstr "<b>Hodnota použitelná pokud:</b>"
 
-#
-# File: bin/openerp.glade, line: 2538
+#: bin/openerp.glade:2538
 msgid "Field _Name:"
 msgstr "Jméno _pole:"
 
-#
-# File: bin/openerp.glade, line: 2552
+#: bin/openerp.glade:2552
 msgid "_Domain:"
 msgstr "_Doména"
 
-#
-# File: bin/openerp.glade, line: 2611
+#: bin/openerp.glade:2611
 msgid "Default _value:"
 msgstr "Výchozí _hodnota:"
 
-#
-# File: bin/openerp.glade, line: 2666
+#: bin/openerp.glade:2666
 msgid "OpenERP - Export to CSV"
 msgstr "OpenERP - Export do CSV"
 
-#
-# File: bin/openerp.glade, line: 2714
+#: bin/openerp.glade:2714
 msgid "Save List"
 msgstr "Uložit seznam"
 
-#
-# File: bin/openerp.glade, line: 2762
+#: bin/openerp.glade:2762
 msgid "Remove List"
 msgstr "Odstranit seznam"
 
-#
-# File: bin/openerp.glade, line: 2817
+#: bin/openerp.glade:2817
 msgid "<b>Exports List</b>"
 msgstr "<b>Seznam exportů</b>"
 
-#
-# File: bin/openerp.glade, line: 2834
+#: bin/openerp.glade:2834
 msgid "<b>Predefined Exports</b>"
 msgstr "<b>Předdefinované exporty</b>"
 
-#
-# File: bin/openerp.glade, line: 2880
+#: bin/openerp.glade:2880
 msgid "Available Fields"
 msgstr "Dostupná pole"
 
-#
-# File: bin/openerp.glade, line: 2923
-# File: bin/openerp.glade, line: 5634
+#: bin/openerp.glade:2923 bin/openerp.glade:5634
 msgid "_Add"
 msgstr "_Přidat"
 
-#
-# File: bin/openerp.glade, line: 2970
-# File: bin/openerp.glade, line: 5681
+#: bin/openerp.glade:2970 bin/openerp.glade:5681
 msgid "_Remove"
 msgstr "_Odstranit"
 
-#
-# File: bin/openerp.glade, line: 3018
+#: bin/openerp.glade:3018
 msgid "_Nothing"
 msgstr "_Žádné"
 
-#
-# File: bin/openerp.glade, line: 3073
+#: bin/openerp.glade:3073
 msgid "Fields to Export"
 msgstr "Pole k exportu"
 
-#
-# File: bin/openerp.glade, line: 3115
+#: bin/openerp.glade:3115
 msgid "Add Field Names"
 msgstr ""
 
-#
-# File: bin/openerp.glade, line: 3134
+#: bin/openerp.glade:3134
 msgid "Import Compatible"
 msgstr "Importovat kompatibilní"
 
-#
-# File: bin/openerp.glade, line: 3156
+#: bin/openerp.glade:3156
 msgid "<b>Opti_ons</b>"
 msgstr "<b>V_olby</b>"
 
-#
-# File: bin/openerp.glade, line: 3215
+#: bin/openerp.glade:3215
 msgid "OpenERP - Search"
 msgstr "OpenERP - Hledat"
 
-#
-# File: bin/openerp.glade, line: 3295
+#: bin/openerp.glade:3295
 msgid "OpenERP - Preferences"
 msgstr "OpenERP - Předvolby"
 
-#
-# File: bin/openerp.glade, line: 3309
+#: bin/openerp.glade:3309
 msgid "<b>User preferences</b>"
 msgstr "<b>Uživatelské předvolby</b>"
 
-#
-# File: bin/openerp.glade, line: 3375
+#: bin/openerp.glade:3375
 msgid "Tip of the Day"
 msgstr "Tip dne"
 
-#
-# File: bin/openerp.glade, line: 3422
+#: bin/openerp.glade:3422
 msgid "_Display a new tip next time?"
 msgstr "_Ukázat příště nový tip?"
 
-#
-# File: bin/openerp.glade, line: 3475
+#: bin/openerp.glade:3475
 msgid "Pre_vious Tip"
 msgstr "Pře_dchozí tip"
 
-#
-# File: bin/openerp.glade, line: 3521
+#: bin/openerp.glade:3521
 msgid "Ne_xt Tip"
 msgstr "Da_lší tip"
 
-#
-# File: bin/openerp.glade, line: 3567
+#: bin/openerp.glade:3567
 msgid "OpenERP - License"
 msgstr "OpenERP - Licence"
 
-#
-# File: bin/openerp.glade, line: 3582
+#: bin/openerp.glade:3582
 msgid "OpenERP license"
 msgstr "OpenERP licence"
 
-#
-# File: bin/openerp.glade, line: 4277
+#: bin/openerp.glade:4277
 msgid "Go to resource ID"
 msgstr "Jít na ID zdroje"
 
-#
-# File: bin/openerp.glade, line: 4327
+#: bin/openerp.glade:4327
 msgid "Search ID:"
 msgstr "Hledat ID:"
 
-#
-# File: bin/openerp.glade, line: 4406
+#: bin/openerp.glade:4406
 msgid ""
 "<b>Complete this form to submit your bug and/or send a support request.</b>\n"
 "<i>\n"
 "Your request will be sent to the OpenERP team and we will reply shortly.\n"
-"Note that we may not reply if you do not have a support contract with Tiny or an official partner.</i>"
+"Note that we may not reply if you do not have a support contract with Tiny "
+"or an official partner.</i>"
 msgstr ""
-"<b>Vyplňte tento formulář k vložení chyby a/nebo zaslání požadavku na podporu.</b>\n"
+"<b>Vyplňte tento formulář k vložení chyby a/nebo zaslání požadavku na "
+"podporu.</b>\n"
 "<i>\n"
 "Váš požadavek bude odeslán týmu OpenERP a bude brzy zodpovězen.\n"
-"Berte na vědomí, že my nemusíme odpovědět pokud nemáte smlouvu k technické podpoře s Tiny nebo oficiálním partnerem.</i>"
+"Berte na vědomí, že my nemusíme odpovědět pokud nemáte smlouvu k technické "
+"podpoře s Tiny nebo oficiálním partnerem.</i>"
 
-#
-# File: bin/openerp.glade, line: 4465
+#: bin/openerp.glade:4465
 msgid "Phone number:"
 msgstr "Telefonní číslo:"
 
-#
-# File: bin/openerp.glade, line: 4478
+#: bin/openerp.glade:4478
 msgid "Emergency:"
 msgstr "Pohotovost:"
 
-#
-# File: bin/openerp.glade, line: 4492
+#: bin/openerp.glade:4492
 msgid ""
 "Not Urgent\n"
 "Medium\n"
@@ -2669,512 +2210,463 @@ msgstr ""
 "Nutné\n"
 "Velmi nutné"
 
-#
-# File: bin/openerp.glade, line: 4525
+#: bin/openerp.glade:4525
 msgid "<b>Support contract id:</b>"
 msgstr "<b>Id smlouvy podpory:</b>"
 
-#
-# File: bin/openerp.glade, line: 4582
-# File: bin/win_error.glade, line: 200
+#: bin/openerp.glade:4582 bin/win_error.glade:200
 msgid "Other comments:"
 msgstr "Ostatní komentáře:"
 
-#
-# File: bin/openerp.glade, line: 4596
+#: bin/openerp.glade:4596
 msgid "Explain your problem:"
 msgstr "Vysvětlete váš problém:"
 
-#
-# File: bin/openerp.glade, line: 4635
+#: bin/openerp.glade:4635
 msgid "<b>Your email:</b>"
 msgstr "<b>Váš email:</b>"
 
-#
-# File: bin/openerp.glade, line: 4649
+#: bin/openerp.glade:4649
 msgid "<b>Your Company:</b>"
 msgstr "<b>Vaše společnost:</b>"
 
-#
-# File: bin/openerp.glade, line: 4663
+#: bin/openerp.glade:4663
 msgid "<b>Your name:</b>"
 msgstr "<b>Vaše jméno:</b>"
 
-#
-# File: bin/openerp.glade, line: 4754
-# File: bin/openerp.glade, line: 6124
+#: bin/openerp.glade:4754 bin/openerp.glade:6124
 msgid "Hello World!"
 msgstr "Ahoj světe!"
 
-#
-# File: bin/openerp.glade, line: 4816
+#: bin/openerp.glade:4816
 msgid "Keyboard shortcuts"
 msgstr "Klávesové zkratky"
 
-#
-# File: bin/openerp.glade, line: 4838
+#: bin/openerp.glade:4838
 msgid "<b>Shortcuts for OpenERP</b>"
 msgstr "<b>Zkratky pro OpenERP</b>"
 
-#
-# File: bin/openerp.glade, line: 4852
+#: bin/openerp.glade:4852
 msgid "Close window without saving"
 msgstr "Zavřít okno bez uložení"
 
-#
-# File: bin/openerp.glade, line: 4867
+#: bin/openerp.glade:4867
 msgid "<Ctrl> + <Esc>"
 msgstr "<Ctrl> + <Esc>"
 
-#
-# File: bin/openerp.glade, line: 4881
+#: bin/openerp.glade:4881
 msgid "<i>When editing a resource in a popup window</i>"
 msgstr "<i>Při úpravě zdroje ve vyskakovacím okně</i>"
 
-#
-# File: bin/openerp.glade, line: 4897
+#: bin/openerp.glade:4897
 msgid "Save and Close window"
 msgstr "Uložit a zavřít okno"
 
-#
-# File: bin/openerp.glade, line: 4912
+#: bin/openerp.glade:4912
 msgid "<Ctrl> + <Enter>"
 msgstr "<Ctrl> + <Enter>"
 
-#
-# File: bin/openerp.glade, line: 4925
+#: bin/openerp.glade:4925
 msgid "Switch view mode"
 msgstr "Přepnout režim zobrazení"
 
-#
-# File: bin/openerp.glade, line: 4940
+#: bin/openerp.glade:4940
 msgid "<Ctrl> + L"
 msgstr "<Ctrl> + L"
 
-#
-# File: bin/openerp.glade, line: 4953
+#: bin/openerp.glade:4953
 msgid "Next record"
 msgstr "Další záznam"
 
-#
-# File: bin/openerp.glade, line: 4968
+#: bin/openerp.glade:4968
 msgid "Previous record"
 msgstr "Předchozí záznam"
 
-#
-# File: bin/openerp.glade, line: 4983
+#: bin/openerp.glade:4983
 msgid "<PgDn>"
 msgstr "<PgDn>"
 
-#
-# File: bin/openerp.glade, line: 4996
+#: bin/openerp.glade:4996
 msgid "<PgUp>"
 msgstr "<PgUp>"
 
-#
-# File: bin/openerp.glade, line: 5024
+#: bin/openerp.glade:5024
 msgid "Save"
 msgstr "Uložit"
 
-#
-# File: bin/openerp.glade, line: 5039
+#: bin/openerp.glade:5039
 msgid "<Ctrl> + W"
 msgstr "<Ctrl> + W"
 
-#
-# File: bin/openerp.glade, line: 5052
+#: bin/openerp.glade:5052
 msgid "<Ctrl> + S"
 msgstr "<Ctrl> + S"
 
-#
-# File: bin/openerp.glade, line: 5080
+#: bin/openerp.glade:5080
 msgid "<Ctrl> + <PgDn>"
 msgstr "<Ctrl> + <PgDn>"
 
-#
-# File: bin/openerp.glade, line: 5093
+#: bin/openerp.glade:5093
 msgid "Previous tab"
 msgstr "Předchozí záložka"
 
-#
-# File: bin/openerp.glade, line: 5108
+#: bin/openerp.glade:5108
 msgid "<Ctrl> + <PgUp>"
 msgstr "<Ctrl> + <PgUp>"
 
-#
-# File: bin/openerp.glade, line: 5121
+#: bin/openerp.glade:5121
 msgid "New"
 msgstr "Nový"
 
-#
-# File: bin/openerp.glade, line: 5136
+#: bin/openerp.glade:5136
 msgid "<Ctrl> + N"
 msgstr "<Ctrl> + N"
 
-#
-# File: bin/openerp.glade, line: 5149
+#: bin/openerp.glade:5149
 msgid "Delete"
 msgstr "Smazat"
 
-#
-# File: bin/openerp.glade, line: 5164
+#: bin/openerp.glade:5164
 msgid "<Ctrl> + D"
 msgstr "<Ctrl> + D"
 
-#
-# File: bin/openerp.glade, line: 5177
+#: bin/openerp.glade:5177
 msgid "Find / Search"
 msgstr "Najít / Hledat"
 
-#
-# File: bin/openerp.glade, line: 5192
+#: bin/openerp.glade:5192
 msgid "<Ctrl> + F"
 msgstr "<Ctrl> + F"
 
-#
-# File: bin/openerp.glade, line: 5205
+#: bin/openerp.glade:5205
 msgid "Connect"
 msgstr "Připojit"
 
-#
-# File: bin/openerp.glade, line: 5220
+#: bin/openerp.glade:5220
 msgid "<Ctrl> + O"
 msgstr "<Ctrl> + O"
 
-#
-# File: bin/openerp.glade, line: 5234
+#: bin/openerp.glade:5234
 msgid "Main Shortcuts"
 msgstr "Hlavní zkratky"
 
-#
-# File: bin/openerp.glade, line: 5251
+#: bin/openerp.glade:5251
 msgid "F2"
 msgstr "F2"
 
-#
-# File: bin/openerp.glade, line: 5264
+#: bin/openerp.glade:5264
 msgid "<b>Shortcuts in relation fields</b>"
 msgstr "<b>Zkratky v polích souvislostí</b>"
 
-#
-# File: bin/openerp.glade, line: 5279
+#: bin/openerp.glade:5279
 msgid "<b>Shortcuts in text entries</b>"
 msgstr "<b>Zkratky v textových položkách</b>"
 
-#
-# File: bin/openerp.glade, line: 5292
+#: bin/openerp.glade:5292
 msgid "Open current field"
 msgstr "Otevřít aktuální pole"
 
-#
-# File: bin/openerp.glade, line: 5307
+#: bin/openerp.glade:5307
 msgid "Add a new line/field"
 msgstr "Přidat nový řádek/pole"
 
-#
-# File: bin/openerp.glade, line: 5322
+#: bin/openerp.glade:5322
 msgid "F1"
 msgstr "F1"
 
-#
-# File: bin/openerp.glade, line: 5335
+#: bin/openerp.glade:5335
 msgid "Auto-Complete text field"
 msgstr "Automaticky dokončit textové pole"
 
-#
-# File: bin/openerp.glade, line: 5350
+#: bin/openerp.glade:5350
 msgid "<Enter>"
 msgstr "<Enter>"
 
-#
-# File: bin/openerp.glade, line: 5363
+#: bin/openerp.glade:5363
 msgid "Previous editable widget"
 msgstr "Předchozí upravitelná pomůcka"
 
-#
-# File: bin/openerp.glade, line: 5378
+#: bin/openerp.glade:5378
 msgid "<Shift> + <Tab>"
 msgstr "<Shift> + <Tab>"
 
-#
-# File: bin/openerp.glade, line: 5391
+#: bin/openerp.glade:5391
 msgid "Next editable widget"
 msgstr "Další upravitelná pomůcka"
 
-#
-# File: bin/openerp.glade, line: 5406
+#: bin/openerp.glade:5406
 msgid "<Tab>"
 msgstr "<Tab>"
 
-#
-# File: bin/openerp.glade, line: 5419
+#: bin/openerp.glade:5419
 msgid "Paste selected text"
 msgstr "Vložit vybraný text"
 
-#
-# File: bin/openerp.glade, line: 5434
+#: bin/openerp.glade:5434
 msgid "Copy selected text"
 msgstr "Kopírovat vybraný text"
 
-#
-# File: bin/openerp.glade, line: 5449
+#: bin/openerp.glade:5449
 msgid "Cut selected text"
 msgstr "Vyříznout vybraný text"
 
-#
-# File: bin/openerp.glade, line: 5464
+#: bin/openerp.glade:5464
 msgid "<Ctrl> + V"
 msgstr "<Ctrl> + V"
 
-#
-# File: bin/openerp.glade, line: 5477
+#: bin/openerp.glade:5477
 msgid "<Ctrl> + C"
 msgstr "<Ctrl> + C"
 
-#
-# File: bin/openerp.glade, line: 5490
+#: bin/openerp.glade:5490
 msgid "<Ctrl> + X"
 msgstr "<Ctrl> + X"
 
-#
-# File: bin/openerp.glade, line: 5507
+#: bin/openerp.glade:5507
 msgid "Edition Widgets"
 msgstr "Upravitelná pomůcka"
 
-#
-# File: bin/openerp.glade, line: 5547
+#: bin/openerp.glade:5547
 msgid "Import from CSV"
 msgstr "Importovat z CSV"
 
-#
-# File: bin/openerp.glade, line: 5592
+#: bin/openerp.glade:5592
 msgid "<b>All fields</b>"
 msgstr "<b>Všechna pole</b>"
 
-#
-# File: bin/openerp.glade, line: 5729
+#: bin/openerp.glade:5729
 msgid "N_othing"
 msgstr "Žá_dné"
 
-#
-# File: bin/openerp.glade, line: 5786
+#: bin/openerp.glade:5786
 msgid "<b>Fields to import</b>"
 msgstr "<b>Pole k importu</b>"
 
 #
 # File: bin/openerp.glade, line: 5821
+#: bin/openerp.glade:5821
 msgid "File to Import: "
-msgstr "Soubor k importu:"
+msgstr "Soubor k importu: "
 
-#
-# File: bin/openerp.glade, line: 5866
+#: bin/openerp.glade:5866
 msgid "Auto-Detect"
 msgstr "Automaticky zjistit"
 
-#
-# File: bin/openerp.glade, line: 5944
+#: bin/openerp.glade:5944
 msgid "Lines to Skip:"
 msgstr "Řádky k přeskočení:"
 
-#
-# File: bin/openerp.glade, line: 5973
+#: bin/openerp.glade:5973
 msgid "Text Delimiter:"
 msgstr "Textový omezovač:"
 
-#
-# File: bin/openerp.glade, line: 6001
+#: bin/openerp.glade:6001
 msgid "Encoding:"
 msgstr "Kódování:"
 
 #
 # File: bin/openerp.glade, line: 6014
+#: bin/openerp.glade:6014
 msgid "Field Separator: "
-msgstr "Oddělovač polí:"
+msgstr "Oddělovač polí: "
 
-#
-# File: bin/openerp.glade, line: 6026
+#: bin/openerp.glade:6026
 msgid "CSV Parameters"
 msgstr "Parametr CSV"
 
-#
-# File: bin/openerp.glade, line: 6191
+#: bin/openerp.glade:6191
 msgid "Server"
 msgstr "Server"
 
-#
-# File: bin/openerp.glade, line: 6201
+#: bin/openerp.glade:6201
 msgid "<b>Connect to a OpenERP server</b>"
 msgstr "<b>Připojit k serveru OpenERP</b>"
 
-#
-# File: bin/openerp.glade, line: 6260
+#: bin/openerp.glade:6260
 msgid "Protocol connection:"
 msgstr "Protokol spojení:"
 
-#
-# File: bin/openerp.glade, line: 6306
+#: bin/openerp.glade:6306
 msgid "Port:"
 msgstr "Port:"
 
-#
-# File: bin/openerp.glade, line: 6358
+#: bin/openerp.glade:6358
 msgid "Choose a database..."
 msgstr "Vyberte databázi..."
 
-#
-# File: bin/openerp.glade, line: 6373
+#: bin/openerp.glade:6373
 msgid "<b>Backup a database</b>"
 msgstr "<b>Zálohovat databázi</b>"
 
-#
-# File: bin/openerp.glade, line: 6614
+#: bin/openerp.glade:6614
 msgid "Restore a database"
 msgstr "Obnovit databázi"
 
-#
-# File: bin/openerp.glade, line: 6627
+#: bin/openerp.glade:6627
 msgid "<b>Restore a database</b>"
 msgstr "<b>Obnovit databázi</b>"
 
-#
-# File: bin/openerp.glade, line: 6671
+#: bin/openerp.glade:6671
 msgid "(must not contain any special char)"
 msgstr "(nesmí obsahovat žádný speciální symbol)"
 
-#
-# File: bin/openerp.glade, line: 6701
+#: bin/openerp.glade:6701
 msgid "New database name:"
 msgstr "Jméno nové databáze:"
 
-#
-# File: bin/openerp.glade, line: 6801
-# File: bin/openerp.glade, line: 6947
-# File: bin/openerp.glade, line: 7465
+#: bin/openerp.glade:6801 bin/openerp.glade:6947 bin/openerp.glade:7465
 msgid "http://localhost:8069"
 msgstr "http://localhost:8069"
 
-#
-# File: bin/openerp.glade, line: 6875
+#: bin/openerp.glade:6875
 msgid "Create a new database"
 msgstr "Vytvořit novou databázi"
 
-#
-# File: bin/openerp.glade, line: 6888
+#: bin/openerp.glade:6888
 msgid "<b>Create a new database</b>"
 msgstr "<b>Vytvořit novou databázi</b>"
 
-#
-# File: bin/openerp.glade, line: 6959
-msgid "This is the URL of the OpenERP server. Use 'localhost' if the server is installed on this computer. Click on 'Change' to change the address."
-msgstr "Toto je URL serveru OpenERP. Pokud je server instalován na tomto počítači použijte 'localhost'. Ke změně adresy klikněte na 'Změnit'."
+#: bin/openerp.glade:6959
+msgid ""
+"This is the URL of the OpenERP server. Use 'localhost' if the server is "
+"installed on this computer. Click on 'Change' to change the address."
+msgstr ""
+"Toto je URL serveru OpenERP. Pokud je server instalován na tomto počítači "
+"použijte 'localhost'. Ke změně adresy klikněte na 'Změnit'."
 
-#
-# File: bin/openerp.glade, line: 6963
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+#: bin/openerp.glade:6963
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
 
-#
-# File: bin/openerp.glade, line: 6994
-msgid "This is the password of the user that have the rights to administer databases. This is not a OpenERP user, just a super administrator. If you did not changed it, the password is 'admin' after installation."
-msgstr "Toto je heslo uživatele, který má práva spravovat databázi. Toto není uživatel OpenERP, jen super správce. Heslo po instalaci je 'admin', pokud jste jej nezměnili."
+#: bin/openerp.glade:6994
+msgid ""
+"This is the password of the user that have the rights to administer "
+"databases. This is not a OpenERP user, just a super administrator. If you "
+"did not changed it, the password is 'admin' after installation."
+msgstr ""
+"Toto je heslo uživatele, který má práva spravovat databázi. Toto není "
+"uživatel OpenERP, jen super správce. Heslo po instalaci je 'admin', pokud "
+"jste jej nezměnili."
 
-#
-# File: bin/openerp.glade, line: 6998
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super Administrator Password:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Heslo Super správce:"
+#: bin/openerp.glade:6998
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
+"Administrator Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Heslo Super "
+"správce:"
 
-#
-# File: bin/openerp.glade, line: 7017
+#: bin/openerp.glade:7017
 msgid "admin"
 msgstr "admin"
 
-#
-# File: bin/openerp.glade, line: 7031
+#: bin/openerp.glade:7031
 msgid "(<i>admin</i>, by default)"
 msgstr "(<i>admin</i>, jako výchozí)"
 
-#
-# File: bin/openerp.glade, line: 7096
-msgid "Choose the name of the database that will be created. The name must not contain any special character. Exemple: 'terp'."
-msgstr "Vyberte jméno databáze, která bude vytvořena. Jméno nesmí obsahovat speciální symboly. Příklad: 'terp'."
+#: bin/openerp.glade:7096
+msgid ""
+"Choose the name of the database that will be created. The name must not "
+"contain any special character. Exemple: 'terp'."
+msgstr ""
+"Vyberte jméno databáze, která bude vytvořena. Jméno nesmí obsahovat "
+"speciální symboly. Příklad: 'terp'."
 
-#
-# File: bin/openerp.glade, line: 7098
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Jméno nové databáze:"
+#: bin/openerp.glade:7098
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Jméno nové "
+"databáze:"
 
-#
-# File: bin/openerp.glade, line: 7123
-msgid "Choose the default language that will be installed for this database. You will be able to install new languages after installation through the administration menu."
-msgstr "Vyberte výchozí jazyk, který bude instalován do této databáze. Po instalaci budete mít možnost instalovat nové jazyky přes správcovskou nabídku."
+#: bin/openerp.glade:7123
+msgid ""
+"Choose the default language that will be installed for this database. You "
+"will be able to install new languages after installation through the "
+"administration menu."
+msgstr ""
+"Vyberte výchozí jazyk, který bude instalován do této databáze. Po instalaci "
+"budete mít možnost instalovat nové jazyky přes správcovskou nabídku."
 
-#
-# File: bin/openerp.glade, line: 7125
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Výchozí jazyk:"
+#: bin/openerp.glade:7125
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Výchozí jazyk:"
 
-#
-# File: bin/openerp.glade, line: 7138
-msgid "This is the password of the 'admin' user that will be created in your new database."
-msgstr "Toto je heslo uživatele 'admin', které bude vytvořeno ve vaši nové databázi."
+#: bin/openerp.glade:7138
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database."
+msgstr ""
+"Toto je heslo uživatele 'admin', které bude vytvořeno ve vaši nové databázi."
 
-#
-# File: bin/openerp.glade, line: 7140
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator Password:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Heslo správce:"
+#: bin/openerp.glade:7140
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
+"Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Heslo správce:"
 
-#
-# File: bin/openerp.glade, line: 7153
-msgid "This is the password of the 'admin' user that will be created in your new database. It has to be the same than the above field."
-msgstr "Toto je heslo uživatele 'admin', který bude vytvořen ve vaši nové databázi. Musí být stejné jako pole nad ním."
+#: bin/openerp.glade:7153
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database. It has to be the same than the above field."
+msgstr ""
+"Toto je heslo uživatele 'admin', který bude vytvořen ve vaši nové databázi. "
+"Musí být stejné jako pole nad ním."
 
-#
-# File: bin/openerp.glade, line: 7155
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Potvrzení hesla:"
+#: bin/openerp.glade:7155
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Potvrzení hesla:"
 
-#
-# File: bin/openerp.glade, line: 7248
-msgid "Check this box if you want demonstration data to be installed on your new database. These data will help you to understand OpenERP, with predefined products, partners, etc."
-msgstr "Zaškrtněte toto pole, pokud chcete nechat načíšt ukázková data do vaší nové databáze. Tyto data vám pomůžou pochopit OpenERP, s přednastavenými výrobky, partnery, aj."
+#: bin/openerp.glade:7248
+msgid ""
+"Check this box if you want demonstration data to be installed on your new "
+"database. These data will help you to understand OpenERP, with predefined "
+"products, partners, etc."
+msgstr ""
+"Zaškrtněte toto pole, pokud chcete nechat načíšt ukázková data do vaší nové "
+"databáze. Tyto data vám pomůžou pochopit OpenERP, s přednastavenými výrobky, "
+"partnery, aj."
 
-#
-# File: bin/openerp.glade, line: 7251
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration Data:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Načíst ukázková data:"
+#: bin/openerp.glade:7251
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
+"Data:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Načíst ukázková "
+"data:"
 
-#
-# File: bin/openerp.glade, line: 7335
+#: bin/openerp.glade:7335
 msgid "<b>Change your super admin password</b>"
 msgstr "<b>Změnte heslo super správce</b>"
 
-#
-# File: bin/openerp.glade, line: 7491
+#: bin/openerp.glade:7491
 msgid "Old password:"
 msgstr "Staré heslo:"
 
-#
-# File: bin/openerp.glade, line: 7504
+#: bin/openerp.glade:7504
 msgid "New password:"
 msgstr "Nové heslo:"
 
-#
-# File: bin/openerp.glade, line: 7517
+#: bin/openerp.glade:7517
 msgid "New password confirmation:"
 msgstr "Potvrzení nového hesla:"
 
-#
-# File: bin/openerp.glade, line: 7576
+#: bin/openerp.glade:7576
 msgid "OpenERP Message"
 msgstr "Zpráva OpenERP"
 
-#
-# File: bin/openerp.glade, line: 7760
+#: bin/openerp.glade:7760
 msgid "Concurrency exception"
 msgstr "Chyba souběhu"
 
-#
-# File: bin/openerp.glade, line: 7785
+#: bin/openerp.glade:7785
 msgid ""
 "<b>\n"
 "Write concurrency warning:\n"
@@ -3194,103 +2686,322 @@ msgstr ""
 "   - \"Porovnat\" ke zobrazení upravené verze.\n"
 "   - \"Přesto zapsat\" k uložení vaší aktuátní verze.\n"
 
-#
-# File: bin/openerp.glade, line: 7848
+#: bin/openerp.glade:7848
 msgid "Compare"
 msgstr "Porovnat"
 
-#
-# File: bin/openerp.glade, line: 7894
+#: bin/openerp.glade:7894
 msgid "Write anyway"
 msgstr "Přesto zapsat"
 
-#
-# File: bin/openerp.glade, line: 7924
-# File: bin/openerp.glade, line: 7934
+#: bin/openerp.glade:7924 bin/openerp.glade:7934
 msgid "window1"
 msgstr "window1"
 
-#
-# File: bin/openerp.glade, line: 8006
+#: bin/openerp.glade:8006
 msgid "Today"
 msgstr "Dnes"
 
-#
-# File: bin/openerp.glade, line: 8052
+#: bin/openerp.glade:8052
 msgid "September 2008"
 msgstr "Říjen 2008"
 
-#
-# File: bin/openerp.glade, line: 8066
+#: bin/openerp.glade:8066
 msgid "Day"
 msgstr "Den"
 
-#
-# File: bin/openerp.glade, line: 8090
+#: bin/openerp.glade:8090
 msgid "Month"
 msgstr "Měsíc"
 
-#
-# File: bin/openerp.glade, line: 8244
+#: bin/openerp.glade:8244
 msgid "Filter Entry"
 msgstr "Položka filtru"
 
-#
-# File: bin/openerp.glade, line: 8290
+#: bin/openerp.glade:8290
 msgid "Enter Filter Name:"
 msgstr "Zadejte jméno filtru:"
 
-#
-# File: bin/win_error.glade, line: 40
+#: bin/win_error.glade:40
 msgid "label"
 msgstr "označení"
 
-#
-# File: bin/win_error.glade, line: 100
+#: bin/win_error.glade:100
 msgid "Click here for details about the publisher warranty proposition"
 msgstr "Klikněte zde pro více informací o návrhu záruky vydavatele"
 
-#
-# File: bin/win_error.glade, line: 120
+#: bin/win_error.glade:120
 msgid "<i>_Publisher Warranty</i>"
 msgstr "<i>_Záruka vydavatele</i>"
 
-#
-# File: bin/win_error.glade, line: 151
+#: bin/win_error.glade:151
 msgid ""
 "<b>Publisher Warranty Contract.</b>\n"
 "<i>\n"
-"Your request will be sent to OpenERP and publisher warranty team will reply you shortly.\n"
+"Your request will be sent to OpenERP and publisher warranty team will reply "
+"you shortly.\n"
 "</i>"
 msgstr ""
 
-#
-# File: bin/win_error.glade, line: 186
+#: bin/win_error.glade:186
 msgid "Explain what you did:"
 msgstr "Vysvětlete co jste udělali:"
 
-#
-# File: bin/win_error.glade, line: 285
+#: bin/win_error.glade:285
 msgid "Send to Publisher Warranty Team"
 msgstr "Odeslat záručnímu týmu vydavatele"
 
-#
-# File: bin/win_error.glade, line: 318
+#: bin/win_error.glade:318
 msgid "Problems summary:"
 msgstr ""
 
-#
-# File: bin/win_error.glade, line: 360
+#: bin/win_error.glade:360
 msgid "<i>_Support Request</i>"
 msgstr "<i>_Požadavek technické podpory</i>"
 
-#
-# File: bin/win_error.glade, line: 387
+#: bin/win_error.glade:387
 msgid "Details"
 msgstr "Podrobnosti"
 
-#
-# File: bin/win_error.glade, line: 404
+#: bin/win_error.glade:404
 msgid "<i>_Details</i>"
 msgstr "<i>_Podrobnosti</i>"
 
+#~ msgid "Parameters :"
+#~ msgstr "Parametry:"
+
+#~ msgid ""
+#~ "Thank you for the feedback !\n"
+#~ "Your comments have been sent to OpenERP.\n"
+#~ "You should now start by creating a new database or\n"
+#~ "connecting to an existing server through the \"File\" menu."
+#~ msgstr ""
+#~ "Děkujeme za Váš názor!\n"
+#~ "Vaše nápady byly zaslány do OpenERP.\n"
+#~ "Nyní vytvořte novou databázi,\n"
+#~ "popřípadě se připojte k existující přes Soubor -> Připojit"
+
+#~ msgid ""
+#~ "Thank you for testing OpenERP !\n"
+#~ "You should now start by creating a new database or\n"
+#~ "connecting to an existing server through the \"File\" menu."
+#~ msgstr ""
+#~ "Děkujeme za testování OpenERP !\n"
+#~ "Nyní vytvořte novou databázi,\n"
+#~ "popřípadě se připojte k existující přes Soubor -> Připojit"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Verze serveru (%s) neodpovídá verzi klienta (%s). Klient nebde pravděpodobně "
+#~ "pracovat správně. Použití je na vlastní zodpovědnost! (kontaktujte správce "
+#~ "systému)"
+
+#~ msgid "<b>Operation in progress</b>"
+#~ msgstr "<b>Pracuji...</b>"
+
+#~ msgid "OpenERP Database Installation"
+#~ msgstr "Instalace OpenERP databáze"
+
+#~ msgid "The following users have been installed on your database:"
+#~ msgstr "Tito uživatelé byly vytvořeni ve vaší databázi:"
+
+#~ msgid "Edit"
+#~ msgstr "Úpravy"
+
+#~ msgid ""
+#~ "Connection error !\n"
+#~ "Bad username or password !"
+#~ msgstr ""
+#~ "Chyba připojení!\n"
+#~ "Chybný uživatel, nebo heslo!"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Chyba, heslo nebylo změněno!"
+
+#~ msgid "XML-RPC error !"
+#~ msgstr "Chyba XML-RPC !"
+
+#~ msgid "Preference"
+#~ msgstr "Nastavení"
+
+#~ msgid ""
+#~ "Function only available for MS Office !\n"
+#~ "Sorry, OOo users :("
+#~ msgstr ""
+#~ "Funkce k dispozici pouze pro MS Office!\n"
+#~ "Omlouváme se OO uživatelé..."
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Záznam nebyl uložen! \n"
+#~ " Chcete smazat aktuální záznam?"
+
+#~ msgid "Error no report"
+#~ msgstr "Neznámá chyba"
+
+#~ msgid "Limit :"
+#~ msgstr "Limit :"
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Chyba pokusu o import tohoto záznamu:\n"
+#~ "%s\n"
+#~ "Chybová zpráva:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Nelze nastavit národní nastavení %s: %s"
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Automatický tisk na Linuxu není realizován.\n"
+#~ "Použijte volbu náhled !"
+
+#~ msgid "in"
+#~ msgstr "v"
+
+#~ msgid "not in"
+#~ msgstr "není v"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Pokud je použit operátor 'in' nebo 'not in', zadejte hodnoty oddělené ','.\n"
+#~ "Pro formáty Datum a DatumČas zadejte text ve formátu '%Y-%m-%d' and '%Y-%m-"
+#~ "%d %H:%M:%S'."
+
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Musíte vybrat záznam k použití tlačítka související !"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Uložit jako Zkratku"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenERP - GTK Client - v%s\n"
+#~ "\n"
+#~ "OpenERP is an Open Source ERP+CRM\n"
+#~ "for small to medium businesses.\n"
+#~ "\n"
+#~ "The whole source code is distributed under\n"
+#~ "the terms of the GNU Public Licence.\n"
+#~ "\n"
+#~ "(c) 2003-TODAY, Tiny sprl\n"
+#~ "\n"
+#~ "More Info on www.openerp.com !"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenERP - GTK klient - v%s\n"
+#~ "\n"
+#~ "OpenERP je Otevřený ERP+CRM software\n"
+#~ "pro malé až středbá podniky.\n"
+#~ "\n"
+#~ "Celý zdrojový kód je šířen pod\n"
+#~ "podmínkami licence GNU Public.\n"
+#~ "\n"
+#~ "(c) 2003-DNES, Tiny sprl\n"
+#~ "\n"
+#~ "Více informací na www.openerp.com !"
+
+#~ msgid ""
+#~ "\n"
+#~ "(c) 2003-TODAY - Tiny sprl\n"
+#~ "OpenERP is a product of Tiny sprl:\n"
+#~ "\n"
+#~ "Tiny sprl\n"
+#~ "40 Chaussée de Namur\n"
+#~ "1367 Gérompont\n"
+#~ "Belgium\n"
+#~ "\n"
+#~ "Tel : (+32)81.81.37.00\n"
+#~ "Mail: sales@tiny.be\n"
+#~ "Web: http://tiny.be"
+#~ msgstr ""
+#~ "\n"
+#~ "(c) 2003-DNES - Tiny sprl\n"
+#~ "OpenERP je výtvor Tiny sprl:\n"
+#~ "\n"
+#~ "Tiny sprl\n"
+#~ "40 Chaussée de Namur\n"
+#~ "1367 Gérompont\n"
+#~ "Belgium\n"
+#~ "\n"
+#~ "Tel : (+32)81.81.37.00\n"
+#~ "Mail: sales@tiny.be\n"
+#~ "Web: http://tiny.be"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Vyberte volbu k exportu</b>"
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Otevřít v Excelu\n"
+#~ "Uložit jako CSV"
+
+#~ msgid "Add _field names"
+#~ msgstr "Přidat jména _polí"
+
+#~ msgid "File to Import:"
+#~ msgstr "Soubor k importu:"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Oddělovač polí:"
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Pole nebo podmínky hledání k použití"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Podmíněné operátory"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr "Volba bude použita pro další filtr pokud je nějaký"
+
+#~ msgid ""
+#~ "AND\n"
+#~ "OR"
+#~ msgstr ""
+#~ "A\n"
+#~ "NEBO"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Odstranit filtr"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Smlouva záruky vydavatele.</b>\n"
+#~ "<i>\n"
+#~ "Váš požadavek bude odeslán OpenERP a záruční tým vydavatele vám brzy "
+#~ "odpoví.\n"
+#~ "</i>"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Jiné komentáře:"
+
+#~ msgid "Summary of the problem:"
+#~ msgstr "Souhrn problému:"

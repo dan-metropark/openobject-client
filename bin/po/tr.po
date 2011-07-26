@@ -8,64 +8,61 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-19 16:32+0530\n"
-"PO-Revision-Date: 2011-07-25 11:25+0530\n"
-"Last-Translator: Naresh Soni <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2011-07-25 15:49+0000\n"
+"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-16 04:55+0000\n"
+"X-Launchpad-Export-Date: 2011-07-26 04:41+0000\n"
 "X-Generator: Launchpad (build 13405)\n"
 "Language: tr\n"
 
-#
-# File: bin/common/common.py, line: 89
+#: bin/common/common.py:89
 msgid "Close current tip"
 msgstr "İpucunu Kapat"
 
-#
-# File: bin/common/common.py, line: 90
+#: bin/common/common.py:90
 msgid ""
 "<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
-"This will hide the current tip. It will be displayed again next time you open this menu item, unless you disable all tips using the <b>'Menu Tips'</b> option in the user preferences."
+"This will hide the current tip. It will be displayed again next time you "
+"open this menu item, unless you disable all tips using the <b>'Menu "
+"Tips'</b> option in the user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>İpucunu kapat::</b></span>\n"
-"Bu ipucunu kapatacaktır. Bu menüyü tekrar açtığınızda ipucu yine gösterilecek.  Bütün ipuçlarını sürekli olarak kapatmak için kullanıcı seçeneklerinden <b>'Menu İpucları'</b> seçeneğini kullanın."
+"Bu ipucunu kapatacaktır. Bu menüyü tekrar açtığınızda ipucu yine "
+"gösterilecek.  Bütün ipuçlarını sürekli olarak kapatmak için kullanıcı "
+"seçeneklerinden <b>'Menu İpucları'</b> seçeneğini kullanın."
 
-#
-# File: bin/common/common.py, line: 100
+#: bin/common/common.py:100
 msgid "Disable all tips"
 msgstr "Tüm İpuçlarını Kapat"
 
-#
-# File: bin/common/common.py, line: 101
+#: bin/common/common.py:101
 msgid ""
 "<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
 "This will disable the display of tips on all menu items.\n"
-"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the user preferences."
+"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the "
+"user preferences."
 msgstr ""
 "<span foreground=\"darkred\"><b>Tüm İpuçlarını kapat:</b></span>\n"
 "Bu seçenek menülerdeki tüm ipuçlarını kapatır.\n"
-"tekrar açmak için kullanıcı seçeneklerinden <b>'Menu İpuçları'</b> opsiyonunun kullanın."
+"tekrar açmak için kullanıcı seçeneklerinden <b>'Menu İpuçları'</b> "
+"opsiyonunun kullanın."
 
-#
-# File: bin/common/common.py, line: 115
-# File: bin/common/common.py, line: 117
+#: bin/common/common.py:115 bin/common/common.py:117
 msgid "Tips"
 msgstr "İpuçları"
 
-#
-# File: bin/common/common.py, line: 168
+#: bin/common/common.py:168
 msgid "OpenERP Computing"
 msgstr "OpenERP Yazılım"
 
-#
-# File: bin/common/common.py, line: 187
+#: bin/common/common.py:187
 msgid "Operation in progress"
 msgstr "İşlem Sürmektedir"
 
-#
-# File: bin/common/common.py, line: 191
+#: bin/common/common.py:191
 msgid ""
 "Please wait,\n"
 "this operation may take a while..."
@@ -73,30 +70,24 @@ msgstr ""
 "Lütfen bekleyin,\n"
 "bu uygulama biraz zaman alabilir..."
 
-#
-# File: bin/common/common.py, line: 225
+#: bin/common/common.py:225
 #, python-format
 msgid "Ensure that the file %s is correct"
 msgstr "%s Dosyasının doğru olduğundan emin olun"
 
-#
-# File: bin/common/common.py, line: 399
+#: bin/common/common.py:399
 msgid " has reported the following bug:\n"
 msgstr " ın rapor ettiği hata:\n"
 
-#
-# File: bin/common/common.py, line: 399
+#: bin/common/common.py:399
 msgid "remarks"
 msgstr "düşünceler"
 
-#
-# File: bin/common/common.py, line: 402
+#: bin/common/common.py:402
 msgid "Support request sent !"
 msgstr "Destek isteği gönderildi !"
 
-#
-# File: bin/common/common.py, line: 425
-# File: bin/common/common.py, line: 469
+#: bin/common/common.py:425 bin/common/common.py:469
 msgid ""
 "\n"
 "<b>An unknown error has been reported.</b>\n"
@@ -105,9 +96,11 @@ msgid ""
 "If you are using OpenERP in production, it is highly suggested to subscribe\n"
 "a publisher warranty program.\n"
 "\n"
-"The OpenERP publisher warranty contract provides you a bugfix guarantee and an\n"
+"The OpenERP publisher warranty contract provides you a bugfix guarantee and "
+"an\n"
 "automatic migration system so that we can fix your problems within a few\n"
-"hours. If you had a publisher warranty contract, this error would have been sent\n"
+"hours. If you had a publisher warranty contract, this error would have been "
+"sent\n"
 "to the quality team of the OpenERP editor.\n"
 "\n"
 "The publisher warranty program offers you:\n"
@@ -123,12 +116,15 @@ msgstr ""
 "\n"
 "<b>Bilinmeyen hata bildirildi.</b>\n"
 "<b>Geçerli bir OpenERP yayıncı garanti sözleşmeniz yok !</b>\n"
-"OpenERP'yi gerçek şirketortamında kullanıyorsanız, bir yayıncı garanti sözleşmesi \n"
+"OpenERP'yi gerçek şirketortamında kullanıyorsanız, bir yayıncı garanti "
+"sözleşmesi \n"
 "imzalamanız  önerilir. \n"
 "\n"
-"OpenERP yayıncı garanti sözleşmesi hata düzeltme garantisi ve sorunlarınızın \n"
+"OpenERP yayıncı garanti sözleşmesi hata düzeltme garantisi ve sorunlarınızın "
+"\n"
 "birkaç saatte çözülmesi için otomatik sürüm yükseltme hizmetini sağlar. \n"
-"Yayıncı garanti sözleşmeniz varsa, bu hata OpenERP kalite takımına yönlendirilir. \n"
+"Yayıncı garanti sözleşmeniz varsa, bu hata OpenERP kalite takımına "
+"yönlendirilir. \n"
 "\n"
 "Yayıncı garanti programı size şunları sunar:\n"
 "* Otomatikmen yeni sürümlere yükseltme,\n"
@@ -139,23 +135,27 @@ msgstr ""
 "Ayrıntılı bilgi için aşağıdaki linki kullanabilirsiniz. \n"
 "Hata ile ilgili ayrıntılar ikinci sekmede gösterilmiştir..\n"
 
-#
-# File: bin/common/common.py, line: 448
+#: bin/common/common.py:448
 #, python-format
 msgid ""
 "\n"
 "<b>An unknown error has been reported.</b>\n"
 "\n"
-"Your publisher warranty contract does not cover all modules installed in your system !\n"
-"If you are using OpenERP in production, it is highly suggested to upgrade your\n"
+"Your publisher warranty contract does not cover all modules installed in "
+"your system !\n"
+"If you are using OpenERP in production, it is highly suggested to upgrade "
+"your\n"
 "contract.\n"
 "\n"
 "If you have developed your own modules or installed third party module, we\n"
-"can provide you an additional publisher warranty contract for these modules. After\n"
-"having reviewed your modules, our quality team will ensure they will migrate\n"
+"can provide you an additional publisher warranty contract for these modules. "
+"After\n"
+"having reviewed your modules, our quality team will ensure they will "
+"migrate\n"
 "automatically for all future stable versions of OpenERP at no extra cost.\n"
 "\n"
-"Here is the list of modules not covered by your publisher warranty contract:\n"
+"Here is the list of modules not covered by your publisher warranty "
+"contract:\n"
 "%s\n"
 "\n"
 "You can use the link bellow for more information. The detail of the error\n"
@@ -164,12 +164,16 @@ msgstr ""
 "\n"
 "<b>Bilinmeyen bir hata bildirildi.</b>\n"
 "\n"
-"Yayıncı garantiniz sözleşmeniz sisteminizde kurulu bütün modülleri kapsamıyor!\n"
-"OpenERP yi canlı şirket ortamında  kullanıyorsanız, sözleşmenizi bu modülleri \n"
+"Yayıncı garantiniz sözleşmeniz sisteminizde kurulu bütün modülleri "
+"kapsamıyor!\n"
+"OpenERP yi canlı şirket ortamında  kullanıyorsanız, sözleşmenizi bu "
+"modülleri \n"
 "de kapsayacak şekilde genişletmenizi öneririz.\n"
 "\n"
-"Kendi modüllerinizi geliştirdiyseniz veya üçüncü parti modüller kurduysanız, \n"
-"size bu modüller için ek yayıncı garanti sözleşmesi sunabiliriz. Modülleriniz incelendikten \n"
+"Kendi modüllerinizi geliştirdiyseniz veya üçüncü parti modüller kurduysanız, "
+"\n"
+"size bu modüller için ek yayıncı garanti sözleşmesi sunabiliriz. "
+"Modülleriniz incelendikten \n"
 "sonra, kalite ekibimiz bedelsiz olarak OpenERP nin bütün sabit sürümlerine \n"
 "otomatikman taşımayı garanti eder.\n"
 "\n"
@@ -179,8 +183,7 @@ msgstr ""
 "Ayrıntılar için aşağıdaki linki kullanabilirsiniz. \n"
 "Bu hata için ayrıntılar ikinci sekmede gösterilmiştir."
 
-#
-# File: bin/common/common.py, line: 525
+#: bin/common/common.py:525
 msgid ""
 "Your problem has been sent to the quality team !\n"
 "We will recontact you after analysing the problem."
@@ -188,8 +191,7 @@ msgstr ""
 "Sorununuz kalite ekibine gönderildi !\n"
 "Sorununuzu analiz ettikten sonra sizinle irtibata geçeceğiz."
 
-#
-# File: bin/common/common.py, line: 528
+#: bin/common/common.py:528
 #, python-format
 msgid ""
 "Your problem could *NOT* be sent to the quality team !\n"
@@ -200,281 +202,242 @@ msgstr ""
 "Lütfen aşağıdaki adresten hata bildiriminizi kendiniz yapınız:\n"
 "\t %s"
 
-#
-# File: bin/common/common.py, line: 528
+#: bin/common/common.py:528
 msgid "Error"
 msgstr "Hata"
 
-#
-# File: bin/common/common.py, line: 682
+#: bin/common/common.py:682
 msgid "Open with..."
 msgstr "Birlikte aç..."
 
-#
-# File: bin/widget_search/form.py, line: 492
+#: bin/widget_search/form.py:492
 msgid "The content of the form or exception if not valid"
 msgstr "Form içeriği veya uygulaması geçersiz"
 
-#
-# File: bin/widget_search/wid_int.py, line: 56
+#: bin/widget_search/wid_int.py:56
 msgid "The content of the widget or exception if not valid"
 msgstr "(Bu ifadenin İngilizce aslı bozuk olduğundan çevrilememiştir)"
 
-#
-# File: bin/widget_search/spinbutton.py, line: 92
-# File: bin/widget_search/custom_filter.py, line: 140
-# File: bin/widget_search/checkbox.py, line: 68
-# File: bin/widget_search/calendar.py, line: 125
-# File: bin/widget_search/calendar.py, line: 250
-# File: bin/widget_search/char.py, line: 72
-# File: bin/widget_search/reference.py, line: 78
-# File: bin/widget_search/selection.py, line: 116
-# File: bin/widget_search/filter.py, line: 77
-# File: bin/widget_search/spinint.py, line: 95
-# File: bin/widget/view/form_gtk/button.py, line: 47
+#: bin/widget_search/spinbutton.py:92 bin/widget_search/custom_filter.py:140
+#: bin/widget_search/checkbox.py:68 bin/widget_search/calendar.py:125
+#: bin/widget_search/calendar.py:250 bin/widget_search/char.py:72
+#: bin/widget_search/reference.py:78 bin/widget_search/selection.py:116
+#: bin/widget_search/filter.py:77 bin/widget_search/spinint.py:95
+#: bin/widget/view/form_gtk/button.py:47
 msgid "The content of the widget or ValueError if not valid"
 msgstr "Nesnenin içeriği ya da değeri geçersiz."
 
-#
-# File: bin/widget_search/custom_filter.py, line: 51
+#: bin/widget_search/custom_filter.py:51
 msgid "AND"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter.py, line: 52
+#: bin/widget_search/custom_filter.py:52
 msgid "OR"
 msgstr ""
 
-#
-# File: bin/widget_search/checkbox.py, line: 35
-# File: bin/widget_search/checkbox.py, line: 42
-# File: bin/widget_search/checkbox.py, line: 55
+#: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
+#: bin/widget_search/checkbox.py:55
 msgid "Yes"
 msgstr "Evet"
 
-#
-# File: bin/widget_search/checkbox.py, line: 36
-# File: bin/widget_search/checkbox.py, line: 44
+#: bin/widget_search/checkbox.py:36 bin/widget_search/checkbox.py:44
 msgid "No"
 msgstr "Hayır"
 
-#
-# File: bin/widget_search/date_widget.py, line: 65
-# File: bin/widget/view/form_gtk/date_widget.py, line: 65
+#: bin/widget_search/date_widget.py:65
+#: bin/widget/view/form_gtk/date_widget.py:65
 msgid ""
-"You can use special operation by pressing +, - or =.  Plus/minus adds/decrease the variable to the current selected date. Equals set part of selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
+"You can use special operation by pressing +, - or =.  Plus/minus "
+"adds/decrease the variable to the current selected date. Equals set part of "
+"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
+"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
 "* +21d : adds 21 days to selected year\n"
 "* =23w : set date to the 23th week of the year\n"
 "* -4m : decrease 4 months to the current date\n"
-"You can also use \"=\" to set the date to the current date/time and '-' to clear the field."
-msgstr "+,- veya = basarak özel operatörler kullanabilirsiniz. Topla/Eksi operatörler seçili mevcut tarihi Artırır/Eksiltir. Eşit operatörü seçilen tarihi varsayar. Kullanılabilinir seçenekler: 12h= 12 Saat, 8d= 8 Gün, 4w = 4 Hafta, 1m = 1 Ay, 2y = 2 Sene/Yıl. Bir Kaç Örnek:* +21d: seçilen seneye 21 gün EKLER.* =23w: yılın 23.cü haftasına ayarlar* -4m: geçerli tarihten 4 ay çıkartır.*=* operatörünü aynı zamanda tarihi şimdi ki zamana ayarlamak için kullanabilirsiniz ve *-* operatörünü de silmek için kullanabilirsiniz"
+"You can also use \"=\" to set the date to the current date/time and '-' to "
+"clear the field."
+msgstr ""
+"+,- veya = basarak özel operatörler kullanabilirsiniz. Topla/Eksi "
+"operatörler seçili mevcut tarihi Artırır/Eksiltir. Eşit operatörü seçilen "
+"tarihi varsayar. Kullanılabilinir seçenekler: 12h= 12 Saat, 8d= 8 Gün, 4w = "
+"4 Hafta, 1m = 1 Ay, 2y = 2 Sene/Yıl. Bir Kaç Örnek:* +21d: seçilen seneye 21 "
+"gün EKLER.* =23w: yılın 23.cü haftasına ayarlar* -4m: geçerli tarihten 4 ay "
+"çıkartır.*=* operatörünü aynı zamanda tarihi şimdi ki zamana ayarlamak için "
+"kullanabilirsiniz ve *-* operatörünü de silmek için kullanabilirsiniz"
 
-#
-# File: bin/widget_search/calendar.py, line: 49
-# File: bin/widget_search/calendar.py, line: 177
+#: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
 msgid "Start date"
 msgstr "Başlangıç tarihi"
 
-#
-# File: bin/widget_search/calendar.py, line: 53
-# File: bin/widget_search/calendar.py, line: 73
-# File: bin/widget_search/calendar.py, line: 181
-# File: bin/widget_search/calendar.py, line: 201
-# File: bin/widget/view/form_gtk/calendar.py, line: 57
-# File: bin/widget/view/form_gtk/calendar.py, line: 184
+#: bin/widget_search/calendar.py:53 bin/widget_search/calendar.py:73
+#: bin/widget_search/calendar.py:181 bin/widget_search/calendar.py:201
+#: bin/widget/view/form_gtk/calendar.py:57
+#: bin/widget/view/form_gtk/calendar.py:184
 msgid "Open the calendar widget"
 msgstr "Takvim parçacığını aç"
 
-#
-# File: bin/widget_search/calendar.py, line: 69
-# File: bin/widget_search/calendar.py, line: 197
+#: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
 msgid "End date"
 msgstr "Bitiş tarihi"
 
-#
-# File: bin/widget_search/calendar.py, line: 128
-# File: bin/widget_search/calendar.py, line: 267
-# File: bin/widget/view/form_gtk/calendar.py, line: 135
-# File: bin/widget/view/form_gtk/calendar.py, line: 249
+#: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
+#: bin/widget/view/form_gtk/calendar.py:135
+#: bin/widget/view/form_gtk/calendar.py:249
 msgid "OpenERP - Date selection"
 msgstr "OpenERP - Tarih seçimi"
 
-#
-# File: bin/widget_search/calendar.py, line: 273
-# File: bin/widget/view/form_gtk/calendar.py, line: 255
+#: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
 msgid "Hour:"
 msgstr "Saat:"
 
-#
-# File: bin/widget_search/calendar.py, line: 276
-# File: bin/widget/view/form_gtk/calendar.py, line: 258
+#: bin/widget_search/calendar.py:276 bin/widget/view/form_gtk/calendar.py:258
 msgid "Minute:"
 msgstr "Dakika:"
 
-#
-# File: bin/widget_search/calendar.py, line: 312
-# File: bin/widget/view/form_gtk/calendar.py, line: 291
+#: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
 msgstr "Geçersiz tarih ve saat değeri ! Yıl 1899'dan büyük olmalıdır."
 
-#
-# File: bin/widget_search/char.py, line: 45
+#: bin/widget_search/char.py:45
 msgid "Error: "
 msgstr "Hata: "
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 36
-# File: bin/widget_search/custom_filter_widgets.py, line: 63
-# File: bin/widget_search/custom_filter_widgets.py, line: 128
-# File: bin/widget_search/custom_filter_widgets.py, line: 149
-# File: bin/widget_search/custom_filter_widgets.py, line: 156
-# File: bin/widget_search/custom_filter_widgets.py, line: 180
-# File: bin/widget_search/custom_filter_widgets.py, line: 212
-# File: bin/widget_search/custom_filter_widgets.py, line: 225
-# File: bin/widget_search/custom_filter_widgets.py, line: 257
-# File: bin/widget_search/custom_filter_widgets.py, line: 272
+#: bin/widget_search/custom_filter_widgets.py:36
+#: bin/widget_search/custom_filter_widgets.py:63
+#: bin/widget_search/custom_filter_widgets.py:128
+#: bin/widget_search/custom_filter_widgets.py:149
+#: bin/widget_search/custom_filter_widgets.py:156
+#: bin/widget_search/custom_filter_widgets.py:180
+#: bin/widget_search/custom_filter_widgets.py:212
+#: bin/widget_search/custom_filter_widgets.py:225
+#: bin/widget_search/custom_filter_widgets.py:257
+#: bin/widget_search/custom_filter_widgets.py:272
 msgid "is"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 37
-# File: bin/widget_search/custom_filter_widgets.py, line: 64
-# File: bin/widget_search/custom_filter_widgets.py, line: 128
-# File: bin/widget_search/custom_filter_widgets.py, line: 150
-# File: bin/widget_search/custom_filter_widgets.py, line: 157
-# File: bin/widget_search/custom_filter_widgets.py, line: 181
-# File: bin/widget_search/custom_filter_widgets.py, line: 212
-# File: bin/widget_search/custom_filter_widgets.py, line: 226
-# File: bin/widget_search/custom_filter_widgets.py, line: 257
-# File: bin/widget_search/custom_filter_widgets.py, line: 273
+#: bin/widget_search/custom_filter_widgets.py:37
+#: bin/widget_search/custom_filter_widgets.py:64
+#: bin/widget_search/custom_filter_widgets.py:128
+#: bin/widget_search/custom_filter_widgets.py:150
+#: bin/widget_search/custom_filter_widgets.py:157
+#: bin/widget_search/custom_filter_widgets.py:181
+#: bin/widget_search/custom_filter_widgets.py:212
+#: bin/widget_search/custom_filter_widgets.py:226
+#: bin/widget_search/custom_filter_widgets.py:257
+#: bin/widget_search/custom_filter_widgets.py:273
 msgid "is not"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 38
-# File: bin/widget_search/custom_filter_widgets.py, line: 49
-# File: bin/widget_search/custom_filter_widgets.py, line: 56
-# File: bin/widget_search/custom_filter_widgets.py, line: 65
-# File: bin/widget_search/custom_filter_widgets.py, line: 140
-# File: bin/widget_search/custom_filter_widgets.py, line: 151
-# File: bin/widget_search/custom_filter_widgets.py, line: 158
-# File: bin/widget_search/custom_filter_widgets.py, line: 183
-# File: bin/widget_search/custom_filter_widgets.py, line: 202
-# File: bin/widget_search/custom_filter_widgets.py, line: 210
-# File: bin/widget_search/custom_filter_widgets.py, line: 228
-# File: bin/widget_search/custom_filter_widgets.py, line: 247
-# File: bin/widget_search/custom_filter_widgets.py, line: 255
+#: bin/widget_search/custom_filter_widgets.py:38
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:65
+#: bin/widget_search/custom_filter_widgets.py:140
+#: bin/widget_search/custom_filter_widgets.py:151
+#: bin/widget_search/custom_filter_widgets.py:158
+#: bin/widget_search/custom_filter_widgets.py:183
+#: bin/widget_search/custom_filter_widgets.py:202
+#: bin/widget_search/custom_filter_widgets.py:210
+#: bin/widget_search/custom_filter_widgets.py:228
+#: bin/widget_search/custom_filter_widgets.py:247
+#: bin/widget_search/custom_filter_widgets.py:255
 msgid "is Empty"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 39
-# File: bin/widget_search/custom_filter_widgets.py, line: 49
-# File: bin/widget_search/custom_filter_widgets.py, line: 56
-# File: bin/widget_search/custom_filter_widgets.py, line: 66
-# File: bin/widget_search/custom_filter_widgets.py, line: 140
-# File: bin/widget_search/custom_filter_widgets.py, line: 152
-# File: bin/widget_search/custom_filter_widgets.py, line: 159
-# File: bin/widget_search/custom_filter_widgets.py, line: 184
-# File: bin/widget_search/custom_filter_widgets.py, line: 202
-# File: bin/widget_search/custom_filter_widgets.py, line: 210
-# File: bin/widget_search/custom_filter_widgets.py, line: 229
-# File: bin/widget_search/custom_filter_widgets.py, line: 247
-# File: bin/widget_search/custom_filter_widgets.py, line: 255
+#: bin/widget_search/custom_filter_widgets.py:39
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:66
+#: bin/widget_search/custom_filter_widgets.py:140
+#: bin/widget_search/custom_filter_widgets.py:152
+#: bin/widget_search/custom_filter_widgets.py:159
+#: bin/widget_search/custom_filter_widgets.py:184
+#: bin/widget_search/custom_filter_widgets.py:202
+#: bin/widget_search/custom_filter_widgets.py:210
+#: bin/widget_search/custom_filter_widgets.py:229
+#: bin/widget_search/custom_filter_widgets.py:247
+#: bin/widget_search/custom_filter_widgets.py:255
 msgid "is not Empty"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 40
-# File: bin/widget_search/custom_filter_widgets.py, line: 67
-# File: bin/widget_search/custom_filter_widgets.py, line: 98
+#: bin/widget_search/custom_filter_widgets.py:40
+#: bin/widget_search/custom_filter_widgets.py:67
+#: bin/widget_search/custom_filter_widgets.py:98
 msgid "contains"
 msgstr "içerir"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 41
-# File: bin/widget_search/custom_filter_widgets.py, line: 68
-# File: bin/widget_search/custom_filter_widgets.py, line: 98
+#: bin/widget_search/custom_filter_widgets.py:41
+#: bin/widget_search/custom_filter_widgets.py:68
+#: bin/widget_search/custom_filter_widgets.py:98
 msgid "doesn't contain"
 msgstr "içermez"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 87
-# File: bin/widget/view/form_gtk/many2one.py, line: 163
+#: bin/widget_search/custom_filter_widgets.py:87
+#: bin/widget/view/form_gtk/many2one.py:163
 msgid "Search a resource"
 msgstr "Bir kaynağı ara"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 167
+#: bin/widget_search/custom_filter_widgets.py:167
 msgid "Equals"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 182
-# File: bin/widget_search/custom_filter_widgets.py, line: 196
-# File: bin/widget_search/custom_filter_widgets.py, line: 227
-# File: bin/widget_search/custom_filter_widgets.py, line: 241
-# File: bin/widget_search/custom_filter_widgets.py, line: 296
-# File: bin/widget_search/custom_filter_widgets.py, line: 310
-# File: bin/widget_search/custom_filter_widgets.py, line: 322
-# File: bin/widget_search/custom_filter_widgets.py, line: 337
-# File: bin/widget_search/custom_filter_widgets.py, line: 350
-# File: bin/widget_search/custom_filter_widgets.py, line: 362
+#: bin/widget_search/custom_filter_widgets.py:182
+#: bin/widget_search/custom_filter_widgets.py:196
+#: bin/widget_search/custom_filter_widgets.py:227
+#: bin/widget_search/custom_filter_widgets.py:241
+#: bin/widget_search/custom_filter_widgets.py:296
+#: bin/widget_search/custom_filter_widgets.py:310
+#: bin/widget_search/custom_filter_widgets.py:322
+#: bin/widget_search/custom_filter_widgets.py:337
+#: bin/widget_search/custom_filter_widgets.py:350
+#: bin/widget_search/custom_filter_widgets.py:362
 msgid "between"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 185
-# File: bin/widget_search/custom_filter_widgets.py, line: 199
-# File: bin/widget_search/custom_filter_widgets.py, line: 230
-# File: bin/widget_search/custom_filter_widgets.py, line: 244
-# File: bin/widget_search/custom_filter_widgets.py, line: 297
-# File: bin/widget_search/custom_filter_widgets.py, line: 313
-# File: bin/widget_search/custom_filter_widgets.py, line: 322
-# File: bin/widget_search/custom_filter_widgets.py, line: 338
-# File: bin/widget_search/custom_filter_widgets.py, line: 353
-# File: bin/widget_search/custom_filter_widgets.py, line: 362
+#: bin/widget_search/custom_filter_widgets.py:185
+#: bin/widget_search/custom_filter_widgets.py:199
+#: bin/widget_search/custom_filter_widgets.py:230
+#: bin/widget_search/custom_filter_widgets.py:244
+#: bin/widget_search/custom_filter_widgets.py:297
+#: bin/widget_search/custom_filter_widgets.py:313
+#: bin/widget_search/custom_filter_widgets.py:322
+#: bin/widget_search/custom_filter_widgets.py:338
+#: bin/widget_search/custom_filter_widgets.py:353
+#: bin/widget_search/custom_filter_widgets.py:362
 msgid "exclude range"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 290
-# File: bin/widget_search/custom_filter_widgets.py, line: 331
+#: bin/widget_search/custom_filter_widgets.py:290
+#: bin/widget_search/custom_filter_widgets.py:331
 msgid "is equal to"
 msgstr "eşittir"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 291
-# File: bin/widget_search/custom_filter_widgets.py, line: 332
+#: bin/widget_search/custom_filter_widgets.py:291
+#: bin/widget_search/custom_filter_widgets.py:332
 msgid "is not equal to"
 msgstr "eşit değildir"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 292
-# File: bin/widget_search/custom_filter_widgets.py, line: 333
+#: bin/widget_search/custom_filter_widgets.py:292
+#: bin/widget_search/custom_filter_widgets.py:333
 msgid "greater than"
 msgstr "büyüktür"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 293
-# File: bin/widget_search/custom_filter_widgets.py, line: 334
+#: bin/widget_search/custom_filter_widgets.py:293
+#: bin/widget_search/custom_filter_widgets.py:334
 msgid "less than"
 msgstr "küçüktür"
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 294
-# File: bin/widget_search/custom_filter_widgets.py, line: 335
+#: bin/widget_search/custom_filter_widgets.py:294
+#: bin/widget_search/custom_filter_widgets.py:335
 msgid "greater than equal to"
 msgstr ""
 
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 295
-# File: bin/widget_search/custom_filter_widgets.py, line: 336
+#: bin/widget_search/custom_filter_widgets.py:295
+#: bin/widget_search/custom_filter_widgets.py:336
 msgid "less than equal to"
 msgstr ""
 
-#
-# File: bin/widget/screen/screen.py, line: 337
+#: bin/widget/screen/screen.py:337
 msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
@@ -482,159 +445,136 @@ msgstr ""
 "(Aynı isimli bütün filtreler \n"
 "değiştirilecektir)"
 
-#
-# File: bin/widget/view/widget_parse.py, line: 53
+#: bin/widget/view/widget_parse.py:53
 #, python-format
 msgid "This type (%s) is not supported by the GTK client !"
 msgstr "Bu biçim (%s), GTK istemcisi tarafından desteklenmiyor !"
 
-#
-# File: bin/widget/view/widget_parse.py, line: 64
+#: bin/widget/view/widget_parse.py:64
 msgid "No valid view found for this object!"
 msgstr "Bu obje için geçerli görünüm bulunamadı!"
 
-#
-# File: bin/widget/view/form.py, line: 137
+#: bin/widget/view/form.py:137
 msgid "You must save this record to use the relate button !"
-msgstr "İlişkilendirme düğmesini kullanabilmeniz için bu kayıdı kaydetmelisiniz !"
+msgstr ""
+"İlişkilendirme düğmesini kullanabilmeniz için bu kayıdı kaydetmelisiniz !"
 
-#
-# File: bin/widget/view/form.py, line: 142
+#: bin/widget/view/form.py:142
 msgid "Action not defined !"
 msgstr "Eylem tanımlanmamış !"
 
 #
 # File: bin/widget/view/form.py, line: 201
+#: bin/widget/view/form.py:201
 msgid "You must save this record to use the action button !"
-msgstr "İlişkilendirme düğmesini kullanabilmeniz için bu kayıdı kaydetmelisiniz !"
+msgstr ""
+"İlişkilendirme düğmesini kullanabilmeniz için bu kayıdı kaydetmelisiniz !"
 
 #
 # File: bin/widget/view/form.py, line: 213
+#: bin/widget/view/form.py:213
 msgid "You must save a record to use the relate button !"
-msgstr "İlişkilendirme düğmesini kullanabilmeniz için bu kayıdı kaydetmelisiniz !"
+msgstr ""
+"İlişkilendirme düğmesini kullanabilmeniz için bu kayıdı kaydetmelisiniz !"
 
-#
-# File: bin/widget/view/form.py, line: 238
-# File: bin/widget/view/form_gtk/parser.py, line: 635
-# File: bin/widget/view/form_gtk/parser.py, line: 756
-# File: bin/widget/view/form_gtk/parser.py, line: 813
+#: bin/widget/view/form.py:238 bin/widget/view/form_gtk/parser.py:635
+#: bin/widget/view/form_gtk/parser.py:756
+#: bin/widget/view/form_gtk/parser.py:813
 msgid "No other language available!"
 msgstr "Başka bir dil yok!"
 
-#
-# File: bin/widget/view/form.py, line: 245
-# File: bin/widget/view/form_gtk/parser.py, line: 647
-# File: bin/widget/view/form_gtk/parser.py, line: 762
-# File: bin/widget/view/form_gtk/parser.py, line: 819
+#: bin/widget/view/form.py:245 bin/widget/view/form_gtk/parser.py:647
+#: bin/widget/view/form_gtk/parser.py:762
+#: bin/widget/view/form_gtk/parser.py:819
 msgid "Add Translation"
 msgstr "Çeviri Ekle"
 
-#
-# File: bin/widget/view/form.py, line: 293
-# File: bin/widget/view/form_gtk/parser.py, line: 875
+#: bin/widget/view/form.py:293 bin/widget/view/form_gtk/parser.py:875
 msgid "Translate label"
 msgstr "Çeviri etiketi"
 
-#
-# File: bin/widget/view/list.py, line: 584
-# File: bin/widget/view/list.py, line: 585
-# File: bin/widget/view/form_gtk/parser.py, line: 135
-# File: bin/modules/gui/window/form.py, line: 366
+#: bin/widget/view/list.py:584 bin/widget/view/list.py:585
+#: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
 msgid "Invalid form, correct red fields !"
 msgstr "Geçersiz form, kırmızı alanları doğrulayın !"
 
-#
-# File: bin/widget/view/list.py, line: 584
+#: bin/widget/view/list.py:584
 msgid "Error !"
 msgstr "Hata !"
 
-#
-# File: bin/widget/view/list.py, line: 633
-# File: bin/widget/view/form_gtk/many2one.py, line: 387
+#: bin/widget/view/list.py:633 bin/widget/view/form_gtk/many2one.py:387
 msgid "You must select a record to use the relation !"
 msgstr "İlişkiyi kullanabilmek için bir kayıt seçmelisiniz !"
 
-#
-# File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 30
+#: bin/widget/view/gantt_gtk/parser_dummy.py:30
 msgid "Gantt view not yet implemented !"
 msgstr "Gantt görünümü henüz eklenmedi!"
 
-#
-# File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 31
-msgid "The gantt view is not available in this GTK Client, you should use the web interface or switch to the calendar view."
-msgstr "Bu GTK istemcisinde gantt görünümü henüz eklenmedi, web arayüzüne yada takvim görünümüne geçiniz."
+#: bin/widget/view/gantt_gtk/parser_dummy.py:31
+msgid ""
+"The gantt view is not available in this GTK Client, you should use the web "
+"interface or switch to the calendar view."
+msgstr ""
+"Bu GTK istemcisinde gantt görünümü henüz eklenmedi, web arayüzüne yada "
+"takvim görünümüne geçiniz."
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1422
+#: bin/widget/view/diagram_gtk/xdot.py:1422
 msgid "Dot Viewer"
 msgstr "Nokta gösterici"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1712
+#: bin/widget/view/diagram_gtk/xdot.py:1712
 msgid "Add New Node"
 msgstr "Yeni Düğüm Ekle"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1713
+#: bin/widget/view/diagram_gtk/xdot.py:1713
 msgid "Add New Edge"
 msgstr "Yeni köşe ekle"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1714
+#: bin/widget/view/diagram_gtk/xdot.py:1714
 msgid "Enlarge the Diagram"
 msgstr "Diyagramı Büyüt"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1715
+#: bin/widget/view/diagram_gtk/xdot.py:1715
 msgid "Shrink the Diagram"
 msgstr "Diyagramı Küçült"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1716
+#: bin/widget/view/diagram_gtk/xdot.py:1716
 msgid "Fit the diagram to the window"
 msgstr "Diyagramı ekrana sığdır"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1717
+#: bin/widget/view/diagram_gtk/xdot.py:1717
 msgid "Show the diagram at its normal size"
 msgstr "Diyagramı normal boyunda göster"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1718
+#: bin/widget/view/diagram_gtk/xdot.py:1718
 msgid "Print the Diagram"
 msgstr "Diyagramı Yazdır"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1772
-# File: bin/modules/gui/window/win_search.py, line: 49
+#: bin/widget/view/diagram_gtk/xdot.py:1772
+#: bin/modules/gui/window/win_search.py:49
 msgid "OpenERP - Link"
 msgstr "OpenERP - Bağlantısı"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1789
+#: bin/widget/view/diagram_gtk/xdot.py:1789
 #, python-format
 msgid "Close Current %s"
 msgstr "Şu anki %s kapat"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1790
+#: bin/widget/view/diagram_gtk/xdot.py:1790
 #, python-format
 msgid "Delete Current %s"
 msgstr "Güncel %s Sil"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1791
+#: bin/widget/view/diagram_gtk/xdot.py:1791
 #, python-format
 msgid "Edit Current %s"
 msgstr "Güncel %s Düzenle"
 
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1875
+#: bin/widget/view/diagram_gtk/xdot.py:1875
 msgid " - Dot Viewer"
 msgstr " - Nokta Gösterici"
 
-#
-# File: bin/widget/view/tree_gtk/parser.py, line: 61
+#: bin/widget/view/tree_gtk/parser.py:61
 msgid ""
 "You have unsaved record(s) !  \n"
 "\n"
@@ -644,51 +584,44 @@ msgstr ""
 "\n"
 "Sıralamadan önce lütfen onları kaydedin!"
 
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 140
+#: bin/widget/view/tree_gtk/editabletree.py:140
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Kısayol: %s"
 
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 140
+#: bin/widget/view/tree_gtk/editabletree.py:140
 msgid "F1 New - F2 Open/Search"
 msgstr "F1 Yeni - F2 Aç/Ara"
 
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 215
+#: bin/widget/view/tree_gtk/editabletree.py:215
 #, python-format
 msgid "Warning; field %s is required!"
 msgstr "Uyarı; %s alanı gereklidir!"
 
-#
-# File: bin/widget/view/tree_gtk/date_renderer.py, line: 197
-msgid "Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
-msgstr "Özel tarih operatörlerini kullanmak için <i>'+'</i>, <i>'-'</i> or <i>'='</i> basınız."
+#: bin/widget/view/tree_gtk/date_renderer.py:197
+msgid ""
+"Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
+msgstr ""
+"Özel tarih operatörlerini kullanmak için <i>'+'</i>, <i>'-'</i> or "
+"<i>'='</i> basınız."
 
-#
-# File: bin/widget/view/screen_container.py, line: 74
+#: bin/widget/view/screen_container.py:74
 msgid "--Actions--"
 msgstr "--Eylemler--"
 
-#
-# File: bin/widget/view/screen_container.py, line: 74
+#: bin/widget/view/screen_container.py:74
 msgid "Save as a Filter"
 msgstr "Filtre olarak kaydet"
 
-#
-# File: bin/widget/view/screen_container.py, line: 74
+#: bin/widget/view/screen_container.py:74
 msgid "Manage Filters"
 msgstr "Filtreleri Yönet:"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 61
+#: bin/widget/view/form_gtk/parser.py:61
 msgid "Wrong icon for the button !"
 msgstr "Düğme için Yanlış simge !"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 134
-# File: bin/modules/gui/window/form.py, line: 365
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 #, python-format
 msgid ""
 "Correct following red fields !\n"
@@ -699,394 +632,315 @@ msgstr ""
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
 # File: bin/modules/gui/window/form.py, line: 365
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 msgid "Input Error !"
 msgstr "Giriş Hatalı"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 308
+#: bin/widget/view/form_gtk/parser.py:308
 msgid "Field"
 msgstr "Alan"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 308
+#: bin/widget/view/form_gtk/parser.py:308
 msgid "Object"
 msgstr "Nesne"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 619
+#: bin/widget/view/form_gtk/parser.py:619
 msgid "Enter some text to the related field before adding translations!"
 msgstr "Çeviri girmeden önce ilgili alana bir miktar metin giriniz."
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 626
+#: bin/widget/view/form_gtk/parser.py:626
 msgid "You need to save resource before adding translations!"
 msgstr "Çeviri eklemeden önce kaynağı kaydetmeniz gerekir!"
 
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 880
+#: bin/widget/view/form_gtk/parser.py:880
 msgid "Translate view"
 msgstr "Görünümü çevir"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 52
-# File: bin/modules/gui/main.py, line: 1079
-# File: bin/openerp.glade, line: 6095
+#: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1079
+#: bin/openerp.glade:6095
 msgid "OpenERP"
 msgstr "OpenERP"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 64
+#: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
 msgstr "İptal"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 70
+#: bin/widget/view/form_gtk/one2many_list.py:70
 msgid "Save & Close"
 msgstr "Kaydet & Kapat"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 75
+#: bin/widget/view/form_gtk/one2many_list.py:75
 msgid "Save & New"
 msgstr "Kaydet & Yeni"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 164
-# File: bin/widget/view/form_gtk/interface.py, line: 48
+#: bin/widget/view/form_gtk/one2many_list.py:164
+#: bin/widget/view/form_gtk/interface.py:48
 msgid "Set to default value"
 msgstr "Varsayılan değere ayarla"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 167
+#: bin/widget/view/form_gtk/one2many_list.py:167
 msgid "Set Default"
 msgstr "Varsayılan Olarak Ata"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 196
+#: bin/widget/view/form_gtk/one2many_list.py:196
 msgid "Create a new entry"
 msgstr "Yeni bir giriş yarat"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 200
+#: bin/widget/view/form_gtk/one2many_list.py:200
 msgid "Edit this entry"
 msgstr "Girişi düzenle"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 204
+#: bin/widget/view/form_gtk/one2many_list.py:204
 msgid "Remove this entry"
 msgstr "Girişi sil"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 210
-# File: bin/widget/view/form_gtk/many2many.py, line: 84
+#: bin/widget/view/form_gtk/one2many_list.py:210
+#: bin/widget/view/form_gtk/many2many.py:84
 msgid "Previous Page"
 msgstr "Önceki Sayfa"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 214
-# File: bin/widget/view/form_gtk/many2many.py, line: 88
+#: bin/widget/view/form_gtk/one2many_list.py:214
+#: bin/widget/view/form_gtk/many2many.py:88
 msgid "Previous Record"
 msgstr "Önceki Kayıt"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 222
-# File: bin/widget/view/form_gtk/many2many.py, line: 96
+#: bin/widget/view/form_gtk/one2many_list.py:222
+#: bin/widget/view/form_gtk/many2many.py:96
 msgid "Next Record"
 msgstr "Sonraki Kayıt"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 226
-# File: bin/widget/view/form_gtk/many2many.py, line: 100
+#: bin/widget/view/form_gtk/one2many_list.py:226
+#: bin/widget/view/form_gtk/many2many.py:100
 msgid "Next Page"
 msgstr "Sonraki Sayfa"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 232
+#: bin/widget/view/form_gtk/one2many_list.py:232
 msgid "Switch"
 msgstr "Değiştir"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 238
-# File: bin/widget/view/form_gtk/many2many.py, line: 106
+#: bin/widget/view/form_gtk/one2many_list.py:238
+#: bin/widget/view/form_gtk/many2many.py:106
 msgid "Choose Limit"
 msgstr "Limit Seç"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 279
+#: bin/widget/view/form_gtk/one2many_list.py:279
 msgid "You have to select a resource !"
 msgstr "Bir kaynak seçmeniz gerekir !"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 388
-# File: bin/modules/gui/window/form.py, line: 290
+#: bin/widget/view/form_gtk/one2many_list.py:388
+#: bin/modules/gui/window/form.py:290
 msgid "Are you sure to remove this record ?"
 msgstr "Bu kayıdı silmek istiyor musunuz ?"
 
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 390
-# File: bin/modules/gui/window/form.py, line: 292
+#: bin/widget/view/form_gtk/one2many_list.py:390
+#: bin/modules/gui/window/form.py:292
 msgid "Are you sure to remove those records ?"
 msgstr "Bu kayıtları silmek istiyor musunuz ?"
 
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 49
+#: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
 msgstr "Varsayılan Olarak Ata"
 
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 64
+#: bin/widget/view/form_gtk/interface.py:64
 msgid "You can not set to the default value here !"
 msgstr "Buradan öntanımlı değere ayarlayamazsınız !"
 
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 64
+#: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permited"
 msgstr "İşleme izin verilmemiş"
 
-#
-# File: bin/widget/view/form_gtk/calendar.py, line: 99
-# File: bin/widget/view/form_gtk/calendar.py, line: 163
+#: bin/widget/view/form_gtk/calendar.py:99
+#: bin/widget/view/form_gtk/calendar.py:163
 msgid "Invalid date value! Year must be greater than 1899 !"
 msgstr "Geçersiz tarih değeri! Yıl 1899'dan büyük olmalıdır !"
 
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 158
-# File: bin/widget/view/form_gtk/url.py, line: 53
+#: bin/widget/view/form_gtk/many2one.py:158 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
 msgstr "Bu kaynağı aç"
 
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 174
-# File: bin/openerp.glade, line: 1412
+#: bin/widget/view/form_gtk/many2one.py:174 bin/openerp.glade:1412
 msgid "Action"
 msgstr "İşlem"
 
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 175
+#: bin/widget/view/form_gtk/many2one.py:175
 msgid "Report"
 msgstr "Rapor"
 
-#
-# File: bin/widget/view/form_gtk/url.py, line: 50
+#: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
 msgstr ""
 
-#
-# File: bin/widget/view/form_gtk/url.py, line: 118
-# File: bin/widget/view/form_gtk/image.py, line: 112
-# File: bin/modules/gui/main.py, line: 1389
-# File: bin/openerp.glade, line: 5831
+#: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
+#: bin/modules/gui/main.py:1389 bin/openerp.glade:5831
 msgid "Open..."
 msgstr "Aç..."
 
-#
-# File: bin/widget/view/form_gtk/reference.py, line: 76
-# File: bin/openerp.glade, line: 1258
+#: bin/widget/view/form_gtk/reference.py:76 bin/openerp.glade:1258
 msgid "Create a new resource"
 msgstr "Yeni bir kaynak yarat"
 
-#
-# File: bin/widget/view/form_gtk/reference.py, line: 89
+#: bin/widget/view/form_gtk/reference.py:89
 msgid "Search / Open a resource"
 msgstr "Bir kaynak Ara / Aç"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 73
+#: bin/widget/view/form_gtk/image.py:73
 msgid "Set Image"
 msgstr "Resmi ayarla"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 82
-# File: bin/widget/view/form_gtk/binary.py, line: 84
+#: bin/widget/view/form_gtk/image.py:82 bin/widget/view/form_gtk/binary.py:84
 msgid "Save As"
 msgstr "Farklı Kaydet"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 93
-# File: bin/widget/view/form_gtk/binary.py, line: 88
+#: bin/widget/view/form_gtk/image.py:93 bin/widget/view/form_gtk/binary.py:88
 msgid "Clear"
 msgstr "Temizle"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 102
+#: bin/widget/view/form_gtk/image.py:102
 msgid "All files"
 msgstr "Tüm dosyalar"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 106
+#: bin/widget/view/form_gtk/image.py:106
 msgid "Images"
 msgstr "Resimler"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 127
+#: bin/widget/view/form_gtk/image.py:127
 msgid "There is no image to save as !"
 msgstr "Farklı kaydedecek resim yok !"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 127
+#: bin/widget/view/form_gtk/image.py:127
 msgid "Warning"
 msgstr "Uyarı"
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 129
-# File: bin/widget/view/form_gtk/binary.py, line: 167
-# File: bin/printer/printer.py, line: 231
-# File: bin/modules/gui/main.py, line: 1493
-# File: bin/modules/gui/window/win_export.py, line: 359
+#: bin/widget/view/form_gtk/image.py:129
+#: bin/widget/view/form_gtk/binary.py:167 bin/printer/printer.py:231
+#: bin/modules/gui/main.py:1493 bin/modules/gui/window/win_export.py:359
 msgid "Save As..."
 msgstr "Farklı Kaydet..."
 
-#
-# File: bin/widget/view/form_gtk/image.py, line: 177
+#: bin/widget/view/form_gtk/image.py:177
 msgid "Image corrupted"
 msgstr ""
 
-#
-# File: bin/widget/view/form_gtk/wid_common.py, line: 59
+#: bin/widget/view/form_gtk/wid_common.py:59
 msgid "Always applicable !"
 msgstr "Her zaman geçerli!"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 76
+#: bin/widget/view/form_gtk/binary.py:76
 msgid "Select"
 msgstr "Seç"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 80
+#: bin/widget/view/form_gtk/binary.py:80
 msgid "Open"
 msgstr "Aç"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 119
-# File: bin/widget/view/form_gtk/binary.py, line: 163
+#: bin/widget/view/form_gtk/binary.py:119
+#: bin/widget/view/form_gtk/binary.py:163
 msgid "Unable to read the file data"
 msgstr "Dosya verisi okunamıyor"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 129
-# File: bin/widget/view/form_gtk/binary.py, line: 155
+#: bin/widget/view/form_gtk/binary.py:129
+#: bin/widget/view/form_gtk/binary.py:155
 #, python-format
 msgid "Error reading the file: %s"
 msgstr "%s Dosya okunamıyor"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 138
+#: bin/widget/view/form_gtk/binary.py:138
 msgid "All Files"
 msgstr "Bütün Dosyalar"
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 148
+#: bin/widget/view/form_gtk/binary.py:148
 msgid "Select a file..."
 msgstr "Dosya seç..."
 
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 177
+#: bin/widget/view/form_gtk/binary.py:177
 #, python-format
 msgid "Error writing the file: %s"
 msgstr "%s dosya kayıdında hata"
 
-#
-# File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 30
+#: bin/widget/view/calendar_gtk/parser_dummy.py:30
 msgid "Calendar View Error !"
 msgstr "Takvim Görünüm Hatası !"
 
-#
-# File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 31
+#: bin/widget/view/calendar_gtk/parser_dummy.py:31
 msgid "You must intall the library python-hippocanvas to use calendars."
-msgstr "Takvimleri kullanabilmek için python-hippocanvas kütüphanesini yüklemeniz gerekir."
+msgstr ""
+"Takvimleri kullanabilmek için python-hippocanvas kütüphanesini yüklemeniz "
+"gerekir."
 
-#
-# File: bin/widget/view/calendar_gtk/parser.py, line: 355
-# File: bin/openerp.glade, line: 8078
+#: bin/widget/view/calendar_gtk/parser.py:355 bin/openerp.glade:8078
 msgid "Week"
 msgstr "Hafta"
 
-#
-# File: bin/widget/view/graph_gtk/parser.py, line: 64
+#: bin/widget/view/graph_gtk/parser.py:64
 msgid "Can not generate graph !"
 msgstr "Grafik oluşturulamıyor !"
 
-#
-# File: bin/options.py, line: 121
+#: bin/options.py:121
 #, python-format
 msgid "OpenERP Client %s"
 msgstr "OpenERP İstemcisi %s"
 
-#
-# File: bin/options.py, line: 122
+#: bin/options.py:122
 msgid "specify alternate config file"
 msgstr "alternatif konfigirasyon dosyası belirle"
 
-#
-# File: bin/options.py, line: 123
+#: bin/options.py:123
 msgid "Enable basic debugging. Alias for '--log-level=debug'"
 msgstr "Temel hata ayıklamayı etkinleştir. '--log-level=debug' ile aynıdır."
 
-#
-# File: bin/options.py, line: 124
+#: bin/options.py:124
 #, python-format
 msgid "specify the log level: %s"
 msgstr "log seviyesini belirtin: %s"
 
-#
-# File: bin/options.py, line: 125
+#: bin/options.py:125
 msgid "specify the user login"
 msgstr "kullanıcı giriş adı belirle"
 
-#
-# File: bin/options.py, line: 126
+#: bin/options.py:126
 msgid "specify the server port"
 msgstr "sunucu portunu belirle"
 
-#
-# File: bin/options.py, line: 127
+#: bin/options.py:127
 msgid "specify the server ip/name"
 msgstr "sunucu ip/adını belirle"
 
-#
-# File: bin/openerp-client.py, line: 142
+#: bin/openerp-client.py:142
 msgid "Closing OpenERP, KeyboardInterrupt"
 msgstr "OpenERP Kapatılıyor, KeyboardInterrupt"
 
-#
-# File: bin/plugins/__init__.py, line: 27
+#: bin/plugins/__init__.py:27
 msgid "Print Workflow"
 msgstr "İş Akışını Yazdır"
 
-#
-# File: bin/plugins/__init__.py, line: 28
+#: bin/plugins/__init__.py:28
 msgid "Print Workflow (with subflows)"
 msgstr "İş Akışı'nı (Alt Akışlarla) Yazdır"
 
-#
-# File: bin/plugins/__init__.py, line: 40
+#: bin/plugins/__init__.py:40
 msgid "No available plugin for this resource !"
 msgstr "Bu kaynak için şu an eklenti yok !"
 
-#
-# File: bin/plugins/__init__.py, line: 42
+#: bin/plugins/__init__.py:42
 msgid "Choose a Plugin"
 msgstr "Eklenti Seç"
 
 #
 # File: bin/translate.py, line: 183
+#: bin/translate.py:183
 #, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr "Yerel %(lang_enc)s ayarı yapılamadı: %(exception)s"
 
-#
-# File: bin/rpc.py, line: 157
-# File: bin/modules/action/wizard.py, line: 150
-# File: bin/modules/gui/main.py, line: 187
+#: bin/rpc.py:157 bin/modules/action/wizard.py:150 bin/modules/gui/main.py:187
 msgid "Connection refused !"
 msgstr "Bağlantı reddedildi !"
 
-#
-# File: bin/rpc.py, line: 158
+#: bin/rpc.py:158
 msgid "Connection refused!"
 msgstr "Bağlantı reddedildi!"
 
-#
-# File: bin/rpc.py, line: 188
+#: bin/rpc.py:188
 msgid ""
 "Unable to reach to OpenERP server !\n"
 "You should check your connection to the network and the OpenERP server."
@@ -1094,227 +948,179 @@ msgstr ""
 "OpenERP sunucusuna erişilemiyor !\n"
 "OpenERP sunucusuna ve ağa olan bağlantınızı kontrol etmelisiniz."
 
-#
-# File: bin/rpc.py, line: 188
+#: bin/rpc.py:188
 msgid "Connection Error"
 msgstr "Bağlantı Hatası"
 
-#
-# File: bin/rpc.py, line: 203
-# File: bin/rpc.py, line: 205
-# File: bin/modules/action/wizard.py, line: 162
-# File: bin/modules/action/wizard.py, line: 168
-# File: bin/modules/action/wizard.py, line: 170
-# File: bin/modules/gui/main.py, line: 195
-# File: bin/modules/gui/main.py, line: 201
+#: bin/rpc.py:203 bin/rpc.py:205 bin/modules/action/wizard.py:162
+#: bin/modules/action/wizard.py:168 bin/modules/action/wizard.py:170
+#: bin/modules/gui/main.py:195 bin/modules/gui/main.py:201
 msgid "Application Error"
 msgstr "Uygulama Hatası"
 
-#
-# File: bin/rpc.py, line: 205
-# File: bin/modules/action/wizard.py, line: 170
+#: bin/rpc.py:205 bin/modules/action/wizard.py:170
 msgid "View details"
 msgstr "Ayrıntıları gör"
 
-#
-# File: bin/printer/printer.py, line: 184
+#: bin/printer/printer.py:184
 #, python-format
 msgid "Unable to handle %s filetype"
 msgstr "%s tipi uygulama çalıştırılamamaktadır"
 
-#
-# File: bin/printer/printer.py, line: 193
+#: bin/printer/printer.py:193
 #, python-format
 msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
 
-#
-# File: bin/printer/printer.py, line: 195
+#: bin/printer/printer.py:195
 msgid "Print Report"
 msgstr ""
 
-#
-# File: bin/printer/printer.py, line: 212
+#: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
-msgstr "Hata ! Veri bulunamadı. Yazmaya yetecek kadar veri olduğundan emin olun !"
+msgstr ""
+"Hata ! Veri bulunamadı. Yazmaya yetecek kadar veri olduğundan emin olun !"
 
-#
-# File: bin/printer/printer.py, line: 239
+#: bin/printer/printer.py:239
 msgid "Error writing the file!"
 msgstr "Dosya yazdırma hatası"
 
-#
-# File: bin/modules/action/main.py, line: 48
+#: bin/modules/action/main.py:48
 msgid "Nothing to print!"
 msgstr "Yazdırılacak Birşey Yok!"
 
-#
-# File: bin/modules/action/main.py, line: 66
+#: bin/modules/action/main.py:66
 msgid "Printing aborted, too long delay !"
 msgstr "Yazma işlemi iptal edildi, çok fazla süre geçti!"
 
-#
-# File: bin/modules/action/main.py, line: 195
+#: bin/modules/action/main.py:195
 msgid "Select your action"
 msgstr "Yapmak istediğinizi seçiniz"
 
-#
-# File: bin/modules/gui/main.py, line: 89
-# File: bin/modules/gui/main.py, line: 341
+#: bin/modules/gui/main.py:89 bin/modules/gui/main.py:341
 msgid "Could not connect to server !"
 msgstr "Sunucuya bağlanılamıyor !"
 
-#
-# File: bin/modules/gui/main.py, line: 93
-# File: bin/openerp.glade, line: 72
-# File: bin/openerp.glade, line: 6247
-# File: bin/openerp.glade, line: 6493
-# File: bin/openerp.glade, line: 6816
-# File: bin/openerp.glade, line: 7480
+#: bin/modules/gui/main.py:93 bin/openerp.glade:72 bin/openerp.glade:6247
+#: bin/openerp.glade:6493 bin/openerp.glade:6816 bin/openerp.glade:7480
 msgid "Server:"
 msgstr "Sunucu Server:"
 
-#
-# File: bin/modules/gui/main.py, line: 104
-# File: bin/openerp.glade, line: 98
-# File: bin/openerp.glade, line: 6529
-# File: bin/openerp.glade, line: 6773
-# File: bin/openerp.glade, line: 7072
-# File: bin/openerp.glade, line: 7437
+#: bin/modules/gui/main.py:104 bin/openerp.glade:98 bin/openerp.glade:6529
+#: bin/openerp.glade:6773 bin/openerp.glade:7072 bin/openerp.glade:7437
 msgid "Change"
 msgstr "Değiştir"
 
-#
-# File: bin/modules/gui/main.py, line: 111
+#: bin/modules/gui/main.py:111
 msgid "Super Administrator Password:"
 msgstr "Üst Yönetici Parolası:"
 
-#
-# File: bin/modules/gui/main.py, line: 193
+#: bin/modules/gui/main.py:193
 msgid "Bad Super Administrator Password"
 msgstr "Üst yönetici parolası hatalı !"
 
-#
-# File: bin/modules/gui/main.py, line: 217
+#: bin/modules/gui/main.py:217
 msgid "Migration Scripts"
 msgstr "Taşıma Betikleri"
 
-#
-# File: bin/modules/gui/main.py, line: 220
+#: bin/modules/gui/main.py:220
 msgid "Contract ID:"
 msgstr "Sözleşme No:"
 
-#
-# File: bin/modules/gui/main.py, line: 226
+#: bin/modules/gui/main.py:226
 msgid "Contract Password:"
 msgstr "Sözleşme Parolası:"
 
-#
-# File: bin/modules/gui/main.py, line: 241
+#: bin/modules/gui/main.py:241
 msgid "You already have the latest version"
 msgstr "Halihazırda son sürümü kullanıyorsunuz"
 
-#
-# File: bin/modules/gui/main.py, line: 246
+#: bin/modules/gui/main.py:246
 msgid "The following updates are available:"
 msgstr "Aşağıdaki güncellemeler mevcuttur:"
 
-#
-# File: bin/modules/gui/main.py, line: 258
+#: bin/modules/gui/main.py:258
 msgid "You can now migrate your databases."
 msgstr "Artık veritabanlarınızı taşıyabilirsiniz."
 
-#
-# File: bin/modules/gui/main.py, line: 263
+#: bin/modules/gui/main.py:263
 msgid "Migrate Database"
 msgstr "Veritabanı Taşı"
 
-#
-# File: bin/modules/gui/main.py, line: 280
+#: bin/modules/gui/main.py:280
 msgid "Database"
 msgstr "Veritabanı"
 
-#
-# File: bin/modules/gui/main.py, line: 292
+#: bin/modules/gui/main.py:292
 msgid "Your database has been upgraded."
 msgstr "Veritabanınız güncellendi."
 
-#
-# File: bin/modules/gui/main.py, line: 294
+#: bin/modules/gui/main.py:294
 msgid "Your databases have been upgraded."
 msgstr "Veritabanlarınız güncellendi."
 
-#
-# File: bin/modules/gui/main.py, line: 296
+#: bin/modules/gui/main.py:296
 msgid "You have not selected a database"
 msgstr "Herhangi bir veritabanı seçilmedi."
 
-#
-# File: bin/modules/gui/main.py, line: 360
+#: bin/modules/gui/main.py:360
 msgid "No database found, you must create one !"
 msgstr "Hiç veritabanı bulunamadı, bir tane yaratmalısınız !"
 
-#
-# File: bin/modules/gui/main.py, line: 468
+#: bin/modules/gui/main.py:468
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
 #
 # File: bin/modules/gui/main.py, line: 473
+#: bin/modules/gui/main.py:473
 #, python-format
-msgid "The versions of the server %(server_version)s and the client %(client_version)s mismatch. The client may not work properly. Use it at your own risks."
-msgstr "Sunucu %(server_version)s sürümü ile istemci %(client_version)s sürümü uymamaktadır. İstemci tam çalışmayabilir. Bu riski bilerek kullanıma devam edin."
+msgid ""
+"The versions of the server %(server_version)s and the client "
+"%(client_version)s mismatch. The client may not work properly. Use it at "
+"your own risks."
+msgstr ""
+"Sunucu %(server_version)s sürümü ile istemci %(client_version)s sürümü "
+"uymamaktadır. İstemci tam çalışmayabilir. Bu riski bilerek kullanıma devam "
+"edin."
 
-#
-# File: bin/modules/gui/main.py, line: 610
+#: bin/modules/gui/main.py:610
 msgid "Sorry,'"
 msgstr "Üzgünüm,'"
 
-#
-# File: bin/modules/gui/main.py, line: 610
-# File: bin/modules/gui/main.py, line: 613
+#: bin/modules/gui/main.py:610 bin/modules/gui/main.py:613
 msgid "Bad database name !"
 msgstr "Geçersiz veritabanı adı !"
 
-#
-# File: bin/modules/gui/main.py, line: 613
+#: bin/modules/gui/main.py:613
 msgid ""
 "The database name must contain only normal characters or \"_\".\n"
 "You must avoid all accents, space or special characters."
-msgstr "Bu veritabanı adı sadece normal karakterler ya da \"_\" içerebilir.Özel karakterler veya boşluk kullanmayın."
+msgstr ""
+"Bu veritabanı adı sadece normal karakterler ya da \"_\" içerebilir.Özel "
+"karakterler veya boşluk kullanmayın."
 
-#
-# File: bin/modules/gui/main.py, line: 637
-# File: bin/modules/gui/main.py, line: 650
-# File: bin/modules/gui/main.py, line: 652
-# File: bin/modules/gui/main.py, line: 654
+#: bin/modules/gui/main.py:637 bin/modules/gui/main.py:650
+#: bin/modules/gui/main.py:652 bin/modules/gui/main.py:654
 msgid "Could not create database."
 msgstr "Veritabanı oluşturulamadı"
 
-#
-# File: bin/modules/gui/main.py, line: 638
-# File: bin/modules/gui/main.py, line: 650
+#: bin/modules/gui/main.py:638 bin/modules/gui/main.py:650
 msgid "Database already exists !"
 msgstr "Veritabanı zaten var !"
 
-#
-# File: bin/modules/gui/main.py, line: 652
-# File: bin/modules/gui/main.py, line: 1384
-# File: bin/modules/gui/main.py, line: 1404
-# File: bin/modules/gui/main.py, line: 1509
+#: bin/modules/gui/main.py:652 bin/modules/gui/main.py:1384
+#: bin/modules/gui/main.py:1404 bin/modules/gui/main.py:1509
 msgid "Bad database administrator password !"
 msgstr "Geçersiz veritabanı yöneticisi parolası !"
 
-#
-# File: bin/modules/gui/main.py, line: 654
-# File: bin/modules/gui/main.py, line: 661
+#: bin/modules/gui/main.py:654 bin/modules/gui/main.py:661
 msgid "Error during database creation !"
 msgstr "Veritabanı oluşturmada hata !"
 
-#
-# File: bin/modules/gui/main.py, line: 661
+#: bin/modules/gui/main.py:661
 msgid ""
 "The server crashed during installation.\n"
 "We suggest you to drop this database."
@@ -1322,52 +1128,47 @@ msgstr ""
 "Sunucu yükleme sırasında çöktü.\n"
 "Bu veritabanını silmenizi tavsiye ederiz."
 
-#
-# File: bin/modules/gui/main.py, line: 707
-# File: bin/modules/gui/main.py, line: 1072
+#: bin/modules/gui/main.py:707 bin/modules/gui/main.py:1072
 msgid "Press Ctrl+O to login"
 msgstr "Giriş için Ctrl-O 'ya basın"
 
-#
-# File: bin/modules/gui/main.py, line: 974
+#: bin/modules/gui/main.py:974
 #, python-format
 msgid "%s"
 msgstr "%s"
 
-#
-# File: bin/modules/gui/main.py, line: 976
+#: bin/modules/gui/main.py:976
 msgid "No Company"
 msgstr "Şirket yok"
 
-#
-# File: bin/modules/gui/main.py, line: 989
+#: bin/modules/gui/main.py:989
 #, python-format
 msgid "%s request(s)"
 msgstr "%s istek(ler)"
 
-#
-# File: bin/modules/gui/main.py, line: 991
+#: bin/modules/gui/main.py:991
 msgid "No request"
 msgstr "İstek yok"
 
-#
-# File: bin/modules/gui/main.py, line: 993
+#: bin/modules/gui/main.py:993
 #, python-format
 msgid " - %s request(s) sent"
 msgstr " - %s istek(ler) gönderildi."
 
-#
-# File: bin/modules/gui/main.py, line: 1031
-msgid "Please double-check the database name or contact your administrator to verify the database status."
-msgstr "Lütfen veritabanı adını kontrol ediniz sorun devam ediyorsa sistem yöneticinizle iletişime geçip veritabanının kullanılabilir olduğunu doğrulayınız."
+#: bin/modules/gui/main.py:1031
+msgid ""
+"Please double-check the database name or contact your administrator to "
+"verify the database status."
+msgstr ""
+"Lütfen veritabanı adını kontrol ediniz sorun devam ediyorsa sistem "
+"yöneticinizle iletişime geçip veritabanının kullanılabilir olduğunu "
+"doğrulayınız."
 
-#
-# File: bin/modules/gui/main.py, line: 1031
+#: bin/modules/gui/main.py:1031
 msgid "Database cannot be accessed or does not exist"
 msgstr "Veritabanına ulaşılamadı ya da böyle bir veritabanı yok"
 
-#
-# File: bin/modules/gui/main.py, line: 1035
+#: bin/modules/gui/main.py:1035
 msgid ""
 "Connection error !\n"
 "Unable to connect to the server !"
@@ -1375,8 +1176,7 @@ msgstr ""
 "Bağlantı hatası!\n"
 "Sunucuya bağlanılamıyor !"
 
-#
-# File: bin/modules/gui/main.py, line: 1037
+#: bin/modules/gui/main.py:1037
 msgid ""
 "Authentication error !\n"
 "Bad Username or Password !"
@@ -1384,211 +1184,173 @@ msgstr ""
 "Kimlik denetleme hatası !\n"
 "Yanlıs Kullanıcı Adı veya Parola!"
 
-#
-# File: bin/modules/gui/main.py, line: 1050
+#: bin/modules/gui/main.py:1050
 #, python-format
 msgid "OpenERP - %s"
 msgstr "OpenERP - %s"
 
-#
-# File: bin/modules/gui/main.py, line: 1070
+#: bin/modules/gui/main.py:1070
 msgid "Not logged !"
 msgstr "Giriş yapılmadı !"
 
-#
-# File: bin/modules/gui/main.py, line: 1153
+#: bin/modules/gui/main.py:1153
 msgid ""
 "You can not log into the system !\n"
 "Ask the administrator to verify\n"
 "you have an action defined for your user."
 msgstr ""
 "Sisteme giriş yapamazsınız !\n"
-"Kullanıcınız için gerekli izinlerinizin olduğunu sistem yöneticisinden doğrulayın."
+"Kullanıcınız için gerekli izinlerinizin olduğunu sistem yöneticisinden "
+"doğrulayın."
 
-#
-# File: bin/modules/gui/main.py, line: 1187
-# File: bin/modules/gui/main.py, line: 1194
+#: bin/modules/gui/main.py:1187 bin/modules/gui/main.py:1194
 msgid "Do you really want to quit ?"
 msgstr "Gerçekten çıkmak mı istiyorsunuz?"
 
-#
-# File: bin/modules/gui/main.py, line: 1263
+#: bin/modules/gui/main.py:1263
 #, python-format
 msgid "Attachments (%d)"
 msgstr "Ekler (%d)"
 
-#
-# File: bin/modules/gui/main.py, line: 1276
+#: bin/modules/gui/main.py:1276
 msgid "Attachments"
 msgstr "Ekler"
 
-#
-# File: bin/modules/gui/main.py, line: 1375
+#: bin/modules/gui/main.py:1375
 msgid "Delete a database"
 msgstr "Bir veritabanını sil"
 
-#
-# File: bin/modules/gui/main.py, line: 1381
+#: bin/modules/gui/main.py:1381
 msgid "Database dropped successfully !"
 msgstr "Veritabanı başarılı şekilde silindi !"
 
-#
-# File: bin/modules/gui/main.py, line: 1384
+#: bin/modules/gui/main.py:1384
 msgid "Could not drop database."
 msgstr "Veritabanı silinemiyor."
 
-#
-# File: bin/modules/gui/main.py, line: 1386
+#: bin/modules/gui/main.py:1386
 msgid "Couldn't drop database"
 msgstr "Veritabanı silinemiyor"
 
-#
-# File: bin/modules/gui/main.py, line: 1401
+#: bin/modules/gui/main.py:1401
 msgid "Database restored successfully !"
 msgstr "Veritabanı başarılı bir şekilde geri yüklendi !"
 
-#
-# File: bin/modules/gui/main.py, line: 1404
+#: bin/modules/gui/main.py:1404
 msgid "Could not restore database."
 msgstr "Veritabanı geri yüklenemiyor."
 
-#
-# File: bin/modules/gui/main.py, line: 1406
+#: bin/modules/gui/main.py:1406
 msgid "Couldn't restore database"
 msgstr "Veritabanı geri yüklenemiyor."
 
-#
-# File: bin/modules/gui/main.py, line: 1442
+#: bin/modules/gui/main.py:1442
 msgid "<b>Change your password</b>"
 msgstr ""
 
-#
-# File: bin/modules/gui/main.py, line: 1457
-msgid "Confirmation password does not match new password, operation cancelled!"
+#: bin/modules/gui/main.py:1457
+msgid ""
+"Confirmation password does not match new password, operation cancelled!"
 msgstr "Onaylama parolası yeni parola ile uyuşmuyor, işlem iptal edildi!"
 
-#
-# File: bin/modules/gui/main.py, line: 1459
+#: bin/modules/gui/main.py:1459
 msgid "Validation Error."
 msgstr "Doğrulama Hatası."
 
-#
-# File: bin/modules/gui/main.py, line: 1476
+#: bin/modules/gui/main.py:1476
 msgid "Could not change the Super Admin password."
 msgstr "Üst Yönetici parolası değiştirilemiyor."
 
-#
-# File: bin/modules/gui/main.py, line: 1477
-# File: bin/modules/gui/main.py, line: 1483
+#: bin/modules/gui/main.py:1477 bin/modules/gui/main.py:1483
 msgid "Bad password provided !"
 msgstr "Yanlış şifre sağlandı !"
 
-#
-# File: bin/modules/gui/main.py, line: 1482
+#: bin/modules/gui/main.py:1482
 msgid "Changing password failed, please verify old password."
 msgstr ""
 
-#
-# File: bin/modules/gui/main.py, line: 1490
-# File: bin/modules/gui/main.py, line: 1513
+#: bin/modules/gui/main.py:1490 bin/modules/gui/main.py:1513
 msgid "Backup a database"
 msgstr "Veritabanını yedekle"
 
-#
-# File: bin/modules/gui/main.py, line: 1506
+#: bin/modules/gui/main.py:1506
 msgid "Database backed up successfully !"
 msgstr "Veritabanı başarılı şekilde yedeklendi !"
 
-#
-# File: bin/modules/gui/main.py, line: 1509
+#: bin/modules/gui/main.py:1509
 msgid "Could not backup the database."
 msgstr "Veritabanı yedeklenemiyor."
 
-#
-# File: bin/modules/gui/main.py, line: 1511
+#: bin/modules/gui/main.py:1511
 msgid "Couldn't backup database."
 msgstr "Veritabanı yedeklenemiyor."
 
-#
-# File: bin/modules/gui/window/__init__.py, line: 31
+#: bin/modules/gui/window/__init__.py:31
 msgid "Unknown Window"
 msgstr "Bilinmeyen Pencere"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Extension"
 msgstr "Uzantı"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Application"
 msgstr "Uygulama"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Print Processor"
 msgstr "Yazdırma İşlemcisi"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 114
+#: bin/modules/gui/window/win_extension.py:114
 msgid "This extension is already defined"
 msgstr "Bu uzatma zaten tanımlı"
 
-#
-# File: bin/modules/gui/window/win_extension.py, line: 114
-# File: bin/openerp.glade, line: 7656
+#: bin/modules/gui/window/win_extension.py:114 bin/openerp.glade:7656
 msgid "Extension Manager"
 msgstr "Uzantı Yönetimi"
 
-#
-# File: bin/modules/gui/window/form.py, line: 189
+#: bin/modules/gui/window/form.py:189
 msgid "Resource ID does not exist for this object!"
 msgstr "Bu nesne için kaynak belirteci bulunmuyor."
 
-#
-# File: bin/modules/gui/window/form.py, line: 247
+#: bin/modules/gui/window/form.py:247
 msgid "No record selected ! You can only attach to existing record."
-msgstr "Hiç Kayıt seçilmedi! Sadece oluşturulmuş bir kayda ek ekleyebilirsiniz."
+msgstr ""
+"Hiç Kayıt seçilmedi! Sadece oluşturulmuş bir kayda ek ekleyebilirsiniz."
 
-#
-# File: bin/modules/gui/window/form.py, line: 264
+#: bin/modules/gui/window/form.py:264
 msgid "You have to select a record !"
 msgstr "Bir kayıt seçmelisiniz !"
 
-#
-# File: bin/modules/gui/window/form.py, line: 270
-# File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 41
-# File: bin/modules/gui/window/win_export.py, line: 213
+#: bin/modules/gui/window/form.py:270
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:41
+#: bin/modules/gui/window/win_export.py:213
 msgid "ID"
 msgstr "ID"
 
-#
-# File: bin/modules/gui/window/form.py, line: 271
+#: bin/modules/gui/window/form.py:271
 msgid "Creation User"
 msgstr "Kullanıcı Oluşturma"
 
-#
-# File: bin/modules/gui/window/form.py, line: 272
+#: bin/modules/gui/window/form.py:272
 msgid "Creation Date"
 msgstr "Oluşturulma Tarihi"
 
-#
-# File: bin/modules/gui/window/form.py, line: 273
+#: bin/modules/gui/window/form.py:273
 msgid "Latest Modification by"
 msgstr "En son değiştiren"
 
-#
-# File: bin/modules/gui/window/form.py, line: 274
+#: bin/modules/gui/window/form.py:274
 msgid "Latest Modification Date"
 msgstr "Enson Değiştirilme Tarihi"
 
-#
-# File: bin/modules/gui/window/form.py, line: 275
+#: bin/modules/gui/window/form.py:275
 msgid "Internal Module Data ID"
 msgstr "İç modül veri kimliği"
 
 #
 # File: bin/modules/gui/window/form.py, line: 287
+#: bin/modules/gui/window/form.py:287
 msgid ""
 "Record is not saved ! \n"
 " Do you want to clear current record ?"
@@ -1596,34 +1358,27 @@ msgstr ""
 "Kayıt kaydedilemedi! \n"
 " Bu Kaydı silmek mi istiyorsunuz ?"
 
-#
-# File: bin/modules/gui/window/form.py, line: 296
+#: bin/modules/gui/window/form.py:296
 msgid "Resources cleared."
 msgstr "Kaynaklar temizlendi."
 
-#
-# File: bin/modules/gui/window/form.py, line: 298
+#: bin/modules/gui/window/form.py:298
 msgid "Resources successfully removed."
 msgstr "Kaynaklar başarıyla silindi."
 
-#
-# File: bin/modules/gui/window/form.py, line: 339
+#: bin/modules/gui/window/form.py:339
 msgid "Working now on the duplicated document !"
 msgstr "Çoğaltılmış belge üzerinde çalışılıyor !"
 
-#
-# File: bin/modules/gui/window/form.py, line: 355
+#: bin/modules/gui/window/form.py:355
 msgid "Document Saved."
 msgstr "Döküman Kaydedildi."
 
-#
-# File: bin/modules/gui/window/form.py, line: 368
+#: bin/modules/gui/window/form.py:368
 msgid "Warning !"
 msgstr "Uyarı !"
 
-#
-# File: bin/modules/gui/window/form.py, line: 389
-# File: bin/modules/gui/window/form.py, line: 497
+#: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
 msgid ""
 "This record has been modified\n"
 "do you want to save it ?"
@@ -1631,74 +1386,62 @@ msgstr ""
 "Bu kayıt değiştirildi\n"
 "kaydetmek istermisiniz ?"
 
-#
-# File: bin/modules/gui/window/form.py, line: 447
+#: bin/modules/gui/window/form.py:447
 msgid "You must select one or several records !"
 msgstr "Bir yada daha çok kayıt seçmelisiniz !"
 
-#
-# File: bin/modules/gui/window/form.py, line: 456
+#: bin/modules/gui/window/form.py:456
 msgid "Print Screen"
 msgstr "Ekranı Yazdır"
 
-#
-# File: bin/modules/gui/window/form.py, line: 476
+#: bin/modules/gui/window/form.py:476
 msgid "No record selected"
 msgstr "Seçili Kayıt Yok"
 
-#
-# File: bin/modules/gui/window/form.py, line: 481
+#: bin/modules/gui/window/form.py:481
 msgid "New document"
 msgstr "Yeni belge"
 
-#
-# File: bin/modules/gui/window/form.py, line: 483
+#: bin/modules/gui/window/form.py:483
 msgid "Editing document (id: "
 msgstr "Dosya  Düzenleme (id: "
 
-#
-# File: bin/modules/gui/window/form.py, line: 486
+#: bin/modules/gui/window/form.py:486
 msgid "Record: "
 msgstr "Kayıt: "
 
-#
-# File: bin/modules/gui/window/form.py, line: 487
+#: bin/modules/gui/window/form.py:487
 msgid " of "
 msgstr " nın "
 
-#
-# File: bin/modules/gui/window/view_tree/parse.py, line: 35
+#: bin/modules/gui/window/view_tree/parse.py:35
 msgid "Tree"
 msgstr "Ağaç"
 
-#
-# File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 45
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:45
 msgid "Description"
 msgstr "Açıklama"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 51
+#: bin/modules/gui/window/win_import.py:51
 msgid "The file is empty !"
 msgstr "Dosya boş !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 51
+#: bin/modules/gui/window/win_import.py:51
 msgid "Importation !"
 msgstr "İçealım !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 61
+#: bin/modules/gui/window/win_import.py:61
 msgid "Imported one object !"
 msgstr "Bir obje içe alındı."
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 63
+#: bin/modules/gui/window/win_import.py:63
 #, python-format
 msgid "Imported %d objects !"
 msgstr "%d  obje içeri aktarıldı !"
 
 #
 # File: bin/modules/gui/window/win_import.py, line: 70
+#: bin/modules/gui/window/win_import.py:70
 #, python-format
 msgid ""
 "Error trying to import this record:\n"
@@ -1715,42 +1458,35 @@ msgstr ""
 "\n"
 "%(err_msg)s"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 72
+#: bin/modules/gui/window/win_import.py:72
 msgid "Importation Error !"
 msgstr "İçe aktarım hatası !"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 105
-# File: bin/modules/gui/window/win_import.py, line: 109
+#: bin/modules/gui/window/win_import.py:105
+#: bin/modules/gui/window/win_import.py:109
 msgid "Field name"
 msgstr "Alan adı"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 142
-# File: bin/modules/gui/window/win_import.py, line: 144
-# File: bin/modules/gui/window/win_export.py, line: 214
+#: bin/modules/gui/window/win_import.py:142
+#: bin/modules/gui/window/win_import.py:144
+#: bin/modules/gui/window/win_export.py:214
 msgid "Database ID"
 msgstr ""
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 181
+#: bin/modules/gui/window/win_import.py:181
 msgid "Error opening .CSV file"
 msgstr ".CSV dosyası açılırken hata oluştu"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 181
+#: bin/modules/gui/window/win_import.py:181
 msgid "Input Error."
 msgstr "Giriş Hatalı"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 199
+#: bin/modules/gui/window/win_import.py:199
 #, python-format
 msgid "You cannot import this field %s, because we cannot auto-detect it"
 msgstr "%s alanını içe aktaramazsınız, çünkü otomatik olarak saptanamıyor."
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 202
+#: bin/modules/gui/window/win_import.py:202
 #, python-format
 msgid ""
 "Error processing your first line of the file.\n"
@@ -1759,54 +1495,47 @@ msgstr ""
 "Dosyanın ilk satırı işlenirken hata oluştu.\n"
 "Bilinmeyen alan ! ( %s )"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 202
+#: bin/modules/gui/window/win_import.py:202
 msgid "Import Error."
 msgstr "içe aktarım hatası"
 
-#
-# File: bin/modules/gui/window/win_import.py, line: 233
+#: bin/modules/gui/window/win_import.py:233
 msgid "You have not selected any fields to import"
 msgstr "İçe aktarılacak alan seçmediniz."
 
-#
-# File: bin/modules/gui/window/win_preference.py, line: 68
+#: bin/modules/gui/window/win_preference.py:68
 msgid "Preferences"
 msgstr "Seçenekler"
 
-#
-# File: bin/modules/gui/window/win_preference.py, line: 86
-msgid "The default language of the interface has been modified, do not forget to restart the client to have the interface in your language"
-msgstr "Arayüzün varsayılan dili değişti. Arayüzü kendi dilinizde kullanmak için istemciyi yeniden başlatmayı unutmayınız."
+#: bin/modules/gui/window/win_preference.py:86
+msgid ""
+"The default language of the interface has been modified, do not forget to "
+"restart the client to have the interface in your language"
+msgstr ""
+"Arayüzün varsayılan dili değişti. Arayüzü kendi dilinizde kullanmak için "
+"istemciyi yeniden başlatmayı unutmayınız."
 
-#
-# File: bin/modules/gui/window/win_preference.py, line: 88
+#: bin/modules/gui/window/win_preference.py:88
 msgid "Default language modified !"
 msgstr "Varsayılan dil değişti !"
 
-#
-# File: bin/modules/gui/window/win_selection.py, line: 51
+#: bin/modules/gui/window/win_selection.py:51
 msgid "Name"
 msgstr "isim"
 
-#
-# File: bin/modules/gui/window/win_selection.py, line: 55
+#: bin/modules/gui/window/win_selection.py:55
 msgid "Ressource Name"
 msgstr "Kaynak Adı"
 
-#
-# File: bin/modules/gui/window/win_selection.py, line: 55
+#: bin/modules/gui/window/win_selection.py:55
 msgid "Names"
 msgstr "İsimler"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 205
-# File: bin/modules/gui/window/tree.py, line: 261
+#: bin/modules/gui/window/tree.py:205 bin/modules/gui/window/tree.py:261
 msgid "No resource selected!"
 msgstr "Hiç kaynak seçilemedi!"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 219
+#: bin/modules/gui/window/tree.py:219
 msgid ""
 "Are you sure you want\n"
 "to remove this record?"
@@ -1814,23 +1543,19 @@ msgstr ""
 "Bu kayıdı silmek \n"
 "istediğinizden emin misiniz?"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 224
+#: bin/modules/gui/window/tree.py:224
 msgid "Error removing resource!"
 msgstr "Kaynağı kaldırırmada hata!"
 
-#
-# File: bin/modules/gui/window/tree.py, line: 235
+#: bin/modules/gui/window/tree.py:235
 msgid "Unable to chroot: no tree resource selected"
 msgstr "Kök Dizin değiştirilemedi: Ağaç kaynak seçilmemiş."
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 50
+#: bin/modules/gui/window/win_export.py:50
 msgid " record(s) saved !"
 msgstr " kayıt(lar) kaydedildi !"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 53
+#: bin/modules/gui/window/win_export.py:53
 msgid ""
 "Operation failed !\n"
 "I/O error"
@@ -1838,576 +1563,455 @@ msgstr ""
 "Operasyon başarısız !\n"
 "I/O hatası"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 79
-# File: bin/modules/gui/window/win_export.py, line: 105
+#: bin/modules/gui/window/win_export.py:79
+#: bin/modules/gui/window/win_export.py:105
 msgid "Error Opening Excel !"
 msgstr "Excel'i açarken hata oluştu !"
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 142
-# File: bin/modules/gui/window/win_export.py, line: 146
+#: bin/modules/gui/window/win_export.py:142
+#: bin/modules/gui/window/win_export.py:146
 msgid "Field Name"
 msgstr ""
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 166
+#: bin/modules/gui/window/win_export.py:166
 msgid "Open in Excel"
 msgstr ""
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 167
+#: bin/modules/gui/window/win_export.py:167
 msgid "Save as CSV"
 msgstr ""
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 317
+#: bin/modules/gui/window/win_export.py:317
 msgid "What is the name of this export ?"
 msgstr "Bu dışa aktarımın adını belirtin."
 
-#
-# File: bin/modules/gui/window/win_export.py, line: 351
+#: bin/modules/gui/window/win_export.py:351
 msgid "Exportation Error !"
 msgstr "Dışa aktarım hatası!"
 
-#
-# File: bin/modules/gui/window/win_search.py, line: 126
+#: bin/modules/gui/window/win_search.py:126
 #, python-format
 msgid "OpenERP Search: %s"
 msgstr "OpenERP Arama: %s"
 
-#
-# File: bin/modules/gui/window/win_search.py, line: 127
+#: bin/modules/gui/window/win_search.py:127
 #, python-format
 msgid "OpenERP Search: %s (%%d result(s))"
 msgstr "OpenERP Arama: %s (%%d sonuç(lar))"
 
-#
-# File: bin/openerp.glade, line: 6
+#: bin/openerp.glade:6
 msgid "OpenERP - Login"
 msgstr "OpenERP - Oturum Aç"
 
-#
-# File: bin/openerp.glade, line: 116
-# File: bin/openerp.glade, line: 6419
+#: bin/openerp.glade:116 bin/openerp.glade:6419
 msgid "Database:"
 msgstr "Veritabanı:"
 
-#
-# File: bin/openerp.glade, line: 131
+#: bin/openerp.glade:131
 msgid "User:"
 msgstr "Kullanıcı:"
 
-#
-# File: bin/openerp.glade, line: 146
-# File: bin/openerp.glade, line: 6405
-# File: bin/openerp.glade, line: 6716
+#: bin/openerp.glade:146 bin/openerp.glade:6405 bin/openerp.glade:6716
 msgid "Password:"
 msgstr "Parola:"
 
-#
-# File: bin/openerp.glade, line: 265
+#: bin/openerp.glade:265
 msgid "_File"
 msgstr "_Dosya"
 
-#
-# File: bin/openerp.glade, line: 272
+#: bin/openerp.glade:272
 msgid "_Connect..."
 msgstr "_Bağlan..."
 
-#
-# File: bin/openerp.glade, line: 288
+#: bin/openerp.glade:288
 msgid "_Disconnect"
 msgstr "_Bağlantıyı Kes"
 
-#
-# File: bin/openerp.glade, line: 308
+#: bin/openerp.glade:308
 msgid "Databases"
 msgstr "Veritabanları"
 
-#
-# File: bin/openerp.glade, line: 315
+#: bin/openerp.glade:315
 msgid "_New database"
 msgstr "_Yeni veritabanı"
 
-#
-# File: bin/openerp.glade, line: 330
+#: bin/openerp.glade:330
 msgid "_Restore database"
 msgstr "_Veritabanını Onar"
 
-#
-# File: bin/openerp.glade, line: 345
+#: bin/openerp.glade:345
 msgid "_Backup database"
 msgstr "_Veritabanını Yedekle"
 
-#
-# File: bin/openerp.glade, line: 360
+#: bin/openerp.glade:360
 msgid "Dro_p database"
 msgstr "Verita_banı Sil"
 
-#
-# File: bin/openerp.glade, line: 380
+#: bin/openerp.glade:380
 msgid "_Download Migrations Code"
 msgstr "Yeni sürüme geçiş kodu indir"
 
-#
-# File: bin/openerp.glade, line: 395
+#: bin/openerp.glade:395
 msgid "_Migrate Database(s)"
 msgstr "_Veritaban(lar)ını yeni sürüme geçir"
 
-#
-# File: bin/openerp.glade, line: 415
+#: bin/openerp.glade:415
 msgid "Administrator Password"
 msgstr "Yönetici Şifresi"
 
-#
-# File: bin/openerp.glade, line: 460
+#: bin/openerp.glade:460
 msgid "_User"
 msgstr "_Kullanıcı"
 
-#
-# File: bin/openerp.glade, line: 468
+#: bin/openerp.glade:468
 msgid "_Preferences"
 msgstr "_Seçenekler"
 
-#
-# File: bin/openerp.glade, line: 483
-# File: bin/openerp.glade, line: 7318
+#: bin/openerp.glade:483 bin/openerp.glade:7318
 msgid "Change password"
 msgstr "Parola değiştir"
 
-#
-# File: bin/openerp.glade, line: 496
+#: bin/openerp.glade:496
 msgid "_Send a request"
 msgstr "_İstek Gönder"
 
-#
-# File: bin/openerp.glade, line: 511
+#: bin/openerp.glade:511
 msgid "_Read my requests"
 msgstr "_İsteklerimi Oku"
 
-#
-# File: bin/openerp.glade, line: 531
+#: bin/openerp.glade:531
 msgid "_Waiting Requests"
 msgstr "_Bekleyen istekler"
 
-#
-# File: bin/openerp.glade, line: 544
+#: bin/openerp.glade:544
 msgid "For_m"
 msgstr "For_m"
 
-#
-# File: bin/openerp.glade, line: 552
+#: bin/openerp.glade:552
 msgid "_New"
 msgstr "_Yeni"
 
-#
-# File: bin/openerp.glade, line: 568
+#: bin/openerp.glade:568
 msgid "_Save"
 msgstr "_Kaydet"
 
-#
-# File: bin/openerp.glade, line: 584
+#: bin/openerp.glade:584
 msgid "Copy this resource"
 msgstr "Kaynağı Kopyala"
 
-#
-# File: bin/openerp.glade, line: 585
+#: bin/openerp.glade:585
 msgid "_Duplicate"
 msgstr "_Kopya Oluştur"
 
-#
-# File: bin/openerp.glade, line: 601
+#: bin/openerp.glade:601
 msgid "_Delete"
 msgstr "_Sil"
 
-#
-# File: bin/openerp.glade, line: 622
+#: bin/openerp.glade:622
 msgid "Find"
 msgstr "Bul"
 
-#
-# File: bin/openerp.glade, line: 638
+#: bin/openerp.glade:638
 msgid "Ne_xt"
 msgstr "Sonra_ki"
 
-#
-# File: bin/openerp.glade, line: 654
+#: bin/openerp.glade:654
 msgid "Pre_vious"
 msgstr "Önce_ki"
 
-#
-# File: bin/openerp.glade, line: 670
+#: bin/openerp.glade:670
 msgid "Switch to list/form"
 msgstr "Liste/Form ' a Geç"
 
-#
-# File: bin/openerp.glade, line: 686
+#: bin/openerp.glade:686
 msgid "_Menu"
 msgstr "_Menü"
 
-#
-# File: bin/openerp.glade, line: 707
+#: bin/openerp.glade:707
 msgid "_New Home Tab"
 msgstr "_Yeni Giriş Sayfası"
 
-#
-# File: bin/openerp.glade, line: 723
-# File: bin/openerp.glade, line: 5009
+#: bin/openerp.glade:723 bin/openerp.glade:5009
 msgid "Close Tab"
 msgstr "Sekmeyi Kapat"
 
-#
-# File: bin/openerp.glade, line: 739
+#: bin/openerp.glade:739
 msgid "Previous Tab"
 msgstr "Önceki Sekme"
 
-#
-# File: bin/openerp.glade, line: 748
-# File: bin/openerp.glade, line: 5065
+#: bin/openerp.glade:748 bin/openerp.glade:5065
 msgid "Next Tab"
 msgstr "Sonraki Sekme"
 
-#
-# File: bin/openerp.glade, line: 762
+#: bin/openerp.glade:762
 msgid "View _logs"
 msgstr "Logları_ Göster"
 
-#
-# File: bin/openerp.glade, line: 770
+#: bin/openerp.glade:770
 msgid "_Go to resource ID..."
 msgstr "_Kaynak ID ye git..."
 
-#
-# File: bin/openerp.glade, line: 784
+#: bin/openerp.glade:784
 msgid "_Open"
 msgstr "_Aç"
 
-#
-# File: bin/openerp.glade, line: 799
+#: bin/openerp.glade:799
 msgid "Reloa_d / Undo"
 msgstr "Yeni_den Yükle / İptal"
 
-#
-# File: bin/openerp.glade, line: 820
+#: bin/openerp.glade:820
 msgid "Repeat latest _action"
 msgstr "Son Hamleyi _Tekrarla"
 
-#
-# File: bin/openerp.glade, line: 834
+#: bin/openerp.glade:834
 msgid "_Preview in PDF"
 msgstr "_PDF Olarak Göster"
 
-#
-# File: bin/openerp.glade, line: 850
+#: bin/openerp.glade:850
 msgid "Previe_w in editor"
 msgstr "Editörde _göster"
 
-#
-# File: bin/openerp.glade, line: 870
+#: bin/openerp.glade:870
 msgid "Expor_t data..."
 msgstr "Veri_ver"
 
-#
-# File: bin/openerp.glade, line: 885
+#: bin/openerp.glade:885
 msgid "I_mport data..."
 msgstr "Veri_Al"
 
-#
-# File: bin/openerp.glade, line: 897
+#: bin/openerp.glade:897
 msgid "_Options"
 msgstr "_Seçenekler"
 
-#
-# File: bin/openerp.glade, line: 904
+#: bin/openerp.glade:904
 msgid "_Extension Manager"
 msgstr "_Uzantı Yönetimi"
 
-#
-# File: bin/openerp.glade, line: 912
+#: bin/openerp.glade:912
 msgid "_Menubar"
 msgstr "_Menü Çubuğu"
 
-#
-# File: bin/openerp.glade, line: 920
+#: bin/openerp.glade:920
 msgid "Text _and Icons"
 msgstr "Yazı_ve İkonlar"
 
-#
-# File: bin/openerp.glade, line: 928
+#: bin/openerp.glade:928
 msgid "_Icons only"
 msgstr "Sadece _İkonlar"
 
-#
-# File: bin/openerp.glade, line: 937
+#: bin/openerp.glade:937
 msgid "_Text only"
 msgstr "_Sadece Yazı"
 
-#
-# File: bin/openerp.glade, line: 950
+#: bin/openerp.glade:950
 msgid "_Forms"
 msgstr "_Formlar"
 
-#
-# File: bin/openerp.glade, line: 958
+#: bin/openerp.glade:958
 msgid "Right Toolbar"
 msgstr "Sağ Araççubuğu"
 
-#
-# File: bin/openerp.glade, line: 966
+#: bin/openerp.glade:966
 msgid "Tabs default position"
 msgstr "Sekmeler varsayılan konumda"
 
-#
-# File: bin/openerp.glade, line: 974
+#: bin/openerp.glade:974
 msgid "Top"
 msgstr "Üst"
 
-#
-# File: bin/openerp.glade, line: 982
+#: bin/openerp.glade:982
 msgid "Left"
 msgstr "Sol"
 
-#
-# File: bin/openerp.glade, line: 991
+#: bin/openerp.glade:991
 msgid "Right"
 msgstr "Sağ"
 
-#
-# File: bin/openerp.glade, line: 1000
+#: bin/openerp.glade:1000
 msgid "Bottom"
 msgstr "Alt"
 
-#
-# File: bin/openerp.glade, line: 1013
+#: bin/openerp.glade:1013
 msgid "Tabs default orientation"
 msgstr "Sayfalar varsayılan oryantasyonda"
 
-#
-# File: bin/openerp.glade, line: 1021
+#: bin/openerp.glade:1021
 msgid "Horizontal"
 msgstr "Yatay"
 
-#
-# File: bin/openerp.glade, line: 1029
+#: bin/openerp.glade:1029
 msgid "Vertical"
 msgstr "Dikey"
 
-#
-# File: bin/openerp.glade, line: 1046
+#: bin/openerp.glade:1046
 msgid "_Print"
 msgstr "_Yazdır"
 
-#
-# File: bin/openerp.glade, line: 1053
+#: bin/openerp.glade:1053
 msgid "Previe_w before print"
 msgstr "Baskı_Öncesi"
 
-#
-# File: bin/openerp.glade, line: 1077
+#: bin/openerp.glade:1077
 msgid "_Save options"
 msgstr "_Kaydetme Seçenekleri"
 
-#
-# File: bin/openerp.glade, line: 1097
+#: bin/openerp.glade:1097
 msgid "_Plugins"
 msgstr "_Eklentiler"
 
-#
-# File: bin/openerp.glade, line: 1105
+#: bin/openerp.glade:1105
 msgid "_Execute a plugin"
 msgstr "_Eklenti Çalıştır"
 
-#
-# File: bin/openerp.glade, line: 1125
+#: bin/openerp.glade:1125
 msgid "_Shortcuts"
 msgstr "_Kısayollar"
 
-#
-# File: bin/openerp.glade, line: 1133
+#: bin/openerp.glade:1133
 msgid "_Help"
 msgstr "_Yardım"
 
-#
-# File: bin/openerp.glade, line: 1140
+#: bin/openerp.glade:1140
 msgid "Enable Debug Mode Tooltips"
 msgstr "Hata ayıklama kipi İpuçlarını Aç"
 
-#
-# File: bin/openerp.glade, line: 1148
-# File: bin/openerp.glade, line: 4380
+#: bin/openerp.glade:1148 bin/openerp.glade:4380
 msgid "Support Request"
 msgstr "_Yardım İsteği"
 
-#
-# File: bin/openerp.glade, line: 1168
+#: bin/openerp.glade:1168
 msgid "User _Manual"
 msgstr "Kullanıcı_Kılavuzu"
 
-#
-# File: bin/openerp.glade, line: 1183
+#: bin/openerp.glade:1183
 msgid "_Contextual Help"
 msgstr "_İçeriksel Yardım"
 
-#
-# File: bin/openerp.glade, line: 1199
+#: bin/openerp.glade:1199
 msgid "Keyboard Shortcuts"
 msgstr "Klavye Kısayolları"
 
-#
-# File: bin/openerp.glade, line: 1212
+#: bin/openerp.glade:1212
 msgid "_License"
 msgstr "_Lisans"
 
-#
-# File: bin/openerp.glade, line: 1227
+#: bin/openerp.glade:1227
 msgid "_About..."
 msgstr "H_akkında.."
 
-#
-# File: bin/openerp.glade, line: 1269
+#: bin/openerp.glade:1269
 msgid "Edit / Save this resource"
 msgstr "Kaynağı Değiştir/Kaydet"
 
-#
-# File: bin/openerp.glade, line: 1285
+#: bin/openerp.glade:1285
 msgid "Delete this resource"
 msgstr "Kaynağı Sil"
 
-#
-# File: bin/openerp.glade, line: 1298
+#: bin/openerp.glade:1298
 msgid "Go to previous matched search"
 msgstr "Önceki Sonuçlara Git"
 
-#
-# File: bin/openerp.glade, line: 1299
+#: bin/openerp.glade:1299
 msgid "Previous"
 msgstr "Önceki"
 
-#
-# File: bin/openerp.glade, line: 1310
+#: bin/openerp.glade:1310
 msgid "Go to next matched resource"
 msgstr "Sonraki Sonuçlara Git"
 
-#
-# File: bin/openerp.glade, line: 1311
+#: bin/openerp.glade:1311
 msgid "Next"
 msgstr "Sonraki"
 
-#
-# File: bin/openerp.glade, line: 1324
+#: bin/openerp.glade:1324
 msgid "List"
 msgstr "Liste"
 
-#
-# File: bin/openerp.glade, line: 1336
+#: bin/openerp.glade:1336
 msgid "Form"
 msgstr "Form"
 
-#
-# File: bin/openerp.glade, line: 1349
+#: bin/openerp.glade:1349
 msgid "Calendar"
 msgstr "Takvim"
 
-#
-# File: bin/openerp.glade, line: 1359
+#: bin/openerp.glade:1359
 msgid "Diagram"
 msgstr "Diyagram"
 
-#
-# File: bin/openerp.glade, line: 1369
+#: bin/openerp.glade:1369
 msgid "Graph"
 msgstr "Çizim"
 
-#
-# File: bin/openerp.glade, line: 1382
+#: bin/openerp.glade:1382
 msgid "Gantt"
 msgstr "Gantt"
 
-#
-# File: bin/openerp.glade, line: 1400
+#: bin/openerp.glade:1400
 msgid "Print documents"
 msgstr "Dokumanları Yazdır"
 
-#
-# File: bin/openerp.glade, line: 1411
+#: bin/openerp.glade:1411
 msgid "Launch actions about this resource"
 msgstr "Kaynak için Uygulama çalıştır"
 
-#
-# File: bin/openerp.glade, line: 1424
+#: bin/openerp.glade:1424
 msgid "Add an attachment to this resource"
 msgstr "Kaynağa bir ek ekle"
 
-#
-# File: bin/openerp.glade, line: 1425
+#: bin/openerp.glade:1425
 msgid "Attachment"
 msgstr "Ek"
 
-#
-# File: bin/openerp.glade, line: 1440
-# File: bin/openerp.glade, line: 1441
+#: bin/openerp.glade:1440 bin/openerp.glade:1441
 msgid "Menu"
 msgstr "Menü"
 
-#
-# File: bin/openerp.glade, line: 1458
-# File: bin/openerp.glade, line: 1459
+#: bin/openerp.glade:1458 bin/openerp.glade:1459
 msgid "Reload"
 msgstr "Yeniden Yükle"
 
-#
-# File: bin/openerp.glade, line: 1476
+#: bin/openerp.glade:1476
 msgid "Close this window"
 msgstr "Pencereyi Kapat"
 
-#
-# File: bin/openerp.glade, line: 1520
+#: bin/openerp.glade:1520
 msgid "Company:"
 msgstr "Firma:"
 
-#
-# File: bin/openerp.glade, line: 1543
+#: bin/openerp.glade:1543
 msgid "Requests:"
 msgstr "İsteklerim:"
 
-#
-# File: bin/openerp.glade, line: 1566
+#: bin/openerp.glade:1566
 msgid "Read my Requests"
 msgstr "İsteklerimi Oku:"
 
-#
-# File: bin/openerp.glade, line: 1587
+#: bin/openerp.glade:1587
 msgid "Send a new request"
 msgstr "Yeni istek yolla"
 
-#
-# File: bin/openerp.glade, line: 1627
+#: bin/openerp.glade:1627
 msgid "OpenERP - Tree Resources"
 msgstr "OpenERP - Ağaç Kaynakları"
 
-#
-# File: bin/openerp.glade, line: 1680
+#: bin/openerp.glade:1680
 msgid "Shortcuts"
 msgstr "Kısayollar"
 
-#
-# File: bin/openerp.glade, line: 1789
+#: bin/openerp.glade:1789
 msgid "OpenERP - Forms"
 msgstr "OpenERP - Formlar"
 
-#
-# File: bin/openerp.glade, line: 1813
+#: bin/openerp.glade:1813
 msgid "State:"
 msgstr "Durum:"
 
-#
-# File: bin/openerp.glade, line: 1845
+#: bin/openerp.glade:1845
 msgid "OpenERP - About"
 msgstr "OpenERP - Hakkında"
 
-#
-# File: bin/openerp.glade, line: 1859
+#: bin/openerp.glade:1859
 msgid ""
 "<b>About OpenERP</b>\n"
 "<i>The most advanced Open Source ERP &amp; CRM !</i>"
@@ -2415,8 +2019,7 @@ msgstr ""
 "<b>OpenERP Hakkında</b>\n"
 "<i>En Geliştirilmiş ERP&amp; CRM !</i>"
 
-#
-# File: bin/openerp.glade, line: 1898
+#: bin/openerp.glade:1898
 msgid ""
 "\n"
 "OpenERP - GTK Client - v%s\n"
@@ -2437,13 +2040,13 @@ msgid ""
 "More Info on www.openerp.com !"
 msgstr ""
 
-#
-# File: bin/openerp.glade, line: 1931
+#: bin/openerp.glade:1931
 msgid "_OpenERP"
 msgstr "_OpenERP"
 
 #
 # File: bin/openerp.glade, line: 1959
+#: bin/openerp.glade:1959
 msgid ""
 "\n"
 "(c) 2004-TODAY, OpenERP SA\n"
@@ -2472,224 +2075,181 @@ msgstr ""
 "Posta: sales@openerp.com\n"
 "Web: http://openerp.com"
 
-#
-# File: bin/openerp.glade, line: 1991
+#: bin/openerp.glade:1991
 msgid "_Contact"
 msgstr "_Kişi"
 
-#
-# File: bin/openerp.glade, line: 2043
+#: bin/openerp.glade:2043
 msgid "Open ERP - Forms widget"
 msgstr "Open ERP - Form Parçacıkları"
 
-#
-# File: bin/openerp.glade, line: 2222
-# File: bin/openerp.glade, line: 4726
+#: bin/openerp.glade:2222 bin/openerp.glade:4726
 msgid "OpenERP - Confirmation"
 msgstr "OpenERP - Onay"
 
-#
-# File: bin/openerp.glade, line: 2301
+#: bin/openerp.glade:2301
 msgid "OpenERP - Selection"
 msgstr "OpenERP - Seçim"
 
-#
-# File: bin/openerp.glade, line: 2315
+#: bin/openerp.glade:2315
 msgid "Your selection:"
 msgstr "Seçiminiz:"
 
-#
-# File: bin/openerp.glade, line: 2395
+#: bin/openerp.glade:2395
 msgid "OpenERP - Dialog"
 msgstr "OpenERP - Diyalog"
 
-#
-# File: bin/openerp.glade, line: 2419
+#: bin/openerp.glade:2419
 msgid "OpenERP, Field Preference target"
 msgstr "OpenERP, hedef alan tercihi"
 
-#
-# File: bin/openerp.glade, line: 2450
+#: bin/openerp.glade:2450
 msgid "_only for you"
 msgstr "_Size Özel"
 
-#
-# File: bin/openerp.glade, line: 2464
+#: bin/openerp.glade:2464
 msgid "for _all users"
 msgstr "Tüm _kullanıcılara"
 
-#
-# File: bin/openerp.glade, line: 2484
+#: bin/openerp.glade:2484
 msgid "<b>Value applicable for:</b>"
 msgstr "<b>Özellik Yetkisi:</b>"
 
-#
-# File: bin/openerp.glade, line: 2520
+#: bin/openerp.glade:2520
 msgid "<b>Value applicable if:</b>"
 msgstr "<b>Şu Durumda Yetkili:</b>"
 
-#
-# File: bin/openerp.glade, line: 2538
+#: bin/openerp.glade:2538
 msgid "Field _Name:"
 msgstr "Alan_adı"
 
-#
-# File: bin/openerp.glade, line: 2552
+#: bin/openerp.glade:2552
 msgid "_Domain:"
 msgstr "Alan"
 
-#
-# File: bin/openerp.glade, line: 2611
+#: bin/openerp.glade:2611
 msgid "Default _value:"
 msgstr "Varsayılan_Değer"
 
-#
-# File: bin/openerp.glade, line: 2666
+#: bin/openerp.glade:2666
 msgid "OpenERP - Export to CSV"
 msgstr "OpenERP - CSV ye Ver"
 
-#
-# File: bin/openerp.glade, line: 2714
+#: bin/openerp.glade:2714
 msgid "Save List"
 msgstr "Listeyi Kaydet"
 
-#
-# File: bin/openerp.glade, line: 2762
+#: bin/openerp.glade:2762
 msgid "Remove List"
 msgstr "Listeyi Sil"
 
-#
-# File: bin/openerp.glade, line: 2817
+#: bin/openerp.glade:2817
 msgid "<b>Exports List</b>"
 msgstr "<b>Liste Ver</b>"
 
-#
-# File: bin/openerp.glade, line: 2834
+#: bin/openerp.glade:2834
 msgid "<b>Predefined Exports</b>"
 msgstr "<b>Öntanımlı Dışa Aktarım</b>"
 
-#
-# File: bin/openerp.glade, line: 2880
+#: bin/openerp.glade:2880
 msgid "Available Fields"
 msgstr "Mevcut Alanlar"
 
-#
-# File: bin/openerp.glade, line: 2923
-# File: bin/openerp.glade, line: 5634
+#: bin/openerp.glade:2923 bin/openerp.glade:5634
 msgid "_Add"
 msgstr "_Ekle"
 
-#
-# File: bin/openerp.glade, line: 2970
-# File: bin/openerp.glade, line: 5681
+#: bin/openerp.glade:2970 bin/openerp.glade:5681
 msgid "_Remove"
 msgstr "_Sil"
 
-#
-# File: bin/openerp.glade, line: 3018
+#: bin/openerp.glade:3018
 msgid "_Nothing"
 msgstr "_Hiçbirşey"
 
-#
-# File: bin/openerp.glade, line: 3073
+#: bin/openerp.glade:3073
 msgid "Fields to Export"
 msgstr "Dışa Aktarılacak alanlar"
 
-#
-# File: bin/openerp.glade, line: 3115
+#: bin/openerp.glade:3115
 msgid "Add Field Names"
 msgstr ""
 
-#
-# File: bin/openerp.glade, line: 3134
+#: bin/openerp.glade:3134
 msgid "Import Compatible"
 msgstr "İçe Aktarım Uyumlu"
 
-#
-# File: bin/openerp.glade, line: 3156
+#: bin/openerp.glade:3156
 msgid "<b>Opti_ons</b>"
 msgstr "<b>Seçenek_ler</b>"
 
-#
-# File: bin/openerp.glade, line: 3215
+#: bin/openerp.glade:3215
 msgid "OpenERP - Search"
 msgstr "OpenERP - Ara"
 
-#
-# File: bin/openerp.glade, line: 3295
+#: bin/openerp.glade:3295
 msgid "OpenERP - Preferences"
 msgstr "OpenERP - Ayarlar"
 
-#
-# File: bin/openerp.glade, line: 3309
+#: bin/openerp.glade:3309
 msgid "<b>User preferences</b>"
 msgstr "<b>Kullanıcı Ayarları</b>"
 
-#
-# File: bin/openerp.glade, line: 3375
+#: bin/openerp.glade:3375
 msgid "Tip of the Day"
 msgstr "Günün İpucu"
 
-#
-# File: bin/openerp.glade, line: 3422
+#: bin/openerp.glade:3422
 msgid "_Display a new tip next time?"
 msgstr "_Daha Sonra Yeni İpucu Gösterilsin mi?"
 
-#
-# File: bin/openerp.glade, line: 3475
+#: bin/openerp.glade:3475
 msgid "Pre_vious Tip"
 msgstr "Önce_ki İpucu"
 
-#
-# File: bin/openerp.glade, line: 3521
+#: bin/openerp.glade:3521
 msgid "Ne_xt Tip"
 msgstr "Sonra_ki İpucu"
 
-#
-# File: bin/openerp.glade, line: 3567
+#: bin/openerp.glade:3567
 msgid "OpenERP - License"
 msgstr "OpenERP - Lisans"
 
-#
-# File: bin/openerp.glade, line: 3582
+#: bin/openerp.glade:3582
 msgid "OpenERP license"
 msgstr "OpenERP lisans"
 
-#
-# File: bin/openerp.glade, line: 4277
+#: bin/openerp.glade:4277
 msgid "Go to resource ID"
 msgstr "ID Kaynağa Git"
 
-#
-# File: bin/openerp.glade, line: 4327
+#: bin/openerp.glade:4327
 msgid "Search ID:"
 msgstr "ID Ara:"
 
-#
-# File: bin/openerp.glade, line: 4406
+#: bin/openerp.glade:4406
 msgid ""
 "<b>Complete this form to submit your bug and/or send a support request.</b>\n"
 "<i>\n"
 "Your request will be sent to the OpenERP team and we will reply shortly.\n"
-"Note that we may not reply if you do not have a support contract with Tiny or an official partner.</i>"
+"Note that we may not reply if you do not have a support contract with Tiny "
+"or an official partner.</i>"
 msgstr ""
 "<b> Hata bildirimi ve/veya destek talebiniz için bu formu doldurun.</b>\n"
 "<i>\n"
 "Talebiniz OpenERP ekibine iletilip size en kıssa zamanda dönülecektir.\n"
-"Dikkat Tiny veya resmi bir ortağı ile sözleşmeniz yoksa iletiniz cevapsız kalacaktır.</i>"
+"Dikkat Tiny veya resmi bir ortağı ile sözleşmeniz yoksa iletiniz cevapsız "
+"kalacaktır.</i>"
 
-#
-# File: bin/openerp.glade, line: 4465
+#: bin/openerp.glade:4465
 msgid "Phone number:"
 msgstr "Telefon Numarası:"
 
-#
-# File: bin/openerp.glade, line: 4478
+#: bin/openerp.glade:4478
 msgid "Emergency:"
 msgstr "Acil"
 
-#
-# File: bin/openerp.glade, line: 4492
+#: bin/openerp.glade:4492
 msgid ""
 "Not Urgent\n"
 "Medium\n"
@@ -2701,514 +2261,464 @@ msgstr ""
 "Acil\n"
 "Çok Acil"
 
-#
-# File: bin/openerp.glade, line: 4525
+#: bin/openerp.glade:4525
 msgid "<b>Support contract id:</b>"
 msgstr "<b>Destek Sözleşmesi numarası:</b>"
 
-#
-# File: bin/openerp.glade, line: 4582
-# File: bin/win_error.glade, line: 200
+#: bin/openerp.glade:4582 bin/win_error.glade:200
 msgid "Other comments:"
 msgstr "Diğer Notlar:"
 
-#
-# File: bin/openerp.glade, line: 4596
+#: bin/openerp.glade:4596
 msgid "Explain your problem:"
 msgstr "Sorununuzu Açıklayın:"
 
-#
-# File: bin/openerp.glade, line: 4635
+#: bin/openerp.glade:4635
 msgid "<b>Your email:</b>"
 msgstr "<b>E-postanız:</b>"
 
-#
-# File: bin/openerp.glade, line: 4649
+#: bin/openerp.glade:4649
 msgid "<b>Your Company:</b>"
 msgstr "<b>Firmanız:</b>"
 
-#
-# File: bin/openerp.glade, line: 4663
+#: bin/openerp.glade:4663
 msgid "<b>Your name:</b>"
 msgstr "<b>İsminiz:</b>"
 
-#
-# File: bin/openerp.glade, line: 4754
-# File: bin/openerp.glade, line: 6124
+#: bin/openerp.glade:4754 bin/openerp.glade:6124
 msgid "Hello World!"
 msgstr "Merhaba Dünya !"
 
-#
-# File: bin/openerp.glade, line: 4816
+#: bin/openerp.glade:4816
 msgid "Keyboard shortcuts"
 msgstr "Klavye kısayolları"
 
-#
-# File: bin/openerp.glade, line: 4838
+#: bin/openerp.glade:4838
 msgid "<b>Shortcuts for OpenERP</b>"
 msgstr "<b>OpenERP için Kıssayollar</b>"
 
-#
-# File: bin/openerp.glade, line: 4852
+#: bin/openerp.glade:4852
 msgid "Close window without saving"
 msgstr "Kaydetmeden Kapat"
 
-#
-# File: bin/openerp.glade, line: 4867
+#: bin/openerp.glade:4867
 msgid "<Ctrl> + <Esc>"
 msgstr "<Ctrl> + <Esc>"
 
-#
-# File: bin/openerp.glade, line: 4881
+#: bin/openerp.glade:4881
 msgid "<i>When editing a resource in a popup window</i>"
 msgstr "<i>Açılır pencerede kaynağı değişirken</i>"
 
-#
-# File: bin/openerp.glade, line: 4897
+#: bin/openerp.glade:4897
 msgid "Save and Close window"
 msgstr "Pencereyi Kaydet ve Kapat"
 
-#
-# File: bin/openerp.glade, line: 4912
+#: bin/openerp.glade:4912
 msgid "<Ctrl> + <Enter>"
 msgstr "<Ctrl> + <Enter>"
 
-#
-# File: bin/openerp.glade, line: 4925
+#: bin/openerp.glade:4925
 msgid "Switch view mode"
 msgstr "Görüntü Moduna Geç"
 
-#
-# File: bin/openerp.glade, line: 4940
+#: bin/openerp.glade:4940
 msgid "<Ctrl> + L"
 msgstr "<Ctrl> + L"
 
-#
-# File: bin/openerp.glade, line: 4953
+#: bin/openerp.glade:4953
 msgid "Next record"
 msgstr "Sonraki Kayıt"
 
-#
-# File: bin/openerp.glade, line: 4968
+#: bin/openerp.glade:4968
 msgid "Previous record"
 msgstr "Önceki Kayıt"
 
-#
-# File: bin/openerp.glade, line: 4983
+#: bin/openerp.glade:4983
 msgid "<PgDn>"
 msgstr "<PgDn>"
 
-#
-# File: bin/openerp.glade, line: 4996
+#: bin/openerp.glade:4996
 msgid "<PgUp>"
 msgstr "<PgUp>"
 
-#
-# File: bin/openerp.glade, line: 5024
+#: bin/openerp.glade:5024
 msgid "Save"
 msgstr "Kaydet"
 
-#
-# File: bin/openerp.glade, line: 5039
+#: bin/openerp.glade:5039
 msgid "<Ctrl> + W"
 msgstr "<Ctrl> + W"
 
-#
-# File: bin/openerp.glade, line: 5052
+#: bin/openerp.glade:5052
 msgid "<Ctrl> + S"
 msgstr "<Ctrl> + S"
 
-#
-# File: bin/openerp.glade, line: 5080
+#: bin/openerp.glade:5080
 msgid "<Ctrl> + <PgDn>"
 msgstr "<Ctrl> + <PgDn>"
 
-#
-# File: bin/openerp.glade, line: 5093
+#: bin/openerp.glade:5093
 msgid "Previous tab"
 msgstr "Önceki sekme"
 
-#
-# File: bin/openerp.glade, line: 5108
+#: bin/openerp.glade:5108
 msgid "<Ctrl> + <PgUp>"
 msgstr "<Ctrl> + <PgUp>"
 
-#
-# File: bin/openerp.glade, line: 5121
+#: bin/openerp.glade:5121
 msgid "New"
 msgstr "Yeni"
 
-#
-# File: bin/openerp.glade, line: 5136
+#: bin/openerp.glade:5136
 msgid "<Ctrl> + N"
 msgstr "<Ctrl> + N"
 
-#
-# File: bin/openerp.glade, line: 5149
+#: bin/openerp.glade:5149
 msgid "Delete"
 msgstr "Sil"
 
-#
-# File: bin/openerp.glade, line: 5164
+#: bin/openerp.glade:5164
 msgid "<Ctrl> + D"
 msgstr "<Ctrl> + D"
 
-#
-# File: bin/openerp.glade, line: 5177
+#: bin/openerp.glade:5177
 msgid "Find / Search"
 msgstr "Ara/Bul"
 
-#
-# File: bin/openerp.glade, line: 5192
+#: bin/openerp.glade:5192
 msgid "<Ctrl> + F"
 msgstr "<Ctrl> + F"
 
-#
-# File: bin/openerp.glade, line: 5205
+#: bin/openerp.glade:5205
 msgid "Connect"
 msgstr "Bağlan"
 
-#
-# File: bin/openerp.glade, line: 5220
+#: bin/openerp.glade:5220
 msgid "<Ctrl> + O"
 msgstr "<Ctrl> + O"
 
-#
-# File: bin/openerp.glade, line: 5234
+#: bin/openerp.glade:5234
 msgid "Main Shortcuts"
 msgstr "Ana Kısayollar"
 
-#
-# File: bin/openerp.glade, line: 5251
+#: bin/openerp.glade:5251
 msgid "F2"
 msgstr "F2"
 
-#
-# File: bin/openerp.glade, line: 5264
+#: bin/openerp.glade:5264
 msgid "<b>Shortcuts in relation fields</b>"
 msgstr "<b>ilişkili alan Kıssayolları</b>"
 
-#
-# File: bin/openerp.glade, line: 5279
+#: bin/openerp.glade:5279
 msgid "<b>Shortcuts in text entries</b>"
 msgstr "<b>Yazı Kısayolları</b>"
 
-#
-# File: bin/openerp.glade, line: 5292
+#: bin/openerp.glade:5292
 msgid "Open current field"
 msgstr "Mevcut alanı aç"
 
-#
-# File: bin/openerp.glade, line: 5307
+#: bin/openerp.glade:5307
 msgid "Add a new line/field"
 msgstr "Yeni Alan/Satır ekle"
 
-#
-# File: bin/openerp.glade, line: 5322
+#: bin/openerp.glade:5322
 msgid "F1"
 msgstr "F1"
 
-#
-# File: bin/openerp.glade, line: 5335
+#: bin/openerp.glade:5335
 msgid "Auto-Complete text field"
 msgstr "Yazı Alanı Otomatik tamamla"
 
-#
-# File: bin/openerp.glade, line: 5350
+#: bin/openerp.glade:5350
 msgid "<Enter>"
 msgstr "<Giriş>"
 
-#
-# File: bin/openerp.glade, line: 5363
+#: bin/openerp.glade:5363
 msgid "Previous editable widget"
 msgstr "Önceki değişilebilen Parçacık"
 
-#
-# File: bin/openerp.glade, line: 5378
+#: bin/openerp.glade:5378
 msgid "<Shift> + <Tab>"
 msgstr "<Shift> + <Tab>"
 
-#
-# File: bin/openerp.glade, line: 5391
+#: bin/openerp.glade:5391
 msgid "Next editable widget"
 msgstr "Sonraki değişilebilen Parçacık"
 
-#
-# File: bin/openerp.glade, line: 5406
+#: bin/openerp.glade:5406
 msgid "<Tab>"
 msgstr "<Sekme>"
 
-#
-# File: bin/openerp.glade, line: 5419
+#: bin/openerp.glade:5419
 msgid "Paste selected text"
 msgstr "Seçili yazıyı yapıştır"
 
-#
-# File: bin/openerp.glade, line: 5434
+#: bin/openerp.glade:5434
 msgid "Copy selected text"
 msgstr "Seçili yazıyı kopyala"
 
-#
-# File: bin/openerp.glade, line: 5449
+#: bin/openerp.glade:5449
 msgid "Cut selected text"
 msgstr "Seçili yazıyı kes"
 
-#
-# File: bin/openerp.glade, line: 5464
+#: bin/openerp.glade:5464
 msgid "<Ctrl> + V"
 msgstr "<Ctrl> + V"
 
-#
-# File: bin/openerp.glade, line: 5477
+#: bin/openerp.glade:5477
 msgid "<Ctrl> + C"
 msgstr "<Ctrl> + C"
 
-#
-# File: bin/openerp.glade, line: 5490
+#: bin/openerp.glade:5490
 msgid "<Ctrl> + X"
 msgstr "<Ctrl> + X"
 
-#
-# File: bin/openerp.glade, line: 5507
+#: bin/openerp.glade:5507
 msgid "Edition Widgets"
 msgstr "Sürüm Parçacıkları"
 
-#
-# File: bin/openerp.glade, line: 5547
+#: bin/openerp.glade:5547
 msgid "Import from CSV"
 msgstr "CSV den al"
 
-#
-# File: bin/openerp.glade, line: 5592
+#: bin/openerp.glade:5592
 msgid "<b>All fields</b>"
 msgstr "<b>Tüm Alanlar</b>"
 
-#
-# File: bin/openerp.glade, line: 5729
+#: bin/openerp.glade:5729
 msgid "N_othing"
 msgstr "Hiç_birşey"
 
-#
-# File: bin/openerp.glade, line: 5786
+#: bin/openerp.glade:5786
 msgid "<b>Fields to import</b>"
 msgstr "<b>Alınacak Alanlar</b>"
 
 #
 # File: bin/openerp.glade, line: 5821
+#: bin/openerp.glade:5821
 msgid "File to Import: "
-msgstr "Alınacak Dosya"
+msgstr "Alınacak Dosya "
 
-#
-# File: bin/openerp.glade, line: 5866
+#: bin/openerp.glade:5866
 msgid "Auto-Detect"
 msgstr "Otomatik Algıla"
 
-#
-# File: bin/openerp.glade, line: 5944
+#: bin/openerp.glade:5944
 msgid "Lines to Skip:"
 msgstr "Atlanacak Alanlar"
 
-#
-# File: bin/openerp.glade, line: 5973
+#: bin/openerp.glade:5973
 msgid "Text Delimiter:"
 msgstr "Yazı Sınırlayıcı:"
 
-#
-# File: bin/openerp.glade, line: 6001
+#: bin/openerp.glade:6001
 msgid "Encoding:"
 msgstr "Kodlama"
 
 #
 # File: bin/openerp.glade, line: 6014
+#: bin/openerp.glade:6014
 msgid "Field Separator: "
-msgstr "Alan Ayraçı"
+msgstr "Alan Ayraçı "
 
-#
-# File: bin/openerp.glade, line: 6026
+#: bin/openerp.glade:6026
 msgid "CSV Parameters"
 msgstr "CSV Parametreleri"
 
-#
-# File: bin/openerp.glade, line: 6191
+#: bin/openerp.glade:6191
 msgid "Server"
 msgstr "Sunucu"
 
-#
-# File: bin/openerp.glade, line: 6201
+#: bin/openerp.glade:6201
 msgid "<b>Connect to a OpenERP server</b>"
 msgstr "<b>OpenERP sunucusuna bağlan</b>"
 
-#
-# File: bin/openerp.glade, line: 6260
+#: bin/openerp.glade:6260
 msgid "Protocol connection:"
 msgstr "Protokol bağlantısı:"
 
-#
-# File: bin/openerp.glade, line: 6306
+#: bin/openerp.glade:6306
 msgid "Port:"
 msgstr "Bağlantı Noktası:"
 
-#
-# File: bin/openerp.glade, line: 6358
+#: bin/openerp.glade:6358
 msgid "Choose a database..."
 msgstr "Bir veritabanı seçiniz:"
 
-#
-# File: bin/openerp.glade, line: 6373
+#: bin/openerp.glade:6373
 msgid "<b>Backup a database</b>"
 msgstr "<b>Veritabanı Yedekle</b>"
 
-#
-# File: bin/openerp.glade, line: 6614
+#: bin/openerp.glade:6614
 msgid "Restore a database"
 msgstr "Veritabanı Onar"
 
-#
-# File: bin/openerp.glade, line: 6627
+#: bin/openerp.glade:6627
 msgid "<b>Restore a database</b>"
 msgstr "<b>Veritabanı Onar</b>"
 
-#
-# File: bin/openerp.glade, line: 6671
+#: bin/openerp.glade:6671
 msgid "(must not contain any special char)"
 msgstr "(özel karekter kullanmayınız)"
 
-#
-# File: bin/openerp.glade, line: 6701
+#: bin/openerp.glade:6701
 msgid "New database name:"
 msgstr "Yeni Veritaban adı:"
 
-#
-# File: bin/openerp.glade, line: 6801
-# File: bin/openerp.glade, line: 6947
-# File: bin/openerp.glade, line: 7465
+#: bin/openerp.glade:6801 bin/openerp.glade:6947 bin/openerp.glade:7465
 msgid "http://localhost:8069"
 msgstr "http://localhost:8069"
 
-#
-# File: bin/openerp.glade, line: 6875
+#: bin/openerp.glade:6875
 msgid "Create a new database"
 msgstr "Yeni bir veritabanı oluştur"
 
-#
-# File: bin/openerp.glade, line: 6888
+#: bin/openerp.glade:6888
 msgid "<b>Create a new database</b>"
 msgstr "<b>Yeni bir veritabanı oluştur</b>"
 
-#
-# File: bin/openerp.glade, line: 6959
-msgid "This is the URL of the OpenERP server. Use 'localhost' if the server is installed on this computer. Click on 'Change' to change the address."
-msgstr "Bu OpenERP sunucusunun adresidir. Eğer sunucu bu bilgisayarda kurulu ise 'localhost' yazıp girin. Bu adresi değişmek için 'Değiştir' e tıklayınız."
+#: bin/openerp.glade:6959
+msgid ""
+"This is the URL of the OpenERP server. Use 'localhost' if the server is "
+"installed on this computer. Click on 'Change' to change the address."
+msgstr ""
+"Bu OpenERP sunucusunun adresidir. Eğer sunucu bu bilgisayarda kurulu ise "
+"'localhost' yazıp girin. Bu adresi değişmek için 'Değiştir' e tıklayınız."
 
-#
-# File: bin/openerp.glade, line: 6963
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
-msgstr "sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Sunucusu:"
+#: bin/openerp.glade:6963
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+msgstr ""
+"sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Sunucusu:"
 
-#
-# File: bin/openerp.glade, line: 6994
-msgid "This is the password of the user that have the rights to administer databases. This is not a OpenERP user, just a super administrator. If you did not changed it, the password is 'admin' after installation."
-msgstr "Bu veritabanı yönetiçisi parolasıdır. Bu bir OpenERP kullanıcısı değildir, Sadece üst yöneticidir. Eğer değişmezseniz kurulumdan sonra parola 'admin' dir"
+#: bin/openerp.glade:6994
+msgid ""
+"This is the password of the user that have the rights to administer "
+"databases. This is not a OpenERP user, just a super administrator. If you "
+"did not changed it, the password is 'admin' after installation."
+msgstr ""
+"Bu veritabanı yönetiçisi parolasıdır. Bu bir OpenERP kullanıcısı değildir, "
+"Sadece üst yöneticidir. Eğer değişmezseniz kurulumdan sonra parola 'admin' "
+"dir"
 
-#
-# File: bin/openerp.glade, line: 6998
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super Administrator Password:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Süper Yönetici Şifresi:"
+#: bin/openerp.glade:6998
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
+"Administrator Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Süper Yönetici "
+"Şifresi:"
 
-#
-# File: bin/openerp.glade, line: 7017
+#: bin/openerp.glade:7017
 msgid "admin"
 msgstr "yönetici"
 
-#
-# File: bin/openerp.glade, line: 7031
+#: bin/openerp.glade:7031
 msgid "(<i>admin</i>, by default)"
 msgstr "(<i>admin</i>, varsayılan)"
 
-#
-# File: bin/openerp.glade, line: 7096
-msgid "Choose the name of the database that will be created. The name must not contain any special character. Exemple: 'terp'."
-msgstr "Üretmek istediğiniz veritabanının ismini seçin. Dikkat özel karekterler kullanmayınız. Örnek: 'terp'."
+#: bin/openerp.glade:7096
+msgid ""
+"Choose the name of the database that will be created. The name must not "
+"contain any special character. Exemple: 'terp'."
+msgstr ""
+"Üretmek istediğiniz veritabanının ismini seçin. Dikkat özel karekterler "
+"kullanmayınız. Örnek: 'terp'."
 
-#
-# File: bin/openerp.glade, line: 7098
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Yeni Veritabanı Adı:"
+#: bin/openerp.glade:7098
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Yeni Veritabanı "
+"Adı:"
 
-#
-# File: bin/openerp.glade, line: 7123
-msgid "Choose the default language that will be installed for this database. You will be able to install new languages after installation through the administration menu."
-msgstr "Kullanmak istediğiniz dili seçiniz. Kurulumdan sonra Yönetici Menüsünden yeni dil ekliyebilirsiniz."
+#: bin/openerp.glade:7123
+msgid ""
+"Choose the default language that will be installed for this database. You "
+"will be able to install new languages after installation through the "
+"administration menu."
+msgstr ""
+"Kullanmak istediğiniz dili seçiniz. Kurulumdan sonra Yönetici Menüsünden "
+"yeni dil ekliyebilirsiniz."
 
-#
-# File: bin/openerp.glade, line: 7125
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Öntanımlı Dil:"
+#: bin/openerp.glade:7125
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Öntanımlı Dil:"
 
-#
-# File: bin/openerp.glade, line: 7138
-msgid "This is the password of the 'admin' user that will be created in your new database."
+#: bin/openerp.glade:7138
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database."
 msgstr "Yeni oluşturulacak veritabanındaki 'admin' kullanıcısının şifresi."
 
-#
-# File: bin/openerp.glade, line: 7140
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator Password:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Yönetici Şifresi:"
-
-#
-# File: bin/openerp.glade, line: 7153
-msgid "This is the password of the 'admin' user that will be created in your new database. It has to be the same than the above field."
-msgstr "Yeni oluşturulacak veritabanındaki 'admin' kullanıcısının şifresi. Yukarıdaki alanın kontrol için tekrarı"
-
-#
-# File: bin/openerp.glade, line: 7155
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Şifreyi Tekrarla:"
-
-#
-# File: bin/openerp.glade, line: 7248
-msgid "Check this box if you want demonstration data to be installed on your new database. These data will help you to understand OpenERP, with predefined products, partners, etc."
+#: bin/openerp.glade:7140
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
+"Password:"
 msgstr ""
-"Demo dosyaların veritabanınıza eklenmesini istiyorsanız burayı işaretleyiniz\r\n"
-"Bu dosyalar size OpenERP, önceden tanımlanmış programları ve diğer ortakların vs. hazırlamış oldukları yazılımları daha çabuk öğrenmenize yardımcı olacaktır,"
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Yönetici Şifresi:"
 
-#
-# File: bin/openerp.glade, line: 7251
-msgid "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration Data:"
-msgstr "<sup><b><span foreground=\"dark green\">?</span></b></sup>Örnek Verileri Yükle:"
+#: bin/openerp.glade:7153
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database. It has to be the same than the above field."
+msgstr ""
+"Yeni oluşturulacak veritabanındaki 'admin' kullanıcısının şifresi. "
+"Yukarıdaki alanın kontrol için tekrarı"
 
-#
-# File: bin/openerp.glade, line: 7335
+#: bin/openerp.glade:7155
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Şifreyi Tekrarla:"
+
+#: bin/openerp.glade:7248
+msgid ""
+"Check this box if you want demonstration data to be installed on your new "
+"database. These data will help you to understand OpenERP, with predefined "
+"products, partners, etc."
+msgstr ""
+"Demo dosyaların veritabanınıza eklenmesini istiyorsanız burayı "
+"işaretleyiniz\r\n"
+"Bu dosyalar size OpenERP, önceden tanımlanmış programları ve diğer "
+"ortakların vs. hazırlamış oldukları yazılımları daha çabuk öğrenmenize "
+"yardımcı olacaktır,"
+
+#: bin/openerp.glade:7251
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
+"Data:"
+msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Örnek Verileri "
+"Yükle:"
+
+#: bin/openerp.glade:7335
 msgid "<b>Change your super admin password</b>"
 msgstr "b>Üst yönetim parolanızı değiştirin</b>"
 
-#
-# File: bin/openerp.glade, line: 7491
+#: bin/openerp.glade:7491
 msgid "Old password:"
 msgstr "Eski Parola:"
 
-#
-# File: bin/openerp.glade, line: 7504
+#: bin/openerp.glade:7504
 msgid "New password:"
 msgstr "Yeni parola:"
 
-#
-# File: bin/openerp.glade, line: 7517
+#: bin/openerp.glade:7517
 msgid "New password confirmation:"
 msgstr "Yeni parola onayı:"
 
-#
-# File: bin/openerp.glade, line: 7576
+#: bin/openerp.glade:7576
 msgid "OpenERP Message"
 msgstr "OpenERP Mesaj"
 
-#
-# File: bin/openerp.glade, line: 7760
+#: bin/openerp.glade:7760
 msgid "Concurrency exception"
 msgstr "Karşılaştırma istisnası"
 
-#
-# File: bin/openerp.glade, line: 7785
+#: bin/openerp.glade:7785
 msgid ""
 "<b>\n"
 "Write concurrency warning:\n"
@@ -3225,106 +2735,692 @@ msgstr ""
 "- \"Değişikliği girmek için 'karşılaştır' seçin. \n"
 "- Şimdi ki değişikliği kaydetmek için \"Yinede Yaz\" seçin.\n"
 
-#
-# File: bin/openerp.glade, line: 7848
+#: bin/openerp.glade:7848
 msgid "Compare"
 msgstr "Karşılaştır"
 
-#
-# File: bin/openerp.glade, line: 7894
+#: bin/openerp.glade:7894
 msgid "Write anyway"
 msgstr "Yinede yaz"
 
-#
-# File: bin/openerp.glade, line: 7924
-# File: bin/openerp.glade, line: 7934
+#: bin/openerp.glade:7924 bin/openerp.glade:7934
 msgid "window1"
 msgstr "pencere1"
 
-#
-# File: bin/openerp.glade, line: 8006
+#: bin/openerp.glade:8006
 msgid "Today"
 msgstr "Bugün"
 
-#
-# File: bin/openerp.glade, line: 8052
+#: bin/openerp.glade:8052
 msgid "September 2008"
 msgstr "Eylül 2008"
 
-#
-# File: bin/openerp.glade, line: 8066
+#: bin/openerp.glade:8066
 msgid "Day"
 msgstr "Gün"
 
-#
-# File: bin/openerp.glade, line: 8090
+#: bin/openerp.glade:8090
 msgid "Month"
 msgstr "Ay"
 
-#
-# File: bin/openerp.glade, line: 8244
+#: bin/openerp.glade:8244
 msgid "Filter Entry"
 msgstr "Girdiyi Filtrele"
 
-#
-# File: bin/openerp.glade, line: 8290
+#: bin/openerp.glade:8290
 msgid "Enter Filter Name:"
 msgstr "Filtre Adını Girin:"
 
-#
-# File: bin/win_error.glade, line: 40
+#: bin/win_error.glade:40
 msgid "label"
 msgstr "Etiket"
 
-#
-# File: bin/win_error.glade, line: 100
+#: bin/win_error.glade:100
 msgid "Click here for details about the publisher warranty proposition"
-msgstr "Yayıncı garanti teklifi hakkındaki detaylar için tıklayın (İngilizce)"
+msgstr ""
+"Yayıncı garanti teklifi hakkındaki detaylar için tıklayın (İngilizce)"
 
-#
-# File: bin/win_error.glade, line: 120
+#: bin/win_error.glade:120
 msgid "<i>_Publisher Warranty</i>"
 msgstr "<i>_Yayıncı Garantisi</i>"
 
 #
 # File: bin/win_error.glade, line: 151
+#: bin/win_error.glade:151
 msgid ""
 "<b>Publisher Warranty Contract.</b>\n"
 "<i>\n"
-"Your request will be sent to OpenERP and publisher warranty team will reply you shortly.\n"
+"Your request will be sent to OpenERP and publisher warranty team will reply "
+"you shortly.\n"
 "</i>"
 msgstr ""
 "<b>Yayıncı Garanti Sözleşmesi.</b>\n"
 "<i>\n"
-"İsteğiniz OpenERP yayıncı garanti ekibine gönderilecek. Size kısa süre içinde cevap verilecektir.</i>"
+"İsteğiniz OpenERP yayıncı garanti ekibine gönderilecek. Size kısa süre "
+"içinde cevap verilecektir.</i>"
 
-#
-# File: bin/win_error.glade, line: 186
+#: bin/win_error.glade:186
 msgid "Explain what you did:"
 msgstr "Ne yaptığınızı açıklayınız:"
 
-#
-# File: bin/win_error.glade, line: 285
+#: bin/win_error.glade:285
 msgid "Send to Publisher Warranty Team"
 msgstr "Yayıncı Garanti Ekibine gönder"
 
-#
-# File: bin/win_error.glade, line: 318
+#: bin/win_error.glade:318
 msgid "Problems summary:"
 msgstr ""
 
-#
-# File: bin/win_error.glade, line: 360
+#: bin/win_error.glade:360
 msgid "<i>_Support Request</i>"
 msgstr "<i>_Yardım Talep Et</i>"
 
-#
-# File: bin/win_error.glade, line: 387
+#: bin/win_error.glade:387
 msgid "Details"
 msgstr "Detaylar"
 
-#
-# File: bin/win_error.glade, line: 404
+#: bin/win_error.glade:404
 msgid "<i>_Details</i>"
 msgstr "<i>_Detaylar</i>"
 
+#~ msgid "Offset :"
+#~ msgstr "Ofset:"
+
+#~ msgid "Parameters :"
+#~ msgstr "Parametreler:"
+
+#~ msgid "Limit :"
+#~ msgstr "Sınır:"
+
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "İlişkilendir düğmesini kullanmak için bir kayıt seçmelisiniz !"
+
+#~ msgid "This widget is readonly !"
+#~ msgstr "Bu widget sadece okunabilir !"
+
+#~ msgid ""
+#~ "Thank you for the feedback !\n"
+#~ "Your comments have been sent to OpenERP.\n"
+#~ "You should now start by creating a new database or\n"
+#~ "connecting to an existing server through the \"File\" menu."
+#~ msgstr ""
+#~ "Geribildirim için teşekkür ederiz!\n"
+#~ "Yorumlarınız OpenERP'ye gönderildi.\n"
+#~ "Artık yeni bir veritabanı oluşturarak başlamalısınız yada\n"
+#~ "varolan bir sunucuya  \"Dosya\" menüsünden bağlanın."
+
+#~ msgid ""
+#~ "Thank you for testing OpenERP !\n"
+#~ "You should now start by creating a new database or\n"
+#~ "connecting to an existing server through the \"File\" menu."
+#~ msgstr ""
+#~ "OpenERP denediğiniz için teşekkür ederiz! \n"
+#~ "Artık yeni bir veritabanı oluşturarak başlamalısınız yada\n"
+#~ "varolan bir sunucuya  \"Dosya\" menüsünden bağlanın."
+
+#~ msgid ""
+#~ "\n"
+#~ "<b>An unknown error has been reported.</b>\n"
+#~ "\n"
+#~ "<b>You do not have a valid Open ERP maintenance contract !</b>\n"
+#~ "If you are using Open ERP in production, it is highly suggested to "
+#~ "subscribe\n"
+#~ "a maintenance program.\n"
+#~ "\n"
+#~ "The Open ERP maintenance contract provides you a bugfix guarantee and an\n"
+#~ "automatic migration system so that we can fix your problems within a few\n"
+#~ "hours. If you had a maintenance contract, this error would have been sent\n"
+#~ "to the quality team of the Open ERP editor.\n"
+#~ "\n"
+#~ "The maintenance program offers you:\n"
+#~ "* Automatic migrations on new versions,\n"
+#~ "* A bugfix guarantee,\n"
+#~ "* Monthly announces of potential bugs and their fixes,\n"
+#~ "* Security alerts by email and automatic migration,\n"
+#~ "* Access to the customer portal.\n"
+#~ "\n"
+#~ "You can use the link bellow for more information. The detail of the error\n"
+#~ "is displayed on the second tab.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<b> Bilinmeyen bir hata bildirilmiştir. </ b>\n"
+#~ "\n"
+#~ "<b> geçerli OpenERP bakım sözleşmesi yok! </ b>\n"
+#~ "Eğer gerçek işlerinizde OpenERP kullanıyorsanız, bakım programına abone "
+#~ "olmanız önerilir.\n"
+#~ "\n"
+#~ "OpenERP bakım sözleşmesi, hata düzeltme garantisi sağlayan ve\n"
+#~ "otomatik bilgi taşıma yada güncellemesi sağlayarak, sorunlarınızı birkaç "
+#~ "saatte çözer.\n"
+#~ "\n"
+#~ "Eğer bakım sözleşmesi varsa, bu hata OpenERP editöründeki kalite kontrol "
+#~ "takımına gönderilebilir.\n"
+#~ "\n"
+#~ "Bakım programı sunar:\n"
+#~ "* Yeni sürümlerinde otomatik yükseltme,\n"
+#~ "* Hata düzeltme garantisi,\n"
+#~ "* Aylık potansiyel hata ve düzeltmelerin duyurusu,\n"
+#~ "* E-posta ile güvenlik uyarıları ve otomatik güncelleme,\n"
+#~ "* Müşteri portala erişim.\n"
+#~ "\n"
+#~ "Daha fazla bilgi için aşağıdaki bağlantıyı kullanabilirsiniz. Hatanı detayı "
+#~ "ikinci tab'da yer almaktadır.\n"
+
+#~ msgid "Print Workflow (Complex)"
+#~ msgstr "İş Akışı'nı (Karmaşık) Yazdır"
+
+#, python-format
+#~ msgid ""
+#~ "Your problem could <u>NOT</u> be sent to the quality team !\n"
+#~ "Please report this error manually at %s"
+#~ msgstr ""
+#~ "Probleminiz kalite ekibine <u>GÖNDERİLEMİYOR</u>  !\n"
+#~ "Lütfen bu hatayı kendiniz %s 'e bildiriniz."
+
+#, python-format
+#~ msgid "Unable to set locale %s"
+#~ msgstr "Yereli %s 'ye ayarlanamıyor"
+
+#~ msgid "specify the log level: INFO, DEBUG, WARNING, ERROR, CRITICAL"
+#~ msgstr "log seviyesini belirle: BILGI, HATA AYIKLA, UYARI, HATA, KRİTİK"
+
+#~ msgid "specify channels to log"
+#~ msgstr "log tutmak için kanal belirle"
+
+#~ msgid "enable basic debugging"
+#~ msgstr "basit hata ayıkla"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Sunucu (%s) sürümü ile istemci (%s) sürümü uymamaktadır. İstemci tam "
+#~ "çalışmayabilir. Bu riski bilerek kullanıma devam edin."
+
+#~ msgid "<b>Operation in progress</b>"
+#~ msgstr "<b>Uygulama İşlemde</b>"
+
+#~ msgid "OpenERP Database Installation"
+#~ msgstr "OpenERP Veritabanı Kurulumu"
+
+#, python-format
+#~ msgid " - %s request(s) sended"
+#~ msgstr " - %s istek(ler) gönderildi"
+
+#~ msgid "The following users have been installed on your database:"
+#~ msgstr "Bu kullanıcılar veritabanınıza yüklendi:"
+
+#~ msgid "Edit"
+#~ msgstr "Düzenle"
+
+#~ msgid "You can now connect to the database as an administrator."
+#~ msgstr "Şimdi veritabanına yönetici olarak bağlanabilirsiniz."
+
+#~ msgid ""
+#~ "Connection error !\n"
+#~ "Bad username or password !"
+#~ msgstr ""
+#~ "Bağlantı hatası !\n"
+#~ "Yanlış kullanıcı adı yada şifresi !"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Hata, şifre değişmedi."
+
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC hatası !"
+
+#~ msgid "Preference"
+#~ msgstr "Tercihler"
+
+#~ msgid ""
+#~ "Function only available for MS Office !\n"
+#~ "Sorry, OOo users :("
+#~ msgstr ""
+#~ "Bu fonksiyon sadece MS Office'de var !\n"
+#~ "OOo kullanıcıları, kusura bakmayın :("
+
+#~ msgid "The content of the widget or excpetion if not valid"
+#~ msgstr "Widget Nesnesinin içeriği ya da uygulaması geçersiz"
+
+#~ msgid "<i>_Maintenance</i>"
+#~ msgstr "<i>_Bakım</i>"
+
+#~ msgid "Send to Maintenance Team"
+#~ msgstr "Bakım Ekibine Gönder"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Diğer Notlar:"
+
+#~ msgid ""
+#~ "<b>Maintenance Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and maintenance team will reply you "
+#~ "shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Bakım Sözleşmesi.</b\n"
+#~ "<i>İletiniz OpenErp ulaştırılacak en kıssa zamanda bakım ekibi size "
+#~ "dönecektir.\n"
+#~ "</i>"
+
+#~ msgid "Click here for details about the maintenance proposition"
+#~ msgstr "Bakım Önerileri Detayları İçin Buraya Tıkla"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "<b>An unknown error has been reported.</b>\n"
+#~ "\n"
+#~ "Your maintenance contract does not cover all modules installed in your "
+#~ "system !\n"
+#~ "If you are using Open ERP in production, it is highly suggested to upgrade "
+#~ "your\n"
+#~ "contract.\n"
+#~ "\n"
+#~ "If you have developped your own modules or installed third party module, we\n"
+#~ "can provide you an additional maintenance contract for these modules. After\n"
+#~ "having reviewed your modules, our quality team will ensure they will "
+#~ "migrate\n"
+#~ "automatically for all futur stable versions of Open ERP at no extra cost.\n"
+#~ "\n"
+#~ "Here is the list of modules not covered by your maintenance contract:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "You can use the link bellow for more information. The detail of the error\n"
+#~ "is displayed on the second tab."
+#~ msgstr ""
+#~ "\n"
+#~ "<Bilinmeyen Bir Hata Oluştu.</b>\n"
+#~ "Open ERP' i üretim de kullanıyorsanız sözleşmenizi güncellemenizi tavsiye\n"
+#~ "ederiz.\n"
+#~ "\n"
+#~ "Eğer kendi modüllerinizi tasarladıysanız veya 3cü şahısların modüllerini\n"
+#~ "kullanmaktaysanız bu modüller için ek bir sözleşme yapabiliriz.\n"
+#~ "Modüllerinizi inceledikten sonra, kalite ekibimiz bu modülleri gelecekteki\n"
+#~ "tüm Open ERP sürümlerine ücretsiz dahil edecektir.\n"
+#~ "%s\n"
+#~ "Aşağıda ki linkten daha fazla bilgi edinebilirsiniz. Hatanın detayları\n"
+#~ "ikinci sayfada gösterilmektedir."
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Linux Otomatik Baskı uygulanamamaktadır.\n"
+#~ "Baskı Önizleme Kullanın !"
+
+#~ msgid "Error no report"
+#~ msgstr "Hata ! Rapor Yok"
+
+#~ msgid "_Tips"
+#~ msgstr "_İpuçları"
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Excel de Aç\n"
+#~ "CSV olarak kaydet"
+
+#~ msgid "OpenERP Survey"
+#~ msgstr "OpenERP Anket"
+
+#~ msgid ""
+#~ "<i>Please fill in the following form in order to help us to improve OpenERP "
+#~ "and better target new developments.</i>"
+#~ msgstr ""
+#~ "<i>Lütfen OpenERP geliştirilmesinde bize yardımcı olmak için formu "
+#~ "doldurun.</i>"
+
+#~ msgid "<b>OpenERP Survey</b>"
+#~ msgstr "<b>OpenERP Anket</b>"
+
+#~ msgid "Country:"
+#~ msgstr "Ülke"
+
+#~ msgid "Your Role:"
+#~ msgstr "Sizin Kuralınız:"
+
+#~ msgid "# Employees:"
+#~ msgstr "#Çalışan Sayısı:"
+
+#~ msgid "<b>Your company:</b>"
+#~ msgstr "<b>Firmanız:</b>"
+
+#~ msgid "We plan to use OpenERP"
+#~ msgstr "OpenERP Kullanmayı düşünüyoruz"
+
+#~ msgid "We plan to offer services on OpenERP"
+#~ msgstr "OpenERP Hizmetlerinden yararlanmayı düşünüyoruz"
+
+#~ msgid "Industry:"
+#~ msgstr "Branş:"
+
+#~ msgid "Open Source:"
+#~ msgstr "Açık Kaynak:"
+
+#~ msgid "How did you hear about us:"
+#~ msgstr "Bizden nasıl haberdar oldunuz:"
+
+#~ msgid "System:"
+#~ msgstr "Sistem:"
+
+#~ msgid "Tell us why you try OpenERP and what are your current softwares:"
+#~ msgstr ""
+#~ "Bize neden OpenERP kullanmak istediğinizi ve diğer kullandığınız yazılımları "
+#~ "anlatınız::"
+
+#~ msgid "I want to be contacted for a demonstration"
+#~ msgstr "Bir demo gözterisi için benimle iletişime geçilmesini istiyorum"
+
+#~ msgid "<b>Your interrest:</b>"
+#~ msgstr "<b>İlgi Alanınız:</b>"
+
+#~ msgid "Phone / Mobile:"
+#~ msgstr "Telefon / Cep:"
+
+#~ msgid "Your Name:"
+#~ msgstr "İsminiz:"
+
+#~ msgid "E-Mail:"
+#~ msgstr "E-Mailiniz:"
+
+#~ msgid "Your Company:"
+#~ msgstr "Firmanız:"
+
+#~ msgid "<b>Keep Informed</b>"
+#~ msgstr "<b>Devamlı Bilgilendir</b>"
+
+#~ msgid "<Shist> + <Tab>"
+#~ msgstr "<Shist> + <Tab>"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Alan Ayraçı"
+
+#~ msgid "New Database Name:"
+#~ msgstr "Yeni Veritaban Adı:"
+
+#~ msgid "OpenERP Server:"
+#~ msgstr "OpenERP Sunucusu:"
+
+#~ msgid "Default Language:"
+#~ msgstr "Varsayılan Dil:"
+
+#~ msgid ""
+#~ "This is the password of the '<i>admin</i>' user that will be created in your "
+#~ "new database. It has to be the same than the above field."
+#~ msgstr ""
+#~ "Bu yeni veritabanınızın yönetici şifresidir. Üstte girdiğiniz şifrenin "
+#~ "aynısı olmak zorundadır."
+
+#~ msgid "<b>Database created successfully!</b>"
+#~ msgstr "<b>Veritabanı Başarıyla Oluşturuldu!</b>"
+
+#~ msgid "Database creation"
+#~ msgstr "Veritabanı Üretim"
+
+#~ msgid "Add _field names"
+#~ msgstr "Alan_adı ekle"
+
+#~ msgid ""
+#~ "You can connect to the new database using one of the following account:\n"
+#~ "\n"
+#~ "    Administrator: admin / admin "
+#~ msgstr ""
+#~ "Yeni veritabanına şu kullanıcıyla bağlanabilirsiniz: \n"
+#~ "Yönetici: admin / admin "
+
+#~ msgid "Load Demonstration Data:"
+#~ msgstr "Demo Data Aç:"
+
+#~ msgid "Employees:"
+#~ msgstr "Çalışanlar:"
+
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-cancel"
+
+#~ msgid "gtk-ok"
+#~ msgstr "gtk-ok"
+
+#~ msgid "City:"
+#~ msgstr "Şehir:"
+
+#~ msgid "E-mail:"
+#~ msgstr "E-Posta:"
+
+#~ msgid ""
+#~ "This is the password of the '<i>admin</i>' user that will be created in your "
+#~ "new database."
+#~ msgstr ""
+#~ "Bu yeni veritabanınızda oluşturulacak '<i>yönetici</i>' kullanıcının "
+#~ "parolasıdır."
+
+#~ msgid "Administrator Password:"
+#~ msgstr "Yönetici Parolası:"
+
+#~ msgid "Confirm Password:"
+#~ msgstr "Parolayı Doğrula:"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Dışa aktarılacak bir Seçenek seç</b>"
+
+#~ msgid ""
+#~ "Please fill in the following form in order to help us to improve <b><span "
+#~ "foreground=\"red\"><i>Open</i></span> ERP</b> and better target new "
+#~ "developments."
+#~ msgstr ""
+#~ "Lütfen aşağıdaki formu doldurarak <b><span "
+#~ "foreground=\"red\"><i>Open</i></span> ERP</b>'yi iyileştirmemize ve sonraki "
+#~ "sürümlerin geliştirilmesinde daha iyi hedefler oluşturmamıza yardımcı olunuz."
+
+#~ msgid "Connect now"
+#~ msgstr "Şimdi Bağlan"
+
+#~ msgid "Connect Later"
+#~ msgstr "Daha Sonra Bağlan"
+
+#~ msgid "<b>Your company</b>"
+#~ msgstr "<b>Şirket Adı</b>"
+
+#~ msgid "We plan to use Open ERP"
+#~ msgstr "Open ERP kullanmayı düşünüyoruz."
+
+#~ msgid "We plan to offer services on Open ERP"
+#~ msgstr "Open ERP'ye bağlı hizmetler sunmayı düşünüyoruz."
+
+#~ msgid "<b>Your interrest</b>"
+#~ msgstr "<b>İlgi Alanınız></b>"
+
+#~ msgid "Tell us why you try Open ERP and what are your current softwares:"
+#~ msgstr ""
+#~ "Neden Open ERP'yi denediğinizi ve şu anda kullandığınız diğer yazılımları "
+#~ "söyleyiniz:"
+
+#~ msgid "I want to receive the Open ERP ebook (PDF) by email"
+#~ msgstr "Open ERP E-kitabını (PDF) E-Posta ile almak istiyorum."
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "<b>An unknown error has been reported.</b>\n"
+#~ "\n"
+#~ "Your maintenance contract does not cover all modules installed in your "
+#~ "system !\n"
+#~ "If you are using Open ERP in production, it is highly suggested to upgrade "
+#~ "your\n"
+#~ "contract.\n"
+#~ "\n"
+#~ "If you have developed your own modules or installed third party module, we\n"
+#~ "can provide you an additional maintenance contract for these modules. After\n"
+#~ "having reviewed your modules, our quality team will ensure they will "
+#~ "migrate\n"
+#~ "automatically for all future stable versions of Open ERP at no extra cost.\n"
+#~ "\n"
+#~ "Here is the list of modules not covered by your maintenance contract:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "You can use the link bellow for more information. The detail of the error\n"
+#~ "is displayed on the second tab."
+#~ msgstr ""
+#~ "\n"
+#~ "Bu pencere size OpenERP bakım sözleşmeleri ile ilgili bilgi vermek için "
+#~ "programda bir hata oluştuğunda görüntülenmektedir. Hatanın sebebi bir bakım "
+#~ "sözleşmeniz olmaması değildir. Bu sadece \"Eğer sözleşmeniz olsaydı bu "
+#~ "hatayı tamir ederdik\" anlamında bir hatırlatmadır.\n"
+#~ "\n"
+#~ "<b>An unknown error has been reported.</b>\n"
+#~ "\n"
+#~ "Your maintenance contract does not cover all modules installed in your "
+#~ "system !\n"
+#~ "If you are using Open ERP in production, it is highly suggested to upgrade "
+#~ "your\n"
+#~ "contract.\n"
+#~ "\n"
+#~ "If you have developed your own modules or installed third party module, we\n"
+#~ "can provide you an additional maintenance contract for these modules. After\n"
+#~ "having reviewed your modules, our quality team will ensure they will "
+#~ "migrate\n"
+#~ "automatically for all future stable versions of Open ERP at no extra cost.\n"
+#~ "\n"
+#~ "Here is the list of modules not covered by your maintenance contract:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "You can use the link bellow for more information. The detail of the error\n"
+#~ "is displayed on the second tab."
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "İçe aktarım sırasında hata oluştu:\n"
+#~ "%s\n"
+#~ "Hata mesajı:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Yerel %s ayarı yapılamadı: %s"
+
+#~ msgid "in"
+#~ msgstr "->"
+
+#~ msgid "not in"
+#~ msgstr "içinde değil"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Kısayol olarak kaydet"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Eğer operatör olarak 'içinde' yada 'içinde geçmeyen' seçilmişse değerleri "
+#~ "',' kullanarak ayırın.\n"
+#~ "Tarih ve TarihSaat biçimleri için girdileri '%Y-%m-%d' ve '%Y-%m-%d "
+#~ "%H:%M:%S'  biçiminde girin."
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Arama kriterlerinin uygulanacağı alanlar"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Koşullu operatörler"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr "Tercihleriniz (eğer varsa) bir sonraki filtre ile uygulanacak"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Yayıncı Garanti Sözleşmesi.</b>\n"
+#~ "<i>\n"
+#~ "İsteğiniz OpenERP yayıncı garanti ekibine gönderilecek. Size kısa süre "
+#~ "içinde cevap verilecektir.</i>"
+
+#~ msgid ""
+#~ "AND\n"
+#~ "OR"
+#~ msgstr ""
+#~ "VE\n"
+#~ "VEYA"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Filtreyi Kaldır"
+
+#~ msgid "Summary of the problem:"
+#~ msgstr "Problemin Özeti:"
+
+#~ msgid ""
+#~ "\n"
+#~ "(c) 2003-TODAY - Tiny sprl\n"
+#~ "OpenERP is a product of Tiny sprl:\n"
+#~ "\n"
+#~ "Tiny sprl\n"
+#~ "40 Chaussée de Namur\n"
+#~ "1367 Gérompont\n"
+#~ "Belgium\n"
+#~ "\n"
+#~ "Tel : (+32)81.81.37.00\n"
+#~ "Mail: sales@tiny.be\n"
+#~ "Web: http://tiny.be"
+#~ msgstr ""
+#~ "\n"
+#~ "(c) 2003-TODAY - Tiny sprl\n"
+#~ "OpenERP bir Tiny sprl yazılımıdır:\n"
+#~ "\n"
+#~ "Tiny sprl40 Chaussée de Namur\n"
+#~ "1367 Gérompont\n"
+#~ "Belgium\n"
+#~ "Tel : (+32)81.81.37.00\n"
+#~ "Posta: sales@tiny.be\n"
+#~ "Web: http://tiny.be"
+
+#~ msgid "File to Import:"
+#~ msgstr "Alınacak Dosya"
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Kayıt kaydedilemedi! \n"
+#~ " Bu Kaydı silmek mi istiyorsunuz ?"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenERP - GTK Client - v%s\n"
+#~ "\n"
+#~ "OpenERP is an Open Source ERP+CRM\n"
+#~ "for small to medium businesses.\n"
+#~ "\n"
+#~ "The whole source code is distributed under\n"
+#~ "the terms of the GNU Public Licence.\n"
+#~ "\n"
+#~ "(c) 2003-TODAY, Tiny sprl\n"
+#~ "\n"
+#~ "More Info on www.openerp.com !"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenERP - GTK İstemcisi - v%s\n"
+#~ "\n"
+#~ "OpenERP KOBİler için Bir açık kaynak ERP+CRM\n"
+#~ "uygulamasıdır.\n"
+#~ "\n"
+#~ "Tüm kaynak kodları GNU Açık Lisansı ile lisanslanmıştır.\n"
+#~ "(c) 2003-TODAY Tiny sprl \n"
+#~ "\n"
+#~ "Daha Fazla Bilgi için:  www.openerp.com !"
