@@ -485,7 +485,7 @@ class Screen(signal_event.signal_event):
         del self.win_search
         del self.win_search_callback
         del self.window
-        
+
     def set_tooltips(self):
         terp_main = service.LocalService('gui.main')
         page_id= terp_main.notebook.get_current_page()
@@ -493,8 +493,8 @@ class Screen(signal_event.signal_event):
         action_name = form_obj.name or ''
         if self.current_view.view_type == 'form':
             tips = unicode(self.current_model and self.current_model.value.get('name') or action_name)
-            tooltips = tips == action_name and action_name or  action_name + ': ' + tips[:64] 
-            label = tips == action_name and action_name or  action_name + ': ' + tips[:6] 
+            tooltips = tips == action_name and action_name or  action_name + ': ' + tips[:64]
+            label = tips == action_name and action_name or  action_name + ': ' + tips[:6]
         else:
             tooltips = action_name
             label = action_name
@@ -599,7 +599,6 @@ class Screen(signal_event.signal_event):
                 if attrs.get('widget', False):
                     if attrs['widget']=='one2many_list':
                         attrs['widget']='one2many'
-                    attrs['type'] = attrs['widget']
                 if attrs.get('selection',[]):
                     attrs['selection'] = eval(attrs['selection'])
                     for att_key, att_val in attrs['selection'].items():

@@ -192,11 +192,11 @@ class parse(object):
             if node.tag =='field':
                 field_name = str(attrs['name'])
                 field_dic = self.fields[field_name]
-                type = attrs.get('widget', field_dic['type'])
+                widget_type = attrs.get('widget', False)
+                field_type = field_dic['type']
                 field_dic.update(attrs)
                 field_dic['model'] = self.model
-                if type not in widgets_type:
-                    continue
+                type = widget_type in widgets_type and widget_type or field_type
                 widget_act = widgets_type[type][0](field_name, self.parent, field_dic, screen=call[0])
                 if 'string' in field_dic:
                     label = field_dic['string']+' :'
