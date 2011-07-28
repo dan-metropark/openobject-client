@@ -8,13 +8,533 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-19 16:32+0530\n"
+"POT-Creation-Date: 2011-07-28 15:22+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:30
+msgid "Gantt view not yet implemented !"
+msgstr ""
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:31
+msgid ""
+"The gantt view is not available in this GTK Client, you should use the web "
+"interface or switch to the calendar view."
+msgstr ""
+
+#: bin/widget/view/list.py:584 bin/widget/view/list.py:585
+#: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
+msgid "Invalid form, correct red fields !"
+msgstr ""
+
+#: bin/widget/view/list.py:584
+msgid "Error !"
+msgstr ""
+
+#: bin/widget/view/list.py:633 bin/widget/view/form_gtk/many2one.py:387
+msgid "You must select a record to use the relation !"
+msgstr ""
+
+#: bin/widget/view/form.py:137
+msgid "You must save this record to use the relate button !"
+msgstr ""
+
+#: bin/widget/view/form.py:142
+msgid "Action not defined !"
+msgstr ""
+
+#: bin/widget/view/form.py:201
+msgid "You must save this record to use the action button !"
+msgstr ""
+
+#: bin/widget/view/form.py:213
+msgid "You must save a record to use the relate button !"
+msgstr ""
+
+#: bin/widget/view/form.py:238 bin/widget/view/form_gtk/parser.py:635
+#: bin/widget/view/form_gtk/parser.py:756
+#: bin/widget/view/form_gtk/parser.py:813
+msgid "No other language available!"
+msgstr ""
+
+#: bin/widget/view/form.py:245 bin/widget/view/form_gtk/parser.py:647
+#: bin/widget/view/form_gtk/parser.py:762
+#: bin/widget/view/form_gtk/parser.py:819
+msgid "Add Translation"
+msgstr ""
+
+#: bin/widget/view/form.py:293 bin/widget/view/form_gtk/parser.py:875
+msgid "Translate label"
+msgstr ""
+
+#: bin/widget/view/widget_parse.py:53
+#, python-format
+msgid "This type (%s) is not supported by the GTK client !"
+msgstr ""
+
+#: bin/widget/view/widget_parse.py:64
+msgid "No valid view found for this object!"
+msgstr ""
+
+#: bin/widget/view/tree_gtk/date_renderer.py:197
+msgid "Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
+msgstr ""
+
+#: bin/widget/view/tree_gtk/parser.py:61
+msgid ""
+"You have unsaved record(s) !  \n"
+"\n"
+"Please Save them before sorting !"
+msgstr ""
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
+#, python-format
+msgid "Shortcut: %s"
+msgstr ""
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
+msgid "F1 New - F2 Open/Search"
+msgstr ""
+
+#: bin/widget/view/tree_gtk/editabletree.py:215
+#, python-format
+msgid "Warning; field %s is required!"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1422
+msgid "Dot Viewer"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1712
+msgid "Add New Node"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1713
+msgid "Add New Edge"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1714
+msgid "Enlarge the Diagram"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1715
+msgid "Shrink the Diagram"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1716
+msgid "Fit the diagram to the window"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1717
+msgid "Show the diagram at its normal size"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1718
+msgid "Print the Diagram"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1772
+#: bin/modules/gui/window/win_search.py:49
+msgid "OpenERP - Link"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1789
+#, python-format
+msgid "Close Current %s"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1790
+#, python-format
+msgid "Delete Current %s"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1791
+#, python-format
+msgid "Edit Current %s"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1875
+msgid " - Dot Viewer"
+msgstr ""
+
+#: bin/widget/view/graph_gtk/parser.py:64
+msgid "Can not generate graph !"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:74
+msgid "--Actions--"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:74
+msgid "Save as a Filter"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:74
+msgid "Manage Filters"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:89
+msgid "100"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:89
+msgid "200"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:89
+msgid "500"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:89
+msgid "Unlimited"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:73
+msgid "Set Image"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:82 bin/widget/view/form_gtk/binary.py:84
+msgid "Save As"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:93 bin/widget/view/form_gtk/binary.py:88
+msgid "Clear"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:102
+msgid "All files"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:106
+msgid "Images"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:112 bin/widget/view/form_gtk/url.py:118
+#: bin/modules/gui/main.py:1389 bin/openerp.glade:5817
+msgid "Open..."
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:127
+msgid "There is no image to save as !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:127
+msgid "Warning"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:129
+#: bin/widget/view/form_gtk/binary.py:167 bin/printer/printer.py:231
+#: bin/modules/gui/window/win_export.py:359 bin/modules/gui/main.py:1493
+msgid "Save As..."
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:177
+msgid "Image corrupted"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:84
+#: bin/widget/view/form_gtk/one2many_list.py:210
+msgid "Previous Page"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:88
+#: bin/widget/view/form_gtk/one2many_list.py:214
+msgid "Previous Record"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:96
+#: bin/widget/view/form_gtk/one2many_list.py:222
+msgid "Next Record"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:100
+#: bin/widget/view/form_gtk/one2many_list.py:226
+msgid "Next Page"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:106
+#: bin/widget/view/form_gtk/one2many_list.py:238
+msgid "Choose Limit"
+msgstr ""
+
+#: bin/widget/view/form_gtk/calendar.py:57
+#: bin/widget/view/form_gtk/calendar.py:184 bin/widget_search/calendar.py:53
+#: bin/widget_search/calendar.py:73 bin/widget_search/calendar.py:181
+#: bin/widget_search/calendar.py:201
+msgid "Open the calendar widget"
+msgstr ""
+
+#: bin/widget/view/form_gtk/calendar.py:99
+#: bin/widget/view/form_gtk/calendar.py:163
+msgid "Invalid date value! Year must be greater than 1899 !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/calendar.py:135
+#: bin/widget/view/form_gtk/calendar.py:249 bin/widget_search/calendar.py:128
+#: bin/widget_search/calendar.py:267
+msgid "OpenERP - Date selection"
+msgstr ""
+
+#: bin/widget/view/form_gtk/calendar.py:255 bin/widget_search/calendar.py:273
+msgid "Hour:"
+msgstr ""
+
+#: bin/widget/view/form_gtk/calendar.py:258 bin/widget_search/calendar.py:276
+msgid "Minute:"
+msgstr ""
+
+#: bin/widget/view/form_gtk/calendar.py:291 bin/widget_search/calendar.py:312
+msgid "Invalid datetime value! Year must be greater than 1899 !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1079
+#: bin/openerp.glade:6081
+msgid "OpenERP"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:64
+msgid "Cancel"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:70
+msgid "Save & Close"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:75
+msgid "Save & New"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:164
+#: bin/widget/view/form_gtk/interface.py:48
+msgid "Set to default value"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:167
+msgid "Set Default"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:196
+msgid "Create a new entry"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:200
+msgid "Edit this entry"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:204
+msgid "Remove this entry"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:232
+msgid "Switch"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:279
+msgid "You have to select a resource !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:388
+#: bin/modules/gui/window/form.py:290
+msgid "Are you sure to remove this record ?"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:390
+#: bin/modules/gui/window/form.py:292
+msgid "Are you sure to remove those records ?"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:61
+msgid "Wrong icon for the button !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
+#, python-format
+msgid ""
+"Correct following red fields !\n"
+"\n"
+"%s"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
+msgid "Input Error !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:308
+msgid "Field"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:308
+msgid "Object"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:619
+msgid "Enter some text to the related field before adding translations!"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:626
+msgid "You need to save resource before adding translations!"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:880
+msgid "Translate view"
+msgstr ""
+
+#: bin/widget/view/form_gtk/reference.py:76 bin/openerp.glade:1258
+msgid "Create a new resource"
+msgstr ""
+
+#: bin/widget/view/form_gtk/reference.py:89
+msgid "Search / Open a resource"
+msgstr ""
+
+#: bin/widget/view/form_gtk/interface.py:49
+msgid "Set as default"
+msgstr ""
+
+#: bin/widget/view/form_gtk/interface.py:64
+msgid "You can not set to the default value here !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/interface.py:64
+msgid "Operation not permited"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2one.py:158 bin/widget/view/form_gtk/url.py:53
+msgid "Open this resource"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2one.py:163
+#: bin/widget_search/custom_filter_widgets.py:87
+msgid "Search a resource"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2one.py:174 bin/openerp.glade:1412
+msgid "Action"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2one.py:175
+msgid "Report"
+msgstr ""
+
+#: bin/widget/view/form_gtk/button.py:47 bin/widget_search/char.py:72
+#: bin/widget_search/calendar.py:125 bin/widget_search/calendar.py:250
+#: bin/widget_search/filter.py:77 bin/widget_search/reference.py:78
+#: bin/widget_search/spinbutton.py:92 bin/widget_search/selection.py:116
+#: bin/widget_search/custom_filter.py:140 bin/widget_search/spinint.py:95
+#: bin/widget_search/checkbox.py:68
+msgid "The content of the widget or ValueError if not valid"
+msgstr ""
+
+#: bin/widget/view/form_gtk/url.py:50
+msgid "Send an e-mail with your default e-mail client"
+msgstr ""
+
+#: bin/widget/view/form_gtk/date_widget.py:65
+#: bin/widget_search/date_widget.py:65
+msgid ""
+"You can use special operation by pressing +, - or =.  Plus/minus adds/"
+"decrease the variable to the current selected date. Equals set part of "
+"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
+"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
+"* +21d : adds 21 days to selected year\n"
+"* =23w : set date to the 23th week of the year\n"
+"* -4m : decrease 4 months to the current date\n"
+"You can also use \"=\" to set the date to the current date/time and '-' to "
+"clear the field."
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:76
+msgid "Select"
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:80
+msgid "Open"
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:119
+#: bin/widget/view/form_gtk/binary.py:163
+msgid "Unable to read the file data"
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:129
+#: bin/widget/view/form_gtk/binary.py:155
+#, python-format
+msgid "Error reading the file: %s"
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:138
+msgid "All Files"
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:148
+msgid "Select a file..."
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:177
+#, python-format
+msgid "Error writing the file: %s"
+msgstr ""
+
+#: bin/widget/view/form_gtk/wid_common.py:59
+msgid "Always applicable !"
+msgstr ""
+
+#: bin/widget/view/calendar_gtk/parser.py:355 bin/openerp.glade:8064
+msgid "Week"
+msgstr ""
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:30
+msgid "Calendar View Error !"
+msgstr ""
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:31
+msgid "You must intall the library python-hippocanvas to use calendars."
+msgstr ""
+
+#: bin/widget/screen/screen.py:337
+msgid ""
+"(Any existing filter with the \n"
+"same name will be replaced)"
+msgstr ""
+
+#: bin/translate.py:183
+#, python-format
+msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+msgstr ""
+
+#: bin/options.py:121
+#, python-format
+msgid "OpenERP Client %s"
+msgstr ""
+
+#: bin/options.py:122
+msgid "specify alternate config file"
+msgstr ""
+
+#: bin/options.py:123
+msgid "Enable basic debugging. Alias for '--log-level=debug'"
+msgstr ""
+
+#: bin/options.py:124
+#, python-format
+msgid "specify the log level: %s"
+msgstr ""
+
+#: bin/options.py:125
+msgid "specify the user login"
+msgstr ""
+
+#: bin/options.py:126
+msgid "specify the server port"
+msgstr ""
+
+#: bin/options.py:127
+msgid "specify the server ip/name"
+msgstr ""
 
 #: bin/common/common.py:89
 msgid "Close current tip"
@@ -151,85 +671,48 @@ msgstr ""
 msgid "Open with..."
 msgstr ""
 
+#: bin/plugins/__init__.py:27
+msgid "Print Workflow"
+msgstr ""
+
+#: bin/plugins/__init__.py:28
+msgid "Print Workflow (with subflows)"
+msgstr ""
+
+#: bin/plugins/__init__.py:40
+msgid "No available plugin for this resource !"
+msgstr ""
+
+#: bin/plugins/__init__.py:42
+msgid "Choose a Plugin"
+msgstr ""
+
+#: bin/printer/printer.py:184
+#, python-format
+msgid "Unable to handle %s filetype"
+msgstr ""
+
+#: bin/printer/printer.py:193
+#, python-format
+msgid ""
+"Error occurred while printing:\n"
+"%s"
+msgstr ""
+
+#: bin/printer/printer.py:195
+msgid "Print Report"
+msgstr ""
+
+#: bin/printer/printer.py:212
+msgid "Error! No Data found. Make sure you have enough data to print!"
+msgstr ""
+
+#: bin/printer/printer.py:239
+msgid "Error writing the file!"
+msgstr ""
+
 #: bin/widget_search/form.py:492
 msgid "The content of the form or exception if not valid"
-msgstr ""
-
-#: bin/widget_search/wid_int.py:56
-msgid "The content of the widget or exception if not valid"
-msgstr ""
-
-#: bin/widget_search/spinbutton.py:92 bin/widget_search/custom_filter.py:140
-#: bin/widget_search/checkbox.py:68 bin/widget_search/calendar.py:125
-#: bin/widget_search/calendar.py:250 bin/widget_search/char.py:72
-#: bin/widget_search/reference.py:78 bin/widget_search/selection.py:116
-#: bin/widget_search/filter.py:77 bin/widget_search/spinint.py:95
-#: bin/widget/view/form_gtk/button.py:47
-msgid "The content of the widget or ValueError if not valid"
-msgstr ""
-
-#: bin/widget_search/custom_filter.py:51
-msgid "AND"
-msgstr ""
-
-#: bin/widget_search/custom_filter.py:52
-msgid "OR"
-msgstr ""
-
-#: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
-#: bin/widget_search/checkbox.py:55
-msgid "Yes"
-msgstr ""
-
-#: bin/widget_search/checkbox.py:36 bin/widget_search/checkbox.py:44
-msgid "No"
-msgstr ""
-
-#: bin/widget_search/date_widget.py:65
-#: bin/widget/view/form_gtk/date_widget.py:65
-msgid ""
-"You can use special operation by pressing +, - or =.  Plus/minus adds/"
-"decrease the variable to the current selected date. Equals set part of "
-"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
-"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
-"* +21d : adds 21 days to selected year\n"
-"* =23w : set date to the 23th week of the year\n"
-"* -4m : decrease 4 months to the current date\n"
-"You can also use \"=\" to set the date to the current date/time and '-' to "
-"clear the field."
-msgstr ""
-
-#: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
-msgid "Start date"
-msgstr ""
-
-#: bin/widget_search/calendar.py:53 bin/widget_search/calendar.py:73
-#: bin/widget_search/calendar.py:181 bin/widget_search/calendar.py:201
-#: bin/widget/view/form_gtk/calendar.py:57
-#: bin/widget/view/form_gtk/calendar.py:184
-msgid "Open the calendar widget"
-msgstr ""
-
-#: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
-msgid "End date"
-msgstr ""
-
-#: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
-#: bin/widget/view/form_gtk/calendar.py:135
-#: bin/widget/view/form_gtk/calendar.py:249
-msgid "OpenERP - Date selection"
-msgstr ""
-
-#: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
-msgid "Hour:"
-msgstr ""
-
-#: bin/widget_search/calendar.py:276 bin/widget/view/form_gtk/calendar.py:258
-msgid "Minute:"
-msgstr ""
-
-#: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
-msgid "Invalid datetime value! Year must be greater than 1899 !"
 msgstr ""
 
 #: bin/widget_search/char.py:45
@@ -306,11 +789,6 @@ msgstr ""
 msgid "doesn't contain"
 msgstr ""
 
-#: bin/widget_search/custom_filter_widgets.py:87
-#: bin/widget/view/form_gtk/many2one.py:163
-msgid "Search a resource"
-msgstr ""
-
 #: bin/widget_search/custom_filter_widgets.py:167
 msgid "Equals"
 msgstr ""
@@ -371,475 +849,33 @@ msgstr ""
 msgid "less than equal to"
 msgstr ""
 
-#: bin/widget/screen/screen.py:337
-msgid ""
-"(Any existing filter with the \n"
-"same name will be replaced)"
+#: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
+msgid "Start date"
 msgstr ""
 
-#: bin/widget/view/widget_parse.py:53
-#, python-format
-msgid "This type (%s) is not supported by the GTK client !"
+#: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
+msgid "End date"
 msgstr ""
 
-#: bin/widget/view/widget_parse.py:64
-msgid "No valid view found for this object!"
+#: bin/widget_search/wid_int.py:56
+msgid "The content of the widget or exception if not valid"
 msgstr ""
 
-#: bin/widget/view/form.py:137
-msgid "You must save this record to use the relate button !"
+#: bin/widget_search/custom_filter.py:51
+msgid "AND"
 msgstr ""
 
-#: bin/widget/view/form.py:142
-msgid "Action not defined !"
+#: bin/widget_search/custom_filter.py:52
+msgid "OR"
 msgstr ""
 
-#: bin/widget/view/form.py:201
-msgid "You must save this record to use the action button !"
+#: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
+#: bin/widget_search/checkbox.py:55
+msgid "Yes"
 msgstr ""
 
-#: bin/widget/view/form.py:213
-msgid "You must save a record to use the relate button !"
-msgstr ""
-
-#: bin/widget/view/form.py:238 bin/widget/view/form_gtk/parser.py:635
-#: bin/widget/view/form_gtk/parser.py:756
-#: bin/widget/view/form_gtk/parser.py:813
-msgid "No other language available!"
-msgstr ""
-
-#: bin/widget/view/form.py:245 bin/widget/view/form_gtk/parser.py:647
-#: bin/widget/view/form_gtk/parser.py:762
-#: bin/widget/view/form_gtk/parser.py:819
-msgid "Add Translation"
-msgstr ""
-
-#: bin/widget/view/form.py:293 bin/widget/view/form_gtk/parser.py:875
-msgid "Translate label"
-msgstr ""
-
-#: bin/widget/view/list.py:584 bin/widget/view/list.py:585
-#: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
-msgid "Invalid form, correct red fields !"
-msgstr ""
-
-#: bin/widget/view/list.py:584
-msgid "Error !"
-msgstr ""
-
-#: bin/widget/view/list.py:633 bin/widget/view/form_gtk/many2one.py:387
-msgid "You must select a record to use the relation !"
-msgstr ""
-
-#: bin/widget/view/gantt_gtk/parser_dummy.py:30
-msgid "Gantt view not yet implemented !"
-msgstr ""
-
-#: bin/widget/view/gantt_gtk/parser_dummy.py:31
-msgid ""
-"The gantt view is not available in this GTK Client, you should use the web "
-"interface or switch to the calendar view."
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1422
-msgid "Dot Viewer"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1712
-msgid "Add New Node"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1713
-msgid "Add New Edge"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1714
-msgid "Enlarge the Diagram"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1715
-msgid "Shrink the Diagram"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1716
-msgid "Fit the diagram to the window"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1717
-msgid "Show the diagram at its normal size"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1718
-msgid "Print the Diagram"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1772
-#: bin/modules/gui/window/win_search.py:49
-msgid "OpenERP - Link"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1789
-#, python-format
-msgid "Close Current %s"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1790
-#, python-format
-msgid "Delete Current %s"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1791
-#, python-format
-msgid "Edit Current %s"
-msgstr ""
-
-#: bin/widget/view/diagram_gtk/xdot.py:1875
-msgid " - Dot Viewer"
-msgstr ""
-
-#: bin/widget/view/tree_gtk/parser.py:61
-msgid ""
-"You have unsaved record(s) !  \n"
-"\n"
-"Please Save them before sorting !"
-msgstr ""
-
-#: bin/widget/view/tree_gtk/editabletree.py:140
-#, python-format
-msgid "Shortcut: %s"
-msgstr ""
-
-#: bin/widget/view/tree_gtk/editabletree.py:140
-msgid "F1 New - F2 Open/Search"
-msgstr ""
-
-#: bin/widget/view/tree_gtk/editabletree.py:215
-#, python-format
-msgid "Warning; field %s is required!"
-msgstr ""
-
-#: bin/widget/view/tree_gtk/date_renderer.py:197
-msgid "Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
-msgstr ""
-
-#: bin/widget/view/screen_container.py:74
-msgid "--Actions--"
-msgstr ""
-
-#: bin/widget/view/screen_container.py:74
-msgid "Save as a Filter"
-msgstr ""
-
-#: bin/widget/view/screen_container.py:74
-msgid "Manage Filters"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:61
-msgid "Wrong icon for the button !"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
-#, python-format
-msgid ""
-"Correct following red fields !\n"
-"\n"
-"%s"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
-msgid "Input Error !"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:308
-msgid "Field"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:308
-msgid "Object"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:619
-msgid "Enter some text to the related field before adding translations!"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:626
-msgid "You need to save resource before adding translations!"
-msgstr ""
-
-#: bin/widget/view/form_gtk/parser.py:880
-msgid "Translate view"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1079
-#: bin/openerp.glade:6095
-msgid "OpenERP"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:64
-msgid "Cancel"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:70
-msgid "Save & Close"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:75
-msgid "Save & New"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:164
-#: bin/widget/view/form_gtk/interface.py:48
-msgid "Set to default value"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:167
-msgid "Set Default"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:196
-msgid "Create a new entry"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:200
-msgid "Edit this entry"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:204
-msgid "Remove this entry"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:210
-#: bin/widget/view/form_gtk/many2many.py:84
-msgid "Previous Page"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:214
-#: bin/widget/view/form_gtk/many2many.py:88
-msgid "Previous Record"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:222
-#: bin/widget/view/form_gtk/many2many.py:96
-msgid "Next Record"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:226
-#: bin/widget/view/form_gtk/many2many.py:100
-msgid "Next Page"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:232
-msgid "Switch"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:238
-#: bin/widget/view/form_gtk/many2many.py:106
-msgid "Choose Limit"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:279
-msgid "You have to select a resource !"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:388
-#: bin/modules/gui/window/form.py:290
-msgid "Are you sure to remove this record ?"
-msgstr ""
-
-#: bin/widget/view/form_gtk/one2many_list.py:390
-#: bin/modules/gui/window/form.py:292
-msgid "Are you sure to remove those records ?"
-msgstr ""
-
-#: bin/widget/view/form_gtk/interface.py:49
-msgid "Set as default"
-msgstr ""
-
-#: bin/widget/view/form_gtk/interface.py:64
-msgid "You can not set to the default value here !"
-msgstr ""
-
-#: bin/widget/view/form_gtk/interface.py:64
-msgid "Operation not permited"
-msgstr ""
-
-#: bin/widget/view/form_gtk/calendar.py:99
-#: bin/widget/view/form_gtk/calendar.py:163
-msgid "Invalid date value! Year must be greater than 1899 !"
-msgstr ""
-
-#: bin/widget/view/form_gtk/many2one.py:158 bin/widget/view/form_gtk/url.py:53
-msgid "Open this resource"
-msgstr ""
-
-#: bin/widget/view/form_gtk/many2one.py:174 bin/openerp.glade:1412
-msgid "Action"
-msgstr ""
-
-#: bin/widget/view/form_gtk/many2one.py:175
-msgid "Report"
-msgstr ""
-
-#: bin/widget/view/form_gtk/url.py:50
-msgid "Send an e-mail with your default e-mail client"
-msgstr ""
-
-#: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
-#: bin/modules/gui/main.py:1389 bin/openerp.glade:5831
-msgid "Open..."
-msgstr ""
-
-#: bin/widget/view/form_gtk/reference.py:76 bin/openerp.glade:1258
-msgid "Create a new resource"
-msgstr ""
-
-#: bin/widget/view/form_gtk/reference.py:89
-msgid "Search / Open a resource"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:73
-msgid "Set Image"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:82 bin/widget/view/form_gtk/binary.py:84
-msgid "Save As"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:93 bin/widget/view/form_gtk/binary.py:88
-msgid "Clear"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:102
-msgid "All files"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:106
-msgid "Images"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:127
-msgid "There is no image to save as !"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:127
-msgid "Warning"
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:129
-#: bin/widget/view/form_gtk/binary.py:167 bin/printer/printer.py:231
-#: bin/modules/gui/main.py:1493 bin/modules/gui/window/win_export.py:359
-msgid "Save As..."
-msgstr ""
-
-#: bin/widget/view/form_gtk/image.py:177
-msgid "Image corrupted"
-msgstr ""
-
-#: bin/widget/view/form_gtk/wid_common.py:59
-msgid "Always applicable !"
-msgstr ""
-
-#: bin/widget/view/form_gtk/binary.py:76
-msgid "Select"
-msgstr ""
-
-#: bin/widget/view/form_gtk/binary.py:80
-msgid "Open"
-msgstr ""
-
-#: bin/widget/view/form_gtk/binary.py:119
-#: bin/widget/view/form_gtk/binary.py:163
-msgid "Unable to read the file data"
-msgstr ""
-
-#: bin/widget/view/form_gtk/binary.py:129
-#: bin/widget/view/form_gtk/binary.py:155
-#, python-format
-msgid "Error reading the file: %s"
-msgstr ""
-
-#: bin/widget/view/form_gtk/binary.py:138
-msgid "All Files"
-msgstr ""
-
-#: bin/widget/view/form_gtk/binary.py:148
-msgid "Select a file..."
-msgstr ""
-
-#: bin/widget/view/form_gtk/binary.py:177
-#, python-format
-msgid "Error writing the file: %s"
-msgstr ""
-
-#: bin/widget/view/calendar_gtk/parser_dummy.py:30
-msgid "Calendar View Error !"
-msgstr ""
-
-#: bin/widget/view/calendar_gtk/parser_dummy.py:31
-msgid "You must intall the library python-hippocanvas to use calendars."
-msgstr ""
-
-#: bin/widget/view/calendar_gtk/parser.py:355 bin/openerp.glade:8078
-msgid "Week"
-msgstr ""
-
-#: bin/widget/view/graph_gtk/parser.py:64
-msgid "Can not generate graph !"
-msgstr ""
-
-#: bin/options.py:121
-#, python-format
-msgid "OpenERP Client %s"
-msgstr ""
-
-#: bin/options.py:122
-msgid "specify alternate config file"
-msgstr ""
-
-#: bin/options.py:123
-msgid "Enable basic debugging. Alias for '--log-level=debug'"
-msgstr ""
-
-#: bin/options.py:124
-#, python-format
-msgid "specify the log level: %s"
-msgstr ""
-
-#: bin/options.py:125
-msgid "specify the user login"
-msgstr ""
-
-#: bin/options.py:126
-msgid "specify the server port"
-msgstr ""
-
-#: bin/options.py:127
-msgid "specify the server ip/name"
-msgstr ""
-
-#: bin/openerp-client.py:142
-msgid "Closing OpenERP, KeyboardInterrupt"
-msgstr ""
-
-#: bin/plugins/__init__.py:27
-msgid "Print Workflow"
-msgstr ""
-
-#: bin/plugins/__init__.py:28
-msgid "Print Workflow (with subflows)"
-msgstr ""
-
-#: bin/plugins/__init__.py:40
-msgid "No available plugin for this resource !"
-msgstr ""
-
-#: bin/plugins/__init__.py:42
-msgid "Choose a Plugin"
-msgstr ""
-
-#: bin/translate.py:183
-#, python-format
-msgid "Unable to set locale %(lang_enc)s: %(exception)s"
+#: bin/widget_search/checkbox.py:36 bin/widget_search/checkbox.py:44
+msgid "No"
 msgstr ""
 
 #: bin/rpc.py:157 bin/modules/action/wizard.py:150 bin/modules/gui/main.py:187
@@ -870,28 +906,8 @@ msgstr ""
 msgid "View details"
 msgstr ""
 
-#: bin/printer/printer.py:184
-#, python-format
-msgid "Unable to handle %s filetype"
-msgstr ""
-
-#: bin/printer/printer.py:193
-#, python-format
-msgid ""
-"Error occurred while printing:\n"
-"%s"
-msgstr ""
-
-#: bin/printer/printer.py:195
-msgid "Print Report"
-msgstr ""
-
-#: bin/printer/printer.py:212
-msgid "Error! No Data found. Make sure you have enough data to print!"
-msgstr ""
-
-#: bin/printer/printer.py:239
-msgid "Error writing the file!"
+#: bin/openerp-client.py:142
+msgid "Closing OpenERP, KeyboardInterrupt"
 msgstr ""
 
 #: bin/modules/action/main.py:48
@@ -906,17 +922,308 @@ msgstr ""
 msgid "Select your action"
 msgstr ""
 
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Extension"
+msgstr ""
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Application"
+msgstr ""
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Print Processor"
+msgstr ""
+
+#: bin/modules/gui/window/win_extension.py:114
+msgid "This extension is already defined"
+msgstr ""
+
+#: bin/modules/gui/window/win_extension.py:114 bin/openerp.glade:7642
+msgid "Extension Manager"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:189
+msgid "Resource ID does not exist for this object!"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:247
+msgid "No record selected ! You can only attach to existing record."
+msgstr ""
+
+#: bin/modules/gui/window/form.py:264
+msgid "You have to select a record !"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:270
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:41
+#: bin/modules/gui/window/win_export.py:213
+msgid "ID"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:271
+msgid "Creation User"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:272
+msgid "Creation Date"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:273
+msgid "Latest Modification by"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:274
+msgid "Latest Modification Date"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:275
+msgid "Internal Module Data ID"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:287
+msgid ""
+"Record is not saved ! \n"
+" Do you want to clear current record ?"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:296
+msgid "Resources cleared."
+msgstr ""
+
+#: bin/modules/gui/window/form.py:298
+msgid "Resources successfully removed."
+msgstr ""
+
+#: bin/modules/gui/window/form.py:339
+msgid "Working now on the duplicated document !"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:355
+msgid "Document Saved."
+msgstr ""
+
+#: bin/modules/gui/window/form.py:368
+msgid "Warning !"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
+msgid ""
+"This record has been modified\n"
+"do you want to save it ?"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:447
+msgid "You must select one or several records !"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:456
+msgid "Print Screen"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:476
+msgid "No record selected"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:481
+msgid "New document"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:483
+msgid "Editing document (id: "
+msgstr ""
+
+#: bin/modules/gui/window/form.py:486
+msgid "Record: "
+msgstr ""
+
+#: bin/modules/gui/window/form.py:487
+msgid " of "
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:51
+msgid "The file is empty !"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:51
+msgid "Importation !"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:61
+msgid "Imported one object !"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:63
+#, python-format
+msgid "Imported %d objects !"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:70
+#, python-format
+msgid ""
+"Error trying to import this record:\n"
+"%(err_import_record)s\n"
+"Error Message:\n"
+"%(err_type)s\n"
+"\n"
+"%(err_msg)s"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:72
+msgid "Importation Error !"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:105
+#: bin/modules/gui/window/win_import.py:109
+msgid "Field name"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:142
+#: bin/modules/gui/window/win_import.py:144
+#: bin/modules/gui/window/win_export.py:214
+msgid "Database ID"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:181
+msgid "Error opening .CSV file"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:181
+msgid "Input Error."
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:199
+#, python-format
+msgid "You cannot import this field %s, because we cannot auto-detect it"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:202
+#, python-format
+msgid ""
+"Error processing your first line of the file.\n"
+"Field %s is unknown !"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:202
+msgid "Import Error."
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:233
+msgid "You have not selected any fields to import"
+msgstr ""
+
+#: bin/modules/gui/window/win_selection.py:51
+msgid "Name"
+msgstr ""
+
+#: bin/modules/gui/window/win_selection.py:55
+msgid "Ressource Name"
+msgstr ""
+
+#: bin/modules/gui/window/win_selection.py:55
+msgid "Names"
+msgstr ""
+
+#: bin/modules/gui/window/win_preference.py:68
+msgid "Preferences"
+msgstr ""
+
+#: bin/modules/gui/window/win_preference.py:86
+msgid ""
+"The default language of the interface has been modified, do not forget to "
+"restart the client to have the interface in your language"
+msgstr ""
+
+#: bin/modules/gui/window/win_preference.py:88
+msgid "Default language modified !"
+msgstr ""
+
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:45
+msgid "Description"
+msgstr ""
+
+#: bin/modules/gui/window/view_tree/parse.py:35
+msgid "Tree"
+msgstr ""
+
+#: bin/modules/gui/window/win_search.py:126
+#, python-format
+msgid "OpenERP Search: %s"
+msgstr ""
+
+#: bin/modules/gui/window/win_search.py:127
+#, python-format
+msgid "OpenERP Search: %s (%%d result(s))"
+msgstr ""
+
+#: bin/modules/gui/window/__init__.py:31
+msgid "Unknown Window"
+msgstr ""
+
+#: bin/modules/gui/window/tree.py:205 bin/modules/gui/window/tree.py:261
+msgid "No resource selected!"
+msgstr ""
+
+#: bin/modules/gui/window/tree.py:219
+msgid ""
+"Are you sure you want\n"
+"to remove this record?"
+msgstr ""
+
+#: bin/modules/gui/window/tree.py:224
+msgid "Error removing resource!"
+msgstr ""
+
+#: bin/modules/gui/window/tree.py:235
+msgid "Unable to chroot: no tree resource selected"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:50
+msgid " record(s) saved !"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:53
+msgid ""
+"Operation failed !\n"
+"I/O error"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:79
+#: bin/modules/gui/window/win_export.py:105
+msgid "Error Opening Excel !"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:142
+#: bin/modules/gui/window/win_export.py:146
+msgid "Field Name"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:166
+msgid "Open in Excel"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:167
+msgid "Save as CSV"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:317
+msgid "What is the name of this export ?"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:351
+msgid "Exportation Error !"
+msgstr ""
+
 #: bin/modules/gui/main.py:89 bin/modules/gui/main.py:341
 msgid "Could not connect to server !"
 msgstr ""
 
-#: bin/modules/gui/main.py:93 bin/openerp.glade:72 bin/openerp.glade:6247
-#: bin/openerp.glade:6493 bin/openerp.glade:6816 bin/openerp.glade:7480
+#: bin/modules/gui/main.py:93 bin/openerp.glade:72 bin/openerp.glade:6233
+#: bin/openerp.glade:6479 bin/openerp.glade:6802 bin/openerp.glade:7466
 msgid "Server:"
 msgstr ""
 
-#: bin/modules/gui/main.py:104 bin/openerp.glade:98 bin/openerp.glade:6529
-#: bin/openerp.glade:6773 bin/openerp.glade:7072 bin/openerp.glade:7437
+#: bin/modules/gui/main.py:104 bin/openerp.glade:98 bin/openerp.glade:6515
+#: bin/openerp.glade:6759 bin/openerp.glade:7058 bin/openerp.glade:7423
 msgid "Change"
 msgstr ""
 
@@ -1172,302 +1479,11 @@ msgstr ""
 msgid "Couldn't backup database."
 msgstr ""
 
-#: bin/modules/gui/window/__init__.py:31
-msgid "Unknown Window"
-msgstr ""
-
-#: bin/modules/gui/window/win_extension.py:43
-msgid "Extension"
-msgstr ""
-
-#: bin/modules/gui/window/win_extension.py:43
-msgid "Application"
-msgstr ""
-
-#: bin/modules/gui/window/win_extension.py:43
-msgid "Print Processor"
-msgstr ""
-
-#: bin/modules/gui/window/win_extension.py:114
-msgid "This extension is already defined"
-msgstr ""
-
-#: bin/modules/gui/window/win_extension.py:114 bin/openerp.glade:7656
-msgid "Extension Manager"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:189
-msgid "Resource ID does not exist for this object!"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:247
-msgid "No record selected ! You can only attach to existing record."
-msgstr ""
-
-#: bin/modules/gui/window/form.py:264
-msgid "You have to select a record !"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:270
-#: bin/modules/gui/window/view_tree/view_tree_sc.py:41
-#: bin/modules/gui/window/win_export.py:213
-msgid "ID"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:271
-msgid "Creation User"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:272
-msgid "Creation Date"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:273
-msgid "Latest Modification by"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:274
-msgid "Latest Modification Date"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:275
-msgid "Internal Module Data ID"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:287
-msgid ""
-"Record is not saved ! \n"
-" Do you want to clear current record ?"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:296
-msgid "Resources cleared."
-msgstr ""
-
-#: bin/modules/gui/window/form.py:298
-msgid "Resources successfully removed."
-msgstr ""
-
-#: bin/modules/gui/window/form.py:339
-msgid "Working now on the duplicated document !"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:355
-msgid "Document Saved."
-msgstr ""
-
-#: bin/modules/gui/window/form.py:368
-msgid "Warning !"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
-msgid ""
-"This record has been modified\n"
-"do you want to save it ?"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:447
-msgid "You must select one or several records !"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:456
-msgid "Print Screen"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:476
-msgid "No record selected"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:481
-msgid "New document"
-msgstr ""
-
-#: bin/modules/gui/window/form.py:483
-msgid "Editing document (id: "
-msgstr ""
-
-#: bin/modules/gui/window/form.py:486
-msgid "Record: "
-msgstr ""
-
-#: bin/modules/gui/window/form.py:487
-msgid " of "
-msgstr ""
-
-#: bin/modules/gui/window/view_tree/parse.py:35
-msgid "Tree"
-msgstr ""
-
-#: bin/modules/gui/window/view_tree/view_tree_sc.py:45
-msgid "Description"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:51
-msgid "The file is empty !"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:51
-msgid "Importation !"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:61
-msgid "Imported one object !"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:63
-#, python-format
-msgid "Imported %d objects !"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:70
-#, python-format
-msgid ""
-"Error trying to import this record:\n"
-"%(err_import_record)s\n"
-"Error Message:\n"
-"%(err_type)s\n"
-"\n"
-"%(err_msg)s"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:72
-msgid "Importation Error !"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:105
-#: bin/modules/gui/window/win_import.py:109
-msgid "Field name"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:142
-#: bin/modules/gui/window/win_import.py:144
-#: bin/modules/gui/window/win_export.py:214
-msgid "Database ID"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:181
-msgid "Error opening .CSV file"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:181
-msgid "Input Error."
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:199
-#, python-format
-msgid "You cannot import this field %s, because we cannot auto-detect it"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:202
-#, python-format
-msgid ""
-"Error processing your first line of the file.\n"
-"Field %s is unknown !"
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:202
-msgid "Import Error."
-msgstr ""
-
-#: bin/modules/gui/window/win_import.py:233
-msgid "You have not selected any fields to import"
-msgstr ""
-
-#: bin/modules/gui/window/win_preference.py:68
-msgid "Preferences"
-msgstr ""
-
-#: bin/modules/gui/window/win_preference.py:86
-msgid ""
-"The default language of the interface has been modified, do not forget to "
-"restart the client to have the interface in your language"
-msgstr ""
-
-#: bin/modules/gui/window/win_preference.py:88
-msgid "Default language modified !"
-msgstr ""
-
-#: bin/modules/gui/window/win_selection.py:51
-msgid "Name"
-msgstr ""
-
-#: bin/modules/gui/window/win_selection.py:55
-msgid "Ressource Name"
-msgstr ""
-
-#: bin/modules/gui/window/win_selection.py:55
-msgid "Names"
-msgstr ""
-
-#: bin/modules/gui/window/tree.py:205 bin/modules/gui/window/tree.py:261
-msgid "No resource selected!"
-msgstr ""
-
-#: bin/modules/gui/window/tree.py:219
-msgid ""
-"Are you sure you want\n"
-"to remove this record?"
-msgstr ""
-
-#: bin/modules/gui/window/tree.py:224
-msgid "Error removing resource!"
-msgstr ""
-
-#: bin/modules/gui/window/tree.py:235
-msgid "Unable to chroot: no tree resource selected"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:50
-msgid " record(s) saved !"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:53
-msgid ""
-"Operation failed !\n"
-"I/O error"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:79
-#: bin/modules/gui/window/win_export.py:105
-msgid "Error Opening Excel !"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:142
-#: bin/modules/gui/window/win_export.py:146
-msgid "Field Name"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:166
-msgid "Open in Excel"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:167
-msgid "Save as CSV"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:317
-msgid "What is the name of this export ?"
-msgstr ""
-
-#: bin/modules/gui/window/win_export.py:351
-msgid "Exportation Error !"
-msgstr ""
-
-#: bin/modules/gui/window/win_search.py:126
-#, python-format
-msgid "OpenERP Search: %s"
-msgstr ""
-
-#: bin/modules/gui/window/win_search.py:127
-#, python-format
-msgid "OpenERP Search: %s (%%d result(s))"
-msgstr ""
-
 #: bin/openerp.glade:6
 msgid "OpenERP - Login"
 msgstr ""
 
-#: bin/openerp.glade:116 bin/openerp.glade:6419
+#: bin/openerp.glade:116 bin/openerp.glade:6405
 msgid "Database:"
 msgstr ""
 
@@ -1475,7 +1491,7 @@ msgstr ""
 msgid "User:"
 msgstr ""
 
-#: bin/openerp.glade:146 bin/openerp.glade:6405 bin/openerp.glade:6716
+#: bin/openerp.glade:146 bin/openerp.glade:6391 bin/openerp.glade:6702
 msgid "Password:"
 msgstr ""
 
@@ -1531,7 +1547,7 @@ msgstr ""
 msgid "_Preferences"
 msgstr ""
 
-#: bin/openerp.glade:483 bin/openerp.glade:7318
+#: bin/openerp.glade:483 bin/openerp.glade:7304
 msgid "Change password"
 msgstr ""
 
@@ -1595,7 +1611,7 @@ msgstr ""
 msgid "_New Home Tab"
 msgstr ""
 
-#: bin/openerp.glade:723 bin/openerp.glade:5009
+#: bin/openerp.glade:723 bin/openerp.glade:4995
 msgid "Close Tab"
 msgstr ""
 
@@ -1603,7 +1619,7 @@ msgstr ""
 msgid "Previous Tab"
 msgstr ""
 
-#: bin/openerp.glade:748 bin/openerp.glade:5065
+#: bin/openerp.glade:748 bin/openerp.glade:5051
 msgid "Next Tab"
 msgstr ""
 
@@ -1739,7 +1755,7 @@ msgstr ""
 msgid "Enable Debug Mode Tooltips"
 msgstr ""
 
-#: bin/openerp.glade:1148 bin/openerp.glade:4380
+#: bin/openerp.glade:1148 bin/openerp.glade:4366
 msgid "Support Request"
 msgstr ""
 
@@ -1931,7 +1947,7 @@ msgstr ""
 msgid "Open ERP - Forms widget"
 msgstr ""
 
-#: bin/openerp.glade:2222 bin/openerp.glade:4726
+#: bin/openerp.glade:2222 bin/openerp.glade:4712
 msgid "OpenERP - Confirmation"
 msgstr ""
 
@@ -2003,11 +2019,11 @@ msgstr ""
 msgid "Available Fields"
 msgstr ""
 
-#: bin/openerp.glade:2923 bin/openerp.glade:5634
+#: bin/openerp.glade:2923 bin/openerp.glade:5620
 msgid "_Add"
 msgstr ""
 
-#: bin/openerp.glade:2970 bin/openerp.glade:5681
+#: bin/openerp.glade:2970 bin/openerp.glade:5667
 msgid "_Remove"
 msgstr ""
 
@@ -2035,47 +2051,47 @@ msgstr ""
 msgid "OpenERP - Search"
 msgstr ""
 
-#: bin/openerp.glade:3295
+#: bin/openerp.glade:3281
 msgid "OpenERP - Preferences"
 msgstr ""
 
-#: bin/openerp.glade:3309
+#: bin/openerp.glade:3295
 msgid "<b>User preferences</b>"
 msgstr ""
 
-#: bin/openerp.glade:3375
+#: bin/openerp.glade:3361
 msgid "Tip of the Day"
 msgstr ""
 
-#: bin/openerp.glade:3422
+#: bin/openerp.glade:3408
 msgid "_Display a new tip next time?"
 msgstr ""
 
-#: bin/openerp.glade:3475
+#: bin/openerp.glade:3461
 msgid "Pre_vious Tip"
 msgstr ""
 
-#: bin/openerp.glade:3521
+#: bin/openerp.glade:3507
 msgid "Ne_xt Tip"
 msgstr ""
 
-#: bin/openerp.glade:3567
+#: bin/openerp.glade:3553
 msgid "OpenERP - License"
 msgstr ""
 
-#: bin/openerp.glade:3582
+#: bin/openerp.glade:3568
 msgid "OpenERP license"
 msgstr ""
 
-#: bin/openerp.glade:4277
+#: bin/openerp.glade:4263
 msgid "Go to resource ID"
 msgstr ""
 
-#: bin/openerp.glade:4327
+#: bin/openerp.glade:4313
 msgid "Search ID:"
 msgstr ""
 
-#: bin/openerp.glade:4406
+#: bin/openerp.glade:4392
 msgid ""
 "<b>Complete this form to submit your bug and/or send a support request.</b>\n"
 "<i>\n"
@@ -2084,15 +2100,15 @@ msgid ""
 "or an official partner.</i>"
 msgstr ""
 
-#: bin/openerp.glade:4465
+#: bin/openerp.glade:4451
 msgid "Phone number:"
 msgstr ""
 
-#: bin/openerp.glade:4478
+#: bin/openerp.glade:4464
 msgid "Emergency:"
 msgstr ""
 
-#: bin/openerp.glade:4492
+#: bin/openerp.glade:4478
 msgid ""
 "Not Urgent\n"
 "Medium\n"
@@ -2100,434 +2116,434 @@ msgid ""
 "Very Urgent"
 msgstr ""
 
-#: bin/openerp.glade:4525
+#: bin/openerp.glade:4511
 msgid "<b>Support contract id:</b>"
 msgstr ""
 
-#: bin/openerp.glade:4582 bin/win_error.glade:200
+#: bin/openerp.glade:4568 bin/win_error.glade:200
 msgid "Other comments:"
 msgstr ""
 
-#: bin/openerp.glade:4596
+#: bin/openerp.glade:4582
 msgid "Explain your problem:"
 msgstr ""
 
-#: bin/openerp.glade:4635
+#: bin/openerp.glade:4621
 msgid "<b>Your email:</b>"
 msgstr ""
 
-#: bin/openerp.glade:4649
+#: bin/openerp.glade:4635
 msgid "<b>Your Company:</b>"
 msgstr ""
 
-#: bin/openerp.glade:4663
+#: bin/openerp.glade:4649
 msgid "<b>Your name:</b>"
 msgstr ""
 
-#: bin/openerp.glade:4754 bin/openerp.glade:6124
+#: bin/openerp.glade:4740 bin/openerp.glade:6110
 msgid "Hello World!"
 msgstr ""
 
-#: bin/openerp.glade:4816
+#: bin/openerp.glade:4802
 msgid "Keyboard shortcuts"
 msgstr ""
 
-#: bin/openerp.glade:4838
+#: bin/openerp.glade:4824
 msgid "<b>Shortcuts for OpenERP</b>"
 msgstr ""
 
-#: bin/openerp.glade:4852
+#: bin/openerp.glade:4838
 msgid "Close window without saving"
 msgstr ""
 
-#: bin/openerp.glade:4867
+#: bin/openerp.glade:4853
 msgid "<Ctrl> + <Esc>"
 msgstr ""
 
-#: bin/openerp.glade:4881
+#: bin/openerp.glade:4867
 msgid "<i>When editing a resource in a popup window</i>"
 msgstr ""
 
-#: bin/openerp.glade:4897
+#: bin/openerp.glade:4883
 msgid "Save and Close window"
 msgstr ""
 
-#: bin/openerp.glade:4912
+#: bin/openerp.glade:4898
 msgid "<Ctrl> + <Enter>"
 msgstr ""
 
-#: bin/openerp.glade:4925
+#: bin/openerp.glade:4911
 msgid "Switch view mode"
 msgstr ""
 
-#: bin/openerp.glade:4940
+#: bin/openerp.glade:4926
 msgid "<Ctrl> + L"
 msgstr ""
 
-#: bin/openerp.glade:4953
+#: bin/openerp.glade:4939
 msgid "Next record"
 msgstr ""
 
-#: bin/openerp.glade:4968
+#: bin/openerp.glade:4954
 msgid "Previous record"
 msgstr ""
 
-#: bin/openerp.glade:4983
+#: bin/openerp.glade:4969
 msgid "<PgDn>"
 msgstr ""
 
-#: bin/openerp.glade:4996
+#: bin/openerp.glade:4982
 msgid "<PgUp>"
 msgstr ""
 
-#: bin/openerp.glade:5024
+#: bin/openerp.glade:5010
 msgid "Save"
 msgstr ""
 
-#: bin/openerp.glade:5039
+#: bin/openerp.glade:5025
 msgid "<Ctrl> + W"
 msgstr ""
 
-#: bin/openerp.glade:5052
+#: bin/openerp.glade:5038
 msgid "<Ctrl> + S"
 msgstr ""
 
-#: bin/openerp.glade:5080
+#: bin/openerp.glade:5066
 msgid "<Ctrl> + <PgDn>"
 msgstr ""
 
-#: bin/openerp.glade:5093
+#: bin/openerp.glade:5079
 msgid "Previous tab"
 msgstr ""
 
-#: bin/openerp.glade:5108
+#: bin/openerp.glade:5094
 msgid "<Ctrl> + <PgUp>"
 msgstr ""
 
-#: bin/openerp.glade:5121
+#: bin/openerp.glade:5107
 msgid "New"
 msgstr ""
 
-#: bin/openerp.glade:5136
+#: bin/openerp.glade:5122
 msgid "<Ctrl> + N"
 msgstr ""
 
-#: bin/openerp.glade:5149
+#: bin/openerp.glade:5135
 msgid "Delete"
 msgstr ""
 
-#: bin/openerp.glade:5164
+#: bin/openerp.glade:5150
 msgid "<Ctrl> + D"
 msgstr ""
 
-#: bin/openerp.glade:5177
+#: bin/openerp.glade:5163
 msgid "Find / Search"
 msgstr ""
 
-#: bin/openerp.glade:5192
+#: bin/openerp.glade:5178
 msgid "<Ctrl> + F"
 msgstr ""
 
-#: bin/openerp.glade:5205
+#: bin/openerp.glade:5191
 msgid "Connect"
 msgstr ""
 
-#: bin/openerp.glade:5220
+#: bin/openerp.glade:5206
 msgid "<Ctrl> + O"
 msgstr ""
 
-#: bin/openerp.glade:5234
+#: bin/openerp.glade:5220
 msgid "Main Shortcuts"
 msgstr ""
 
-#: bin/openerp.glade:5251
+#: bin/openerp.glade:5237
 msgid "F2"
 msgstr ""
 
-#: bin/openerp.glade:5264
+#: bin/openerp.glade:5250
 msgid "<b>Shortcuts in relation fields</b>"
 msgstr ""
 
-#: bin/openerp.glade:5279
+#: bin/openerp.glade:5265
 msgid "<b>Shortcuts in text entries</b>"
 msgstr ""
 
-#: bin/openerp.glade:5292
+#: bin/openerp.glade:5278
 msgid "Open current field"
 msgstr ""
 
-#: bin/openerp.glade:5307
+#: bin/openerp.glade:5293
 msgid "Add a new line/field"
 msgstr ""
 
-#: bin/openerp.glade:5322
+#: bin/openerp.glade:5308
 msgid "F1"
 msgstr ""
 
-#: bin/openerp.glade:5335
+#: bin/openerp.glade:5321
 msgid "Auto-Complete text field"
 msgstr ""
 
-#: bin/openerp.glade:5350
+#: bin/openerp.glade:5336
 msgid "<Enter>"
 msgstr ""
 
-#: bin/openerp.glade:5363
+#: bin/openerp.glade:5349
 msgid "Previous editable widget"
 msgstr ""
 
-#: bin/openerp.glade:5378
+#: bin/openerp.glade:5364
 msgid "<Shift> + <Tab>"
 msgstr ""
 
-#: bin/openerp.glade:5391
+#: bin/openerp.glade:5377
 msgid "Next editable widget"
 msgstr ""
 
-#: bin/openerp.glade:5406
+#: bin/openerp.glade:5392
 msgid "<Tab>"
 msgstr ""
 
-#: bin/openerp.glade:5419
+#: bin/openerp.glade:5405
 msgid "Paste selected text"
 msgstr ""
 
-#: bin/openerp.glade:5434
+#: bin/openerp.glade:5420
 msgid "Copy selected text"
 msgstr ""
 
-#: bin/openerp.glade:5449
+#: bin/openerp.glade:5435
 msgid "Cut selected text"
 msgstr ""
 
-#: bin/openerp.glade:5464
+#: bin/openerp.glade:5450
 msgid "<Ctrl> + V"
 msgstr ""
 
-#: bin/openerp.glade:5477
+#: bin/openerp.glade:5463
 msgid "<Ctrl> + C"
 msgstr ""
 
-#: bin/openerp.glade:5490
+#: bin/openerp.glade:5476
 msgid "<Ctrl> + X"
 msgstr ""
 
-#: bin/openerp.glade:5507
+#: bin/openerp.glade:5493
 msgid "Edition Widgets"
 msgstr ""
 
-#: bin/openerp.glade:5547
+#: bin/openerp.glade:5533
 msgid "Import from CSV"
 msgstr ""
 
-#: bin/openerp.glade:5592
+#: bin/openerp.glade:5578
 msgid "<b>All fields</b>"
 msgstr ""
 
-#: bin/openerp.glade:5729
+#: bin/openerp.glade:5715
 msgid "N_othing"
 msgstr ""
 
-#: bin/openerp.glade:5786
+#: bin/openerp.glade:5772
 msgid "<b>Fields to import</b>"
 msgstr ""
 
-#: bin/openerp.glade:5821
+#: bin/openerp.glade:5807
 msgid "File to Import: "
 msgstr ""
 
-#: bin/openerp.glade:5866
+#: bin/openerp.glade:5852
 msgid "Auto-Detect"
 msgstr ""
 
-#: bin/openerp.glade:5944
+#: bin/openerp.glade:5930
 msgid "Lines to Skip:"
 msgstr ""
 
-#: bin/openerp.glade:5973
+#: bin/openerp.glade:5959
 msgid "Text Delimiter:"
 msgstr ""
 
-#: bin/openerp.glade:6001
+#: bin/openerp.glade:5987
 msgid "Encoding:"
 msgstr ""
 
-#: bin/openerp.glade:6014
+#: bin/openerp.glade:6000
 msgid "Field Separator: "
 msgstr ""
 
-#: bin/openerp.glade:6026
+#: bin/openerp.glade:6012
 msgid "CSV Parameters"
 msgstr ""
 
-#: bin/openerp.glade:6191
+#: bin/openerp.glade:6177
 msgid "Server"
 msgstr ""
 
-#: bin/openerp.glade:6201
+#: bin/openerp.glade:6187
 msgid "<b>Connect to a OpenERP server</b>"
 msgstr ""
 
-#: bin/openerp.glade:6260
+#: bin/openerp.glade:6246
 msgid "Protocol connection:"
 msgstr ""
 
-#: bin/openerp.glade:6306
+#: bin/openerp.glade:6292
 msgid "Port:"
 msgstr ""
 
-#: bin/openerp.glade:6358
+#: bin/openerp.glade:6344
 msgid "Choose a database..."
 msgstr ""
 
-#: bin/openerp.glade:6373
+#: bin/openerp.glade:6359
 msgid "<b>Backup a database</b>"
 msgstr ""
 
-#: bin/openerp.glade:6614
+#: bin/openerp.glade:6600
 msgid "Restore a database"
 msgstr ""
 
-#: bin/openerp.glade:6627
+#: bin/openerp.glade:6613
 msgid "<b>Restore a database</b>"
 msgstr ""
 
-#: bin/openerp.glade:6671
+#: bin/openerp.glade:6657
 msgid "(must not contain any special char)"
 msgstr ""
 
-#: bin/openerp.glade:6701
+#: bin/openerp.glade:6687
 msgid "New database name:"
 msgstr ""
 
-#: bin/openerp.glade:6801 bin/openerp.glade:6947 bin/openerp.glade:7465
+#: bin/openerp.glade:6787 bin/openerp.glade:6933 bin/openerp.glade:7451
 msgid "http://localhost:8069"
 msgstr ""
 
-#: bin/openerp.glade:6875
+#: bin/openerp.glade:6861
 msgid "Create a new database"
 msgstr ""
 
-#: bin/openerp.glade:6888
+#: bin/openerp.glade:6874
 msgid "<b>Create a new database</b>"
 msgstr ""
 
-#: bin/openerp.glade:6959
+#: bin/openerp.glade:6945
 msgid ""
 "This is the URL of the OpenERP server. Use 'localhost' if the server is "
 "installed on this computer. Click on 'Change' to change the address."
 msgstr ""
 
-#: bin/openerp.glade:6963
+#: bin/openerp.glade:6949
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
 msgstr ""
 
-#: bin/openerp.glade:6994
+#: bin/openerp.glade:6980
 msgid ""
 "This is the password of the user that have the rights to administer "
 "databases. This is not a OpenERP user, just a super administrator. If you "
 "did not changed it, the password is 'admin' after installation."
 msgstr ""
 
-#: bin/openerp.glade:6998
+#: bin/openerp.glade:6984
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
 "Administrator Password:"
 msgstr ""
 
-#: bin/openerp.glade:7017
+#: bin/openerp.glade:7003
 msgid "admin"
 msgstr ""
 
-#: bin/openerp.glade:7031
+#: bin/openerp.glade:7017
 msgid "(<i>admin</i>, by default)"
 msgstr ""
 
-#: bin/openerp.glade:7096
+#: bin/openerp.glade:7082
 msgid ""
 "Choose the name of the database that will be created. The name must not "
 "contain any special character. Exemple: 'terp'."
 msgstr ""
 
-#: bin/openerp.glade:7098
+#: bin/openerp.glade:7084
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
 msgstr ""
 
-#: bin/openerp.glade:7123
+#: bin/openerp.glade:7109
 msgid ""
 "Choose the default language that will be installed for this database. You "
 "will be able to install new languages after installation through the "
 "administration menu."
 msgstr ""
 
-#: bin/openerp.glade:7125
+#: bin/openerp.glade:7111
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
 msgstr ""
 
-#: bin/openerp.glade:7138
+#: bin/openerp.glade:7124
 msgid ""
 "This is the password of the 'admin' user that will be created in your new "
 "database."
 msgstr ""
 
-#: bin/openerp.glade:7140
+#: bin/openerp.glade:7126
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
 "Password:"
 msgstr ""
 
-#: bin/openerp.glade:7153
+#: bin/openerp.glade:7139
 msgid ""
 "This is the password of the 'admin' user that will be created in your new "
 "database. It has to be the same than the above field."
 msgstr ""
 
-#: bin/openerp.glade:7155
+#: bin/openerp.glade:7141
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
 msgstr ""
 
-#: bin/openerp.glade:7248
+#: bin/openerp.glade:7234
 msgid ""
 "Check this box if you want demonstration data to be installed on your new "
 "database. These data will help you to understand OpenERP, with predefined "
 "products, partners, etc."
 msgstr ""
 
-#: bin/openerp.glade:7251
+#: bin/openerp.glade:7237
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
 "Data:"
 msgstr ""
 
-#: bin/openerp.glade:7335
+#: bin/openerp.glade:7321
 msgid "<b>Change your super admin password</b>"
 msgstr ""
 
-#: bin/openerp.glade:7491
+#: bin/openerp.glade:7477
 msgid "Old password:"
 msgstr ""
 
-#: bin/openerp.glade:7504
+#: bin/openerp.glade:7490
 msgid "New password:"
 msgstr ""
 
-#: bin/openerp.glade:7517
+#: bin/openerp.glade:7503
 msgid "New password confirmation:"
 msgstr ""
 
-#: bin/openerp.glade:7576
+#: bin/openerp.glade:7562
 msgid "OpenERP Message"
 msgstr ""
 
-#: bin/openerp.glade:7760
+#: bin/openerp.glade:7746
 msgid "Concurrency exception"
 msgstr ""
 
-#: bin/openerp.glade:7785
+#: bin/openerp.glade:7771
 msgid ""
 "<b>\n"
 "Write concurrency warning:\n"
@@ -2539,39 +2555,39 @@ msgid ""
 "   - \"Write anyway\" to save your current version.\n"
 msgstr ""
 
-#: bin/openerp.glade:7848
+#: bin/openerp.glade:7834
 msgid "Compare"
 msgstr ""
 
-#: bin/openerp.glade:7894
+#: bin/openerp.glade:7880
 msgid "Write anyway"
 msgstr ""
 
-#: bin/openerp.glade:7924 bin/openerp.glade:7934
+#: bin/openerp.glade:7910 bin/openerp.glade:7920
 msgid "window1"
 msgstr ""
 
-#: bin/openerp.glade:8006
+#: bin/openerp.glade:7992
 msgid "Today"
 msgstr ""
 
-#: bin/openerp.glade:8052
+#: bin/openerp.glade:8038
 msgid "September 2008"
 msgstr ""
 
-#: bin/openerp.glade:8066
+#: bin/openerp.glade:8052
 msgid "Day"
 msgstr ""
 
-#: bin/openerp.glade:8090
+#: bin/openerp.glade:8076
 msgid "Month"
 msgstr ""
 
-#: bin/openerp.glade:8244
+#: bin/openerp.glade:8230
 msgid "Filter Entry"
 msgstr ""
 
-#: bin/openerp.glade:8290
+#: bin/openerp.glade:8276
 msgid "Enter Filter Name:"
 msgstr ""
 
