@@ -342,7 +342,7 @@ class win_export(object):
                 fields.append(self.model2.get_value(iter, 1).replace('/.id','.id'))
                 fields2.append(self.model2.get_value(iter, 0))
                 iter = self.model2.iter_next(iter)
-            action = self.wid_action.get_active()
+            action = self.wid_action.get_active_text()
             self.parent.present()
             self.win.destroy()
             import_comp = self.wid_import_compatible.get_active()
@@ -353,7 +353,7 @@ class win_export(object):
             result = result.get('datas',[])
             if import_comp:
                 fields2 = fields
-            if not action:
+            if action == _('Open in Excel'):
                 open_excel(fields2, result)
             else:
                 fname = common.file_selection(_('Save As...'),
