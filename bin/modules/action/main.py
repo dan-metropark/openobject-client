@@ -189,6 +189,9 @@ class main(service.Service):
 #               common.error(_('Error: ')+str(e.type), e.message, e.data)
                 return False
         keyact = {}
+        #remove the key from the context as it is just needed in ir.values call
+        if 'tree_but_open_column' in context:
+            del context['tree_but_open_column']
         for action in actions:
             action_name = action.get('name') or ''
             keyact[action_name.encode('utf8')] = action
