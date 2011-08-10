@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-30 04:59+0000\n"
-"X-Generator: Launchpad (build 13405)\n"
+"X-Launchpad-Export-Date: 2011-08-10 04:35+0000\n"
+"X-Generator: Launchpad (build 13636)\n"
 "Language: th\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -955,7 +955,7 @@ msgstr ""
 
 #: bin/modules/gui/window/form.py:247
 msgid "No record selected ! You can only attach to existing record."
-msgstr ""
+msgstr "ไม่ได้เลือกระเบียน ! คุณทำได้แค่แนบไปกับระเบียนปัจจุบัน"
 
 #: bin/modules/gui/window/form.py:264
 msgid "You have to select a record !"
@@ -1387,13 +1387,15 @@ msgstr ""
 
 #: bin/modules/gui/main.py:1031
 msgid "Database cannot be accessed or does not exist"
-msgstr ""
+msgstr "เข้าถึงฐานข้อมูลไม่ได้หรือฐานข้อมูลไม่มี"
 
 #: bin/modules/gui/main.py:1035
 msgid ""
 "Connection error !\n"
 "Unable to connect to the server !"
 msgstr ""
+"การเชื่อมต่อผิดพลาด !\n"
+"ไม่สามารถเชื่อมต่อไปที่เครื่องแม่ข่าย !"
 
 #: bin/modules/gui/main.py:1037
 msgid ""
@@ -1408,7 +1410,7 @@ msgstr "OpenERP - %s"
 
 #: bin/modules/gui/main.py:1070
 msgid "Not logged !"
-msgstr ""
+msgstr "ยังไม่ได้เข้าระบบ !"
 
 #: bin/modules/gui/main.py:1153
 msgid ""
@@ -1473,7 +1475,7 @@ msgstr "การตรวจสอบผิดพลาด"
 
 #: bin/modules/gui/main.py:1476
 msgid "Could not change the Super Admin password."
-msgstr ""
+msgstr "ไม่สามารถเปลี่ยนรหัสผ่านผู้ดูแลสูงสุดได้"
 
 #: bin/modules/gui/main.py:1477 bin/modules/gui/main.py:1483
 msgid "Bad password provided !"
@@ -1493,7 +1495,7 @@ msgstr "สำรองฐานข้อมูลเสร็จแล้ว !"
 
 #: bin/modules/gui/main.py:1509
 msgid "Could not backup the database."
-msgstr ""
+msgstr "สำรองฐานข้อมูลไม่ได้"
 
 #: bin/modules/gui/main.py:1511
 msgid "Couldn't backup database."
@@ -2656,100 +2658,12 @@ msgstr ""
 msgid "<i>_Details</i>"
 msgstr ""
 
-#~ msgid "Offset :"
-#~ msgstr "จำลองค่า"
-
-#~ msgid "Limit :"
-#~ msgstr "จำกัด"
-
-#~ msgid "Parameters :"
-#~ msgstr "ค่าชี้วัด"
-
-#~ msgid "The content of the widget or excpetion if not valid"
-#~ msgstr "เนื้อหาของวิดเจ็ด หรือ ข้อยกเว้น ถ้าไม่ถูกต้อง"
-
-#~ msgid "Print Workflow (Complex)"
-#~ msgstr "พิมพ์ขั้นตอนการทำงาน(แบบซับซ้อน)"
-
-#, python-format
-#~ msgid "Unable to set locale %s"
-#~ msgstr "ตังค่าท้องถิ่นไม่ได้ %s"
-
 #~ msgid ""
 #~ "Linux Automatic Printing not implemented.\n"
 #~ "Use preview option !"
 #~ msgstr ""
 #~ "ระบบการพิมพ์อัตโนมัติบนลีนุกซ์ ยังใช้ไม่ได้\n"
 #~ "ใช่การดูคร่าวๆแทน"
-
-#~ msgid "Error no report"
-#~ msgstr "ผิดพลาดแบบไม่ทราบสาเหตุ"
-
-#~ msgid ""
-#~ "Thank you for the feedback !\n"
-#~ "Your comments have been sent to OpenERP.\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "ขอบคุณมากครับที่ให้การตอบรับ\n"
-#~ "คำแนะนำจะส่งกลับมาหาเรา\n"
-#~ "คุณควรจะสร้างฐานข้อมูลใหม่\n"
-#~ "ไปที่เมนู \"แฟ้ม\" เพื่อทำการเชื่อมต่อ"
-
-#~ msgid ""
-#~ "Thank you for testing OpenERP !\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "ขอบคุณมากๆครับที่ทำการทดลอง OpenERP\n"
-#~ "คุณควรจะสร้างฐานข้อมูลใหม่\n"
-#~ "ไปที่เมนู \"แฟ้ม\" เพื่อทำการเชื่อมต่อ"
-
-#~ msgid "gtk-ok"
-#~ msgstr "gtk-ok"
-
-#~ msgid "E-mail:"
-#~ msgstr "อีเมล์:"
-
-#~ msgid "gtk-cancel"
-#~ msgstr "gtk-cancel"
-
-#~ msgid "Your Name:"
-#~ msgstr "ชื่อของคุณ:"
-
-#~ msgid "Phone / Mobile:"
-#~ msgstr "โทรศัทพ์ / มือถือ"
-
-#~ msgid "How did you hear about us:"
-#~ msgstr "คุณรุ้จักเรามาก่อนไหม"
-
-#~ msgid "System:"
-#~ msgstr "ระบบ:"
-
-#~ msgid "<b>Keep Informed</b>"
-#~ msgstr "<b> แนะนำ</b>"
-
-#~ msgid "We plan to use Open ERP"
-#~ msgstr "เราจะใช้ OpenERP"
-
-#~ msgid "We plan to offer services on Open ERP"
-#~ msgstr "เรามีแผนที่จะให้การบริการ OpenERP"
-
-#~ msgid "City:"
-#~ msgstr "อำเภอ"
-
-#~ msgid "<b>Your interrest</b>"
-#~ msgstr "<b>ความสนใจของคุณ</b>"
-
-#~ msgid "Tell us why you try Open ERP and what are your current softwares:"
-#~ msgstr ""
-#~ "เล่าเราได้ไหมครับว่า ทำไมถึงลองใช้ OpenERP และปัจจุบันคุณใช้ซอร์ฟแวร์อะไรอยู่"
-
-#~ msgid "I want to receive the Open ERP ebook (PDF) by email"
-#~ msgstr "ฉันต้องการรับหนังสืออีเลกทรอนิค OpenERP (PDF) ทางอีเมล์"
-
-#~ msgid "gtk-close"
-#~ msgstr "gtk-close"
 
 #~ msgid "Edit"
 #~ msgstr "แก้ไข"
@@ -2772,3 +2686,6 @@ msgstr ""
 
 #~ msgid "XML-RPC error !"
 #~ msgstr "XML-RPC ผิดพลาด !"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "ผิดพลาด, รหัสผ่านไม่เปลี่ยนแปลง"

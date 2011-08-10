@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-30 04:57+0000\n"
-"X-Generator: Launchpad (build 13405)\n"
+"X-Launchpad-Export-Date: 2011-08-10 04:33+0000\n"
+"X-Generator: Launchpad (build 13636)\n"
 "Language: be\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -2651,9 +2651,6 @@ msgstr ""
 msgid "<i>_Details</i>"
 msgstr ""
 
-#~ msgid "Parameters :"
-#~ msgstr "Парамэтры :"
-
 #~ msgid "Edit"
 #~ msgstr "Рэдагаваць"
 
@@ -2663,36 +2660,9 @@ msgstr ""
 #~ msgid "XML-RPC error !"
 #~ msgstr "памылка XML-RPC !"
 
-#~ msgid "System:"
-#~ msgstr "Сыстэма:"
-
-#~ msgid "Country:"
-#~ msgstr "Краіна:"
-
-#~ msgid "How did you hear about us:"
-#~ msgstr "Як вы пра нас пачулі:"
-
-#~ msgid "Your Name:"
-#~ msgstr "Вашае імя:"
-
-#~ msgid "E-Mail:"
-#~ msgstr "E-Mail:"
-
-#~ msgid "<Shist> + <Tab>"
-#~ msgstr "<Shist> + <Tab>"
-
 #~ msgid ""
 #~ "Linux Automatic Printing not implemented.\n"
 #~ "Use preview option !"
 #~ msgstr ""
 #~ "Linux Автоматическая Печать, не осуществленна.\n"
 #~ "Используйте выбор предварительного просмотра!"
-
-#~ msgid "Error no report"
-#~ msgstr "Ошибка никакое сообщение"
-
-#~ msgid "The content of the widget or excpetion if not valid"
-#~ msgstr "Содержание виджета или excpetion, если не действительный"
-
-#~ msgid "Limit :"
-#~ msgstr "Предел:"

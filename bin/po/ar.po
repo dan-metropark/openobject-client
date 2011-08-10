@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-30 04:57+0000\n"
-"X-Generator: Launchpad (build 13405)\n"
+"X-Launchpad-Export-Date: 2011-08-10 04:33+0000\n"
+"X-Generator: Launchpad (build 13636)\n"
 "Language: ar\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -2679,17 +2679,8 @@ msgstr "تفاصيل"
 msgid "<i>_Details</i>"
 msgstr "<i>_تفاصيل</i>"
 
-#~ msgid "Limit :"
-#~ msgstr "الحد:"
-
 #~ msgid "Edit"
 #~ msgstr "تحرير"
-
-#~ msgid "Preference"
-#~ msgstr "التفضيلات"
-
-#~ msgid "Print Workflow (Complex)"
-#~ msgstr "طباعة سير العمل (مجمع)"
 
 #, python-format
 #~ msgid ""

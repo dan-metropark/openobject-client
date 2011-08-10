@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-30 04:58+0000\n"
-"X-Generator: Launchpad (build 13405)\n"
+"X-Launchpad-Export-Date: 2011-08-10 04:34+0000\n"
+"X-Generator: Launchpad (build 13636)\n"
 "Language: he\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -2656,21 +2656,6 @@ msgstr "פרטים"
 #: bin/win_error.glade:404
 msgid "<i>_Details</i>"
 msgstr ""
-
-#~ msgid "Parameters :"
-#~ msgstr "פרמטרים:"
-
-#~ msgid "Limit :"
-#~ msgstr "הגבל:"
-
-#~ msgid ""
-#~ "Thank you for testing OpenERP !\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "תודה לך על בדיקת OpenERP!\n"
-#~ "אתה עכשיו יכול להתחיל על ידי יצירת מסד נתונים חדש או\n"
-#~ "להתחבר לשרת קיים על ידי התפריט \"קובץ\"."
 
 #~ msgid "Edit"
 #~ msgstr "ערוך"

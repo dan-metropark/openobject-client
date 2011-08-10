@@ -14,12 +14,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-30 04:58+0000\n"
-"X-Generator: Launchpad (build 13405)\n"
+"X-Launchpad-Export-Date: 2011-08-10 04:34+0000\n"
+"X-Generator: Launchpad (build 13636)\n"
 "Language: ja\n"
-
-#~ msgid "Print Workflow (Complex)"
-#~ msgstr "印刷作業フロー(複合)"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
 msgid "Gantt view not yet implemented !"
@@ -2757,200 +2754,17 @@ msgstr "<i>詳細</i>"
 #~ msgid "Edit"
 #~ msgstr "編集"
 
-#~ msgid "Country:"
-#~ msgstr "国:"
-
-#~ msgid "Your Role:"
-#~ msgstr "役職"
-
-#~ msgid "Industry:"
-#~ msgstr "産業"
-
-#~ msgid "# Employees:"
-#~ msgstr "従業員"
-
-#~ msgid "System:"
-#~ msgstr "システム:"
-
-#~ msgid "Your Name:"
-#~ msgstr "お名前"
-
-#~ msgid "E-Mail:"
-#~ msgstr "メールアドレス:"
-
-#~ msgid "Your Company:"
-#~ msgstr "会社"
-
 #~ msgid "Field Separater:"
 #~ msgstr "フィールド区切り符号"
-
-#~ msgid "Default Language:"
-#~ msgstr "デフォルトの言語:"
-
-#~ msgid "Confirm Password:"
-#~ msgstr "パスワードの確認:"
-
-#~ msgid "Offset :"
-#~ msgstr "オフセット :"
-
-#~ msgid "Parameters :"
-#~ msgstr "パラメーター:"
-
-#~ msgid "Limit :"
-#~ msgstr "限度 :"
-
-#~ msgid "The content of the widget or excpetion if not valid"
-#~ msgstr "もし無効ならヴィジェットな内容"
 
 #~ msgid "You must select a record to use the relate button !"
 #~ msgstr "関連ボタンを使うにはボタンを選択してください。"
 
-#~ msgid "This widget is readonly !"
-#~ msgstr "読み込み専用のウィジェットです!"
-
-#~ msgid ""
-#~ "Thank you for the feedback !\n"
-#~ "Your comments have been sent to OpenERP.\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "ご意見をありがとうございます!\n"
-#~ "あなたのコメントはOpenERPに送られました。\n"
-#~ "あなたは、新しいデータベースを構築するか\n"
-#~ "\"File\"メニューにより既存のサーバーに接続することから始めなければなりません。"
-
-#~ msgid ""
-#~ "Thank you for testing OpenERP !\n"
-#~ "You should now start by creating a new database or\n"
-#~ "connecting to an existing server through the \"File\" menu."
-#~ msgstr ""
-#~ "OpenERPをテストをしていただきありがとうございます！\n"
-#~ "あなたは、新しいデータベースを構築するか\n"
-#~ "\"File\\\"メニューにより既存のサーバーに接続することから始めなければなりません。"
-
-#~ msgid ""
-#~ "\n"
-#~ "<b>An unknown error has been reported.</b>\n"
-#~ "\n"
-#~ "<b>You do not have a valid Open ERP maintenance contract !</b>\n"
-#~ "If you are using Open ERP in production, it is highly suggested to "
-#~ "subscribe\n"
-#~ "a maintenance program.\n"
-#~ "\n"
-#~ "The Open ERP maintenance contract provides you a bugfix guarantee and an\n"
-#~ "automatic migration system so that we can fix your problems within a few\n"
-#~ "hours. If you had a maintenance contract, this error would have been sent\n"
-#~ "to the quality team of the Open ERP editor.\n"
-#~ "\n"
-#~ "The maintenance program offers you:\n"
-#~ "* Automatic migrations on new versions,\n"
-#~ "* A bugfix guarantee,\n"
-#~ "* Monthly announces of potential bugs and their fixes,\n"
-#~ "* Security alerts by email and automatic migration,\n"
-#~ "* Access to the customer portal.\n"
-#~ "\n"
-#~ "You can use the link bellow for more information. The detail of the error\n"
-#~ "is displayed on the second tab.\n"
-#~ msgstr ""
-#~ "\n"
-#~ "<b>不明なエラーが報告されています。</b>\n"
-#~ "<b>有効なオープンERPメンテナンス契約がありません！</b>\n"
-#~ "あなたが生産においてオープンERPを使っているならば、メンテナンスプログラムに登録する事をお勧めします。\n"
-#~ "オープンERPの保守契約は、 自動移行システムを保証するバグ修正を提供し\n"
-#~ "数時間以内にお客様の問題を解決する事ができます。\n"
-#~ "もしメンテナンス契約を締結した場合は\n"
-#~ "このエラーはOpenERPエディタの品質チームに送られたでしょう。\n"
-#~ "メンテナンスプログラムを提供します：\n"
-#~ "新しいバージョンに自動移行し、バグ修正を保証する。\n"
-#~ "月刊潜在的なバグとその修正プログラム、セキュリティは顧客ポータルへアクセスしEメールおよび\n"
-#~ "自動的移行により、警報を出します。\n"
-#~ "あなたの詳細については、bellowリンクを使用する事ができます。 \n"
-#~ "エラーの詳細は2番目のタブに表示されます。\n"
-
-#, python-format
-#~ msgid ""
-#~ "Your problem could <u>NOT</u> be sent to the quality team !\n"
-#~ "Please report this error manually at %s"
-#~ msgstr "この問題は品質チームに自動で送ることができませんが<u>pu</u>このエラーを　!%sに報告してください。"
-
-#, python-format
-#~ msgid "Unable to set locale %s"
-#~ msgstr "ロケール %sにセットできません"
-
-#~ msgid "specify channels to log"
-#~ msgstr "ログチャンネルの内訳"
-
-#~ msgid "enable basic debugging"
-#~ msgstr "基本デバッグ可能"
-
-#, python-format
-#~ msgid ""
-#~ "\n"
-#~ "<b>An unknown error has been reported.</b>\n"
-#~ "\n"
-#~ "Your maintenance contract does not cover all modules installed in your "
-#~ "system !\n"
-#~ "If you are using Open ERP in production, it is highly suggested to upgrade "
-#~ "your\n"
-#~ "contract.\n"
-#~ "\n"
-#~ "If you have developped your own modules or installed third party module, we\n"
-#~ "can provide you an additional maintenance contract for these modules. After\n"
-#~ "having reviewed your modules, our quality team will ensure they will "
-#~ "migrate\n"
-#~ "automatically for all futur stable versions of Open ERP at no extra cost.\n"
-#~ "\n"
-#~ "Here is the list of modules not covered by your maintenance contract:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "You can use the link bellow for more information. The detail of the error\n"
-#~ "is displayed on the second tab."
-#~ msgstr ""
-#~ "\n"
-#~ "<b>報告された不明なエラー。</b>\n"
-#~ "\n"
-#~ "貴方のメンテナンス契約はインストールされたすべてのモジュールをカバーしていません。\n"
-#~ "もしOpenERPを生産で使用している場合貴方の契約を更新してください。\n"
-#~ " \n"
-#~ "\n"
-#~ "もし独自のモジュールもしくは第三者モジュールの場合はメンテナンス契約を追加。\n"
-#~ "そのモジュールの再調査後、追加料金なしで自動的にOpenERPの安定したヴァージョンに変えることを保障します。\n"
-#~ "\n"
-#~ "これは貴方のメンテナンス契約に含まれていないモジュールのリストです。%s\n"
-#~ "\n"
-#~ "もっと情報を見るときは下のリンクへ二番目のタブでエラー詳細が表示されます。"
-
-#~ msgid "<b>Operation in progress</b>"
-#~ msgstr "<b>進行中の操作</b>"
-
-#~ msgid "OpenERP Database Installation"
-#~ msgstr "OpenERPデータベースインストール"
-
-#~ msgid "The following users have been installed on your database:"
-#~ msgstr "次のユーザーがデータベースにインストールされています："
-
-#, python-format
-#~ msgid " - %s request(s) sended"
-#~ msgstr " %s リクエスト 送信された"
-
-#~ msgid "You can now connect to the database as an administrator."
-#~ msgstr "管理者としてデータベースに接続することができます。"
-
 #~ msgid "Error, password not changed."
 #~ msgstr "エラー！パスワードが変更されていません。"
 
-#~ msgid "Preference"
-#~ msgstr "選択されているもの"
-
 #~ msgid "XML-RPC error !"
 #~ msgstr "エラー XML-RPC !"
-
-#~ msgid ""
-#~ "Function only available for MS Office !\n"
-#~ "Sorry, OOo users :("
-#~ msgstr ""
-#~ "MS Officeのみ利用可能な機能!\n"
-#~ "OpenOfficeのユーザの方は申し訳ありません。"
 
 #~ msgid ""
 #~ "Linux Automatic Printing not implemented.\n"
@@ -2958,12 +2772,6 @@ msgstr "<i>詳細</i>"
 #~ msgstr ""
 #~ "リナックス自動印刷は実装されていません\n"
 #~ "プレビューオプションを使ってください!"
-
-#~ msgid "Error no report"
-#~ msgstr "エラーレポートがありません"
-
-#~ msgid "specify the log level: INFO, DEBUG, WARNING, ERROR, CRITICAL"
-#~ msgstr "ログレベル内訳:情報、デバック、警告、エラー、重要"
 
 #, python-format
 #~ msgid ""
@@ -2981,114 +2789,11 @@ msgstr "<i>詳細</i>"
 #~ "エクセルで開く\n"
 #~ "CSVで保存"
 
-#~ msgid "OpenERP Survey"
-#~ msgstr "OpenERP 調査"
-
-#~ msgid ""
-#~ "<i>Please fill in the following form in order to help us to improve OpenERP "
-#~ "and better target new developments.</i>"
-#~ msgstr "<i> OpenERPの今後の改良と開発のために以下のフォームに記入をお願いします。</i>"
-
-#~ msgid "<b>OpenERP Survey</b>"
-#~ msgstr "<b>OpenERP 調査</b>"
-
-#~ msgid "We plan to use OpenERP"
-#~ msgstr "OpenERPを使う予定がある。"
-
-#~ msgid "<b>Your company:</b>"
-#~ msgstr "<b>会社名 :</b>"
-
-#~ msgid "Tell us why you try OpenERP and what are your current softwares:"
-#~ msgstr "現在のソフトが何かというのと OpenERPにしようと思った理由を教えてください。"
-
-#~ msgid "We plan to offer services on OpenERP"
-#~ msgstr "OpenERPのサービスを提案する予定がある。"
-
-#~ msgid "I want to be contacted for a demonstration"
-#~ msgstr "デモンストレーションのためにコンタクトを取りたいです。"
-
-#~ msgid "<b>Your interrest:</b>"
-#~ msgstr "<b>趣味:</b>"
-
-#~ msgid "Phone / Mobile:"
-#~ msgstr "電話/携帯 :"
-
-#~ msgid "How did you hear about us:"
-#~ msgstr "ここを知ったきっかけ:"
-
-#~ msgid "Open Source:"
-#~ msgstr "オープンソース :"
-
-#~ msgid "<Shist> + <Tab>"
-#~ msgstr "<Shift> + <Tab>"
-
 #~ msgid "File to Import:"
 #~ msgstr "インポート用ファイル :"
 
-#~ msgid "New Database Name:"
-#~ msgstr "新データベース名称 :"
-
-#~ msgid "OpenERP Server:"
-#~ msgstr "OpenERP サーバー:"
-
-#~ msgid "<b>Database created successfully!</b>"
-#~ msgstr "<b>新規データベース作成済み</b>"
-
-#~ msgid "Database creation"
-#~ msgstr "データベース作成"
-
-#~ msgid ""
-#~ "This is the password of the '<i>admin</i>' user that will be created in your "
-#~ "new database."
-#~ msgstr "出たベースを作成するときに必要なパスワードです。 <i>admin</i>"
-
-#~ msgid "Administrator Password:"
-#~ msgstr "権限管理者パスワード :"
-
-#~ msgid "Load Demonstration Data:"
-#~ msgstr "デモデータ取り込み :"
-
-#~ msgid ""
-#~ "This is the password of the '<i>admin</i>' user that will be created in your "
-#~ "new database. It has to be the same than the above field."
-#~ msgstr ""
-#~ "これは新しいデータベースを作成するときに使用する権限のパスワードです。上のフィールドと同じでなければなりません'<i>admin</i>'"
-
-#~ msgid "<i>_Maintenance</i>"
-#~ msgstr "<i>メンテナンス</i>"
-
 #~ msgid "Others Comments:"
 #~ msgstr "他のコメント :"
-
-#~ msgid ""
-#~ "<b>Maintenance Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and maintenance team will reply you "
-#~ "shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>メンテナンス契約</b>\n"
-#~ "<i>\n"
-#~ "貴方の依頼はOpenERPから送られすぐにメンテナンスチームから返事があるでしょう\n"
-#~ "</i>"
-
-#~ msgid ""
-#~ "You can connect to the new database using one of the following account:\n"
-#~ "\n"
-#~ "    Administrator: admin / admin "
-#~ msgstr ""
-#~ "次のアカウントを使って新しいデータベースのに接続することはできません。:\n"
-#~ "\n"
-#~ "　　　　Administrator: admin / admin "
-
-#~ msgid "Click here for details about the maintenance proposition"
-#~ msgstr "メンテナンス定義についての詳細はここをクリック。"
-
-#~ msgid "Send to Maintenance Team"
-#~ msgstr "メンテナンスチームに送る"
-
-#~ msgid "gtk-close"
-#~ msgstr "閉じる"
 
 #~ msgid ""
 #~ "Record is not saved ! \n"
@@ -3096,14 +2801,6 @@ msgstr "<i>詳細</i>"
 #~ msgstr ""
 #~ "レコードが選択されていません！\n"
 #~ "　現在のレコードを消しますか？"
-
-#~ msgid "_Tips"
-#~ msgstr "ヒント(_T)"
-
-#~ msgid ""
-#~ "Connection error !\n"
-#~ "Bad username or password !"
-#~ msgstr "認証エラー！不正なユーザー名またはパスワード！"
 
 #, python-format
 #~ msgid ""
