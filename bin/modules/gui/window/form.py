@@ -309,7 +309,7 @@ class form(object):
     def sig_save_as(self, widget=None):
         fields = []
         while(self.screen.view_to_load):
-            self.screen.load_view_to_load()
+            self.screen.load_view_to_load(mode = self.screen.view_to_load[0])
         screen_fields = copy.deepcopy(self.screen.fields)
         win = win_export.win_export(self.model, self.screen.ids_get(), screen_fields, fields, parent=self.window, context=self.context)
         res = win.go()
