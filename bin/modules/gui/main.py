@@ -389,7 +389,7 @@ def _refresh_langlist(lang_widget, url):
     liststore = lang_widget.get_model()
     liststore.clear()
     lang_list = rpc.session.db_exec_no_except(url, 'list_lang')
-    lang = rpc.session.context.get('lang', options.options.get('client.lang', 'en_US'))
+    lang = rpc.session.context.get('lang', options.options.get('client.lang', 'en_US')) or 'en_US'
     active_idx = -1
     for index, (key,val) in enumerate(lang_list):
         if key == lang:
