@@ -302,7 +302,7 @@ class ModelRecord(signal_event.signal_event):
 
     #XXX Shoud use changes of attributes (ro, ...)
     def on_change(self, callback):
-        match = re.match('^(.*?)\((.*)\)$', callback)
+        match = re.match('^\s?(.*?)\((.*?)\)\s?$', callback)
         if not match:
             raise Exception, 'ERROR: Wrong on_change trigger: %s' % callback
         func_name = match.group(1)
