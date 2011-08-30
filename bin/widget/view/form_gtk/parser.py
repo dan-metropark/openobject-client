@@ -547,22 +547,43 @@ class parser_form(widget.view.interface.parser_interface):
                 dict_widget.update(widgets)
                 if 'position' in attrs:
                     hp.set_position(int(attrs['position']))
+                    
             elif node.tag =='child1':
                 widget, widgets, saws, on_write = self.parse(model, node, fields, paned=paned)
                 saw_list += saws
                 dict_widget.update(widgets)
                 paned.pack1(widget, resize=True, shrink=True)
+            
             elif node.tag =='child2':
                 widget, widgets, saws, on_write = self.parse(model, node, fields, paned=paned)
                 saw_list += saws
                 dict_widget.update(widgets)
                 paned.pack2(widget, resize=True, shrink=True)
+            
             elif node.tag =='action':
                 from action import action
                 name = str(attrs['name'])
                 widget_act = action(self.window, self.parent, model, attrs)
                 dict_widget[name] = widget_act
                 container.wid_add(widget_act.widget, colspan=int(attrs.get('colspan', 3)), expand=True, fill=True)
+
+            elif node.tag == 'board':
+               hp = gtk.HPaned()
+               container.wid_add(hp, colspan=int(attrs.get('colspan', 4)), expand=True, fill=True)
+               _, widgets, saws, on_write = self.parse(model, node, fields, paned=hp)
+               saw_list += saws
+               dict_widget.update(widgets)
+            
+            elif node.tag == 'column':
+                widget, widgets, saws, on_write = self.parse(model, node, fields, paned=paned)
+                saw_list += saws
+                dict_widget.update(widgets)
+                if not paned.get_data('column'):
+                    paned.set_data('column', True)
+                    paned.pack2(widget, resize=True, shrink=True)
+                else:
+                    paned.pack1(widget, resize=True, shrink=True)
+                
         for (ebox,src,name,widget) in container.trans_box:
             ebox.connect('button_press_event',self.translate, model, name, src, widget, self.screen, self.window)
         for (ebox,src,name) in container.trans_box_label:
