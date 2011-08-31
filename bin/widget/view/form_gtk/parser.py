@@ -575,14 +575,13 @@ class parser_form(widget.view.interface.parser_interface):
                dict_widget.update(widgets)
             
             elif node.tag == 'column':
+                hp = gtk.HPaned()
+                paned.pack2(hp, resize=True, shrink=True)
+                paned = hp
                 widget, widgets, saws, on_write = self.parse(model, node, fields, paned=paned)
                 saw_list += saws
                 dict_widget.update(widgets)
-                if not paned.get_data('column'):
-                    paned.set_data('column', True)
-                    paned.pack2(widget, resize=True, shrink=True)
-                else:
-                    paned.pack1(widget, resize=True, shrink=True)
+                paned.pack1(widget, resize=True, shrink=True)
                 
         for (ebox,src,name,widget) in container.trans_box:
             ebox.connect('button_press_event',self.translate, model, name, src, widget, self.screen, self.window)
