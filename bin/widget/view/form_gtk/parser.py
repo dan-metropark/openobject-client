@@ -298,6 +298,8 @@ class parser_form(widget.view.interface.parser_interface):
            self.widget_id = 0
            self.default_focus_field = False
            self.default_focus_button = False
+           self.board_style = False
+           self.column = 1
            self.accepted_attr_list = ['type','domain','context','relation', 'widget','attrs',
                                       'digits','function','store','fnct_search','fnct_inv','fnct_inv_arg',
                                       'func_obj','func_method','related_columns','third_table','states',
@@ -563,22 +565,27 @@ class parser_form(widget.view.interface.parser_interface):
             elif node.tag =='action':
                 from action import action
                 name = str(attrs['name'])
+                x ,y ,width, hight = self.window.get_allocation()
+                if (self.board_style == '2-1' and self.column == 1) or (self.column == 2 and self.board_style == '1-2'):
+                    attrs.update({'width': width * 0.75})
                 widget_act = action(self.window, self.parent, model, attrs)
                 dict_widget[name] = widget_act
                 container.wid_add(widget_act.widget, colspan=int(attrs.get('colspan', 3)), expand=True, fill=True)
-
+            
             elif node.tag == 'board':
-               hp = gtk.HPaned()
-               container.wid_add(hp, colspan=int(attrs.get('colspan', 4)), expand=True, fill=True)
-               _, widgets, saws, on_write = self.parse(model, node, fields, paned=hp)
-               saw_list += saws
-               dict_widget.update(widgets)
+                self.board_style = attrs.get('style')
+                hp = gtk.HPaned()
+                container.wid_add(hp, colspan=int(attrs.get('colspan', 4)), expand=True, fill=True)
+                _, widgets, saws, on_write = self.parse(model, node, fields, paned=hp)
+                saw_list += saws
+                dict_widget.update(widgets)
             
             elif node.tag == 'column':
                 hp = gtk.HPaned()
                 paned.pack2(hp, resize=True, shrink=True)
                 paned = hp
                 widget, widgets, saws, on_write = self.parse(model, node, fields, paned=paned)
+                self.column =+ self.column + 1
                 saw_list += saws
                 dict_widget.update(widgets)
                 paned.pack1(widget, resize=True, shrink=True)
