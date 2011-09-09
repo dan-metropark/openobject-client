@@ -72,8 +72,9 @@ class CharField(object):
     def context_get(self, model, check_load=True, eval=True):
         context = {}
         context.update(self.parent.context)
-        exclude_ctx = ['set_editable','set_visible','form_view_ref', 'group_by']
-        # removing default keys,group_by,search_default of the parent context
+        #The keys in exclude_ctx should be removed from the parent context
+        exclude_ctx = ['set_editable','set_visible',
+                       'form_view_ref', 'tree_view_ref', 'group_by']
         context_own = context.copy()
         for c in context.items():
             if c[0].startswith('default_') or c[0] in exclude_ctx\
