@@ -79,7 +79,7 @@ class Button(Observable):
 
     def hide_all(self):
         return self.widget.hide_all()
-    
+
     def show_all(self):
         return self.widget.show_all()
 
@@ -449,13 +449,13 @@ class parser_form(widget.view.interface.parser_interface):
                 name = str(attrs['name'])
                 del attrs['name']
                 name = unicode(name)
-                type = attrs.get('widget', fields[name]['type'])
+                widget_type = attrs.get('widget', False)
+                field_type = fields[name]['type']
                 if 'selection' in attrs:
                     attrs['selection'] = fields[name]['selection']
                 fields[name].update(attrs)
                 fields[name]['model'] = model
-                if not type in widgets_type:
-                    continue
+                type = widget_type in widgets_type and widget_type or field_type
 
                 fields[name]['name'] = name
                 if 'saves' in attrs:
@@ -467,12 +467,12 @@ class parser_form(widget.view.interface.parser_interface):
                 if 'default_focus' in attrs and not self.default_focus_field:
                     fields[name]['focus_field'] = attrs['default_focus']
                     self.default_focus_field = True
-                
+
                 hlp = fields[name].get('help', attrs.get('help', False))
                 detail_tooltip = False
                 if options.options['debug_mode_tooltips']:
                     detail_tooltip = self.create_detail_tooltip(name, fields[name])
-                
+
                 label = None
                 if not int(attrs.get('nolabel', 0)):
                     # TODO space before ':' depends of lang (ex: english no space)
@@ -480,7 +480,7 @@ class parser_form(widget.view.interface.parser_interface):
                         label = ': '+fields[name]['string']
                     else:
                         label = fields[name]['string']+' :'
-                                                
+
                 widget_label = container.create_label(label, help=hlp, fname=name, detail_tooltip=detail_tooltip) if label else None
                 widget_act = widgets_type[type][0](self.window, self.parent, model, fields[name], widget_label)
                 self.widget_id += 1
@@ -492,7 +492,7 @@ class parser_form(widget.view.interface.parser_interface):
                 if attrs.get('height', False) or attrs.get('width', False):
                     widget_act.widget.set_size_request(
                             int(attrs.get('width', -1)), int(attrs.get('height', -1)))
-                
+
                 if attrs.get('invisible', False):
                     visval = eval(attrs['invisible'], {'context':self.screen.context})
                     if visval:
