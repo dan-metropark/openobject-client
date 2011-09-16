@@ -82,9 +82,6 @@ class Screen(signal_event.signal_event):
                                         'boolean','button','reference','binary','picture','text','text_wiki','text_tag',
                                         'one2many','one2many_form','one2many_list','many2many','many2one','email','url',
                                         'callto','sip','image','uri','progressbar'],
-                                'search':['date','datetime','float','float_time','integer','selection','char','boolean',
-                                          'reference','text','text_wiki','email','url','many2one','one2many','one2many_form',
-                                          'one2many_list','many2many_edit','many2many','callto','sip','filter','custom_filter'],
                                 'tree':['char','many2one','date','one2many','many2many','selection','float','float_time','integer',
                                         'datetime','boolean','progressbar','button']}
         if not row_activate:
@@ -608,7 +605,7 @@ class Screen(signal_event.signal_event):
                 if attrs.get('widget', False):
                     if attrs['widget'] == 'one2many_list':
                         attrs['widget'] = 'one2many'
-                    if attrs['widget'] not in self.openerp_widgets[type]:
+                    if attrs['widget'] not in self.openerp_widgets.get(type, []):
                         attrs['type'] = fields[str(attrs['name'])]['type']
                         del attrs['widget']
                     else:
