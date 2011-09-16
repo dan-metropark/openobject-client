@@ -449,13 +449,11 @@ class parser_form(widget.view.interface.parser_interface):
                 name = str(attrs['name'])
                 del attrs['name']
                 name = unicode(name)
-                widget_type = attrs.get('widget', False)
-                field_type = fields[name]['type']
+                type = fields[name]['type']
                 if 'selection' in attrs:
                     attrs['selection'] = fields[name]['selection']
                 fields[name].update(attrs)
                 fields[name]['model'] = model
-                type = widget_type in widgets_type and widget_type or field_type
 
                 fields[name]['name'] = name
                 if 'saves' in attrs:

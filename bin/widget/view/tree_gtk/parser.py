@@ -137,8 +137,6 @@ class parser_tree(interface.parser_interface):
             if node.tag == 'field':
                 handler_id = False
                 fname = str(node_attrs['name'])
-                if fields[fname]['type'] in ('image', 'binary'):
-                    continue    # not showed types
                 if fname == 'sequence':
                     treeview.sequence = True
                 for boolean_fields in ('readonly', 'required'):
@@ -147,7 +145,6 @@ class parser_tree(interface.parser_interface):
                             node_attrs[boolean_fields] = eval(node_attrs[boolean_fields])
                         else:
                             node_attrs[boolean_fields] = bool(int(node_attrs[boolean_fields]))
-
                 if fields[fname]['type'] == 'selection':
                     if fields[fname].get('selection',[]):
                         node_attrs['selection'] = fields[fname]['selection']
