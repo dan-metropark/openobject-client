@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-28 15:22+0530\n"
-"PO-Revision-Date: 2011-07-25 16:17+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2011-09-16 11:03+0000\n"
+"Last-Translator: Anze (Neotek) <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-08-10 04:35+0000\n"
-"X-Generator: Launchpad (build 13636)\n"
+"X-Launchpad-Export-Date: 2011-09-17 04:54+0000\n"
+"X-Generator: Launchpad (build 13955)\n"
 "Language: sl\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -41,7 +41,7 @@ msgstr ""
 
 #: bin/widget/view/list.py:633 bin/widget/view/form_gtk/many2one.py:387
 msgid "You must select a record to use the relation !"
-msgstr "Moraš izbrati zapis za uporabo povezave!"
+msgstr "Morate izbrati zapis za uporabo povezave!"
 
 #: bin/widget/view/form.py:137
 msgid "You must save this record to use the relate button !"
@@ -49,7 +49,7 @@ msgstr "Shrani zapis za uporabo povezovalnega gumba!"
 
 #: bin/widget/view/form.py:142
 msgid "Action not defined !"
-msgstr ""
+msgstr "Dejanje ni določeno!"
 
 #
 # File: bin/widget/view/form.py, line: 201
@@ -100,7 +100,7 @@ msgstr "Ta ip (%s) ni podprt s strani GTK klienta !"
 
 #: bin/widget/view/widget_parse.py:64
 msgid "No valid view found for this object!"
-msgstr "Ni ustreznega pogleda za objekt!"
+msgstr "Ni ustreznega pogleda za ta predmet!"
 
 #: bin/widget/view/tree_gtk/date_renderer.py:197
 msgid ""
@@ -114,6 +114,9 @@ msgid ""
 "\n"
 "Please Save them before sorting !"
 msgstr ""
+"Imate neshranjene zapise!  \n"
+"\n"
+"Prosim, shranite jih pred sortiranjem!"
 
 #: bin/widget/view/tree_gtk/editabletree.py:140
 #, python-format
@@ -135,31 +138,31 @@ msgstr ""
 
 #: bin/widget/view/diagram_gtk/xdot.py:1712
 msgid "Add New Node"
-msgstr ""
+msgstr "Dodaj novo vozlišče"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1713
 msgid "Add New Edge"
-msgstr ""
+msgstr "Dodaj nov rob"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1714
 msgid "Enlarge the Diagram"
-msgstr ""
+msgstr "Povečaj diagram"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1715
 msgid "Shrink the Diagram"
-msgstr ""
+msgstr "Pomanjšaj diagram"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1716
 msgid "Fit the diagram to the window"
-msgstr ""
+msgstr "Prilagodi diagram oknu"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1717
 msgid "Show the diagram at its normal size"
-msgstr ""
+msgstr "Prikaži diagram v normalni velikosti"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1718
 msgid "Print the Diagram"
-msgstr ""
+msgstr "Natisni diagram"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1772
 #: bin/modules/gui/window/win_search.py:49
@@ -169,17 +172,17 @@ msgstr "OpenERP - Povezava"
 #: bin/widget/view/diagram_gtk/xdot.py:1789
 #, python-format
 msgid "Close Current %s"
-msgstr ""
+msgstr "Zapri trenuten %s"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1790
 #, python-format
 msgid "Delete Current %s"
-msgstr ""
+msgstr "Izbriši trenuten %s"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1791
 #, python-format
 msgid "Edit Current %s"
-msgstr ""
+msgstr "Uredi trenuten %s"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1875
 msgid " - Dot Viewer"
@@ -194,31 +197,31 @@ msgstr "Ne morem narisati grafikona !"
 
 #: bin/widget/view/screen_container.py:74
 msgid "--Actions--"
-msgstr ""
+msgstr "--Dejanja--"
 
 #: bin/widget/view/screen_container.py:74
 msgid "Save as a Filter"
-msgstr ""
+msgstr "Shrani kot filter"
 
 #: bin/widget/view/screen_container.py:74
 msgid "Manage Filters"
-msgstr ""
+msgstr "Upravljanje filtrov"
 
 #: bin/widget/view/screen_container.py:89
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:89
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:89
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:89
 msgid "Unlimited"
-msgstr ""
+msgstr "Neomejeno"
 
 #
 # File: bin/widget/view/form_gtk/image.py, line: 70
@@ -275,11 +278,11 @@ msgstr "Odpri..."
 
 #: bin/widget/view/form_gtk/image.py:127
 msgid "There is no image to save as !"
-msgstr ""
+msgstr "Ni nobenih slik za shranjevanje kot!"
 
 #: bin/widget/view/form_gtk/image.py:127
 msgid "Warning"
-msgstr ""
+msgstr "Opozorilo"
 
 #
 # File: bin/modules/gui/main.py, line: 1120
@@ -300,32 +303,32 @@ msgstr "Shrani kot..."
 
 #: bin/widget/view/form_gtk/image.py:177
 msgid "Image corrupted"
-msgstr ""
+msgstr "Poškodovana slika"
 
 #: bin/widget/view/form_gtk/many2many.py:84
 #: bin/widget/view/form_gtk/one2many_list.py:210
 msgid "Previous Page"
-msgstr ""
+msgstr "Prejšnja stran"
 
 #: bin/widget/view/form_gtk/many2many.py:88
 #: bin/widget/view/form_gtk/one2many_list.py:214
 msgid "Previous Record"
-msgstr ""
+msgstr "Prejšnji zapis"
 
 #: bin/widget/view/form_gtk/many2many.py:96
 #: bin/widget/view/form_gtk/one2many_list.py:222
 msgid "Next Record"
-msgstr ""
+msgstr "Naslednji zapis"
 
 #: bin/widget/view/form_gtk/many2many.py:100
 #: bin/widget/view/form_gtk/one2many_list.py:226
 msgid "Next Page"
-msgstr ""
+msgstr "Naslednja stran"
 
 #: bin/widget/view/form_gtk/many2many.py:106
 #: bin/widget/view/form_gtk/one2many_list.py:238
 msgid "Choose Limit"
-msgstr ""
+msgstr "Izberi limit"
 
 #: bin/widget/view/form_gtk/calendar.py:57
 #: bin/widget/view/form_gtk/calendar.py:184 bin/widget_search/calendar.py:53
@@ -337,7 +340,7 @@ msgstr "Odpri gradnik koledarja"
 #: bin/widget/view/form_gtk/calendar.py:99
 #: bin/widget/view/form_gtk/calendar.py:163
 msgid "Invalid date value! Year must be greater than 1899 !"
-msgstr ""
+msgstr "Neveljavna vrednost podatka! Leto mora biti večje kot 1899!"
 
 #: bin/widget/view/form_gtk/calendar.py:135
 #: bin/widget/view/form_gtk/calendar.py:249 bin/widget_search/calendar.py:128
@@ -361,7 +364,7 @@ msgstr "Minuta:"
 
 #: bin/widget/view/form_gtk/calendar.py:291 bin/widget_search/calendar.py:312
 msgid "Invalid datetime value! Year must be greater than 1899 !"
-msgstr ""
+msgstr "Neveljavna vrednot datumura! Leto mora biti večje kot 1899!"
 
 #: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1079
 #: bin/openerp.glade:6081
@@ -370,15 +373,15 @@ msgstr "OpenERP"
 
 #: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
-msgstr ""
+msgstr "Prekliči"
 
 #: bin/widget/view/form_gtk/one2many_list.py:70
 msgid "Save & Close"
-msgstr ""
+msgstr "Shrani & Zapri"
 
 #: bin/widget/view/form_gtk/one2many_list.py:75
 msgid "Save & New"
-msgstr ""
+msgstr "Shrani & Novo"
 
 #: bin/widget/view/form_gtk/one2many_list.py:164
 #: bin/widget/view/form_gtk/interface.py:48
@@ -407,7 +410,7 @@ msgstr "Zamenjaj"
 
 #: bin/widget/view/form_gtk/one2many_list.py:279
 msgid "You have to select a resource !"
-msgstr "Moraš izbrati vir!"
+msgstr "Morate izbrati vir!"
 
 #: bin/widget/view/form_gtk/one2many_list.py:388
 #: bin/modules/gui/window/form.py:290
@@ -430,22 +433,25 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Popravite naslednja rdeča polja!\n"
+"\n"
+"%s"
 
 #: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 msgid "Input Error !"
-msgstr ""
+msgstr "Napaka pri vnosu!"
 
 #: bin/widget/view/form_gtk/parser.py:308
 msgid "Field"
-msgstr ""
+msgstr "Polje"
 
 #: bin/widget/view/form_gtk/parser.py:308
 msgid "Object"
-msgstr ""
+msgstr "Predmet"
 
 #: bin/widget/view/form_gtk/parser.py:619
 msgid "Enter some text to the related field before adding translations!"
-msgstr ""
+msgstr "Vnesite nekaj besedila  v sorodno polje pred dodajanjem prevodov!"
 
 #: bin/widget/view/form_gtk/parser.py:626
 msgid "You need to save resource before adding translations!"
@@ -472,11 +478,11 @@ msgstr "Nastavi za privzeto"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "You can not set to the default value here !"
-msgstr ""
+msgstr "Tukaj ne morete nastaviti privzetih vrednosti!"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permited"
-msgstr ""
+msgstr "Operacija ni dovoljena"
 
 #: bin/widget/view/form_gtk/many2one.py:158 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -489,7 +495,7 @@ msgstr "Poišči vir"
 
 #: bin/widget/view/form_gtk/many2one.py:174 bin/openerp.glade:1412
 msgid "Action"
-msgstr "Akcija"
+msgstr "Dejanje"
 
 #
 # File: bin/widget/view/form_gtk/many2one.py, line: 169
@@ -505,11 +511,11 @@ msgstr "Poročilo"
 #: bin/widget_search/custom_filter.py:140 bin/widget_search/spinint.py:95
 #: bin/widget_search/checkbox.py:68
 msgid "The content of the widget or ValueError if not valid"
-msgstr ""
+msgstr "Vsebina gradnika ali ValueError ni veljaven"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Pošlji e-pošto z vašim privzetim e-poštnim klientom"
 
 #: bin/widget/view/form_gtk/date_widget.py:65
 #: bin/widget_search/date_widget.py:65
@@ -555,7 +561,7 @@ msgstr "Izberi datoteko..."
 #: bin/widget/view/form_gtk/binary.py:177
 #, python-format
 msgid "Error writing the file: %s"
-msgstr "Napaka pri pisanj v datoteko: %s"
+msgstr "Napaka pri pisanju v datoteko: %s"
 
 #
 # File: bin/widget/view/form_gtk/wid_common.py, line: 60
@@ -581,11 +587,13 @@ msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
 msgstr ""
+"(Vsak obstoječ filter z  \n"
+"istim imenom bo zamenjan)"
 
 #: bin/translate.py:183
 #, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
-msgstr ""
+msgstr "Ni mogoče nastaviti lokalno %(lang_enc)s: %(exception)s"
 
 #: bin/options.py:121
 #, python-format
@@ -594,41 +602,33 @@ msgstr "OpenERP odjemalec %s"
 
 #: bin/options.py:122
 msgid "specify alternate config file"
-msgstr "specificiraj alternativno cofig datoteko"
+msgstr "navedite alternativno config datoteko"
 
 #: bin/options.py:123
 msgid "Enable basic debugging. Alias for '--log-level=debug'"
 msgstr ""
+"Omogočite osnovno razhroščevanje (debugging): Alias za '--log-level=debug'"
 
 #: bin/options.py:124
 #, python-format
 msgid "specify the log level: %s"
-msgstr ""
+msgstr "navedite nivo dnevnika: %s"
 
-#
-# File: bin/options.py, line: 93
-# File: bin/options.py, line: 93
 #: bin/options.py:125
 msgid "specify the user login"
-msgstr "določi uporabniško ime"
+msgstr "določite uporabniško ime"
 
-#
-# File: bin/options.py, line: 94
-# File: bin/options.py, line: 94
 #: bin/options.py:126
 msgid "specify the server port"
-msgstr "določi strežnikova vrata"
+msgstr "določite vrata strežnika"
 
-#
-# File: bin/options.py, line: 95
-# File: bin/options.py, line: 95
 #: bin/options.py:127
 msgid "specify the server ip/name"
-msgstr "določi strežnikovo ime ali IP naslov"
+msgstr "določite ime strežnika ali IP naslov"
 
 #: bin/common/common.py:89
 msgid "Close current tip"
-msgstr ""
+msgstr "Zapri trenuten namig"
 
 #: bin/common/common.py:90
 msgid ""
@@ -640,7 +640,7 @@ msgstr ""
 
 #: bin/common/common.py:100
 msgid "Disable all tips"
-msgstr ""
+msgstr "Onemogoči vse namige"
 
 #: bin/common/common.py:101
 msgid ""
@@ -652,7 +652,7 @@ msgstr ""
 
 #: bin/common/common.py:115 bin/common/common.py:117
 msgid "Tips"
-msgstr ""
+msgstr "Namigi"
 
 #: bin/common/common.py:168
 msgid "OpenERP Computing"
@@ -2733,11 +2733,9 @@ msgstr "Ločilo besedila:"
 msgid "Encoding:"
 msgstr "Kodiranje:"
 
-#
-# File: bin/openerp.glade, line: 6014
 #: bin/openerp.glade:6000
 msgid "Field Separator: "
-msgstr "Ločilo polj "
+msgstr "Ločilo polj: "
 
 #: bin/openerp.glade:6012
 msgid "CSV Parameters"
@@ -2753,7 +2751,7 @@ msgstr "<b>Poveži se s strežnikom OpenERP</b>"
 
 #: bin/openerp.glade:6246
 msgid "Protocol connection:"
-msgstr ""
+msgstr "Protokol povezave:"
 
 #: bin/openerp.glade:6292
 msgid "Port:"
@@ -2807,6 +2805,7 @@ msgstr ""
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP strežnik:"
 
 #: bin/openerp.glade:6980
 msgid ""
@@ -2820,10 +2819,12 @@ msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
 "Administrator Password:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Geslo Super "
+"Administrator:"
 
 #: bin/openerp.glade:7003
 msgid "admin"
-msgstr ""
+msgstr "admin"
 
 #: bin/openerp.glade:7017
 msgid "(<i>admin</i>, by default)"
@@ -2839,6 +2840,8 @@ msgstr ""
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Novo ime "
+"podatkovne baze:"
 
 #: bin/openerp.glade:7109
 msgid ""
@@ -2851,6 +2854,7 @@ msgstr ""
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Privzeti jezik:"
 
 #: bin/openerp.glade:7124
 msgid ""
@@ -2863,6 +2867,7 @@ msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
 "Password:"
 msgstr ""
+"sup><b><span foreground=\"dark green\">?</span></b></sup>Geslo Administrator:"
 
 #: bin/openerp.glade:7139
 msgid ""
@@ -2874,6 +2879,7 @@ msgstr ""
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Potrdi geslo:"
 
 #: bin/openerp.glade:7234
 msgid ""
@@ -2887,6 +2893,8 @@ msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
 "Data:"
 msgstr ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Naloži "
+"demonstracijske podatke:"
 
 #: bin/openerp.glade:7321
 msgid "<b>Change your super admin password</b>"
@@ -2954,11 +2962,11 @@ msgstr "Mesec"
 
 #: bin/openerp.glade:8230
 msgid "Filter Entry"
-msgstr ""
+msgstr "Filter vnosa"
 
 #: bin/openerp.glade:8276
 msgid "Enter Filter Name:"
-msgstr ""
+msgstr "Vnesite ime filtra:"
 
 #: bin/win_error.glade:40
 msgid "label"
@@ -2970,7 +2978,7 @@ msgstr ""
 
 #: bin/win_error.glade:120
 msgid "<i>_Publisher Warranty</i>"
-msgstr ""
+msgstr "<i>_Garancija založnika</i>"
 
 #: bin/win_error.glade:151
 msgid ""
