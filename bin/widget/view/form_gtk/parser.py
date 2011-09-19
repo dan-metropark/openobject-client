@@ -559,8 +559,9 @@ class parser_form(widget.view.interface.parser_interface):
                 from action import action
                 name = str(attrs['name'])
                 widget_act = action(self.window, self.parent, model, attrs)
-                dict_widget[name] = widget_act
-                container.wid_add(widget_act.widget, colspan=int(attrs.get('colspan', 3)), expand=True, fill=True)
+                if hasattr(widget_act, 'widget'):
+                    dict_widget[name] = widget_act
+                    container.wid_add(widget_act.widget, colspan=int(attrs.get('colspan', 3)), expand=True, fill=True)
         for (ebox,src,name,widget) in container.trans_box:
             ebox.connect('button_press_event',self.translate, model, name, src, widget, self.screen, self.window)
         for (ebox,src,name) in container.trans_box_label:
