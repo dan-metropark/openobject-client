@@ -23,7 +23,6 @@ from rpc import RPCProxy
 import rpc
 from record import ModelRecord
 import field
-from copy import copy
 
 import signal_event
 
@@ -422,7 +421,7 @@ class ModelRecordGroup(signal_event.signal_event):
         uids = []
         #remove duplicate id
         map(lambda x: x not in uids and uids.append(x), ids)
-        return copy(uids)
+        return uids
     
 
     def get_by_id(self, id):
