@@ -344,10 +344,10 @@ class ModelRecordGroup(signal_event.signal_event):
         for f in fields.keys():
             add_field = True
             if f in models.fields:
-                if fields[f].get('widget','') == models.fields[f].get('widget',''):
+                if fields[f].get('widget') == models.fields[f].get('widget'):
                     models.fields[f].update(fields[f])
                     add_field = False
-                if f in models.mfields and fields[f].get('type','') == 'one2many':
+                if f in models.mfields and fields[f].get('type') == 'one2many':
                     add_field = False
             if add_field:
                 models.fields[f] = fields[f]
@@ -412,6 +412,8 @@ class ModelRecordGroup(signal_event.signal_event):
                     values[t] = False
             for mod in new:
                 mod.set_default(values)
+                if values:
+                    mod.modified = True
 
     def __iter__(self):
         return iter(self.models)

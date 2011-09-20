@@ -137,8 +137,6 @@ class parser_tree(interface.parser_interface):
             if node.tag == 'field':
                 handler_id = False
                 fname = str(node_attrs['name'])
-                if fields[fname]['type'] in ('image', 'binary'):
-                    continue    # not showed types
                 if fname == 'sequence':
                     treeview.sequence = True
                 for boolean_fields in ('readonly', 'required'):
@@ -147,7 +145,6 @@ class parser_tree(interface.parser_interface):
                             node_attrs[boolean_fields] = eval(node_attrs[boolean_fields])
                         else:
                             node_attrs[boolean_fields] = bool(int(node_attrs[boolean_fields]))
-
                 if fields[fname]['type'] == 'selection':
                     if fields[fname].get('selection',[]):
                         node_attrs['selection'] = fields[fname]['selection']
@@ -231,7 +228,7 @@ class parser_tree(interface.parser_interface):
                     label_sum = gtk.Label()
                     label_sum.set_use_markup(True)
                     dict_widget[n] = (fname, label, label_sum,
-                            fields[fname].get('digits', (16,2))[1], label_bold, calculate)
+                            fields[fname].get('digits', (16,2))[1], label_bold, calculate, fields[fname]['type'])
         return treeview, dict_widget, [], on_write
 
 class UnsettableColumn(Exception):
@@ -276,7 +273,7 @@ class Char(object):
         else:
             field.get_state_attrs(model)['required'] = field.attrs.get('required',False)
         if 'value' in state_changes:
-            field.set(model, state_changes['value'], test_state=False, modified=True)
+            field.set(model, state_changes['value'], modified=True)
 
     def setter(self, column, cell, store, iter):
         model = store.get_value(iter, 0)

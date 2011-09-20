@@ -86,7 +86,7 @@ class screen_container(object):
         limits = []
         if default_limit and default_limit not in [100, 200, 500]:
             limits = [[int(default_limit), str(default_limit)]]
-        limits += [[100,'100'],[200,'200'],[500,'500'],[False,'Unlimited']]
+        limits += [[100,_('100')],[200,_('200')],[500,_('500')],[False,_('Unlimited')]]
         index = 0
         for lim in limits:
             if lim[0] == default_limit:
@@ -129,11 +129,17 @@ class screen_container(object):
         hb1 = gtk.HButtonBox()
         hb1.set_layout(gtk.BUTTONBOX_START)
 
+    #Find Clear Buttons
         button_clear = gtk.Button(stock=gtk.STOCK_CLEAR)
         button_clear.connect('clicked', screen.search_clear)
+
+        self.button = gtk.Button(stock=gtk.STOCK_FIND)
+        self.button.connect('clicked', screen.search_filter)
+
         if self.win_search:
             hb3 = hb1
             hs.pack_start(hb3, expand=False, fill=False)
+            hb3.pack_start(self.button, expand=False, fill=False)
             hb3.pack_start(button_clear, expand=False, fill=False)
         else:
             hb1.set_spacing(5)
@@ -143,9 +149,6 @@ class screen_container(object):
             hs.pack_start(hb2, expand=True, fill=True)
             hs.pack_end(hb3, expand=False, fill=False)
 
-    #Find Clear Buttons
-            self.button = gtk.Button(stock=gtk.STOCK_FIND)
-            self.button.connect('clicked', screen.search_filter)
             self.button.set_property('can_default', True)
             hb1.pack_start(self.button, expand=False, fill=False)
             hb1.pack_start(button_clear, expand=False, fill=False)

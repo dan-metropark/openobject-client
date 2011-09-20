@@ -99,8 +99,8 @@ class Viewdiagram(object):
                 if len(edge) < 1 or str(edge[1][0]) not in node_lst or str(edge[1][1]) not in node_lst:
                     continue
                 graph.add_edge(pydot.Edge(quote_string(node_lst[str(edge[1][0])]),quote_string(node_lst[str(edge[1][1])]),
-                                          label=dict['label'].get(edge[0], False)[1] or  None,
-                                          URL = quote_string(dict['label'].get(edge[0], '')[1] + "_" + edge[0] + "_edge"),
+                                          label=quote_string(dict['label'][edge[0]][1]),
+                                          URL=quote_string(dict['label'][edge[0]][1] + "_" + edge[0] + "_edge"),
                                           fontsize='10',
                                           ))
             file =  graph.create_xdot()

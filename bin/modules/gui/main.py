@@ -389,7 +389,7 @@ def _refresh_langlist(lang_widget, url):
     liststore = lang_widget.get_model()
     liststore.clear()
     lang_list = rpc.session.db_exec_no_except(url, 'list_lang')
-    lang = rpc.session.context.get('lang', options.options.get('client.lang', 'en_US'))
+    lang = rpc.session.context.get('lang', options.options.get('client.lang', 'en_US')) or 'en_US'
     active_idx = -1
     for index, (key,val) in enumerate(lang_list):
         if key == lang:
@@ -470,7 +470,8 @@ class db_login(object):
         if _refresh_dblist(db_widget, entry_db, label, butconnect, url):
             is_same_version, server_version, client_version = check_server_version(url)
             if not is_same_version:
-                common.warning(_('The versions of the server (%s) and the client (%s) missmatch. The client may not work properly. Use it at your own risks.') % (server_version, client_version,),parent=self.win)
+                common.warning(_('The versions of the server %(server_version)s and the client %(client_version)s mismatch. The client may not work properly. Use it at your own risks.')
+                               % {'server_version':server_version, 'client_version':client_version},parent=self.win)
 
     def refreshlist_ask(self,widget, server_widget, db_widget, entry_db, label, butconnect = False, url=False, parent=None):
         url = _server_ask(server_widget, parent) or url
@@ -856,12 +857,6 @@ class terp_main(service.Service):
         # Adding a timer the check to requests
         gobject.timeout_add(15 * 60 * 1000, self.request_set)
 
-
-    def shortcut_edit(self, widget, model='ir.ui.menu'):
-        obj = service.LocalService('gui.window')
-        domain = [('user_id', '=', rpc.session.uid), ('resource', '=', model)]
-        obj.create(False, 'ir.ui.view_sc', res_id=None, domain=domain, view_type='form', mode='tree,form')
-
     def shortcut_set(self, sc=None):
         def _action_shortcut(widget, action):
             if action:
@@ -881,12 +876,6 @@ class terp_main(service.Service):
             menuitem = gtk.MenuItem(s['name'])
             menuitem.connect('activate', _action_shortcut, s['res_id'])
             menu.add(menuitem)
-
-        menu.add(gtk.SeparatorMenuItem())
-        menuitem = gtk.MenuItem(_('Edit'))
-        menuitem.connect('activate', self.shortcut_edit)
-        menu.add(menuitem)
-
         menu.show_all()
         self.shortcut_menu.set_submenu(menu)
         self.shortcut_menu.set_sensitive(True)
