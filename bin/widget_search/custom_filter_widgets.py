@@ -106,6 +106,7 @@ class many2one(wid_int.wid_int):
     def sig_find(self, widget, event=None, leave=True):
         from modules.gui.window.win_search import win_search
         name_search = self.wid_text.get_text() or ''
+        self.wid_text.set_text('')
         ids = rpc.session.rpc_exec_auth('/object', 'execute', self.attrs['relation'], 'name_search', name_search, [], 'ilike', rpc.session.context)
         if len(ids) == 1 and leave:
             self.selected_value = ids[0]
