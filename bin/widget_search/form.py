@@ -133,6 +133,7 @@ class parse(object):
         self.col = col
         self.focusable = None
         self.add_widget_end = []
+        self.filter_group = False
 
     def destroy(self):
         self.container.destroy()
@@ -239,6 +240,10 @@ class parse(object):
                 help = attrs.get('help', False) or name
                 wid = container.wid_add(widget_act.butt, xoptions=gtk.SHRINK, help=help)
                 dict_widget[name + str(uuid.uuid1())] = (widget_act, widget_act, 1)
+                if node.getparent().tag == 'group':
+                    if not self.filter_group:
+                        self.filter_group = uuid.uuid1()
+                    widget_act.filter_group = self.filter_group 
 
             elif node.tag == 'separator':
                 if attrs.get('orientation','vertical') == 'horizontal':
@@ -258,6 +263,7 @@ class parse(object):
                 container.newline(node.getparent() is not None and node.getparent().tag == 'group')
 
             elif node.tag=='group':
+                self.filter_group = False
                 if attrs.get('invisible', False):
                     continue
                 if attrs.get('expand', False):
@@ -436,10 +442,18 @@ class form(wid_int.wid_int):
     def _value_get(self):
         domain = []
         context = {}
-
+        filter_group = {}
+        
         for x in self.widgets.values() + self.custom_widgets.values():
             filters = x[0].value
-            domain += filters.get('domain', [])
+            dom = filters.get('domain', [])
+            if isinstance(x[0],filter.filter) and dom and x[0].filter_group:
+                filter_group.setdefault(x[0].filter_group, [])
+                for d in dom:
+                    if d not in filter_group[x[0].filter_group]:
+                        filter_group[x[0].filter_group].append(d)
+            else:                
+                domain += dom
             ctx = filters.get('context', {})
             gp_name = filters.pop('name', False)
             ctx_groupby = ctx.pop('group_by', False)
@@ -456,6 +470,8 @@ class form(wid_int.wid_int):
                     self.gp_filters.remove(gp_name)
             context.update(ctx)
         ordered_gp = []
+        for group, domains in filter_group.iteritems():
+            domain += (['|'] * (len(domains) -1)) + domains 
         for val in self.gp_filters:
             ordered_gp += self.groupby[val]
         if ordered_gp:

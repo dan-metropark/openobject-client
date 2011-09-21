@@ -55,6 +55,7 @@ class filter(wid_int.wid_int):
         self.butt.connect('toggled', call[1])
         self.screen_context = call[0].context
         self.widget = self.butt
+        self.filter_group = False
 
     def _value_get(self):
         if not self.butt.get_active():
