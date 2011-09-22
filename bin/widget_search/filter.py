@@ -62,11 +62,10 @@ class filter(wid_int.wid_int):
             ctx = tools.expr_eval(self.context, {'context':self.screen_context})
             group = ctx.get('group_by',False)
             if group:
-                return {'context': {'remove_group':True}, 'name':self.name}
+                return {'context': {'remove_group':True}}
             return {}
         return {'domain': tools.expr_eval(self.domain, {'context':self.screen_context}),
-                'context': tools.expr_eval(self.context, {'context':self.screen_context}),
-                'name':self.name }
+                'context': tools.expr_eval(self.context, {'context':self.screen_context})}
 
     def sig_exec(self, widget):
         pass

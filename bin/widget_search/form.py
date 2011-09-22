@@ -133,7 +133,6 @@ class parse(object):
         self.col = col
         self.focusable = None
         self.add_widget_end = []
-        self.filter_group = False
 
     def destroy(self):
         self.container.destroy()
@@ -183,7 +182,7 @@ class parse(object):
         attrs = tools.node_attributes(root_node)
         container.new()
         self.container = container
-
+        filter_group = False
         for node in root_node:
             attrs = tools.node_attributes(node)
             if attrs.get('invisible', False):
@@ -210,6 +209,7 @@ class parse(object):
                 if node is not None and len(node):
                     mywidget = gtk.HBox(homogeneous=False, spacing=0)
                     mywidget.pack_start(widget_act.widget,expand=True,fill=True)
+                    child_filter_group = False
                     for node_child in node:
                         attrs_child = tools.node_attributes(node_child)
                         if attrs_child.get('invisible', False):
@@ -220,7 +220,12 @@ class parse(object):
                             widget_child = widgets_type['filter'][0]('', self.parent, attrs_child, call)
                             mywidget.pack_start(widget_child.widget)
                             dict_widget[str(attrs['name']) + str(uuid.uuid1())] = (widget_child, mywidget, 1)
+                            if not child_filter_group:
+                                child_filter_group = uuid.uuid1()
+                            widget_child.filter_group = child_filter_group
+
                         elif node_child.tag == 'separator':
+                            child_filter_group = False
                             if attrs_child.get('orientation','vertical') == 'horizontal':
                                 sep = gtk.HSeparator()
                                 sep.set_size_request(30,5)
@@ -240,12 +245,12 @@ class parse(object):
                 help = attrs.get('help', False) or name
                 wid = container.wid_add(widget_act.butt, xoptions=gtk.SHRINK, help=help)
                 dict_widget[name + str(uuid.uuid1())] = (widget_act, widget_act, 1)
-                if node.getparent().tag == 'group':
-                    if not self.filter_group:
-                        self.filter_group = uuid.uuid1()
-                    widget_act.filter_group = self.filter_group 
+                if not filter_group:
+                    filter_group = uuid.uuid1()
+                widget_act.filter_group = filter_group 
 
             elif node.tag == 'separator':
+                filter_group = False
                 if attrs.get('orientation','vertical') == 'horizontal':
                     sep_box = gtk.VBox(homogeneous=False, spacing=0)
                     sep = gtk.HSeparator()
@@ -263,7 +268,6 @@ class parse(object):
                 container.newline(node.getparent() is not None and node.getparent().tag == 'group')
 
             elif node.tag=='group':
-                self.filter_group = False
                 if attrs.get('invisible', False):
                     continue
                 if attrs.get('expand', False):
@@ -447,31 +451,32 @@ class form(wid_int.wid_int):
         for x in self.widgets.values() + self.custom_widgets.values():
             filters = x[0].value
             dom = filters.get('domain', [])
-            if isinstance(x[0],filter.filter) and dom and x[0].filter_group:
+            if isinstance(x[0], filter.filter) and dom:
                 filter_group.setdefault(x[0].filter_group, [])
-                for d in dom:
-                    if d not in filter_group[x[0].filter_group]:
-                        filter_group[x[0].filter_group].append(d)
+                if dom in filter_group[x[0].filter_group]:
+                    continue
+                filter_group[x[0].filter_group].append(dom)
             else:                
                 domain += dom
             ctx = filters.get('context', {})
-            gp_name = filters.pop('name', False)
             ctx_groupby = ctx.pop('group_by', False)
             ctx_remove_group = ctx.pop('remove_group', False)
             if ctx_groupby:
                 if not isinstance(ctx_groupby, list):
                     ctx_groupby = [ctx_groupby]
-                self.groupby.setdefault(gp_name, [])
-                if gp_name not in self.gp_filters:
-                    self.gp_filters.append(gp_name)
-                self.groupby[gp_name] = ctx_groupby
+                self.groupby.setdefault(x[0].name, [])
+                if x[0].name not in self.gp_filters:
+                    self.gp_filters.append(x[0].name)
+                self.groupby[x[0].name] = ctx_groupby
             elif ctx_remove_group:
-                if gp_name in self.gp_filters:
-                    self.gp_filters.remove(gp_name)
+                if x[0].name in self.gp_filters:
+                    self.gp_filters.remove(x[0].name)
             context.update(ctx)
         ordered_gp = []
         for group, domains in filter_group.iteritems():
-            domain += (['|'] * (len(domains) -1)) + domains 
+            domain += ( ['|'] * ( len(domains) - 1) )
+            for dom in domains:
+                domain += dom
         for val in self.gp_filters:
             ordered_gp += self.groupby[val]
         if ordered_gp:
