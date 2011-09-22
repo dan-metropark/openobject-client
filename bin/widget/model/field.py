@@ -341,6 +341,10 @@ class M2MField(CharField):
             for val in value:
                     result += rpc2.name_search(val, [], '=', rpc.session.context)
             value = map(lambda x:x[0], result)
+        
+        if value:   
+            value = model.mgroup.remove_duplicate(value)
+
         model.value[self.name] = value and value[:self.limit] or []
         model.pager_cache[self.name] = value or []
         if modified:
@@ -412,7 +416,7 @@ class O2MField(CharField):
         model.value[self.name] = mod
         #self.internal.signal_connect(self.internal, 'model-changed', self._model_changed)
         if value:
-            value = value[:self.limit]
+            value = model.mgroup.remove_duplicate(value)[:self.limit]
         model.value[self.name].pre_load(value, display=False)
         #self.internal.signal_connect(self.internal, 'model-changed', self._model_changed)
 

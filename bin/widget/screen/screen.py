@@ -275,7 +275,7 @@ class Screen(signal_event.signal_event):
             self.display()
             return True
         ids = rpc.session.rpc_exec_auth('/object', 'execute', self.name, 'search', v, offset, limit, self.sort, self.context)
-        self.win_search_ids = ids
+        ids = self.win_search_ids = self.models.remove_duplicate(ids)
         if self.win_search and self.win_search_domain:
             for dom in self.win_search_domain:
                 if dom in v:
