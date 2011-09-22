@@ -64,8 +64,6 @@ class _container(object):
             self.cont[-1] = (table, 1, y+1)
         if new_table:
             self.new(col=4)
-#           table= gtk.Table(1, 8)
-#        table.resize(y+1,self.col[-1])
 
     def wid_add(self, widget, colspan=1, name=None, expand=False, xoptions=False, ypadding=0, help=False, rowspan=1):
         self.count += 1
@@ -125,7 +123,6 @@ class parse(object):
             for f in common_fields:
                 del all_fields[f]
             field_dict = all_fields
-
             self.fields.update(field_dict)
             self.name_lst1=[('field',(field_dict[x])) for x in field_dict]
         self.parent = parent
@@ -154,19 +151,19 @@ class parse(object):
     def _psr_char(self, char):
         pass
 
-    def dummy_start(self,name,attrs):
-            flag=False
+    def dummy_start(self, name, attrs):
+            flag = False
             if name =='field' and 'name' in attrs:
-                    for i in range (0,len(self.name_lst)):
-                       if 'name' in self.name_lst[i][1]:
-                           if self.name_lst[i][1]['name']==attrs['name']:
-                               flag=True
-                               if 'select' in attrs:
-                                   self.name_lst[i]=(name,attrs)
-                    if not flag:
-                        self.name_lst.append((name,attrs))
+                for i in range (0, len(self.name_lst)):
+                    if 'name' in self.name_lst[i][1]:
+                        if self.name_lst[i][1]['name'] == attrs['name']:
+                            flag = True
+                            if 'select' in attrs:
+                                self.name_lst[i] = (name, attrs)
+                if not flag:
+                    self.name_lst.append((name, attrs))
             else:
-                self.name_lst.append((name,attrs))
+                self.name_lst.append((name, attrs))
 
     def parse_filter(self, xml_data, max_width, root_node, call=None):
         psr = expat.ParserCreate()
@@ -185,7 +182,7 @@ class parse(object):
         filter_group = False
         for node in root_node:
             attrs = tools.node_attributes(node)
-            if attrs.get('invisible', False):
+            if attrs.get('invisible'):
                 visval = eval(attrs['invisible'], {'context':call[0].context})
                 if visval:
                     continue
@@ -212,7 +209,7 @@ class parse(object):
                     child_filter_group = False
                     for node_child in node:
                         attrs_child = tools.node_attributes(node_child)
-                        if attrs_child.get('invisible', False):
+                        if attrs_child.get('invisible'):
                             visval = eval(attrs_child['invisible'], {'context':call[0].context})
                             if visval:
                                 continue
@@ -229,20 +226,19 @@ class parse(object):
                             if attrs_child.get('orientation','vertical') == 'horizontal':
                                 sep = gtk.HSeparator()
                                 sep.set_size_request(30,5)
-                                mywidget.pack_start(sep,False,True,5)
+                                mywidget.pack_start(sep, False, True, 5)
                             else:
                                 sep = gtk.VSeparator()
                                 sep.set_size_request(3,40)
-                                mywidget.pack_start(sep,False,False,5)
-#                    mywidget.pack_start(widget_act.widget,expand=False,fill=False)
+                                mywidget.pack_start(sep, False, False, 5)
                 xoptions = gtk.SHRINK
-                wid = container.wid_add(mywidget, 1,label, int(self.fields[str(attrs['name'])].get('expand',0)),xoptions=xoptions)
+                wid = container.wid_add(mywidget, 1,label, int(self.fields[str(attrs['name'])].get('expand',0)), xoptions=xoptions)
                 dict_widget[str(attrs['name'])] = (widget_act, wid, 1)
 
             elif node.tag == 'filter':
                 name = str(attrs.get('string','filter'))
                 widget_act = filter.filter(name, self.parent, attrs, call)
-                help = attrs.get('help', False) or name
+                help = attrs.get('help', name)
                 wid = container.wid_add(widget_act.butt, xoptions=gtk.SHRINK, help=help)
                 dict_widget[name + str(uuid.uuid1())] = (widget_act, widget_act, 1)
                 if not filter_group:
@@ -255,32 +251,32 @@ class parse(object):
                     sep_box = gtk.VBox(homogeneous=False, spacing=0)
                     sep = gtk.HSeparator()
                     sep.set_size_request(30,5)
-                    sep_box.pack_start(gtk.Label(''),expand=False,fill=False)
-                    sep_box.pack_start(sep,False,True,5)
+                    sep_box.pack_start(gtk.Label(''), expand=False, fill=False)
+                    sep_box.pack_start(sep, False, True, 5)
                 else:
                     sep_box = gtk.HBox(homogeneous=False, spacing=0)
                     sep = gtk.VSeparator()
                     sep.set_size_request(3,45)
-                    sep_box.pack_start(sep,False,False,5)
-                wid = container.wid_add(sep_box,xoptions=gtk.SHRINK)
+                    sep_box.pack_start(sep, False, False, 5)
+                wid = container.wid_add(sep_box, xoptions=gtk.SHRINK)
                 wid.show()
             elif node.tag=='newline':
                 container.newline(node.getparent() is not None and node.getparent().tag == 'group')
 
             elif node.tag=='group':
-                if attrs.get('invisible', False):
+                if attrs.get('invisible'):
                     continue
-                if attrs.get('expand', False):
-                    attrs['expand'] = tools.expr_eval(attrs.get('expand',False),{'context':call[0].context})
-                    frame = gtk.Expander(attrs.get('string', None))
+                if attrs.get('expand'):
+                    attrs['expand'] = tools.expr_eval(attrs.get('expand'),{'context':call[0].context})
+                    frame = gtk.Expander(attrs.get('string'))
                     frame.set_expanded(bool(attrs['expand']))
                 else:
-                    frame = gtk.Frame(attrs.get('string', None))
-                    if not attrs.get('string', None):
+                    frame = gtk.Frame(attrs.get('string'))
+                    if not attrs.get('string'):
                         frame.set_shadow_type(gtk.SHADOW_NONE)
                 frame.attrs = attrs
                 frame.set_border_width(0)
-                container.wid_add(frame, colspan=1, expand=int(attrs.get('expand',0)), ypadding=0)
+                container.wid_add(frame, colspan=1, expand=int(attrs.get('expand', 0)), ypadding=0)
                 container.new()
                 widget, widgets = self.parse_filter(xml_data, max_width, node, call= call)
                 dict_widget.update(widgets)
@@ -293,7 +289,7 @@ class parse(object):
                     frame.add(tb)
                 else:
                     frame.add(widget)
-                if not attrs.get('string', None):
+                if not attrs.get('string'):
                     container.get().set_border_width(0)
                 container.pop()
         self.widget = container.pop()
@@ -487,9 +483,7 @@ class form(wid_int.wid_int):
         for (ref, value) in self.__dict__.items():
             if isinstance(value, gtk.Object) and not isinstance(value, gtk.Window):
                 value.destroy()
-
         self.parser.destroy()
-
         del self.widgets
         del self.focusable
         del self.parent

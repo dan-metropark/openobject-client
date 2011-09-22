@@ -44,7 +44,7 @@ class filter(wid_int.wid_int):
         self.butt.set_image_position(gtk.POS_TOP)
         self.butt.modify_bg(gtk.STATE_ACTIVE, gtk.gdk.color_parse("grey"))
         self.butt.modify_bg(gtk.STATE_PRELIGHT, gtk.gdk.color_parse("light grey"))
-        help = attrs.get('help', False) or attrs.get('string', False)
+        help = attrs.get('help') or attrs.get('string')
         if help:
             self.butt.set_tooltip_markup(tools.to_xml(help))
         self.domain = attrs.get('domain', "[]")
