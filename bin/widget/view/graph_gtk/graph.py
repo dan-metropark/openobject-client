@@ -89,10 +89,11 @@ class ViewGraph(object):
         if group_by:
             if not self.key:
                 del self.widget.screen.context['group_by']
-                self.key = True
-                self.widget.screen.search_filter()
+                self.key = True 
+                self.widget.screen.search_filter() ## TODO: Check why was this needed ?
                 models = self.widget.screen.models
                 self.widget.screen.context['group_by'] = group_by
+                self.key = False 
             self.axis[0] = group_by[0]
             self.axis_data[group_by[0]] = {}
             # This is to get the missing field. if the field is not available in the graph view

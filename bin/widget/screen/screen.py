@@ -78,6 +78,12 @@ class Screen(signal_event.signal_event):
         self.sort = False
         self.type = None
         self.dummy_cal = False
+        self.openerp_widgets = {'form':[ 'date','time','datetime','float','integer','selection','char','float_time',
+                                        'boolean','button','reference','binary','picture','text','text_wiki','text_tag',
+                                        'one2many','one2many_form','one2many_list','many2many','many2one','email','url',
+                                        'callto','sip','image','uri','progressbar'],
+                                'tree':['char','many2one','date','one2many','many2many','selection','float','float_time','integer',
+                                        'datetime','boolean','progressbar','button']}
         if not row_activate:
             self.row_activate = lambda self,screen=None: self.switch_view(screen, 'form')
         else:
@@ -269,7 +275,7 @@ class Screen(signal_event.signal_event):
             self.display()
             return True
         ids = rpc.session.rpc_exec_auth('/object', 'execute', self.name, 'search', v, offset, limit, self.sort, self.context)
-        self.win_search_ids = ids
+        ids = self.win_search_ids = self.models.remove_duplicate(ids)
         if self.win_search and self.win_search_domain:
             for dom in self.win_search_domain:
                 if dom in v:
@@ -485,7 +491,7 @@ class Screen(signal_event.signal_event):
         del self.win_search
         del self.win_search_callback
         del self.window
-        
+
     def set_tooltips(self):
         terp_main = service.LocalService('gui.main')
         page_id= terp_main.notebook.get_current_page()
@@ -493,8 +499,8 @@ class Screen(signal_event.signal_event):
         action_name = form_obj.name or ''
         if self.current_view.view_type == 'form':
             tips = unicode(self.current_model and self.current_model.value.get('name') or action_name)
-            tooltips = tips == action_name and action_name or  action_name + ': ' + tips[:64] 
-            label = tips == action_name and action_name or  action_name + ': ' + tips[:6] 
+            tooltips = tips == action_name and action_name or  action_name + ': ' + tips[:64]
+            label = tips == action_name and action_name or  action_name + ': ' + tips[:6]
         else:
             tooltips = action_name
             label = action_name
@@ -593,13 +599,17 @@ class Screen(signal_event.signal_event):
             toolbar = {}
         if submenu is None:
             submenu = {}
-        def _parse_fields(node, fields):
+        def _parse_fields(node, fields, type):
             if node.tag =='field':
                 attrs = tools.node_attributes(node)
                 if attrs.get('widget', False):
-                    if attrs['widget']=='one2many_list':
-                        attrs['widget']='one2many'
-                    attrs['type'] = attrs['widget']
+                    if attrs['widget'] == 'one2many_list':
+                        attrs['widget'] = 'one2many'
+                    if attrs['widget'] not in self.openerp_widgets.get(type, []):
+                        attrs['type'] = fields[str(attrs['name'])]['type']
+                        del attrs['widget']
+                    else:
+                        attrs['type'] = attrs['widget']
                 if attrs.get('selection',[]):
                     attrs['selection'] = eval(attrs['selection'])
                     for att_key, att_val in attrs['selection'].items():
@@ -609,9 +619,9 @@ class Screen(signal_event.signal_event):
                     attrs['selection'] = fields[str(attrs['name'])]['selection']
                 fields[unicode(attrs['name'])].update(attrs)
             for node2 in node:
-                _parse_fields(node2, fields)
+                _parse_fields(node2, fields, type)
         root_node = etree.XML(arch)
-        _parse_fields(root_node, fields)
+        _parse_fields(root_node, fields, type=root_node.tag)
 
         from widget.view.widget_parse import widget_parse
         models = self.models.models

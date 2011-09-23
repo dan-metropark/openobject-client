@@ -81,7 +81,9 @@ class many2one(wid_int.wid_int):
         img.set_from_stock('gtk-find', gtk.ICON_SIZE_BUTTON)
         self.but_find.set_image(img)
         self.but_find.set_relief(gtk.RELIEF_NONE)
-        self.but_find.connect('clicked', self.sig_find)
+        self.but_find.connect('clicked', self.sig_find, None, False)
+        self.wid_text.connect_after('focus-out-event', self.sig_focus_out)
+        self.search_callback = search_callback
         self.but_find.set_alignment(0.5, 0.5)
         self.but_find.set_property('can-focus', False)
         self.but_find.set_tooltip_text(_('Search a resource'))
@@ -91,18 +93,25 @@ class many2one(wid_int.wid_int):
         self.selected_oper = False
         self.selected_oper_text = False
         self.field_left = False
-        self.enter_pressed = False
         self.selected_value = False
 
     def sig_activate(self, widget, event=None, leave=False):
-        if not self.selected_oper_text in  [_('contains'), _('doesn\'t contain')]:
-            event = self.enter_pressed and True or event
-            return self.sig_find(widget, event, leave=True)
+        if self.selected_oper_text in  [_('contains'), _('doesn\'t contain')]:
+            self.search_callback()
+        
+    def sig_focus_out(self, widget, event=None):
+        if self.selected_oper_text in [_('is'), _('is not')] and self.wid_text.get_text():
+            self.sig_find(widget, event, leave=True)
 
     def sig_find(self, widget, event=None, leave=True):
         from modules.gui.window.win_search import win_search
         name_search = self.wid_text.get_text() or ''
+        self.wid_text.set_text('')
         ids = rpc.session.rpc_exec_auth('/object', 'execute', self.attrs['relation'], 'name_search', name_search, [], 'ilike', rpc.session.context)
+        if len(ids) == 1 and leave:
+            self.selected_value = ids[0]
+            self.wid_text.set_text(ids[0][1])
+            return
         win = win_search(self.attrs['relation'], sel_multi=False, ids=map(lambda x: x[0], ids), context=rpc.session.context, parent=self.parent)
         win.glade.get_widget('newbutton').hide()
         ids = win.go()
@@ -112,16 +121,11 @@ class many2one(wid_int.wid_int):
         return
 
     def sig_key_press(self, widget, event, *args):
-        self.enter_pressed = False
         if event.keyval == gtk.keysyms.F2:
-            self.sig_activate(widget, event)
+            self.sig_find(widget, event)
         elif event.keyval == gtk.keysyms.Tab:
             if not self.wid_text.get_text():
                 return False
-            return not self.sig_activate(widget, event, leave=True)
-        elif event.keyval in (gtk.keysyms.KP_Enter,gtk.keysyms.Return):
-            if self.wid_text.get_text():
-                self.enter_pressed = True
         return False
 
     def _value_get(self):

@@ -192,11 +192,11 @@ class parse(object):
             if node.tag =='field':
                 field_name = str(attrs['name'])
                 field_dic = self.fields[field_name]
-                type = attrs.get('widget', field_dic['type'])
+                widget_type = attrs.get('widget')
+                field_type = field_dic['type']
                 field_dic.update(attrs)
                 field_dic['model'] = self.model
-                if type not in widgets_type:
-                    continue
+                type = widget_type in widgets_type and widget_type or field_type
                 widget_act = widgets_type[type][0](field_name, self.parent, field_dic, screen=call[0])
                 if 'string' in field_dic:
                     label = field_dic['string']+' :'
@@ -307,7 +307,8 @@ class form(wid_int.wid_int):
         ww, hw = 640,800
         if self.parent:
             ww, hw = self.parent.size_request()
-        self.groupby = []
+        self.groupby = {}
+        self.gp_filters = []
         self.widget, self.widgets = parser.parse_filter(xml_arch, ww, root_node, call=call)
         self.rows = 4
         self.focusable = parser.focusable
@@ -438,35 +439,27 @@ class form(wid_int.wid_int):
 
         for x in self.widgets.values() + self.custom_widgets.values():
             filters = x[0].value
-            domain += filters.get('domain',[])
-            ctx = filters.get('context',{})
+            domain += filters.get('domain', [])
+            ctx = filters.get('context', {})
+            gp_name = filters.pop('name', False)
             ctx_groupby = ctx.pop('group_by', False)
-            ctx_remove_group = ctx.pop('remove_group',False)
+            ctx_remove_group = ctx.pop('remove_group', False)
             if ctx_groupby:
                 if not isinstance(ctx_groupby, list):
                     ctx_groupby = [ctx_groupby]
-                [self.groupby.append(x) for x in ctx_groupby if x not in self.groupby]
+                self.groupby.setdefault(gp_name, [])
+                if gp_name not in self.gp_filters:
+                    self.gp_filters.append(gp_name)
+                self.groupby[gp_name] = ctx_groupby
             elif ctx_remove_group:
-                if not isinstance(ctx_remove_group, list):
-                    ctx_remove_group = [ctx_remove_group]
-                [self.groupby.remove(x) for x in ctx_remove_group if x in self.groupby]
+                if gp_name in self.gp_filters:
+                    self.gp_filters.remove(gp_name)
             context.update(ctx)
-        if self.groupby:
-            context.update({'group_by':self.groupby})
-        if domain:
-            pos = False
-            if '&' in domain or '|' in domain:
-                if domain[-2] in ['&','|']:
-                    pos = 2
-                elif len(domain) >= 4 and domain[-4] in ['&','|']:
-                    pos = 4
-                if len(domain) == 4 and domain[1] in ['&','|']:
-                    domain = domain[1:]
-                else:
-                    if pos:
-                        res1 = domain[:-pos]
-                        res2 = domain[-(pos-1):]
-                        domain = res1 + res2
+        ordered_gp = []
+        for val in self.gp_filters:
+            ordered_gp += self.groupby[val]
+        if ordered_gp:
+            context.update({'group_by':ordered_gp})
         return {'domain':domain, 'context':context}
 
     def destroy(self):

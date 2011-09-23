@@ -39,6 +39,13 @@ import rpc
 from rpc import RPCProxy
 import logging
 import widget.model.field as wmodel_fields
+import tools
+
+DT_SERVER_FORMATS = {
+          'datetime': '%Y-%m-%d %H:%M:%S',
+          'date': '%Y-%m-%d',
+          'time': '%H:%M:%S'
+        }
 
 COLOR_PALETTE = ['#f57900', '#cc0000', '#d400a8', '#75507b', '#3465a4', '#73d216', '#c17d11', '#edd400',
                  '#fcaf3e', '#ef2929', '#ff00c9', '#ad7fa8', '#729fcf', '#8ae234', '#e9b96e', '#fce94f',
@@ -135,7 +142,6 @@ class ViewCalendar(object):
         self.glade.signal_connect('on_button_month_clicked', self._change_view, 'month')
 
         self.date = datetime.today()
-
         self.string = attrs.get('string', '')
         self.date_start = attrs.get('date_start')
         self.date_delay = attrs.get('date_delay')
@@ -392,19 +398,11 @@ class ViewCalendar(object):
                 events.append(e)
         return events
 
-    def __convert(self, event):
-        # method from eTiny
-        DT_SERVER_FORMATS = {
-          'datetime': '%Y-%m-%d %H:%M:%S',
-          'date': '%Y-%m-%d',
-          'time': '%H:%M:%S'
-        }
+    def __convert(self, event, date_start_fmt, date_stop_fmt):
 
-        fields = [x for x in [self.date_start, self.date_stop] if x]
-        for fld in fields:
+        fields = [x for x in [(self.date_start, date_start_fmt), (self.date_stop, date_stop_fmt)] if x[0]]
+        for fld, fmt in fields:
             typ = self.fields[fld]['type']
-            fmt = DT_SERVER_FORMATS[typ]
-
             if event[fld] and fmt:
                 event[fld] = time.strptime(event[fld][:19], fmt)
 
@@ -422,7 +420,14 @@ class ViewCalendar(object):
     def __get_event(self, model):
 
         event = model.value.copy()
-        self.__convert(event)
+        # Converts the dates according to the timezone in calendar view
+        date_start_fmt = self.date_start and DT_SERVER_FORMATS[self.fields[self.date_start]['type']] or False
+        date_stop_fmt = self.date_stop and DT_SERVER_FORMATS[self.fields[self.date_stop]['type']] or False
+        if date_start_fmt:
+            event[self.date_start] = tools.datetime_util.server_to_local_timestamp(event.get(self.date_start), date_start_fmt, date_start_fmt, tz_offset=True, ignore_unparsable_time=False)
+        if date_stop_fmt:
+            event[self.date_stop] = tools.datetime_util.server_to_local_timestamp(event.get(self.date_stop), date_stop_fmt, date_stop_fmt, tz_offset=True, ignore_unparsable_time=False)
+        self.__convert(event, date_start_fmt=date_start_fmt, date_stop_fmt=date_stop_fmt)
 
         caption = ''
         description = []

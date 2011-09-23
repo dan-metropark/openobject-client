@@ -30,11 +30,10 @@ import wid_common
 
 import interface
 from widget.screen import Screen
+from widget.model.group import ModelRecordGroup 
 from pager import pager
 import service
 import tools
-import rpc
-
 
 class dialog(object):
     def __init__(self, model_name, parent, model=None, attrs=None, model_ctx=None,
@@ -178,16 +177,15 @@ class one2many_list(interface.widget_interface):
         # 'default_get' attribute for the same effect (pending removal)
         default_get_ctx = (attrs.get('default_get') or attrs.get('context'))
 
-        fields = rpc.session.rpc_exec_auth('/object', 'execute', model, 'fields_get', False, self.context)
-        res = rpc.session.rpc_exec_auth_try('/object', 'execute', model, 'default_get', fields)
-        self.context = tools.expr_eval("dict(%s)" % attrs.get('context',"{}"), res)
+        self.context = tools.expr_eval(attrs.get('context',"{}"), {"__builtins__":None})
         self.screen = Screen(attrs['relation'],
                             view_type=attrs.get('mode','tree,form').split(','),
                             parent=self.parent, views_preload=attrs.get('views', {}),
                             tree_saves=attrs.get('saves', False),
                             create_new=True,
                             row_activate=self._on_activate,
-                            default_get=default_get_ctx, context= self.context,
+                            default_get=default_get_ctx,
+                            context = self.context,
                             window=self._window, readonly=self._readonly, limit=pager.DEFAULT_LIMIT)
 
         self.screen.type = 'one2many'
@@ -329,10 +327,32 @@ class one2many_list(interface.widget_interface):
         ctx.update(self._view.model.expr_eval('dict(%s)' % self.attrs.get('context', '{}')))
         if self.screen.current_model:
             ok = True
+            parent_modified = self.screen.current_model.parent.modified
+            child_modifield = self.screen.current_model.modified
             edited_model = self.screen.current_model
+            model_value = self.screen.current_model.value.copy()
+            
+            group_model ={}
+            for key, val in model_value.items():
+                if isinstance(val, ModelRecordGroup):
+                    group_model[key] = val.models[:]
+                    del model_value[key]
+                    
             dia = dialog(self.attrs['relation'], parent=self._view.model,  model=self.screen.current_model, attrs=self.attrs, window=self._window, readonly=self._readonly, context=ctx)
             while ok:
                 ok, value, res = dia.run()
+                if not any([ok, value, res]) and dia.screen.is_modified(): 
+                    if child_modifield:
+                        edited_model.set(model_value, modified=True)
+                        for f_name, models in group_model.items():
+                            edited_model.value[f_name].clear()
+                            for model in models:
+                                # add model in ModelRecordGroup
+                                edited_model.value[f_name].model_add(model)
+                    else:
+                        edited_model.cancel()
+                        edited_model.modified = False
+                        self.screen.current_model.parent.modified = parent_modified
                 if res == gtk.RESPONSE_OK:
                     dia.new()
                 if value and value != edited_model:
@@ -340,7 +360,6 @@ class one2many_list(interface.widget_interface):
                     value.signal('record-changed', value.parent)
                     self.screen.display()
             self.pager.reset_pager()
-            edited_model.modified = True
             dia.destroy()
 
     def limit_changed(self,*args):
@@ -371,8 +390,8 @@ class one2many_list(interface.widget_interface):
                 msg = _('Are you sure to remove those records ?')
             if common.sur(msg):
                     model = self.screen.current_model
-                    model.signal('record-changed', model.parent)
                     self.screen.remove()
+                    model.signal('record-changed', model.parent)
                     self.pager.reset_pager()
                     if not self.screen.models.models:
                         self.screen.current_view.widget.set_sensitive(False)
@@ -391,6 +410,9 @@ class one2many_list(interface.widget_interface):
         pass
 
     def display(self, model, model_field):
+        if model:
+            self.context.update(model.expr_eval(self.attrs.get('context',"{}")))
+            self.screen.context.update(self.context)
         self.model = model
         self.model_field = model_field
         if not model_field:

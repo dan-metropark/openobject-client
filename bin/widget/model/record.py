@@ -161,6 +161,8 @@ class ModelRecord(signal_event.signal_event):
     def default_get(self, domain=[], context={}):
         if len(self.mgroup.fields):
             val = self.rpc.default_get(self.mgroup.fields.keys(), context)
+            if self.parent and val:
+                self.modified = True
             for d in domain:
                 if d[0] in self.mgroup.fields and not self.mgroup.fields.get(d[0], {}).get('readonly',False):
                     if d[1] == '=':
@@ -271,7 +273,6 @@ class ModelRecord(signal_event.signal_event):
             return
         c = rpc.session.context.copy()
         c.update(self.context_get())
-        c['bin_size'] = True
         res = self.rpc.read([self.id], fields, c)
         if res:
             value = res[0]
