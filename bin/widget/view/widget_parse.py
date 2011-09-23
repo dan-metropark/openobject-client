@@ -55,19 +55,23 @@ class widget_parse(interface.parser_interface):
             widget = widget_parser(self.window, self.parent, self.attrs, screen)
             wid, child, buttons, on_write = widget.parse(screen.resource, node, fields)
             results = {}
+            duplicated_fields = []
             for field in widget.field_list:
                 results.setdefault(field, 0)
                 results[field] += 1  
-                if results[field] > 1:
-                    view = node.tag.capitalize()
-                    msg = "<b>%s</b> view has duplicate field: <b>%s</b>\n\n Model: <b>%s</b>"
-                    var = (view, field ,screen.resource)
-                    if name:
-                        msg = "<b>%s</b> view has duplicate field: <b>%s</b>\n\n Model: <b>%s</b>\n View: <b>%s</b>"
-                        var = (view, field ,screen.resource, name)
-                    common.message( _(msg) % var,
-                   _('View Error!'), type=gtk.MESSAGE_ERROR, parent=None, msg_to_xml=False)
-                    return
+                if results[field] > 1 and field not in duplicated_fields:
+                    duplicated_fields.append(field) 
+            if duplicated_fields:
+                field_str =  ', '.join(duplicated_fields)
+                view = node.tag.capitalize()
+                msg = "<b>%s</b> view has duplicate field: <b>%s</b>\n\n Model: <b>%s</b>"
+                var = (view, field_str ,screen.resource)
+                if name:
+                    msg = "<b>%s</b> view has duplicate field: <b>%s</b>\n\n Model: <b>%s</b>\n View: <b>%s</b>"
+                    var = (view, field_str ,screen.resource, name)
+                common.message( _(msg) % var,
+               _('View Error!'), type=gtk.MESSAGE_ERROR, parent=None, msg_to_xml=False)
+                return
             if isinstance(wid, calendar_gtk.EmptyCalendar):
                 view_parser = calendar_gtk.DummyViewCalendar
             screen.set_on_write(on_write)

@@ -499,7 +499,7 @@ is displayed on the second tab.
 
     if not isinstance(message, basestring):
         message = str(message)
-    xmlGlade.get_widget('title_error').set_markup("<i>%s</i>" % message)
+    xmlGlade.get_widget('title_error').set_markup("<i>%s</i>" % escape(message))
 
     details_buffer = gtk.TextBuffer()
     details_buffer.set_text(details)
