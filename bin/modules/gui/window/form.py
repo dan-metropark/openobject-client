@@ -302,7 +302,7 @@ class form(object):
         fields = []
         while(self.screen.view_to_load):
             self.screen.load_view_to_load(mode = self.screen.view_to_load[0])
-        screen_fields = copy.deepcopy(self.screen.fields)
+        screen_fields = copy.deepcopy(self.screen.models.fields)
         win = win_import.win_import(self.model, screen_fields, fields, parent=self.window,local_context= self.screen.context)
         res = win.go()
         
@@ -310,7 +310,7 @@ class form(object):
         fields = []
         while(self.screen.view_to_load):
             self.screen.load_view_to_load(mode = self.screen.view_to_load[0])
-        screen_fields = copy.deepcopy(self.screen.fields)
+        screen_fields = copy.deepcopy(self.screen.models.fields)
         win = win_export.win_export(self.model, self.screen.ids_get(), screen_fields, fields, parent=self.window, context=self.context)
         res = win.go()
     
