@@ -230,7 +230,6 @@ class ModelRecordGroup(signal_event.signal_event):
         c = rpc.session.context.copy()
         c.update(self.context)
         c.update(context)
-        c['bin_size'] = True
         values = self.rpc.read(ids, self.fields.keys() + [rpc.CONCURRENCY_CHECK_FIELD], c)
         if not values:
             return False
