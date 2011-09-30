@@ -28,7 +28,7 @@ import rpc
 import service
 import options
 from form_gtk.action import action
-from form_gtk.parser import Button
+from form_gtk.parser import Button 
 from interface import parser_view
 import tools
 
@@ -100,7 +100,7 @@ class ViewForm(parser_view):
                 vbox = gtk.VBox()
                 vbox.pack_start(self.help_frame, expand=False, fill=False, padding=2)
                 vbox.pack_end(self.widget)
-                vbox.show_all()
+#                vbox.show_all()
                 self.widget = vbox
         if submenu:
             expander = gtk.Expander("Submenus")
@@ -275,7 +275,7 @@ class ViewForm(parser_view):
                             win.add_button(gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL)
                             win.add_button(gtk.STOCK_OK, gtk.RESPONSE_OK)
                             win.resize(400,200)
-                            win.show_all()
+#                            win.show_all()
                             res = win.run()
                             if res == gtk.RESPONSE_OK:
                                 to_save = map(lambda x: (x[0],
@@ -358,6 +358,7 @@ class ViewForm(parser_view):
             result = tools.calc_condition(self, model, v)
             if result:
                 if k=='invisible':
+                    print 'hide all',obj.attrs, obj
                     obj.hide_all()
                 if k=='focus':
                     notebook.set_current_page(rank)
@@ -365,12 +366,13 @@ class ViewForm(parser_view):
                     obj.set_sensitive(False)
             else:
                 if k=='invisible':
+                    print 'show alll',obj, obj.attrs
                     obj.show_all()
                 if k=='readonly':
                     obj.set_sensitive(True)
 
-    def set_notebook(self,model,nb,focus_widget=None):
-        for i in range(0,nb.get_n_pages()):
+    def set_notebook(self, model, nb, focus_widget=None):
+        for i in range(0, nb.get_n_pages()):
             page = nb.get_nth_page(i)
             if focus_widget:
                 if focus_widget.widget.widget.is_ancestor(page):
@@ -378,8 +380,14 @@ class ViewForm(parser_view):
                 focus_widget.widget.grab_focus()
             children_notebooks = page.get_children()
             for child in children_notebooks:
-                if isinstance(child,gtk.Notebook):
-                    self.set_notebook(model,child)
+                if isinstance(child, gtk.Frame):
+                    for x in child.get_children():
+                        if isinstance(x, gtk.Table):
+                            for y in x.get_children():
+                                if isinstance(y, gtk.Notebook):
+                                    self.set_notebook(model, y)
+                if isinstance(child, gtk.Notebook):
+                    self.set_notebook(model, child)
             # attrs eval only when call from display not at time of set_cursor call
             if nb.get_tab_label(page).attrs.get('attrs', False) and not focus_widget:
                 self.attrs_set(model, page, nb.get_tab_label(page), nb, i)
@@ -387,19 +395,20 @@ class ViewForm(parser_view):
     def display(self):
         model = self.screen.current_model
         for x in self.widget.get_children():
-            if (type(x)==gtk.Table):
+            if isinstance(x, gtk.Table):
                 for y in x.get_children():
-                    if type(y)==gtk.Notebook:
-                        self.set_notebook(model,y)
-            elif type(x)==gtk.Notebook:
-                self.set_notebook(model,x)
+                    if isinstance(y, gtk.Notebook):
+                        self.set_notebook(model, y)
+            elif isinstance(x, gtk.Notebook):
+                self.set_notebook(model, x)
         if model and ('state' in model.mgroup.fields):
             state = model['state'].get(model)
         else:
             state = 'draft'
         button_focus = field_focus = None
         for widget in self.state_aware_widgets:
-            widget.state_set(state)
+            if not isinstance(widget.widget, gtk.Frame):
+                widget.state_set(state)
             widget.attrs_set(model)
             if widget.widget.attrs.get('focus_button'):
                 button_focus =  widget.widget
