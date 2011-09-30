@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-08-10 04:33+0000\n"
-"X-Generator: Launchpad (build 13636)\n"
+"X-Launchpad-Export-Date: 2011-09-30 04:37+0000\n"
+"X-Generator: Launchpad (build 14071)\n"
 "Language: nl\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -1970,11 +1970,9 @@ msgstr ""
 "Het controle-wachtwoord komt niet overeen met het nieuwe wachtwoord.\r\n"
 "Operatie beëindigd!"
 
-#
-# File: bin/modules/gui/main.py, line: 1116
 #: bin/modules/gui/main.py:1459
 msgid "Validation Error."
-msgstr "Toegangsfout"
+msgstr "Validatiefout"
 
 #: bin/modules/gui/main.py:1476
 msgid "Could not change the Super Admin password."
