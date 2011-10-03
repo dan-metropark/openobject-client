@@ -137,6 +137,7 @@ class Button(Observable):
             self.form.screen.current_view.set_cursor()
 
 
+
 class StateAwareWidget(object):
     def __init__(self, widget, label=None, states=None):
         self.widget = widget
@@ -289,9 +290,7 @@ class _container(object):
         table.set_focus_chain(wid_list)
         if invisible:
             hbox.hide()
-            
 
-        
 class parser_form(widget.view.interface.parser_interface):
     def __init__(self, window, parent=None, attrs=None, screen=None):
            super(parser_form, self).__init__(window, parent=parent, attrs=attrs,
@@ -444,7 +443,6 @@ class parser_form(widget.view.interface.parser_interface):
                 widget, widgets, saws, on_write = self.parse(model, node, fields, notebook)
                 saw_list += saws
                 dict_widget.update(widgets)
-                widget.attrs =  attrs.copy()
                 notebook.append_page(widget, l)
 
             elif node.tag =='field':
