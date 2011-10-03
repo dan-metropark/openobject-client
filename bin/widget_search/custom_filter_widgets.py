@@ -134,7 +134,8 @@ class many2one(wid_int.wid_int):
         elif self.selected_oper_text in ['is Empty', 'is not Empty']:
             text = False
         else:
-            text = self.wid_text.get_text()
+            text = self.wid_text.get_text() 
+            if not text:return []
         return [(self.field_left, self.selected_oper, text)]
 
     def set_visibility(self):
