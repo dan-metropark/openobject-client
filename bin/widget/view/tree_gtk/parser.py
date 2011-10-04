@@ -354,6 +354,17 @@ class Int(Char):
             converted_val = str(converted_val) +  ' (' + str(count) + ')'
         return converted_val
 
+class Reference(Char):
+
+    def get_textual_value(self, model):
+        value = model.value.get(self.field_name, 0)
+        if isinstance(value, tuple):
+            value = value[1][1]
+        else:
+            value = ""
+        return value
+        
+
 class Boolean(Int):
 
     def __init__(self, *args):
@@ -748,6 +759,7 @@ CELLTYPES = {
     'boolean': Boolean,
     'progressbar': ProgressBar,
     'button': CellRendererButton,
+    'reference': Reference
 }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
