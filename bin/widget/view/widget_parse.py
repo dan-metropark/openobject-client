@@ -64,14 +64,13 @@ class widget_parse(interface.parser_interface):
             if duplicated_fields:
                 field_str =  ', '.join(duplicated_fields)
                 view = node.tag.capitalize()
-                msg = "<b>%s</b> view has duplicate field: <b>%s</b>\n\n Model: <b>%s</b>"
+                msg = " <b>%s</b> view has duplicate field: <b>%s</b>\n Model: <b>%s</b> \n The duplicated fields will be simply ignored !"
                 var = (view, field_str ,screen.resource)
                 if name:
-                    msg = "<b>%s</b> view has duplicate field: <b>%s</b>\n\n Model: <b>%s</b>\n View: <b>%s</b>"
+                    msg = " <b>%s</b> view has duplicate field: <b>%s</b>\n Model: <b>%s</b>\n View: <b>%s</b>\n The duplicated fields will be simply ignored !"
                     var = (view, field_str ,screen.resource, name)
                 common.message( _(msg) % var,
                _('View Error!'), type=gtk.MESSAGE_ERROR, parent=None, msg_to_xml=False)
-                return
             if isinstance(wid, calendar_gtk.EmptyCalendar):
                 view_parser = calendar_gtk.DummyViewCalendar
             screen.set_on_write(on_write)
