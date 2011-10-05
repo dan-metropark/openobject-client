@@ -377,13 +377,18 @@ class ViewForm(parser_view):
                     nb.set_current_page(i)
                 focus_widget.widget.grab_focus()
             children_notebooks = page.get_children()
+            def check_frame_children(frame):
+                for x in frame.get_children():
+                    if isinstance(x, gtk.Table):
+                        for y in x.get_children():
+                            if isinstance(y, gtk.Frame):
+                                check_frame_children(y)
+                            if isinstance(y, gtk.Notebook):
+                                self.set_notebook(model, y) 
+                                
             for child in children_notebooks:
                 if isinstance(child, gtk.Frame):
-                    for x in child.get_children():
-                        if isinstance(x, gtk.Table):
-                            for y in x.get_children():
-                                if isinstance(y, gtk.Notebook):
-                                    self.set_notebook(model, y)
+                    check_frame_children(child)
                 if isinstance(child, gtk.Notebook):
                     self.set_notebook(model, child)
             # attrs eval only when call from display not at time of set_cursor call
