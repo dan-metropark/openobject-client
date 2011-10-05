@@ -137,10 +137,9 @@ class parser_tree(interface.parser_interface):
             if node.tag == 'field':
                 handler_id = False
                 fname = str(node_attrs['name'])
-                if fname not in self.field_list:
-                    self.field_list.append(fname)
-                else:
-                    self.field_list.append(fname)
+                self.field_list.setdefault(fname, 0)
+                self.field_list[fname] += 1  
+                if self.field_list[fname] > 1 :
                     continue
                 if fields[fname]['type'] in ('image', 'binary'):
                     continue    # not showed types

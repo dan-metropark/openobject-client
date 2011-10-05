@@ -32,7 +32,7 @@ class parser_interface(object):
         self.title = None
         self.buttons = {}
         self.screen = screen
-        self.field_list = []
+        self.field_list = {}
 
 class parser_view(object):
     def __init__(self, window, screen, widget, children=None, state_aware_widgets=None, toolbar=None, submenu=None):

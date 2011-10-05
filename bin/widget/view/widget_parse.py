@@ -54,21 +54,17 @@ class widget_parse(interface.parser_interface):
             # Select the parser for the view (form, tree, graph, calendar or gantt)
             widget = widget_parser(self.window, self.parent, self.attrs, screen)
             wid, child, buttons, on_write = widget.parse(screen.resource, node, fields)
-            results = {}
             duplicated_fields = []
-            for field in widget.field_list:
-                results.setdefault(field, 0)
-                results[field] += 1  
-                if results[field] > 1 and field not in duplicated_fields:
-                    duplicated_fields.append(field) 
+            [( field, count) for field, count in widget.field_list.items() if count>1 and duplicated_fields.append(field)]
             if duplicated_fields:
                 field_str =  ', '.join(duplicated_fields)
                 view = node.tag.capitalize()
-                msg = " <b>%s</b> view has duplicate field: <b>%s</b>\n Model: <b>%s</b> \n The duplicated fields will be simply ignored !"
-                var = (view, field_str ,screen.resource)
-                if name:
-                    msg = " <b>%s</b> view has duplicate field: <b>%s</b>\n Model: <b>%s</b>\n View: <b>%s</b>\n The duplicated fields will be simply ignored !"
-                    var = (view, field_str ,screen.resource, name)
+                view_str = "\n View:"
+                if not name:
+                    name = ''
+                    view_str = ''
+                msg = " <b>%s</b> view has duplicate field: <b>%s</b>\n Model: <b>%s</b> %s <b>%s</b>\n The duplicated fields will be simply ignored !"
+                var = (view, field_str, screen.resource, view_str, name)
                 common.message( _(msg) % var,
                _('View Error!'), type=gtk.MESSAGE_ERROR, parent=None, msg_to_xml=False)
             if isinstance(wid, calendar_gtk.EmptyCalendar):
