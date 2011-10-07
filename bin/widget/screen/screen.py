@@ -584,16 +584,16 @@ class Screen(signal_event.signal_event):
             return self.add_view(self.views_preload[view_type]['arch'],
                     self.views_preload[view_type]['fields'], display,
                     toolbar=self.views_preload[view_type].get('toolbar', False),
-                    submenu=self.views_preload[view_type].get('submenu', False), help=help,
+                    submenu=self.views_preload[view_type].get('submenu', False), name=self.views_preload[view_type].get('name', False), help=help,
                     context=context)
         else:
             view = self.rpc.fields_view_get(view_id, view_type, self.context,
                         self.hastoolbar, self.hassubmenu)
             context.update({'view_type' : view_type})
             return self.add_view(view['arch'], view['fields'], display, help=help,
-                    toolbar=view.get('toolbar', False), submenu=view.get('submenu', False), context=context)
+                    toolbar=view.get('toolbar', False), submenu=view.get('submenu', False), name=view.get('name',False), context=context)
 
-    def add_view(self, arch, fields, display=False, custom=False, toolbar=None, submenu=None, help={},
+    def add_view(self, arch, fields, display=False, custom=False, toolbar=None, submenu=None, name=False, help={},
             context=None):
         if toolbar is None:
             toolbar = {}
@@ -637,7 +637,7 @@ class Screen(signal_event.signal_event):
         self.fields = self.models.fields
 
         parser = widget_parse(parent=self.parent, window=self.window)
-        view = parser.parse(self, root_node, self.fields, toolbar=toolbar, submenu=submenu, help=help)
+        view = parser.parse(self, root_node, self.fields, toolbar=toolbar, submenu=submenu, name=name, help=help)
         if view:
             self.views.append(view)
 

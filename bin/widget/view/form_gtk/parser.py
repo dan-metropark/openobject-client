@@ -447,6 +447,10 @@ class parser_form(widget.view.interface.parser_interface):
 
             elif node.tag =='field':
                 name = str(attrs['name'])
+                self.field_list.setdefault(name, 0)
+                self.field_list[name] += 1  
+                if self.field_list[name] > 1 :
+                    continue
                 del attrs['name']
                 name = unicode(name)
                 type = fields[name]['type']
