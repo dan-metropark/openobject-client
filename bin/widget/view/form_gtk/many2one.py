@@ -216,15 +216,17 @@ class many2one(interface.widget_interface):
             self.display(self._view.model, self._view.modelfield)
             self.ok = True
         else:
+            self.wid_text.disconnect(self.wid_text_focus_out_id)
             win = win_search(self.attrs['relation'], sel_multi=False,
                     ids=map(lambda x: x[0], ids), context=context,
-                    domain=domain, window=self._window)
+                    domain=domain, parent=self._window)
             ids = win.go()
             if ids:
                 name = rpc.session.rpc_exec_auth('/object', 'execute',
                         self.attrs['relation'], 'name_get', [ids[0]],
                         rpc.session.context)[0]
                 self._view.modelfield.set_client(self._view.model, name)
+            self.wid_text_focus_out_id = self.wid_text.connect_after('focus-out-event', self.sig_focus_out, True)
         return True
 
     def _readonly_set(self, value):
