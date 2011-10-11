@@ -409,8 +409,8 @@ class ViewForm(parser_view):
         else:
             state = 'draft'
         button_focus = field_focus = None
-        for widget in self.state_aware_widgets:
-            if not isinstance(widget.widget, gtk.Frame) or state:
+        for widget in self.state_aware_widgets :
+            if not isinstance(widget.widget, gtk.Frame) or widget.widget.attrs.get('states'):
                 widget.state_set(state)
             widget.attrs_set(model)
             if widget.widget.attrs.get('focus_button'):
