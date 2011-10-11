@@ -131,7 +131,7 @@ class Button(Observable):
                 else:
                     msg += req
                 msg += '\n'
-            common.warning(_('Correct following red fields !\n\n%s')  % ( msg ),_('Input Error !'), parent=self.form.screen.current_view.window, to_xml=False)
+            common.warning(_('Correct following red fields !\n\n%s')  % ( msg ),_('Input Error !'), parent=self.form.screen.current_view.window)
             self.warn('misc-message', _('Invalid form, correct red fields !'), "red")
             self.form.screen.display()
             self.form.screen.current_view.set_cursor()
