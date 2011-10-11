@@ -75,7 +75,7 @@ def import_csv(csv_data, f, model, fields, context=None, parent=None):
 class win_import(object):
     def __init__(self, model, fields, preload = [], parent=None, local_context=None):
         self.ui = openerp_gtk_builder('openerp.ui', ['win_import', 'liststore6', 'adjustment1'])
-        self.ui.get_object('import_csv_combo').set_active(0)
+        self.ui.get_object('import_csv_combo')
         self.win = self.ui.get_object('win_import')
         self.model = model
         self.fields_data = {}

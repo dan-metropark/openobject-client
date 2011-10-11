@@ -160,7 +160,7 @@ class win_export(object):
         self.view1.show_all()
         self.view2.show_all()
 
-        hbox = self.glade.get_widget('hbox55')
+        hbox = self.ui.get_object('hbox55')
         self.wid_action = gtk.combo_box_new_text()
         self.wid_action.append_text(_('Open in Excel'))
         self.wid_action.append_text(_('Save as CSV'))
