@@ -160,15 +160,6 @@ class win_export(object):
         self.view1.show_all()
         self.view2.show_all()
 
-        hbox = self.ui.get_object('hbox55')
-        self.wid_action = gtk.combo_box_new_text()
-        self.wid_action.append_text(_('Open in Excel'))
-        self.wid_action.append_text(_('Save as CSV'))
-        hbox.pack_start(self.wid_action)
-        hbox.reorder_child(self.wid_action, 0)
-        hbox.show_all()
-        action = self.wid_action.set_active(os.name != 'nt')
-
         self.wid_action = self.ui.get_object('win_saveas_combo')
         self.wid_write_field_names = self.ui.get_object('add_field_names_cb')
         action = self.wid_action.set_active(os.name!='nt')
