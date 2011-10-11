@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-28 15:22+0530\n"
-"PO-Revision-Date: 2011-07-25 15:48+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2011-10-10 19:20+0000\n"
+"Last-Translator: Aare Vesi <Unknown>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-09-30 04:37+0000\n"
-"X-Generator: Launchpad (build 14071)\n"
+"X-Launchpad-Export-Date: 2011-10-11 05:29+0000\n"
+"X-Generator: Launchpad (build 14123)\n"
 "Language: et\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -238,19 +238,19 @@ msgstr ""
 
 #: bin/widget/view/screen_container.py:74
 msgid "Manage Filters"
-msgstr ""
+msgstr "Halda filtreid"
 
 #: bin/widget/view/screen_container.py:89
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:89
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:89
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:89
 msgid "Unlimited"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/image.py:127
 msgid "Warning"
-msgstr ""
+msgstr "Hoiatus"
 
 #
 # File: bin/modules/gui/main.py, line: 1120
@@ -341,12 +341,12 @@ msgstr ""
 #: bin/widget/view/form_gtk/many2many.py:84
 #: bin/widget/view/form_gtk/one2many_list.py:210
 msgid "Previous Page"
-msgstr ""
+msgstr "Eelmine lehekülg"
 
 #: bin/widget/view/form_gtk/many2many.py:88
 #: bin/widget/view/form_gtk/one2many_list.py:214
 msgid "Previous Record"
-msgstr ""
+msgstr "Eelmine kirje"
 
 #: bin/widget/view/form_gtk/many2many.py:96
 #: bin/widget/view/form_gtk/one2many_list.py:222
@@ -356,7 +356,7 @@ msgstr ""
 #: bin/widget/view/form_gtk/many2many.py:100
 #: bin/widget/view/form_gtk/one2many_list.py:226
 msgid "Next Page"
-msgstr ""
+msgstr "Järgmine lehekülg"
 
 #: bin/widget/view/form_gtk/many2many.py:106
 #: bin/widget/view/form_gtk/one2many_list.py:238
@@ -421,7 +421,7 @@ msgstr "OpenERP"
 
 #: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
-msgstr ""
+msgstr "Tühista"
 
 #: bin/widget/view/form_gtk/one2many_list.py:70
 msgid "Save & Close"
@@ -514,11 +514,11 @@ msgstr "Viga !"
 
 #: bin/widget/view/form_gtk/parser.py:308
 msgid "Field"
-msgstr ""
+msgstr "Väli"
 
 #: bin/widget/view/form_gtk/parser.py:308
 msgid "Object"
-msgstr ""
+msgstr "Objekt"
 
 #: bin/widget/view/form_gtk/parser.py:619
 msgid "Enter some text to the related field before adding translations!"
@@ -788,7 +788,7 @@ msgstr ""
 
 #: bin/common/common.py:100
 msgid "Disable all tips"
-msgstr ""
+msgstr "Keela kõik vihjed"
 
 #: bin/common/common.py:101
 msgid ""
@@ -800,7 +800,7 @@ msgstr ""
 
 #: bin/common/common.py:115 bin/common/common.py:117
 msgid "Tips"
-msgstr ""
+msgstr "Vihjed"
 
 #: bin/common/common.py:168
 msgid "OpenERP Computing"
@@ -973,7 +973,7 @@ msgstr ""
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "Trüki aruanne"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
@@ -989,7 +989,7 @@ msgstr "Vormi sisu või if erand pole tõene"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
-msgstr ""
+msgstr "Viga: "
 
 #: bin/widget_search/custom_filter_widgets.py:36
 #: bin/widget_search/custom_filter_widgets.py:63
@@ -1015,7 +1015,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:257
 #: bin/widget_search/custom_filter_widgets.py:273
 msgid "is not"
-msgstr ""
+msgstr "ei ole"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -1053,17 +1053,17 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:67
 #: bin/widget_search/custom_filter_widgets.py:98
 msgid "contains"
-msgstr ""
+msgstr "sisaldab"
 
 #: bin/widget_search/custom_filter_widgets.py:41
 #: bin/widget_search/custom_filter_widgets.py:68
 #: bin/widget_search/custom_filter_widgets.py:98
 msgid "doesn't contain"
-msgstr ""
+msgstr "ei sisalda"
 
 #: bin/widget_search/custom_filter_widgets.py:167
 msgid "Equals"
-msgstr ""
+msgstr "On võrdne"
 
 #: bin/widget_search/custom_filter_widgets.py:182
 #: bin/widget_search/custom_filter_widgets.py:196
@@ -1076,7 +1076,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:350
 #: bin/widget_search/custom_filter_widgets.py:362
 msgid "between"
-msgstr ""
+msgstr "vahemikus"
 
 #: bin/widget_search/custom_filter_widgets.py:185
 #: bin/widget_search/custom_filter_widgets.py:199
@@ -1094,22 +1094,22 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:290
 #: bin/widget_search/custom_filter_widgets.py:331
 msgid "is equal to"
-msgstr ""
+msgstr "võrdub"
 
 #: bin/widget_search/custom_filter_widgets.py:291
 #: bin/widget_search/custom_filter_widgets.py:332
 msgid "is not equal to"
-msgstr ""
+msgstr "ei võrdu"
 
 #: bin/widget_search/custom_filter_widgets.py:292
 #: bin/widget_search/custom_filter_widgets.py:333
 msgid "greater than"
-msgstr ""
+msgstr "suurem kui"
 
 #: bin/widget_search/custom_filter_widgets.py:293
 #: bin/widget_search/custom_filter_widgets.py:334
 msgid "less than"
-msgstr ""
+msgstr "väiksem kui"
 
 #: bin/widget_search/custom_filter_widgets.py:294
 #: bin/widget_search/custom_filter_widgets.py:335
@@ -1141,11 +1141,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "JA"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "VÕI"
 
 #
 # File: bin/widget_search/checkbox.py, line: 36
@@ -1251,11 +1251,11 @@ msgstr "Vali toiming"
 
 #: bin/modules/gui/window/win_extension.py:43
 msgid "Extension"
-msgstr ""
+msgstr "Laiendus"
 
 #: bin/modules/gui/window/win_extension.py:43
 msgid "Application"
-msgstr ""
+msgstr "Rakendus"
 
 #: bin/modules/gui/window/win_extension.py:43
 msgid "Print Processor"
@@ -1372,7 +1372,7 @@ msgstr "Dokument salvestatud."
 
 #: bin/modules/gui/window/form.py:368
 msgid "Warning !"
-msgstr ""
+msgstr "Hoiatus!"
 
 #: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
 msgid ""
@@ -1532,7 +1532,7 @@ msgstr "Nimed"
 
 #: bin/modules/gui/window/win_preference.py:68
 msgid "Preferences"
-msgstr ""
+msgstr "Eelistused"
 
 #: bin/modules/gui/window/win_preference.py:86
 msgid ""
@@ -1653,11 +1653,11 @@ msgstr "Välja Nimi:"
 
 #: bin/modules/gui/window/win_export.py:166
 msgid "Open in Excel"
-msgstr ""
+msgstr "Ava Excelis"
 
 #: bin/modules/gui/window/win_export.py:167
 msgid "Save as CSV"
-msgstr ""
+msgstr "Salvesta kui CSV"
 
 #: bin/modules/gui/window/win_export.py:317
 msgid "What is the name of this export ?"
@@ -1748,7 +1748,7 @@ msgstr "Migreeri andmebaas"
 
 #: bin/modules/gui/main.py:280
 msgid "Database"
-msgstr ""
+msgstr "Andmebaas"
 
 #: bin/modules/gui/main.py:292
 msgid "Your database has been upgraded."
@@ -1864,7 +1864,7 @@ msgstr "Vajuta Ctrl+O, et sisse logida"
 #: bin/modules/gui/main.py:974
 #, python-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: bin/modules/gui/main.py:976
 msgid "No Company"
@@ -1922,7 +1922,7 @@ msgstr ""
 #: bin/modules/gui/main.py:1050
 #, python-format
 msgid "OpenERP - %s"
-msgstr ""
+msgstr "OpenERP - %s"
 
 #
 # File: bin/modules/gui/main.py, line: 761
@@ -2642,7 +2642,7 @@ msgstr "Kalender"
 
 #: bin/openerp.glade:1359
 msgid "Diagram"
-msgstr ""
+msgstr "Diagramm"
 
 #
 # File: bin/openerp.glade, line: 1313
