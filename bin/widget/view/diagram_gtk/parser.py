@@ -22,9 +22,9 @@
 from widget.view import interface
 from tools import node_attributes
 import gtk
-import gtk.glade
 import gettext
 import common
+from common import openerp_gtk_builder
 import rpc
 import xdot
 import pydot
@@ -34,8 +34,8 @@ def quote_string(s):
 
 class Viewdiagram(object):
     def __init__(self,window, model, node_attr, arrow_attr, attrs, screen):
-        self.glade = gtk.glade.XML(common.terp_path("openerp.glade"),'widget_view_diagram', gettext.textdomain())
-        self.widget = self.glade.get_widget('widget_view_diagram')
+        self.ui = openerp_gtk_builder('openerp.ui', ['widget_view_diagram'])
+        self.widget = self.ui.get_object('widget_view_diagram')
         self.model = model
         self.screen = screen
         self.node = node_attr

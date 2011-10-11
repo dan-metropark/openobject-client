@@ -20,7 +20,6 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 import gobject
 from cgi import escape
 import tools
@@ -225,6 +224,18 @@ except gobject.GError, e:
     log.fatal(_('Ensure that the file %s is correct') % options.rcfile)
     exit(1)
 
+def openerp_gtk_builder(openerp_file, objects):
+    ui = gtk.Builder()
+    ui.set_translation_domain(gettext.textdomain())
+    ui.add_objects_from_file(terp_path(openerp_file), objects)
+    return ui
+
+def gtk_signal_decorator(f, *signal_args):
+    def sig_call_child(w, *a):
+        all_args = signal_args + a
+        return f(w, *all_args)
+    return sig_call_child
+
 def selection(title, values, alwaysask=False, parent=None):
     if not values or len(values)==0:
         return None
@@ -232,18 +243,18 @@ def selection(title, values, alwaysask=False, parent=None):
         key = values.keys()[0]
         return (key, values[key])
 
-    xml = glade.XML(terp_path("openerp.glade"), "win_selection", gettext.textdomain())
-    win = xml.get_widget('win_selection')
+    ui = openerp_gtk_builder('openerp.ui', ['win_selection'])
+    win = ui.get_object('win_selection')
     if not parent:
         parent = service.LocalService('gui.main').window
     win.set_icon(OPENERP_ICON)
     win.set_transient_for(parent)
 
-    label = xml.get_widget('win_sel_title')
+    label = ui.get_object('win_sel_title')
     if title:
         label.set_text(title)
 
-    list = xml.get_widget('win_sel_tree')
+    list = ui.get_object('win_sel_tree')
     list.get_selection().set_mode('single')
     cell = gtk.CellRendererText()
     column = gtk.TreeViewColumn("Widget", cell, text=0)
@@ -372,28 +383,28 @@ def support(*args):
     support_id = options['support.support_id']
     recipient = options['support.recipient']
 
-    sur = glade.XML(terp_path("openerp.glade"), "dia_support",gettext.textdomain())
-    win = sur.get_widget('dia_support')
+    ui = openerp_gtk_builder('openerp.ui', ['dia_support', 'liststore7'])
+    win = ui.get_object('dia_support')
     parent = service.LocalService('gui.main').window
     win.set_transient_for(parent)
     win.set_icon(OPENERP_ICON)
     win.show_all()
-    sur.get_widget('id_entry1').set_text(support_id)
+    ui.get_object('id_entry1').set_text(support_id)
 
     response = win.run()
     if response == gtk.RESPONSE_OK:
-        fromaddr = sur.get_widget('email_entry1').get_text()
-        id_contract = sur.get_widget('id_entry1').get_text()
-        name =  sur.get_widget('name_entry1').get_text()
-        phone =  sur.get_widget('phone_entry1').get_text()
-        company =  sur.get_widget('company_entry1').get_text()
+        fromaddr = ui.get_object('email_entry1').get_text()
+        id_contract = ui.get_object('id_entry1').get_text()
+        name = ui.get_object('name_entry1').get_text()
+        phone = ui.get_object('phone_entry1').get_text()
+        company = ui.get_object('company_entry1').get_text()
 
-        urgency = sur.get_widget('urgency_combo1').get_active_text()
+        urgency = ui.get_object('urgency_combo1').get_active_text()
 
-        buffer = sur.get_widget('explanation_textview1').get_buffer()
+        buffer = ui.get_object('explanation_textview1').get_buffer()
         explanation = buffer.get_text(buffer.get_start_iter(), buffer.get_end_iter())
 
-        buffer = sur.get_widget('remark_textview').get_buffer()
+        buffer = ui.get_object('remark_textview').get_buffer()
         remarks = buffer.get_text(buffer.get_start_iter(), buffer.get_end_iter())
 
         content = name +"(%s, %s, %s)"%(id_contract, company, phone) + _(" has reported the following bug:\n") + explanation + "\n" + _("remarks") + ":\n" + remarks
@@ -489,8 +500,8 @@ You can use the link bellow for more information. The detail of the error
 is displayed on the second tab.
 """)
 
-    xmlGlade = glade.XML(terp_path('win_error.glade'), 'dialog_error', gettext.textdomain())
-    win = xmlGlade.get_widget('dialog_error')
+    ui = openerp_gtk_builder('win_error.ui', ['dialog_error'])
+    win = ui.get_object('dialog_error')
     if not parent:
         parent=service.LocalService('gui.main').window
     win.set_transient_for(parent)
@@ -499,15 +510,15 @@ is displayed on the second tab.
 
     if not isinstance(message, basestring):
         message = str(message)
-    xmlGlade.get_widget('title_error').set_markup("<i>%s</i>" % escape(message))
+    ui.get_object('title_error').set_markup("<i>%s</i>" % escape(message))
 
     details_buffer = gtk.TextBuffer()
     details_buffer.set_text(details)
-    xmlGlade.get_widget('details_explanation').set_buffer(details_buffer)
+    ui.get_object('details_explanation').set_buffer(details_buffer)
     if show_message:
-        xmlGlade.get_widget('maintenance_explanation').set_markup(maintenance_contract_message)
+        ui.get_object('maintenance_explanation').set_markup(maintenance_contract_message)
 
-    xmlGlade.get_widget('notebook').remove_page(int(show_message))
+    ui.get_object('notebook').remove_page(int(show_message))
     if not show_message:
         def send(widget):
             def get_text_from_text_view(textView):
@@ -516,10 +527,10 @@ is displayed on the second tab.
                 return buffer.get_text(buffer.get_start_iter(), buffer.get_end_iter())
 
             # Use details_buffer
-            tb = get_text_from_text_view(xmlGlade.get_widget('details_explanation'))
-            explanation = get_text_from_text_view(xmlGlade.get_widget('explanation_textview'))
-            remarks = get_text_from_text_view(xmlGlade.get_widget('remarks_textview'))
-            summary = xmlGlade.get_widget('summary_entry').get_text()
+            tb = get_text_from_text_view(ui.get_object('details_explanation'))
+            explanation = get_text_from_text_view(ui.get_object('explanation_textview'))
+            remarks = get_text_from_text_view(ui.get_object('remarks_textview'))
+            summary = ui.get_object('summary_entry').get_text()
 
             if rpc.session.rpc_exec_auth_try('/object', 'execute', 'maintenance.contract', 'send', tb, explanation, remarks, summary):
                 common.message(_('Your problem has been sent to the quality team !\nWe will recontact you after analysing the problem.'), parent=win)
@@ -527,8 +538,10 @@ is displayed on the second tab.
             else:
                 common.message(_('Your problem could *NOT* be sent to the quality team !\nPlease report this error manually at:\n\t%s') % ('http://openerp.com/report_bug.html',), title=_('Error'), type=gtk.MESSAGE_ERROR, parent=win)
 
-        xmlGlade.signal_connect('on_button_send_clicked', send)
-        xmlGlade.signal_connect('on_closebutton_clicked', lambda x : win.destroy())
+        ui.connect_signals({
+            'on_button_send_clicked': send,
+            'on_closebutton_clicked': lambda x : win.destroy()
+        })
     response = win.run()
     parent.present()
     win.destroy()
@@ -556,12 +569,12 @@ def to_xml(s):
     return escape(s)
 
 def message_box(title, msg, parent=None):
-    dia = glade.XML(terp_path("openerp.glade"), "dia_message_box",gettext.textdomain())
-    win = dia.get_widget('dia_message_box')
-    l = dia.get_widget('msg_title')
+    ui = openerp_gtk_builder('openerp.ui', ['dia_message_box'])
+    win = ui_get_object('dia_message_box')
+    l = ui.get_object('msg_title')
     l.set_text(title)
 
-    msg_area = dia.get_widget('msg_tv')
+    msg_area = ui.get_object('msg_tv')
     buffer = msg_area.get_buffer()
     iter_start = buffer.get_start_iter()
     buffer.insert(iter_start, msg)
@@ -584,11 +597,11 @@ def warning(msg, title=None, parent=None, to_xml=True):
 def sur(msg, parent=None):
     if not parent:
         parent=service.LocalService('gui.main').window
-    sur = glade.XML(terp_path("openerp.glade"), "win_sur",gettext.textdomain())
-    win = sur.get_widget('win_sur')
+    ui = openerp_gtk_builder('openerp.ui', ['win_sur'])
+    win = ui.get_object('win_sur')
     win.set_transient_for(parent)
     win.show_all()
-    l = sur.get_widget('lab_question')
+    l = ui.get_object('lab_question')
     l.set_text(msg)
 
     if not parent:
@@ -602,9 +615,9 @@ def sur(msg, parent=None):
     return response == gtk.RESPONSE_OK
 
 def sur_3b(msg, parent=None):
-    sur = glade.XML(terp_path("openerp.glade"), "win_quest_3b",gettext.textdomain())
-    win = sur.get_widget('win_quest_3b')
-    l = sur.get_widget('label')
+    ui = openerp_gtk_builder('openerp.ui', ['win_quest_3b'])
+    win = ui.get_object('win_quest_3b')
+    l = ui.get_object('label')
     l.set_text(msg)
 
     if not parent:
@@ -625,11 +638,11 @@ def sur_3b(msg, parent=None):
         return 'cancel'
 
 def ask(question, parent=None):
-    dia = glade.XML(terp_path('openerp.glade'), 'win_quest', gettext.textdomain())
-    win = dia.get_widget('win_quest')
-    label = dia.get_widget('label1')
+    ui = openerp_gtk_builder('openerp.ui', ['win_quest'])
+    win = ui.get_object('win_quest')
+    label = ui.get_object('label1')
     label.set_text(question)
-    entry = dia.get_widget('entry')
+    entry = ui.get_object('entry')
 
     if not parent:
         parent=service.LocalService('gui.main').window
@@ -648,8 +661,8 @@ def ask(question, parent=None):
         return value
 
 def concurrency(resource, id, context, parent=None):
-    dia = glade.XML(common.terp_path("openerp.glade"),'dialog_concurrency_exception',gettext.textdomain())
-    win = dia.get_widget('dialog_concurrency_exception')
+    ui = openerp_gtk_builder('openerp.ui', ['dialog_concurrency_exception'])
+    win = ui.get_object('dialog_concurrency_exception')
 
     if not parent:
         parent=service.LocalService('gui.main').window

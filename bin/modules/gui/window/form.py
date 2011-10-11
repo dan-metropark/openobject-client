@@ -24,7 +24,6 @@ import gettext
 
 import gtk
 import gobject
-from gtk import glade
 
 import rpc
 import win_selection
@@ -36,6 +35,7 @@ import win_list
 from gtk.gdk import Color
 
 import common
+from common import openerp_gtk_builder
 import service
 import options
 import copy
@@ -62,8 +62,8 @@ class form(object):
         self.model = model
         self.window = window
         self.previous_action = None
-        self.glade = glade.XML(common.terp_path("openerp.glade"),'win_form_container',gettext.textdomain())
-        self.widget = self.glade.get_widget('win_form_container')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_form_container'])
+        self.widget = self.ui.get_object('win_form_container')
         self.widget.show_all()
         self.fields = fields
         self.domain = domain
@@ -198,9 +198,9 @@ class form(object):
         if not self.modified_save():
             return
 
-        glade2 = glade.XML(common.terp_path("openerp.glade"),'dia_goto_id',gettext.textdomain())
-        widget = glade2.get_widget('goto_spinbutton')
-        win = glade2.get_widget('dia_goto_id')
+        goto_ui = openerp_gtk_builder('openerp.ui', ['dia_goto_id', 'adjustment2'])
+        widget = goto_ui.get_object('goto_spinbutton')
+        win = goto_ui.get_object('dia_goto_id')
         widget.connect('key_press_event',self.get_event,win)
 
         win.set_transient_for(self.window)
@@ -466,7 +466,7 @@ class form(object):
             self.screen.load(res)
 
     def message_state(self, message, context='message', color=None):
-        sb = self.glade.get_widget('stat_state')
+        sb = self.ui.get_object('stat_state')
         if color is not None:
             message = '<span foreground="%s">%s</span>' % (color, message)
         sb.set_label(message)
@@ -485,7 +485,7 @@ class form(object):
             tot_count = signal_data[2] < signal_data[1] and  str(signal_data[1]) or str(signal_data[2])
             msg = _('Record: ') + name + ' / ' + str(signal_data[1]) + \
                     _(' of ') + str(tot_count) + ' - ' + name2
-        sb = self.glade.get_widget('stat_form')
+        sb = self.ui.get_object('stat_form')
         cid = sb.get_context_id('message')
         sb.push(cid, msg)
 

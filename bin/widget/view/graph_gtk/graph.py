@@ -21,7 +21,6 @@
 
 
 import gtk
-from gtk import glade
 
 import copy
 import time

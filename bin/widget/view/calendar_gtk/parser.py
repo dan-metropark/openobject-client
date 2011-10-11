@@ -22,9 +22,9 @@
 from widget.view import interface
 from tools import ustr, node_attributes
 import gtk
-import gtk.glade
 import gettext
 import common
+from common import openerp_gtk_builder, gtk_signal_decorator
 import gobject
 from mx import DateTime
 from datetime import datetime, date
@@ -97,15 +97,15 @@ class ViewCalendar(object):
     TV_COL_TOGGLE = 3
 
     def __init__(self, model, axis, fields, attrs):
-        self.glade = gtk.glade.XML(common.terp_path("openerp.glade"),'widget_view_calendar', gettext.textdomain())
-        self.widget = self.glade.get_widget('widget_view_calendar')
+        self.ui = openerp_gtk_builder('openerp.ui', ['widget_view_calendar'])
+        self.widget = self.ui.get_object('widget_view_calendar')
 
-        self._label_current = self.glade.get_widget('label_current')
-        self._radio_month = self.glade.get_widget('radio_month')
-        self._radio_week = self.glade.get_widget('radio_week')
-        self._radio_day = self.glade.get_widget('radio_day')
-        self._small_calendar = self.glade.get_widget('calendar_small')
-        self._calendar_treeview = self.glade.get_widget('calendar_treeview')
+        self._label_current = self.ui.get_object('label_current')
+        self._radio_month = self.ui.get_object('radio_month')
+        self._radio_week = self.ui.get_object('radio_week')
+        self._radio_day = self.ui.get_object('radio_day')
+        self._small_calendar = self.ui.get_object('calendar_small')
+        self._calendar_treeview = self.ui.get_object('calendar_treeview')
 
         mode = attrs.get('mode','month')
         self.log = logging.getLogger('calender')
@@ -128,19 +128,20 @@ class ViewCalendar(object):
         self.cal_view.connect('do_month_back_forward', self._back_forward)
         self.cal_view.connect('day-selected', self._change_small)
 
-        vbox = self.glade.get_widget('cal_vbox')
+        vbox = self.ui.get_object('cal_vbox')
         vbox.pack_start(self.cal_view)
         vbox.show_all()
 
         self.process = False
-        self.glade.signal_connect('on_but_forward_clicked', self._back_forward, 1)
-        self.glade.signal_connect('on_but_back_clicked', self._back_forward, -1)
-        self.glade.signal_connect('on_but_today_clicked', self._today)
-        self.glade.signal_connect('on_calendar_small_day_selected_double_click', self._change_small, False,False)
-        self.glade.signal_connect('on_button_day_clicked', self._change_view, 'day')
-        self.glade.signal_connect('on_button_week_clicked', self._change_view, 'week')
-        self.glade.signal_connect('on_button_month_clicked', self._change_view, 'month')
-
+        self.ui.connect_signals({
+            'on_but_forward_clicked': gtk_signal_decorator(self._back_forward, 1),
+            'on_but_back_clicked': gtk_signal_decorator(self._back_forward, -1),
+            'on_but_today_clicked': self._today,
+            'on_calendar_small_day_selected_double_click': gtk_signal_decorator(self._change_small, False, False),
+            'on_button_day_clicked': gtk_signal_decorator(self._change_view, 'day'),
+            'on_button_week_clicked': gtk_signal_decorator(self._change_view, 'week'),
+            'on_button_month_clicked': gtk_signal_decorator(self._change_view, 'month'),
+        })
         self.date = datetime.today()
         self.string = attrs.get('string', '')
         self.date_start = attrs.get('date_start')
