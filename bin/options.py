@@ -112,6 +112,7 @@ class configmanager(object):
             'client.form_tab_orientation': 0,
             'client.lang': False,
             'client.filetype': {},
+            'extensions.filetype':'{}',
             'help.index': 'http://doc.openerp.com/',
             'help.context': 'http://doc.openerp.com/index.php?model=%(model)s&lang=%(lang)s',
             'client.timeout': 3600,
