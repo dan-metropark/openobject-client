@@ -454,25 +454,8 @@ class db_login(object):
         self.ui = openerp_gtk_builder('openerp.ui', ['win_login'])
         self.win = self.ui.get_object('win_login')
 
-
     def refreshlist(self, widget, db_widget, entry_db, label, url, butconnect=False):
-
-        def check_server_version(url):
-            try:
-                import release
-                full_server_version = rpc.session.db_exec_no_except(url, 'server_version')
-                server_version = full_server_version.split('.')
-                client_version = release.version.split('.')
-                return (server_version[:2] == client_version[:2], full_server_version, release.version)
-            except:
-                # the server doesn't understand the request. It's mean that it's an old version of the server
-                return (False, _('Unknown'), release.version)
-
-        if _refresh_dblist(db_widget, entry_db, label, butconnect, url):
-            is_same_version, server_version, client_version = check_server_version(url)
-            if not is_same_version:
-                common.warning(_('The versions of the server %(server_version)s and the client %(client_version)s mismatch. The client may not work properly. Use it at your own risks.')
-                               % {'server_version':server_version, 'client_version':client_version},parent=self.win)
+        return _refresh_dblist(db_widget, entry_db, label, butconnect, url)
 
     def refreshlist_ask(self,widget, server_widget, db_widget, entry_db, label, butconnect = False, url=False, parent=None):
         url = _server_ask(server_widget, parent) or url
