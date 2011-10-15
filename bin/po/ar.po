@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-28 15:22+0530\n"
-"PO-Revision-Date: 2011-10-01 13:24+0000\n"
+"PO-Revision-Date: 2011-10-14 15:46+0000\n"
 "Last-Translator: kifcaliph <kifcaliph@hotmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-10-11 05:29+0000\n"
-"X-Generator: Launchpad (build 14123)\n"
+"X-Launchpad-Export-Date: 2011-10-15 04:56+0000\n"
+"X-Generator: Launchpad (build 14124)\n"
 "Language: ar\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -124,7 +124,7 @@ msgstr ""
 
 #: bin/widget/view/diagram_gtk/xdot.py:1712
 msgid "Add New Node"
-msgstr ""
+msgstr "إضافة طرف جديد"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1713
 msgid "Add New Edge"
@@ -140,7 +140,7 @@ msgstr "تصغير المخطط"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1716
 msgid "Fit the diagram to the window"
-msgstr ""
+msgstr "محاذاة العرض للواجهة"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1717
 msgid "Show the diagram at its normal size"
@@ -247,7 +247,7 @@ msgstr "احفظ كـ..."
 
 #: bin/widget/view/form_gtk/image.py:177
 msgid "Image corrupted"
-msgstr ""
+msgstr "صورة غير سليمة"
 
 #: bin/widget/view/form_gtk/many2many.py:84
 #: bin/widget/view/form_gtk/one2many_list.py:210
@@ -362,7 +362,7 @@ msgstr "هل أنت متأكد بأنك تريد حذف هذه السجلات؟"
 
 #: bin/widget/view/form_gtk/parser.py:61
 msgid "Wrong icon for the button !"
-msgstr ""
+msgstr "أيقونة خطأ للزر !"
 
 #: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 #, python-format
@@ -371,6 +371,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"رجاء تصحيح الحقول الحمراء التالية !\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -389,7 +392,7 @@ msgstr "كائن"
 
 #: bin/widget/view/form_gtk/parser.py:619
 msgid "Enter some text to the related field before adding translations!"
-msgstr ""
+msgstr "ضع بعض الحروف للحقول المتعلقة قبل إضافة الترجمة !"
 
 #: bin/widget/view/form_gtk/parser.py:626
 msgid "You need to save resource before adding translations!"
@@ -447,7 +450,7 @@ msgstr ""
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "إرسال رسالة بالبريد الإلكتروني المحلي الإفتراضي"
 
 #: bin/widget/view/form_gtk/date_widget.py:65
 #: bin/widget_search/date_widget.py:65
@@ -493,11 +496,11 @@ msgstr "إختيار ملف..."
 #: bin/widget/view/form_gtk/binary.py:177
 #, python-format
 msgid "Error writing the file: %s"
-msgstr ""
+msgstr "خطأ في كتابة الملف : %s"
 
 #: bin/widget/view/form_gtk/wid_common.py:59
 msgid "Always applicable !"
-msgstr ""
+msgstr "تنطبق دائماً !"
 
 #: bin/widget/view/calendar_gtk/parser.py:355 bin/openerp.glade:8064
 msgid "Week"
@@ -516,6 +519,8 @@ msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
 msgstr ""
+"(أي مرشح موجود بنفس \n"
+"الاسم سيتم إستبداله)"
 
 #: bin/translate.py:183
 #, python-format
@@ -538,7 +543,7 @@ msgstr ""
 #: bin/options.py:124
 #, python-format
 msgid "specify the log level: %s"
-msgstr ""
+msgstr "اختر مستوي السجل: %s"
 
 #: bin/options.py:125
 msgid "specify the user login"
@@ -582,7 +587,7 @@ msgstr "إرشادات"
 
 #: bin/common/common.py:168
 msgid "OpenERP Computing"
-msgstr ""
+msgstr "معالجة OpenERP"
 
 #: bin/common/common.py:187
 msgid "Operation in progress"
@@ -751,7 +756,7 @@ msgstr "خطأ: "
 #: bin/widget_search/custom_filter_widgets.py:257
 #: bin/widget_search/custom_filter_widgets.py:272
 msgid "is"
-msgstr ""
+msgstr "يكون"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -764,7 +769,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:257
 #: bin/widget_search/custom_filter_widgets.py:273
 msgid "is not"
-msgstr ""
+msgstr "لا يكون"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -780,7 +785,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:247
 #: bin/widget_search/custom_filter_widgets.py:255
 msgid "is Empty"
-msgstr ""
+msgstr "فارغ"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -796,7 +801,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:247
 #: bin/widget_search/custom_filter_widgets.py:255
 msgid "is not Empty"
-msgstr ""
+msgstr "غير فارغ"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -812,7 +817,7 @@ msgstr "لا يحتوي علي"
 
 #: bin/widget_search/custom_filter_widgets.py:167
 msgid "Equals"
-msgstr ""
+msgstr "مساو لـ"
 
 #: bin/widget_search/custom_filter_widgets.py:182
 #: bin/widget_search/custom_filter_widgets.py:196
@@ -825,7 +830,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:350
 #: bin/widget_search/custom_filter_widgets.py:362
 msgid "between"
-msgstr ""
+msgstr "بين"
 
 #: bin/widget_search/custom_filter_widgets.py:185
 #: bin/widget_search/custom_filter_widgets.py:199
@@ -838,7 +843,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:353
 #: bin/widget_search/custom_filter_widgets.py:362
 msgid "exclude range"
-msgstr ""
+msgstr "إستبعاد مجموعة"
 
 #: bin/widget_search/custom_filter_widgets.py:290
 #: bin/widget_search/custom_filter_widgets.py:331
@@ -863,7 +868,7 @@ msgstr "أقل من"
 #: bin/widget_search/custom_filter_widgets.py:294
 #: bin/widget_search/custom_filter_widgets.py:335
 msgid "greater than equal to"
-msgstr ""
+msgstr "أكبر من عن مساو لـ"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
@@ -884,11 +889,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "AND"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "OR"
 
 #: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
 #: bin/widget_search/checkbox.py:55
@@ -912,6 +917,8 @@ msgid ""
 "Unable to reach to OpenERP server !\n"
 "You should check your connection to the network and the OpenERP server."
 msgstr ""
+"لم يتمكن من الإتصال بالخادم OpenERP !\n"
+"عليك التأكد من أنك متصل بالشبكة و بالخادم أيضاً."
 
 #: bin/rpc.py:188
 msgid "Connection Error"
@@ -1112,7 +1119,7 @@ msgstr "اسم الحقل"
 #: bin/modules/gui/window/win_import.py:144
 #: bin/modules/gui/window/win_export.py:214
 msgid "Database ID"
-msgstr ""
+msgstr "معرف قاعدة البيانات (Database ID)"
 
 #: bin/modules/gui/window/win_import.py:181
 msgid "Error opening .CSV file"
@@ -1241,11 +1248,11 @@ msgstr "اسم الحقل"
 
 #: bin/modules/gui/window/win_export.py:166
 msgid "Open in Excel"
-msgstr ""
+msgstr "فتح في الأكسل"
 
 #: bin/modules/gui/window/win_export.py:167
 msgid "Save as CSV"
-msgstr ""
+msgstr "حفظ كـ CSV"
 
 #: bin/modules/gui/window/win_export.py:317
 msgid "What is the name of this export ?"
@@ -1499,7 +1506,7 @@ msgstr "لم يتم اسنعادة قاعدة البيانات ."
 
 #: bin/modules/gui/main.py:1442
 msgid "<b>Change your password</b>"
-msgstr ""
+msgstr "<b>تغيير كلمة المرور</b>"
 
 #: bin/modules/gui/main.py:1457
 msgid ""
@@ -1724,7 +1731,7 @@ msgstr "_خيارات"
 
 #: bin/openerp.glade:904
 msgid "_Extension Manager"
-msgstr ""
+msgstr "مدير البرامج الملحقة"
 
 #: bin/openerp.glade:912
 msgid "_Menubar"
@@ -1772,7 +1779,7 @@ msgstr "أسفل"
 
 #: bin/openerp.glade:1013
 msgid "Tabs default orientation"
-msgstr ""
+msgstr "الإتجاه الإفتراضي للمبوبات"
 
 #: bin/openerp.glade:1021
 msgid "Horizontal"
@@ -1800,7 +1807,7 @@ msgstr "الملحقات"
 
 #: bin/openerp.glade:1105
 msgid "_Execute a plugin"
-msgstr ""
+msgstr "تنصيب البرامج الملحقة"
 
 #: bin/openerp.glade:1125
 msgid "_Shortcuts"
@@ -1824,7 +1831,7 @@ msgstr "دليل_ استخدام"
 
 #: bin/openerp.glade:1183
 msgid "_Contextual Help"
-msgstr ""
+msgstr "المساعدة"
 
 #: bin/openerp.glade:1199
 msgid "Keyboard Shortcuts"
@@ -1955,6 +1962,8 @@ msgid ""
 "<b>About OpenERP</b>\n"
 "<i>The most advanced Open Source ERP &amp; CRM !</i>"
 msgstr ""
+"<b>حول OpenERP</b>\n"
+"<i>أفضل برنامج حسابات و إدارة المخططات مفتوح المصدر. !</i>"
 
 #: bin/openerp.glade:1898
 msgid ""
@@ -2020,7 +2029,7 @@ msgstr "إختيارك:"
 
 #: bin/openerp.glade:2395
 msgid "OpenERP - Dialog"
-msgstr ""
+msgstr "مربع - OpenERP"
 
 #: bin/openerp.glade:2419
 msgid "OpenERP, Field Preference target"
@@ -2072,7 +2081,7 @@ msgstr "<b>تصدير القائمة</b>"
 
 #: bin/openerp.glade:2834
 msgid "<b>Predefined Exports</b>"
-msgstr ""
+msgstr "<b>تصديرات معرفة من قبل</b>"
 
 #: bin/openerp.glade:2880
 msgid "Available Fields"
@@ -2100,7 +2109,7 @@ msgstr ""
 
 #: bin/openerp.glade:3134
 msgid "Import Compatible"
-msgstr ""
+msgstr "إستيراد المتوافق"
 
 #: bin/openerp.glade:3156
 msgid "<b>Opti_ons</b>"
@@ -2128,7 +2137,7 @@ msgstr ""
 
 #: bin/openerp.glade:3461
 msgid "Pre_vious Tip"
-msgstr ""
+msgstr "المبوبة السابقة"
 
 #: bin/openerp.glade:3507
 msgid "Ne_xt Tip"
@@ -2181,7 +2190,7 @@ msgstr ""
 
 #: bin/openerp.glade:4511
 msgid "<b>Support contract id:</b>"
-msgstr ""
+msgstr "<b>معرف عقد الدعم الفني:</b>"
 
 #: bin/openerp.glade:4568 bin/win_error.glade:200
 msgid "Other comments:"
@@ -2225,7 +2234,7 @@ msgstr "<Ctrl> + <Esc>"
 
 #: bin/openerp.glade:4867
 msgid "<i>When editing a resource in a popup window</i>"
-msgstr ""
+msgstr "<i>تحرير المصدر حين بدء الواجهة الجديدة</i>"
 
 #: bin/openerp.glade:4883
 msgid "Save and Close window"
@@ -2846,3 +2855,6 @@ msgstr "<i>_تفاصيل</i>"
 
 #~ msgid "Add _field names"
 #~ msgstr "إضافة اسم للحقل"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "حدد خيار للتصدير"
