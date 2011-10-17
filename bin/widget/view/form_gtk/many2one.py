@@ -341,15 +341,16 @@ class many2one(interface.widget_interface):
         if not model_field:
             self.ok = False
             self.wid_text.set_text('')
+            self.wid_text.set_position(0)
             return False
         super(many2one, self).display(model, model_field)
-        self.ok=False
+        self.ok = False
         res = model_field.get_client(model)
-        value_set = (res and str(res)) or ''
-        self.wid_text.set_text(value_set)
-        self.value_on_field = value_set
+        self.value_on_field = (res and str(res)) or ''
+        self.wid_text.set_text(self.value_on_field)
+        self.wid_text.set_position(0)
         self.but_open.set_sensitive(bool(res))
-        self.ok=True
+        self.ok = True
 
     def _menu_open(self, obj, menu):
         value = self._view.modelfield.get(self._view.model)
