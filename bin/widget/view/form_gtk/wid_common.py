@@ -27,7 +27,7 @@ from common import openerp_gtk_builder
 import service
 import rpc
 
-def field_pref_set(field, name, model, value, dependance=None, window=None):
+def field_pref_set(field, name, model, value, pwdfield, dependance=None, window=None):
     ui = openerp_gtk_builder('openerp.ui', ['win_field_pref'])
     if dependance is None:
         dependance = []
