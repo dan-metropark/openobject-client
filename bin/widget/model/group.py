@@ -230,7 +230,6 @@ class ModelRecordGroup(signal_event.signal_event):
         c = rpc.session.context.copy()
         c.update(self.context)
         c.update(context)
-        c['bin_size'] = True
         values = self.rpc.read(ids, self.fields.keys() + [rpc.CONCURRENCY_CHECK_FIELD], c)
         if not values:
             return False
@@ -343,10 +342,10 @@ class ModelRecordGroup(signal_event.signal_event):
         for f in fields.keys():
             add_field = True
             if f in models.fields:
-                if fields[f].get('widget','') == models.fields[f].get('widget',''):
+                if fields[f].get('widget') == models.fields[f].get('widget'):
                     models.fields[f].update(fields[f])
                     add_field = False
-                if f in models.mfields and fields[f].get('type','') == 'one2many':
+                if f in models.mfields and fields[f].get('type') == 'one2many':
                     add_field = False
             if add_field:
                 models.fields[f] = fields[f]
@@ -416,6 +415,13 @@ class ModelRecordGroup(signal_event.signal_event):
 
     def __iter__(self):
         return iter(self.models)
+    
+    def remove_duplicate(self, ids):
+        uids = []
+        #remove duplicate id
+        map(lambda x: x not in uids and uids.append(x), ids)
+        return uids
+    
 
     def get_by_id(self, id):
         for model in self.models:

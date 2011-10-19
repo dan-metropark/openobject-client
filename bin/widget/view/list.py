@@ -190,6 +190,7 @@ class list_record(object):
                 if not ids:
                      self.add_dummny_record(self.context['__field'])
                 else:
+                    ids = self.mgroup.remove_duplicate(ids)
                     self.mgroup.load(ids)
                     res= []
                     for id in ids:

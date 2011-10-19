@@ -20,7 +20,6 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 import gobject
 import gettext
 

@@ -20,7 +20,6 @@
 ##############################################################################
 import os
 import gtk
-from gtk import glade
 import copy
 
 import common
@@ -369,8 +368,8 @@ class ViewForm(parser_view):
                 if k=='readonly':
                     obj.set_sensitive(True)
 
-    def set_notebook(self,model,nb,focus_widget=None):
-        for i in range(0,nb.get_n_pages()):
+    def set_notebook(self, model, nb, focus_widget=None):
+        for i in range(0, nb.get_n_pages()):
             page = nb.get_nth_page(i)
             if focus_widget:
                 if focus_widget.widget.widget.is_ancestor(page):
@@ -378,8 +377,14 @@ class ViewForm(parser_view):
                 focus_widget.widget.grab_focus()
             children_notebooks = page.get_children()
             for child in children_notebooks:
-                if isinstance(child,gtk.Notebook):
-                    self.set_notebook(model,child)
+                if isinstance(child, gtk.Frame):
+                    for x in child.get_children():
+                        if isinstance(x, gtk.Table):
+                            for y in x.get_children():
+                                if isinstance(y, gtk.Notebook):
+                                    self.set_notebook(model, y)
+                if isinstance(child, gtk.Notebook):
+                    self.set_notebook(model, child)
             # attrs eval only when call from display not at time of set_cursor call
             if nb.get_tab_label(page).attrs.get('attrs', False) and not focus_widget:
                 self.attrs_set(model, page, nb.get_tab_label(page), nb, i)
@@ -387,19 +392,20 @@ class ViewForm(parser_view):
     def display(self):
         model = self.screen.current_model
         for x in self.widget.get_children():
-            if (type(x)==gtk.Table):
+            if isinstance(x, gtk.Table):
                 for y in x.get_children():
-                    if type(y)==gtk.Notebook:
-                        self.set_notebook(model,y)
-            elif type(x)==gtk.Notebook:
-                self.set_notebook(model,x)
+                    if isinstance(y, gtk.Notebook):
+                        self.set_notebook(model, y)
+            elif isinstance(x, gtk.Notebook):
+                self.set_notebook(model, x)
         if model and ('state' in model.mgroup.fields):
             state = model['state'].get(model)
         else:
             state = 'draft'
         button_focus = field_focus = None
         for widget in self.state_aware_widgets:
-            widget.state_set(state)
+            if not isinstance(widget.widget, gtk.Frame) or state:
+                widget.state_set(state)
             widget.attrs_set(model)
             if widget.widget.attrs.get('focus_button'):
                 button_focus =  widget.widget

@@ -216,15 +216,17 @@ class many2one(interface.widget_interface):
             self.display(self._view.model, self._view.modelfield)
             self.ok = True
         else:
+            self.wid_text.disconnect(self.wid_text_focus_out_id)
             win = win_search(self.attrs['relation'], sel_multi=False,
                     ids=map(lambda x: x[0], ids), context=context,
-                    domain=domain, window=self._window)
+                    domain=domain, parent=self._window)
             ids = win.go()
             if ids:
                 name = rpc.session.rpc_exec_auth('/object', 'execute',
                         self.attrs['relation'], 'name_get', [ids[0]],
                         rpc.session.context)[0]
                 self._view.modelfield.set_client(self._view.model, name)
+            self.wid_text_focus_out_id = self.wid_text.connect_after('focus-out-event', self.sig_focus_out, True)
         return True
 
     def _readonly_set(self, value):
@@ -339,15 +341,16 @@ class many2one(interface.widget_interface):
         if not model_field:
             self.ok = False
             self.wid_text.set_text('')
+            self.wid_text.set_position(0)
             return False
         super(many2one, self).display(model, model_field)
-        self.ok=False
+        self.ok = False
         res = model_field.get_client(model)
-        value_set = (res and str(res)) or ''
-        self.wid_text.set_text(value_set)
-        self.value_on_field = value_set
+        self.value_on_field = (res and str(res)) or ''
+        self.wid_text.set_text(self.value_on_field)
+        self.wid_text.set_position(0)
         self.but_open.set_sensitive(bool(res))
-        self.ok=True
+        self.ok = True
 
     def _menu_open(self, obj, menu):
         value = self._view.modelfield.get(self._view.model)

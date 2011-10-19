@@ -22,9 +22,9 @@
 from widget.view import interface
 from tools import node_attributes
 import gtk
-import gtk.glade
 import gettext
 import common
+from common import openerp_gtk_builder
 import rpc
 import xdot
 import pydot
@@ -34,8 +34,8 @@ def quote_string(s):
 
 class Viewdiagram(object):
     def __init__(self,window, model, node_attr, arrow_attr, attrs, screen):
-        self.glade = gtk.glade.XML(common.terp_path("openerp.glade"),'widget_view_diagram', gettext.textdomain())
-        self.widget = self.glade.get_widget('widget_view_diagram')
+        self.ui = openerp_gtk_builder('openerp.ui', ['widget_view_diagram'])
+        self.widget = self.ui.get_object('widget_view_diagram')
         self.model = model
         self.screen = screen
         self.node = node_attr
@@ -99,8 +99,8 @@ class Viewdiagram(object):
                 if len(edge) < 1 or str(edge[1][0]) not in node_lst or str(edge[1][1]) not in node_lst:
                     continue
                 graph.add_edge(pydot.Edge(quote_string(node_lst[str(edge[1][0])]),quote_string(node_lst[str(edge[1][1])]),
-                                          label=dict['label'].get(edge[0], False)[1] or  None,
-                                          URL = quote_string(dict['label'].get(edge[0], '')[1] + "_" + edge[0] + "_edge"),
+                                          label=quote_string(dict['label'][edge[0]][1]),
+                                          URL=quote_string(dict['label'][edge[0]][1] + "_" + edge[0] + "_edge"),
                                           fontsize='10',
                                           ))
             file =  graph.create_xdot()

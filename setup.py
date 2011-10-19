@@ -72,7 +72,7 @@ def data_files():
         for (dp, dn, names) in os.walk('share\\locale'):
             files.append((dp, map(lambda x: opj('bin', dp, x), names)))
         os.chdir('..')
-        files.append((".",["bin\\openerp.glade", "bin\\win_error.glade", 'bin\\tipoftheday.txt', 'doc\\README.txt']))
+        files.append((".",["bin\\openerp.ui", "bin\\win_error.ui", 'bin\\tipoftheday.txt', 'doc\\README.txt']))
         files.append(("pixmaps", glob.glob("bin\\pixmaps\\*.*")))
         files.append(("po", glob.glob("bin\\po\\*.*")))
         files.append(("icons", glob.glob("bin\\icons\\*.png")))
@@ -85,8 +85,8 @@ def data_files():
             glob.glob('bin/pixmaps/*.png')))
         files.append((opj('share', 'pixmaps', 'openerp-client', 'icons'),
             glob.glob('bin/icons/*.png')))
-        files.append((opj('share', 'openerp-client'), ['bin/openerp.glade', 'bin/tipoftheday.txt',
-                                                       'bin/win_error.glade']))
+        files.append((opj('share', 'openerp-client'), ['bin/openerp.ui', 'bin/tipoftheday.txt',
+                                                       'bin/win_error.ui']))
     return files
 
 included_plugins = ['workflow_print']
@@ -108,7 +108,8 @@ def translations():
     return trans
 
 if sys.platform != 'win32' and 'build_po' in sys.argv:
-    os.system('(cd bin ; find . -name \*.py && find . -name \*.glade | xargs xgettext -o po/%s.pot)' % name)
+    os.system('(cd bin ; find . -name \*.ui | xargs -L 1 intltool-extract --type=gettext/glade)')
+    os.system('(cd bin ; find . -name \*.py && find . -name \*.ui.h | xargs xgettext --from-code=UTF-8 -o po/%s.pot)' % name)
     for file in ([ os.path.join('bin', 'po', fname) for fname in os.listdir('bin/po') ]):
         if os.path.isfile(file):
             os.system('msgmerge --update --backup=off %s bin/po/%s.pot' % (file, name))

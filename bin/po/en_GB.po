@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-28 15:22+0530\n"
-"PO-Revision-Date: 2011-07-25 16:12+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2011-09-13 09:02+0000\n"
+"Last-Translator: John Bradshaw <Unknown>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-08-10 04:35+0000\n"
-"X-Generator: Launchpad (build 13636)\n"
+"X-Launchpad-Export-Date: 2011-10-11 05:31+0000\n"
+"X-Generator: Launchpad (build 14123)\n"
 "Language: \n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -192,19 +192,19 @@ msgstr "Manage Filters"
 
 #: bin/widget/view/screen_container.py:89
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:89
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:89
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:89
 msgid "Unlimited"
-msgstr ""
+msgstr "Unlimited"
 
 #: bin/widget/view/form_gtk/image.py:73
 msgid "Set Image"
@@ -247,7 +247,7 @@ msgstr "Save As..."
 
 #: bin/widget/view/form_gtk/image.py:177
 msgid "Image corrupted"
-msgstr ""
+msgstr "Image corrupted"
 
 #: bin/widget/view/form_gtk/many2many.py:84
 #: bin/widget/view/form_gtk/one2many_list.py:210
@@ -371,6 +371,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Correct following red fields !\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -447,7 +450,7 @@ msgstr "The content of the widget or ValueError if not valid"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Send an e-mail with your default e-mail client"
 
 #: bin/widget/view/form_gtk/date_widget.py:65
 #: bin/widget_search/date_widget.py:65
@@ -787,6 +790,8 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"Error occurred while printing:\n"
+"%s"
 
 #
 # File: bin/printer/printer.py, line: 195
@@ -872,7 +877,7 @@ msgstr "is not"
 #: bin/widget_search/custom_filter_widgets.py:247
 #: bin/widget_search/custom_filter_widgets.py:255
 msgid "is Empty"
-msgstr ""
+msgstr "is Empty"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -888,7 +893,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:247
 #: bin/widget_search/custom_filter_widgets.py:255
 msgid "is not Empty"
-msgstr ""
+msgstr "is not Empty"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -904,7 +909,7 @@ msgstr "doesn't contain"
 
 #: bin/widget_search/custom_filter_widgets.py:167
 msgid "Equals"
-msgstr ""
+msgstr "Equals"
 
 #: bin/widget_search/custom_filter_widgets.py:182
 #: bin/widget_search/custom_filter_widgets.py:196
@@ -917,7 +922,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:350
 #: bin/widget_search/custom_filter_widgets.py:362
 msgid "between"
-msgstr ""
+msgstr "between"
 
 #: bin/widget_search/custom_filter_widgets.py:185
 #: bin/widget_search/custom_filter_widgets.py:199
@@ -930,7 +935,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:353
 #: bin/widget_search/custom_filter_widgets.py:362
 msgid "exclude range"
-msgstr ""
+msgstr "exclude range"
 
 #: bin/widget_search/custom_filter_widgets.py:290
 #: bin/widget_search/custom_filter_widgets.py:331
@@ -988,7 +993,7 @@ msgstr "AND"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "OR"
 
 #: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
 #: bin/widget_search/checkbox.py:55
@@ -1639,7 +1644,7 @@ msgstr "Bad password provided !"
 
 #: bin/modules/gui/main.py:1482
 msgid "Changing password failed, please verify old password."
-msgstr ""
+msgstr "Changing password failed, please verify old password."
 
 #: bin/modules/gui/main.py:1490 bin/modules/gui/main.py:1513
 msgid "Backup a database"
@@ -2097,6 +2102,23 @@ msgid ""
 "\n"
 "More Info on www.openerp.com !"
 msgstr ""
+"\n"
+"OpenERP - GTK Client - v%s\n"
+"\n"
+"OpenERP is a comprehensive suite of business applications\n"
+"including Sales, CRM, Project management, Warehouse management,\n"
+"Manufacturing, Financial management and Human Resources, to\n"
+"name a few.\n"
+"\n"
+"Hundreds of modules are available on OpenERP Apps at\n"
+"http://apps.openerp.com.\n"
+"\n"
+"OpenERP is Open Source, and distributed under\n"
+"the terms of the GNU Affero General Public Licence v3\n"
+"\n"
+"(c) 2004-TODAY, OpenERP SA\n"
+"\n"
+"More Info on www.openerp.com !"
 
 #: bin/openerp.glade:1931
 msgid "_OpenERP"
@@ -2874,7 +2896,7 @@ msgstr "Send to Publisher Warranty Team"
 
 #: bin/win_error.glade:318
 msgid "Problems summary:"
-msgstr ""
+msgstr "Problems summary:"
 
 #: bin/win_error.glade:360
 msgid "<i>_Support Request</i>"

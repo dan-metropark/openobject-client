@@ -19,10 +19,9 @@
 #
 ##############################################################################
 
-
+import common
+import gtk
 import interface
-from lxml import etree
-
 import form_gtk
 import tree_gtk
 import graph_gtk
@@ -47,7 +46,7 @@ parsers = {
 }
 
 class widget_parse(interface.parser_interface):
-    def parse(self, screen, node, fields, toolbar={}, submenu={}, help={}):
+    def parse(self, screen, node, fields, toolbar={}, submenu={}, name=False, help={}):
         if node is not None:
             if node.tag not in parsers:
                 raise Exception(_("This type (%s) is not supported by the GTK client !") % node.tag)
@@ -55,6 +54,19 @@ class widget_parse(interface.parser_interface):
             # Select the parser for the view (form, tree, graph, calendar or gantt)
             widget = widget_parser(self.window, self.parent, self.attrs, screen)
             wid, child, buttons, on_write = widget.parse(screen.resource, node, fields)
+            duplicated_fields = []
+            [duplicated_fields.append(field) for field, count in widget.field_list.iteritems() if count>1]
+            if duplicated_fields:
+                field_str =  ', '.join(duplicated_fields)
+                view = node.tag.capitalize()
+                view_str = "\n View:"
+                if not name:
+                    name = ''
+                    view_str = ''
+                msg = " <b>%s</b> view has duplicate field: <b>%s</b>\n Model: <b>%s</b> %s <b>%s</b>\n The duplicated fields will be simply ignored !"
+                var = (view, field_str, screen.resource, view_str, name)
+                common.message( _(msg) % var,
+               _('View Error!'), type=gtk.MESSAGE_ERROR, parent=None, msg_to_xml=False)
             if isinstance(wid, calendar_gtk.EmptyCalendar):
                 view_parser = calendar_gtk.DummyViewCalendar
             screen.set_on_write(on_write)

@@ -20,10 +20,10 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 import gobject
 import gettext
 import common
+from common import openerp_gtk_builder
 
 import rpc
 
@@ -112,9 +112,8 @@ def datas_read(ids, model, fields, fields_view, prefix='', context=None):
 
 class win_export(object):
     def __init__(self, model, ids, fields, preload = [], parent=None, context=None):
-        self.glade = glade.XML(common.terp_path("openerp.glade"), 'win_save_as',
-                gettext.textdomain())
-        self.win = self.glade.get_widget('win_save_as')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_save_as', 'liststore8'])
+        self.win = self.ui.get_object('win_save_as')
         self.ids = ids
         self.model = model
         self.fields_data = {}
@@ -131,10 +130,10 @@ class win_export(object):
 
         self.view1 = gtk.TreeView()
         self.view1.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
-        self.glade.get_widget('exp_vp1').add(self.view1)
+        self.ui.get_object('exp_vp1').add(self.view1)
         self.view2 = gtk.TreeView()
         self.view2.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
-        self.glade.get_widget('exp_vp2').add(self.view2)
+        self.ui.get_object('exp_vp2').add(self.view2)
         self.view1.set_headers_visible(False)
         self.view2.set_headers_visible(False)
 
@@ -148,7 +147,7 @@ class win_export(object):
 
         #for f in preload:
         #    self.model2.set(self.model2.append(), 0, f[1], 1, f[0])
-        self.wid_import_compatible = self.glade.get_widget('import_compatible')
+        self.wid_import_compatible = self.ui.get_object('import_compatible')
 
         self.model1 = gtk.TreeStore(gobject.TYPE_STRING, gobject.TYPE_STRING, gobject.TYPE_STRING)
         self.model2 = gtk.ListStore(gobject.TYPE_STRING, gobject.TYPE_STRING)
@@ -161,17 +160,9 @@ class win_export(object):
         self.view1.show_all()
         self.view2.show_all()
 
-        hbox = self.glade.get_widget('hbox55')
-        self.wid_action = gtk.combo_box_new_text()
-        self.wid_action.append_text(_('Open in Excel'))
-        self.wid_action.append_text(_('Save as CSV'))
-        hbox.pack_start(self.wid_action)
-        hbox.reorder_child(self.wid_action, 0)
-        hbox.show_all()
-        action = self.wid_action.set_active(os.name != 'nt')
-
-        self.wid_write_field_names = self.glade.get_widget('add_field_names_cb')
-
+        self.wid_action = self.ui.get_object('win_saveas_combo')
+        self.wid_write_field_names = self.ui.get_object('add_field_names_cb')
+        action = self.wid_action.set_active(os.name!='nt')
         if os.name != 'nt':
             self.wid_action.remove_text(0)
         else:
@@ -186,19 +177,21 @@ class win_export(object):
                 else:
                     pass
 
-        self.glade.signal_connect('on_but_unselect_all_clicked', self.sig_unsel_all)
-        self.glade.signal_connect('on_but_select_all_clicked', self.sig_sel_all)
-        self.glade.signal_connect('on_but_select_clicked', self.sig_sel)
-        self.glade.signal_connect('on_but_unselect_clicked', self.sig_unsel)
-        self.glade.signal_connect('on_but_predefined_clicked', self.add_predef)
-        self.glade.signal_connect('on_but_delpredefined_clicked', self.del_export_list_btn)
-        self.glade.signal_connect('on_import_toggled', self.import_toggled)
+        self.ui.connect_signals({
+            'on_but_unselect_all_clicked': self.sig_unsel_all,
+            'on_but_select_all_clicked': self.sig_sel_all,
+            'on_but_select_clicked': self.sig_sel,
+            'on_but_unselect_clicked': self.sig_unsel,
+            'on_but_predefined_clicked': self.add_predef,
+            'on_but_delpredefined_clicked': self.del_export_list_btn,
+            'on_import_toggled': self.import_toggled,
+        })
 
         # Creating the predefined export view
         self.pref_export = gtk.TreeView()
         self.pref_export.append_column(gtk.TreeViewColumn('Export name', gtk.CellRendererText(), text=1))
         self.pref_export.append_column(gtk.TreeViewColumn('Exported fields', gtk.CellRendererText(), text=2))
-        self.glade.get_widget('predefined_exports').add(self.pref_export)
+        self.ui.get_object('predefined_exports').add(self.pref_export)
 
         self.pref_export.connect("row-activated", self.sel_predef)
         self.pref_export.connect('key_press_event', self.del_export_list_key)

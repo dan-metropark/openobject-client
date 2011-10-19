@@ -72,8 +72,9 @@ class CharField(object):
     def context_get(self, model, check_load=True, eval=True):
         context = {}
         context.update(self.parent.context)
-        exclude_ctx = ['set_editable','set_visible','form_view_ref', 'group_by']
-        # removing default keys,group_by,search_default of the parent context
+        #The keys in exclude_ctx should be removed from the parent context
+        exclude_ctx = ['set_editable','set_visible',
+                       'form_view_ref', 'tree_view_ref', 'group_by']
         context_own = context.copy()
         for c in context.items():
             if c[0].startswith('default_') or c[0] in exclude_ctx\
@@ -340,6 +341,10 @@ class M2MField(CharField):
             for val in value:
                     result += rpc2.name_search(val, [], '=', rpc.session.context)
             value = map(lambda x:x[0], result)
+        
+        if value:   
+            value = model.mgroup.remove_duplicate(value)
+
         model.value[self.name] = value and value[:self.limit] or []
         model.pager_cache[self.name] = value or []
         if modified:
@@ -411,7 +416,7 @@ class O2MField(CharField):
         model.value[self.name] = mod
         #self.internal.signal_connect(self.internal, 'model-changed', self._model_changed)
         if value:
-            value = value[:self.limit]
+            value = model.mgroup.remove_duplicate(value)[:self.limit]
         model.value[self.name].pre_load(value, display=False)
         #self.internal.signal_connect(self.internal, 'model-changed', self._model_changed)
 

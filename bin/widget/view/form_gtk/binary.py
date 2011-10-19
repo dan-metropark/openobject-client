@@ -104,9 +104,13 @@ class wid_binary(interface.widget_interface):
             self.but_remove.show()
 
     def _get_filename(self):
-        return self._view.model.value.get(self.has_filename) \
-               or self._view.model.value.get('name', self.data_field_name) \
-               or datetime.now().strftime('%c')
+        ## if a filename attribute is provided and if its referencing it to a 
+        ## a field then return the fields value or if it is just a plain text name then
+        ## return the plain text name. Only look for other possibilities if filename attribute 
+        ## is missing. i.e either of 'name' or fallback to current_date.
+        if self.has_filename:
+            return self._view.model.value.get(self.has_filename, self.has_filename)
+        return self._view.model.value.get('name', datetime.now().strftime('%c')) 
 
     def sig_execute(self,widget=None):
         try:
@@ -148,7 +152,7 @@ class wid_binary(interface.widget_interface):
             filename = common.file_selection(_('Select a file...'), parent=self._window,filters=filters)
             if filename:
                 self.model_field.set_client(self._view.model, base64.encodestring(file(filename, 'rb').read()))
-                if self.has_filename:
+                if self.has_filename and self.has_filename in self._view.model.mgroup.mfields:
                     self._view.model.set({self.has_filename: os.path.basename(filename)}, modified=True)
                 self._view.display(self._view.model)
         except Exception, ex:
@@ -178,7 +182,7 @@ class wid_binary(interface.widget_interface):
 
     def sig_remove(self, widget=None):
         self.model_field.set_client(self._view.model, False)
-        if self.has_filename:
+        if self.has_filename and self.has_filename in self._view.model.mgroup.mfields:
             self._view.model.set({self.has_filename: False}, modified=True)
         self.display(self._view.model, False)
 

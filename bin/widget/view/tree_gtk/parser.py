@@ -137,6 +137,10 @@ class parser_tree(interface.parser_interface):
             if node.tag == 'field':
                 handler_id = False
                 fname = str(node_attrs['name'])
+                self.field_list.setdefault(fname, 0)
+                self.field_list[fname] += 1  
+                if self.field_list[fname] > 1 :
+                    continue
                 if fields[fname]['type'] in ('image', 'binary'):
                     continue    # not showed types
                 if fname == 'sequence':
@@ -147,7 +151,6 @@ class parser_tree(interface.parser_interface):
                             node_attrs[boolean_fields] = eval(node_attrs[boolean_fields])
                         else:
                             node_attrs[boolean_fields] = bool(int(node_attrs[boolean_fields]))
-
                 if fields[fname]['type'] == 'selection':
                     if fields[fname].get('selection',[]):
                         node_attrs['selection'] = fields[fname]['selection']
@@ -356,6 +359,17 @@ class Int(Char):
         if count:
             converted_val = str(converted_val) +  ' (' + str(count) + ')'
         return converted_val
+
+class Reference(Char):
+
+    def get_textual_value(self, model):
+        value = model.value.get(self.field_name, 0)
+        if isinstance(value, tuple):
+            value = value[1][1]
+        else:
+            value = ""
+        return value
+        
 
 class Boolean(Int):
 
@@ -751,6 +765,7 @@ CELLTYPES = {
     'boolean': Boolean,
     'progressbar': ProgressBar,
     'button': CellRendererButton,
+    'reference': Reference
 }
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

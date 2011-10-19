@@ -20,10 +20,10 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 
 import gettext
 import common
+from common import openerp_gtk_builder
 import wid_common
 
 import interface
@@ -65,16 +65,17 @@ class action(interface.widget_interface):
             if self.action['view_type']=='form':
                 mode = (self.action['view_mode'] or 'form,tree').split(',')
                 self.screen = Screen(self.action['res_model'], view_type=mode, context=self.context, view_ids = view_id, domain=self.domain)
-                self.win_gl = glade.XML(common.terp_path("openerp.glade"), 'widget_paned', gettext.textdomain())
-
-                self.win_gl.signal_connect('on_switch_button_press_event', self._sig_switch)
-                self.win_gl.signal_connect('on_search_button_press_event', self._sig_search)
-                self.win_gl.signal_connect('on_open_button_press_event', self._sig_open)
-                label=self.win_gl.get_widget('widget_paned_lab')
+                self.ui = openerp_gtk_builder('openerp.ui', ['widget_paned'])
+                self.ui.connect_signals({
+                    'on_switch_button_press_event': self._sig_switch,
+                    'on_search_button_press_event': self._sig_search,
+                    'on_open_button_press_event': self._sig_open,
+                })
+                label = self.ui.get_object('widget_paned_lab')
                 label.set_text(attrs.get('string', self.screen.current_view.title))
-                vbox=self.win_gl.get_widget('widget_paned_vbox')
+                vbox = self.ui.get_object('widget_paned_vbox')
                 vbox.add(self.screen.widget)
-                self.widget=self.win_gl.get_widget('widget_paned')
+                self.widget = self.ui.get_object('widget_paned')
                 self.widget.set_size_request(int(attrs.get('width', -1)), int(attrs.get('height', -1)))
             elif self.action['view_type']=='tree':
                 pass #TODO

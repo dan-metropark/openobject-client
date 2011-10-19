@@ -20,11 +20,11 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 import gettext
 import xmlrpclib
 
 import common
+from common import openerp_gtk_builder
 import service
 import view_tree
 import rpc
@@ -34,8 +34,8 @@ import copy
 
 class tree(object):
     def __init__(self, view, model, res_id=False, domain=[], context={}, help={}, window=None, name=False):
-        self.glade = glade.XML(common.terp_path("openerp.glade"),'win_tree_container',gettext.textdomain())
-        self.widget = self.glade.get_widget('win_tree_container')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_tree_container'])
+        self.widget = self.ui.get_object('win_tree_container')
         self.widget.show_all()
         self.model = view['model']
         self.domain2 = domain
@@ -58,12 +58,12 @@ class tree(object):
             self.name = self.tree_res.name
         else:
             self.name = name
-        self.vp = self.glade.get_widget('main_tree_sw')
+        self.vp = self.ui.get_object('main_tree_sw')
 
-        wid = self.glade.get_widget('widget_vbox')
+        wid = self.ui.get_object('widget_vbox')
         wid.show()
 
-        widget_sc = self.glade.get_widget('win_tree_sc')
+        widget_sc = self.ui.get_object('win_tree_sc')
 
         widget_sc.connect('row-activated', self.sc_go)
         self.tree_sc = view_tree.view_tree_sc(widget_sc, self.model)
@@ -78,7 +78,7 @@ class tree(object):
             'but_close': self.sig_close,
             'but_save_as': self.sig_save_as,
         }
-        dict = {
+        signal_dict = {
             'on_but_sc_go_clicked': self.sc_go,
             'on_but_sc_add_clicked': self.sc_add,
             'on_but_sc_del_clicked': self.sc_del,
@@ -104,8 +104,7 @@ class tree(object):
             self.vp.add(wid)
         self.sig_reload()
 
-        for signal in dict:
-            self.glade.signal_connect(signal, dict[signal])
+        self.ui.connect_signals(signal_dict)
         self.expand = True
 
     def sig_reload(self, widget=None):
@@ -113,7 +112,7 @@ class tree(object):
         ids = rpc.session.rpc_exec_auth('/object', 'execute', self.model, 'search', self.domain2)
         if self.tree_res.toolbar:
             icon_name = 'icon'
-            wid = self.glade.get_widget('tree_toolbar')
+            wid = self.ui.get_object('tree_toolbar')
             for w in wid.get_children():
                 wid.remove(w)
             c = {}
@@ -147,7 +146,7 @@ class tree(object):
         else:
             self.tree_res.ids = ids
             self.tree_res.reload()
-            wid = self.glade.get_widget('widget_vbox')
+            wid = self.ui.get_object('widget_vbox')
             wid.hide()
 
     def menu_main_clicked(self, widget):
@@ -160,7 +159,7 @@ class tree(object):
             self.tree_res.reload()
 
             self.expand = False
-            self.expand_collapse_all( self.glade.get_widget('button7') )
+            self.expand_collapse_all( self.ui.get_object('button7') )
 
         return False
 
@@ -255,7 +254,7 @@ class tree(object):
         if ids:
             id = ids[0]
         elif self.tree_res.toolbar:
-            wid = self.glade.get_widget('tree_toolbar')
+            wid = self.ui.get_object('tree_toolbar')
             for w in wid.get_children():
                 if w.get_active():
                     id = w.get_data('id')

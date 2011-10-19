@@ -20,10 +20,10 @@
 ##############################################################################
 
 import gtk
-from gtk import glade
 import gobject
 import gettext
 import common
+from common import openerp_gtk_builder
 
 import rpc
 
@@ -74,10 +74,9 @@ def import_csv(csv_data, f, model, fields, context=None, parent=None):
 
 class win_import(object):
     def __init__(self, model, fields, preload = [], parent=None, local_context=None):
-        self.glade = glade.XML(common.terp_path("openerp.glade"), 'win_import',
-                gettext.textdomain())
-        self.glade.get_widget('import_csv_combo').set_active(0)
-        self.win = self.glade.get_widget('win_import')
+        self.ui = openerp_gtk_builder('openerp.ui', ['win_import', 'liststore6', 'adjustment1'])
+        self.ui.get_object('import_csv_combo')
+        self.win = self.ui.get_object('win_import')
         self.model = model
         self.fields_data = {}
         self.invert = False
@@ -87,17 +86,17 @@ class win_import(object):
         self.win.set_transient_for(parent)
         self.win.set_icon(common.OPENERP_ICON)
         self.parent = parent
-        self.autodetect_btn = self.glade.get_widget('button_autodetect')
-        self.filechooser = self.glade.get_widget('import_csv_file')
+        self.autodetect_btn = self.ui.get_object('button_autodetect')
+        self.filechooser = self.ui.get_object('import_csv_file')
         self.filechooser.set_current_folder(
                 options.options['client.default_path'])
         self.filechooser.connect('selection-changed',self.file_changed)
         self.view1 = gtk.TreeView()
         self.view1.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
-        self.glade.get_widget('import_vp_left').add(self.view1)
+        self.ui.get_object('import_vp_left').add(self.view1)
         self.view2 = gtk.TreeView()
         self.view2.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
-        self.glade.get_widget('import_vp_right').add(self.view2)
+        self.ui.get_object('import_vp_right').add(self.view2)
         self.view1.set_headers_visible(False)
         self.view2.set_headers_visible(False)
 
@@ -152,12 +151,14 @@ class win_import(object):
         self.view1.show_all()
         self.view2.show_all()
 
-        self.glade.signal_connect('on_but_unselect_all_clicked', self.sig_unsel_all)
-        self.glade.signal_connect('on_but_select_all_clicked', self.sig_sel_all)
-        self.glade.signal_connect('on_but_select_clicked', self.sig_sel)
-        self.glade.signal_connect('on_but_unselect_clicked', self.sig_unsel)
-        self.glade.signal_connect('on_but_autodetect_clicked', self.sig_autodetect)
-
+        self.ui.connect_signals({
+            'on_but_unselect_all_clicked': self.sig_unsel_all,
+            'on_but_select_all_clicked': self.sig_sel_all,
+            'on_but_select_clicked': self.sig_sel,
+            'on_but_unselect_clicked': self.sig_unsel,
+            'on_but_autodetect_clicked': self.sig_autodetect,
+        })
+        
     def file_changed(self, widget=None):
         fname= self.filechooser.get_filename()
         if not fname:
@@ -170,11 +171,11 @@ class win_import(object):
         if not fname:
             common.message('You must select an import file first !')
             return True
-        csvsep= self.glade.get_widget('import_csv_sep').get_text()
-        csvdel= self.glade.get_widget('import_csv_del').get_text()
-        csvcode= self.glade.get_widget('import_csv_combo').get_active_text() or 'UTF-8'
+        csvsep= self.ui.get_object('import_csv_sep').get_text()
+        csvdel= self.ui.get_object('import_csv_del').get_text()
+        csvcode= self.ui.get_object('import_csv_combo').get_active_text() or 'UTF-8'
 
-        self.glade.get_widget('import_csv_skip').set_value(1)
+        self.ui.get_object('import_csv_skip').set_value(1)
         try:
             data = csv.reader(file(fname), quotechar=csvdel or '"', delimiter=csvsep)
         except:
@@ -242,11 +243,11 @@ class win_import(object):
                     iter = self.model2.iter_next(iter)
 
                 csv = {
-                    'fname': self.glade.get_widget('import_csv_file').get_filename(),
-                    'sep': self.glade.get_widget('import_csv_sep').get_text(),
-                    'del': self.glade.get_widget('import_csv_del').get_text(),
-                    'skip': self.glade.get_widget('import_csv_skip').get_value(),
-                    'combo': self.glade.get_widget('import_csv_combo').get_active_text() or 'UTF-8'
+                    'fname': self.ui.get_object('import_csv_file').get_filename(),
+                    'sep': self.ui.get_object('import_csv_sep').get_text(),
+                    'del': self.ui.get_object('import_csv_del').get_text(),
+                    'skip': self.ui.get_object('import_csv_skip').get_value(),
+                    'combo': self.ui.get_object('import_csv_combo').get_active_text() or 'UTF-8'
                 }
                 self.parent.present()
                 self.win.destroy()

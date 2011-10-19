@@ -20,7 +20,6 @@
 ##############################################################################
 import gobject
 import gtk
-from gtk import glade
 import gobject
 import common
 from rpc import RPCProxy
