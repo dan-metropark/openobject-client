@@ -581,11 +581,13 @@ class parser_form(widget.view.interface.parser_interface):
                 dict_widget.update(widgets)
             
             elif node.tag == 'column':
+                if not node.getchildren():
+                    continue
                 hp = gtk.HPaned()
                 paned.pack2(hp, resize=True, shrink=True)
                 paned = hp
                 widget, widgets, saws, on_write = self.parse(model, node, fields, paned=paned)
-                self.column =+ self.column + 1
+                self.column = self.column +  1
                 saw_list += saws
                 dict_widget.update(widgets)
                 paned.pack1(widget, resize=True, shrink=True)
