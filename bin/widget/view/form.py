@@ -367,7 +367,28 @@ class ViewForm(parser_view):
                     obj.show_all()
                 if k=='readonly':
                     obj.set_sensitive(True)
-
+                    
+    def process_notebook(self, model, element, focus_widget=None):
+        def check_rec(child, focus_widget=None):
+            if isinstance(child, gtk.Frame):
+                check_frame_children(child, focus_widget)
+            if isinstance(child, gtk.Notebook):
+                self.set_notebook(model, child, focus_widget)    
+        
+        def check_frame_children(frame, focus_widget=None):
+            for x in frame.get_children():
+                if isinstance(x, gtk.Table):
+                    for y in x.get_children():
+                        check_rec(y, focus_widget)
+                if isinstance(x, gtk.Notebook):
+                    self.set_notebook(model, x, focus_widget)    
+        
+        if isinstance(element, list):
+            for child in element:
+                check_rec(child)
+        else:
+            check_frame_children(element, focus_widget) 
+                        
     def set_notebook(self, model, nb, focus_widget=None):
         for i in range(0, nb.get_n_pages()):
             page = nb.get_nth_page(i)
@@ -376,35 +397,22 @@ class ViewForm(parser_view):
                     nb.set_current_page(i)
                 focus_widget.widget.grab_focus()
             children_notebooks = page.get_children()
-            for child in children_notebooks:
-                if isinstance(child, gtk.Frame):
-                    for x in child.get_children():
-                        if isinstance(x, gtk.Table):
-                            for y in x.get_children():
-                                if isinstance(y, gtk.Notebook):
-                                    self.set_notebook(model, y)
-                if isinstance(child, gtk.Notebook):
-                    self.set_notebook(model, child)
+            self.process_notebook(model, children_notebooks)
+ 
             # attrs eval only when call from display not at time of set_cursor call
             if nb.get_tab_label(page).attrs.get('attrs', False) and not focus_widget:
                 self.attrs_set(model, page, nb.get_tab_label(page), nb, i)
 
     def display(self):
         model = self.screen.current_model
-        for x in self.widget.get_children():
-            if isinstance(x, gtk.Table):
-                for y in x.get_children():
-                    if isinstance(y, gtk.Notebook):
-                        self.set_notebook(model, y)
-            elif isinstance(x, gtk.Notebook):
-                self.set_notebook(model, x)
+        self.process_notebook(model, self.widget)
         if model and ('state' in model.mgroup.fields):
             state = model['state'].get(model)
         else:
             state = 'draft'
         button_focus = field_focus = None
-        for widget in self.state_aware_widgets:
-            if not isinstance(widget.widget, gtk.Frame) or state:
+        for widget in self.state_aware_widgets :
+            if not isinstance(widget.widget, gtk.Frame) or widget.widget.attrs.get('states'):
                 widget.state_set(state)
             widget.attrs_set(model)
             if widget.widget.attrs.get('focus_button'):
@@ -439,15 +447,8 @@ class ViewForm(parser_view):
                           continue
                      position = widgets.widget.position
                      focus_widget = widgets
-            for x in self.widget.get_children():
-                if not focus_widget:
-                    continue
-                if isinstance(x, gtk.Table):
-                    for y in x.get_children():
-                        if isinstance(y, gtk.Notebook):
-                            self.set_notebook(model, y, focus_widget)
-                elif isinstance(x, gtk.Notebook):
-                    self.set_notebook(model, x, focus_widget)
+            if focus_widget:
+                self.process_notebook(model, self.widget, focus_widget) 
         return True
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
