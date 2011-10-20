@@ -30,6 +30,7 @@ except NameError:
     from sets import Set as set
 
 import tools
+import base64
 
 DEFAULT_PAGER_LIMIT = 100
 
@@ -190,7 +191,7 @@ class BinaryField(CharField):
     def set(self, model, value, modified=False):
         model.value[self.name] = value
         if value:
-            value = tools.human_size(len(value))
+            value = tools.human_size(len(base64.b64decode(value)))
         model.value["%s.size" % self.name] = value
         if modified:
             model.modified = True
