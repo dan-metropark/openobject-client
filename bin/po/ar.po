@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-10-15 04:56+0000\n"
-"X-Generator: Launchpad (build 14124)\n"
+"X-Launchpad-Export-Date: 2011-10-25 04:50+0000\n"
+"X-Generator: Launchpad (build 14185)\n"
 "Language: ar\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -568,6 +568,10 @@ msgid ""
 "open this menu item, unless you disable all tips using the <b>'Menu "
 "Tips'</b> option in the user preferences."
 msgstr ""
+"<span foreground=\"darkred\"><b>الملحوظة الحالية:</b></span>\n"
+"This will hide the current tip. It will be displayed again next time you "
+"open this menu item, unless you disable all tips using the <b>'Menu "
+"Tips'</b> option in the user preferences."
 
 #: bin/common/common.py:100
 msgid "Disable all tips"
@@ -885,7 +889,7 @@ msgstr "تاريخ الانتهاء"
 
 #: bin/widget_search/wid_int.py:56
 msgid "The content of the widget or exception if not valid"
-msgstr ""
+msgstr "المحتويات المستنبطة أو المستناة غير صحيحة"
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
@@ -1282,7 +1286,7 @@ msgstr "كلمة مرور المشرف العام الفائق:"
 
 #: bin/modules/gui/main.py:193
 msgid "Bad Super Administrator Password"
-msgstr "كلمة مرور المشرف العام الفائق خاطئة"
+msgstr "كلمة مرور المشرف الاعلى خاطئة:"
 
 #: bin/modules/gui/main.py:217
 msgid "Migration Scripts"
@@ -1819,7 +1823,7 @@ msgstr "_مساعدة"
 
 #: bin/openerp.glade:1140
 msgid "Enable Debug Mode Tooltips"
-msgstr ""
+msgstr "السماح لنمط التصحيح أدوات الإرشادات"
 
 #: bin/openerp.glade:1148 bin/openerp.glade:4366
 msgid "Support Request"
@@ -2133,7 +2137,7 @@ msgstr "تذكرة اليوم"
 
 #: bin/openerp.glade:3408
 msgid "_Display a new tip next time?"
-msgstr ""
+msgstr "_عرض نصيحة جديدة المره القادمة؟"
 
 #: bin/openerp.glade:3461
 msgid "Pre_vious Tip"
