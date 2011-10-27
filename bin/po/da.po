@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-07-28 15:22+0530\n"
-"PO-Revision-Date: 2011-10-11 14:46+0000\n"
-"Last-Translator: Jonas Mortensen <Unknown>\n"
+"PO-Revision-Date: 2011-10-26 14:24+0000\n"
+"Last-Translator: Nicholas Christian Langkjær Ipsen "
+"<sephiroth7vii@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-10-25 04:50+0000\n"
-"X-Generator: Launchpad (build 14185)\n"
+"X-Launchpad-Export-Date: 2011-10-27 05:21+0000\n"
+"X-Generator: Launchpad (build 14197)\n"
 "Language: da\n"
 
 #: bin/widget/view/gantt_gtk/parser_dummy.py:30
@@ -2173,7 +2174,7 @@ msgstr "_Add"
 
 #: bin/openerp.glade:2970 bin/openerp.glade:5667
 msgid "_Remove"
-msgstr "_Remove"
+msgstr "_Fjern"
 
 #: bin/openerp.glade:3018
 msgid "_Nothing"
@@ -2762,7 +2763,7 @@ msgstr "window1"
 
 #: bin/openerp.glade:7992
 msgid "Today"
-msgstr "Dag"
+msgstr "I dag"
 
 #: bin/openerp.glade:8038
 msgid "September 2008"
