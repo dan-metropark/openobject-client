@@ -94,8 +94,8 @@ class textbox_tag(interface.widget_interface):
                  'face':{'face':True},
                  }
 
-    def __init__(self,window, parent, model, attrs={}):
-        interface.widget_interface.__init__(self, window, parent, model, attrs)
+    def __init__(self, window, parent, model, attrs={}, label=None):
+        interface.widget_interface.__init__(self, window, parent, model, attrs, label_ebox=label)
         self.ui = openerp_gtk_builder('openerp.ui', ['widget_textbox_tag'])
         self.widget = self.ui.get_object('widget_textbox_tag')
         self.tv = self.ui.get_object('widget_textbox_tag_tv')

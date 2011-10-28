@@ -32,7 +32,7 @@ _attrs_boolean = {
 }
 
 class widget_interface(object):
-    def __init__(self, window, parent=None, view=None, attrs=None, label_ebox= None):
+    def __init__(self, window, parent=None, view=None, attrs=None, label_ebox=None):
         if attrs is None:
             attrs = {}
         self.parent = parent
@@ -61,7 +61,7 @@ class widget_interface(object):
             self._view.modelfield.set(self._view.model, res.get(self.attrs['name'], False), modified=True)
             self.display(self._view.model, self._view.modelfield)
         except:
-            common.warning(_('You can not set to the default value here !'), _('Operation not permited'))
+            common.warning(_('You can not set to the default value here !'), _('Operation not permitted!'))
             return False
 
     def sig_activate(self, widget=None):
