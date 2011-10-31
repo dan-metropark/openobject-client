@@ -26,7 +26,6 @@ import gettext
 import common
 from common import openerp_gtk_builder, gtk_signal_decorator
 import gobject
-from mx import DateTime
 from datetime import datetime, date
 
 from SpiffGtkWidgets import Calendar
@@ -252,7 +251,6 @@ class ViewCalendar(object):
         self.display(None)
 
     def _back_forward(self, widget, type, *args, **argv):
-        relatime = DateTime.RelativeDateTime
         if self.mode == 'day':
             self.date = self.date + relativedelta(days=type)
         if self.mode == 'week':

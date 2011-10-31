@@ -119,7 +119,9 @@ class CanvasDay(hippo.CanvasBox, hippo.CanvasItem):
         if not self.show_rulers:
             return
         ctx.set_source_rgba(*color.to_rgba(self.cal.colors['inactive']))
-        ctx.rectangle(rect.x, rect.y, rect.width, rect.height)
+        (width, height) = self.get_allocation()
+        x,y,width,height = self.align(width, height)
+        ctx.rectangle(x, y, width, height)
         ctx.set_line_width(1)
         ctx.set_dash((1, 1))
         ctx.clip()
