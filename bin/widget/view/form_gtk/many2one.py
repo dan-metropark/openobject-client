@@ -23,8 +23,6 @@ import gobject
 import gtk
 import copy
 
-import gettext
-
 import interface
 import wid_common
 import common

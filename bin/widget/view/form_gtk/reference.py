@@ -19,20 +19,13 @@
 #
 ##############################################################################
 
-import copy
-import gettext
-
 import gobject
 import gtk
 
-import gettext
-
 import interface
-import wid_common
 import common
 from many2one import dialog
 from modules.gui.window.win_search import win_search
-
 import rpc
 from rpc import RPCProxy
 
@@ -77,11 +70,11 @@ class reference(interface.widget_interface):
         self.widget.pack_start(self.but_new, expand=False, fill=False)
 
         self.but_open = gtk.Button()
-        img_find = gtk.Image()
-        img_find.set_from_stock('gtk-find',gtk.ICON_SIZE_BUTTON)
-        img_open = gtk.Image()
-        img_open.set_from_stock('gtk-open',gtk.ICON_SIZE_BUTTON)
-        self.but_open.set_image(img_find)
+        self.img_find = gtk.Image()
+        self.img_find.set_from_stock('gtk-find',gtk.ICON_SIZE_BUTTON)
+        self.img_open = gtk.Image()
+        self.img_open.set_from_stock('gtk-open',gtk.ICON_SIZE_BUTTON)
+        self.but_open.set_image(self.img_find)
         self.but_open.set_relief(gtk.RELIEF_NONE)
         self.but_open.connect('clicked', self.sig_edit)
         self.but_open.set_alignment(0.5, 0.5)
@@ -167,32 +160,26 @@ class reference(interface.widget_interface):
                 context = self._view.modelfield.context_get(self._view.model)
 
                 ids = rpc.session.rpc_exec_auth('/object', 'execute', model,
-                        'name_search', self.wid_text.get_text(), domain,
-                        'ilike', context)
-                if len(ids)==1:
+                        'name_search', self.wid_text.get_text(), domain, 'ilike', context)
+                if len(ids) == 1:
                     id, name = ids[0]
-                    self._view.modelfield.set_client(self._view.model,
-                            (model, [id, name]))
+                    self._view.modelfield.set_client(self._view.model, (model, [id, name]))
                     self.display(self._view.model, self._view.modelfield)
                     self.ok = True
                     self.wid_text_focus_out_id = self.wid_text.connect_after(
                         'focus-out-event', self.sig_activate, True)
                     return True
-
-                win = win_search(model, sel_multi=False,
-                        ids=[x[0] for x in ids], context=context,
-                        domain=domain, parent=self._window)
+                win = win_search(model, sel_multi=False, ids = [x[0] for x in ids], context=context, 
+                                 domain=domain, parent=self._window)
                 ids = win.go()
                 if ids:
                     id, name = rpc.session.rpc_exec_auth('/object', 'execute',
-                            model, 'name_get', [ids[0]],
-                            rpc.session.context)[0]
-                    self._view.modelfield.set_client(self._view.model,
-                            (model, [id, name]))
+                            model, 'name_get', [ids[0]], rpc.session.context)[0]
+                    self._view.modelfield.set_client(self._view.model, (model, [id, name]))
         self.wid_text_focus_out_id = self.wid_text.connect_after(
                 'focus-out-event', self.sig_activate, True)
         self.display(self._view.model, self._view.modelfield)
-        self.ok=True
+        self.ok = True
 
     def sig_new(self, *args):
         dia = dialog(self.get_model(), window=self._window)
@@ -206,9 +193,9 @@ class reference(interface.widget_interface):
     sig_edit = sig_activate
 
     def sig_key_press(self, widget, event, *args):
-        if event.keyval==gtk.keysyms.F1:
+        if event.keyval == gtk.keysyms.F1:
             self.sig_new(widget, event)
-        elif event.keyval==gtk.keysyms.F2:
+        elif event.keyval == gtk.keysyms.F2:
             self.sig_activate(widget, event)
         return False
 
@@ -234,7 +221,6 @@ class reference(interface.widget_interface):
         super(reference, self).display(model, model_field)
         value = model_field.get_client(model)
         self.ok = False
-        img = gtk.Image()
         if not value:
             model, (id, name) = '', (0, '')
             self.wid_text.set_text('')
@@ -246,12 +232,11 @@ class reference(interface.widget_interface):
             if not name:
                 id, name = RPCProxy(model).name_get([id], rpc.session.context)[0]
             self.wid_text.set_text(name)
-            img.set_from_stock('gtk-open',gtk.ICON_SIZE_BUTTON)
-            self.but_open.set_image(img)
+            self.but_open.set_image(self.img_open)
         else:
             self.wid_text.set_text('')
-            img.set_from_stock('gtk-find',gtk.ICON_SIZE_BUTTON)
-            self.but_open.set_image(img)
+            self.wid_text.set_position(0)
+            self.but_open.set_image(self.img_find)
         self.ok = True
 
     def sig_key_pressed(self, *args):
