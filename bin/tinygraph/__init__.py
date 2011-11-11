@@ -22,6 +22,7 @@ import tools
 from tools import user_locale_format
 HM_FORMAT = ' %H:%M:%S'
 from datetime import datetime
+from matplotlib.ticker import FormatStrFormatter
 
 import matplotlib
 matplotlib.use('GTKCairo')
@@ -113,10 +114,12 @@ def tinygraph(subplot, type='pie', axis={}, axis_data={}, datas=[], axis_group_f
             subplot.set_yticks(ind)
             subplot.set_yticklabels(tuple(axis_lable), visible=True, ha='right', size=8)
             subplot.xaxis.grid(True,'major',linestyle='-',color='gray')
+            subplot.xaxis.set_major_formatter(FormatStrFormatter('%0.0f'))
         else:
             subplot.set_xticks(ind)
             subplot.set_xticklabels(tuple(axis_lable), visible=True, ha='right', size=8, rotation='vertical')
             subplot.yaxis.grid(True,'major',linestyle='-',color='gray')
+            subplot.yaxis.set_major_formatter(FormatStrFormatter('%0.0f'))
 
         colors = choice_colors(max(n,len(axis_group)))
         for i in range(n):
