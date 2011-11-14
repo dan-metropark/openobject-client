@@ -44,7 +44,7 @@ class filter(wid_int.wid_int):
         self.butt.set_image_position(gtk.POS_TOP)
         self.butt.modify_bg(gtk.STATE_ACTIVE, gtk.gdk.color_parse("grey"))
         self.butt.modify_bg(gtk.STATE_PRELIGHT, gtk.gdk.color_parse("light grey"))
-        help = attrs.get('help', False) or attrs.get('string', False)
+        help = attrs.get('help') or attrs.get('string')
         if help:
             self.butt.set_tooltip_markup(tools.to_xml(help))
         self.domain = attrs.get('domain', "[]")
@@ -55,17 +55,17 @@ class filter(wid_int.wid_int):
         self.butt.connect('toggled', call[1])
         self.screen_context = call[0].context
         self.widget = self.butt
+        self.filter_group = False
 
     def _value_get(self):
         if not self.butt.get_active():
             ctx = tools.expr_eval(self.context, {'context':self.screen_context})
             group = ctx.get('group_by',False)
             if group:
-                return {'context': {'remove_group':True}, 'name':self.name}
+                return {'context': {'remove_group':True}}
             return {}
         return {'domain': tools.expr_eval(self.domain, {'context':self.screen_context}),
-                'context': tools.expr_eval(self.context, {'context':self.screen_context}),
-                'name':self.name }
+                'context': tools.expr_eval(self.context, {'context':self.screen_context})}
 
     def sig_exec(self, widget):
         pass
