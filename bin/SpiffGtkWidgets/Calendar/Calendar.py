@@ -124,7 +124,7 @@ class Calendar(hippo.Canvas):
         self.colors = dict(bg            = c2i(style.bg[gtk.STATE_PRELIGHT]),
                            text          = c2i(style.fg[gtk.STATE_NORMAL]),
                            text_inactive = c2i(style.fg[gtk.STATE_INSENSITIVE]),
-                           body          = c2i(style.light[gtk.STATE_ACTIVE]),
+                           body          = c2i('white'),
                            body_today    = c2i('peach puff'),
                            border        = c2i(style.mid[gtk.STATE_NORMAL]),
                            selected      = c2i(style.mid[gtk.STATE_SELECTED]),

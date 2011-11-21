@@ -86,21 +86,21 @@ class CanvasRectangle(hippo.CanvasBox):
 
 
     def do_paint_below_children(self, ctx, rect):
+        (width, height) = self.get_allocation()
+
         ctx.set_source_rgba(*color.to_rgba(self.props.color))
-        ctx.rectangle(rect.x, rect.y, rect.width, rect.height)
+        x,y,w,h = self.align(width, height)
+        ctx.rectangle(x,y,w,h)
         ctx.clip()
         rtl  = self.props.radius_top_left
         rtr  = self.props.radius_top_right
         rbl  = self.props.radius_bottom_left
         rbr  = self.props.radius_bottom_right
-        x, y = 0, 0
-        w, h = self.get_allocation()
-
-        #  A****BQ
-        # H      C
-        # *      *
-        # G      D
-        #  F****E
+#        #  A****BQ
+#        # H      C
+#        # *      *
+#        # G      D
+#        #  F****E
         ctx.move_to(x+rtl,y)                      # A
         ctx.line_to(x+w-rtr,y)                    # B
         ctx.curve_to(x+w,y,x+w,y,x+w,y+rtr)       # C, both control points at Q
@@ -109,7 +109,8 @@ class CanvasRectangle(hippo.CanvasBox):
         ctx.line_to(x+rbl,y+h)                    # F
         ctx.curve_to(x,y+h,x,y+h,x,y+h-rbl)       # G
         ctx.line_to(x,y+rtl)                      # H
-        ctx.curve_to(x,y,x,y,x+rtl,y)             # A
-        ctx.fill()
+        ctx.curve_to(x,y,x,y,x+rtl,y)     
+        ctx.close_path()       
+        ctx.fill_preserve()
 
 gobject.type_register(CanvasRectangle)
