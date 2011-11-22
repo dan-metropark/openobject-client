@@ -224,3 +224,5 @@ def str2float(string, func=float):
         if func == int:
             type = 'integer'
         raise ValueError("%r does not represent a valid %s value" % (string,type))
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

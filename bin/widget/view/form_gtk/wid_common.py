@@ -70,3 +70,5 @@ def field_pref_set(field, name, model, value, pwdfield, dependance=None, window=
         rpc.session.rpc_exec_auth('/object', 'execute', 'ir.values', 'set', 'default', deps, field, [(model,False)], value, True, False, False, radio.get_active(), True)
         return True
     return False
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

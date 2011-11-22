@@ -114,3 +114,5 @@ Examples:
         sys.exit(1)
     else:
         parser.get_with_server_info()
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
