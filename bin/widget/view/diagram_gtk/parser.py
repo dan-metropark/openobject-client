@@ -93,7 +93,7 @@ class Viewdiagram(object):
                                           shape=record['shape'],
                                           color=record['bgcolor'],
                                           URL=quote_string(node[1]['name'] + "_" + node[0]  + "_node"),
-                                          ))
+                                          fontname='Times New Roman'))
                 node_lst[node[0]]  = node[1]['name']
             for edge in dict['transitions'].iteritems():
                 if len(edge) < 1 or str(edge[1][0]) not in node_lst or str(edge[1][1]) not in node_lst:
@@ -101,8 +101,7 @@ class Viewdiagram(object):
                 graph.add_edge(pydot.Edge(quote_string(node_lst[str(edge[1][0])]),quote_string(node_lst[str(edge[1][1])]),
                                           label=quote_string(dict['label'][edge[0]][1]),
                                           URL=quote_string(dict['label'][edge[0]][1] + "_" + edge[0] + "_edge"),
-                                          fontsize='10',
-                                          ))
+                                          fontsize='10', fontname='Times New Roman' ))
             file =  graph.create_xdot()
             if 'node_parent_field' in dict:
                 self.node['parent_field'] = dict['node_parent_field']

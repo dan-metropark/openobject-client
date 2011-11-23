@@ -66,7 +66,8 @@ class Pen:
         self.fillcolor = (0.0, 0.0, 0.0, 1.0)
         self.linewidth = 1.0
         self.fontsize = 14.0
-        self.fontname = "Times-Roman"
+        #seems like an upstream bug which is not able to set Times-Roman font on windows
+        self.fontname = "Times New Roman"
         self.dash = ()
 
     def copy(self):
