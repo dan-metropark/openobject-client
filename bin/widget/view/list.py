@@ -946,3 +946,5 @@ class ViewList(parser_view):
         if len(values) < 1:
             return final_path
 
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
