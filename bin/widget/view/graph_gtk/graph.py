@@ -109,26 +109,26 @@ class ViewGraph(object):
                     self.axis_data[x] = self.fields[x]
                 field_val = m[x].get_client(m)
                 if self.fields[x]['type'] in ('many2one', 'char','time','text'):
-                    res[x] = field_val and str(field_val) or 'Undefined'
+                    res[x] = field_val and str(field_val) or _('Undefined')
                 elif self.fields[x]['type'] == 'selection':
                     selection = dict(m[x].attrs['selection'])
                     if field_val:
                         val = str(field_val)
                         res[x] = selection.get(val, val)
                     else:
-                        res[x] = 'Undefined'
+                        res[x] = _('Undefined')
                 elif self.fields[x]['type'] == 'date':
                     if field_val:
                         res[x] = datetime_util.server_to_local_timestamp(field_val,
                                     DT_FORMAT, user_locale_format.get_date_format(), tz_offset=False)
                     else:
-                        res[x] = 'Undefined'
+                        res[x] = _('Undefined')
                 elif self.fields[x]['type'] == 'datetime':
                     if field_val:
                         res[x] = datetime_util.server_to_local_timestamp(field_val,
                                     DHM_FORMAT, user_locale_format.get_datetime_format(True))
                     else:
-                        res[x] = 'Undefined'
+                        res[x] = _('Undefined')
                 else:
                     res[x] = field_val and float(field_val) or 0.0
             datas.append(res)

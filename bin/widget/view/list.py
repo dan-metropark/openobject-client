@@ -180,7 +180,7 @@ class list_record(object):
                             field_type = self.mgroup.fields.get(field, {}).get('type', False)
                             if field in inner_gb or field_type in ('integer', 'float', 'boolean'):
                                 continue
-                            rec.value[field] = 'Undefined'
+                            rec.value[field] = _('Undefined')
                             rec.field_with_empty_labels.append(field)
                     self.add(rec)
         else:
