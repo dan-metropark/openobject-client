@@ -11,77 +11,75 @@ msgstr ""
 "PO-Revision-Date: 2011-07-25 15:57+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Latvian <lv@li.org>\n"
-"Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-11-08 05:34+0000\n"
-"X-Generator: Launchpad (build 14231)\n"
-#
-# File: bin/common/common.py, line: 88
+"X-Launchpad-Export-Date: 2011-11-30 05:25+0000\n"
+"X-Generator: Launchpad (build 14404)\n"
+"Language: lv\n"
+
+#: bin/common/common.py:88
 msgid "Close current tip"
 msgstr ""
-#
-# File: bin/common/common.py, line: 89
+
+#: bin/common/common.py:89
 msgid ""
 "<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
 "This will hide the current tip. It will be displayed again next time you "
-"open this menu item, unless you disable all tips using the <b>'Menu Tips'</"
-"b> option in the user preferences."
+"open this menu item, unless you disable all tips using the <b>'Menu "
+"Tips'</b> option in the user preferences."
 msgstr ""
-#
-# File: bin/common/common.py, line: 99
+
+#: bin/common/common.py:99
 msgid "Disable all tips"
 msgstr ""
-#
-# File: bin/common/common.py, line: 100
+
+#: bin/common/common.py:100
 msgid ""
 "<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
 "This will disable the display of tips on all menu items.\n"
 "To re-enable tips you need to check the <b>'Menu Tips'</b> option in the "
 "user preferences."
 msgstr ""
-#
-# File: bin/common/common.py, line: 114
-# File: bin/common/common.py, line: 116
+
+#: bin/common/common.py:114 bin/common/common.py:116
 msgid "Tips"
 msgstr ""
-#
-# File: bin/common/common.py, line: 167
+
+#: bin/common/common.py:167
 msgid "OpenERP Computing"
 msgstr "OpenERP skaitļo"
-#
-# File: bin/common/common.py, line: 186
+
+#: bin/common/common.py:186
 msgid "Operation in progress"
 msgstr "Operācija progresā"
-#
-# File: bin/common/common.py, line: 190
+
+#: bin/common/common.py:190
 msgid ""
 "Please wait,\n"
 "this operation may take a while..."
 msgstr ""
 "Lūdzu uzgaidiet,\n"
 "datu apstrāde var aizņemt kādu laiku..."
-#
-# File: bin/common/common.py, line: 224
+
+#: bin/common/common.py:224
 #, python-format
 msgid "Ensure that the file %s is correct"
 msgstr ""
-#
-# File: bin/common/common.py, line: 410
+
+#: bin/common/common.py:410
 msgid " has reported the following bug:\n"
 msgstr ""
-#
-# File: bin/common/common.py, line: 410
+
+#: bin/common/common.py:410
 msgid "remarks"
 msgstr ""
-#
-# File: bin/common/common.py, line: 413
+
+#: bin/common/common.py:413
 msgid "Support request sent !"
 msgstr "Atbalsta pieprasījums ir nosūtīts!"
-#
-# File: bin/common/common.py, line: 436
-# File: bin/common/common.py, line: 480
+
+#: bin/common/common.py:436 bin/common/common.py:480
 msgid ""
 "\n"
 "<b>An unknown error has been reported.</b>\n"
@@ -107,8 +105,8 @@ msgid ""
 "You can use the link bellow for more information. The detail of the error\n"
 "is displayed on the second tab.\n"
 msgstr ""
-#
-# File: bin/common/common.py, line: 459
+
+#: bin/common/common.py:459
 #, python-format
 msgid ""
 "\n"
@@ -134,16 +132,16 @@ msgid ""
 "You can use the link bellow for more information. The detail of the error\n"
 "is displayed on the second tab."
 msgstr ""
-#
-# File: bin/common/common.py, line: 536
+
+#: bin/common/common.py:536
 msgid ""
 "Your problem has been sent to the quality team !\n"
 "We will recontact you after analysing the problem."
 msgstr ""
 "Jūsu pieteikums ir nosūtīts kvalitātes kontroles komandai!\n"
 "Sazināsimies pēc problēmas analīzes."
-#
-# File: bin/common/common.py, line: 539
+
+#: bin/common/common.py:539
 #, python-format
 msgid ""
 "Your problem could *NOT* be sent to the quality team !\n"
@@ -153,76 +151,64 @@ msgstr ""
 "Jūsu problēma netika nosūtīta kvalitātes komandai!\n"
 "Lūdzu paziņojiet par šo kļūdu:\n"
 "\t%s"
-#
-# File: bin/common/common.py, line: 539
+
+#: bin/common/common.py:539
 msgid "Error"
 msgstr "Kļūda"
-#
-# File: bin/common/common.py, line: 695
+
+#: bin/common/common.py:695
 msgid "Open with..."
 msgstr "Atvērt ar..."
-#
-# File: bin/rpc.py, line: 157
-# File: bin/modules/action/wizard.py, line: 149
-# File: bin/modules/gui/main.py, line: 187
+
+#: bin/rpc.py:157 bin/modules/action/wizard.py:149 bin/modules/gui/main.py:187
 msgid "Connection refused !"
 msgstr "Pieslēgšanās atteikta!"
-#
-# File: bin/rpc.py, line: 158
+
+#: bin/rpc.py:158
 msgid "Connection refused!"
 msgstr "Pieslēgšanās atteikta!"
-#
-# File: bin/rpc.py, line: 188
+
+#: bin/rpc.py:188
 msgid ""
 "Unable to reach to OpenERP server !\n"
 "You should check your connection to the network and the OpenERP server."
 msgstr ""
 "Nav iespējams piekļūt OpenERP serverim!\n"
 "Pārbaudi tīkla datortīkla pieslēgumu līdz OpenERP serverim."
-#
-# File: bin/rpc.py, line: 188
+
+#: bin/rpc.py:188
 msgid "Connection Error"
 msgstr "Savienojuma kļūda"
-#
-# File: bin/rpc.py, line: 203
-# File: bin/rpc.py, line: 205
-# File: bin/modules/action/wizard.py, line: 161
-# File: bin/modules/action/wizard.py, line: 167
-# File: bin/modules/action/wizard.py, line: 169
-# File: bin/modules/gui/main.py, line: 195
-# File: bin/modules/gui/main.py, line: 201
+
+#: bin/rpc.py:203 bin/rpc.py:205 bin/modules/action/wizard.py:161
+#: bin/modules/action/wizard.py:167 bin/modules/action/wizard.py:169
+#: bin/modules/gui/main.py:195 bin/modules/gui/main.py:201
 msgid "Application Error"
 msgstr "Aplikācijas kļūda"
-#
-# File: bin/rpc.py, line: 205
-# File: bin/modules/action/wizard.py, line: 169
+
+#: bin/rpc.py:205 bin/modules/action/wizard.py:169
 msgid "View details"
 msgstr "Skatīt detaļas"
-#
-# File: bin/translate.py, line: 185
+
+#: bin/translate.py:185
 #, python-format
 msgid "Unable to set locale %(lang_enc)s: %(exception)s"
 msgstr ""
-#
-# File: bin/widget_search/reference.py, line: 77
-# File: bin/widget_search/spinbutton.py, line: 92
-# File: bin/widget_search/custom_filter.py, line: 141
-# File: bin/widget_search/filter.py, line: 79
-# File: bin/widget_search/char.py, line: 72
-# File: bin/widget_search/spinint.py, line: 94
-# File: bin/widget_search/calendar.py, line: 125
-# File: bin/widget_search/calendar.py, line: 250
-# File: bin/widget_search/checkbox.py, line: 68
-# File: bin/widget_search/selection.py, line: 116
-# File: bin/widget/view/form_gtk/button.py, line: 47
+
+#: bin/widget_search/reference.py:77 bin/widget_search/spinbutton.py:92
+#: bin/widget_search/custom_filter.py:141 bin/widget_search/filter.py:79
+#: bin/widget_search/char.py:72 bin/widget_search/spinint.py:94
+#: bin/widget_search/calendar.py:125 bin/widget_search/calendar.py:250
+#: bin/widget_search/checkbox.py:68 bin/widget_search/selection.py:116
+#: bin/widget/view/form_gtk/button.py:47
 msgid "The content of the widget or ValueError if not valid"
 msgstr "Miniprogrammas vai KļūdasVērtības saturs, kad rezultāts nav derīgs"
-#
-# File: bin/widget_search/date_widget.py, line: 65
-# File: bin/widget/view/form_gtk/date_widget.py, line: 65
+
+#: bin/widget_search/date_widget.py:65
+#: bin/widget/view/form_gtk/date_widget.py:65
 msgid ""
-"You can use special operation by pressing +, - or =.  Plus/minus adds/"
-"decrease the variable to the current selected date. Equals set part of "
+"You can use special operation by pressing +, - or =.  Plus/minus "
+"adds/decrease the variable to the current selected date. Equals set part of "
 "selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
 "weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
 "* +21d : adds 21 days to selected year\n"
@@ -241,933 +227,894 @@ msgstr ""
 "* -4m : atskaitīt 4 mēnešus no pašreizējā datuma\n"
 "Var lietot \"=\", lai norādītu tekošo datumu/laiku, vai '-', lai dzēstu "
 "lauka saturu."
-#
-# File: bin/widget_search/custom_filter.py, line: 51
+
+#: bin/widget_search/custom_filter.py:51
 msgid "AND"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter.py, line: 52
+
+#: bin/widget_search/custom_filter.py:52
 msgid "OR"
 msgstr ""
-#
-# File: bin/widget_search/char.py, line: 45
+
+#: bin/widget_search/char.py:45
 msgid "Error: "
 msgstr ""
-#
-# File: bin/widget_search/form.py, line: 500
+
+#: bin/widget_search/form.py:500
 msgid "The content of the form or exception if not valid"
 msgstr "Formas saturs vai izņēmums, ja nav pareizs"
-#
-# File: bin/widget_search/calendar.py, line: 49
-# File: bin/widget_search/calendar.py, line: 177
+
+#: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
 msgid "Start date"
 msgstr "Sākuma datums"
-#
-# File: bin/widget_search/calendar.py, line: 53
-# File: bin/widget_search/calendar.py, line: 73
-# File: bin/widget_search/calendar.py, line: 181
-# File: bin/widget_search/calendar.py, line: 201
-# File: bin/widget/view/form_gtk/calendar.py, line: 57
-# File: bin/widget/view/form_gtk/calendar.py, line: 184
+
+#: bin/widget_search/calendar.py:53 bin/widget_search/calendar.py:73
+#: bin/widget_search/calendar.py:181 bin/widget_search/calendar.py:201
+#: bin/widget/view/form_gtk/calendar.py:57
+#: bin/widget/view/form_gtk/calendar.py:184
 msgid "Open the calendar widget"
 msgstr "Atvērt kalendāru"
-#
-# File: bin/widget_search/calendar.py, line: 69
-# File: bin/widget_search/calendar.py, line: 197
+
+#: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
 msgid "End date"
 msgstr "Beigu datums"
-#
-# File: bin/widget_search/calendar.py, line: 128
-# File: bin/widget_search/calendar.py, line: 267
-# File: bin/widget/view/form_gtk/calendar.py, line: 135
-# File: bin/widget/view/form_gtk/calendar.py, line: 249
+
+#: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
+#: bin/widget/view/form_gtk/calendar.py:135
+#: bin/widget/view/form_gtk/calendar.py:249
 msgid "OpenERP - Date selection"
 msgstr "OpenERP - datuma izvēlne"
-#
-# File: bin/widget_search/calendar.py, line: 273
-# File: bin/widget/view/form_gtk/calendar.py, line: 255
+
+#: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
 msgid "Hour:"
 msgstr "Stunda:"
-#
-# File: bin/widget_search/calendar.py, line: 276
-# File: bin/widget/view/form_gtk/calendar.py, line: 258
+
+#: bin/widget_search/calendar.py:276 bin/widget/view/form_gtk/calendar.py:258
 msgid "Minute:"
 msgstr "Minūte:"
-#
-# File: bin/widget_search/calendar.py, line: 312
-# File: bin/widget/view/form_gtk/calendar.py, line: 291
+
+#: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
 msgid "Invalid datetime value! Year must be greater than 1899 !"
 msgstr ""
-#
-# File: bin/widget_search/wid_int.py, line: 56
+
+#: bin/widget_search/wid_int.py:56
 msgid "The content of the widget or exception if not valid"
 msgstr ""
-#
-# File: bin/widget_search/checkbox.py, line: 35
-# File: bin/widget_search/checkbox.py, line: 42
-# File: bin/widget_search/checkbox.py, line: 55
+
+#: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
+#: bin/widget_search/checkbox.py:55
 msgid "Yes"
 msgstr "Jā"
-#
-# File: bin/widget_search/checkbox.py, line: 36
-# File: bin/widget_search/checkbox.py, line: 44
+
+#: bin/widget_search/checkbox.py:36 bin/widget_search/checkbox.py:44
 msgid "No"
 msgstr "Nē"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 36
-# File: bin/widget_search/custom_filter_widgets.py, line: 63
-# File: bin/widget_search/custom_filter_widgets.py, line: 103
-# File: bin/widget_search/custom_filter_widgets.py, line: 132
-# File: bin/widget_search/custom_filter_widgets.py, line: 154
-# File: bin/widget_search/custom_filter_widgets.py, line: 161
-# File: bin/widget_search/custom_filter_widgets.py, line: 185
-# File: bin/widget_search/custom_filter_widgets.py, line: 217
-# File: bin/widget_search/custom_filter_widgets.py, line: 230
-# File: bin/widget_search/custom_filter_widgets.py, line: 262
-# File: bin/widget_search/custom_filter_widgets.py, line: 277
+
+#: bin/widget_search/custom_filter_widgets.py:36
+#: bin/widget_search/custom_filter_widgets.py:63
+#: bin/widget_search/custom_filter_widgets.py:103
+#: bin/widget_search/custom_filter_widgets.py:132
+#: bin/widget_search/custom_filter_widgets.py:154
+#: bin/widget_search/custom_filter_widgets.py:161
+#: bin/widget_search/custom_filter_widgets.py:185
+#: bin/widget_search/custom_filter_widgets.py:217
+#: bin/widget_search/custom_filter_widgets.py:230
+#: bin/widget_search/custom_filter_widgets.py:262
+#: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 37
-# File: bin/widget_search/custom_filter_widgets.py, line: 64
-# File: bin/widget_search/custom_filter_widgets.py, line: 103
-# File: bin/widget_search/custom_filter_widgets.py, line: 132
-# File: bin/widget_search/custom_filter_widgets.py, line: 155
-# File: bin/widget_search/custom_filter_widgets.py, line: 162
-# File: bin/widget_search/custom_filter_widgets.py, line: 186
-# File: bin/widget_search/custom_filter_widgets.py, line: 217
-# File: bin/widget_search/custom_filter_widgets.py, line: 231
-# File: bin/widget_search/custom_filter_widgets.py, line: 262
-# File: bin/widget_search/custom_filter_widgets.py, line: 278
+
+#: bin/widget_search/custom_filter_widgets.py:37
+#: bin/widget_search/custom_filter_widgets.py:64
+#: bin/widget_search/custom_filter_widgets.py:103
+#: bin/widget_search/custom_filter_widgets.py:132
+#: bin/widget_search/custom_filter_widgets.py:155
+#: bin/widget_search/custom_filter_widgets.py:162
+#: bin/widget_search/custom_filter_widgets.py:186
+#: bin/widget_search/custom_filter_widgets.py:217
+#: bin/widget_search/custom_filter_widgets.py:231
+#: bin/widget_search/custom_filter_widgets.py:262
+#: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 38
-# File: bin/widget_search/custom_filter_widgets.py, line: 49
-# File: bin/widget_search/custom_filter_widgets.py, line: 56
-# File: bin/widget_search/custom_filter_widgets.py, line: 65
-# File: bin/widget_search/custom_filter_widgets.py, line: 145
-# File: bin/widget_search/custom_filter_widgets.py, line: 156
-# File: bin/widget_search/custom_filter_widgets.py, line: 163
-# File: bin/widget_search/custom_filter_widgets.py, line: 188
-# File: bin/widget_search/custom_filter_widgets.py, line: 207
-# File: bin/widget_search/custom_filter_widgets.py, line: 215
-# File: bin/widget_search/custom_filter_widgets.py, line: 233
-# File: bin/widget_search/custom_filter_widgets.py, line: 252
-# File: bin/widget_search/custom_filter_widgets.py, line: 260
+
+#: bin/widget_search/custom_filter_widgets.py:38
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:65
+#: bin/widget_search/custom_filter_widgets.py:145
+#: bin/widget_search/custom_filter_widgets.py:156
+#: bin/widget_search/custom_filter_widgets.py:163
+#: bin/widget_search/custom_filter_widgets.py:188
+#: bin/widget_search/custom_filter_widgets.py:207
+#: bin/widget_search/custom_filter_widgets.py:215
+#: bin/widget_search/custom_filter_widgets.py:233
+#: bin/widget_search/custom_filter_widgets.py:252
+#: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 39
-# File: bin/widget_search/custom_filter_widgets.py, line: 49
-# File: bin/widget_search/custom_filter_widgets.py, line: 56
-# File: bin/widget_search/custom_filter_widgets.py, line: 66
-# File: bin/widget_search/custom_filter_widgets.py, line: 145
-# File: bin/widget_search/custom_filter_widgets.py, line: 157
-# File: bin/widget_search/custom_filter_widgets.py, line: 164
-# File: bin/widget_search/custom_filter_widgets.py, line: 189
-# File: bin/widget_search/custom_filter_widgets.py, line: 207
-# File: bin/widget_search/custom_filter_widgets.py, line: 215
-# File: bin/widget_search/custom_filter_widgets.py, line: 234
-# File: bin/widget_search/custom_filter_widgets.py, line: 252
-# File: bin/widget_search/custom_filter_widgets.py, line: 260
+
+#: bin/widget_search/custom_filter_widgets.py:39
+#: bin/widget_search/custom_filter_widgets.py:49
+#: bin/widget_search/custom_filter_widgets.py:56
+#: bin/widget_search/custom_filter_widgets.py:66
+#: bin/widget_search/custom_filter_widgets.py:145
+#: bin/widget_search/custom_filter_widgets.py:157
+#: bin/widget_search/custom_filter_widgets.py:164
+#: bin/widget_search/custom_filter_widgets.py:189
+#: bin/widget_search/custom_filter_widgets.py:207
+#: bin/widget_search/custom_filter_widgets.py:215
+#: bin/widget_search/custom_filter_widgets.py:234
+#: bin/widget_search/custom_filter_widgets.py:252
+#: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 40
-# File: bin/widget_search/custom_filter_widgets.py, line: 67
-# File: bin/widget_search/custom_filter_widgets.py, line: 99
+
+#: bin/widget_search/custom_filter_widgets.py:40
+#: bin/widget_search/custom_filter_widgets.py:67
+#: bin/widget_search/custom_filter_widgets.py:99
 msgid "contains"
 msgstr "satur"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 41
-# File: bin/widget_search/custom_filter_widgets.py, line: 68
-# File: bin/widget_search/custom_filter_widgets.py, line: 99
+
+#: bin/widget_search/custom_filter_widgets.py:41
+#: bin/widget_search/custom_filter_widgets.py:68
+#: bin/widget_search/custom_filter_widgets.py:99
 msgid "doesn't contain"
 msgstr "nesatur"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 89
-# File: bin/widget/view/form_gtk/many2one.py, line: 161
+
+#: bin/widget_search/custom_filter_widgets.py:89
+#: bin/widget/view/form_gtk/many2one.py:161
 msgid "Search a resource"
 msgstr "Meklēt resursu"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 172
+
+#: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 187
-# File: bin/widget_search/custom_filter_widgets.py, line: 201
-# File: bin/widget_search/custom_filter_widgets.py, line: 232
-# File: bin/widget_search/custom_filter_widgets.py, line: 246
-# File: bin/widget_search/custom_filter_widgets.py, line: 301
-# File: bin/widget_search/custom_filter_widgets.py, line: 315
-# File: bin/widget_search/custom_filter_widgets.py, line: 327
-# File: bin/widget_search/custom_filter_widgets.py, line: 342
-# File: bin/widget_search/custom_filter_widgets.py, line: 355
-# File: bin/widget_search/custom_filter_widgets.py, line: 367
+
+#: bin/widget_search/custom_filter_widgets.py:187
+#: bin/widget_search/custom_filter_widgets.py:201
+#: bin/widget_search/custom_filter_widgets.py:232
+#: bin/widget_search/custom_filter_widgets.py:246
+#: bin/widget_search/custom_filter_widgets.py:301
+#: bin/widget_search/custom_filter_widgets.py:315
+#: bin/widget_search/custom_filter_widgets.py:327
+#: bin/widget_search/custom_filter_widgets.py:342
+#: bin/widget_search/custom_filter_widgets.py:355
+#: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 190
-# File: bin/widget_search/custom_filter_widgets.py, line: 204
-# File: bin/widget_search/custom_filter_widgets.py, line: 235
-# File: bin/widget_search/custom_filter_widgets.py, line: 249
-# File: bin/widget_search/custom_filter_widgets.py, line: 302
-# File: bin/widget_search/custom_filter_widgets.py, line: 318
-# File: bin/widget_search/custom_filter_widgets.py, line: 327
-# File: bin/widget_search/custom_filter_widgets.py, line: 343
-# File: bin/widget_search/custom_filter_widgets.py, line: 358
-# File: bin/widget_search/custom_filter_widgets.py, line: 367
+
+#: bin/widget_search/custom_filter_widgets.py:190
+#: bin/widget_search/custom_filter_widgets.py:204
+#: bin/widget_search/custom_filter_widgets.py:235
+#: bin/widget_search/custom_filter_widgets.py:249
+#: bin/widget_search/custom_filter_widgets.py:302
+#: bin/widget_search/custom_filter_widgets.py:318
+#: bin/widget_search/custom_filter_widgets.py:327
+#: bin/widget_search/custom_filter_widgets.py:343
+#: bin/widget_search/custom_filter_widgets.py:358
+#: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 295
-# File: bin/widget_search/custom_filter_widgets.py, line: 336
+
+#: bin/widget_search/custom_filter_widgets.py:295
+#: bin/widget_search/custom_filter_widgets.py:336
 msgid "is equal to"
 msgstr "ir vienāds ar"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 296
-# File: bin/widget_search/custom_filter_widgets.py, line: 337
+
+#: bin/widget_search/custom_filter_widgets.py:296
+#: bin/widget_search/custom_filter_widgets.py:337
 msgid "is not equal to"
 msgstr "nav vienāds ar"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 297
-# File: bin/widget_search/custom_filter_widgets.py, line: 338
+
+#: bin/widget_search/custom_filter_widgets.py:297
+#: bin/widget_search/custom_filter_widgets.py:338
 msgid "greater than"
 msgstr "lielāks par"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 298
-# File: bin/widget_search/custom_filter_widgets.py, line: 339
+
+#: bin/widget_search/custom_filter_widgets.py:298
+#: bin/widget_search/custom_filter_widgets.py:339
 msgid "less than"
 msgstr "mazāks par"
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 299
-# File: bin/widget_search/custom_filter_widgets.py, line: 340
+
+#: bin/widget_search/custom_filter_widgets.py:299
+#: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
 msgstr ""
-#
-# File: bin/widget_search/custom_filter_widgets.py, line: 300
-# File: bin/widget_search/custom_filter_widgets.py, line: 341
+
+#: bin/widget_search/custom_filter_widgets.py:300
+#: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
 msgstr ""
-#
-# File: bin/plugins/__init__.py, line: 27
+
+#: bin/plugins/__init__.py:27
 msgid "Print Workflow"
 msgstr "Drukāt darbplūsmu"
-#
-# File: bin/plugins/__init__.py, line: 28
+
+#: bin/plugins/__init__.py:28
 msgid "Print Workflow (with subflows)"
 msgstr "Drukāt darbplūsmu (ar apakšplūsmām)"
-#
-# File: bin/plugins/__init__.py, line: 40
+
+#: bin/plugins/__init__.py:40
 msgid "No available plugin for this resource !"
 msgstr "Šim resursam nav pieejami papildinājumi!"
-#
-# File: bin/plugins/__init__.py, line: 42
+
+#: bin/plugins/__init__.py:42
 msgid "Choose a Plugin"
 msgstr "Izvēlies papildinājumu"
-#
-# File: bin/options.py, line: 122
+
+#: bin/options.py:122
 #, python-format
 msgid "OpenERP Client %s"
 msgstr "OpenERP klients %s"
-#
-# File: bin/options.py, line: 123
+
+#: bin/options.py:123
 msgid "specify alternate config file"
 msgstr "norādi citu konfigurācijas datni"
-#
-# File: bin/options.py, line: 124
+
+#: bin/options.py:124
 msgid "Enable basic debugging. Alias for '--log-level=debug'"
 msgstr ""
-#
-# File: bin/options.py, line: 125
+
+#: bin/options.py:125
 #, python-format
 msgid "specify the log level: %s"
 msgstr ""
-#
-# File: bin/options.py, line: 126
+
+#: bin/options.py:126
 msgid "specify the user login"
 msgstr "norādi lietotāja vārdu (login)"
-#
-# File: bin/options.py, line: 127
+
+#: bin/options.py:127
 msgid "specify the server port"
 msgstr "norādi servera portu"
-#
-# File: bin/options.py, line: 128
+
+#: bin/options.py:128
 msgid "specify the server ip/name"
 msgstr "norādi servera IP adresi vai vārdu"
-#
-# File: bin/widget/screen/screen.py, line: 343
+
+#: bin/widget/screen/screen.py:343
 msgid ""
 "(Any existing filter with the \n"
 "same name will be replaced)"
 msgstr ""
-#
-# File: bin/widget/view/graph_gtk/parser.py, line: 64
+
+#: bin/widget/view/graph_gtk/parser.py:64
 msgid "Can not generate graph !"
 msgstr "Nevar izveidot grafiku!"
-#
-# File: bin/widget/view/graph_gtk/graph.py, line: 112
-# File: bin/widget/view/graph_gtk/graph.py, line: 119
-# File: bin/widget/view/graph_gtk/graph.py, line: 125
-# File: bin/widget/view/graph_gtk/graph.py, line: 131
-# File: bin/widget/view/list.py, line: 183
+
+#: bin/widget/view/graph_gtk/graph.py:112
+#: bin/widget/view/graph_gtk/graph.py:119
+#: bin/widget/view/graph_gtk/graph.py:125
+#: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
 msgstr ""
-#
-# File: bin/widget/view/widget_parse.py, line: 52
+
+#: bin/widget/view/widget_parse.py:52
 #, python-format
 msgid "This type (%s) is not supported by the GTK client !"
 msgstr "GTK pārlūks neatbalsta šo (%s) datu tipu!"
-#
-# File: bin/widget/view/widget_parse.py, line: 69
-#, fuzzy
+
+#: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr "Kļūda kalendāra skatījumā!"
-#
-# File: bin/widget/view/widget_parse.py, line: 76
+msgstr ""
+
+#: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
 msgstr "Šim objektam nav atrasts neviens derīgs skatījums!"
-#
-# File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 30
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:30
 msgid "Gantt view not yet implemented !"
 msgstr "Gānta skatījums vēl nav izstrādāts!"
-#
-# File: bin/widget/view/gantt_gtk/parser_dummy.py, line: 31
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:31
 msgid ""
 "The gantt view is not available in this GTK Client, you should use the web "
 "interface or switch to the calendar view."
 msgstr ""
 "Gānta skatījums nav pieejams GTK pārlūkā. Lai apskatītu jālieto web saskarne "
 "vai kalendāra skatījums."
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1429
+
+#: bin/widget/view/diagram_gtk/xdot.py:1429
 msgid "Dot Viewer"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1719
+
+#: bin/widget/view/diagram_gtk/xdot.py:1719
 msgid "Add New Node"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1720
+
+#: bin/widget/view/diagram_gtk/xdot.py:1720
 msgid "Add New Edge"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1721
+
+#: bin/widget/view/diagram_gtk/xdot.py:1721
 msgid "Enlarge the Diagram"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1722
+
+#: bin/widget/view/diagram_gtk/xdot.py:1722
 msgid "Shrink the Diagram"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1723
+
+#: bin/widget/view/diagram_gtk/xdot.py:1723
 msgid "Fit the diagram to the window"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1724
+
+#: bin/widget/view/diagram_gtk/xdot.py:1724
 msgid "Show the diagram at its normal size"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1725
+
+#: bin/widget/view/diagram_gtk/xdot.py:1725
 msgid "Print the Diagram"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1779
-# File: bin/modules/gui/window/win_search.py, line: 49
+
+#: bin/widget/view/diagram_gtk/xdot.py:1779
+#: bin/modules/gui/window/win_search.py:49
 msgid "OpenERP - Link"
 msgstr "Saite uz OpenERP"
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1796
+
+#: bin/widget/view/diagram_gtk/xdot.py:1796
 #, python-format
 msgid "Close Current %s"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1797
+
+#: bin/widget/view/diagram_gtk/xdot.py:1797
 #, python-format
 msgid "Delete Current %s"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1798
+
+#: bin/widget/view/diagram_gtk/xdot.py:1798
 #, python-format
 msgid "Edit Current %s"
 msgstr ""
-#
-# File: bin/widget/view/diagram_gtk/xdot.py, line: 1882
+
+#: bin/widget/view/diagram_gtk/xdot.py:1882
 msgid " - Dot Viewer"
 msgstr ""
-#
-# File: bin/widget/view/list.py, line: 585
-# File: bin/widget/view/list.py, line: 586
-# File: bin/widget/view/form_gtk/parser.py, line: 135
-# File: bin/modules/gui/window/form.py, line: 366
+
+#: bin/widget/view/list.py:585 bin/widget/view/list.py:586
+#: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
 msgid "Invalid form, correct red fields !"
 msgstr "Nepareizi aizpildīta veidlapa, izlabo sarkanos laukus!"
-#
-# File: bin/widget/view/list.py, line: 585
+
+#: bin/widget/view/list.py:585
 msgid "Error !"
 msgstr "Kļūda!"
-#
-# File: bin/widget/view/list.py, line: 634
-# File: bin/widget/view/form_gtk/many2one.py, line: 388
+
+#: bin/widget/view/list.py:634 bin/widget/view/form_gtk/many2one.py:388
 msgid "You must select a record to use the relation !"
 msgstr "Jums jāizvēlas ieraksts, lai veiktu savienošanu"
-#
-# File: bin/widget/view/form.py, line: 136
+
+#: bin/widget/view/form.py:136
 msgid "You must save this record to use the relate button !"
 msgstr "Jums jāsaglabā šis ieraksts, lai lietotu saviešanas pogu"
-#
-# File: bin/widget/view/form.py, line: 141
+
+#: bin/widget/view/form.py:141
 msgid "Action not defined !"
 msgstr ""
+
 #
 # File: bin/widget/view/form.py, line: 201
-# File: bin/widget/view/form.py, line: 200
+#: bin/widget/view/form.py:200
 msgid "You must save this record to use the action button !"
 msgstr "Jums jāsaglabā šis ieraksts, lai lietotu saviešanas pogu"
+
 #
 # File: bin/widget/view/form.py, line: 213
-# File: bin/widget/view/form.py, line: 212
+#: bin/widget/view/form.py:212
 msgid "You must save a record to use the relate button !"
 msgstr "Jums jāsaglabā šis ieraksts, lai lietotu saviešanas pogu"
-#
-# File: bin/widget/view/form.py, line: 237
-# File: bin/widget/view/form_gtk/parser.py, line: 667
-# File: bin/widget/view/form_gtk/parser.py, line: 788
-# File: bin/widget/view/form_gtk/parser.py, line: 845
+
+#: bin/widget/view/form.py:237 bin/widget/view/form_gtk/parser.py:667
+#: bin/widget/view/form_gtk/parser.py:788
+#: bin/widget/view/form_gtk/parser.py:845
 msgid "No other language available!"
 msgstr "nav pieejama neviena cita valoda!"
-#
-# File: bin/widget/view/form.py, line: 244
-# File: bin/widget/view/form_gtk/parser.py, line: 679
-# File: bin/widget/view/form_gtk/parser.py, line: 794
-# File: bin/widget/view/form_gtk/parser.py, line: 851
+
+#: bin/widget/view/form.py:244 bin/widget/view/form_gtk/parser.py:679
+#: bin/widget/view/form_gtk/parser.py:794
+#: bin/widget/view/form_gtk/parser.py:851
 msgid "Add Translation"
 msgstr "Pievienot tulkojumu"
-#
-# File: bin/widget/view/form.py, line: 292
-# File: bin/widget/view/form_gtk/parser.py, line: 907
+
+#: bin/widget/view/form.py:292 bin/widget/view/form_gtk/parser.py:907
 msgid "Translate label"
 msgstr "Tulkot birku"
-#
-# File: bin/widget/view/calendar_gtk/parser.py, line: 358
-# File: bin/openerp.ui.h, line: 880
+
+#: bin/widget/view/calendar_gtk/parser.py:358 bin/openerp.ui.h:880
 msgid "Week"
 msgstr "Nedēļa"
-#
-# File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 30
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:30
 msgid "Calendar View Error !"
 msgstr "Kļūda kalendāra skatījumā!"
-#
-# File: bin/widget/view/calendar_gtk/parser_dummy.py, line: 31
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:31
 msgid "You must intall the library python-hippocanvas to use calendars."
 msgstr ""
 "Lai lietotu kalendāra skatījumu ir jābūt uzstādītai python-hippocanvas "
 "bibliotēkai."
-#
-# File: bin/widget/view/tree_gtk/parser.py, line: 61
+
+#: bin/widget/view/tree_gtk/parser.py:61
 msgid ""
 "You have unsaved record(s) !  \n"
 "\n"
 "Please Save them before sorting !"
 msgstr ""
-#
-# File: bin/widget/view/tree_gtk/date_renderer.py, line: 197
-msgid "Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
+
+#: bin/widget/view/tree_gtk/date_renderer.py:197
+msgid ""
+"Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
 msgstr ""
 "Lai izmantotu papildus datuma darbības - nospiest <i>'+'</i>, <i>'-'</i> or "
 "<i>'='</i> ."
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 140
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Saīsne: %s"
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 140
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
 msgid "F1 New - F2 Open/Search"
 msgstr "F1 Jauns - F2 Atvērt/Meklēt"
-#
-# File: bin/widget/view/tree_gtk/editabletree.py, line: 215
+
+#: bin/widget/view/tree_gtk/editabletree.py:215
 #, python-format
 msgid "Warning; field %s is required!"
 msgstr "Uzmanību; lauks %s ir jāaizpilda obligāti!"
-#
-# File: bin/widget/view/screen_container.py, line: 73
+
+#: bin/widget/view/screen_container.py:73
 msgid "--Actions--"
 msgstr "--Darbības--"
-#
-# File: bin/widget/view/screen_container.py, line: 73
+
+#: bin/widget/view/screen_container.py:73
 msgid "Save as a Filter"
 msgstr "Saglabāt Filtru kā"
-#
-# File: bin/widget/view/screen_container.py, line: 73
+
+#: bin/widget/view/screen_container.py:73
 msgid "Manage Filters"
 msgstr "Pārvaldīt filtrus"
-#
-# File: bin/widget/view/screen_container.py, line: 88
+
+#: bin/widget/view/screen_container.py:88
 msgid "100"
 msgstr ""
-#
-# File: bin/widget/view/screen_container.py, line: 88
+
+#: bin/widget/view/screen_container.py:88
 msgid "200"
 msgstr ""
-#
-# File: bin/widget/view/screen_container.py, line: 88
+
+#: bin/widget/view/screen_container.py:88
 msgid "500"
 msgstr ""
-#
-# File: bin/widget/view/screen_container.py, line: 88
+
+#: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 156
-# File: bin/widget/view/form_gtk/url.py, line: 53
+
+#: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
 msgstr "Atvērt šo resursu"
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 172
-# File: bin/openerp.ui.h, line: 712
+
+#: bin/widget/view/form_gtk/many2one.py:172 bin/openerp.ui.h:712
 msgid "Action"
 msgstr "Darbība"
-#
-# File: bin/widget/view/form_gtk/many2one.py, line: 173
+
+#: bin/widget/view/form_gtk/many2one.py:173
 msgid "Report"
 msgstr "Atskaite"
-#
-# File: bin/widget/view/form_gtk/reference.py, line: 69
-# File: bin/openerp.ui.h, line: 740
+
+#: bin/widget/view/form_gtk/reference.py:69 bin/openerp.ui.h:740
 msgid "Create a new resource"
 msgstr "Izveidot jaunu resursu"
-#
-# File: bin/widget/view/form_gtk/reference.py, line: 82
+
+#: bin/widget/view/form_gtk/reference.py:82
 msgid "Search / Open a resource"
 msgstr "Meklēt / Atvērt resursu"
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 61
+
+#: bin/widget/view/form_gtk/parser.py:61
 msgid "Wrong icon for the button !"
 msgstr "Pogai norādīta nepareiza ikona!"
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 134
-# File: bin/modules/gui/window/form.py, line: 365
+
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 #, python-format
 msgid ""
 "Correct following red fields !\n"
 "\n"
 "%s"
 msgstr ""
+
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
 # File: bin/modules/gui/window/form.py, line: 365
-# File: bin/widget/view/form_gtk/parser.py, line: 134
-# File: bin/modules/gui/window/form.py, line: 365
+#: bin/widget/view/form_gtk/parser.py:134 bin/modules/gui/window/form.py:365
 msgid "Input Error !"
 msgstr "Kļūda!"
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 310
+
+#: bin/widget/view/form_gtk/parser.py:310
 msgid "Field"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 310
+
+#: bin/widget/view/form_gtk/parser.py:310
 msgid "Object"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 651
+
+#: bin/widget/view/form_gtk/parser.py:651
 msgid "Enter some text to the related field before adding translations!"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 658
+
+#: bin/widget/view/form_gtk/parser.py:658
 msgid "You need to save resource before adding translations!"
 msgstr "Pirms ievadīt tulkojumu resurss ir jāsaglabā!"
-#
-# File: bin/widget/view/form_gtk/parser.py, line: 912
+
+#: bin/widget/view/form_gtk/parser.py:912
 msgid "Translate view"
 msgstr "Tulkot skatījumu"
-#
-# File: bin/widget/view/form_gtk/url.py, line: 50
+
+#: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/url.py, line: 118
-# File: bin/widget/view/form_gtk/image.py, line: 112
-# File: bin/modules/gui/main.py, line: 1383
-# File: bin/openerp.ui.h, line: 807
+
+#: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
+#: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
 msgid "Open..."
 msgstr "Atvērt..."
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 76
+
+#: bin/widget/view/form_gtk/binary.py:76
 msgid "Select"
 msgstr "Izvēlēties"
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 80
+
+#: bin/widget/view/form_gtk/binary.py:80
 msgid "Open"
 msgstr "Atvērt"
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 84
-# File: bin/widget/view/form_gtk/image.py, line: 82
+
+#: bin/widget/view/form_gtk/binary.py:84 bin/widget/view/form_gtk/image.py:82
 msgid "Save As"
 msgstr "Saglabāt ar citu nosaukumu"
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 88
-# File: bin/widget/view/form_gtk/image.py, line: 93
+
+#: bin/widget/view/form_gtk/binary.py:88 bin/widget/view/form_gtk/image.py:93
 msgid "Clear"
 msgstr "Attīrīt"
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 123
-# File: bin/widget/view/form_gtk/binary.py, line: 167
+
+#: bin/widget/view/form_gtk/binary.py:123
+#: bin/widget/view/form_gtk/binary.py:167
 msgid "Unable to read the file data"
 msgstr "Nevar nolasīt datnes saturu"
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 133
-# File: bin/widget/view/form_gtk/binary.py, line: 159
+
+#: bin/widget/view/form_gtk/binary.py:133
+#: bin/widget/view/form_gtk/binary.py:159
 #, python-format
 msgid "Error reading the file: %s"
 msgstr "Kļūda nolasot datni: %s"
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 142
+
+#: bin/widget/view/form_gtk/binary.py:142
 msgid "All Files"
 msgstr "Visi faili"
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 152
+
+#: bin/widget/view/form_gtk/binary.py:152
 msgid "Select a file..."
 msgstr "Izvēlies failu..."
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 171
-# File: bin/widget/view/form_gtk/image.py, line: 133
-# File: bin/modules/gui/main.py, line: 1486
-# File: bin/modules/gui/window/win_export.py, line: 352
-# File: bin/printer/printer.py, line: 231
+
+#: bin/widget/view/form_gtk/binary.py:171
+#: bin/widget/view/form_gtk/image.py:133 bin/modules/gui/main.py:1486
+#: bin/modules/gui/window/win_export.py:352 bin/printer/printer.py:231
 msgid "Save As..."
 msgstr "Saglabāt ar citu nosaukumu..."
-#
-# File: bin/widget/view/form_gtk/binary.py, line: 181
+
+#: bin/widget/view/form_gtk/binary.py:181
 #, python-format
 msgid "Error writing the file: %s"
 msgstr "Kļūda saglabājot datni: %s"
-#
-# File: bin/widget/view/form_gtk/many2many.py, line: 84
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 210
+
+#: bin/widget/view/form_gtk/many2many.py:84
+#: bin/widget/view/form_gtk/one2many_list.py:210
 msgid "Previous Page"
 msgstr "Iepriekšējā lapa"
-#
-# File: bin/widget/view/form_gtk/many2many.py, line: 88
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 214
+
+#: bin/widget/view/form_gtk/many2many.py:88
+#: bin/widget/view/form_gtk/one2many_list.py:214
 msgid "Previous Record"
 msgstr "Iepriekšējais Ieraksts"
-#
-# File: bin/widget/view/form_gtk/many2many.py, line: 96
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 222
+
+#: bin/widget/view/form_gtk/many2many.py:96
+#: bin/widget/view/form_gtk/one2many_list.py:222
 msgid "Next Record"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/many2many.py, line: 100
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 226
+
+#: bin/widget/view/form_gtk/many2many.py:100
+#: bin/widget/view/form_gtk/one2many_list.py:226
 msgid "Next Page"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/many2many.py, line: 106
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 238
+
+#: bin/widget/view/form_gtk/many2many.py:106
+#: bin/widget/view/form_gtk/one2many_list.py:238
 msgid "Choose Limit"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 52
-# File: bin/modules/gui/main.py, line: 1067
-# File: bin/openerp.ui.h, line: 808
+
+#: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1067
+#: bin/openerp.ui.h:808
 msgid "OpenERP"
 msgstr "OpenERP"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 64
+
+#: bin/widget/view/form_gtk/one2many_list.py:64
 msgid "Cancel"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 70
+
+#: bin/widget/view/form_gtk/one2many_list.py:70
 msgid "Save & Close"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 75
+
+#: bin/widget/view/form_gtk/one2many_list.py:75
 msgid "Save & New"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 164
-# File: bin/widget/view/form_gtk/interface.py, line: 48
+
+#: bin/widget/view/form_gtk/one2many_list.py:164
+#: bin/widget/view/form_gtk/interface.py:48
 msgid "Set to default value"
 msgstr "Ievadīt noklusēto vērtību"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 167
+
+#: bin/widget/view/form_gtk/one2many_list.py:167
 msgid "Set Default"
 msgstr "Iestatīt Kā Noklusējumu"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 196
+
+#: bin/widget/view/form_gtk/one2many_list.py:196
 msgid "Create a new entry"
 msgstr "Izveidot jaunu ierakstu"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 200
+
+#: bin/widget/view/form_gtk/one2many_list.py:200
 msgid "Edit this entry"
 msgstr "Labot šo ierakstu"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 204
+
+#: bin/widget/view/form_gtk/one2many_list.py:204
 msgid "Remove this entry"
 msgstr "Dzēst šo ierakstu"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 232
+
+#: bin/widget/view/form_gtk/one2many_list.py:232
 msgid "Switch"
 msgstr "Pārslēgt"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 279
+
+#: bin/widget/view/form_gtk/one2many_list.py:279
 msgid "You have to select a resource !"
 msgstr "Jāizvēlas resurss!"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 388
-# File: bin/modules/gui/window/form.py, line: 290
+
+#: bin/widget/view/form_gtk/one2many_list.py:388
+#: bin/modules/gui/window/form.py:290
 msgid "Are you sure to remove this record ?"
 msgstr "Vai tiešām vēlies dzēst šo ierakstu?"
-#
-# File: bin/widget/view/form_gtk/one2many_list.py, line: 390
-# File: bin/modules/gui/window/form.py, line: 292
+
+#: bin/widget/view/form_gtk/one2many_list.py:390
+#: bin/modules/gui/window/form.py:292
 msgid "Are you sure to remove those records ?"
 msgstr "Vai tiešām vēlies dzēst šos ierakstus?"
-#
-# File: bin/widget/view/form_gtk/wid_common.py, line: 57
+
+#: bin/widget/view/form_gtk/wid_common.py:57
 msgid "Always applicable !"
 msgstr "Pielietojams vienmēr!"
-#
-# File: bin/widget/view/form_gtk/calendar.py, line: 99
-# File: bin/widget/view/form_gtk/calendar.py, line: 163
+
+#: bin/widget/view/form_gtk/calendar.py:99
+#: bin/widget/view/form_gtk/calendar.py:163
 msgid "Invalid date value! Year must be greater than 1899 !"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/image.py, line: 73
+
+#: bin/widget/view/form_gtk/image.py:73
 msgid "Set Image"
 msgstr "Norādi attēlu"
-#
-# File: bin/widget/view/form_gtk/image.py, line: 102
+
+#: bin/widget/view/form_gtk/image.py:102
 msgid "All files"
 msgstr "Visi faili"
-#
-# File: bin/widget/view/form_gtk/image.py, line: 106
+
+#: bin/widget/view/form_gtk/image.py:106
 msgid "Images"
 msgstr "Attēli"
-#
-# File: bin/widget/view/form_gtk/image.py, line: 131
+
+#: bin/widget/view/form_gtk/image.py:131
 msgid "There is no image to save as !"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/image.py, line: 131
+
+#: bin/widget/view/form_gtk/image.py:131
 msgid "Warning"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/image.py, line: 181
+
+#: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 49
+
+#: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
 msgstr "Uzstādīt kā noklusēto"
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 64
+
+#: bin/widget/view/form_gtk/interface.py:64
 msgid "You can not set to the default value here !"
 msgstr ""
-#
-# File: bin/widget/view/form_gtk/interface.py, line: 64
-#, fuzzy
+
+#: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr "Operācija progresā"
-#
-# File: bin/modules/action/main.py, line: 48
+msgstr ""
+
+#: bin/modules/action/main.py:48
 msgid "Nothing to print!"
 msgstr "Nav ko drukāt!"
-#
-# File: bin/modules/action/main.py, line: 66
+
+#: bin/modules/action/main.py:66
 msgid "Printing aborted, too long delay !"
 msgstr "Druka pārtraukta, pārāk ilga aizture!"
-#
-# File: bin/modules/action/main.py, line: 204
+
+#: bin/modules/action/main.py:204
 msgid "Select your action"
 msgstr "Izvēlies savu darbību"
-#
-# File: bin/modules/gui/main.py, line: 89
-# File: bin/modules/gui/main.py, line: 341
+
+#: bin/modules/gui/main.py:89 bin/modules/gui/main.py:341
 msgid "Could not connect to server !"
 msgstr "Nav iespējams pieslēgties serverim!"
-#
-# File: bin/modules/gui/main.py, line: 93
-# File: bin/openerp.ui.h, line: 856
+
+#: bin/modules/gui/main.py:93 bin/openerp.ui.h:856
 msgid "Server:"
 msgstr "Serveris:"
-#
-# File: bin/modules/gui/main.py, line: 104
-# File: bin/openerp.ui.h, line: 724
+
+#: bin/modules/gui/main.py:104 bin/openerp.ui.h:724
 msgid "Change"
 msgstr "Mainīt"
-#
-# File: bin/modules/gui/main.py, line: 111
+
+#: bin/modules/gui/main.py:111
 msgid "Super Administrator Password:"
 msgstr "Super administrātora parole:"
-#
-# File: bin/modules/gui/main.py, line: 193
+
+#: bin/modules/gui/main.py:193
 msgid "Bad Super Administrator Password"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 217
+
+#: bin/modules/gui/main.py:217
 msgid "Migration Scripts"
 msgstr "Migrācijas skripti"
-#
-# File: bin/modules/gui/main.py, line: 220
+
+#: bin/modules/gui/main.py:220
 msgid "Contract ID:"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 226
+
+#: bin/modules/gui/main.py:226
 msgid "Contract Password:"
 msgstr "Līguma parole:"
-#
-# File: bin/modules/gui/main.py, line: 241
+
+#: bin/modules/gui/main.py:241
 msgid "You already have the latest version"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 246
+
+#: bin/modules/gui/main.py:246
 msgid "The following updates are available:"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 258
+
+#: bin/modules/gui/main.py:258
 msgid "You can now migrate your databases."
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 263
+
+#: bin/modules/gui/main.py:263
 msgid "Migrate Database"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 280
+
+#: bin/modules/gui/main.py:280
 msgid "Database"
 msgstr "Datubāze"
-#
-# File: bin/modules/gui/main.py, line: 292
+
+#: bin/modules/gui/main.py:292
 msgid "Your database has been upgraded."
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 294
+
+#: bin/modules/gui/main.py:294
 msgid "Your databases have been upgraded."
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 296
+
+#: bin/modules/gui/main.py:296
 msgid "You have not selected a database"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 360
+
+#: bin/modules/gui/main.py:360
 msgid "No database found, you must create one !"
 msgstr "Nav atrasta neviena datubāze. Izveido jaunu!"
-#
-# File: bin/modules/gui/main.py, line: 597
+
+#: bin/modules/gui/main.py:597
 msgid "Sorry,'"
 msgstr "Atvainojiet,'"
-#
-# File: bin/modules/gui/main.py, line: 597
-# File: bin/modules/gui/main.py, line: 600
+
+#: bin/modules/gui/main.py:597 bin/modules/gui/main.py:600
 msgid "Bad database name !"
 msgstr "Nepareizs datubāzes nosaukums!"
-#
-# File: bin/modules/gui/main.py, line: 600
+
+#: bin/modules/gui/main.py:600
 msgid ""
 "The database name must contain only normal characters or \"_\".\n"
 "You must avoid all accents, space or special characters."
 msgstr ""
 "Datubāzes nosaukums drīkst saturēt parastus burtus, ciparus un \"_\".\n"
 "Nelieto atstarpes un speciālos simbolus."
-#
-# File: bin/modules/gui/main.py, line: 624
-# File: bin/modules/gui/main.py, line: 637
-# File: bin/modules/gui/main.py, line: 639
-# File: bin/modules/gui/main.py, line: 641
+
+#: bin/modules/gui/main.py:624 bin/modules/gui/main.py:637
+#: bin/modules/gui/main.py:639 bin/modules/gui/main.py:641
 msgid "Could not create database."
 msgstr "Nevar izveidot datubāzi."
-#
-# File: bin/modules/gui/main.py, line: 625
-# File: bin/modules/gui/main.py, line: 637
+
+#: bin/modules/gui/main.py:625 bin/modules/gui/main.py:637
 msgid "Database already exists !"
 msgstr "Datubāze jau eksistē!"
-#
-# File: bin/modules/gui/main.py, line: 639
-# File: bin/modules/gui/main.py, line: 1378
-# File: bin/modules/gui/main.py, line: 1398
-# File: bin/modules/gui/main.py, line: 1502
+
+#: bin/modules/gui/main.py:639 bin/modules/gui/main.py:1378
+#: bin/modules/gui/main.py:1398 bin/modules/gui/main.py:1502
 msgid "Bad database administrator password !"
 msgstr "Nekorekta datubāzes administratora parole!"
-#
-# File: bin/modules/gui/main.py, line: 641
-# File: bin/modules/gui/main.py, line: 648
+
+#: bin/modules/gui/main.py:641 bin/modules/gui/main.py:648
 msgid "Error during database creation !"
 msgstr "Kļūda veidojot datubāzi!"
-#
-# File: bin/modules/gui/main.py, line: 648
+
+#: bin/modules/gui/main.py:648
 msgid ""
 "The server crashed during installation.\n"
 "We suggest you to drop this database."
 msgstr ""
 "Serveris pārtrauca darbu instalācijas laikā.\n"
 "Mēs iesakām izdzēst šo datubāzi."
-#
-# File: bin/modules/gui/main.py, line: 694
-# File: bin/modules/gui/main.py, line: 1060
+
+#: bin/modules/gui/main.py:694 bin/modules/gui/main.py:1060
 msgid "Press Ctrl+O to login"
 msgstr "Nospied Ctrl+O , lai ieietu sistēmā"
-#
-# File: bin/modules/gui/main.py, line: 962
+
+#: bin/modules/gui/main.py:962
 #, python-format
 msgid "%s"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 964
+
+#: bin/modules/gui/main.py:964
 msgid "No Company"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 977
+
+#: bin/modules/gui/main.py:977
 #, python-format
 msgid "%s request(s)"
 msgstr "%s pieprasījums(i)"
-#
-# File: bin/modules/gui/main.py, line: 979
+
+#: bin/modules/gui/main.py:979
 msgid "No request"
 msgstr "Pieprasījumu nav"
-#
-# File: bin/modules/gui/main.py, line: 981
+
+#: bin/modules/gui/main.py:981
 #, python-format
 msgid " - %s request(s) sent"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 1019
+
+#: bin/modules/gui/main.py:1019
 msgid ""
 "Please double-check the database name or contact your administrator to "
 "verify the database status."
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 1019
+
+#: bin/modules/gui/main.py:1019
 msgid "Database cannot be accessed or does not exist"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 1023
+
+#: bin/modules/gui/main.py:1023
 msgid ""
 "Connection error !\n"
 "Unable to connect to the server !"
 msgstr ""
 "Savienojuma kļūda!\n"
 "Nav iespējams pieslēgties serverim!"
-#
-# File: bin/modules/gui/main.py, line: 1025
+
+#: bin/modules/gui/main.py:1025
 msgid ""
 "Authentication error !\n"
 "Bad Username or Password !"
 msgstr ""
 "Pieslēgšanās kļūda!\n"
 "Nepareizs lietotāja vārds vai parole!"
-#
-# File: bin/modules/gui/main.py, line: 1038
+
+#: bin/modules/gui/main.py:1038
 #, python-format
 msgid "OpenERP - %s"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 1058
+
+#: bin/modules/gui/main.py:1058
 msgid "Not logged !"
 msgstr "Nav pieslēdzies!"
-#
-# File: bin/modules/gui/main.py, line: 1147
+
+#: bin/modules/gui/main.py:1147
 msgid ""
 "You can not log into the system !\n"
 "Ask the administrator to verify\n"
@@ -1175,110 +1122,108 @@ msgid ""
 msgstr ""
 "Nevar pieslēgties sistēmai!\n"
 "Vaicā administratoram vai tavam lietotājam ir norādīta darbība (action)."
-#
-# File: bin/modules/gui/main.py, line: 1181
-# File: bin/modules/gui/main.py, line: 1188
+
+#: bin/modules/gui/main.py:1181 bin/modules/gui/main.py:1188
 msgid "Do you really want to quit ?"
 msgstr "Patiešām iziet?"
-#
-# File: bin/modules/gui/main.py, line: 1257
+
+#: bin/modules/gui/main.py:1257
 #, python-format
 msgid "Attachments (%d)"
 msgstr "(%d) pievienojumi"
-#
-# File: bin/modules/gui/main.py, line: 1270
+
+#: bin/modules/gui/main.py:1270
 msgid "Attachments"
 msgstr "Pielikumi"
-#
-# File: bin/modules/gui/main.py, line: 1369
+
+#: bin/modules/gui/main.py:1369
 msgid "Delete a database"
 msgstr "Dzēst datubāzi"
-#
-# File: bin/modules/gui/main.py, line: 1375
+
+#: bin/modules/gui/main.py:1375
 msgid "Database dropped successfully !"
 msgstr "Datubāze veiksmīgi izdzēsta!"
-#
-# File: bin/modules/gui/main.py, line: 1378
+
+#: bin/modules/gui/main.py:1378
 msgid "Could not drop database."
 msgstr "Nevar izdzēst datubāzi."
-#
-# File: bin/modules/gui/main.py, line: 1380
+
+#: bin/modules/gui/main.py:1380
 msgid "Couldn't drop database"
 msgstr "Nevar izdzēst datubāzi"
-#
-# File: bin/modules/gui/main.py, line: 1395
+
+#: bin/modules/gui/main.py:1395
 msgid "Database restored successfully !"
 msgstr "Datubāze atjaunota veiksmīgi!"
-#
-# File: bin/modules/gui/main.py, line: 1398
+
+#: bin/modules/gui/main.py:1398
 msgid "Could not restore database."
 msgstr "Nevar atjaunot datubāzi."
-#
-# File: bin/modules/gui/main.py, line: 1400
+
+#: bin/modules/gui/main.py:1400
 msgid "Couldn't restore database"
 msgstr "Nevar atjaunot datubāzi"
-#
-# File: bin/modules/gui/main.py, line: 1435
+
+#: bin/modules/gui/main.py:1435
 msgid "<b>Change your password</b>"
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 1450
-msgid "Confirmation password does not match new password, operation cancelled!"
+
+#: bin/modules/gui/main.py:1450
+msgid ""
+"Confirmation password does not match new password, operation cancelled!"
 msgstr ""
 "Atkārtoti ievadītā parole nesakrīt ar sākonēji ievadīto, darbība atcelta!"
-#
-# File: bin/modules/gui/main.py, line: 1452
+
+#: bin/modules/gui/main.py:1452
 msgid "Validation Error."
 msgstr "Pārbaudes kļūda."
-#
-# File: bin/modules/gui/main.py, line: 1469
+
+#: bin/modules/gui/main.py:1469
 msgid "Could not change the Super Admin password."
 msgstr "Nevar labot Super Administrātora paroli."
-#
-# File: bin/modules/gui/main.py, line: 1470
-# File: bin/modules/gui/main.py, line: 1476
+
+#: bin/modules/gui/main.py:1470 bin/modules/gui/main.py:1476
 msgid "Bad password provided !"
 msgstr "Ievadīta nepareiza parole."
-#
-# File: bin/modules/gui/main.py, line: 1475
+
+#: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
 msgstr ""
-#
-# File: bin/modules/gui/main.py, line: 1483
-# File: bin/modules/gui/main.py, line: 1506
+
+#: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
 msgstr "Izveidot datubāzes rezerves kopiju"
-#
-# File: bin/modules/gui/main.py, line: 1499
+
+#: bin/modules/gui/main.py:1499
 msgid "Database backed up successfully !"
 msgstr "Datubāzes rezerves kopēšana notikusi veiksmīgi!"
-#
-# File: bin/modules/gui/main.py, line: 1502
+
+#: bin/modules/gui/main.py:1502
 msgid "Could not backup the database."
 msgstr "Nevar veikt datubāzes rezerves kopēšanu."
-#
-# File: bin/modules/gui/main.py, line: 1504
+
+#: bin/modules/gui/main.py:1504
 msgid "Couldn't backup database."
 msgstr "Nevar veikt datubāzes rezerves kopēšanu."
-#
-# File: bin/modules/gui/window/win_import.py, line: 51
+
+#: bin/modules/gui/window/win_import.py:51
 msgid "The file is empty !"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_import.py, line: 51
+
+#: bin/modules/gui/window/win_import.py:51
 msgid "Importation !"
 msgstr "Ielāde!"
-#
-# File: bin/modules/gui/window/win_import.py, line: 61
+
+#: bin/modules/gui/window/win_import.py:61
 msgid "Imported one object !"
 msgstr "Ielādēts viens objekts!"
-#
-# File: bin/modules/gui/window/win_import.py, line: 63
+
+#: bin/modules/gui/window/win_import.py:63
 #, python-format
 msgid "Imported %d objects !"
 msgstr "Importēti %d objekti!"
-#
-# File: bin/modules/gui/window/win_import.py, line: 70
+
+#: bin/modules/gui/window/win_import.py:70
 #, python-format
 msgid ""
 "Error trying to import this record:\n"
@@ -1288,308 +1233,304 @@ msgid ""
 "\n"
 "%(err_msg)s"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_import.py, line: 72
+
+#: bin/modules/gui/window/win_import.py:72
 msgid "Importation Error !"
 msgstr "Ielādes kļūda!"
-#
-# File: bin/modules/gui/window/win_import.py, line: 104
-# File: bin/modules/gui/window/win_import.py, line: 108
+
+#: bin/modules/gui/window/win_import.py:104
+#: bin/modules/gui/window/win_import.py:108
 msgid "Field name"
 msgstr "Lauka nosaukums"
-#
-# File: bin/modules/gui/window/win_import.py, line: 141
-# File: bin/modules/gui/window/win_import.py, line: 143
-# File: bin/modules/gui/window/win_export.py, line: 207
+
+#: bin/modules/gui/window/win_import.py:141
+#: bin/modules/gui/window/win_import.py:143
+#: bin/modules/gui/window/win_export.py:207
 msgid "Database ID"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_import.py, line: 182
+
+#: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
 msgstr "Kļūda atverot .CSV failu"
-#
-# File: bin/modules/gui/window/win_import.py, line: 182
+
+#: bin/modules/gui/window/win_import.py:182
 msgid "Input Error."
 msgstr "Ievades kļūda."
-#
-# File: bin/modules/gui/window/win_import.py, line: 198
+
+#: bin/modules/gui/window/win_import.py:198
 #, python-format
 msgid "You cannot import this field %s, because we cannot auto-detect it"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_import.py, line: 201
+
+#: bin/modules/gui/window/win_import.py:201
 #, python-format
 msgid ""
 "Error processing your first line of the file.\n"
 "Field %s is unknown !"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_import.py, line: 201
+
+#: bin/modules/gui/window/win_import.py:201
 msgid "Import Error."
 msgstr ""
-#
-# File: bin/modules/gui/window/win_import.py, line: 232
+
+#: bin/modules/gui/window/win_import.py:232
 msgid "You have not selected any fields to import"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_search.py, line: 126
+
+#: bin/modules/gui/window/win_search.py:126
 #, python-format
 msgid "OpenERP Search: %s"
 msgstr "OpenERP meklēšana: %s"
-#
-# File: bin/modules/gui/window/win_search.py, line: 127
+
+#: bin/modules/gui/window/win_search.py:127
 #, python-format
 msgid "OpenERP Search: %s (%%d result(s))"
 msgstr "OpenERP meklēšana: %s (%%d resultāts(i))"
-#
-# File: bin/modules/gui/window/__init__.py, line: 31
+
+#: bin/modules/gui/window/__init__.py:31
 msgid "Unknown Window"
 msgstr "Nezināms logs"
-#
-# File: bin/modules/gui/window/win_selection.py, line: 51
+
+#: bin/modules/gui/window/win_selection.py:51
 msgid "Name"
 msgstr "Nosaukums"
-#
-# File: bin/modules/gui/window/win_selection.py, line: 55
+
+#: bin/modules/gui/window/win_selection.py:55
 msgid "Ressource Name"
 msgstr "Resursa nosaukums"
-#
-# File: bin/modules/gui/window/win_selection.py, line: 55
+
+#: bin/modules/gui/window/win_selection.py:55
 msgid "Names"
 msgstr "Vārdi"
-#
-# File: bin/modules/gui/window/win_export.py, line: 50
+
+#: bin/modules/gui/window/win_export.py:50
 msgid " record(s) saved !"
 msgstr " ieraksts(i) saglabāts(i)..."
-#
-# File: bin/modules/gui/window/win_export.py, line: 53
+
+#: bin/modules/gui/window/win_export.py:53
 msgid ""
 "Operation failed !\n"
 "I/O error"
 msgstr ""
 "Darbība pārtraukta !\n"
 "I/O kļūda"
-#
-# File: bin/modules/gui/window/win_export.py, line: 79
-# File: bin/modules/gui/window/win_export.py, line: 105
+
+#: bin/modules/gui/window/win_export.py:79
+#: bin/modules/gui/window/win_export.py:105
 msgid "Error Opening Excel !"
 msgstr "Kļūda atverot Excel!"
-#
-# File: bin/modules/gui/window/win_export.py, line: 141
-# File: bin/modules/gui/window/win_export.py, line: 145
+
+#: bin/modules/gui/window/win_export.py:141
+#: bin/modules/gui/window/win_export.py:145
 msgid "Field Name"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_export.py, line: 206
-# File: bin/modules/gui/window/form.py, line: 270
-# File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 41
+
+#: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:41
 msgid "ID"
 msgstr "ID"
-#
-# File: bin/modules/gui/window/win_export.py, line: 310
+
+#: bin/modules/gui/window/win_export.py:310
 msgid "What is the name of this export ?"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_export.py, line: 344
+
+#: bin/modules/gui/window/win_export.py:344
 msgid "Exportation Error !"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_export.py, line: 349
-# File: bin/openerp.ui.h, line: 806
+
+#: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
 msgstr ""
-#
-# File: bin/modules/gui/window/tree.py, line: 203
-# File: bin/modules/gui/window/tree.py, line: 264
+
+#: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
 msgid "No resource selected!"
 msgstr "Nav izvēlēts neviens resurss!"
-#
-# File: bin/modules/gui/window/tree.py, line: 222
+
+#: bin/modules/gui/window/tree.py:222
 msgid ""
 "Are you sure you want\n"
 "to remove this record?"
 msgstr ""
 "Vai tiešām vēlies\n"
 "dzēst šo ierakstu?"
-#
-# File: bin/modules/gui/window/tree.py, line: 227
+
+#: bin/modules/gui/window/tree.py:227
 msgid "Error removing resource!"
 msgstr "Notikusi kļūda dzēšot resursu!"
-#
-# File: bin/modules/gui/window/tree.py, line: 238
+
+#: bin/modules/gui/window/tree.py:238
 msgid "Unable to chroot: no tree resource selected"
 msgstr "Nevar izpildīt \"chroot\": nav izvēlēts koka tipa resurss."
-#
-# File: bin/modules/gui/window/form.py, line: 189
+
+#: bin/modules/gui/window/form.py:189
 msgid "Resource ID does not exist for this object!"
 msgstr ""
-#
-# File: bin/modules/gui/window/form.py, line: 247
+
+#: bin/modules/gui/window/form.py:247
 msgid "No record selected ! You can only attach to existing record."
 msgstr "Nav iezīmēts neviens ieraksts! Var pievienot tikai esošam ierakstam."
-#
-# File: bin/modules/gui/window/form.py, line: 264
+
+#: bin/modules/gui/window/form.py:264
 msgid "You have to select a record !"
 msgstr "Izvēlies ierakstu!"
-#
-# File: bin/modules/gui/window/form.py, line: 271
+
+#: bin/modules/gui/window/form.py:271
 msgid "Creation User"
 msgstr "Lietotāja izveide"
-#
-# File: bin/modules/gui/window/form.py, line: 272
+
+#: bin/modules/gui/window/form.py:272
 msgid "Creation Date"
 msgstr "Izveidošanas datums"
-#
-# File: bin/modules/gui/window/form.py, line: 273
+
+#: bin/modules/gui/window/form.py:273
 msgid "Latest Modification by"
 msgstr "Pedējais labojis"
-#
-# File: bin/modules/gui/window/form.py, line: 274
+
+#: bin/modules/gui/window/form.py:274
 msgid "Latest Modification Date"
 msgstr "Pēdējās labošanas datums"
-#
-# File: bin/modules/gui/window/form.py, line: 275
+
+#: bin/modules/gui/window/form.py:275
 msgid "Internal Module Data ID"
 msgstr ""
+
 #
 # File: bin/modules/gui/window/form.py, line: 287
-# File: bin/modules/gui/window/form.py, line: 287
+#: bin/modules/gui/window/form.py:287
 msgid ""
 "Record is not saved ! \n"
 " Do you want to clear current record ?"
 msgstr ""
 "Ieraksts nav saglabāts! \n"
 "Vai vēlies dzest šo ierakstu?"
-#
-# File: bin/modules/gui/window/form.py, line: 296
+
+#: bin/modules/gui/window/form.py:296
 msgid "Resources cleared."
 msgstr "Resursi dzēsti."
-#
-# File: bin/modules/gui/window/form.py, line: 298
+
+#: bin/modules/gui/window/form.py:298
 msgid "Resources successfully removed."
 msgstr "Resursu veiksmīgi dzēsti."
-#
-# File: bin/modules/gui/window/form.py, line: 339
+
+#: bin/modules/gui/window/form.py:339
 msgid "Working now on the duplicated document !"
 msgstr "Tagad tiek labots dokumenta dublikāts!"
-#
-# File: bin/modules/gui/window/form.py, line: 355
+
+#: bin/modules/gui/window/form.py:355
 msgid "Document Saved."
 msgstr "Dokuments saglabāts."
-#
-# File: bin/modules/gui/window/form.py, line: 368
+
+#: bin/modules/gui/window/form.py:368
 msgid "Warning !"
 msgstr "Uzmanību!"
-#
-# File: bin/modules/gui/window/form.py, line: 389
-# File: bin/modules/gui/window/form.py, line: 497
+
+#: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
 msgid ""
 "This record has been modified\n"
 "do you want to save it ?"
 msgstr ""
 "Šis ieraksts ir izmainīts,\n"
 "vai vēlies to saglabāt?"
-#
-# File: bin/modules/gui/window/form.py, line: 447
+
+#: bin/modules/gui/window/form.py:447
 msgid "You must select one or several records !"
 msgstr "Izvēlies vienu vai vairākus ierakstus!"
-#
-# File: bin/modules/gui/window/form.py, line: 456
+
+#: bin/modules/gui/window/form.py:456
 msgid "Print Screen"
 msgstr "Drukāt ekrāna saturu"
-#
-# File: bin/modules/gui/window/form.py, line: 476
+
+#: bin/modules/gui/window/form.py:476
 msgid "No record selected"
 msgstr "Nav izvēlēts neviens ieraksts"
-#
-# File: bin/modules/gui/window/form.py, line: 481
+
+#: bin/modules/gui/window/form.py:481
 msgid "New document"
 msgstr "Jauns dokuments"
-#
-# File: bin/modules/gui/window/form.py, line: 483
+
+#: bin/modules/gui/window/form.py:483
 msgid "Editing document (id: "
 msgstr "Tiek labots dokuments ar ID: "
-#
-# File: bin/modules/gui/window/form.py, line: 486
+
+#: bin/modules/gui/window/form.py:486
 msgid "Record: "
 msgstr "Ieraksts: "
-#
-# File: bin/modules/gui/window/form.py, line: 487
+
+#: bin/modules/gui/window/form.py:487
 msgid " of "
 msgstr " no "
-#
-# File: bin/modules/gui/window/win_preference.py, line: 68
+
+#: bin/modules/gui/window/win_preference.py:68
 msgid "Preferences"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_preference.py, line: 86
+
+#: bin/modules/gui/window/win_preference.py:86
 msgid ""
 "The default language of the interface has been modified, do not forget to "
 "restart the client to have the interface in your language"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_preference.py, line: 88
+
+#: bin/modules/gui/window/win_preference.py:88
 msgid "Default language modified !"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Extension"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Application"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_extension.py, line: 43
+
+#: bin/modules/gui/window/win_extension.py:43
 msgid "Print Processor"
 msgstr ""
-#
-# File: bin/modules/gui/window/win_extension.py, line: 111
+
+#: bin/modules/gui/window/win_extension.py:111
 msgid "This extension is already defined"
 msgstr "Papildinājums jau ir definēts."
-#
-# File: bin/modules/gui/window/win_extension.py, line: 111
-# File: bin/openerp.ui.h, line: 758
+
+#: bin/modules/gui/window/win_extension.py:111 bin/openerp.ui.h:758
 msgid "Extension Manager"
 msgstr "Paplašinājumu pārvaldnieks"
-#
-# File: bin/modules/gui/window/view_tree/parse.py, line: 35
+
+#: bin/modules/gui/window/view_tree/parse.py:35
 msgid "Tree"
 msgstr "Koks"
-#
-# File: bin/modules/gui/window/view_tree/view_tree_sc.py, line: 45
+
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:45
 msgid "Description"
 msgstr "Apraksts"
-#
-# File: bin/openerp-client.py, line: 141
+
+#: bin/openerp-client.py:141
 msgid "Closing OpenERP, KeyboardInterrupt"
 msgstr "Aizveru OpenERP, KeyboardInterrupt"
-#
-# File: bin/printer/printer.py, line: 184
+
+#: bin/printer/printer.py:184
 #, python-format
 msgid "Unable to handle %s filetype"
 msgstr "Nevar apstrādāt %s datnes tipu"
-#
-# File: bin/printer/printer.py, line: 193
+
+#: bin/printer/printer.py:193
 #, python-format
 msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
-#
-# File: bin/printer/printer.py, line: 195
+
+#: bin/printer/printer.py:195
 msgid "Print Report"
 msgstr ""
-#
-# File: bin/printer/printer.py, line: 212
+
+#: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
 msgstr ""
-#
-# File: bin/printer/printer.py, line: 239
+
+#: bin/printer/printer.py:239
 msgid "Error writing the file!"
 msgstr "Kļūda saglabājot datni!"
-#
-# File: bin/openerp.ui.h, line: 1
+
+#: bin/openerp.ui.h:1
 msgid ""
 "\n"
 "(c) 2003-TODAY - Tiny sprl\n"
@@ -1616,8 +1557,8 @@ msgstr ""
 "Tel : (+32)81.81.37.00\n"
 "Mail: sales@tiny.be\n"
 "Web: http://tiny.be"
-#
-# File: bin/openerp.ui.h, line: 14
+
+#: bin/openerp.ui.h:14
 #, no-c-format
 msgid ""
 "\n"
@@ -1645,8 +1586,8 @@ msgstr ""
 "(c) 2003-TODAY, Tiny sprl\n"
 "\n"
 "More Info on www.openerp.com !"
-#
-# File: bin/openerp.ui.h, line: 26
+
+#: bin/openerp.ui.h:26
 msgid ""
 "                    GNU GENERAL PUBLIC LICENSE\n"
 "                       Version 3, 29 June 2007\n"
@@ -2270,92 +2211,92 @@ msgid ""
 "\n"
 "                     END OF TERMS AND CONDITIONS\n"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 648
+
+#: bin/openerp.ui.h:648
 msgid "(<i>admin</i>, by default)"
 msgstr "(<i>admin</i>, pēc noklusējuma)"
-#
-# File: bin/openerp.ui.h, line: 649
+
+#: bin/openerp.ui.h:649
 msgid "(must not contain any special char)"
 msgstr "(nedrīkst saturēt speciālās rakstzīmes)"
-#
-# File: bin/openerp.ui.h, line: 650
+
+#: bin/openerp.ui.h:650
 msgid "<Ctrl> + <Enter>"
 msgstr "<Ctrl> + <Enter>"
-#
-# File: bin/openerp.ui.h, line: 651
+
+#: bin/openerp.ui.h:651
 msgid "<Ctrl> + <Esc>"
 msgstr "<Ctrl> + <Esc>"
-#
-# File: bin/openerp.ui.h, line: 652
+
+#: bin/openerp.ui.h:652
 msgid "<Ctrl> + <PgDn>"
 msgstr "<Ctrl> + <PgDn>"
-#
-# File: bin/openerp.ui.h, line: 653
+
+#: bin/openerp.ui.h:653
 msgid "<Ctrl> + <PgUp>"
 msgstr "<Ctrl> + <PgUp>"
-#
-# File: bin/openerp.ui.h, line: 654
+
+#: bin/openerp.ui.h:654
 msgid "<Ctrl> + C"
 msgstr "<Ctrl> + C"
-#
-# File: bin/openerp.ui.h, line: 655
+
+#: bin/openerp.ui.h:655
 msgid "<Ctrl> + D"
 msgstr "<Ctrl> + D"
-#
-# File: bin/openerp.ui.h, line: 656
+
+#: bin/openerp.ui.h:656
 msgid "<Ctrl> + F"
 msgstr "<Ctrl> + F"
-#
-# File: bin/openerp.ui.h, line: 657
+
+#: bin/openerp.ui.h:657
 msgid "<Ctrl> + L"
 msgstr "<Ctrl> + L"
-#
-# File: bin/openerp.ui.h, line: 658
+
+#: bin/openerp.ui.h:658
 msgid "<Ctrl> + N"
 msgstr "<Ctrl> + N"
-#
-# File: bin/openerp.ui.h, line: 659
+
+#: bin/openerp.ui.h:659
 msgid "<Ctrl> + O"
 msgstr "<Ctrl> + O"
-#
-# File: bin/openerp.ui.h, line: 660
+
+#: bin/openerp.ui.h:660
 msgid "<Ctrl> + S"
 msgstr "<Ctrl> + S"
-#
-# File: bin/openerp.ui.h, line: 661
+
+#: bin/openerp.ui.h:661
 msgid "<Ctrl> + V"
 msgstr "<Ctrl> + V"
-#
-# File: bin/openerp.ui.h, line: 662
+
+#: bin/openerp.ui.h:662
 msgid "<Ctrl> + W"
 msgstr "<Ctrl> + W"
-#
-# File: bin/openerp.ui.h, line: 663
+
+#: bin/openerp.ui.h:663
 msgid "<Ctrl> + X"
 msgstr "<Ctrl> + X"
-#
-# File: bin/openerp.ui.h, line: 664
+
+#: bin/openerp.ui.h:664
 msgid "<Enter>"
 msgstr "<Enter>"
-#
-# File: bin/openerp.ui.h, line: 665
+
+#: bin/openerp.ui.h:665
 msgid "<PgDn>"
 msgstr "<PgDn>"
-#
-# File: bin/openerp.ui.h, line: 666
+
+#: bin/openerp.ui.h:666
 msgid "<PgUp>"
 msgstr "<PgUp>"
-#
-# File: bin/openerp.ui.h, line: 667
+
+#: bin/openerp.ui.h:667
 msgid "<Shift> + <Tab>"
 msgstr "<Shift> + <Tab>"
-#
-# File: bin/openerp.ui.h, line: 668
+
+#: bin/openerp.ui.h:668
 msgid "<Tab>"
 msgstr "<Tab>"
-#
-# File: bin/openerp.ui.h, line: 669
+
+#: bin/openerp.ui.h:669
 msgid ""
 "<b>\n"
 "Write concurrency warning:\n"
@@ -2374,28 +2315,28 @@ msgstr ""
 "   - \"Atcelt\" lai atsauktu saglabāšanu.\n"
 "   - \"Salīdzināt\" lai redzētu izmainītos laukus.\n"
 "   - \"Saglabāt\" lai saglabātu pašreizējo versiju.\n"
-#
-# File: bin/openerp.ui.h, line: 678
+
+#: bin/openerp.ui.h:678
 msgid ""
 "<b>About OpenERP</b>\n"
 "<i>The most advanced Open Source ERP &amp; CRM !</i>"
 msgstr ""
 "<b>Par OpenERP</b>\n"
 "<i>Vispilnīgākais atvērtā pirmkoda ERP un CRM !</i>"
-#
-# File: bin/openerp.ui.h, line: 680
+
+#: bin/openerp.ui.h:680
 msgid "<b>All fields</b>"
 msgstr "<b>Visi lauki</b>"
-#
-# File: bin/openerp.ui.h, line: 681
+
+#: bin/openerp.ui.h:681
 msgid "<b>Backup a database</b>"
 msgstr "<b>Veidot datubāzes rezerves kopiju</b>"
-#
-# File: bin/openerp.ui.h, line: 682
+
+#: bin/openerp.ui.h:682
 msgid "<b>Change your super admin password</b>"
 msgstr "<b>Mainīt Super Administrātora paroli</b>"
-#
-# File: bin/openerp.ui.h, line: 683
+
+#: bin/openerp.ui.h:683
 msgid ""
 "<b>Complete this form to submit your bug and/or send a support request.</b>\n"
 "<i>\n"
@@ -2406,170 +2347,170 @@ msgstr ""
 "<b> Aizpildiet šo veidlapu, lai iesniegtu savu kļūdu un / vai nosūtīt "
 "atbalsta pieprasījumu. </ b> \n"
 "<i> \n"
-"Jūsu pieprasījums tiks nosūtīts OpenERP komandai, un mēs drīzumā "
-"atbildēsim. \n"
+"Jūsu pieprasījums tiks nosūtīts OpenERP komandai, un mēs drīzumā atbildēsim. "
+"\n"
 "Ņemiet vērā, ka mēs varam neatbildēt, ja Jums nav atbalsta līgums ar Tiny "
 "vai oficiālu partneri. </i>"
-#
-# File: bin/openerp.ui.h, line: 687
+
+#: bin/openerp.ui.h:687
 msgid "<b>Connect to a OpenERP server</b>"
 msgstr "<b>Pieslēgties OpenERP serverim</b>"
-#
-# File: bin/openerp.ui.h, line: 688
+
+#: bin/openerp.ui.h:688
 msgid "<b>Create a new database</b>"
 msgstr "<b>Izveidot jaunu datubāzi</b>"
-#
-# File: bin/openerp.ui.h, line: 689
+
+#: bin/openerp.ui.h:689
 msgid "<b>Exports List</b>"
 msgstr "<b>Eksportēt sarakstu</b>"
-#
-# File: bin/openerp.ui.h, line: 690
+
+#: bin/openerp.ui.h:690
 msgid "<b>Fields to import</b>"
 msgstr "<b>Importēt laukus</b>"
-#
-# File: bin/openerp.ui.h, line: 691
+
+#: bin/openerp.ui.h:691
 msgid "<b>Opti_ons</b>"
 msgstr "<b>Uzstādījumi</b>"
-#
-# File: bin/openerp.ui.h, line: 692
+
+#: bin/openerp.ui.h:692
 msgid "<b>Predefined Exports</b>"
 msgstr "<b>Predefinēti eksporti</b>"
-#
-# File: bin/openerp.ui.h, line: 693
+
+#: bin/openerp.ui.h:693
 msgid "<b>Restore a database</b>"
 msgstr "<b>Atjaunot datubāzi</b>"
-#
-# File: bin/openerp.ui.h, line: 694
+
+#: bin/openerp.ui.h:694
 msgid "<b>Shortcuts for OpenERP</b>"
 msgstr "<b>OpenERP saites</b>"
-#
-# File: bin/openerp.ui.h, line: 695
+
+#: bin/openerp.ui.h:695
 msgid "<b>Shortcuts in relation fields</b>"
 msgstr "<b>Ātrās saites relāciju laukos</b>"
-#
-# File: bin/openerp.ui.h, line: 696
+
+#: bin/openerp.ui.h:696
 msgid "<b>Shortcuts in text entries</b>"
 msgstr "<b>Ātrās saites teksta ierakstos</b>"
-#
-# File: bin/openerp.ui.h, line: 697
+
+#: bin/openerp.ui.h:697
 msgid "<b>Support contract id:</b>"
 msgstr "<b>Apkalpošanas līguma numurs:</b>"
-#
-# File: bin/openerp.ui.h, line: 698
+
+#: bin/openerp.ui.h:698
 msgid "<b>User preferences</b>"
 msgstr "<b>Lietotāja uzstādījumi</b>"
-#
-# File: bin/openerp.ui.h, line: 699
+
+#: bin/openerp.ui.h:699
 msgid "<b>Value applicable for:</b>"
 msgstr "<b>Vērtība pielietojama priekš:</b>"
-#
-# File: bin/openerp.ui.h, line: 700
+
+#: bin/openerp.ui.h:700
 msgid "<b>Value applicable if:</b>"
 msgstr "<b>Vērtība pielietojama ja:</b>"
-#
-# File: bin/openerp.ui.h, line: 701
+
+#: bin/openerp.ui.h:701
 msgid "<b>Your Company:</b>"
 msgstr "<b>Tavs uzņēmums:</b>"
-#
-# File: bin/openerp.ui.h, line: 702
+
+#: bin/openerp.ui.h:702
 msgid "<b>Your email:</b>"
 msgstr "<b>E-pasta adrese:</b>"
-#
-# File: bin/openerp.ui.h, line: 703
+
+#: bin/openerp.ui.h:703
 msgid "<b>Your name:</b>"
 msgstr "<b>Tavs vārds:</b>"
-#
-# File: bin/openerp.ui.h, line: 704
+
+#: bin/openerp.ui.h:704
 msgid "<i>When editing a resource in a popup window</i>"
 msgstr "<i>Ja rediģē resursu izlecošā logā</i>"
-#
-# File: bin/openerp.ui.h, line: 705
+
+#: bin/openerp.ui.h:705
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
 "Password:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 706
+
+#: bin/openerp.ui.h:706
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 707
+
+#: bin/openerp.ui.h:707
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 708
+
+#: bin/openerp.ui.h:708
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
 "Data:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 709
+
+#: bin/openerp.ui.h:709
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 710
+
+#: bin/openerp.ui.h:710
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 711
+
+#: bin/openerp.ui.h:711
 msgid ""
 "<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
 "Administrator Password:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 713
+
+#: bin/openerp.ui.h:713
 msgid "Add Field Names"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 714
+
+#: bin/openerp.ui.h:714
 msgid "Add a new line/field"
 msgstr "Pielikt jaunu rindu / lauku"
-#
-# File: bin/openerp.ui.h, line: 715
+
+#: bin/openerp.ui.h:715
 msgid "Add an attachment to this resource"
 msgstr "Pievienot šim resursam"
-#
-# File: bin/openerp.ui.h, line: 716
+
+#: bin/openerp.ui.h:716
 msgid "Administrator Password"
 msgstr "Administrātora parole"
-#
-# File: bin/openerp.ui.h, line: 717
+
+#: bin/openerp.ui.h:717
 msgid "Attachment"
 msgstr "Pielikums"
-#
-# File: bin/openerp.ui.h, line: 718
+
+#: bin/openerp.ui.h:718
 msgid "Auto-Complete text field"
 msgstr "Automātiskā lauka aizpilde"
-#
-# File: bin/openerp.ui.h, line: 719
+
+#: bin/openerp.ui.h:719
 msgid "Auto-Detect"
 msgstr "Noteikt automātiski"
-#
-# File: bin/openerp.ui.h, line: 720
+
+#: bin/openerp.ui.h:720
 msgid "Available Fields"
 msgstr "Pieejamie lauki"
-#
-# File: bin/openerp.ui.h, line: 721
+
+#: bin/openerp.ui.h:721
 msgid "Bottom"
 msgstr "Apakšā"
-#
-# File: bin/openerp.ui.h, line: 722
+
+#: bin/openerp.ui.h:722
 msgid "CSV Parameters"
 msgstr "CSV Parametri"
-#
-# File: bin/openerp.ui.h, line: 723
+
+#: bin/openerp.ui.h:723
 msgid "Calendar"
 msgstr "Kalendārs"
-#
-# File: bin/openerp.ui.h, line: 725
+
+#: bin/openerp.ui.h:725
 msgid "Change password"
 msgstr "Mainīt paroli"
-#
-# File: bin/openerp.ui.h, line: 726
+
+#: bin/openerp.ui.h:726
 msgid ""
 "Check this box if you want demonstration data to be installed on your new "
 "database. These data will help you to understand OpenERP, with predefined "
@@ -2577,12 +2518,12 @@ msgid ""
 msgstr ""
 "Atzīmē šo lauku, ja vēlies lai jaunajā datubāzē tiktu ielādēti "
 "demonstrācijas dati. Kā piemēri, tie palīdzēs ātrāk apgūt OpenERP."
-#
-# File: bin/openerp.ui.h, line: 727
+
+#: bin/openerp.ui.h:727
 msgid "Choose a database..."
 msgstr "Izvēlies datubāzi..."
-#
-# File: bin/openerp.ui.h, line: 728
+
+#: bin/openerp.ui.h:728
 msgid ""
 "Choose the default language that will be installed for this database. You "
 "will be able to install new languages after installation through the "
@@ -2590,559 +2531,560 @@ msgid ""
 msgstr ""
 "Norādi datubāzes valodu. Caur administrācijas paneli varēsi pielikt valodas "
 "arī pēc uzstādīšanas."
-#
-# File: bin/openerp.ui.h, line: 729
+
+#: bin/openerp.ui.h:729
 msgid ""
 "Choose the name of the database that will be created. The name must not "
 "contain any special character. Exemple: 'terp'."
 msgstr ""
 "Norādi jaunās datubāzes nosaukumu. Piemēram: 'terp'. Piezīme: nosaukums "
 "nedrīkst saturēt speciālos simbolus un atstarpes."
-#
-# File: bin/openerp.ui.h, line: 730
+
+#: bin/openerp.ui.h:730
 msgid "Close Tab"
 msgstr "Aizvērt cilni"
-#
-# File: bin/openerp.ui.h, line: 731
+
+#: bin/openerp.ui.h:731
 msgid "Close this window"
 msgstr "Aizvērt šo logu"
-#
-# File: bin/openerp.ui.h, line: 732
+
+#: bin/openerp.ui.h:732
 msgid "Close window without saving"
 msgstr "Aizvērt logu nesaglabājot"
-#
-# File: bin/openerp.ui.h, line: 733
+
+#: bin/openerp.ui.h:733
 msgid "Company:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 734
+
+#: bin/openerp.ui.h:734
 msgid "Compare"
 msgstr "Salīdzīnāt"
-#
-# File: bin/openerp.ui.h, line: 735
+
+#: bin/openerp.ui.h:735
 msgid "Concurrency exception"
 msgstr "Labošanas konkurences kļūda"
-#
-# File: bin/openerp.ui.h, line: 736
+
+#: bin/openerp.ui.h:736
 msgid "Connect"
 msgstr "Pieslēgties"
-#
-# File: bin/openerp.ui.h, line: 737
+
+#: bin/openerp.ui.h:737
 msgid "Copy selected text"
 msgstr "Kopēt iezīmēto tekstu"
-#
-# File: bin/openerp.ui.h, line: 738
+
+#: bin/openerp.ui.h:738
 msgid "Copy this resource"
 msgstr "Kopēt šo resursu"
-#
-# File: bin/openerp.ui.h, line: 739
+
+#: bin/openerp.ui.h:739
 msgid "Create a new database"
 msgstr "Izveidot jaunu datubāzi"
-#
-# File: bin/openerp.ui.h, line: 741
+
+#: bin/openerp.ui.h:741
 msgid "Cut selected text"
 msgstr "Izgriezt iezīmēto tekstu"
-#
-# File: bin/openerp.ui.h, line: 742
+
+#: bin/openerp.ui.h:742
 msgid "Database:"
 msgstr "Datubāze:"
-#
-# File: bin/openerp.ui.h, line: 743
+
+#: bin/openerp.ui.h:743
 msgid "Databases"
 msgstr "Datubāzes"
-#
-# File: bin/openerp.ui.h, line: 744
+
+#: bin/openerp.ui.h:744
 msgid "Day"
 msgstr "Diena"
-#
-# File: bin/openerp.ui.h, line: 745
+
+#: bin/openerp.ui.h:745
 msgid "Default _value:"
 msgstr "Vērtība pēc noklusējuma:"
-#
-# File: bin/openerp.ui.h, line: 746
+
+#: bin/openerp.ui.h:746
 msgid "Delete"
 msgstr "Dzēst"
-#
-# File: bin/openerp.ui.h, line: 747
+
+#: bin/openerp.ui.h:747
 msgid "Delete this resource"
 msgstr "Dzēst šo resursu"
-#
-# File: bin/openerp.ui.h, line: 748
+
+#: bin/openerp.ui.h:748
 msgid "Diagram"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 749
+
+#: bin/openerp.ui.h:749
 msgid "Dro_p database"
 msgstr "Dzēst datubāzi"
-#
-# File: bin/openerp.ui.h, line: 750
+
+#: bin/openerp.ui.h:750
 msgid "Edit / Save this resource"
 msgstr "Labot / Saglabāt šo resursu"
-#
-# File: bin/openerp.ui.h, line: 751
+
+#: bin/openerp.ui.h:751
 msgid "Edition Widgets"
 msgstr "Labojamie ievades lauki"
-#
-# File: bin/openerp.ui.h, line: 752
+
+#: bin/openerp.ui.h:752
 msgid "Emergency:"
 msgstr "Neatliekami:"
-#
-# File: bin/openerp.ui.h, line: 753
+
+#: bin/openerp.ui.h:753
 msgid "Enable Debug Mode Tooltips"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 754
+
+#: bin/openerp.ui.h:754
 msgid "Encoding:"
 msgstr "Kodējums:"
-#
-# File: bin/openerp.ui.h, line: 755
+
+#: bin/openerp.ui.h:755
 msgid "Enter Filter Name:"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 756
+
+#: bin/openerp.ui.h:756
 msgid "Explain your problem:"
 msgstr "Izklāsti savu problēmu:"
-#
-# File: bin/openerp.ui.h, line: 757
+
+#: bin/openerp.ui.h:757
 msgid "Expor_t data..."
 msgstr "Eksportēt datus..."
-#
-# File: bin/openerp.ui.h, line: 759
+
+#: bin/openerp.ui.h:759
 msgid "F1"
 msgstr "F1"
-#
-# File: bin/openerp.ui.h, line: 760
+
+#: bin/openerp.ui.h:760
 msgid "F2"
 msgstr "F2"
+
 #
 # File: bin/openerp.glade, line: 6014
-# File: bin/openerp.ui.h, line: 761
+#: bin/openerp.ui.h:761
 msgid "Field Separator: "
 msgstr "Lauku atdalītājs: "
-#
-# File: bin/openerp.ui.h, line: 762
+
+#: bin/openerp.ui.h:762
 msgid "Field _Name:"
 msgstr "Lauka nosaukums:"
-#
-# File: bin/openerp.ui.h, line: 763
+
+#: bin/openerp.ui.h:763
 msgid "Fields to Export"
 msgstr "Eksportēt laukus"
+
 #
 # File: bin/openerp.glade, line: 5821
-# File: bin/openerp.ui.h, line: 764
+#: bin/openerp.ui.h:764
 msgid "File to Import: "
 msgstr "Importēt datni: "
-#
-# File: bin/openerp.ui.h, line: 765
+
+#: bin/openerp.ui.h:765
 msgid "Filter Entry"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 766
+
+#: bin/openerp.ui.h:766
 msgid "Find"
 msgstr "Meklēt"
-#
-# File: bin/openerp.ui.h, line: 767
+
+#: bin/openerp.ui.h:767
 msgid "Find / Search"
 msgstr "Meklēt"
-#
-# File: bin/openerp.ui.h, line: 768
+
+#: bin/openerp.ui.h:768
 msgid "For_m"
 msgstr "Veidlapa"
-#
-# File: bin/openerp.ui.h, line: 769
+
+#: bin/openerp.ui.h:769
 msgid "Form"
 msgstr "Veidlapas"
-#
-# File: bin/openerp.ui.h, line: 770
+
+#: bin/openerp.ui.h:770
 msgid "Gantt"
 msgstr "Gānta"
-#
-# File: bin/openerp.ui.h, line: 771
+
+#: bin/openerp.ui.h:771
 msgid "Go to next matched resource"
 msgstr "Iet uz nākamo atrasto resursu"
-#
-# File: bin/openerp.ui.h, line: 772
+
+#: bin/openerp.ui.h:772
 msgid "Go to previous matched search"
 msgstr "Doties uz iepriekšējo atrasto ierakstu"
-#
-# File: bin/openerp.ui.h, line: 773
+
+#: bin/openerp.ui.h:773
 msgid "Go to resource ID"
 msgstr "Atvērt resursu pēc ID"
-#
-# File: bin/openerp.ui.h, line: 774
+
+#: bin/openerp.ui.h:774
 msgid "Graph"
 msgstr "Grafiks"
-#
-# File: bin/openerp.ui.h, line: 775
+
+#: bin/openerp.ui.h:775
 msgid "Hello World!"
 msgstr "Sveika pasaule!"
-#
-# File: bin/openerp.ui.h, line: 776
+
+#: bin/openerp.ui.h:776
 msgid "Horizontal"
 msgstr "Horizontāli"
-#
-# File: bin/openerp.ui.h, line: 777
+
+#: bin/openerp.ui.h:777
 msgid "I_mport data..."
 msgstr "Importēt datus..."
-#
-# File: bin/openerp.ui.h, line: 778
+
+#: bin/openerp.ui.h:778
 msgid "Import Compatible"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 779
+
+#: bin/openerp.ui.h:779
 msgid "Import from CSV"
 msgstr "Importēt no CSV"
-#
-# File: bin/openerp.ui.h, line: 780
+
+#: bin/openerp.ui.h:780
 msgid "Keyboard Shortcuts"
 msgstr "Tastatūras saīsnes"
-#
-# File: bin/openerp.ui.h, line: 781
+
+#: bin/openerp.ui.h:781
 msgid "Keyboard shortcuts"
 msgstr "Tastatūras saīsnes"
-#
-# File: bin/openerp.ui.h, line: 782
+
+#: bin/openerp.ui.h:782
 msgid "Latin1"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 783
+
+#: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
 msgstr "Darbības ar šo resursu"
-#
-# File: bin/openerp.ui.h, line: 784
+
+#: bin/openerp.ui.h:784
 msgid "Left"
 msgstr "Pa kreisi"
-#
-# File: bin/openerp.ui.h, line: 785
+
+#: bin/openerp.ui.h:785
 msgid "Lines to Skip:"
 msgstr "Izlaist rindas:"
-#
-# File: bin/openerp.ui.h, line: 786
+
+#: bin/openerp.ui.h:786
 msgid "List"
 msgstr "Saraksts"
-#
-# File: bin/openerp.ui.h, line: 787
+
+#: bin/openerp.ui.h:787
 msgid "Main Shortcuts"
 msgstr "Galvenās saīsnes"
-#
-# File: bin/openerp.ui.h, line: 788
+
+#: bin/openerp.ui.h:788
 msgid "Medium"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 789
+
+#: bin/openerp.ui.h:789
 msgid "Menu"
 msgstr "Izvēlne"
-#
-# File: bin/openerp.ui.h, line: 790
+
+#: bin/openerp.ui.h:790
 msgid "Month"
 msgstr "Mēnesis"
-#
-# File: bin/openerp.ui.h, line: 791
+
+#: bin/openerp.ui.h:791
 msgid "N_othing"
 msgstr "Nekas"
-#
-# File: bin/openerp.ui.h, line: 792
+
+#: bin/openerp.ui.h:792
 msgid "Ne_xt"
 msgstr "Tālā_k"
-#
-# File: bin/openerp.ui.h, line: 793
+
+#: bin/openerp.ui.h:793
 msgid "Ne_xt Tip"
 msgstr "Nākamais padoms"
-#
-# File: bin/openerp.ui.h, line: 794
+
+#: bin/openerp.ui.h:794
 msgid "New"
 msgstr "Jauns"
-#
-# File: bin/openerp.ui.h, line: 795
+
+#: bin/openerp.ui.h:795
 msgid "New database name:"
 msgstr "Jaunās datubāzes nosaukums"
-#
-# File: bin/openerp.ui.h, line: 796
+
+#: bin/openerp.ui.h:796
 msgid "New password confirmation:"
 msgstr "Ievadi atkārtoti jauno paroli:"
-#
-# File: bin/openerp.ui.h, line: 797
+
+#: bin/openerp.ui.h:797
 msgid "New password:"
 msgstr "Jaunā parole:"
-#
-# File: bin/openerp.ui.h, line: 798
+
+#: bin/openerp.ui.h:798
 msgid "Next"
 msgstr "Nākamais"
-#
-# File: bin/openerp.ui.h, line: 799
+
+#: bin/openerp.ui.h:799
 msgid "Next Tab"
 msgstr "Nākamais Cilnis"
-#
-# File: bin/openerp.ui.h, line: 800
+
+#: bin/openerp.ui.h:800
 msgid "Next editable widget"
 msgstr "Nākamais labojamais ievades lauks"
-#
-# File: bin/openerp.ui.h, line: 801
+
+#: bin/openerp.ui.h:801
 msgid "Next record"
 msgstr "Nākamais ieraksts"
-#
-# File: bin/openerp.ui.h, line: 802
+
+#: bin/openerp.ui.h:802
 msgid "Not Urgent"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 803
+
+#: bin/openerp.ui.h:803
 msgid "Old password:"
 msgstr "Iepriekšējā parole:"
-#
-# File: bin/openerp.ui.h, line: 804
+
+#: bin/openerp.ui.h:804
 msgid "Open ERP - Forms widget"
 msgstr "OpenERP - Veidlapu ievades lauks"
-#
-# File: bin/openerp.ui.h, line: 805
+
+#: bin/openerp.ui.h:805
 msgid "Open current field"
 msgstr "Atvērt tekošo lauku"
-#
-# File: bin/openerp.ui.h, line: 809
+
+#: bin/openerp.ui.h:809
 msgid "OpenERP - About"
 msgstr "Par OpenERP"
-#
-# File: bin/openerp.ui.h, line: 810
+
+#: bin/openerp.ui.h:810
 msgid "OpenERP - Confirmation"
 msgstr "OpenERP - Apstiprinājums"
-#
-# File: bin/openerp.ui.h, line: 811
+
+#: bin/openerp.ui.h:811
 msgid "OpenERP - Dialog"
 msgstr "OpenERP - Dialogs"
-#
-# File: bin/openerp.ui.h, line: 812
+
+#: bin/openerp.ui.h:812
 msgid "OpenERP - Export to CSV"
 msgstr "OpenERP - Eksportēt uz CSV formātu"
-#
-# File: bin/openerp.ui.h, line: 813
+
+#: bin/openerp.ui.h:813
 msgid "OpenERP - Forms"
 msgstr "OpenERP - Veidlapas"
-#
-# File: bin/openerp.ui.h, line: 814
+
+#: bin/openerp.ui.h:814
 msgid "OpenERP - License"
 msgstr "OpenERP - Licence"
-#
-# File: bin/openerp.ui.h, line: 815
+
+#: bin/openerp.ui.h:815
 msgid "OpenERP - Login"
 msgstr "OpenERP - Login"
-#
-# File: bin/openerp.ui.h, line: 816
+
+#: bin/openerp.ui.h:816
 msgid "OpenERP - Preferences"
 msgstr "OpenERP - uzstādījumi"
-#
-# File: bin/openerp.ui.h, line: 817
+
+#: bin/openerp.ui.h:817
 msgid "OpenERP - Search"
 msgstr "OpenERP - meklēšana"
-#
-# File: bin/openerp.ui.h, line: 818
+
+#: bin/openerp.ui.h:818
 msgid "OpenERP - Selection"
 msgstr "OpenERP - Izvēle"
-#
-# File: bin/openerp.ui.h, line: 819
+
+#: bin/openerp.ui.h:819
 msgid "OpenERP - Tree Resources"
 msgstr "OpenERP -Kokveida resursi"
-#
-# File: bin/openerp.ui.h, line: 820
+
+#: bin/openerp.ui.h:820
 msgid "OpenERP Message"
 msgstr "OpenERP paziņojums"
-#
-# File: bin/openerp.ui.h, line: 821
+
+#: bin/openerp.ui.h:821
 msgid "OpenERP license"
 msgstr "OpenERP licence"
-#
-# File: bin/openerp.ui.h, line: 822
+
+#: bin/openerp.ui.h:822
 msgid "OpenERP, Field Preference target"
 msgstr "OpenERP, Lauka preferences mērķis"
-#
-# File: bin/openerp.ui.h, line: 823
-# File: bin/win_error.ui.h, line: 11
+
+#: bin/openerp.ui.h:823 bin/win_error.ui.h:11
 msgid "Other comments:"
 msgstr "Citi komentāri:"
-#
-# File: bin/openerp.ui.h, line: 824
+
+#: bin/openerp.ui.h:824
 msgid "Password:"
 msgstr "Parole:"
-#
-# File: bin/openerp.ui.h, line: 825
+
+#: bin/openerp.ui.h:825
 msgid "Paste selected text"
 msgstr "Ielikt iezīmēto tekstu"
-#
-# File: bin/openerp.ui.h, line: 826
+
+#: bin/openerp.ui.h:826
 msgid "Phone number:"
 msgstr "Tālruņa numurs:"
-#
-# File: bin/openerp.ui.h, line: 827
+
+#: bin/openerp.ui.h:827
 msgid "Port:"
 msgstr "Ports:"
-#
-# File: bin/openerp.ui.h, line: 828
+
+#: bin/openerp.ui.h:828
 msgid "Pre_vious"
 msgstr "Iep_riekšējais"
-#
-# File: bin/openerp.ui.h, line: 829
+
+#: bin/openerp.ui.h:829
 msgid "Pre_vious Tip"
 msgstr "Iepriekšējais padoms"
-#
-# File: bin/openerp.ui.h, line: 830
+
+#: bin/openerp.ui.h:830
 msgid "Previe_w before print"
 msgstr "Apskatīt pirms drukas"
-#
-# File: bin/openerp.ui.h, line: 831
+
+#: bin/openerp.ui.h:831
 msgid "Previe_w in editor"
 msgstr "Apskatīt redaktorā"
-#
-# File: bin/openerp.ui.h, line: 832
+
+#: bin/openerp.ui.h:832
 msgid "Previous"
 msgstr "Iepriekšējais"
-#
-# File: bin/openerp.ui.h, line: 833
+
+#: bin/openerp.ui.h:833
 msgid "Previous Tab"
 msgstr "Iepriekšējais Cilnis"
-#
-# File: bin/openerp.ui.h, line: 834
+
+#: bin/openerp.ui.h:834
 msgid "Previous editable widget"
 msgstr "Iepriekšējais labojamais ievades lauks"
-#
-# File: bin/openerp.ui.h, line: 835
+
+#: bin/openerp.ui.h:835
 msgid "Previous record"
 msgstr "Iepriekšējais ieraksts"
-#
-# File: bin/openerp.ui.h, line: 836
+
+#: bin/openerp.ui.h:836
 msgid "Previous tab"
 msgstr "Iepriekšējā cilne"
-#
-# File: bin/openerp.ui.h, line: 837
+
+#: bin/openerp.ui.h:837
 msgid "Print documents"
 msgstr "Drukāt dokumentus"
-#
-# File: bin/openerp.ui.h, line: 838
+
+#: bin/openerp.ui.h:838
 msgid "Protocol connection:"
 msgstr "Protokols:"
-#
-# File: bin/openerp.ui.h, line: 839
+
+#: bin/openerp.ui.h:839
 msgid "Read my Requests"
 msgstr "Lasīt paša pieprasījumus"
-#
-# File: bin/openerp.ui.h, line: 840
+
+#: bin/openerp.ui.h:840
 msgid "Reloa_d / Undo"
 msgstr "Pārlādēt / Atcelt"
-#
-# File: bin/openerp.ui.h, line: 841
+
+#: bin/openerp.ui.h:841
 msgid "Reload"
 msgstr "Pārlādēt"
-#
-# File: bin/openerp.ui.h, line: 842
+
+#: bin/openerp.ui.h:842
 msgid "Remove List"
 msgstr "Dzēst sarakstu"
-#
-# File: bin/openerp.ui.h, line: 843
+
+#: bin/openerp.ui.h:843
 msgid "Repeat latest _action"
 msgstr "Atkārtot pēdējo darbību"
-#
-# File: bin/openerp.ui.h, line: 844
+
+#: bin/openerp.ui.h:844
 msgid "Requests:"
 msgstr "Pieprasījumi:"
-#
-# File: bin/openerp.ui.h, line: 845
+
+#: bin/openerp.ui.h:845
 msgid "Restore a database"
 msgstr "Atjaunot datubāzi"
-#
-# File: bin/openerp.ui.h, line: 846
+
+#: bin/openerp.ui.h:846
 msgid "Right"
 msgstr "Pa labi"
-#
-# File: bin/openerp.ui.h, line: 847
+
+#: bin/openerp.ui.h:847
 msgid "Right Toolbar"
 msgstr "Labā rīkjosla"
-#
-# File: bin/openerp.ui.h, line: 848
+
+#: bin/openerp.ui.h:848
 msgid "Save"
 msgstr "Saglabāt"
-#
-# File: bin/openerp.ui.h, line: 849
+
+#: bin/openerp.ui.h:849
 msgid "Save List"
 msgstr "Saglabāt sarakstu"
-#
-# File: bin/openerp.ui.h, line: 850
+
+#: bin/openerp.ui.h:850
 msgid "Save and Close window"
 msgstr "Saglabāt un Aizvērt logu"
-#
-# File: bin/openerp.ui.h, line: 851
+
+#: bin/openerp.ui.h:851
 msgid "Save as CSV"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 852
+
+#: bin/openerp.ui.h:852
 msgid "Search ID:"
 msgstr "Meklēt ID"
-#
-# File: bin/openerp.ui.h, line: 853
+
+#: bin/openerp.ui.h:853
 msgid "Send a new request"
 msgstr "Sūtīt jaunu pieprasījumu"
-#
-# File: bin/openerp.ui.h, line: 854
+
+#: bin/openerp.ui.h:854
 msgid "September 2008"
 msgstr "2008.gada septembris"
-#
-# File: bin/openerp.ui.h, line: 855
+
+#: bin/openerp.ui.h:855
 msgid "Server"
 msgstr "Serveris"
-#
-# File: bin/openerp.ui.h, line: 857
+
+#: bin/openerp.ui.h:857
 msgid "Shortcuts"
 msgstr "Saīsnes"
-#
-# File: bin/openerp.ui.h, line: 858
+
+#: bin/openerp.ui.h:858
 msgid "State:"
 msgstr "Stāvoklis:"
-#
-# File: bin/openerp.ui.h, line: 859
+
+#: bin/openerp.ui.h:859
 msgid "Support Request"
 msgstr "Atbalsta pieprasījums"
-#
-# File: bin/openerp.ui.h, line: 860
+
+#: bin/openerp.ui.h:860
 msgid "Switch to list/form"
 msgstr "Pārslēgties uz sarakstu / veidlapu"
-#
-# File: bin/openerp.ui.h, line: 861
+
+#: bin/openerp.ui.h:861
 msgid "Switch view mode"
 msgstr "Pārslēgt skatījuma režīmu"
-#
-# File: bin/openerp.ui.h, line: 862
+
+#: bin/openerp.ui.h:862
 msgid "Tabs default orientation"
 msgstr "Standarta novietojums"
-#
-# File: bin/openerp.ui.h, line: 863
+
+#: bin/openerp.ui.h:863
 msgid "Tabs default position"
 msgstr "Cilnes noklusētā pozīcija"
-#
-# File: bin/openerp.ui.h, line: 864
+
+#: bin/openerp.ui.h:864
 msgid "Text Delimiter:"
 msgstr "Teksta atdalītājs:"
-#
-# File: bin/openerp.ui.h, line: 865
+
+#: bin/openerp.ui.h:865
 msgid "Text _and Icons"
 msgstr "Ikonas ar tekstu"
-#
-# File: bin/openerp.ui.h, line: 866
+
+#: bin/openerp.ui.h:866
 msgid ""
 "This is the URL of the OpenERP server. Use 'localhost' if the server is "
 "installed on this computer. Click on 'Change' to change the address."
 msgstr ""
 "Šis ir OpenERP URL (adrese). Ievadi 'localhost', ja serveris ir uzstādīt uz "
 "tava datora. Spied \"Mainīt\", lai mainītu adresi."
-#
-# File: bin/openerp.ui.h, line: 867
+
+#: bin/openerp.ui.h:867
 msgid ""
 "This is the password of the 'admin' user that will be created in your new "
 "database."
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 868
+
+#: bin/openerp.ui.h:868
 msgid ""
 "This is the password of the 'admin' user that will be created in your new "
 "database. It has to be the same than the above field."
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 869
+
+#: bin/openerp.ui.h:869
 msgid ""
 "This is the password of the user that have the rights to administer "
 "databases. This is not a OpenERP user, just a super administrator. If you "
@@ -3151,248 +3093,248 @@ msgstr ""
 "Šī ir parole lietotājam, kas drīkst administrēt datubāzes. Šis nav OpenERP "
 "lietotājs - bet gan Super Administrātors. Ja neesi veicis izmaiņas, pēc "
 "uzstādīšanas parole būs 'admin'."
-#
-# File: bin/openerp.ui.h, line: 870
+
+#: bin/openerp.ui.h:870
 msgid "Tip of the Day"
 msgstr "Dienas padoms"
-#
-# File: bin/openerp.ui.h, line: 871
+
+#: bin/openerp.ui.h:871
 msgid "Today"
 msgstr "Šodien"
-#
-# File: bin/openerp.ui.h, line: 872
+
+#: bin/openerp.ui.h:872
 msgid "Top"
 msgstr "Augšā"
-#
-# File: bin/openerp.ui.h, line: 873
+
+#: bin/openerp.ui.h:873
 msgid "UTF-8"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 874
+
+#: bin/openerp.ui.h:874
 msgid "Urgent"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 875
+
+#: bin/openerp.ui.h:875
 msgid "User _Manual"
 msgstr "Lietotāja ceļvadis"
-#
-# File: bin/openerp.ui.h, line: 876
+
+#: bin/openerp.ui.h:876
 msgid "User:"
 msgstr "Lietotājs:"
-#
-# File: bin/openerp.ui.h, line: 877
+
+#: bin/openerp.ui.h:877
 msgid "Vertical"
 msgstr "Vertikāli"
-#
-# File: bin/openerp.ui.h, line: 878
+
+#: bin/openerp.ui.h:878
 msgid "Very Urgent"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 879
+
+#: bin/openerp.ui.h:879
 msgid "View _logs"
 msgstr "Skatīt žurnālu"
-#
-# File: bin/openerp.ui.h, line: 881
+
+#: bin/openerp.ui.h:881
 msgid "Write anyway"
 msgstr "Saglabāt tik un tā"
-#
-# File: bin/openerp.ui.h, line: 882
+
+#: bin/openerp.ui.h:882
 msgid "Your selection:"
 msgstr "Tava izvēle"
-#
-# File: bin/openerp.ui.h, line: 883
+
+#: bin/openerp.ui.h:883
 msgid "_About..."
 msgstr "_Par..."
-#
-# File: bin/openerp.ui.h, line: 884
+
+#: bin/openerp.ui.h:884
 msgid "_Add"
 msgstr "_Pievienot"
-#
-# File: bin/openerp.ui.h, line: 885
+
+#: bin/openerp.ui.h:885
 msgid "_Backup database"
 msgstr "_Veidot datubāzes rezerves kopiju"
-#
-# File: bin/openerp.ui.h, line: 886
+
+#: bin/openerp.ui.h:886
 msgid "_Connect..."
 msgstr "_Pieslēgties..."
-#
-# File: bin/openerp.ui.h, line: 887
+
+#: bin/openerp.ui.h:887
 msgid "_Contact"
 msgstr "_Kontakts"
-#
-# File: bin/openerp.ui.h, line: 888
+
+#: bin/openerp.ui.h:888
 msgid "_Contextual Help"
 msgstr "_Kontektuālā palīdzība"
-#
-# File: bin/openerp.ui.h, line: 889
+
+#: bin/openerp.ui.h:889
 msgid "_Delete"
 msgstr "_Dzēst"
-#
-# File: bin/openerp.ui.h, line: 890
+
+#: bin/openerp.ui.h:890
 msgid "_Disconnect"
 msgstr "_Atvienoties"
-#
-# File: bin/openerp.ui.h, line: 891
+
+#: bin/openerp.ui.h:891
 msgid "_Display a new tip next time?"
 msgstr "_Turpināt rādīt padomus?"
-#
-# File: bin/openerp.ui.h, line: 892
+
+#: bin/openerp.ui.h:892
 msgid "_Domain:"
 msgstr "_Domēns:"
-#
-# File: bin/openerp.ui.h, line: 893
+
+#: bin/openerp.ui.h:893
 msgid "_Download Migrations Code"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 894
+
+#: bin/openerp.ui.h:894
 msgid "_Duplicate"
 msgstr "_Dublēt"
-#
-# File: bin/openerp.ui.h, line: 895
+
+#: bin/openerp.ui.h:895
 msgid "_Execute a plugin"
 msgstr "Iedarbināt papildinājumu"
-#
-# File: bin/openerp.ui.h, line: 896
+
+#: bin/openerp.ui.h:896
 msgid "_Extension Manager"
 msgstr "_Paplašinājuma vadītājs"
-#
-# File: bin/openerp.ui.h, line: 897
+
+#: bin/openerp.ui.h:897
 msgid "_File"
 msgstr "_Datne"
-#
-# File: bin/openerp.ui.h, line: 898
+
+#: bin/openerp.ui.h:898
 msgid "_Forms"
 msgstr "Veidlapas"
-#
-# File: bin/openerp.ui.h, line: 899
+
+#: bin/openerp.ui.h:899
 msgid "_Go to resource ID..."
 msgstr "_Atvērt resursu pēc ID..."
-#
-# File: bin/openerp.ui.h, line: 900
+
+#: bin/openerp.ui.h:900
 msgid "_Help"
 msgstr "_Palīdzība"
-#
-# File: bin/openerp.ui.h, line: 901
+
+#: bin/openerp.ui.h:901
 msgid "_Icons only"
 msgstr "_Tikai ikonas"
-#
-# File: bin/openerp.ui.h, line: 902
+
+#: bin/openerp.ui.h:902
 msgid "_License"
 msgstr "_Licence"
-#
-# File: bin/openerp.ui.h, line: 903
+
+#: bin/openerp.ui.h:903
 msgid "_Menu"
 msgstr "_Izvēlne"
-#
-# File: bin/openerp.ui.h, line: 904
+
+#: bin/openerp.ui.h:904
 msgid "_Menubar"
 msgstr "Menu josla"
-#
-# File: bin/openerp.ui.h, line: 905
+
+#: bin/openerp.ui.h:905
 msgid "_Migrate Database(s)"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 906
+
+#: bin/openerp.ui.h:906
 msgid "_New"
 msgstr "_Jauns"
-#
-# File: bin/openerp.ui.h, line: 907
+
+#: bin/openerp.ui.h:907
 msgid "_New Home Tab"
 msgstr "_Jauna mājas cilne"
-#
-# File: bin/openerp.ui.h, line: 908
+
+#: bin/openerp.ui.h:908
 msgid "_New database"
 msgstr "_Jauna datubāze"
-#
-# File: bin/openerp.ui.h, line: 909
+
+#: bin/openerp.ui.h:909
 msgid "_Nothing"
 msgstr "_Nekas"
-#
-# File: bin/openerp.ui.h, line: 910
+
+#: bin/openerp.ui.h:910
 msgid "_Open"
 msgstr "_Atvērt"
-#
-# File: bin/openerp.ui.h, line: 911
+
+#: bin/openerp.ui.h:911
 msgid "_OpenERP"
 msgstr "_OpenERP"
-#
-# File: bin/openerp.ui.h, line: 912
+
+#: bin/openerp.ui.h:912
 msgid "_Options"
 msgstr "_Uzstādījumi"
-#
-# File: bin/openerp.ui.h, line: 913
+
+#: bin/openerp.ui.h:913
 msgid "_Plugins"
 msgstr "_Papildinājumi"
-#
-# File: bin/openerp.ui.h, line: 914
+
+#: bin/openerp.ui.h:914
 msgid "_Preferences"
 msgstr "_Uzstādījumi"
-#
-# File: bin/openerp.ui.h, line: 915
+
+#: bin/openerp.ui.h:915
 msgid "_Preview in PDF"
 msgstr "Skatīt PDF formātā"
-#
-# File: bin/openerp.ui.h, line: 916
+
+#: bin/openerp.ui.h:916
 msgid "_Print"
 msgstr "_Drukāt"
-#
-# File: bin/openerp.ui.h, line: 917
+
+#: bin/openerp.ui.h:917
 msgid "_Read my requests"
 msgstr "_Lasīt manus pieprasījumus"
-#
-# File: bin/openerp.ui.h, line: 918
+
+#: bin/openerp.ui.h:918
 msgid "_Remove"
 msgstr "_Aizvākt"
-#
-# File: bin/openerp.ui.h, line: 919
+
+#: bin/openerp.ui.h:919
 msgid "_Restore database"
 msgstr "_Atjaunot datubāzi"
-#
-# File: bin/openerp.ui.h, line: 920
+
+#: bin/openerp.ui.h:920
 msgid "_Save"
 msgstr "_Saglabāt"
-#
-# File: bin/openerp.ui.h, line: 921
+
+#: bin/openerp.ui.h:921
 msgid "_Save options"
 msgstr "_Saglabāšanas iespējas"
-#
-# File: bin/openerp.ui.h, line: 922
+
+#: bin/openerp.ui.h:922
 msgid "_Send a request"
 msgstr "_Sūtīt pieprasījumu"
-#
-# File: bin/openerp.ui.h, line: 923
+
+#: bin/openerp.ui.h:923
 msgid "_Shortcuts"
 msgstr "_Saīsnes"
-#
-# File: bin/openerp.ui.h, line: 924
+
+#: bin/openerp.ui.h:924
 msgid "_Text only"
 msgstr "_Tikai teksts"
-#
-# File: bin/openerp.ui.h, line: 925
+
+#: bin/openerp.ui.h:925
 msgid "_User"
 msgstr "_Lietotājs"
-#
-# File: bin/openerp.ui.h, line: 926
+
+#: bin/openerp.ui.h:926
 msgid "_Waiting Requests"
 msgstr "_Neapstrādātie pieprasījumi"
-#
-# File: bin/openerp.ui.h, line: 927
+
+#: bin/openerp.ui.h:927
 msgid "_only for you"
 msgstr "_tikai tev"
-#
-# File: bin/openerp.ui.h, line: 928
+
+#: bin/openerp.ui.h:928
 msgid "admin"
 msgstr ""
-#
-# File: bin/openerp.ui.h, line: 929
+
+#: bin/openerp.ui.h:929
 msgid "for _all users"
 msgstr "visiem lietotājiem"
-#
-# File: bin/openerp.ui.h, line: 930
+
+#: bin/openerp.ui.h:930
 msgid "http://localhost:8069"
 msgstr "http://localhost:8069"
-#
-# File: bin/win_error.ui.h, line: 1
+
+#: bin/win_error.ui.h:1
 msgid ""
 "<b>Publisher Warranty Contract.</b>\n"
 "<i>\n"
@@ -3400,88 +3342,99 @@ msgid ""
 "you shortly.\n"
 "</i>"
 msgstr ""
-#
-# File: bin/win_error.ui.h, line: 5
+
+#: bin/win_error.ui.h:5
 msgid "<i>_Details</i>"
 msgstr "<i>Sīkāka informācija</i>"
-#
-# File: bin/win_error.ui.h, line: 6
+
+#: bin/win_error.ui.h:6
 msgid "<i>_Publisher Warranty</i>"
 msgstr ""
-#
-# File: bin/win_error.ui.h, line: 7
+
+#: bin/win_error.ui.h:7
 msgid "<i>_Support Request</i>"
 msgstr "<i>_Atbalsta pieprasījums</i>"
-#
-# File: bin/win_error.ui.h, line: 8
+
+#: bin/win_error.ui.h:8
 msgid "Click here for details about the publisher warranty proposition"
 msgstr ""
-#
-# File: bin/win_error.ui.h, line: 9
+
+#: bin/win_error.ui.h:9
 msgid "Details"
 msgstr "Sīkāka informācija"
-#
-# File: bin/win_error.ui.h, line: 10
+
+#: bin/win_error.ui.h:10
 msgid "Explain what you did:"
 msgstr "Aprakasti kas tika darīts:"
-#
-# File: bin/win_error.ui.h, line: 12
+
+#: bin/win_error.ui.h:12
 msgid "Problems summary:"
 msgstr ""
-#
-# File: bin/win_error.ui.h, line: 13
+
+#: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
 msgstr ""
-#
-# File: bin/win_error.ui.h, line: 14
+
+#: bin/win_error.ui.h:14
 msgid "label"
 msgstr "birka"
-#
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Etvērt Excel programmā\n"
+#~ "Saglabāt CSV formātā"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Notikusi kļūda, parole nav nomainīta."
+
+#~ msgid "File to Import:"
+#~ msgstr "Importēt datni:"
+
 #~ msgid "Unknown"
 #~ msgstr "Nezināms"
-#
-#
-# File: bin/modules/gui/main.py, line: 473
+
+#~ msgid "Edit"
+#~ msgstr "Labot"
+
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC kļūda!"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Lauku atdalītājs:"
+
+#~ msgid "window1"
+#~ msgstr "logs1"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Citi komentāri:"
+
+#, python-format
 #~ msgid ""
-#~ "The versions of the server %(server_version)s and the client "
-#~ "%(client_version)s mismatch. The client may not work properly. Use it at "
-#~ "your own risks."
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
 #~ msgstr ""
-#~ "Nesakrīt servera %(server_version)s un klienta %(client_version)s "
-#~ "aplikāciju versijas. Klienta pārlūkprogramma var darboties nekorekti. "
-#~ "Lietojiet ļoti uzmanīgi."
-#
-#
-# File: bin/openerp.glade, line: 1959
+#~ "Nesakrīt servera (%s) un klienta (%s) aplikāciju versijas. Klienta "
+#~ "pārlūkprogramma var darboties nekorekti. Lietojiet ļoti uzmanīgi."
+
 #~ msgid ""
-#~ "\n"
-#~ "(c) 2004-TODAY, OpenERP SA\n"
-#~ "OpenERP is a product of OpenERP SA:\n"
-#~ "\n"
-#~ "OpenERP SA\n"
-#~ "40 Chaussée de Namur\n"
-#~ "1367 Gérompont\n"
-#~ "Belgium\n"
-#~ "\n"
-#~ "Tel : (+32) 81.81.37.00\n"
-#~ "Tel : (+32) 2 290 34 90 (Sales)\n"
-#~ "Mail: sales@openerp.com\n"
-#~ "Web: http://openerp.com"
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
 #~ msgstr ""
-#~ "\n"
-#~ "(c) 2004-TODAY, OpenERP SA\n"
-#~ "OpenERP is a product of OpenERP SA:\n"
-#~ "\n"
-#~ "OpenERP SA\n"
-#~ "40 Chaussée de Namur\n"
-#~ "1367 Gérompont\n"
-#~ "Belgium\n"
-#~ "\n"
-#~ "Tel : (+32) 81.81.37.00\n"
-#~ "Tel : (+32) 2 290 34 90 (Sales)\n"
-#~ "Mail: sales@openerp.com\n"
-#~ "Web: http://openerp.com"
-#
+#~ "Automātiskā drukāšana linux'ā nav pieejama.\n"
+#~ "Izvēlies apskates iespēju!"
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Ieraksts nav saglabāts! \n"
+#~ "Vai vēlies dzest šo ierakstu?"
+
+#~ msgid "Add _field names"
+#~ msgstr "Pielikt lauku nosaukumus"
+
 #~ msgid ""
 #~ "Not Urgent\n"
 #~ "Medium\n"
@@ -3492,64 +3445,12 @@ msgstr "birka"
 #~ "Vidēji steidzami\n"
 #~ "Steidzami\n"
 #~ "Ļoti steidzami"
-#
-#~ msgid "window1"
-#~ msgstr "logs1"
-#
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Etvērt Excel programmā\n"
-#~ "Saglabāt CSV formātā"
-#
-#~ msgid "Error, password not changed."
-#~ msgstr "Notikusi kļūda, parole nav nomainīta."
-#
-#~ msgid "File to Import:"
-#~ msgstr "Importēt datni:"
-#
-#~ msgid "Edit"
-#~ msgstr "Labot"
-#
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC kļūda!"
-#
-#~ msgid "Field Separater:"
-#~ msgstr "Lauku atdalītājs:"
-#
-#~ msgid "Others Comments:"
-#~ msgstr "Citi komentāri:"
-#
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Nesakrīt servera (%s) un klienta (%s) aplikāciju versijas. Klienta "
-#~ "pārlūkprogramma var darboties nekorekti. Lietojiet ļoti uzmanīgi."
-#
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Automātiskā drukāšana linux'ā nav pieejama.\n"
-#~ "Izvēlies apskates iespēju!"
-#
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Ieraksts nav saglabāts! \n"
-#~ "Vai vēlies dzest šo ierakstu?"
-#
-#~ msgid "Add _field names"
-#~ msgstr "Pielikt lauku nosaukumus"
-#
+
 #~ msgid "You must select a record to use the relate button !"
 #~ msgstr "Jums jāizvēlas ieraksts, lai lietotu savienošanas pogu"
-#
+
 #~ msgid "not in"
 #~ msgstr "tajā skaitā nav"
-#
+
 #~ msgid "Remove Filter"
 #~ msgstr "Noņemt filtru"
