@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-11-18 12:55+0000\n"
+"PO-Revision-Date: 2011-12-01 12:22+0000\n"
 "Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://www.shine-it.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-11-30 05:27+0000\n"
-"X-Generator: Launchpad (build 14404)\n"
+"X-Launchpad-Export-Date: 2011-12-02 04:45+0000\n"
+"X-Generator: Launchpad (build 14414)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -1127,8 +1127,8 @@ msgid ""
 "The server crashed during installation.\n"
 "We suggest you to drop this database."
 msgstr ""
-"資料庫建立不成功。\n"
-"建議刪除該資料庫。"
+"安裝途中伺服器當掉。\n"
+"建議捨棄該資料庫。"
 
 #: bin/modules/gui/main.py:694 bin/modules/gui/main.py:1060
 msgid "Press Ctrl+O to login"
@@ -1247,15 +1247,15 @@ msgstr "刪除資料庫"
 
 #: bin/modules/gui/main.py:1375
 msgid "Database dropped successfully !"
-msgstr "成功刪除資料庫！"
+msgstr "成功捨棄資料庫！"
 
 #: bin/modules/gui/main.py:1378
 msgid "Could not drop database."
-msgstr "無法刪除資料庫。"
+msgstr "無法捨棄資料庫。"
 
 #: bin/modules/gui/main.py:1380
 msgid "Couldn't drop database"
-msgstr "無法刪除資料庫"
+msgstr "無法捨棄資料庫"
 
 #: bin/modules/gui/main.py:1395
 msgid "Database restored successfully !"
@@ -1371,7 +1371,7 @@ msgstr "開啟 .CSV 檔案時發生錯誤"
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Input Error."
-msgstr "匯入時發生錯誤。"
+msgstr "輸入時發生錯誤。"
 
 #: bin/modules/gui/window/win_import.py:198
 #, python-format
@@ -1522,12 +1522,9 @@ msgstr "尚未選擇紀錄！只能附加在已有的紀錄。"
 msgid "You have to select a record !"
 msgstr "請選擇紀錄！"
 
-#
-# File: bin/modules/gui/window/form.py, line: 216
-# File: bin/modules/gui/window/form.py, line: 216
 #: bin/modules/gui/window/form.py:271
 msgid "Creation User"
-msgstr "建立成員"
+msgstr "建立使用者"
 
 #
 # File: bin/modules/gui/window/form.py, line: 217
@@ -1536,19 +1533,13 @@ msgstr "建立成員"
 msgid "Creation Date"
 msgstr "建立日期"
 
-#
-# File: bin/modules/gui/window/form.py, line: 218
-# File: bin/modules/gui/window/form.py, line: 218
 #: bin/modules/gui/window/form.py:273
 msgid "Latest Modification by"
-msgstr "最新更改者"
+msgstr "最後更改者"
 
-#
-# File: bin/modules/gui/window/form.py, line: 219
-# File: bin/modules/gui/window/form.py, line: 219
 #: bin/modules/gui/window/form.py:274
 msgid "Latest Modification Date"
-msgstr "最新更改日期"
+msgstr "最後更改日期"
 
 #: bin/modules/gui/window/form.py:275
 msgid "Internal Module Data ID"
