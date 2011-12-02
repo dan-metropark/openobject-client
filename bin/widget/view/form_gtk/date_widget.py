@@ -152,7 +152,7 @@ You can also use "=" to set the date to the current date/time and '-' to clear t
 
     def _focus_out(self, args, args2):
         date = self.isvalid_date(self.small_text)
-        if(date):
+        if date:
             large_text = date.strftime(self.format)
             self.set_text(large_text)
         else:
@@ -175,35 +175,36 @@ You can also use "=" to set the date to the current date/time and '-' to clear t
             date = self.isvalid_date(text);
             if(date):
                 self.small_text = date.strftime(self.small_format)
-            elif(text==self.initial_value):
+            elif text == self.initial_value:
                 self.small_text = self.initial_value
-            
         finally:
             self._interactive_input = True
             
     def get_text(self):
         date = self.isvalid_date(self.small_text)
-        if(date and not self.is_focus()):
+        if date and not self.is_focus():
             return date.strftime(self.format)
         return gtk.Entry.get_text(self)
             
-        
     def get_value(self):
         date = self.isvalid_date(self.small_text)
-        if(date):
+        if date:
             return date.strftime(self.format)
-        return gtk.Entry.get_text(self)
+        entered_value = gtk.Entry.get_text(self)
+        if '_' not in entered_value:
+            self.set_text(self.initial_value)
+        return entered_value
         
     def date_set(self, dt):
         if dt:
-            self.set_text( dt.strftime(self.format) )
+            self.set_text(dt.strftime(self.format))
         else:
             self.set_text(self.initial_value)
 
     def date_get(self):
         tt = time.strftime(self.format, time.localtime())
         tc = self.get_text()
-        if tc==self.initial_value:
+        if tc == self.initial_value:
             return False
         for a in range(len(self.initial_value)):
             if self.initial_value[a] == tc[a]:
