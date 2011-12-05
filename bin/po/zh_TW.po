@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-12-01 12:22+0000\n"
+"PO-Revision-Date: 2011-12-04 16:15+0000\n"
 "Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://www.shine-it.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-02 04:45+0000\n"
-"X-Generator: Launchpad (build 14414)\n"
+"X-Launchpad-Export-Date: 2011-12-05 05:22+0000\n"
+"X-Generator: Launchpad (build 14418)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -1516,7 +1516,7 @@ msgstr "此物件的資源ID不存在！"
 
 #: bin/modules/gui/window/form.py:247
 msgid "No record selected ! You can only attach to existing record."
-msgstr "尚未選擇紀錄！只能附加在已有的紀錄。"
+msgstr "尚未選取紀錄！只能附加在既有紀錄。"
 
 #: bin/modules/gui/window/form.py:264
 msgid "You have to select a record !"
