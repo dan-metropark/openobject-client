@@ -105,33 +105,32 @@ class main(service.Service):
             if datas['limit'] is None or datas['limit'] == 0:
                 datas['limit'] = 100
 
-            view_ids=False
-            if action.get('views', []):
-                if isinstance(action['views'],list):
-                    view_ids=[x[0] for x in action['views']]
-                    datas['view_mode']=",".join([x[1] for x in action['views']])
+            view_ids = False
+            if action.get('views'):
+                if isinstance(action['views'], list):
+                    view_ids = [x[0] for x in action['views'] if x[1] not in ('kanban','gantt')]
+                    datas['view_mode'] =",".join([x[1] for x in action['views'] if x[1] not in ('kanban','gantt')] )
                 else:
-                    if action.get('view_id', False):
-                        view_ids=[action['view_id'][0]]
-            elif action.get('view_id', False):
-                view_ids=[action['view_id'][0]]
-
-            if not action.get('domain', False):
-                action['domain']='[]'
+                    if action.get('view_id'):
+                        view_ids = [action['view_id'][0]]
+            elif action.get('view_id'):
+                view_ids = [ action['view_id'][0] ]
+            if not action.get('domain'):
+                action['domain'] = '[]'
             domain_ctx = context.copy()
             domain_ctx['time'] = time
             domain_ctx['datetime'] = datetime
             domain = tools.expr_eval(action['domain'], domain_ctx)
             help = {}
-            if action.get('display_menu_tip', False):
+            if action.get('display_menu_tip'):
                 msg = action.get('help', False)
                 title = action.get('name', False)
                 if msg and len(msg):
                     help['msg'] =  msg
                     help['title'] = title or ''
-            if datas.get('domain', False):
+            if datas.get('domain'):
                 domain.append(datas['domain'])
-            if action.get('target', False)=='new':
+            if action.get('target') == 'new':
                 dia = dialog(datas['res_model'], id=datas.get('res_id',None),
                              window=datas.get('window',None), domain=domain,
                              context=context, view_ids=view_ids,target=True,
