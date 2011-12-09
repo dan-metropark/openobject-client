@@ -247,10 +247,10 @@ class FloatField(CharField):
 
 class IntegerField(CharField):
     def get(self, model, check_load=True, readonly=True, modified=False):
-        return model.value.get(self.name, 0) or 0
+        return model.value.get(self.name, 0) 
 
     def get_client(self, model):
-        return model.value[self.name] or 0
+        return model.value.get(self.name, 0)
 
     def validate(self, model):
         self.get_state_attrs(model)['valid'] = True
