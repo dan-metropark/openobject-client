@@ -293,17 +293,17 @@ class _container(object):
 
 class parser_form(widget.view.interface.parser_interface):
     def __init__(self, window, parent=None, attrs=None, screen=None):
-           super(parser_form, self).__init__(window, parent=parent, attrs=attrs,
-                    screen=screen)
-           self.widget_id = 0
-           self.default_focus_field = False
-           self.default_focus_button = False
-           self.board_style = False
-           self.column = 1
-           self.accepted_attr_list = ['type','domain','context','relation', 'widget','attrs',
-                                      'digits','function','store','fnct_search','fnct_inv','fnct_inv_arg',
-                                      'func_obj','func_method','related_columns','third_table','states',
-                                      'translate','change_default','size','selection']
+        super(parser_form, self).__init__(window, parent=parent, attrs=attrs,
+                screen=screen)
+        self.widget_id = 0
+        self.default_focus_field = False
+        self.default_focus_button = False
+        self.board_style = False
+        self.column = 1
+        self.accepted_attr_list = ['type','domain','context','relation', 'widget','attrs',
+                                  'digits','function','store','fnct_search','fnct_inv','fnct_inv_arg',
+                                  'func_obj','func_method','related_columns','third_table','states',
+                                  'translate','change_default','size','selection']
 
     def create_detail_tooltip(self, name='', field_attr={}):
         tooltip = '<span foreground="#009900"><b>%s:</b> %s - <b>%s:</b> %s' % \
