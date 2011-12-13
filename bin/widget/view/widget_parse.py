@@ -26,27 +26,20 @@ import form_gtk
 import tree_gtk
 import graph_gtk
 import calendar_gtk
-import gantt_gtk
 import diagram_gtk
-import kanban_gtk
 
 from form import ViewForm
 from list import ViewList
 from graph import ViewGraph
 from calendar import ViewCalendar
 from diagram import ViewDiagram
-from gantt import ViewGantt
-from kanban import Viewkanban
-
 
 parsers = {
     'form' : (form_gtk.parser_form, ViewForm),
     'tree' : (tree_gtk.parser_tree, ViewList),
     'graph': (graph_gtk.parser_graph, ViewGraph),
     'calendar' : (calendar_gtk.parser_calendar, ViewCalendar),
-    'gantt' : (gantt_gtk.parser_gantt, ViewGantt),
     'diagram' : (diagram_gtk.parser_diagram, ViewDiagram),
-    'kanban' : (kanban_gtk.parser_kanban, Viewkanban),
 }
 
 class widget_parse(interface.parser_interface):
