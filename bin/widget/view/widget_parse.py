@@ -48,7 +48,7 @@ class widget_parse(interface.parser_interface):
             if node.tag not in parsers:
                 raise Exception(_("This type (%s) is not supported by the GTK client !") % node.tag)
             widget_parser, view_parser = parsers[node.tag]
-            # Select the parser for the view (form, tree, graph, calendar or gantt)
+            # Select the parser for the view (form, tree, graph, calendar)
             widget = widget_parser(self.window, self.parent, self.attrs, screen)
             wid, child, buttons, on_write = widget.parse(screen.resource, node, fields)
             duplicated_fields = []
