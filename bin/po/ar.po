@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-10-14 15:46+0000\n"
-"Last-Translator: kifcaliph <kifcaliph@hotmail.com>\n"
+"PO-Revision-Date: 2012-01-08 14:14+0000\n"
+"Last-Translator: kifcaliph <Unknown>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:15+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-01-09 04:49+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Language: ar\n"
 
 #: bin/common/common.py:88
@@ -485,7 +485,7 @@ msgstr "لا يمكن تكوين الرسم!"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "غير محدد"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -928,7 +928,7 @@ msgstr "لا يمكن إستخدام القيمة الإفتراضية هنا !"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "العملية ممنوعة!"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -2759,7 +2759,7 @@ msgstr "المختصرات الرئيسية"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "وسط"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -3099,11 +3099,11 @@ msgstr "أعلى"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "عاجل"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
@@ -3119,7 +3119,7 @@ msgstr "عمودي"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "عاجل جداً"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
