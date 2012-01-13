@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-11-15 09:12+0000\n"
-"Last-Translator: Andreas Ntakas <Unknown>\n"
+"PO-Revision-Date: 2012-01-12 19:04+0000\n"
+"Last-Translator: Theodoros Malliwtakis <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:16+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-01-13 04:39+0000\n"
+"X-Generator: Launchpad (build 14664)\n"
 "Language: el\n"
 
 #: bin/common/common.py:88
@@ -83,7 +83,7 @@ msgstr " ανέφερε το εξής πρόβλημα:\n"
 
 #: bin/common/common.py:410
 msgid "remarks"
-msgstr ""
+msgstr "Σημειώσεις"
 
 #: bin/common/common.py:413
 msgid "Support request sent !"
@@ -503,7 +503,7 @@ msgstr "Αδυναμία δημιουργίας γραφήματος!"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Μη καθορισμένο"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -536,7 +536,7 @@ msgstr ""
 
 #: bin/widget/view/diagram_gtk/xdot.py:1719
 msgid "Add New Node"
-msgstr ""
+msgstr "Πρόσθεσε νέο κόμβο"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1720
 msgid "Add New Edge"
@@ -780,6 +780,8 @@ msgstr "Μετάφραση καρτέλας"
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
 msgstr ""
+"Στείλτε ένα e-mail με το προεπιλεγμένο πρόγραμμα-πελάτη ηλεκτρονικού "
+"ταχυδρομείου"
 
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
@@ -957,7 +959,7 @@ msgstr "Δεν μπορείτε να ορίσετε την αρχική τιμή
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "Η λειτουργία δεν επιτρέπεται!"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -1198,7 +1200,7 @@ msgstr "Αδυναμία αποκατάστασης της βάσης δεδομ
 
 #: bin/modules/gui/main.py:1435
 msgid "<b>Change your password</b>"
-msgstr ""
+msgstr "Αλλαξε τον κωδικό πρόσβασης"
 
 #: bin/modules/gui/main.py:1450
 msgid ""
@@ -1222,6 +1224,8 @@ msgstr "Παρασχέθηκε λανθασμένος κωδικός!"
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
 msgstr ""
+"Η αλλαγή του κωδικού πρόσβασης απέτυχε, παρακαλώ επιβαιβεώστε το παλαιό "
+"κωδικό πρόσβασης"
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
@@ -2838,7 +2842,7 @@ msgstr "Κύριες Συντομεύσεις"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Μεσαίο"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
