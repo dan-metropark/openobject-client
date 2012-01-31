@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 15:48+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2012-01-30 13:16+0000\n"
+"Last-Translator: Goran Kliska <gkliska@gmail.com>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:17+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-01-31 05:00+0000\n"
+"X-Generator: Launchpad (build 14734)\n"
 "Language: hr\n"
 
 #: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
@@ -289,11 +289,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "I"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "ILI"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
@@ -355,7 +355,7 @@ msgstr "Ne"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "je"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -369,7 +369,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "nije"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -385,7 +385,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "je prazan"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -401,7 +401,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "nije prazan"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -422,7 +422,7 @@ msgstr "Traži stavku"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Jednako"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -435,7 +435,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "između"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -448,7 +448,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:358
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
-msgstr ""
+msgstr "izuzmi raspon"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
@@ -473,12 +473,12 @@ msgstr "manje od"
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "veće ili jednako"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "manje ili jednako"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
@@ -543,7 +543,7 @@ msgstr "Ne mogu generirati grafikon !"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Nedefiniran"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -552,7 +552,7 @@ msgstr "Ovaj tip (%s) nije podržan od strane GTK klijenta !"
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "Greška u pogledu."
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -732,19 +732,19 @@ msgstr "Uredi filtere"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Neograničeno"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -777,6 +777,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Popravite crvena polja !\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -807,7 +810,7 @@ msgstr "Prevedi pogled"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Pošalji e-mail koristeći postavljenog e-mail klijenta"
 
 #: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
 #: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
@@ -972,7 +975,7 @@ msgstr "Upozorenje"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "Slika neispravna"
 
 #: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
@@ -984,7 +987,7 @@ msgstr "Ovdje ne možete postaviti uobičajenu vrijednost !"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "Operacija nije dozvoljena!"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -1226,7 +1229,7 @@ msgstr "Nisam mogao obnoviti bazu podataka."
 
 #: bin/modules/gui/main.py:1435
 msgid "<b>Change your password</b>"
-msgstr ""
+msgstr "<b>Promjeni svoju lozinku</b>"
 
 #: bin/modules/gui/main.py:1450
 msgid ""
@@ -1247,7 +1250,7 @@ msgstr "Unesena pogrešna lozinka !"
 
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
-msgstr ""
+msgstr "Promjena lozinke nije uspjela, provjerite vašu staru lozinku."
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
@@ -1314,7 +1317,7 @@ msgstr "Naziv polja"
 #: bin/modules/gui/window/win_import.py:143
 #: bin/modules/gui/window/win_export.py:207
 msgid "Database ID"
-msgstr ""
+msgstr "ID baze podataka"
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
@@ -1392,7 +1395,7 @@ msgstr "Greška pri pokretanju Excel-a !"
 #: bin/modules/gui/window/win_export.py:141
 #: bin/modules/gui/window/win_export.py:145
 msgid "Field Name"
-msgstr ""
+msgstr "Naziv polja"
 
 #: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
 #: bin/modules/gui/window/view_tree/view_tree_sc.py:41
@@ -1409,7 +1412,7 @@ msgstr "Greška pri izvozu podataka !"
 
 #: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
-msgstr ""
+msgstr "Otvori u Excel-u"
 
 #: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
 msgid "No resource selected!"
@@ -1589,10 +1592,12 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"Greška kod ispisa:\n"
+"%s"
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "Ispiši"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
@@ -2547,7 +2552,7 @@ msgstr ""
 
 #: bin/openerp.ui.h:713
 msgid "Add Field Names"
-msgstr ""
+msgstr "Dodaj nazive polja"
 
 #: bin/openerp.ui.h:714
 msgid "Add a new line/field"
@@ -2757,7 +2762,7 @@ msgstr "Polja za izvoz"
 
 #: bin/openerp.ui.h:764
 msgid "File to Import: "
-msgstr ""
+msgstr "Datoteka za uvoz "
 
 #: bin/openerp.ui.h:765
 msgid "Filter Entry"
@@ -2829,7 +2834,7 @@ msgstr "Prečice tipkovnice"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
@@ -2853,7 +2858,7 @@ msgstr "Glavne prečice"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Srednje"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -2909,7 +2914,7 @@ msgstr "Sljedeći zapis"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Nije hitno"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
@@ -3093,7 +3098,7 @@ msgstr "Spremi i zatvori prozor"
 
 #: bin/openerp.ui.h:851
 msgid "Save as CSV"
-msgstr ""
+msgstr "Snimi kao CSV"
 
 #: bin/openerp.ui.h:852
 msgid "Search ID:"
@@ -3196,11 +3201,11 @@ msgstr "Vrh"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Hitno"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
@@ -3216,7 +3221,7 @@ msgstr "Okomito"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Vrlo hitno"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
@@ -3457,7 +3462,7 @@ msgstr "Opišite što ste radili:"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Sažetak problema:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
