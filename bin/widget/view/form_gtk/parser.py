@@ -363,8 +363,7 @@ class parser_form(widget.view.interface.parser_interface):
             elif node.tag=='label':
                 text = attrs.get('string', '')
                 if not text:
-                    for node in node:
-                        text += node.text
+                    text = node.text
                 align = float(attrs.get('align', 0))
 
                 eb = container.create_label(text, markup=True, align=align,
