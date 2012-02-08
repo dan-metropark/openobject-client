@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 16:17+0000\n"
-"Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
+"PO-Revision-Date: 2012-02-07 20:00+0000\n"
+"Last-Translator: Grzegorz Grzelak (OpenGLOBE.pl) <grzegorz@openglobe.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:17+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-08 04:54+0000\n"
+"X-Generator: Launchpad (build 14747)\n"
 "Language: pl\n"
 
 #: bin/common/common.py:88
@@ -381,7 +381,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "jest Puste"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -397,7 +397,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "jest Niepuste"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -418,7 +418,7 @@ msgstr "Szukaj zasobu"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Równa się"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -431,7 +431,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "pomiędzy"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -744,7 +744,7 @@ msgstr ""
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Bez ograniczeń"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -782,6 +782,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Popraw następujące czerwone pola !\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -812,7 +815,7 @@ msgstr "Przetłumacz widok"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Wyślij maila swoim domyślnym klientem pocztowym"
 
 #
 # File: bin/widget/view/form_gtk/image.py, line: 110
@@ -1021,7 +1024,7 @@ msgstr "Ostrzeżenie"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "Obraz zepsuty"
 
 #
 # File: bin/widget/view/form_gtk/interface.py, line: 48
@@ -1037,7 +1040,7 @@ msgstr "Tutaj nie możesz ustawić domyślnej wartości !"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "Niedozwolona operacja!"
 
 #: bin/modules/action/main.py:48
 msgid "Nothing to print!"
@@ -1324,7 +1327,7 @@ msgstr "Nie można przywrócić bazy danych"
 
 #: bin/modules/gui/main.py:1435
 msgid "<b>Change your password</b>"
-msgstr ""
+msgstr "<b>Zmień swoje hasło</b>"
 
 #: bin/modules/gui/main.py:1450
 msgid ""
@@ -1346,7 +1349,7 @@ msgstr "Podano złe hasło!"
 
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
-msgstr ""
+msgstr "Zmiana hasła się nie powiodła. Sprawdź zmieniane hasło."
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
@@ -1424,7 +1427,7 @@ msgstr "Nazwa pola"
 #: bin/modules/gui/window/win_import.py:143
 #: bin/modules/gui/window/win_export.py:207
 msgid "Database ID"
-msgstr ""
+msgstr "ID bazy danych"
 
 #: bin/modules/gui/window/win_import.py:182
 msgid "Error opening .CSV file"
@@ -1509,7 +1512,7 @@ msgstr "Błąd otwierania Excela!"
 #: bin/modules/gui/window/win_export.py:141
 #: bin/modules/gui/window/win_export.py:145
 msgid "Field Name"
-msgstr ""
+msgstr "Nazwa pola"
 
 #: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
 #: bin/modules/gui/window/view_tree/view_tree_sc.py:41
@@ -1534,7 +1537,7 @@ msgstr "Błąd eksportu"
 
 #: bin/modules/gui/window/win_export.py:349 bin/openerp.ui.h:806
 msgid "Open in Excel"
-msgstr ""
+msgstr "Otwórz w Excelu"
 
 #: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
 msgid "No resource selected!"
@@ -1733,10 +1736,12 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"Błąd przy wydruku:\n"
+"%s"
 
 #: bin/printer/printer.py:195
 msgid "Print Report"
-msgstr ""
+msgstr "Drukuj raport"
 
 #: bin/printer/printer.py:212
 msgid "Error! No Data found. Make sure you have enough data to print!"
@@ -2708,7 +2713,7 @@ msgstr ""
 
 #: bin/openerp.ui.h:713
 msgid "Add Field Names"
-msgstr ""
+msgstr "Dodaj nazwy pól"
 
 #: bin/openerp.ui.h:714
 msgid "Add a new line/field"
@@ -3054,7 +3059,7 @@ msgstr "Główne skróty"
 
 #: bin/openerp.ui.h:788
 msgid "Medium"
-msgstr ""
+msgstr "Średnie"
 
 #: bin/openerp.ui.h:789
 msgid "Menu"
@@ -3122,7 +3127,7 @@ msgstr "Następny rekord"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Nie pilne"
 
 #: bin/openerp.ui.h:803
 msgid "Old password:"
