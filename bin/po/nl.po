@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-01-08 13:55+0000\n"
-"Last-Translator: flashback <wesleyniens@gmail.com>\n"
+"PO-Revision-Date: 2012-02-11 14:46+0000\n"
+"Last-Translator: Erwin <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-01-09 04:49+0000\n"
-"X-Generator: Launchpad (build 14640)\n"
+"X-Launchpad-Export-Date: 2012-02-12 04:42+0000\n"
+"X-Generator: Launchpad (build 14771)\n"
 "Language: nl\n"
 
 #: bin/common/common.py:88
@@ -317,11 +317,11 @@ msgstr ""
 
 #: bin/widget_search/custom_filter.py:51
 msgid "AND"
-msgstr ""
+msgstr "EN"
 
 #: bin/widget_search/custom_filter.py:52
 msgid "OR"
-msgstr ""
+msgstr "OF"
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
@@ -472,7 +472,7 @@ msgstr "is niet"
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "is leeg"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -488,7 +488,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "is niet leeg"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
@@ -511,7 +511,7 @@ msgstr "Zoek een hulpbron"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Gelijk aan"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -524,7 +524,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "tussen"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -537,7 +537,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:358
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
-msgstr ""
+msgstr "bereik uitsluiten"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
@@ -647,7 +647,7 @@ msgstr "Kan het diagram niet maken!"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Niet gedefinieerd"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -656,7 +656,7 @@ msgstr "Het type (%s) wordt niet ondersteund in de GTK client"
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "Bekijk fout!"
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -879,19 +879,19 @@ msgstr "Filters beheren"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: bin/widget/view/screen_container.py:88
 msgid "200"
-msgstr ""
+msgstr "200"
 
 #: bin/widget/view/screen_container.py:88
 msgid "500"
-msgstr ""
+msgstr "500"
 
 #: bin/widget/view/screen_container.py:88
 msgid "Unlimited"
-msgstr ""
+msgstr "Onbeperkt"
 
 #: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
 msgid "Open this resource"
@@ -932,6 +932,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Corrigeer volgende rode velden!\n"
+"\n"
+"%s"
 
 #
 # File: bin/widget/view/form_gtk/parser.py, line: 134
@@ -964,7 +967,7 @@ msgstr "Vertaal weergave"
 
 #: bin/widget/view/form_gtk/url.py:50
 msgid "Send an e-mail with your default e-mail client"
-msgstr ""
+msgstr "Stuur een e-mail met uw standaard e-mail client"
 
 #
 # File: bin/modules/gui/main.py, line: 1049
@@ -1193,7 +1196,7 @@ msgstr "Waarschuwing"
 
 #: bin/widget/view/form_gtk/image.py:181
 msgid "Image corrupted"
-msgstr ""
+msgstr "Afbeelding beschadigd"
 
 #: bin/widget/view/form_gtk/interface.py:49
 msgid "Set as default"
@@ -1205,7 +1208,7 @@ msgstr "U kunt hier geen standaard waarde instellen !"
 
 #: bin/widget/view/form_gtk/interface.py:64
 msgid "Operation not permitted!"
-msgstr ""
+msgstr "Deze verrichting is niet toegestaan!"
 
 #
 # File: bin/modules/action/main.py, line: 46
@@ -1542,6 +1545,7 @@ msgstr "Foutief wachtwoord opgegeven."
 #: bin/modules/gui/main.py:1475
 msgid "Changing password failed, please verify old password."
 msgstr ""
+"Wijzigen van het wachtwoord is mislukt, controleer uw oude wachtwoord."
 
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
@@ -1956,6 +1960,8 @@ msgid ""
 "Error occurred while printing:\n"
 "%s"
 msgstr ""
+"Fout opgetreden tijdens het afdrukken:\n"
+"%s"
 
 #
 # File: bin/printer/printer.py, line: 195
@@ -3364,7 +3370,7 @@ msgstr "Sneltoetsen"
 
 #: bin/openerp.ui.h:782
 msgid "Latin1"
-msgstr ""
+msgstr "Latin1"
 
 #: bin/openerp.ui.h:783
 msgid "Launch actions about this resource"
@@ -3474,7 +3480,7 @@ msgstr "Volgende regel"
 
 #: bin/openerp.ui.h:802
 msgid "Not Urgent"
-msgstr ""
+msgstr "Niet urgent"
 
 #
 # File: bin/openerp.glade, line: 8340
@@ -3863,11 +3869,11 @@ msgstr "Bovenkant"
 
 #: bin/openerp.ui.h:873
 msgid "UTF-8"
-msgstr ""
+msgstr "UTF-8"
 
 #: bin/openerp.ui.h:874
 msgid "Urgent"
-msgstr ""
+msgstr "Urgent"
 
 #: bin/openerp.ui.h:875
 msgid "User _Manual"
@@ -3889,7 +3895,7 @@ msgstr "Verticaal"
 
 #: bin/openerp.ui.h:878
 msgid "Very Urgent"
-msgstr ""
+msgstr "Zeer urgent"
 
 #: bin/openerp.ui.h:879
 msgid "View _logs"
@@ -4182,7 +4188,7 @@ msgstr "alleen v_oor u"
 
 #: bin/openerp.ui.h:928
 msgid "admin"
-msgstr ""
+msgstr "admin"
 
 #: bin/openerp.ui.h:929
 msgid "for _all users"
@@ -4238,7 +4244,7 @@ msgstr "Leg uit waar u mee bezig was:"
 
 #: bin/win_error.ui.h:12
 msgid "Problems summary:"
-msgstr ""
+msgstr "Probleem overzicht:"
 
 #: bin/win_error.ui.h:13
 msgid "Send to Publisher Warranty Team"
@@ -4265,14 +4271,6 @@ msgstr "label"
 # File: bin/widget/view/form.py, line: 165
 #~ msgid "You must select a record to use the relate button !"
 #~ msgstr "Eerst een regel selecteren voordat deze optie gebruikt kan worden!"
-
-#
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-#~ msgid "Others Comments:"
-#~ msgstr "Overige toelichting:"
 
 #
 # File: bin/modules/gui/main.py, line: 154
@@ -4418,3 +4416,6 @@ msgstr "label"
 
 #~ msgid "Summary of the problem:"
 #~ msgstr "Samenvatting van het probleem:"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Commentaar van anderen:"
