@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-12-04 16:15+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://www.shine-it.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:18+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:16+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -3912,130 +3912,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "標籤"
-
-#~ msgid "Unknown"
-#~ msgstr "未知"
-
-#
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 605
-#~ msgid "Edit"
-#~ msgstr "編輯"
-
-#
-# File: bin/modules/gui/main.py, line: 1111
-# File: bin/modules/gui/main.py, line: 1111
-#~ msgid "Error, password not changed."
-#~ msgstr "錯誤，密碼未更改。"
-
-#
-# File: bin/printer/printer.py, line: 181
-# File: bin/printer/printer.py, line: 181
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Linux的自動列印功能未設定。\n"
-#~ " 使用預覽選項！"
-
-#
-# File: bin/openerp.glade, line: 2999
-# File: bin/openerp.glade, line: 2999
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "在Excel打開\n"
-#~ "另存為CSV"
-
-#
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "不緊急\n"
-#~ "中等\n"
-#~ "緊急\n"
-#~ "非常緊急"
-
-#
-# File: bin/openerp.glade, line: 7868
-# File: bin/openerp.glade, line: 7868
-#~ msgid "File to Import:"
-#~ msgstr "要匯入的檔案："
-
-#
-# File: bin/openerp.glade, line: 8012
-# File: bin/openerp.glade, line: 8012
-#~ msgid "Field Separater:"
-#~ msgstr "欄位分割符："
-
-#~ msgid "window1"
-#~ msgstr "視窗1"
-
-#
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-#~ msgid "Others Comments:"
-#~ msgstr "其他評論："
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>選擇一個選項以匯出</b>"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr "伺服器(%s)與客戶端(%s)版本不匹配。客戶端可能無法正確運作；如欲繼續使用，請自行承擔可能的風險。"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "紀錄尚未儲存！\n"
-#~ "是否要清除本紀錄？"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "匯入此紀錄時發生錯誤：\n"
-#~ "%s\n"
-#~ "錯誤訊息：\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC 出錯！"
-
-#~ msgid "in"
-#~ msgstr "在"
-
-#~ msgid "not in"
-#~ msgstr "不在"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "須選擇紀錄後使用相關按鈕！"
-
-#~ msgid "Operation not permited"
-#~ msgstr "不容許此操作"
-
-#~ msgid "Add _field names"
-#~ msgstr "新增欄位名(_F)"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "問題摘要："

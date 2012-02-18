@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 16:18+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:17+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: fa\n"
 
 #: bin/common/common.py:88
@@ -3378,76 +3378,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "برچسب"
-
-#~ msgid "Edit"
-#~ msgstr "ویرایش"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "چاپ خودکار لینوکس پیاده‌سازی نشده.\n"
-#~ "گزینه پیش‌نمایش را بکارگیرید"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "خطای XML-RPC"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "رکورد ذخیره نگردید! \n"
-#~ "آیا می‌خواهید رکورد کنونی را پاک نمایید؟"
-
-#~ msgid "Unknown"
-#~ msgstr "ناشناخته"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "نگارش بین کارپذیر (%s) و کارخواه (%s) ناهماهنگ هستند. کارخواه ممکن است درست "
-#~ "کار نکند. عواقب بکارگیری نادرست از آن به عهده شما خواهد بود."
-
-#~ msgid "Error, password not changed."
-#~ msgstr "خطا، گذرواژه تغییر داده نشد."
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "شما باید یک رکورد را برای بکارگیری دکمه مرتبط برگزینید!"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>یک گزینه را برای برونش برگزینید</b>"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "بازکردن در Excel \n"
-#~ "ذخیره مانند CSV"
-
-#~ msgid "Add _field names"
-#~ msgstr "_افزودن نام فیلدها"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "غیر فوری\n"
-#~ "عادی\n"
-#~ "فوری\n"
-#~ "بسیار فوری"
-
-#~ msgid "File to Import:"
-#~ msgstr "پرونده برای درونش:"
-
-#~ msgid "Field Separater:"
-#~ msgstr "جداساز فیلد:"
-
-#~ msgid "window1"
-#~ msgstr "window1"
-
-#~ msgid "Others Comments:"
-#~ msgstr "سایر نظرها:"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 15:50+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Olivier Dony (OpenERP) <Unknown>\n"
 "Language-Team: Vietnamese <vi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:18+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:16+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: vi\n"
 
 #: bin/common/common.py:88
@@ -3320,55 +3320,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr ""
-
-#~ msgid "Unknown"
-#~ msgstr "Không biết"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Lỗi, mật khẩu không thay đổi."
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "Lỗi XML-RPC"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Chế độ in tự động của Linux chưa được hiện thựcSử dụng chế độ xem trước !"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Không thể đặt bản địa hóa %s: %s"
-
-#~ msgid "Edit"
-#~ msgstr "Chỉnh sửa"
-
-#~ msgid "in"
-#~ msgstr "trong"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Bản ghi không được lưu lại!\n"
-#~ " Bạn có muốn làm sạch bản ghi hiện tại?"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Các phiên bản của máy chủ (%s) và máy trạm (%s) không tương thích. Máy trạm "
-#~ "có thể hoạt động không chính xác. Bạn phải tự quản lý rủi ro liên quan."
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Lưu thành Phím tắt"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Bạn phải chọn một bản ghi để sử dụng các nút liên quan!"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Những bình luận khác"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Tóm tắt nội dung vấn đề:"

@@ -1,21 +1,21 @@
 # Spanish (Ecuador) translation for openobject-client
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
 # This file is distributed under the same license as the openobject-client package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-01-18 05:44+0000\n"
-"Last-Translator: Cristian Salamea (Gnuthink) <ovnicraft@gmail.com>\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Spanish (Ecuador) <es_EC@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:18+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:16+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 
 #: bin/common/common.py:88
 msgid "Close current tip"
@@ -3459,153 +3459,3 @@ msgstr "Enviar al equipo de garantía del editor"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "etiqueta"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "¡Debe seleccionar un registro para usar este botón!"
-
-#~ msgid "Unknown"
-#~ msgstr "Desconocido"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Las versiones del servidor (%s) y del cliente (%s) no coinciden. El cliente "
-#~ "puede no funcionar correctamente. Utilícelo bajo su responsabilidad."
-
-#~ msgid "Edit"
-#~ msgstr "Editar"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Error, la clave no fue cambiada."
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "¡Error de XML-RPC!"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "¡El registro no ha sido guardado! \n"
-#~ " ¿Quiere recuperar el registro actual?"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Impresión automática Linux no implementada\n"
-#~ "¡Usar la opción previsualizar!"
-
-#~ msgid "Add _field names"
-#~ msgstr "Añadir nombres de los campos"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Abrir en Excel\n"
-#~ "Guardar como CSV"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "No urgente\n"
-#~ "Normal\n"
-#~ "Urgente\n"
-#~ "Muy Urgente"
-
-#~ msgid "File to Import:"
-#~ msgstr "Fichero a importar:"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Separador de campos:"
-
-#~ msgid "window1"
-#~ msgstr "ventana1"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Otros comentarios:"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Seleccione una Opción para Exportar</b>"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Error al importar este registro:\n"
-#~ "%s\n"
-#~ "Mensaje de error:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "No se puede establecer la configuración regional %s: %s"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Guardar como acceso directo"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Introduzca los valores separados por ',' si se selecciona el operador 'está "
-#~ "en 'o 'no está en'.\n"
-#~ "Para formatos de Fecha y FechaHora, introduzca el texto en formato '%Y-%m-%d "
-#~ "' y '%Y-%m-%d %H:%M:%S' respectivamente."
-
-#~ msgid "in"
-#~ msgstr "en"
-
-#~ msgid "not in"
-#~ msgstr "no está en"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Operación no permitida"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Campos en los que se aplicará el criterio de búsqueda"
-
-#~ msgid ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and publisher warranty team will reply "
-#~ "you shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Contrato de garantía del editor.</b>\n"
-#~ "<i>\n"
-#~ "Se enviará su solicitud a openERP y el equipo de garantía del editor le "
-#~ "responderá en la mayor brevedad posible.\n"
-#~ "</i>"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Operadores condicionales"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "AND\n"
-#~ "OR"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Se aplicará la elección con el siguiente filtro si procede"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Eliminar filtro"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Resumen del problema:"

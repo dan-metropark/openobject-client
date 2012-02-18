@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-12-02 12:11+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: John Bradshaw <Unknown>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:18+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:16+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -3606,152 +3606,3 @@ msgstr "Send to Publisher Warranty Team"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "label"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-
-#~ msgid "Unknown"
-#~ msgstr "Unknown"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "The version of the server (%s) and the client (%s) mismatch. The client may "
-#~ "not work properly. Use it at your own risk."
-
-#~ msgid "Edit"
-#~ msgstr "Edit"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Error, password not changed."
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC error !"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Unable to set locale %s: %s"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-
-#~ msgid "in"
-#~ msgstr "in"
-
-#~ msgid "not in"
-#~ msgstr "not in"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "You must select a record to use the relate button !"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Save as a Shortcut"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Operation not permitted"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Select an Option to Export</b>"
-
-#~ msgid "Add _field names"
-#~ msgstr "Add _field names"
-
-#~ msgid "File to Import:"
-#~ msgstr "File to Import:"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Field Separator:"
-
-#~ msgid "window1"
-#~ msgstr "window1"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Fields on which Search criteria to be applied"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Conditional Operators"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "The Choice will be applied with next filter if any"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Others Comments:"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Remove Filter"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Summary of the problem:"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-
-#~ msgid ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and publisher warranty team will reply "
-#~ "you shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and the publisher warranty team will "
-#~ "reply shortly.\n"
-#~ "</i>"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "AND\n"
-#~ "OR"

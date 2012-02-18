@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-01-21 02:30+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Theodoros Malliwtakis <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-01-22 05:30+0000\n"
-"X-Generator: Launchpad (build 14700)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: el\n"
 
 #: bin/common/common.py:88
@@ -3455,116 +3455,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "ετικέττα"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr ""
-#~ "Θα πρέπει να επιλέξετε μια εγγραφή για να μπορέσετε να χρησιμοποιήσετε το "
-#~ "πλήκτρο συσχετισμού!"
-
-#~ msgid "Unknown"
-#~ msgstr "Άγνωστο"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Οι εκδόσεις του εξυπηρετητή (%s) και του πελάτη (%s) δεν συμβαδίζουν. Ο "
-#~ "πελάτης μπορεί να μην λειτουργήσει σωστά. Προχωρήστε με δική σας ευθύνη."
-
-#~ msgid "Edit"
-#~ msgstr "Επεξεργασία"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Σφάλμα, ο κωδικός δεν άλλαξε"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "Σφάλμα XML-RPC!"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Η εγγραφή δεν αποθηκεύτηκε!\n"
-#~ " Θέλετε να διαγράψετε την τρέχουσα εγγραφή;"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Αυτόματη εκτύπωση Linux δεν έχει υλοποιηθεί.\n"
-#~ "Χρησιμοποιήστε την επιλογή προεπισκόπησης!"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Άνοιγμα σε Excel\n"
-#~ "Αποθήκευση σε CSV"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Όχι Επείγον\n"
-#~ "Μέτριο\n"
-#~ "Επείγον\n"
-#~ "Πολύ Επείγον"
-
-#~ msgid "File to Import:"
-#~ msgstr "Αρχείο προς Εισαγωγή:"
-
-#~ msgid "window1"
-#~ msgstr "παράθυρο1"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Σχόλια Άλλων:"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Κάντε μια επιλογή για εξαγωγή</b>"
-
-#~ msgid "Add _field names"
-#~ msgstr "Πρόσθεσε ονόματα _πεδίων"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Διαχωριστής Πεδίων:"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Σφάλμα κατά την προσπάθεια εισαγωγής της εγγραφής:\n"
-#~ "%s\n"
-#~ "Μήνυμα Λάθους:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "in"
-#~ msgstr "στο"
-
-#~ msgid "not in"
-#~ msgstr "όχι στο"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Αδυναμία ορισμού του locale σε %s: %s"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Αποθήκευση ως Συντόμευση"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Η ενέργεια δεν επιτρέπεται"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Αφαίρεση Φίλτρου"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Περιγραφή προβλήματος:"

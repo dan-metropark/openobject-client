@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 16:14+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Slovak <sk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:17+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: sk\n"
 
 #: bin/common/common.py:88
@@ -3480,155 +3480,3 @@ msgstr "Poslať týmu záruky vydavateľa"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "označenie"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr ""
-#~ "Musíte si vybrať nejaký záznam, aby ste mohli použiť tlačidlo pre "
-#~ "združovanie."
-
-#~ msgid "Unknown"
-#~ msgstr "Neznámy"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Verzie servera (%s) a klienta (%s) sa odlišujú. Klient nemusí pracovať "
-#~ "správne. Používate ho na vlastné riziko."
-
-#~ msgid "Edit"
-#~ msgstr "Upraviť"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Chyba, heslo ostalo nezmenené."
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Otvoriť v aplikácii Excel\n"
-#~ "Uložiť ako CSV"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Nie je naliehavé\n"
-#~ "Stredne\n"
-#~ "Naliehavé\n"
-#~ "Veľmi naliehavé"
-
-#~ msgid "File to Import:"
-#~ msgstr "Importovať súbor:"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Oddelovač polí:"
-
-#~ msgid "window1"
-#~ msgstr "okno1"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Automatická tlač  nie je implementovaná v Linuxe.\n"
-#~ "Použite možnosť náhľadu!"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Vyberte možnosť na export</b>"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "Chyba XML-RPC!"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Chyba pri pokuse o import tohto záznamu:\n"
-#~ "%s\n"
-#~ "Popis chyby:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Nie je možné nastaviť lokalizáciu %s: %s"
-
-#~ msgid "in"
-#~ msgstr "je v"
-
-#~ msgid "not in"
-#~ msgstr "nie je v"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Ak nie vybratý operátor 'je v' alebo 'nie je v', zadajte hodnoty oddelené "
-#~ "pomocou ','.\n"
-#~ "Pre formáty dátumu alebo dátumu a času, zadajte text vo formáte '%Y-%m-%d' "
-#~ "and '%Y-%m-%d %H:%M:%S'."
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Uložiť ako skratku"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Operácia nie je dovolená"
-
-#~ msgid "Add _field names"
-#~ msgstr "Pridať mená  _poľa"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Polia nad ktorými sa použijú podmienky hľadania"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Podmienečné operátory"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Voľba bude vybraná s ďalším filtrom ak existuje"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "AND\n"
-#~ "OR"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Vymazať filter"
-
-#~ msgid ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and publisher warranty team will reply "
-#~ "you shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Záručná zmluva vydavateľa.</b>\n"
-#~ "<i>\n"
-#~ "Vaša žiadosť bude poslaná do OpenERP a tým záruky vydavateľa Vám v krátkej "
-#~ "dobe odpovie.\n"
-#~ "</i>"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Iné poznámky:"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Popis problému:"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Záznam nie je uložený!\n"
-#~ "Chcete vyčistiť aktuálny záznam?"

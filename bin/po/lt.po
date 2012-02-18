@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-12-19 19:50+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Paulius Sladkevičius <komsas@gmail.com>\n"
 "Language-Team: Lithuanian <lt@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-20 04:49+0000\n"
-"X-Generator: Launchpad (build 14538)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: lt\n"
 
 #: bin/common/common.py:88
@@ -4417,171 +4417,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "etiketė"
-
-#
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 605
-#~ msgid "Edit"
-#~ msgstr "Redaguoti"
-
-#
-# File: bin/modules/gui/main.py, line: 1111
-# File: bin/modules/gui/main.py, line: 1111
-#~ msgid "Error, password not changed."
-#~ msgstr "Klaida, slaptažodis nepakeistas."
-
-#
-# File: bin/openerp.glade, line: 2999
-# File: bin/openerp.glade, line: 2999
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Atidaryti su Excel\n"
-#~ "Išsaugoti kaip CSV"
-
-#
-# File: bin/openerp.glade, line: 3018
-# File: bin/openerp.glade, line: 3018
-#~ msgid "Add _field names"
-#~ msgstr "Pridėti _laukų pavadinimus"
-
-#
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-#~ msgid "Others Comments:"
-#~ msgstr "Kiti komentarai:"
-
-#
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Neskubus\n"
-#~ "Vidutinis\n"
-#~ "Skubus\n"
-#~ "Neatidėliotinas"
-
-#
-# File: bin/openerp.glade, line: 7868
-# File: bin/openerp.glade, line: 7868
-#~ msgid "File to Import:"
-#~ msgstr "Importuojamas failas:"
-
-#
-# File: bin/openerp.glade, line: 8012
-# File: bin/openerp.glade, line: 8012
-#~ msgid "Field Separater:"
-#~ msgstr "Laukų skirtukas:"
-
-#~ msgid "Unknown"
-#~ msgstr "Nežinomas"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Serverio (%s) ir kliento (%s) versijos nesutampa. Todėl klientas gali dirbti "
-#~ "nekorektiškai. Naudokitės tik įvertinę galimas rizikas."
-
-#~ msgid "window1"
-#~ msgstr "window1"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Jūs privalote pasirinkti įrašą prieš naudodami sąryšio mygtuką!"
-
-#
-# File: bin/modules/gui/window/win_import.py, line: 54
-# File: bin/modules/gui/window/win_import.py, line: 54
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC klaida!"
-
-#
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Įrašas neišsaugotas! \n"
-#~ " Ar jūs norite išvalyti esamą įrašą?"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Klaida importuojant šį įrašą:\n"
-#~ "%s\n"
-#~ "Klaidos žinutė:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Negalima nustatyti jūsų lokalės %s: %s"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Išsaugoti kaip nuorodą"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Įveskite reikšmes atskirdami kableliais, jeigu pasirinktas operacijos "
-#~ "ženklas 'yra' arba 'nėra'.\n"
-#~ "Datai arba datos ir laiko formatams, nurodykite tekstą atitinkamu formatu "
-#~ "'%Y-%m-%d' arba '%Y-%m-%d %H:%M:%S'."
-
-#~ msgid "in"
-#~ msgstr "yra"
-
-#~ msgid "not in"
-#~ msgstr "nėra"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Operacija neleidžiama"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Laukai, kuriems bus taikomas paieškos kriterijus"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Sąlygų operacijų ženklai"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "Ir\n"
-#~ "Arba"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Pasirinkimas bus pritaikomas su kitu filtru, jeigu"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Pašalinti filtrą"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Pasirinkite parinktį eksportavimui</b>"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Linux automatinis spausdinimas nerealizuotas.\n"
-#~ "Naudokite peržiūros parinktį!"

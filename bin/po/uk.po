@@ -15,14 +15,14 @@ msgstr ""
 "Project-Id-Version: Tiny ERP V4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 16:02+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: FR <i18n-info@tinyerp.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:18+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:16+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -4104,105 +4104,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "мітка"
-
-#
-# File: bin/modules/gui/main.py, line: 154
-#~ msgid "Unknown"
-#~ msgstr "Невідомий"
-
-#
-# File: bin/widget/view/form.py, line: 182
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Виберіть запис для використання відповідної кнопки!"
-
-#
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 617
-#~ msgid "Edit"
-#~ msgstr "Редагувати"
-
-#
-# File: bin/modules/gui/main.py, line: 1127
-#~ msgid "Error, password not changed."
-#~ msgstr "Помилка, пароль не змінено."
-
-#
-# File: bin/modules/gui/window/win_import.py, line: 54
-#~ msgid "XML-RPC error !"
-#~ msgstr "Помилка XML-RPC !"
-
-#
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Запис не збережено! \n"
-#~ " Бажаєте очистити поточний запис?"
-
-#
-# File: bin/printer/printer.py, line: 181
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Автоматичний друк Linux не реалізовано.\n"
-#~ "Використовуйте опцію попереднього перегляду !"
-
-#
-# File: bin/openerp.glade, line: 3015
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Відкрити у Excel\n"
-#~ "Зберегти як CSV"
-
-#
-# File: bin/openerp.glade, line: 3034
-#~ msgid "Add _field names"
-#~ msgstr "Додати імена _полів"
-
-#
-# File: bin/openerp.glade, line: 5355
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Не терміново\n"
-#~ "Помірно\n"
-#~ "Терміново\n"
-#~ "Дуже терміново"
-
-#
-# File: bin/openerp.glade, line: 6739
-#~ msgid "File to Import:"
-#~ msgstr "Файл для імпорту:"
-
-#
-# File: bin/openerp.glade, line: 6883
-#~ msgid "Field Separater:"
-#~ msgstr "Розділювач полів"
-
-#
-# File: bin/win_error.glade, line: 196
-#~ msgid "Others Comments:"
-#~ msgstr "Інші коментарі:"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Версія сервера (%s) та клієнта (%s) не співпадають. Клієнт може працювати "
-#~ "некоректно. Використовуйте його на власний ризик."
-
-#~ msgid "window1"
-#~ msgstr "вікно1"

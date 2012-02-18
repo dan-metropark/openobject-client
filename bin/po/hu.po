@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: Tiny ERP V2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 15:48+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Hungarian <hu@gnome.hu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:16+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: hu\n"
 
 #: bin/common/common.py:88
@@ -3481,121 +3481,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "címke"
-
-#~ msgid "Unknown"
-#~ msgstr "Ismeretlen"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "A szerver verziója (%s) és a kliens (%s) verziója nem egyezik. A kliens "
-#~ "program nem fog működni rendesen. Csak saját felelősségre használja."
-
-#~ msgid "Edit"
-#~ msgstr "Szerkesztés"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC hiba !"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "A rekord nem lett elmentve ! \n"
-#~ " Valóban törölni akarja az aktuális rekordot ?"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Hiba, a jelszó nem változott."
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Ki kell választani egy rekordot a kapcsolódó gomb használatához!"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Válassza ki az exportálás módját</b>"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Megnyitása Excelben\n"
-#~ "Mentés CSV-ként"
-
-#~ msgid "Add _field names"
-#~ msgstr "_mező nevek megadása"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Nem sürgős\n"
-#~ "Átlagos\n"
-#~ "Sürgős\n"
-#~ "Nagyon sürgős"
-
-#~ msgid "File to Import:"
-#~ msgstr "Importálandó fájl:"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Mező választó:"
-
-#~ msgid "window1"
-#~ msgstr "window1"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Egyéb megjegyzések:"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Hiba, próbálja importálni ezt a rekordot:\n"
-#~ "%s\n"
-#~ "Hibaüzenet:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Nem sikerült beállítani %s: %s"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "A Linux automatikus nyomtatás nem lett végrehajtva.\n"
-#~ "Használja az előnézet opciót !"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Mentés gyorsbillentyűként"
-
-#~ msgid "Operation not permited"
-#~ msgstr "A művelet nem engedélyezett"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Mezők, amelyeken a keresési feltételek alkalmazandók"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Feltételes operátorok"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "AND\n"
-#~ "OR"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Szűrő törlése"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "A probléma összegzése:"

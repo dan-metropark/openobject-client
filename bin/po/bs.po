@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 16:03+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:15+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: bs\n"
 
 #: bin/common/common.py:88
@@ -4646,122 +4646,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "oznaka"
-
-#
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 605
-#~ msgid "Edit"
-#~ msgstr "Izmjeni"
-
-#
-# File: bin/modules/gui/main.py, line: 1111
-# File: bin/modules/gui/main.py, line: 1111
-#~ msgid "Error, password not changed."
-#~ msgstr "Greška, šifra nije promijenjena."
-
-#
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Zapis nije snimljen ! \n"
-#~ " Želiš li da obrišeš trenutni zapis ?"
-
-#
-# File: bin/modules/gui/window/win_import.py, line: 54
-# File: bin/modules/gui/window/win_import.py, line: 54
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC greška !"
-
-#
-# File: bin/printer/printer.py, line: 181
-# File: bin/printer/printer.py, line: 181
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Linuxov automatski ispis nije implementiran.\n"
-#~ "Koristi opciju za pregled !"
-
-#
-# File: bin/widget/view/form.py, line: 165
-# File: bin/widget/view/form.py, line: 165
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Morate izabrati zapis da biste koristili povezane tastere !"
-
-#
-# File: bin/openerp.glade, line: 2999
-# File: bin/openerp.glade, line: 2999
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Otvori u Excel-u\n"
-#~ "Snimi kao CSV"
-
-#
-# File: bin/openerp.glade, line: 3018
-# File: bin/openerp.glade, line: 3018
-#~ msgid "Add _field names"
-#~ msgstr "Dodaj _nazive polja"
-
-#
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-#~ msgid "Others Comments:"
-#~ msgstr "Ostale napomene:"
-
-#
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Nije hitno\n"
-#~ "Srednje\n"
-#~ "Hitno\n"
-#~ "Vrlo hitno"
-
-#
-# File: bin/openerp.glade, line: 7868
-# File: bin/openerp.glade, line: 7868
-#~ msgid "File to Import:"
-#~ msgstr "Datoteka za uvoz"
-
-#
-# File: bin/openerp.glade, line: 8012
-# File: bin/openerp.glade, line: 8012
-#~ msgid "Field Separater:"
-#~ msgstr "Seperator polja"
-
-#
-# File: bin/modules/gui/main.py, line: 154
-#~ msgid "Unknown"
-#~ msgstr "Nepoznat"
-
-#
-# File: bin/modules/gui/main.py, line: 178
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Verzije servera (%s) i klijenta (%s) neodgovaraju. Klijent možda neće raditi "
-#~ "isravno. Koriste ga na svoj rizik."
-
-#
-# File: bin/openerp.glade, line: 8964
-#~ msgid "window1"
-#~ msgstr "prozor1"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Odaberite opciju za izvoz</b>"
