@@ -570,7 +570,7 @@ def to_xml(s):
 
 def message_box(title, msg, parent=None):
     ui = openerp_gtk_builder('openerp.ui', ['dia_message_box'])
-    win = ui_get_object('dia_message_box')
+    win = ui.get_object('dia_message_box')
     l = ui.get_object('msg_title')
     l.set_text(title)
 
