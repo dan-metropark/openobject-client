@@ -34,10 +34,10 @@
     !define MAJOR_VERSION '6'
 !endif
 !ifndef MINOR_VERSION
-    !define MINOR_VERSION '0'
+    !define MINOR_VERSION '1'
 !endif
 !ifndef REVISION_VERSION
-    !define REVISION_VERSION '0'
+    !define REVISION_VERSION '1'
 !endif
 !ifndef BUILD_VERSION
     !define VERSION "${MAJOR_VERSION}.${MINOR_VERSION}.${REVISION_VERSION}"

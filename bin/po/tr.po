@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-01-08 11:10+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Ahmet Altınışık <Unknown>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-01-09 04:49+0000\n"
-"X-Generator: Launchpad (build 14640)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:16+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: tr\n"
 
 #: bin/common/common.py:88
@@ -3960,152 +3960,3 @@ msgstr "Yayıncı Garanti Ekibine gönder"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "Etiket"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "İlişkilendir düğmesini kullanmak için bir kayıt seçmelisiniz !"
-
-#~ msgid "Unknown"
-#~ msgstr "Bilinmeyen"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Sunucu (%s) sürümü ile istemci (%s) sürümü uymamaktadır. İstemci tam "
-#~ "çalışmayabilir. Bu riski bilerek kullanıma devam edin."
-
-#~ msgid "Edit"
-#~ msgstr "Düzenle"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Hata, şifre değişmedi."
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "XML-RPC hatası !"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Diğer Notlar:"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Linux Otomatik Baskı uygulanamamaktadır.\n"
-#~ "Baskı Önizleme Kullanın !"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Excel de Aç\n"
-#~ "CSV olarak kaydet"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Acil Değil\n"
-#~ "Normal\n"
-#~ "Acil\n"
-#~ "Çok Acil"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Alan Ayraçı"
-
-#~ msgid "window1"
-#~ msgstr "pencere1"
-
-#~ msgid "Add _field names"
-#~ msgstr "Alan_adı ekle"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Dışa aktarılacak bir Seçenek seç</b>"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "İçe aktarım sırasında hata oluştu:\n"
-#~ "%s\n"
-#~ "Hata mesajı:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Yerel %s ayarı yapılamadı: %s"
-
-#~ msgid "in"
-#~ msgstr "->"
-
-#~ msgid "not in"
-#~ msgstr "içinde değil"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Kısayol olarak kaydet"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Eğer operatör olarak 'içinde' yada 'içinde geçmeyen' seçilmişse değerleri "
-#~ "',' kullanarak ayırın.\n"
-#~ "Tarih ve TarihSaat biçimleri için girdileri '%Y-%m-%d' ve '%Y-%m-%d "
-#~ "%H:%M:%S'  biçiminde girin."
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Arama kriterlerinin uygulanacağı alanlar"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Koşullu operatörler"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Tercihleriniz (eğer varsa) bir sonraki filtre ile uygulanacak"
-
-#~ msgid ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and publisher warranty team will reply "
-#~ "you shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Yayıncı Garanti Sözleşmesi.</b>\n"
-#~ "<i>\n"
-#~ "İsteğiniz OpenERP yayıncı garanti ekibine gönderilecek. Size kısa süre "
-#~ "içinde cevap verilecektir.</i>"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "VE\n"
-#~ "VEYA"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Filtreyi Kaldır"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Problemin Özeti:"
-
-#~ msgid "File to Import:"
-#~ msgstr "Alınacak Dosya"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Kayıt kaydedilemedi! \n"
-#~ " Bu Kaydı silmek mi istiyorsunuz ?"
-
-#~ msgid "Operation not permited"
-#~ msgstr "İşleme izin verilmemiş"

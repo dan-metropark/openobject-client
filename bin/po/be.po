@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2009-11-25 13:18+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Lisa <Lisenok_8888@mail.ru>\n"
 "Language-Team: Belarusian <be@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:15+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: be\n"
 
 #: bin/common/common.py:88
@@ -3280,22 +3280,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr ""
-
-#~ msgid "Edit"
-#~ msgstr "Рэдагаваць"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Памылка, пароль ня зьменены."
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "памылка XML-RPC !"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Linux Автоматическая Печать, не осуществленна.\n"
-#~ "Используйте выбор предварительного просмотра!"
-
-#~ msgid "Unknown"
-#~ msgstr "unknown , Прилагательное  неизвестный"

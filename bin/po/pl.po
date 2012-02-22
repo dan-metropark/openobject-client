@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-07 20:00+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Grzegorz Grzelak (OpenGLOBE.pl) <grzegorz@openglobe.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-08 04:54+0000\n"
-"X-Generator: Launchpad (build 14747)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: pl\n"
 
 #: bin/common/common.py:88
@@ -3778,154 +3778,3 @@ msgstr "Wyślij do zespoły gwarancyjnego wydawcy"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "etykieta"
-
-#
-# File: bin/modules/gui/main.py, line: 154
-#~ msgid "Unknown"
-#~ msgstr "Nieznany"
-
-#~ msgid "Edit"
-#~ msgstr "Edytuj"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Błąd, hasło nie zostało zmienione."
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "Błąd XML-RPC!"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Record nie został zapisany! \n"
-#~ " Czy chcesz wyczyścić aktualny rekord?"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Nie zaimplementowano Automatycznego Drukowania w Linux.\n"
-#~ "Użyj opcji podglądu!"
-
-#~ msgid "Add _field names"
-#~ msgstr "Dodaj nazwy _pól"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Otwórz w Excel\n"
-#~ "Zapisz jako CSV"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Separator pól:"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Niezbyt pilne\n"
-#~ "Średnio pilne\n"
-#~ "Pilne\n"
-#~ "Bardzo pilne"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Musisz wybrać rekord przed użyciem tego przycisku !"
-
-#~ msgid "window1"
-#~ msgstr "okno1"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Wybierz opcję do eksportu</b>"
-
-#
-# File: bin/openerp.glade, line: 5883
-# File: bin/openerp.glade, line: 5883
-#~ msgid "File to Import:"
-#~ msgstr "Plik do zaimportowania:"
-
-#
-# File: bin/win_error.glade, line: 196
-# File: bin/win_error.glade, line: 196
-#~ msgid "Others Comments:"
-#~ msgstr "Inne uwagi:"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Wersje serwera (%s) i klienta (%s) nie pasują. Klient może działać "
-#~ "nieprawidłowo. Dalsze użycie tylko na własne ryzyko."
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Błąd przy imporcie tego rekordu:\n"
-#~ "%s\n"
-#~ "Komunikat o błędzie:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Nie można ustawić ustawień lokalnych %s: %s"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Wprowadź wartości oddzielone znakiem ',' jeśli wybrałeś operator 'w' or 'nie "
-#~ "w' .\n"
-#~ "Dla formatów Daty i Czasu wprowadź tekst jako '%Y-%m-%d' lub '%Y-%m-%d "
-#~ "%H:%M:%S'."
-
-#~ msgid "in"
-#~ msgstr "w"
-
-#~ msgid "not in"
-#~ msgstr "nie w"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Zapisz jako skrót"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Niedozwolona operacja"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Pola, na których zostaną zastosowane kryteria wyszukiwania"
-
-#~ msgid ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and publisher warranty team will reply "
-#~ "you shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Umowa gwarancyjna wydawcy.</b>\n"
-#~ "<i>\n"
-#~ "Twoje zgłoszenie zostanie wysłane do OpenERP, a wkrótce dostaniesz odpowiedź "
-#~ "zespołu gwarancyjnego.\n"
-#~ "</i>"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Operatory warunkowe"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Wybór zostanie zastosowany do następnego filtrowania"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Usuń filtr"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Streszczenie problemu:"

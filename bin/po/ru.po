@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 16:13+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Olivier Dony (OpenERP) <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:17+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -1571,18 +1571,9 @@ msgstr ""
 "Сбой сервера в процессе установки.\n"
 "Советуем вам удалить текущую базу данных."
 
-#
-# File: bin/modules/gui/main.py, line: 432
-# File: bin/modules/gui/main.py, line: 763
-# File: bin/modules/gui/main.py, line: 432
-# File: bin/modules/gui/main.py, line: 763
-# File: bin/modules/gui/main.py, line: 432
-# File: bin/modules/gui/main.py, line: 763
-# File: bin/modules/gui/main.py, line: 445
-# File: bin/modules/gui/main.py, line: 775
 #: bin/modules/gui/main.py:694 bin/modules/gui/main.py:1060
 msgid "Press Ctrl+O to login"
-msgstr "Нажмите <Ctrl+O> для подключения"
+msgstr "Для входа нажмите Ctrl+O"
 
 #: bin/modules/gui/main.py:962
 #, python-format
@@ -1591,7 +1582,7 @@ msgstr "%s"
 
 #: bin/modules/gui/main.py:964
 msgid "No Company"
-msgstr "Ни одна компания"
+msgstr "не выбрана компания"
 
 #
 # File: bin/modules/gui/main.py, line: 694
@@ -1629,18 +1620,11 @@ msgstr ""
 msgid "Database cannot be accessed or does not exist"
 msgstr "Невозможно получить доступ к базе данных или она не существует"
 
-#
-# File: bin/modules/gui/main.py, line: 734
-# File: bin/modules/gui/main.py, line: 734
-# File: bin/modules/gui/main.py, line: 734
-# File: bin/modules/gui/main.py, line: 746
 #: bin/modules/gui/main.py:1023
 msgid ""
 "Connection error !\n"
 "Unable to connect to the server !"
-msgstr ""
-"Ощибка соединения !\n"
-"Невозможно соединиться с сервером !"
+msgstr "Ошибка соединения"
 
 #: bin/modules/gui/main.py:1025
 msgid ""
@@ -1752,7 +1736,7 @@ msgstr ""
 #: bin/modules/gui/main.py:1450
 msgid ""
 "Confirmation password does not match new password, operation cancelled!"
-msgstr "Пароли не совпадают, операция прервана!"
+msgstr "Пароли не совпадают, операция отменена!"
 
 #
 # File: bin/modules/gui/main.py, line: 1100
@@ -1775,18 +1759,9 @@ msgstr "Некорректный пароль !"
 msgid "Changing password failed, please verify old password."
 msgstr ""
 
-#
-# File: bin/modules/gui/main.py, line: 1117
-# File: bin/modules/gui/main.py, line: 1134
-# File: bin/modules/gui/main.py, line: 1117
-# File: bin/modules/gui/main.py, line: 1134
-# File: bin/modules/gui/main.py, line: 1117
-# File: bin/modules/gui/main.py, line: 1134
-# File: bin/modules/gui/main.py, line: 1133
-# File: bin/modules/gui/main.py, line: 1153
 #: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
 msgid "Backup a database"
-msgstr "Резервное копирование базы данных."
+msgstr "Резервное копирование базы данных"
 
 #: bin/modules/gui/main.py:1499
 msgid "Database backed up successfully !"
@@ -5067,221 +5042,3 @@ msgstr "Отправить гарантию каманде издателя"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "ярлык"
-
-#
-# File: bin/widget/view/form.py, line: 165
-# File: bin/widget/view/form.py, line: 165
-# File: bin/widget/view/form.py, line: 165
-# File: bin/widget/view/form.py, line: 182
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Необходимо выбрать запись для использования кнопки Отношение!"
-
-#
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 605
-# File: bin/modules/gui/main.py, line: 617
-#~ msgid "Edit"
-#~ msgstr "Изменить"
-
-#
-# File: bin/modules/gui/main.py, line: 1111
-# File: bin/modules/gui/main.py, line: 1111
-# File: bin/modules/gui/main.py, line: 1111
-# File: bin/modules/gui/main.py, line: 1127
-#~ msgid "Error, password not changed."
-#~ msgstr "Ошибка, пароль не изменен."
-
-#
-# File: bin/modules/gui/window/win_import.py, line: 54
-# File: bin/modules/gui/window/win_import.py, line: 54
-# File: bin/modules/gui/window/win_import.py, line: 54
-# File: bin/modules/gui/window/win_import.py, line: 54
-#~ msgid "XML-RPC error !"
-#~ msgstr "Ошибка XML-RPC !"
-
-#
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-# File: bin/modules/gui/window/form.py, line: 230
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Запись не созранена! \n"
-#~ " Вы хотите очистить Текущую Запись ?"
-
-#
-# File: bin/printer/printer.py, line: 181
-# File: bin/printer/printer.py, line: 181
-# File: bin/printer/printer.py, line: 181
-# File: bin/printer/printer.py, line: 181
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Автоматическая печать для Линукс еще не реализована\n"
-#~ "Пользуйтесь функцией предварительного просмотра!"
-
-#
-# File: bin/openerp.glade, line: 2999
-# File: bin/openerp.glade, line: 2999
-# File: bin/openerp.glade, line: 2999
-# File: bin/openerp.glade, line: 3015
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Открыть в Excel\n"
-#~ "Сохранить в файле CSV"
-
-#
-# File: bin/openerp.glade, line: 3018
-# File: bin/openerp.glade, line: 3018
-# File: bin/openerp.glade, line: 3018
-# File: bin/openerp.glade, line: 3034
-#~ msgid "Add _field names"
-#~ msgstr "Добавить названия полей"
-
-#
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-# File: bin/openerp.glade, line: 4041
-# File: bin/openerp.glade, line: 6484
-# File: bin/openerp.glade, line: 5355
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Не срочно\n"
-#~ "Средняя срочность\n"
-#~ "Срочно\n"
-#~ "Весьма срочно"
-
-#
-# File: bin/openerp.glade, line: 7868
-# File: bin/openerp.glade, line: 7868
-# File: bin/openerp.glade, line: 7868
-# File: bin/openerp.glade, line: 6739
-#~ msgid "File to Import:"
-#~ msgstr "Импортируемый файл:"
-
-#
-# File: bin/openerp.glade, line: 8012
-# File: bin/openerp.glade, line: 8012
-# File: bin/openerp.glade, line: 8012
-# File: bin/openerp.glade, line: 6883
-#~ msgid "Field Separater:"
-#~ msgstr "Разделитель полей:"
-
-#
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/openerp.glade, line: 3376
-# File: bin/openerp.glade, line: 4191
-# File: bin/win_error.glade, line: 196
-#~ msgid "Others Comments:"
-#~ msgstr "Прочие комментарии:"
-
-#~ msgid "Unknown"
-#~ msgstr "Неизвестно"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Версии сервера (%s) и клиента (%s) различаются. Клиент может работать "
-#~ "неправильно."
-
-#~ msgid "window1"
-#~ msgstr "окно1"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Выберете вариант для экспорта</b>"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Невозможно установить локаль %s: %s"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Сахранить как ярлык"
-
-#~ msgid "in"
-#~ msgstr "содержит"
-
-#~ msgid "not in"
-#~ msgstr "не содержит"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Операция не разрешена"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Поля на которых применяются критерии роиска"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Операторы условий"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Удалить фильтр"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ошибка при импорте записи:\n"
-#~ "%s\n"
-#~ "Сообщение об ошибке:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Введите значения, разделенные запятой если выбраны операторы 'in' или 'not "
-#~ "in'.\n"
-#~ "Для форматов даты и даты/времени укажите текст в форматах '%Y-%m-%d' и '%Y-"
-#~ "%m-%d %H:%M:%S' соответственно."
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Резюме проблемы:"
-
-#~ msgid ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and publisher warranty team will reply "
-#~ "you shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Контракт гарантии издателя</b>\n"
-#~ "<i>\n"
-#~ "Ваш запрос будет отправлен в OpenERP и по гарантии издателя команда ответит "
-#~ "вам  в ближайшее время.\n"
-#~ "</i>\n"
-#~ "представляет строки. Начните новую линию в аналогичной позиции перевода"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Выбор будет применяться со следующего фильтр, если любой"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "И\n"
-#~ "ИЛИ\n"
-#~ "представляет строки. Начать новую линию в аналогичной позиции перевода."

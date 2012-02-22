@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: openerp-client_openerp-client-gl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-07-25 16:17+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Olivier Dony (OpenERP) <Unknown>\n"
 "Language-Team: Galego <g11n@mancomun.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:16+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -3493,153 +3493,3 @@ msgstr "Enviar ao Equipo de Garantía do Editor"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "etiqueta"
-
-#~ msgid "Unknown"
-#~ msgstr "Descoñecido"
-
-#~ msgid "Edit"
-#~ msgstr "Editar"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "Erro XML-RPC!"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "O rexistro non está gardado! \n"
-#~ " Quere limpar o rexistro actual?"
-
-#~ msgid "Add _field names"
-#~ msgstr "En_gadir nomes de campos"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Abrir en Excel\n"
-#~ "Gardar como CSV"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Sen urxencia\n"
-#~ "Media\n"
-#~ "Urxente\n"
-#~ "Moi urxente"
-
-#~ msgid "File to Import:"
-#~ msgstr "Ficheiro a importar:"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Separador de campos"
-
-#~ msgid "window1"
-#~ msgstr "xanela1"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Outros comentarios:"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Debe seleccionar un rexistro para utilizar o botón relacionado!"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "As versións do servidor (%s) e cliente (%s) non coinciden. O cliente pode "
-#~ "que non funcione correctamente. Úseo baixo o seu propio risco."
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Erro, contrasinal non modificado."
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Impresión automática en Linux non implementada.\n"
-#~ "Use a opción de vista previa!"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Erro intentando importar este rexistro:\n"
-#~ "%s\n"
-#~ "Mensaxe do erro:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "in"
-#~ msgstr "en"
-
-#~ msgid "not in"
-#~ msgstr "non en"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Eliminar Filtro"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Resumo do problema:"
-
-#~ msgid "Operation not permited"
-#~ msgstr "Operación non permitida"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Operadores Condicionais"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Non se pode establecer a localización %s: %s"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Gardar coma unha Ligazón"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Introduza os Valores separados por ',' se os operadores 'in' ou 'not' foron "
-#~ "escollidos.\n"
-#~ "Para formatos de Data e Data e Hora, especifique o texto nos formatos '%Y-%m-"
-#~ "%d' e '%Y-%m-%d %H:%M:%S' respectivamente."
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Seleccione unha opción para exportar</b>"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Campos nos que se aplicará o criterio de búsqueda"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "AND\n"
-#~ "OR"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "A elección será aplicada co filtro seguinte se hai"
-
-#~ msgid ""
-#~ "<b>Publisher Warranty Contract.</b>\n"
-#~ "<i>\n"
-#~ "Your request will be send to OpenERP and publisher warranty team will reply "
-#~ "you shortly.\n"
-#~ "</i>"
-#~ msgstr ""
-#~ "<b>Contrato de garantía do editor.</b>\n"
-#~ "<i>\n"
-#~ "Enviarase a súa solicitude a openERP e o equipo de garantía do editor "
-#~ "responderalle na maior brevedade posible.\n"
-#~ "</i>"

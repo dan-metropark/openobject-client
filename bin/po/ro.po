@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-09-02 13:27+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Ciprian Panaite <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:17+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: ro\n"
 
 #: bin/common/common.py:88
@@ -194,11 +194,11 @@ msgstr "Eroare la conectare"
 #: bin/modules/action/wizard.py:167 bin/modules/action/wizard.py:169
 #: bin/modules/gui/main.py:195 bin/modules/gui/main.py:201
 msgid "Application Error"
-msgstr "Eroare Aplicaţie"
+msgstr "Eroare Aplicație"
 
 #: bin/rpc.py:205 bin/modules/action/wizard.py:169
 msgid "View details"
-msgstr "Afişare detalii"
+msgstr "Afișare detalii"
 
 #
 # File: bin/translate.py, line: 183
@@ -453,7 +453,7 @@ msgstr "Nu există nici un plugin disponibil pentru această resursă !"
 
 #: bin/plugins/__init__.py:42
 msgid "Choose a Plugin"
-msgstr "Alegeţi un Plugin"
+msgstr "Alegeți un Plugin"
 
 #: bin/options.py:122
 #, python-format
@@ -3443,140 +3443,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "etichetă"
-
-#~ msgid "Unknown"
-#~ msgstr "Necunoscut"
-
-#~ msgid "Edit"
-#~ msgstr "Editare"
-
-#~ msgid "Field Separater:"
-#~ msgstr "Separator Câmpuri:"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "Trebuie să selectaţi o înregistrare pentru a utiliza butonul!"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "Eroare, parola nu a fost schimbată."
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "Eroare XML-RPC !"
-
-#~ msgid "Add _field names"
-#~ msgstr "Adaugă nume câmpuri"
-
-#~ msgid "File to Import:"
-#~ msgstr "Fişier de importat:"
-
-#~ msgid "Others Comments:"
-#~ msgstr "Alte comentarii:"
-
-#~ msgid ""
-#~ "Open in Excel\n"
-#~ "Save as CSV"
-#~ msgstr ""
-#~ "Deschide în Excel\n"
-#~ "Salvează ca CSV"
-
-#~ msgid ""
-#~ "Not Urgent\n"
-#~ "Medium\n"
-#~ "Urgent\n"
-#~ "Very Urgent"
-#~ msgstr ""
-#~ "Neurgent\n"
-#~ "Mesiu\n"
-#~ "Urgent\n"
-#~ "Foarte Urgent"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "Tiparire automata linux neimplementata.\n"
-#~ "Utilizati optiunea preview !"
-
-#~ msgid "window1"
-#~ msgstr "fereastra1"
-
-#~ msgid "<b>Select an Option to Export</b>"
-#~ msgstr "<b>Alegeți opțiunea care va fi exportată</b>"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Eroare detectată la importul înregistrării:\n"
-#~ "%s\n"
-#~ "Mesajul de eroare:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "Nu a putut fi activată localizarea %s: %s"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "Salvare ca shortcut"
-
-#~ msgid ""
-#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
-#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
-#~ "%H:%M:%S' formats respectively."
-#~ msgstr ""
-#~ "Introduceți valori separate prin ',' dacă ați ales operatorul 'in' sau 'not "
-#~ "in' .\n"
-#~ "Pentru valori de tip Date sau DateTime , specificați valori în formatul '%Y-"
-#~ "%m-%d' , respectiv '%Y-%m-%d %H:%M:%S' ."
-
-#~ msgid "Operation not permited"
-#~ msgstr "Operație nepermisă"
-
-#~ msgid "Summary of the problem:"
-#~ msgstr "Descrierea sumară a problemei:"
-
-#~ msgid "Fields on which Search criteria to be applied"
-#~ msgstr "Câmpurile asupra cărora vor fi aplicate criteriile de căutare"
-
-#~ msgid "Conditional Operators"
-#~ msgstr "Operatori condiționali"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "AND\n"
-#~ "OR"
-
-#~ msgid "Remove Filter"
-#~ msgstr "Ștergere filtru"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "Versiunile server (%s) și client (%s) sunt diferite. S-ar putea ca clientul "
-#~ "să nu ruleze corect. Puteți să utilizați aceasta versiune pe riscul dvs."
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "Înregistrarea nu este salvată ! \n"
-#~ " Doriți să goliți înregistrarea curentă ?"
-
-#~ msgid "in"
-#~ msgstr "în"
-
-#~ msgid "not in"
-#~ msgstr "nu în"
-
-#~ msgid "The Choice will be applied with next filter if any"
-#~ msgstr "Alegerea va fi aplicată filtrului următor"

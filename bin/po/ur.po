@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2011-11-28 04:13+0000\n"
+"PO-Revision-Date: 2012-02-17 09:21+0000\n"
 "Last-Translator: Aamir Riaz <Unknown>\n"
 "Language-Team: Urdu <ur@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-17 05:18+0000\n"
-"X-Generator: Launchpad (build 14525)\n"
+"X-Launchpad-Export-Date: 2012-02-18 07:16+0000\n"
+"X-Generator: Launchpad (build 14814)\n"
 "Language: ur\n"
 
 #: bin/common/common.py:88
@@ -3329,77 +3329,3 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "لیبل"
-
-#~ msgid "Unknown"
-#~ msgstr "نامعلوم"
-
-#, python-format
-#~ msgid ""
-#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
-#~ "may not work properly. Use it at your own risks."
-#~ msgstr ""
-#~ "سرورکاورژن (%s) اورکلائنٹ کاورژن (%s) \r\n"
-#~ "مختلف ھیں، کلائنٹ صحیح کام نھیں کرسکتا،\r\n"
-#~ " اپنی ذمھداری پر استعمال کریں"
-
-#~ msgid "Edit"
-#~ msgstr "ترمیم"
-
-#~ msgid "Error, password not changed."
-#~ msgstr "خرابی، پاس ورڈ تبدیل نھیں ھُوا۔"
-
-#~ msgid ""
-#~ "Record is not saved ! \n"
-#~ " Do You want to Clear Current Record ?"
-#~ msgstr ""
-#~ "ریکارڈمحفوظ نھیں ھُوا،\n"
-#~ "  کیاآپ موجودھ ریکارڈکوصاف کرناچاھتےھیں؟"
-
-#, python-format
-#~ msgid ""
-#~ "Error trying to import this record:\n"
-#~ "%s\n"
-#~ "Error Message:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "اس ریکارڈ کو درآمد کرنے کی کوشش میں خرابی:\n"
-#~ "%s\n"
-#~ "خرابی کا پیغام:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid "XML-RPC error !"
-#~ msgstr "ایکس ایم ایل - آرپی سی کی خرابی-"
-
-#~ msgid ""
-#~ "Linux Automatic Printing not implemented.\n"
-#~ "Use preview option !"
-#~ msgstr ""
-#~ "لینکس خودکار پرنٹنگ لاگو نہیں ھے۔\n"
-#~ "جائزھ کاآپشن استعمال کریں!"
-
-#, python-format
-#~ msgid "Unable to set locale %s: %s"
-#~ msgstr "مقامی قائم کرنے میں ناکامی %s: %s"
-
-#~ msgid "in"
-#~ msgstr "اندر"
-
-#~ msgid "not in"
-#~ msgstr "اندر نھیں"
-
-#~ msgid "Save as a Shortcut"
-#~ msgstr "ایک شارٹ کٹ کے طور پر محفوظ کریں"
-
-#~ msgid "You must select a record to use the relate button !"
-#~ msgstr "ریلیٹ بٹن استعمال کرنےکیلیئےآپکولازمی ایک ریکارڈمنتخب کرنا ھوگا۔"
-
-#~ msgid ""
-#~ "AND\n"
-#~ "OR"
-#~ msgstr ""
-#~ "اُور\n"
-#~ "یا"
