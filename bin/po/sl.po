@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2011-12-01 11:23+0000\n"
 "Last-Translator: kontrabant <Unknown>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:45+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: sl\n"
 
 #: bin/common/common.py:88
@@ -3719,3 +3719,155 @@ msgstr "Pošlji ekipi garancije založnika"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "oznaka"
+
+#
+# File: bin/modules/gui/main.py, line: 605
+# File: bin/modules/gui/main.py, line: 605
+#~ msgid "Edit"
+#~ msgstr "Uredi"
+
+#~ msgid "Unknown"
+#~ msgstr "Neznano"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Različici strežnika (%s) in odjemalca (%s) nista usklajeni. Odjemalec mogoče "
+#~ "ne bo deloval pravilno. Uprabljate ga na lastno odgovornost."
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Odpri v Excel-u\n"
+#~ "Shrani kot CSV"
+
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Ni nujno\n"
+#~ "Srednje\n"
+#~ "Nujno\n"
+#~ "Zelo nujno"
+
+#~ msgid "File to Import:"
+#~ msgstr "Datoteka za uvoz:"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Ločilo polj"
+
+#~ msgid "window1"
+#~ msgstr "window1"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Druge opombe:"
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Zapis ni shranjen! \n"
+#~ " Ali želite počistiti trenutni zapis?"
+
+#~ msgid "Add _field names"
+#~ msgstr "Dodaj imena _polj"
+
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC napaka!"
+
+#~ msgid "Operation not permited"
+#~ msgstr "Operacija ni dovoljena"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Napaka, geslo ni bilo spremenjeno."
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Napaka pri poizku uvoza tega zapisa:\n"
+#~ "%s\n"
+#~ "Sporočilo napake:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Linux Avtomatsko tiskanje ni implementirano.\n"
+#~ "Uporabite možnost predogleda!"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Ni mogoče nastaviti na jezik%s: %s"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Vnesite vrednosti ločene z ',', če operato 'in' ali 'not in' ni izbran.\n"
+#~ "Za datum in datumčas format, navedite tekst individualno  v '%Y-%m-%d' in "
+#~ "'%Y-%m-%d %H:%M:%S' formatu."
+
+#~ msgid "in"
+#~ msgstr "v"
+
+#~ msgid "not in"
+#~ msgstr "ni v"
+
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Izberite zapis za uporabo povezaovalnega guma!"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Shrani kot bližnjico"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Izberite možnost za izvoz</b>"
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Polja na katerih bo kriterij iskanja uporabljen"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Pogojni operaterji"
+
+#~ msgid ""
+#~ "AND\n"
+#~ "OR"
+#~ msgstr ""
+#~ "IN\n"
+#~ "ALI"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr "Izbira bo uveljavljena z naslednjim filtrom, če kateri koli"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Odstrani filter"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Pogodba garancije  založnika.</b>\n"
+#~ "<i>\n"
+#~ "Vaša zahteva bo poslana na OpenERP in ekipa garancije založnika  vam bo v "
+#~ "kratkem odgovorila.\n"
+#~ "</i>"
+
+#~ msgid "Summary of the problem:"
+#~ msgstr "Opis problema"

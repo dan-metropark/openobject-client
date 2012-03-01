@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: openerp-client-de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2011-07-25 16:09+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Deutsch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:44+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -4963,3 +4963,210 @@ msgstr "Sende an Qualitätssicherung"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "Label"
+
+#~ msgid "Unknown"
+#~ msgstr "Unbekannt"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Server (%s) und Anwendungsversion(%s) passen nicht zusammen.\n"
+#~ "Die Anwendung könnte nicht richtig funktionieren.\n"
+#~ "Verwendung auf eigene Gefahr!"
+
+#
+# File: bin/modules/gui/main.py, line: 605
+# File: bin/modules/gui/main.py, line: 605
+# File: bin/modules/gui/main.py, line: 605
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#
+# File: bin/modules/gui/main.py, line: 1111
+# File: bin/modules/gui/main.py, line: 1111
+# File: bin/modules/gui/main.py, line: 1111
+#~ msgid "Error, password not changed."
+#~ msgstr "Fehler, Kennwort nicht geändert."
+
+#
+# File: bin/modules/gui/window/form.py, line: 230
+# File: bin/modules/gui/window/form.py, line: 230
+# File: bin/modules/gui/window/form.py, line: 230
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Eintrag bicht gespeichert! \n"
+#~ " Wollen Sie den aktuellen Eintrag löschen?"
+
+#
+# File: bin/modules/gui/window/win_import.py, line: 54
+# File: bin/modules/gui/window/win_import.py, line: 54
+# File: bin/modules/gui/window/win_import.py, line: 54
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC Fehler!"
+
+#
+# File: bin/printer/printer.py, line: 181
+# File: bin/printer/printer.py, line: 181
+# File: bin/printer/printer.py, line: 181
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Automatisches Drucken bei Linux nicht implementiert.Verwenden Sie die "
+#~ "Vorschau!"
+
+#
+# File: bin/widget/view/form.py, line: 165
+# File: bin/widget/view/form.py, line: 165
+# File: bin/widget/view/form.py, line: 165
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr ""
+#~ "Sie müssen einen Eintrag auswählen, um die dazugehörige Schaltfläche "
+#~ "benutzen zu können!"
+
+#
+# File: bin/openerp.glade, line: 2999
+# File: bin/openerp.glade, line: 2999
+# File: bin/openerp.glade, line: 2999
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Mit Excel öffnen\n"
+#~ "Als CSV speichern"
+
+#
+# File: bin/openerp.glade, line: 3018
+# File: bin/openerp.glade, line: 3018
+# File: bin/openerp.glade, line: 3018
+#~ msgid "Add _field names"
+#~ msgstr "_Feldnamen hinzufügen"
+
+#
+# File: bin/openerp.glade, line: 3376
+# File: bin/openerp.glade, line: 4191
+# File: bin/openerp.glade, line: 3376
+# File: bin/openerp.glade, line: 4191
+# File: bin/openerp.glade, line: 3376
+# File: bin/openerp.glade, line: 4191
+#~ msgid "Others Comments:"
+#~ msgstr "Weitere Kommentare:"
+
+#
+# File: bin/openerp.glade, line: 4041
+# File: bin/openerp.glade, line: 6484
+# File: bin/openerp.glade, line: 4041
+# File: bin/openerp.glade, line: 6484
+# File: bin/openerp.glade, line: 4041
+# File: bin/openerp.glade, line: 6484
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Nicht dringend\n"
+#~ "Mittel\n"
+#~ "Dringend\n"
+#~ "Sehr dringend"
+
+#
+# File: bin/openerp.glade, line: 7868
+# File: bin/openerp.glade, line: 7868
+# File: bin/openerp.glade, line: 7868
+#~ msgid "File to Import:"
+#~ msgstr "Datei zu Importieren:"
+
+#
+# File: bin/openerp.glade, line: 8012
+# File: bin/openerp.glade, line: 8012
+# File: bin/openerp.glade, line: 8012
+#~ msgid "Field Separater:"
+#~ msgstr "Feldtrenner:"
+
+#~ msgid "window1"
+#~ msgstr "window1"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Wähle Option für Export</b>"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Als Lesezeichen speichern"
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Felder die durchsucht werden sollen"
+
+#~ msgid ""
+#~ "AND\n"
+#~ "OR"
+#~ msgstr ""
+#~ "UND\n"
+#~ "ODER"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr ""
+#~ "Die Auswahl wird mit dem nächsten Filter angewendet, falls einer exsistiert"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Filter entfernen"
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Fehler beim Import dieses Eintrages:\n"
+#~ "%s\n"
+#~ "Fehlermeldung:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Kann lokale %s: %s nicht setzen."
+
+#~ msgid "in"
+#~ msgstr "enthält"
+
+#~ msgid "Operation not permited"
+#~ msgstr "Operation nicht erlaubt!"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Bedingende Operatoren"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Vertrag - \"Gewährleistung des Herausgebers\"</b>\n"
+#~ "<i>\n"
+#~ "Ihre Anfrage wird an OpenERP gesendet und das Gewährleistungsteam  wird sich "
+#~ "in Kürze melden.\n"
+#~ "</i>"
+
+#~ msgid "Summary of the problem:"
+#~ msgstr "Zusammenfassung des Problems:"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Für die Operatoren 'in' oder 'not in' sind die Werte durch ',' zu trennen.\n"
+#~ "Für Datum und Zeitformate ist folgende Formatierung zu verwenden '%Y-%m-%d' "
+#~ "and '%Y-%m-%d %H:%M:%S'."
+
+#~ msgid "not in"
+#~ msgstr "nicht in"

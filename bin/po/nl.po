@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2012-02-11 14:46+0000\n"
 "Last-Translator: Erwin <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:44+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: nl\n"
 
 #: bin/common/common.py:88
@@ -4253,3 +4253,169 @@ msgstr "Versturen naar onderhoudsteam"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "label"
+
+#
+# File: bin/modules/gui/main.py, line: 605
+# File: bin/modules/gui/main.py, line: 605
+#~ msgid "Edit"
+#~ msgstr "Wijzig"
+
+#
+# File: bin/modules/gui/window/win_import.py, line: 54
+# File: bin/modules/gui/window/win_import.py, line: 54
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC fout!"
+
+#
+# File: bin/widget/view/form.py, line: 165
+# File: bin/widget/view/form.py, line: 165
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Eerst een regel selecteren voordat deze optie gebruikt kan worden!"
+
+#
+# File: bin/modules/gui/main.py, line: 154
+#~ msgid "Unknown"
+#~ msgstr "Onbekend"
+
+#
+# File: bin/modules/gui/main.py, line: 1127
+#~ msgid "Error, password not changed."
+#~ msgstr "Fout, wachtwoord niet gewijzigd."
+
+#
+# File: bin/modules/gui/main.py, line: 178
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "De versies van de server (%s) en de client (%s) komen niet overeen. De "
+#~ "client werkt mogelijk niet goed. Gebruik op eigen risico."
+
+#
+# File: bin/openerp.glade, line: 3034
+#~ msgid "Add _field names"
+#~ msgstr "Voeg veldnamen toe"
+
+#
+# File: bin/openerp.glade, line: 5355
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Geen spoed\n"
+#~ "Gemiddelde spoed\n"
+#~ "Spoed\n"
+#~ "Erg veel spoed"
+
+#
+# File: bin/openerp.glade, line: 6883
+#~ msgid "Field Separater:"
+#~ msgstr "Veldscheidingsteken"
+
+#
+# File: bin/openerp.glade, line: 8964
+#~ msgid "window1"
+#~ msgstr "scherm1"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Kies een optie om te exporteren</b>"
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Automatisch afdrukken is voor Linux niet geïmplementeerd.\n"
+#~ "Gebruikt de voorbeeld-optie!"
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Regel is niet opgeslagen!\n"
+#~ "Wilt u de huidige regel schonen?"
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Openen in Excel\n"
+#~ "Sla op als CSV"
+
+#~ msgid "File to Import:"
+#~ msgstr "Te importeren bestand:"
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Fout bij het importeren van dit record:\n"
+#~ "%s\n"
+#~ "Foutmelding:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "in"
+#~ msgstr "in"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Kan taalregio %s: %s niet instellen"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Opslaan als snelkoppeling"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Vul waarden in gescheiden door ',' als operator 'in' of 'niet in' is "
+#~ "gekozen.\n"
+#~ "Bij Date en DateTime formaten, specificeer tekst in respectievelijk '%J-%m-"
+#~ "%d' en '%J-%m-%d %U:%M:%S' formaten."
+
+#~ msgid "not in"
+#~ msgstr "niet in"
+
+#~ msgid "Operation not permited"
+#~ msgstr "Bewerking niet toegestaan"
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Velden waarop de zoekcriteria worden toegepast"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Voorwaardelijke operatoren"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr "De keuze wordt toegepast met het volgende filter indien aanwezig"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Filter verwijderen"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Onderhoudscontract.</b>\n"
+#~ "<i>\n"
+#~ "Uw aanvraag wordt naar OpenERP gestuurd en het onderhoudsteam zal snel "
+#~ "antwoorden.\n"
+#~ "</i>"
+
+#~ msgid "Summary of the problem:"
+#~ msgstr "Samenvatting van het probleem:"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Commentaar van anderen:"

@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2011-10-26 14:24+0000\n"
 "Last-Translator: Nicholas Christian Langkjær Ipsen "
 "<sephiroth7vii@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:44+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: da\n"
 
 #: bin/common/common.py:88
@@ -3436,3 +3436,147 @@ msgstr "Send til Publisher Garanti Team"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "etiket"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukendt"
+
+#~ msgid "Edit"
+#~ msgstr "Rediger"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "De versioner af serveren (%s) og klienten (%s) missmatch. Bygherren kan ikke "
+#~ "arbejde ordentligt. Brug den på egen risiko."
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Fejl, adgangskode ikke ændret."
+
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC fejl!"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Kunne ikke indstille locale%s:%s"
+
+#~ msgid "in"
+#~ msgstr "i"
+
+#~ msgid "not in"
+#~ msgstr "ikke i"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Indtast værdier adskilt af &#39;,&#39; Hvis operatør \"i\" eller \"ikke i "
+#~ "&#39;er valgt. For Dato og DateTime formater, angive tekst i &#39;% Y-% m-% "
+#~ "d&#39; og &#39;% Y-% m-% d% H:% M:% S&#39; formater hhv."
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Gem som en genvej"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Vælg en mulighed for at eksportere</b>"
+
+#~ msgid "Add _field names"
+#~ msgstr "Tilføj _field navne"
+
+#~ msgid "File to Import:"
+#~ msgstr "Fil til import:"
+
+#~ msgid "window1"
+#~ msgstr "window1"
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Områder, som Search kriterier, der skal anvendes"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Betinget Operatører"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr "Valget vil blive anvendt med næste filter eventuelle"
+
+#~ msgid ""
+#~ "AND\n"
+#~ "OR"
+#~ msgstr "OG ELLER"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Fjern filter"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Udgiver Garanti Kontrakt.</b> <i>Din anmodning vil blive sendt til "
+#~ "OpenERP og udgiverens garanti team vil svare dig snarest.</i>"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Andre Kommentarer:"
+
+#~ msgid "Summary of the problem:"
+#~ msgstr "Resumé af problemet:"
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Post er ikke gemt!\n"
+#~ "Vil du vil rydde aktuelle post?"
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Fejl ved forsøg på at importere denne post:\n"
+#~ "%s\n"
+#~ "Fejlmeddelelse:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Linux automatisk udskrivning er ikke gennemført. \n"
+#~ "Brug vis udskrift mulighed!"
+
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Du skal vælge en post for at bruge tilhørende knap!"
+
+#~ msgid "Operation not permited"
+#~ msgstr "Operation ikke tilladt"
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Åbn i Excel\n"
+#~ "Gem som CSV"
+
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Haster ikke\n"
+#~ "Medium\n"
+#~ "Haster \n"
+#~ "Meget presserende"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Felt separater:"

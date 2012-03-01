@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2011-07-25 15:56+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:45+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: nb\n"
 
 #: bin/common/common.py:88
@@ -3375,3 +3375,102 @@ msgstr "Send til vedlikeholdsteamet"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "label"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukjent"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Det er ikke samsvar mellom versjonen på tjeneren(%s) og klienten (%s). "
+#~ "Klienten vil muligens ikke fungere ordentlig. Brukes på eget anvar."
+
+#~ msgid "Edit"
+#~ msgstr "Editer"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Feil, passord ble ikke endret"
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Posten er ikke lagret ! \n"
+#~ " Vil du blanke ut den aktuelle posten ?"
+
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC feil !"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Kunne ikke sette regionale innstillinger %s: %s"
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Linux Automatisk Utskrift ikke implementert.\n"
+#~ " Bruk forhåndsvisning !"
+
+#~ msgid "in"
+#~ msgstr "i"
+
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Du må velge en rad for å bruke relasjonsknappen !"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Lagre som snarvei"
+
+#~ msgid "Operation not permited"
+#~ msgstr "Operasjon er ikke tillatt"
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Åpne i Excel\n"
+#~ "Lagre som CSV"
+
+#~ msgid "Add _field names"
+#~ msgstr "Legg til _feltnavn"
+
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Haster ikke\n"
+#~ "Medium\n"
+#~ "Haster\n"
+#~ "Haster veldig"
+
+#~ msgid "File to Import:"
+#~ msgstr "Fil å importere:"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Feltseparator:"
+
+#~ msgid "window1"
+#~ msgstr "window1"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Fjern filter"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Vedlikeholskontrakt.</b>\n"
+#~ "<i>\n"
+#~ "Din forespørsel vil sendes til OpenERP og vedlikeholdsteamet vil svare deg "
+#~ "så raskt som mulig.\n"
+#~ "</i>"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Andre kommentarer:"

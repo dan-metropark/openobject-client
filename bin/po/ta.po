@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2009-11-25 13:39+0000\n"
 "Last-Translator: Harry (OpenERP) <hmo@tinyerp.com>\n"
 "Language-Team: Tamil <ta@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:45+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: ta\n"
 
 #: bin/common/common.py:88
@@ -3269,3 +3269,9 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "அடையாளம்(label)"
+
+#~ msgid "Unknown"
+#~ msgstr "தெரியாதது(Unknown)"
+
+#~ msgid "Edit"
+#~ msgstr "திருத்து(Edit)"

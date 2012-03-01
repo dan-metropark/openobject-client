@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2011-07-25 16:12+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Serbian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:15+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:45+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: \n"
 
 #: bin/common/common.py:88
@@ -3886,3 +3886,163 @@ msgstr "Pošalji Garantnom Timu Izdavača"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "oznaka"
+
+#
+# File: bin/modules/gui/window/win_import.py, line: 54
+# File: bin/modules/gui/window/win_import.py, line: 54
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC greška !"
+
+#
+# File: bin/openerp.glade, line: 3376
+# File: bin/openerp.glade, line: 4191
+# File: bin/openerp.glade, line: 3376
+# File: bin/openerp.glade, line: 4191
+#~ msgid "Others Comments:"
+#~ msgstr "Ostale napomene:"
+
+#
+# File: bin/openerp.glade, line: 4041
+# File: bin/openerp.glade, line: 6484
+# File: bin/openerp.glade, line: 4041
+# File: bin/openerp.glade, line: 6484
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Nije hitno\n"
+#~ "Srednje\n"
+#~ "Hitno\n"
+#~ "Vrlo hitno"
+
+#~ msgid "Unknown"
+#~ msgstr "Nepoznat"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Verzije servera (%s) i klijenta (%s) se ne poklapaju. Klijent možda neće "
+#~ "raditi na pravilan način. Korišćenje na ličnu odgovornost."
+
+#~ msgid "Edit"
+#~ msgstr "Uredi"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Greška, lozinka nije promenjena."
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Zapis nije snimljen! \n"
+#~ " Da li želite da obrišete trenutni zapis ?"
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Greška tokom pokušaja uvoza ovog zapisa:\n"
+#~ "%s\n"
+#~ "Poruka Greške:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Linuxovo automatsko štampanje nije uključeno.\n"
+#~ "Koristite opciju pregleda !"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Nemoguće postaviti lokalu %s: %s"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Unesite Vrednosti razdvajajući ih sa ',', ako je parametar 'u' ili 'nije u' "
+#~ "izabran.\n"
+#~ "Za oblike Datuma i Vremena, unesite tekst u obliku '%Y-%m-%d' i '%Y-%m-%d "
+#~ "%H:%M:%S'"
+
+#~ msgid "in"
+#~ msgstr "u"
+
+#~ msgid "not in"
+#~ msgstr "nije u"
+
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Morate izabrati zapis da biste koristili dugme za povezivanje !"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Saćuvaj kao Prečicu"
+
+#~ msgid "Operation not permited"
+#~ msgstr "Nedozvoljena radnja"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Izaberi opciju za izvoz</b>"
+
+#~ msgid "Add _field names"
+#~ msgstr "Dodaj_nazive poljâ"
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Otvori u Excel-u\n"
+#~ "Sačuvaj kao CSV"
+
+#~ msgid "File to Import:"
+#~ msgstr "Datoteka za uvoz:"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Razdvajač polja"
+
+#~ msgid "window1"
+#~ msgstr "prozor1"
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Polja na koje treba primeniti kriterijume retrage"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Mogući Operateri"
+
+#~ msgid ""
+#~ "AND\n"
+#~ "OR"
+#~ msgstr ""
+#~ "I\n"
+#~ "ILI"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr "Izbor će biti primenjen sa sledećim filterom, ako takav postoji"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Ukloni filter"
+
+#~ msgid ""
+#~ "<b>Publisher Warranty Contract.</b>\n"
+#~ "<i>\n"
+#~ "Your request will be send to OpenERP and publisher warranty team will reply "
+#~ "you shortly.\n"
+#~ "</i>"
+#~ msgstr ""
+#~ "<b>Garantni Ugovor Izdavača.</b>\n"
+#~ " <i>\n"
+#~ " Vaš zahtev biće poslat OpenERP-u i garantni izdavački tim će Vam odgovoriti "
+#~ "uskoro.\n"
+#~ " </i>"

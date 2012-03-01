@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2011-10-10 19:20+0000\n"
 "Last-Translator: Aare Vesi <Unknown>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:44+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: et\n"
 
 #: bin/common/common.py:88
@@ -4586,3 +4586,119 @@ msgstr ""
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "silt"
+
+#
+# File: bin/modules/gui/main.py, line: 605
+# File: bin/modules/gui/main.py, line: 605
+#~ msgid "Edit"
+#~ msgstr "Muuda"
+
+#
+# File: bin/modules/gui/main.py, line: 1111
+# File: bin/modules/gui/main.py, line: 1111
+#~ msgid "Error, password not changed."
+#~ msgstr "Viga, parooli ei muudetud."
+
+#
+# File: bin/modules/gui/window/form.py, line: 230
+# File: bin/modules/gui/window/form.py, line: 230
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Kirje ei ole salvestatud ! \n"
+#~ " Kas sa tahad puhastada Käesoleva Kirje?"
+
+#
+# File: bin/modules/gui/window/win_import.py, line: 54
+# File: bin/modules/gui/window/win_import.py, line: 54
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC viga !"
+
+#
+# File: bin/printer/printer.py, line: 181
+# File: bin/printer/printer.py, line: 181
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Linuxi Automaatne Printimine ei ole teostatud.\n"
+#~ "Kasuta eelvaate valikut !"
+
+#
+# File: bin/widget/view/form.py, line: 165
+# File: bin/widget/view/form.py, line: 165
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Sa pead valima kirje, et kasutada seose nuppu !"
+
+#
+# File: bin/openerp.glade, line: 2999
+# File: bin/openerp.glade, line: 2999
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr ""
+#~ "Ava Excelis\n"
+#~ "Salvesta CSV-na"
+
+#
+# File: bin/openerp.glade, line: 3018
+# File: bin/openerp.glade, line: 3018
+#~ msgid "Add _field names"
+#~ msgstr "Lisa väljade nimed"
+
+#
+# File: bin/openerp.glade, line: 3376
+# File: bin/openerp.glade, line: 4191
+# File: bin/openerp.glade, line: 3376
+# File: bin/openerp.glade, line: 4191
+#~ msgid "Others Comments:"
+#~ msgstr "Muud Kommentaarid:"
+
+#
+# File: bin/openerp.glade, line: 4041
+# File: bin/openerp.glade, line: 6484
+# File: bin/openerp.glade, line: 4041
+# File: bin/openerp.glade, line: 6484
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Mittepakiline\n"
+#~ "Keskmine\n"
+#~ "Pakiline\n"
+#~ "Väga Pakiline"
+
+#
+# File: bin/openerp.glade, line: 7868
+# File: bin/openerp.glade, line: 7868
+#~ msgid "File to Import:"
+#~ msgstr "Fail Importimiseks:"
+
+#
+# File: bin/openerp.glade, line: 8012
+# File: bin/openerp.glade, line: 8012
+#~ msgid "Field Separater:"
+#~ msgstr "Välja Eraldaja:"
+
+#
+# File: bin/modules/gui/main.py, line: 154
+#~ msgid "Unknown"
+#~ msgstr "Tundmatu"
+
+#
+# File: bin/modules/gui/main.py, line: 178
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Serveri (%s) ja kliendi (%s) versioonid ei kattu. Klient ei pruugi töötada "
+#~ "korrektselt. Kasutada omal vastutusel."
+
+#
+# File: bin/openerp.glade, line: 8964
+#~ msgid "window1"
+#~ msgstr "aken1"

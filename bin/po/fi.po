@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2012-02-17 09:21+0000\n"
+"PO-Revision-Date: 2011-07-25 16:08+0000\n"
 "Last-Translator: Naresh(OpenERP) <nch@tinyerp.com>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2012-02-18 07:14+0000\n"
-"X-Generator: Launchpad (build 14814)\n"
+"X-Launchpad-Export-Date: 2012-03-01 04:44+0000\n"
+"X-Generator: Launchpad (build 14874)\n"
 "Language: fi\n"
 
 #: bin/common/common.py:88
@@ -3404,3 +3404,130 @@ msgstr "Lähetä julkaisijan takuutiimille"
 #: bin/win_error.ui.h:14
 msgid "label"
 msgstr "merkintä"
+
+#~ msgid "You must select a record to use the relate button !"
+#~ msgstr "Valitse tietue johon käytät liitä-nappia!"
+
+#~ msgid "Unknown"
+#~ msgstr "Tuntematon"
+
+#, python-format
+#~ msgid ""
+#~ "The versions of the server (%s) and the client (%s) missmatch. The client "
+#~ "may not work properly. Use it at your own risks."
+#~ msgstr ""
+#~ "Palvelimen (%s) ja päätteen (%s) versiot eivät täsmää. Voi olla, että pääte "
+#~ "ei toimi oikein. Käyttö omalla vastuulla."
+
+#~ msgid "Edit"
+#~ msgstr "Muokkaa"
+
+#~ msgid "Error, password not changed."
+#~ msgstr "Virhe! Salasanaa ei vaihdettu."
+
+#~ msgid "XML-RPC error !"
+#~ msgstr "XML-RPC virhe!"
+
+#~ msgid ""
+#~ "Record is not saved ! \n"
+#~ " Do You want to Clear Current Record ?"
+#~ msgstr ""
+#~ "Tietuetta ei ole tallennettu! \n"
+#~ " Haluatko tyhjentää tämän tietueen?"
+
+#~ msgid ""
+#~ "Linux Automatic Printing not implemented.\n"
+#~ "Use preview option !"
+#~ msgstr ""
+#~ "Linuxin automaattista tulostusta ei ole tehty.\n"
+#~ "Käytä esikatselu ominaisuutta!"
+
+#~ msgid ""
+#~ "Open in Excel\n"
+#~ "Save as CSV"
+#~ msgstr "Avaa Excelissä"
+
+#~ msgid "window1"
+#~ msgstr "window1"
+
+#~ msgid "Add _field names"
+#~ msgstr "Lisää _kenttien nimiä"
+
+#~ msgid "File to Import:"
+#~ msgstr "Tiedoston tuominen:"
+
+#~ msgid "Others Comments:"
+#~ msgstr "Muita kommentteja:"
+
+#~ msgid ""
+#~ "Not Urgent\n"
+#~ "Medium\n"
+#~ "Urgent\n"
+#~ "Very Urgent"
+#~ msgstr ""
+#~ "Ei kiireellinen\n"
+#~ "Jonkin verran kiireellinen\n"
+#~ "Kiireellinen\n"
+#~ "Todella kiireellinen"
+
+#~ msgid "Field Separater:"
+#~ msgstr "Kenttäerotin:"
+
+#~ msgid "<b>Select an Option to Export</b>"
+#~ msgstr "<b>Suorita valinta viennille</b>"
+
+#~ msgid "Operation not permited"
+#~ msgstr "Toiminto ei ole sallittu"
+
+#~ msgid "Remove Filter"
+#~ msgstr "Poista Suodin"
+
+#, python-format
+#~ msgid ""
+#~ "Error trying to import this record:\n"
+#~ "%s\n"
+#~ "Error Message:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Virhe tuotaessa tätä tietuetta\n"
+#~ "%s\n"
+#~ "virheilmoitus:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "%s"
+
+#, python-format
+#~ msgid "Unable to set locale %s: %s"
+#~ msgstr "Ei voi asettaa alueasetuksia %s: %s"
+
+#~ msgid "in"
+#~ msgstr "kohteessa"
+
+#~ msgid "not in"
+#~ msgstr "ei joukossa"
+
+#~ msgid "Fields on which Search criteria to be applied"
+#~ msgstr "Tietueet joihin hakukriteerit kohdistetaan"
+
+#~ msgid "Conditional Operators"
+#~ msgstr "Ehdolliset operaattorit"
+
+#~ msgid "The Choice will be applied with next filter if any"
+#~ msgstr "Valinta kohdistetaan uuteen suotimeen (jos on)"
+
+#~ msgid "Save as a Shortcut"
+#~ msgstr "Tallenna pikalinkkinä"
+
+#~ msgid ""
+#~ "Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+#~ "For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+#~ "%H:%M:%S' formats respectively."
+#~ msgstr ""
+#~ "Syötä arvoja erotettuna ','. Jos operaattori 'in' tai 'not in' on valittu.\n"
+#~ "Päivämäärä ja päivämäärä-kellonaika formaattien osalta käytä %Y-%m-%d' and "
+#~ "'%Y-%m-%d %H:%M:%S' muotoa."
+
+#~ msgid "Summary of the problem:"
+#~ msgstr "Ongelman yhteenveto"
