@@ -21,6 +21,8 @@
 
 import types
 import gettext
+from datetime import datetime
+import traceback
 
 import gtk
 import gobject
@@ -137,6 +139,18 @@ class form(object):
                 self.screen.search_filter()
         if auto_refresh and int(auto_refresh):
             gobject.timeout_add(int(auto_refresh) * 1000, self.sig_reload)
+	#TODO: expand config with some additional form autosave settings
+	self.autosave_settings = {}
+	try: #check the server for autosave settings
+            #SEE: under server/addons/base/: res/res_user.py (res.user class), base_update.xml (form view_users_form_simple_modif)
+	    self.autosave_settings = rpc.session.rpc_exec_auth('/object', 'execute', 'res.users', 'read' , rpc.session.uid, 
+		['form_autosave', 'form_autosave_timeout', 'form_autosave_modified_only'])
+	except: #fields may not be available
+	    #print traceback.format_exc()
+	    pass
+        if options.options['form.autosave'] or self.autosave_settings.get('form_autosave'):
+	    timeout = self.autosave_settings.get('form_autosave_timeout') or 30
+            gobject.timeout_add(timeout * 1000, self.sig_autosave)
     
     def set_tooltips(fn):
         def _decorate(self, *args, **kws):
@@ -342,6 +356,31 @@ class form(object):
     def _form_save(self, auto_continue=True):
         pass
     
+    def sig_autosave(self, widget=None, sig_new=True, auto_continue=True):
+        try:
+	    #NOTE: sub-views (one2manies) aren't considered modified until sub-view is "saved"
+	    if not self.autosave_settings.get('form_autosave_modified_only') or self.screen.is_modified():
+	    	res = self.screen.save_current()
+	    	warning = False
+	    	if isinstance(res,dict):
+		    id = res.get('id',False)
+		    warning = res.get('warning',False)
+	    	else:
+		    id = res
+	    	if id:
+		    self.message_state(_('Auto-Saved.') + ' (%s)' % datetime.now().replace(microsecond=0), color="darkgreen")
+	    	elif len(self.screen.models.models) and res != None:
+		    #invalid form; ignore
+		    pass
+	except:
+	  #known exceptions: AttributeError: 'form' object has no attribute 'screen'
+	  if not hasattr(self, 'screen'):
+	      return False
+	  #print traceback.format_exc()
+	  pass	#this is ok; we tried out best
+	  
+	return True
+
     @set_tooltips
     def sig_save(self, widget=None, sig_new=True, auto_continue=True):
         res = self.screen.save_current()
