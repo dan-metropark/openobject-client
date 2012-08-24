@@ -108,7 +108,12 @@ class build_scripts_app(build_scripts):
             else:
                 # Hard-code the Linux /usr/lib/pythonX.Y/... path
                 openerp_site_packages = opj('/usr', 'lib', 'python%s' % py_short_version, 'site-packages', 'openerp-client')
-            start_script = "#!/bin/sh\ncd %s\nexec %s ./openerp-client.py $@\n" % (openerp_site_packages, sys.executable)
+            start_script = """#!/bin/sh
+PYTHON=$(which python)
+OERP_DIR=$($PYTHON -c "import os;print(os.path.dirname(__import__('openerp-client').__file__))") 
+cd $OERP_DIR
+exec $PYTHON ./openerp-client.py $@
+"""
             # write script
             f = open('openerp-client', 'w')
             f.write(start_script)
