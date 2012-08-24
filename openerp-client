@@ -1,0 +1,5 @@
+#!/bin/sh
+PYTHON=$(which python)
+OERP_DIR=$($PYTHON -c "import os;print(os.path.dirname(__import__('openerp-client').__file__))") 
+cd $OERP_DIR
+exec $PYTHON ./openerp-client.py $@
