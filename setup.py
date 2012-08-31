@@ -229,18 +229,23 @@ if has_py2exe:
     # Make sure the layout of pytz hasn't changed
     assert (pytz.__file__.endswith('__init__.pyc') or
             pytz.__file__.endswith('__init__.py')), pytz.__file__
-    zoneinfo_dir = os.path.join(os.path.dirname(pytz.__file__), 'zoneinfo')
+    pytz_path = os.path.dirname(pytz.__file__)
+    if os.path.exists(pytz_path):
+        zoneinfo_dir = os.path.join(pytz_path, 'zoneinfo')
+    else:
+        import re
+        pytz_path = re.sub('\\\\pytz.*\\.egg', '', pytz_path)
+        zoneinfo_dir = os.path.join(pytz_path, 'zoneinfo')
     # '..\\Lib\\pytz\\__init__.py' -> '..\\Lib'
-    disk_basedir = os.path.dirname(os.path.dirname(pytz.__file__))
+    disk_basedir = os.path.dirname(pytz_path)
     zipfile_path = os.path.join(options['py2exe']['dist_dir'], 'library.zip')
     z = zipfile.ZipFile(zipfile_path, 'a')
-
     for absdir, directories, filenames in os.walk(zoneinfo_dir):
         assert absdir.startswith(disk_basedir), (absdir, disk_basedir)
         zip_dir = absdir[len(disk_basedir):]
         for f in filenames:
+            print 'adding: ', os.path.join(absdir, f), os.path.join(zip_dir, f)
             z.write(os.path.join(absdir, f), os.path.join(zip_dir, f))
 
     z.close()
-
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
