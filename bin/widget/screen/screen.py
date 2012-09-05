@@ -580,6 +580,7 @@ class Screen(signal_event.signal_event):
     def add_view_id(self, view_id, view_type, display=False, help={}, context=None):
         if context is None:
             context = {}
+	self.context.update( {'uid': rpc.session.uid})
         if view_type in self.views_preload:
             return self.add_view(self.views_preload[view_type]['arch'],
                     self.views_preload[view_type]['fields'], display,
