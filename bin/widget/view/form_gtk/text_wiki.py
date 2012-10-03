@@ -246,8 +246,8 @@ class text_wiki(interface.widget_interface):
 		data = buffer.get_text(iter_start, iter_end, False)
 		html = wiki2html(data, True, id)
 		#TODO: put the css on the server, and use it from there
-		dir_path = os.path.dirname(__file__)
-		css_path = os.path.join(dir_path, 'css/wiki.css')
+		dir_path = os.path.realpath("css")
+		css_path = os.path.join(common.terp_path('css/wiki.css'))
 		with open(css_path) as f:
 			css_data = f.read()
 		html = '''<html><head><style type='text/css'>%s</style></head><body>%s</body></html>''' % (css_data, html)

@@ -78,6 +78,7 @@ def data_files():
         files.append(("pixmaps", glob.glob("bin\\pixmaps\\*.*")))
         files.append(("po", glob.glob("bin\\po\\*.*")))
         files.append(("icons", glob.glob("bin\\icons\\*.png")))
+        files.append(("css", glob.glob("bin\\css\\*.css")))
         files.append(("share\\locale", glob.glob("bin\\share\\locale\\*.*")))
 
     else:
@@ -88,6 +89,7 @@ def data_files():
             glob.glob('bin/pixmaps/*.png')))
         files.append((opj('share', 'pixmaps', 'openerp-client', 'icons'),
             glob.glob('bin/icons/*.png')))
+        files.append((opj('share', 'openerp-client', 'css'), glob.glob('bin/css/*.css')))
         files.append((opj('share', 'openerp-client'), ['bin/openerp.ui', 'bin/tipoftheday.txt',
                                                        'bin/win_error.ui']))
     return files
@@ -180,6 +182,7 @@ setup(name             = name,
                           'openerp-client.widget.screen',
                           'openerp-client.widget.view',
                           'openerp-client.widget.view.form_gtk',
+                          'openerp-client.widget.view.form_gtk.wikimarkup',
                           'openerp-client.widget.view.tree_gtk',
                           'openerp-client.widget.view.graph_gtk',
                           'openerp-client.widget.view.calendar_gtk',

@@ -1,3 +1,9 @@
+openerp-client (6.1.1.1-0) testing; urgency=low
+
+  * Using local version 6.1.1.1
+
+ -- D. Hefti <dhefti@metropark.com>  Wed, 03 Oct 2012 12:00:00 +0500
+
 openerp-client (6.0.1-0) testing; urgency=low
 
   * Using upstream version 6.0.1
