@@ -38,8 +38,22 @@ from distutils.dir_util import copy_tree as copy
 
 has_py2exe = False
 if sys.platform == 'win32':
-    import py2exe
-    has_py2exe = True
+
+	try:
+		import pyexe.mf as modulefinder
+	except ImportError:
+		import modulefinder
+	import win32com
+	for p in win32com.__path__[1:]:
+		modulefinder.AddPackagePath("win32com", p)
+	for extra in ["win32com.axcontrol"]:
+		__import__(extra)
+		m = sys.modules[extra]
+		for p in m.__path__[1:]:
+			modulefinder.AddPackagePath(extra, p)
+
+	import py2exe
+	has_py2exe = True
 
 #    origIsSystemDLL = py2exe.build_exe.isSystemDLL
 #    def isSystemDLL(pathname):
@@ -183,6 +197,7 @@ setup(name             = name,
                           'openerp-client.widget.view',
                           'openerp-client.widget.view.form_gtk',
                           'openerp-client.widget.view.form_gtk.wikimarkup',
+						  'openerp-client.widget.view.form_gtk.pygtkie',
                           'openerp-client.widget.view.tree_gtk',
                           'openerp-client.widget.view.graph_gtk',
                           'openerp-client.widget.view.calendar_gtk',

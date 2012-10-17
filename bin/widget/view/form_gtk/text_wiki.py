@@ -1,5 +1,17 @@
 # -*- coding: utf-8 -*-
 
+"""
+
+Requirements:
+	windows (IE):
+		pygtk 2.24.2 (2.24.0 has rendering issues)
+		IE 8 or greater (support for anything lower not implemented)
+			lower versions:
+				must use OnClick instead of OnBeforeNavigate2
+	other (linux):
+		pywebkitgtk
+"""
+
 import gtk
 
 import interface
@@ -8,8 +20,8 @@ import options
 
 import re
 import wikimarkup
-import webkit
 import os
+import sys
 import webbrowser
 import urlparse
 
@@ -197,11 +209,19 @@ class text_wiki(interface.widget_interface):
 		self.wiki_scroller.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
 		self.wiki_scroller.set_shadow_type(gtk.SHADOW_NONE)
 		self.wiki_scroller.set_size_request(-1, 80)
-		self.wiki_browser = webkit.WebView()
-		self.wiki_browser.connect('navigation-requested', lambda x,y,z: self._navigation_requested(x, y, z))
+		import sys
+		if sys.platform == 'win32':
+			from pygtkie import IEHtmlView
+			self.wiki_browser = IEHtmlView()
+			self.notebook.append_page(self.wiki_browser, self.wiki_label)
+			self.wiki_browser.show()
+		else:
+			import webkit
+			self.wiki_browser = webkit.WebView()
+			self.wiki_browser.connect('navigation-requested', lambda x,y,z: self._navigation_requested(x, y, z))
+			self.wiki_scroller.add(self.wiki_browser)
+			self.notebook.append_page(self.wiki_scroller, self.wiki_label)
 		#put web notebook page together
-		self.wiki_scroller.add(self.wiki_browser)
-		self.notebook.append_page(self.wiki_scroller, self.wiki_label)
 		
 		#setup edit view
 		self.edit_label = gtk.Label('Edit')
@@ -251,7 +271,11 @@ class text_wiki(interface.widget_interface):
 		with open(css_path) as f:
 			css_data = f.read()
 		html = '''<html><head><style type='text/css'>%s</style></head><body>%s</body></html>''' % (css_data, html)
-		self.wiki_browser.load_html_string(html, 'internal:///')
+		if sys.platform == 'win32':
+			print 'setting document'
+			self.wiki_browser.SetDocument(html)
+		else:
+			self.wiki_browser.load_html_string(html, 'internal:///')
 
 	def _navigation_requested(self, view, frame, networkRequest):
 		# get uri from request object
