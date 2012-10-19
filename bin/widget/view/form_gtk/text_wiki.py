@@ -7,7 +7,8 @@ Requirements:
 		pygtk 2.24.2 (2.24.0 has rendering issues)
 		IE 8 or greater (support for anything lower not implemented)
 			lower versions:
-				must use OnClick instead of OnBeforeNavigate2
+				-must use OnClick instead of OnBeforeNavigate2
+				-don't show embedded images
 	other (linux):
 		pywebkitgtk
 """
@@ -194,6 +195,49 @@ def wiki2html(text, showToc, id):
 	p = WikiParser(show_toc=showToc)
 	return p.parse(text, id)
 
+if sys.platform == 'win32':
+	from pygtkie import IEHtmlView, IEHtmlViewCallback
+	class IEWikiCallback(IEHtmlViewCallback):
+		""" IE wiki callback class
+		callbacks here for for both browser & document callbacks
+		(hence the name, IEHtmlViewCallback)
+		"""
+		def __init__(self, widget, *args, **kwargs):
+			""" expects a text_wiki widget to handle web requests """
+			self.widget = widget
+			return super(IEWikiCallback, self).__init__(*args, **kwargs)
+			
+		def OnBeforeNavigate(self, dest):
+			d = dest.split('#')	#people don't use #'s in file names; if they do, they shouldn't  :)
+			drive, tail = os.path.splitdrive(dest)
+			if len(d) and os.path.exists(d[0]):
+				return False	#continue w/ original navigation
+			elif os.path.exists(drive):
+				#this is an internal url
+				import base64
+				try:	#decode request
+					base, url_encoded = os.path.split(tail)
+					url_path = base64.b64decode(url_encoded)
+				except Exception as e:
+					print e
+					url_path = tail
+				parse_results = urlparse.ParseResult(scheme='internal', netloc='',
+					path=url_path, params='', query='', fragment='')
+				dest = urlparse.urlunparse(parse_results)
+			if self.widget:
+				url = urlparse.urlparse(dest)
+				#TODO: see if we need to turn the results into a bool value
+				#the browser seems to hide itself on new windows
+				return self.widget.navigation_requested(url)
+			return False	#continue w/ original navigation
+
+		def Ononfocusout(self, event, html_element):
+			self.widget._focus_out()
+			return True
+
+		def Ononfocusin(self, event, html_element):
+			#self.widget._focus_out()
+			return False
 
 class text_wiki(interface.widget_interface):
 	def __init__(self, window, parent, model, attrs={}, label=None):
@@ -213,12 +257,13 @@ class text_wiki(interface.widget_interface):
 		if sys.platform == 'win32':
 			from pygtkie import IEHtmlView
 			self.wiki_browser = IEHtmlView()
+			self.wiki_browser.setHtmlViewCallback(IEWikiCallback(self))
 			self.notebook.append_page(self.wiki_browser, self.wiki_label)
-			self.wiki_browser.show()
+			#self.wiki_browser.show()
 		else:
 			import webkit
 			self.wiki_browser = webkit.WebView()
-			self.wiki_browser.connect('navigation-requested', lambda x,y,z: self._navigation_requested(x, y, z))
+			self.wiki_browser.connect('navigation-requested', lambda x,y,z: self._webkit_navigation_requested(x, y, z))
 			self.wiki_scroller.add(self.wiki_browser)
 			self.notebook.append_page(self.wiki_scroller, self.wiki_label)
 		#put web notebook page together
@@ -231,6 +276,7 @@ class text_wiki(interface.widget_interface):
 		self.edit_scroller.set_size_request(-1, 80)
 
 		self.edit_tv = gtk.TextView()
+		self.edit_tv.set_property("can-focus", True)
 		self.edit_tv.set_wrap_mode(gtk.WRAP_WORD)
 		#add menu & focus handlers
 		self.edit_tv.connect('populate-popup', self._menu_open)
@@ -272,17 +318,35 @@ class text_wiki(interface.widget_interface):
 			css_data = f.read()
 		html = '''<html><head><style type='text/css'>%s</style></head><body>%s</body></html>''' % (css_data, html)
 		if sys.platform == 'win32':
-			print 'setting document'
+			#urlencode internal links
+			from lxml import etree
+			import base64
+			from StringIO import StringIO
+			html_parser = etree.HTMLParser()
+			dom = etree.parse(StringIO(html), html_parser)
+			for link in dom.findall(".//a"):
+				href = link.get("href", '')
+				if href.startswith('/') and '?' in href:
+					#this is an internal tag w/ parameters
+					#base64encode it (because ie's file:// can't handle parameters)
+					link.set('href', base64.b64encode(href))
+			html = etree.tostring(dom.getroot(), pretty_print=True, method='html')
 			self.wiki_browser.SetDocument(html)
+			self._focus_out()
 		else:
 			self.wiki_browser.load_html_string(html, 'internal:///')
+		
+		
 
-	def _navigation_requested(self, view, frame, networkRequest):
+	def _webkit_navigation_requested(self, view, frame, networkRequest):
 		# get uri from request object
 		uri=networkRequest.get_uri()
-		
+
 		# load the page
 		url = urlparse.urlparse(uri)
+		return self.navigation_requested(url)
+
+	def navigation_requested(self, url):
 		if url.scheme == 'internal':
 			url = urlparse.urlparse(url.path, scheme='http')
 			#parse internal; if nothing, load internally
@@ -369,7 +433,7 @@ class text_wiki(interface.widget_interface):
 
 			return 0	#ignore these; let them load internally
 		else:	#open in a web browser
-			webbrowser.open(uri)
+			webbrowser.open(urlparse.urlunparse(url))
 		return 1
 
 

@@ -81,7 +81,16 @@ class DocumentCB(mshtml.HTMLDocumentEvents2):
     def __init__(self, oobj):
         mshtml.HTMLDocumentEvents2.__init__(self, oobj)
         self.Document = oobj
-        self.htmlViewCallback = None  
+        self.htmlViewCallback = None
+
+    def generic_callback(self, cb_name, pEvtObj=defaultNamedNotOptArg):
+        if self.htmlViewCallback is None or not hasattr(self.htmlViewCallback, cb_name):
+            return True #continue like normal
+
+        html_element = None
+        if self.Document.parentWindow.event.srcElement is not None:
+            html_element = IEHtmlElement(self.Document.parentWindow.event.srcElement)
+        return getattr(self.htmlViewCallback, cb_name)(pEvtObj, html_element)
         
     def setHtmlViewCallback(self, callback):
         self.htmlViewCallback = callback
@@ -93,6 +102,7 @@ class DocumentCB(mshtml.HTMLDocumentEvents2):
         
     def Ononclick(self, pEvtObj=defaultNamedNotOptArg):
         print "Ononclick"
+        return self.generic_callback('Ononclick', pEvtObj)
 
     def Ononcontextmenu(self, pEvtObj=defaultNamedNotOptArg):
         if self.htmlViewCallback is None:
@@ -103,12 +113,15 @@ class DocumentCB(mshtml.HTMLDocumentEvents2):
         return self.htmlViewCallback.OnContextMenu(html_element)
     
     def Ononfocusout(self, pEvtObj=defaultNamedNotOptArg):
-        print "Ononfocusout"        
+        print "Ononfocusout"
+        return self.generic_callback('Ononfocusout', pEvtObj)
+	
     def Ononrowenter(self, pEvtObj=defaultNamedNotOptArg):
         print "Ononrowenter"   
     def Ononfocusin(self, pEvtObj=defaultNamedNotOptArg):
         print "Ononfocusin"   
-        
+        return self.generic_callback('Ononfocusin', pEvtObj)
+	 
     def Ononkeypress(self, pEvtObj=defaultNamedNotOptArg):
         print "onkeypress"                  
     def Ononkeyup(self, pEvtObj=defaultNamedNotOptArg):
@@ -132,17 +145,19 @@ class IEHtmlView(gtk.DrawingArea):
         self.set_property("can-focus", True)
         self.connect("focus", self.on_focus)
         
-        #self.connect("focus_in_event", self.fcs_i)
-        #self.connect("focus_out_event", self.fcs_i)        
+        self.connect("focus_in_event", self.fcs_i)
+        self.connect("focus_out_event", self.fcs_o)
         #self.connect("expose-event", self.fcs)
 
     def fcs_i(self, widget, direction, user_param1 = None, user_param2 = None):
         print "fcs_i"
                 
     def fcs_o(self, widget, direction, user_param1 = None, user_param2 = None):
-        print "fcs_o"          
+        print "fcs_o"
+        return False
 
     def on_focus(self, widget, direction, user_param1 = None, user_param2 = None):
+        print 'focusing'
         self.window.focus()      
 
         
@@ -259,16 +274,30 @@ class IEHtmlView(gtk.DrawingArea):
                     self.docEventSink.setHtmlViewCallback(self.callback)    
             
             #the stream method of loading seems to result in ValueErrors:
-			#  PyGStream::Read: returned data longer than expected
-			#followed by a pythoncom error:
-			#  Unexpected exception in gateway method 'Read'
-			#this happens when the string is of any significant (non-trivial) length
-			#stream.Load(util.wrap(DataIStream.DataIStream(content)))
-			#so, we're sticking to using document.open/write/close methods
+            #  PyGStream::Read: returned data longer than expected
+            #followed by a pythoncom error:
+            #  Unexpected exception in gateway method 'Read'
+            #this happens when the string is of any significant (non-trivial) length
+            #stream.Load(util.wrap(DataIStream.DataIStream(content)))
             #stream=self.browser2.Document._oleobj_.QueryInterface(pythoncom.IID_IPersistStreamInit)
-            self.browser2.Document.open()
-            self.browser2.Document.write(content)
-            self.browser2.Document.close()
+
+            #the open/write/close method doesn't work too well either,
+            # because anchors will be broken in this case
+            #self.browser2.Document.open()
+            #self.browser2.Document.write(content)
+            #self.browser2.Document.close()
+
+            #so, we create a tempfile that deletes on exit
+            import os, tempfile, atexit
+            def unlink_temp(f_name):
+                os.unlink(f_name)
+            fd, f_name = tempfile.mkstemp()
+            atexit.register(unlink_temp, f_name)
+            print f_name
+            f = os.fdopen(fd, "w+b")
+            f.write(content)
+            f.close()
+            self.Navigate2('file:///' + f_name)
             
     def GetDocument(self):
         if (self.browser2 is not None):

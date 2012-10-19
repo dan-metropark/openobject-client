@@ -326,6 +326,26 @@ class form(wid_int.wid_int):
             x[0].sig_activate(self.sig_activate)
         self.invisible_widgets = []
 
+        def make_clickable(widget):
+			try:
+				widget.set_property("can-focus", True)
+				widget.add_events(gtk.gdk.BUTTON_PRESS_MASK)
+				widget.connect("button_press_event", self.on_widget_click)
+				children = widget.get_children()
+			except Exception as e:
+				children = []
+			for child in children:
+				make_clickable(child)
+        make_clickable(self.widget)
+        for w in self.widgets:
+			make_clickable(w)
+
+    def on_widget_click(self, widget, data):
+		w = widget.get_parent_window()
+		# used on win32 platform because by default a gtk application does not grab control from native win32 control
+		w.focus()
+		widget.grab_focus()
+
     def xml_process(self,xml_arch):
         root = etree.fromstring(xml_arch)
         group =  etree.Element("group")
