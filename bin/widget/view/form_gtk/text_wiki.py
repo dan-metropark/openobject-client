@@ -240,40 +240,79 @@ if sys.platform == 'win32':
 			return False
 
 class text_wiki(interface.widget_interface):
+	
 	def __init__(self, window, parent, model, attrs={}, label=None):
 		interface.widget_interface.__init__(self, window, parent, model, attrs, label_ebox=label)
 
-		#setup notebook
-		self.widget = gtk.HBox(spacing=3)
-		self.notebook = gtk.Notebook()
+		#setup web label
+		orientation = attrs.get('orientation', 'horizontal')
+		if orientation == 'vertical':
+			self.wiki_label = gtk.HBox(homogeneous=False, spacing=0)
+		else:
+			self.wiki_label = gtk.VBox()
+		l = gtk.Label('<b>View/Preview</b>')
+		l.set_use_markup(True)
+		l.set_alignment(0.0, 0.5)
+		eb = gtk.EventBox()
+		eb.set_events(gtk.gdk.BUTTON_PRESS_MASK)
+		eb.add(l)
+		#container.trans_box_label.append((eb, text, None))
+		self.wiki_label.pack_start(eb)
+		if orientation == 'vertical':
+			vsep = gtk.VSeparator()
+			rowspan = int(attrs.get('rowspan', '1'))
+			vsep.set_size_request(1, 20*rowspan)
+			self.wiki_label.pack_start(vsep, False, False, 5)
+			xoptions = gtk.SHRINK
+		else:
+			xoptions = False
+			self.wiki_label.pack_start(gtk.HSeparator())
 		
 		#setup web view
-		self.wiki_label = gtk.Label('View/Preview')
 		self.wiki_scroller = gtk.ScrolledWindow()
 		self.wiki_scroller.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
 		self.wiki_scroller.set_shadow_type(gtk.SHADOW_NONE)
-		self.wiki_scroller.set_size_request(-1, 80)
+		#self.wiki_scroller.set_size_request(-1, 80)
 		import sys
 		if sys.platform == 'win32':
 			from pygtkie import IEHtmlView
 			self.wiki_browser = IEHtmlView()
 			self.wiki_browser.setHtmlViewCallback(IEWikiCallback(self))
-			self.notebook.append_page(self.wiki_browser, self.wiki_label)
-			#self.wiki_browser.show()
+			self.wiki_scroller.add_with_viewport(self.wiki_browser.widget)
 		else:
 			import webkit
 			self.wiki_browser = webkit.WebView()
 			self.wiki_browser.connect('navigation-requested', lambda x,y,z: self._webkit_navigation_requested(x, y, z))
 			self.wiki_scroller.add(self.wiki_browser)
-			self.notebook.append_page(self.wiki_scroller, self.wiki_label)
-		#put web notebook page together
-		
+
+		#setup edit label
+		orientation = attrs.get('orientation', 'horizontal')
+		if orientation == 'vertical':
+			self.edit_label = gtk.HBox(homogeneous=False, spacing=0)
+		else:
+			self.edit_label = gtk.VBox()
+		l = gtk.Label('<b>Edit</b>')
+		l.set_use_markup(True)
+		l.set_alignment(0.0, 0.5)
+		eb = gtk.EventBox()
+		eb.set_events(gtk.gdk.BUTTON_PRESS_MASK)
+		eb.add(l)
+		#container.trans_box_label.append((eb, text, None))
+		self.edit_label.pack_start(eb)
+		if orientation == 'vertical':
+			vsep = gtk.VSeparator()
+			rowspan = int(attrs.get('rowspan', '1'))
+			vsep.set_size_request(1, 20*rowspan)
+			self.edit_label.pack_start(vsep, False, False, 5)
+			xoptions = gtk.SHRINK
+		else:
+			xoptions = False
+			self.edit_label.pack_start(gtk.HSeparator())
 		#setup edit view
-		self.edit_label = gtk.Label('Edit')
 		self.edit_scroller = gtk.ScrolledWindow()
 		self.edit_scroller.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
-		self.edit_scroller.set_shadow_type(gtk.SHADOW_NONE)
-		self.edit_scroller.set_size_request(-1, 80)
+		#self.edit_scroller.set_shadow_type(gtk.SHADOW_NONE)
+		#self.edit_scroller.set_size_request(-1, 80)
 
 		self.edit_tv = gtk.TextView()
 		self.edit_tv.set_property("can-focus", True)
@@ -283,24 +322,35 @@ class text_wiki(interface.widget_interface):
 		self.edit_tv.set_accepts_tab(False)
 		self.edit_tv.connect('focus-out-event', lambda x,y: self._focus_out())
 		#detect & add spellcheck
-		if not attrs.get('readonly'):
-			if options.options['client.form_text_spellcheck']:
-				try:
-					import gtkspell
-					gtkspell.Spell(self.edit_tv).set_language(locale.getlocale()[0])
-				except:
-					# No word list may not be found for the language
-					pass
+		if options.options['client.form_text_spellcheck']:
+			try:
+				import gtkspell
+				gtkspell.Spell(self.edit_tv).set_language(locale.getlocale()[0])
+			except:
+				# No word list may not be found for the language
+				pass
 		#add view/preview update handler
-		b = self.wiki_browser
-		
 		self.edit_tv.connect('focus-out-event', lambda x, y: self.update_wiki_browser())
-		
-		#put edit notebook page together
 		self.edit_scroller.add(self.edit_tv)
-		self.notebook.append_page(self.edit_scroller, self.edit_label)
 
-		self.widget.pack_start(self.notebook)
+		#put it all together
+		self.widget = gtk.HBox()
+		self.wiki_fields = gtk.VBox(homogeneous=False, spacing=0)
+		self.wiki_fields.pack_start(self.wiki_label, expand=False, fill=False, padding=2)
+		self.wiki_fields.pack_start(self.wiki_scroller, expand=True, fill=True, padding=2)
+		
+		self.edit_fields = gtk.VBox(homogeneous=False, spacing=0)
+		self.edit_fields.pack_start(self.edit_label, expand=False, fill=False, padding=2)
+		self.edit_fields.pack_start(self.edit_scroller, expand=True, fill=True, padding=2)
+
+		#TODO: make some pretty labels, then show them off; they're hideous
+		self.widget.pack_start(self.wiki_fields, expand=True, fill=True, padding=2)
+		self.widget.pack_start(self.edit_fields, expand=True, fill=True, padding=2)
+
+		if attrs.get('readonly'):
+			self.wiki_label.hide()
+			self.edit_fields.hide()
+		
 		#show it all
 		self.widget.show_all()
 
@@ -440,6 +490,11 @@ class text_wiki(interface.widget_interface):
 	def _readonly_set(self, value):
 		interface.widget_interface._readonly_set(self, value)
 		self.edit_tv.set_editable(not value)
+		if value:	#it's read only
+			self.wiki_label.hide()
+			self.edit_fields.hide()
+		else:
+			self.widget.show_all()
 
 	def _color_widget(self):
 		return self.edit_tv

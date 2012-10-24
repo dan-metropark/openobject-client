@@ -96,12 +96,12 @@ class DocumentCB(mshtml.HTMLDocumentEvents2):
         self.htmlViewCallback = callback
                         
     def Ononmouseup(self, pEvtObj=defaultNamedNotOptArg):
-        print "Ononmouseup"
+        pass
+
     def Ononbeforeupdate(self, pEvtObj=defaultNamedNotOptArg):
-        print "Ononbeforeupdate"
+        pass
         
     def Ononclick(self, pEvtObj=defaultNamedNotOptArg):
-        print "Ononclick"
         return self.generic_callback('Ononclick', pEvtObj)
 
     def Ononcontextmenu(self, pEvtObj=defaultNamedNotOptArg):
@@ -113,27 +113,26 @@ class DocumentCB(mshtml.HTMLDocumentEvents2):
         return self.htmlViewCallback.OnContextMenu(html_element)
     
     def Ononfocusout(self, pEvtObj=defaultNamedNotOptArg):
-        print "Ononfocusout"
         return self.generic_callback('Ononfocusout', pEvtObj)
-	
+    
     def Ononrowenter(self, pEvtObj=defaultNamedNotOptArg):
-        print "Ononrowenter"   
+        pass
+
     def Ononfocusin(self, pEvtObj=defaultNamedNotOptArg):
-        print "Ononfocusin"   
         return self.generic_callback('Ononfocusin', pEvtObj)
-	 
+    
     def Ononkeypress(self, pEvtObj=defaultNamedNotOptArg):
-        print "onkeypress"                  
+        pass
+
     def Ononkeyup(self, pEvtObj=defaultNamedNotOptArg):
-        print "onkeyup"       
+        pass
+
     def Ononkeydown(self, pEvtObj=defaultNamedNotOptArg):
-        print "onkeydown"
+        pass
         
-                  
-        
-class IEHtmlView(gtk.DrawingArea):
+class IEHtmlBaseView(gtk.DrawingArea):
     def __init__(self):
-        gobject.type_register(IEHtmlView)
+        gobject.type_register(IEHtmlBaseView)
         gtk.Widget.__init__(self)
         self.ole_frame = None
         self.hwnd = None
@@ -147,18 +146,23 @@ class IEHtmlView(gtk.DrawingArea):
         
         self.connect("focus_in_event", self.fcs_i)
         self.connect("focus_out_event", self.fcs_o)
-        #self.connect("expose-event", self.fcs)
+        self.connect("expose-event", self.fcs)
 
+    def show(self):
+        self.window.show()
+
+    def fcs(self, widget, direction, user_param1 = None, user_param2 = None):
+        return False
+    
     def fcs_i(self, widget, direction, user_param1 = None, user_param2 = None):
-        print "fcs_i"
+        return False
                 
     def fcs_o(self, widget, direction, user_param1 = None, user_param2 = None):
-        print "fcs_o"
         return False
 
     def on_focus(self, widget, direction, user_param1 = None, user_param2 = None):
-        print 'focusing'
-        self.window.focus()      
+        self.window.focus()
+        return False   
 
         
                     
@@ -167,7 +171,6 @@ class IEHtmlView(gtk.DrawingArea):
         windowing resources.  We will create our gtk.gdk.Window.
         """
         self.set_flags(self.flags() | gtk.REALIZED)
-
         self.window = gdk.Window(
                 self.get_parent_window(),
                 width=self.allocation.width,
@@ -181,7 +184,7 @@ class IEHtmlView(gtk.DrawingArea):
                                              | gtk.gdk.FOCUS_CHANGE_MASK
                                              | gtk.gdk.POINTER_MOTION_MASK
                                              | gtk.gdk.POINTER_MOTION_HINT_MASK)
-
+        
         # Associate the gdk.Window with ourselves, Gtk+ needs a reference
         # between the widget and the gdk window
         self.window.set_user_data(self)
@@ -253,6 +256,8 @@ class IEHtmlView(gtk.DrawingArea):
             self.docEventSink.setHtmlViewCallback(callback)            
         
     def Navigate2(self, page):
+        self.page = page
+        #self.content = None
         self.browser2.Navigate2(page)
         
     def GoBack(self):
@@ -293,7 +298,6 @@ class IEHtmlView(gtk.DrawingArea):
                 os.unlink(f_name)
             fd, f_name = tempfile.mkstemp()
             atexit.register(unlink_temp, f_name)
-            print f_name
             f = os.fdopen(fd, "w+b")
             f.write(content)
             f.close()
@@ -305,6 +309,56 @@ class IEHtmlView(gtk.DrawingArea):
                 return IEHtmlDocument(self.browser2.Document )
         return None       
                          
+
+class IEHtmlView():
+    """ IEHtmlBaseView wrapper class, to handle exposure events that inherited gtk objects don't seem to get
+    NOTE: the widget must be added to other gtk objects via class's widget attribute
+    TODO: find a better way to do this, preferrably without a wrapper
+    """
+    def __init__(self):
+        self.widget = gtk.HBox()
+        self.ie = IEHtmlBaseView()
+        #self.widget.pack_start(self.ie, expand=True, fill=True, padding=0)
+        self.widget.add(self.ie)
+        self.widget.connect("expose-event", self.on_exposed_exposer)
+
+    def on_exposed_exposer(self, widget, direction, user_param1 = None, user_param2 = None):
+        self.ie.show()
+
+    def do_realize(self):
+        """Called when the widget should create all of its
+        windowing resources.  We will create our gtk.gdk.Window.
+        """
+        self.widget.do_realize(self)
+        self.ie.do_realize()
+        
+
+    def do_unrealize(self):
+        self.widget.do_unrealize(self)
+        self.ie.do_unrealize()
+
+    def do_size_allocate(self, allocation):
+        alloc = self.widget.get_allocation()
+        self.widget.do_size_allocate(self.widget, alloc)
+        return self.ie.do_size_allocate(allocation)
+
+    def setHtmlViewCallback(self, callback):
+        return self.ie.setHtmlViewCallback(callback)
+
+    def Navigate2(self, page):
+        return self.ie.Navigate2(page)
+
+    def GoBack(self):
+        return self.ie.GoBack()
+
+    def GoForward(self):
+        return self.ie.GoForward()
+
+    def SetDocument(self, content):
+        return self.ie.SetDocument(content)
+
+    def GetDocument(self):
+        return self.ie.GetDocument()
                                                                                             
 if __name__ == '__main__':   
     window = gtk.Window(gtk.WINDOW_TOPLEVEL)

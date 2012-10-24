@@ -28,6 +28,8 @@
 !include 'FileFunc.nsh'
 !include 'LogicLib.nsh'
 !include 'Sections.nsh'
+!include "nsProcess.nsh"
+!include "nsDialogs.nsh"
 
 !define PUBLISHER 'OpenERP S.A.'
 !ifndef MAJOR_VERSION
@@ -97,6 +99,44 @@ Var STARTMENU_FOLDER
 !define MUI_HEADERIMAGE_BITMAP ".\bin\pixmaps\openerp-slogan.bmp"
 !define MUI_HEADERIMAGE_BITMAP_NOSTRETCH
 !define MUI_HEADER_TRANSPARENT_TEXT ""
+
+Page custom detect_process kill_process
+
+ Function detect_process
+	${nsProcess::FindProcess} "openerp-client.exe" $R0
+	StrCmp $R0 0 continue abort
+	abort:
+		Abort
+	continue:
+	nsDialogs::Create 1018
+	${NSD_CreateLabel} 0 0 100% 12u "OpenERP already running.  Please save any existing work, then select Next to continue."
+	nsDialogs::Show
+ FunctionEnd
+ 
+ Function kill_process
+	${nsProcess::KillProcess} "openerp-client.exe" $R0
+ FunctionEnd
+ 
+Section "" sec_uninstall_previous
+	Call uninstall_previous
+SectionEnd
+
+Function uninstall_previous
+	;check for uninstaller
+	ReadRegStr $R0 HKLM "${UNINSTALL_REGISTRY_KEY}" "UninstallString"
+	
+	${If} $R0 == ""
+		Goto done
+	${EndIf}
+	
+	DetailPrint "Removing previous installation."
+	;run the uninstaller.  
+	;(using just /S for a silent uninstall in the end appears to leave things half installed)
+	ExecWait '"$R0" /S _?=$INSTDIR'
+	
+	done:
+FunctionEnd
+
 
 !insertmacro MUI_PAGE_WELCOME
 !insertmacro MUI_PAGE_LICENSE "doc\Licence.txt"
