@@ -81,7 +81,7 @@ class Screen(signal_event.signal_event):
         self.openerp_widgets = {'form':[ 'date','time','datetime','float','integer','selection','char','float_time',
                                         'boolean','button','reference','binary','picture','text','text_wiki','text_tag',
                                         'one2many','one2many_form','one2many_list','many2many','many2one','email','url',
-                                        'callto','sip','image','uri','progressbar'],
+                                        'callto','sip','image','uri','progressbar', 'html'],
                                 'tree':['char','many2one','date','one2many','many2many','selection','float','float_time','integer',
                                         'datetime','boolean','progressbar','button']}
         if not row_activate:

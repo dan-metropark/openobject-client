@@ -20,7 +20,6 @@ import locale
 import options
 
 import re
-import wikimarkup
 import os
 import sys
 import webbrowser
@@ -34,167 +33,6 @@ import base64
 import tempfile
 import printer
 
-#from openerp.widgets import register_widget
-#from openerp.widgets.form import Text
-
-_image = re.compile(r'img:(.*)\.(.*)', re.UNICODE)
-_rss = re.compile(r'rss:(.*)\.(.*)', re.UNICODE)
-_attach = re.compile(r'attach:(.*)\.(.*)', re.UNICODE)
-_internalLinks = re.compile(r'\[\[.*\]\]', re.UNICODE)
-_edit = re.compile(r'edit:(.*)\|(.*)', re.UNICODE)
-_view = re.compile(r'view:(.*)\|(.*)', re.UNICODE)
-
-class WikiParser(wikimarkup.Parser):
-	def parse(self, text, id):
-		text = text.replace('&nbsp;', 'n-b-s-p')
-		text = text.replace('&amp;', 'n-a-m-p')
-		text = text.replace('&','&amp;')
-		text = text.replace('n-b-s-p', '&nbsp;')
-		text = text.replace('n-a-m-p', '&amp;')
-		text = text.replace('<code>', '<pre>')
-		text = text.replace('</code>', '</pre>')
-
-		text = wikimarkup.to_unicode(text)
-		text = self.strip(text)
-
-		text = super(WikiParser, self).parse(text)
-		text = self.addImage(text, id)
-		text = self.attachDoc(text, id)
-		text = self.recordLink(text)
-		text = self.viewRecordLink(text)
-		text = self.addInternalLinks(text)
-		#TODO : already implemented but we will implement it later after releasing the 5.0
-		#text = self.addRss(text, id)
-		return text
-
-	def viewRecordLink(self, text):
-		def record(path):
-			record = path.group().replace('view:','').split("|")
-			model = record[0]
-			text = record[1].replace('\r','').strip()
-			label = "View Record"
-			if len(record) > 2:
-				label = record[2]
-			
-			proxy = rpc.RPCProxy(model)
-			ids = proxy.name_search(text, [], 'ilike', {})
-			if len(ids):
-				id = ids[0][0]
-			else:
-				try:
-					id = int(text)
-				except:
-					id = 0
-			return "[[/openerp/form/view?model=%s&amp;id=%d | %s]]" % (model, id, label)
-
-		bits = _view.sub(record, text)
-		return bits
-
-	def addRss(self, text, id):
-		def addrss(path):
-			rssurl = path.group().replace('rss:','')
-			import rss.feedparser as feedparser
-			data = feedparser.parse(rssurl)
-			values = "<h2>%s</h2><br/>" % (data.feed.title)
-			values += "%s<br/>" % (data.channel.description)
-			for entry in data['entries']:
-				values += "<h3><a href='%s'> %s </a></h3><br/>" % (entry.link, entry.title)
-				values += "%s <br/>" % (entry.summary)
-
-			return values
-
-		bits = _rss.sub(addrss, text)
-		return bits
-
-	def attachDoc(self, text, id):
-		#NOTE: id seems to be empty
-		#TODO: determine open/save, or trigger a dialog to ask whether to open/save
-		#refer: binary.py (widget/view/form_gtk)
-		def document(path):
-			file = path.group().replace('attach:','')
-			if file.startswith('http') or file.startswith('ftp'):
-				return "<a href='%s'>Download File</a>" % (file)
-			else:
-				proxy = rpc.RPCProxy('ir.attachment')
-				ids = proxy.search([('datas_fname','=',file.strip()), ('res_model','=','wiki.wiki')])
-				if len(ids) > 0:
-					return "<a href='/openerp/wiki/getfile?file=%s&amp;id=%d'>%s</a>" % (file, id, file)
-				else:	#ignore it; we don't know where it came from or whether whoever it is has privileges
-					#we could expand this later
-					return 'File not available: %s' % cgi.escape(file)
-		bits = _attach.sub(document, text)
-		return bits
-
-	def addImage(self, text, id):
-		#NOTE: id seems to be empty
-		def image(path):
-			file = path.group().replace('img:','')
-			if file.startswith('http') or file.startswith('ftp'):
-				return "<img src='%s'/>" % (file)
-			else:
-				#check if image is attached to wiki page
-				proxy = rpc.RPCProxy('ir.attachment')
-				ids = proxy.search([('datas_fname','=',file.strip()), ('res_model','=','wiki.wiki')])
-				if len(ids) > 0:	#add image
-					img_data = proxy.read(ids, ['datas', 'datas_fname', 'res_model', 'res_id'])[0]
-					img_type = os.path.splitext(img_data['datas_fname'])[1].strip('.')
-					return "<img src='data:image/%s;base64,%s'/>" % (img_type, img_data['datas'])
-				else:	#ignore it; we don't know where it came from or whether whoever it is has privileges
-					#we could expand this later
-					return 'Image not available: %s' % cgi.escape(file)
-		bits = _image.sub(image, text)
-		return bits
-
-	def recordLink(self, text):
-		def record(path):
-			record = path.group().replace('edit:','').split("|")
-			model = record[0]
-			text = record[1].replace('\r','').strip()
-			label = "Edit Record"
-			if len(record) > 2:
-				label = record[2]
-			proxy = rpc.RPCProxy(model)
-			ids = proxy.name_search(text, [], '=', {})
-			if len(ids):
-				id = ids[0][0]
-			else:
-				try:
-					id = int(text)
-				except:
-					id = 0
-			return "[[/openerp/form/edit?model=%s&amp;id=%d | %s]]" % (model, id, label)
-
-		bits = _edit.sub(record, text)
-		return bits
-
-	def addInternalLinks(self, text):
-		proxy = rpc.RPCProxy('wiki.wiki')
-
-		def link(path):
-			link = path.group().replace('[','').replace('[','').replace(']','').replace(']','').split("|")
-			name_to_search = link[0].strip()
-			mids = proxy.search([('name','ilike', name_to_search)])
-			link_str = ""
-			if mids:
-				if len(link) == 2:
-					link_str = "<a href='/openerp/form/view?model=wiki.wiki&amp;id=%s'>%s</a>" % (mids[0], link[1])
-				elif len(link) == 1:
-					link_str = "<a href='/openerp/form/view?model=wiki.wiki&amp;id=%s'>%s</a>" % (mids[0], link[0])
-			else:
-				if len(link) == 2:
-					link_str = "<a href='%s'>%s</a>" % (link[0], link[1])
-				elif len(link) == 1:
-					link_str = "<a href='/openerp/form/edit?model=wiki.wiki&amp;id=False'>%s</a>" % (link[0])
-
-			return link_str
-
-		bits = _internalLinks.sub(link, text)
-		return bits
-
-def wiki2html(text, showToc, id):
-	p = WikiParser(show_toc=showToc)
-	return p.parse(text, id)
-
 if sys.platform == 'win32':
 	from pygtkie import IEHtmlView, IEHtmlViewCallback
 	class IEWikiCallback(IEHtmlViewCallback):
@@ -203,7 +41,7 @@ if sys.platform == 'win32':
 		(hence the name, IEHtmlViewCallback)
 		"""
 		def __init__(self, widget, *args, **kwargs):
-			""" expects a text_wiki widget to handle web requests """
+			""" expects an html widget to handle web requests """
 			self.widget = widget
 			return super(IEWikiCallback, self).__init__(*args, **kwargs)
 			
@@ -238,7 +76,7 @@ if sys.platform == 'win32':
 			#self.widget._focus_out()
 			return False
 
-class text_wiki(interface.widget_interface):
+class html(interface.widget_interface):
 	
 	def __init__(self, window, parent, model, attrs={}, label=None):
 		interface.widget_interface.__init__(self, window, parent, model, attrs, label_ebox=label)
@@ -359,31 +197,33 @@ class text_wiki(interface.widget_interface):
 		iter_start = buffer.get_start_iter()
 		iter_end = buffer.get_end_iter()
 		data = buffer.get_text(iter_start, iter_end, False)
-		html = wiki2html(data, True, id)
+		html_data = data
 		#TODO: put the css on the server, and use it from there
 		dir_path = os.path.realpath("css")
 		css_path = os.path.join(common.terp_path('css/wiki.css'))
 		with open(css_path) as f:
 			css_data = f.read()
-		html = '''<html><head><style type='text/css'>%s</style></head><body>%s</body></html>''' % (css_data, html)
+		html_data = '''<html><head><style type='text/css'>%s</style></head><body>%s</body></html>''' % (css_data, html_data)
+		
+		#TODO: apply local css
 		if sys.platform == 'win32':
 			#urlencode internal links
 			from lxml import etree
 			import base64
 			from StringIO import StringIO
 			html_parser = etree.HTMLParser()
-			dom = etree.parse(StringIO(html), html_parser)
+			dom = etree.parse(StringIO(html_data), html_parser)
 			for link in dom.findall(".//a"):
 				href = link.get("href", '')
 				if href.startswith('/') and '?' in href:
 					#this is an internal tag w/ parameters
 					#base64encode it (because ie's file:// can't handle parameters)
 					link.set('href', base64.b64encode(href))
-			html = etree.tostring(dom.getroot(), pretty_print=True, method='html')
-			self.wiki_browser.SetDocument(html)
+			html_data = etree.tostring(dom.getroot(), pretty_print=True, method='html')
+			self.wiki_browser.SetDocument(html_data)
 			self._focus_out()
 		else:
-			self.wiki_browser.load_html_string(html, 'internal:///')
+			self.wiki_browser.load_html_string(html_data, 'internal:///')
 		
 		
 
@@ -403,14 +243,28 @@ class text_wiki(interface.widget_interface):
 			actions = [a for a in url.path.split('/') if a]
 			if actions and actions[0] == 'openerp':
 				#an internal action
-				if actions[1] == 'form' and actions[2] in ['view', 'edit']:
+				if actions[1] in ['form', 'tree'] and actions[2] in ['view', 'edit']:
 					#form view request
+					view_type = actions[1]
 					id = int(query.get('id', [0])[0])
+					#TODO: move name parsing server-side
+					name = query.get('name', [False])[0]
 					model = query.get('model', [''])[0]
+					if name:
+						#lookup id
+						proxy = rpc.RPCProxy(model)
+						ids = proxy.name_search(name, [], 'ilike', {})
+						if len(ids):
+							id = ids[0][0]
+						else:
+							try:
+								id = int(name)
+							except:
+								id = 0
 					if model:
 						action = {
 								'view_mode': 'form',
-								'view_type': 'form',
+								'view_type': view_type,
 								'res_model': model,
 								'type': 'ir.actions.act_window',
 								'nodestroy': True,
@@ -509,7 +363,7 @@ class text_wiki(interface.widget_interface):
 		model_field.set_client(model, current_text or False)
 
 	def display(self, model, model_field):
-		super(text_wiki, self).display(model, model_field)
+		super(html, self).display(model, model_field)
 		value = model_field and model_field.get(model)
 		if not value:
 			value=''

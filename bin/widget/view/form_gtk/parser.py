@@ -928,6 +928,7 @@ import binary
 import textbox
 import textbox_tag
 import text_wiki
+import html
 #import one2many
 import many2many
 import many2one
@@ -956,6 +957,7 @@ widgets_type = {
     'text': (textbox.textbox, 1, True, True),
     'text_wiki': (text_wiki.text_wiki, 1, True, True),
     'text_tag': (textbox_tag.textbox_tag, 1, True, True),
+    'html': (html.html, 1, True, True),
     'one2many': (one2many_list.one2many_list, 1, True, True),
     'one2many_form': (one2many_list.one2many_list, 1, True, True),
     'one2many_list': (one2many_list.one2many_list, 1, True, True),

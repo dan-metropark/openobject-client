@@ -24,6 +24,8 @@ import gtk
 import interface
 import locale
 import options
+import pango
+import ast	#requires python 2.6+
 
 
 class textbox(interface.widget_interface):
@@ -40,6 +42,20 @@ class textbox(interface.widget_interface):
         self.tv.connect('populate-popup', self._menu_open)
         self.tv.set_accepts_tab(False)
         self.tv.connect('focus-out-event', lambda x,y: self._focus_out())
+        
+        try:	#to get the font family, if one exists
+            attrs_string = attrs.get('attrs')
+            attrs_dict = ast.literal_eval(attrs_string)
+            font_family = attrs_dict.get('font-family')
+        except Exception as e:
+            font_family = False
+        
+        if font_family:
+            try:	#to set the font family
+                fontdesc = pango.FontDescription(font_family)
+                self.tv.modify_font(fontdesc)
+            except Exception as e:
+                pass
         if not attrs.get('readonly'):
             if options.options['client.form_text_spellcheck']:
                 try:
