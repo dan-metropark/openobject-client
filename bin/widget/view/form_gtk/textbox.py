@@ -45,8 +45,12 @@ class textbox(interface.widget_interface):
         
         try:	#to get the font family, if one exists
             attrs_string = attrs.get('attrs')
-            attrs_dict = ast.literal_eval(attrs_string)
+            attrs_dict = ast.literal_eval(attrs_string) if attrs_string else {}
             font_family = attrs_dict.get('font-family')
+            if not font_family:
+                ctx_string = attrs.get('context')
+                ctx_dict = ast.literal_eval(ctx_string)
+                font_family = ctx_dict.get('font-family')
         except Exception as e:
             font_family = False
         
