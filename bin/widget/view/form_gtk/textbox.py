@@ -96,9 +96,13 @@ class textbox(interface.widget_interface):
         if not value:
             value=''
         buffer = self.tv.get_buffer()
-        buffer.delete(buffer.get_start_iter(), buffer.get_end_iter())
         iter_start = buffer.get_start_iter()
-        buffer.insert(iter_start, value)
+        iter_end = buffer.get_end_iter()
+        current_text = buffer.get_text(iter_start,iter_end,False)
+        if current_text != value:
+            buffer.delete(iter_start, iter_end)
+            iter_start = buffer.get_start_iter()
+            buffer.insert(iter_start, value)
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 
