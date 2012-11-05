@@ -198,28 +198,27 @@ class html(interface.widget_interface):
 		iter_end = buffer.get_end_iter()
 		data = buffer.get_text(iter_start, iter_end, False)
 		html_data = data
-		#TODO: put the css on the server, and use it from there
-		dir_path = os.path.realpath("css")
-		css_path = os.path.join(common.terp_path('css/wiki.css'))
-		with open(css_path) as f:
-			css_data = f.read()
-		html_data = '''<html><head><style type='text/css'>%s</style></head><body>%s</body></html>''' % (css_data, html_data)
 		
-		#TODO: apply local css
 		if sys.platform == 'win32':
 			#urlencode internal links
+			import lxml
 			from lxml import etree
 			import base64
 			from StringIO import StringIO
-			html_parser = etree.HTMLParser()
-			dom = etree.parse(StringIO(html_data), html_parser)
-			for link in dom.findall(".//a"):
-				href = link.get("href", '')
-				if href.startswith('/') and '?' in href:
-					#this is an internal tag w/ parameters
-					#base64encode it (because ie's file:// can't handle parameters)
-					link.set('href', base64.b64encode(href))
-			html_data = etree.tostring(dom.getroot(), pretty_print=True, method='html')
+			try:
+				html_parser = etree.HTMLParser()
+				dom = etree.parse(StringIO(html_data), html_parser)
+				for link in dom.findall(".//a"):
+					href = link.get("href", '')
+					if href.startswith('/') and '?' in href:
+						#this is an internal tag w/ parameters
+						#base64encode it (because ie's file:// can't handle parameters)
+						link.set('href', base64.b64encode(href))
+				html_data = etree.tostring(dom.getroot(), pretty_print=True, method='html')
+			except lxml.etree.XMLSyntaxError as e:
+				#poorly formated / empty; create a basic filler (so it doesn't trigger an file download)
+				html_data = '<html><head></head><body></body></html>'
+				pass
 			self.wiki_browser.SetDocument(html_data)
 			self._focus_out()
 		else:
