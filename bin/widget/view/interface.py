@@ -21,6 +21,30 @@
 
 
 import service
+import gtk
+
+class FullscreenMonitor(object):
+    """ monitors window fullscreen events """
+    def __init__(self, window):
+        self.window = window
+        self.window_is_fullscreen = False
+        self.window_state = False
+        self.window.connect_object('window-state-event',
+            FullscreenMonitor.on_window_state_change,
+            self
+        )
+
+    def on_window_state_change(self, event):
+        self.window_state = event.new_window_state
+        self.window_is_fullscreen = bool(
+            gtk.gdk.WINDOW_STATE_FULLSCREEN & event.new_window_state)
+
+        state = event.new_window_state
+        max_mask = gtk.gdk.WINDOW_STATE_MAXIMIZED
+        full_mask = gtk.gdk.WINDOW_STATE_FULLSCREEN
+        fullscreen = full_mask & state == full_mask
+        maximized = max_mask & state == max_mask
+        return False
 
 class parser_interface(object):
     def __init__(self, window=None, parent=None, attrs={}, screen=None):
@@ -33,6 +57,7 @@ class parser_interface(object):
         self.buttons = {}
         self.screen = screen
         self.field_list = {}
+        window.fsm = FullscreenMonitor(window)
 
 class parser_view(object):
     def __init__(self, window, screen, widget, children=None, state_aware_widgets=None, toolbar=None, submenu=None):
@@ -42,6 +67,7 @@ class parser_view(object):
         self.screen = screen
         self.widget = widget
         self.state_aware_widgets = state_aware_widgets or []
+        window.fsm = FullscreenMonitor(window)
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 

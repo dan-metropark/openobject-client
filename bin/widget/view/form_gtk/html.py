@@ -33,6 +33,8 @@ import base64
 import tempfile
 import printer
 
+registered_widgets = []
+
 if sys.platform == 'win32':
 	from pygtkie import IEHtmlView, IEHtmlViewCallback
 	class IEWikiCallback(IEHtmlViewCallback):
@@ -80,6 +82,7 @@ class html(interface.widget_interface):
 	
 	def __init__(self, window, parent, model, attrs={}, label=None):
 		interface.widget_interface.__init__(self, window, parent, model, attrs, label_ebox=label)
+		registered_widgets.append(self)
 
 		#setup web label
 		orientation = attrs.get('orientation', 'horizontal')
@@ -372,5 +375,12 @@ class html(interface.widget_interface):
 		id = False
 		buffer.insert(iter_start, value)
 		self.update_wiki_browser()
+
+	def destroy(self):
+		#unregister this widget
+		try:
+			registered_widgets.remove(self)
+		except Exception as e:
+			pass
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

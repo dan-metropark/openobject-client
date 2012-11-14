@@ -34,6 +34,9 @@ from graph import ViewGraph
 from calendar import ViewCalendar
 from diagram import ViewDiagram
 
+import sys
+import form_gtk.html as html
+
 parsers = {
     'form' : (form_gtk.parser_form, ViewForm),
     'tree' : (tree_gtk.parser_tree, ViewList),
@@ -43,11 +46,36 @@ parsers = {
 }
 
 class widget_parse(interface.parser_interface):
-	def on_widget_click(self, widget, data):
+	def on_widget_click(self, widget, event, window):
+		if not len(html.registered_widgets):
+			return False	#continue; we don't need to go through all of this
+		
 		w = widget.get_parent_window()
 		# used on win32 platform because by default a gtk application does not grab control from native win32 control
-		w.focus()
-		widget.grab_focus()
+		if not widget.has_focus():
+			#get current state
+			#state = w.get_state()	#this should tell us what we want, but it doesn't
+			try:
+				#we must rely on a state event monitor,
+				# which may not even be the same window as the parent window
+				state = window.fsm.window_state
+				max_mask = gtk.gdk.WINDOW_STATE_MAXIMIZED
+				full_mask = gtk.gdk.WINDOW_STATE_FULLSCREEN
+				fullscreen = full_mask & state == full_mask
+				maximized = max_mask & state == max_mask
+			except Exception as e:
+				fullscreen = False
+				maximized = False
+
+			#focus on window while retaining window state
+			w.focus()
+			#TODO: figure out a better way to resolve this
+			if fullscreen:
+				w.fullscreen()
+			elif maximized:
+				w.maximize()
+			#focus on widget
+			widget.grab_focus()
         
 	def parse(self, screen, node, fields, toolbar={}, submenu={}, name=False, help={}):
 		if node is not None:
@@ -60,7 +88,7 @@ class widget_parse(interface.parser_interface):
 				try:
 					widget.set_property("can-focus", True)
 					widget.add_events(gtk.gdk.BUTTON_PRESS_MASK)
-					widget.connect("button_press_event", self.on_widget_click)
+					widget.connect("button_press_event", self.on_widget_click, self.window)
 					children = widget.get_children()
 				except Exception as e:
 					children = []
@@ -68,13 +96,15 @@ class widget_parse(interface.parser_interface):
 					make_clickable(child)
 			
 			wid, child, buttons, on_write = widget.parse(screen.resource, node, fields)
-			for name, w in child.iteritems():
-				try:
-					make_clickable(w.widget)
-				except AttributeError as e:
-					#the 'hours' field in tasks returns a tuple; not an object containing a widget...
-					#TODO: do something about that (if it poses a problem)
-					pass
+			if sys.platform == 'win32':
+				#only go through this rigamarole on windows machines; it's not needed elsewhere
+				for name, w in child.iteritems():
+					try:
+						make_clickable(w.widget)
+					except AttributeError as e:
+						#the 'hours' field in tasks returns a tuple; not an object containing a widget...
+						#TODO: do something about that (if it poses a problem)
+						pass
 			duplicated_fields = []
 			[duplicated_fields.append(field) for field, count in widget.field_list.iteritems() if count>1]
 			if duplicated_fields:
